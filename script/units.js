@@ -3,7 +3,7 @@ var units = {
 
     // Load army special rules
     loadSpecialRules: function () {
-        return $.getJSON("lists/specialRules.json").then(function (data) {
+        return $.getJSON("lists_de/specialRules.json").then(function (data) {
             specialRules = {};
 
             data.rules.forEach(function (rule) {
@@ -16,7 +16,7 @@ var units = {
 
     // Load weapons & weapon rules
     loadWeapons: function () {
-        return $.getJSON("lists/weapons.json").then(function (data) {
+        return $.getJSON("lists_de/weapons.json").then(function (data) {
             rules = {};
             weapons = {};
 
@@ -84,7 +84,7 @@ var units = {
         }
 
         data.units.forEach(function (unitSection) {
-            $.ajax("lists/" + unitSection.from, {
+            $.ajax("lists_de/" + unitSection.from, {
                 async: false,
                 success: function (units) {
                     units.forEach(function (section) {

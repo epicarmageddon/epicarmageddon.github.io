@@ -1,0 +1,244 @@
+{
+  "fraction": "Eldar",
+  "army": "Weltenschiff Yme-Loc",
+  "version": "Alpha 0.6.1",
+  "release": "2022-04-01",
+  "strategy": "Eldar-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Aspektkriegerformationen, Titanen und der Avatar haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Avatar (Yme-Loc)",
+    "Darf keine Garnison bilden (Yme-Loc)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Netzportal",
+    "Großes Netzportal"
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Knochensänger",
+        "Avatar des Khaine",
+        "Eldar-Exarch",
+        "Eldar-Runenprophet",
+        "Eldar-Gardisten",
+        "Eldar-Schwerwaffenplattform",
+        "Asuryans Jäger",
+        "Feuerdrachen",
+        "Schwarze Khaindar",
+        "Banshees",
+        "Skorpionkrieger",
+        "Kriegsfalken",
+        "Viper",
+        "Hornet",
+        "Wellenschlange",
+        "Falcon",
+        "Illum Zar",
+        "Nachtspinne",
+        "Feuersturm",
+        "Warpjäger",
+        "Luchs",
+        "Skorpion",
+        "Kobra",
+        "Sturmserpent",
+        "Phantom-Titan",
+        "Phantomtitan",
+        "Runenleser-Titan"
+      ],
+      "unitRules": [
+          "Holofelder (x)",
+          "Lanze",
+          "Schildbohrer",
+          "Schildbrecher"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschwinge-Abfangjäger",
+        "Phönix-Bomber (B)",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Yme-Loc-Spezialregeln",
+      "formations": [
+        {
+          "name": "1 Avatar",
+          "units": "Ein Avatar",
+          "points": 0
+        },
+        {
+          "name": "0–1 Tor von Vaul",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Tor von Vaul. Dieses zählt als Zielmarker und großes Netzportal und kann weder angegriffen noch auf irgendeine Weise beschädigt werden. ",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "name": "Yme-Loc-Kriegsscharn von Vaul",
+      "formations": [
+        {
+          "name": "Kriegsmaschinen von Vaul",
+          "units": "Ein Kriegsmaschine von Vaul aus folgender Auswahl: Kobra, Skorpion, Sturmserpent",
+          "extraUnits": [
+            "Füge bis zu zwei zusätzliche Kriegsmaschinen von Vaul hinzu: 200 Punkte pro Stück.",
+            "Knochensänger"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Schwerter von Vaul",
+          "units": "Sechs Falcons",
+          "extraUnits": [
+            "Ersetze bis zu zwei Falcons durch Feuerstürme: kostenlos",
+            "Füge sechs Gardisten zur Verband hinzu: 100 Punkte"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Yme-Loc-Verbände",
+      "description": "Für jede Yme-Loc-Kriegsschar von Vaul dürfen bis zu zwei Yme-Loc-Verbände gewählt werden.",
+      "formations": [
+        {
+          "name": "Berittener Aspektkriegertrupp",
+          "units": "Drei Wellenschlangen und sechs Aspektkrieger-Einheiten aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Skorpionkrieger, Kriegsfalken",
+          "extraUnits": [
+            "Exarch"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Berittener Gardistentrupp",
+          "units": "Zwei Wellenschlangen, zwei Falcons, ein Runenprophet, fünf Gardisten",
+          "extraUnits": [
+            "Schwere Waffen"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Luchs-Trupp",
+          "units": "Zwei Luchse",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Windreiter-Truppe",
+          "units": "Sechs Viper",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Illum-Zar-Trupp",
+          "units": "Drei Illum Zars",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Feuerwirbler-Trupp",
+          "units": "Drei Nachtspinnen, ein Feuersturm",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Warpjägertrupp",
+          "units": "Drei Warpjäger",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Hornissen-Trupp",
+          "units": "Vier Hornets",
+          "extraUnits": [
+            "Füge bis zu zwei Hornets hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Yme-Loc-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden..",
+      "formations": [
+        {
+          "name": "Nachtschwingen-Staffel",
+          "units": "Zwei Nachtschwingen-Abfangjäger",
+          "extraUnits": [
+            "Füge 1 Nachtschwinge-Abfangjäger hinzu: 75 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phönix-Bomberstaffel",
+          "units": "Drei Phönix-Bomber (B)",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Phantom-Titanen",
+          "units": "Zwei Phantom-Titanen",
+          "extraUnits": [
+          ],
+          "points": 650
+        },
+        {
+          "name": "Phantom",
+          "units": "Ein Phantomtitan",
+          "extraUnits": [
+            "Knochensänger"
+          ],
+          "points": 700
+        },
+        {
+          "name": "0–1 Runenleser-Titan",
+          "units": "Ein Runenleser-Titan",
+          "extraUnits": [
+          ],
+          "points": 850
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 125 Punkte"
+          ],
+          "points": 175
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen von Yme-Loc",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Exarch",
+        "description": "Füge 1 Eldar-Exarch zu einer Aspektkrieger-Einheit hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Schwere Waffen",
+        "description": "Ersetze bis zu drei Eldar-Gardisten durch Eldar-Schwerwaffenplattformen",
+        "points": "kostenlos"
+      },
+      {
+        "name": "0–1 Knochensänger",
+        "description": "Füge einer Kriegsmaschinen-Einheit im Verband einen Knochensänger hinzu.",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

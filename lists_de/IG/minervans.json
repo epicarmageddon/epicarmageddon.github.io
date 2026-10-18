@@ -1,0 +1,248 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Minervanische Panzerlegion",
+  "version": "1.0.Beta-2",
+  "release": "2022-09-29",
+  "armyforge": "EAR_ImperialGuard_Minervans",
+  "strategy": "Minervanische Panzerlegion-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Mut, Disziplin und Loyalität"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Lord-Kommissar",
+        "Kommissarkapitän",
+        "Chimäre",
+        "Infanterie",
+        "Todesstoß",
+        "Höllenhund",
+        "Salamander-Spähpanzer",
+        "Basilisk",
+        "Bombarde",
+        "Mantikor",
+        "Greif",
+        "Medusa",
+        "Hydra",
+        "Leman Russ Kampfpanzer",
+        "Leman Russ Thunderer",
+        "Leman Russ Vanquisher",
+        "Leman Russ Conqueror",
+        "Leman Russ Punisher",
+        "Leman-Russ-Zerstörer",
+        "Leman-Russ-Belagerungspanzer",
+        "Leman-Russ-Henker",
+        "Leman Russ Exterminator",
+        "Shadowsword",
+        "Baneblade",
+        "Stormblade",
+        "Stormsword",
+        "Stormhammer"
+      ],
+      "unitRules": [
+        "Lanze"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Warhound"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Donnerkeil-Jäger",
+        "Marauder-Bomber (B)",
+        "Kreuzer der Lunar-Klasse",
+        "Schlachtschiff der Emperor-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Minervan Kompanie Verbände",
+      "formations": [
+        {
+          "name": "Minervanische Panzerkompanie",
+          "units": "Ein Leman Russ Vanquisher mit einem Kommissar-Captain, sieben Leman Russ",
+          "extraUnits": [
+            "Ersetze sieben Leman Russ durch sieben Leman Russ Thunderers: kostenlos",
+            "Ersetze den Leman Russ Vanquisher durch ein Leman Russ Thunderer: kostenlos",
+            "Oberbefehlshaber",
+            "Flak",
+            "Höllenhunde"
+          ],
+          "points": 500
+        },
+        {
+          "name": "Minervanische Superschwere Panzerkompanie",
+          "units": "Drei Baneblades, Stormblades, Stormswords, und/oder Shadowswords, ein mit einem Kommissar-Captain",
+          "extraUnits": [
+            "Werte 1 Baneblade zu einem Stormhammer: 25 Punkte auf",
+            "Oberbefehlshaber",
+            "Flak",
+            "Leman Russ Kampfpanzer"
+          ],
+          "points": 500
+        },
+        {
+          "name": "Artilleriekompanie",
+          "units": "Sechs Basilisken, ein mit einem Kommissar-Captain",
+          "extraUnits": [
+            "Ersetze 6 Basilisken durch 6 Mantikors: 50 Punkte",
+            "Oberbefehlshaber",
+            "Flak"
+          ],
+          "points": 400
+        }
+      ]
+    },
+    {
+      "name": "Minervan Unterstützungsverbände",
+      "description": "Pro Minervan-Kompanie dürfen bis zu drei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Leman-Russ-Staffel",
+          "units": "Vier Leman Russ",
+          "extraUnits": [
+            "Ersetze 4 Leman Russ durch 4 Leman Russ Executioners, 4 Leman Russ Exterminators, 4 Leman Russ Demolishers, 4 Leman Russ Punishers, 4 Leman Russ Thunderers, oder 4 Leman Russ Conquerors",
+            "Höllenhunde",
+            "Flak"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Mechanisierter Infanteriezug",
+          "units": "Sechs Infanterie (INF) und drei Chimären",
+          "extraUnits": [
+            "Höllenhunde",
+            "Leman Russ Kampfpanzer"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Artilleriebatterie",
+          "units": "Drei Basilisken, drei Bombarden oder vier Medusa",
+          "extraUnits": [
+            "Ersetze 3 Basilisken durch 3 Mantikors: 25 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Greif-Batterie",
+          "units": "Drei Greifs",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Panzerjäger-Schwadron",
+          "units": "Drei Leman Russ Destruktoren",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Superschwerer Panzerzug",
+          "units": "Ein Baneblade, Stormsword, Shadowsword, oder Stormblade",
+          "extraUnits": [
+              "Ersetze 1 Baneblade durch ein Shadowsword: 25 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Todesstoß-Batterie",
+          "units": "Zwei Todesstoß-Raketensilos",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Flakbatterie",
+          "units": "Drei Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Salamander-Staffel",
+          "units": "Vier Salamander-Aufklärungspanzer",
+          "extraUnits": [
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Collegia-Titanica- und Imperial-Flottenverbände",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für Collegia Titanica und der Imperiale Flotte Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Warhounds",
+          "units": "Ein Warhound-Titan",
+          "extraUnits": [
+            "Füge 1 zusätzlichen Warhound-Titan hinzu: 200 Punkte"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Donnerkeil-Staffel",
+          "units": "Zwei Donnerkeil-Jägers",
+          "points": 175
+        },
+        {
+          "name": "Marauder-Staffel",
+          "units": "Zwei Marauder-Bomber (B)",
+          "points": 250
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein Kreuzer der Lunar-Klasse",
+          "points": 125,
+          "extraUnits": [
+            "Ersetze den Kreuzer der Lunar-Klasse durch ein Schlachtschiff der Emperor-Klasse: 50 Punkte"
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Minervanische Panzerlegion Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Ersetze einen Kommissarkapitän der Armee durch einen Lord-Kommissar.",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Greifs",
+        "description": "Füge 3 Greifs hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Leman Russ Kampfpanzer",
+        "description": "Füge 3 Leman Russ, Leman Russ Executioners, Leman Russ Exterminators, Leman Russ Demolishers, Leman Russ Punishers, Leman Russ Thunderers, oder Leman Russ Conquerors hinzu",
+        "points": "150 Punkte"
+      },
+      {
+        "name": "Höllenhunde",
+        "description": "Füge bis zu 3 Höllenhunde hinzu",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Flak",
+        "description": "Füge 1 Hydra hinzu",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

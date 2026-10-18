@@ -1,0 +1,245 @@
+{
+  "fraction": "Dunkler Mechanicus",
+  "army": "Verräter-Titanenlegion",
+  "version": "0.8.0",
+  "release": "2022-04-01",
+  "strategy": "Armeen des Dunklen Mechanicus haben einen Strategiewert von 3.",
+  "Initiative": "Alle Kampftitan- und Chaos-Warhound-Verbände haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "TTL Ewige Feindschaft"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee der Verräter-Titanenlegionen mit Unterstützung des Dunklen Mechanicus aufstellen."
+  ],
+  "units": [
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Lasterbringer-Titan",
+        "Finsternisbringer-Titan",
+        "Zwistbringer-Titan",
+        "Wandelbringer-Titan",
+        "Schmerzensfürst-Titan",
+        "Seuchenfürst-Titan",
+        "Verderbensfürst-Titan",
+        "Warp-Fürst-Titan",
+        "Reviler-Titan",
+        "Abscheulicher Titan",
+        "Verwüster-Titan",
+        "Mutator-Titan",
+        "Seuchenhund",
+        "Bluthund",
+        "Warp-Hound",
+        "Chaos-Warhound"
+      ],
+      "unitRules": [
+        "Null-Schilde",
+        "Göttermaschine",
+        "Geteiltes Feuer",
+        "Schildbohrer"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Cerberit",
+        "Schlächterbestie",
+        "Schmiedebestie",
+        "Questor",
+        "Unterwerfer",
+        "Entwürdiger",
+        "Schänder",
+        "Schlachtbestie",
+        "Täuscher",
+        "Geißel",
+        "Höllenschmied",
+        "Chaoszwerge",
+        "Chaos Rhino"
+      ],
+      "unitRules": [
+        "Dämonenmaschine (x)"
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllendrache",
+        "Harbringer-Bomber (B)",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kampftitan-Verbände",
+      "description": "Die Armee darf keine Verbände des Nurgle und Tzeentch oder des Slaanesh und Khorne miteinander kombinieren.",
+      "formations": [
+        {
+          "name": "0–1 Chaos-Imperator-Titan",
+          "units": "Ein Chaos-Imperator-Titan*",
+          "extraUnits": [
+            "Auge der Götter",
+            "Chaos-Herolde"
+          ],
+          "points": 900,
+          "notes": "* Wähle eines: Lasterbringer-Titan des Slaanesh, Finsternisbringer-Titan des Nurgle, Zwistbringer-Titan des Khorne oder Wandelbringer-Titan des Tzeentch"
+        },
+        {
+          "name": "Chaos-Warlord-Titan",
+          "units": "Ein Chaos-Warlord-Titan*",
+          "extraUnits": [
+            "Auge der Götter",
+            "Chaos-Herolde"
+          ],
+          "points": 750,
+          "notes": "* Wähle eines: Schmerzensfürst-Titan des Slaanesh, Seuchenfürst-Titan des Nurgle, Verderbensfürst-Titan des Khorne oder Warp-Fürst-Titan des Tzeentch"
+        },
+        {
+          "name": "Chaos-Reaver-Titan",
+          "units": "Ein Chaos Reaver-Titan*",
+          "extraUnits": [
+            "Chaos-Herolde"
+          ],
+          "points": 600,
+          "notes": "* Wähle eines: Reviler-Titan des Slaanesh, Abscheulicher Titan des Nurgle, Verwüster-Titan des Khorne oder Mutator-Titan des Tzeentch"
+        }
+      ]
+    },
+    {
+      "name": "Unterstützungsformationen",
+      "description": "Für jeden Kampftitan dürfen bis zu vier Unterstützungsformationen gewählt werden. Die Armee darf keine Verbände des Nurgle und Tzeentch oder des Slaanesh und Khorne miteinander kombinieren.",
+      "formations": [
+        {
+          "name": "Chaos-Warhound",
+          "units": "Ein Chaos Warhound*",
+          "extraUnits": [
+            "Füge 1 Chaos Warhound desselben Typs hinzu: 200 Punkte",
+            "Chaos-Herolde"
+          ],
+          "points": 275,
+          "notes": "* Wähle eines: Seuchenhund des Nurgle, Bluthund des Khorne, Warp-Hound des Tzeentch oder Chaos-Warhound des Ungeteilten Chaos"
+        },
+        {
+          "name": "Slaanesh-Spähtitan",
+          "units": "Ein Slaanesh-Spähtitan*",
+          "extraUnits": [
+            "Füge 1 Slaanesh Scout Titan desselben Typs hinzu: 200 Punkte",
+            "Chaos-Herolde"
+          ],
+          "points": 275,
+          "notes": "* Wähle eines: Subjugator des Slaanesh oder Questor des Slaanesh"
+        },
+        {
+          "name": "Entwürdiger des Slaanesh",
+          "units": "Vier Entwürdiger des Slaanesh",
+          "extraUnits": [
+            "Füge einen zusätzlichen Entwürdiger hinzu: 50 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Schlachtbestien des Khorne",
+          "units": "Vier Schlachtbestien des Khorne",
+          "extraUnits": [
+            "Füge eine zusätzliche Schlachtbestie hinzu: 50 Punkte"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Entweiher des Nurgle",
+          "units": "Vier Entweiher des Nurgle",
+          "extraUnits": [
+            "Füge einen zusätzlichen Entweiher hinzu: 50 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Täuscher des Tzeentch",
+          "units": "Drei Täuscher des Tzeentch",
+          "extraUnits": [
+            "Füge einen zusätzlichen Täuscher hinzu: 50 Punkte"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Cerberiten des Ungeteilten Chaos",
+          "units": "Drei Cerberiten",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Schlächterbestien des Ungeteilten Chaos",
+          "units": "Vier Schlächterbestien",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Schmiedebestien des Ungeteilten Chaos",
+          "units": "Drei Schmiedebestien",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Verwüster des Ungeteilten Chaos",
+          "units": "Vier Verwüster des Ungeteilten Chaos",
+          "extraUnits": [
+            "Füge einen zusätzlichen Verwüster hinzu: 50 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Höllenschmiede-Manipel",
+          "units": "Ein Höllenschmied, elf Chaoszwerge",
+          "extraUnits": [
+            "Füge sechs Chaos-Rhinos hinzu: 50 Punkte"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Chaosflotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Höllendrachen",
+          "units": "Zwei Höllendrachen",
+          "points": 225
+        },
+        {
+          "name": "Harbringer",
+          "units": "Ein Harbringer-Bomber (B)",
+          "points": 300
+        },
+        {
+          "name": "0–1 Chaos-Schlachtschiff",
+          "units": "Ein Schlachtschiff der Despoiler-Klasse",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Verräter-Titanenlegion",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Auge der Götter",
+        "description": "Der Verband erhält die Sonderregel 'Oberbefehlshaber'.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Chaos-Herolde",
+        "description": "Der Verband erhält die Sonderregel „Anführer“. Darf nicht mit Auge der Götter kombiniert werden.",
+        "points": "25 Punkte"
+      }
+    ]
+  }
+}

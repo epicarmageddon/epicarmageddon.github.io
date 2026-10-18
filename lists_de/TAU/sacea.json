@@ -1,0 +1,313 @@
+{
+  "fraction": "Tau",
+  "army": "Sa'cea",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Tau_SaCea",
+  "intro": "Mit dem Sa'cea-Tau-Armeeorganisationsplan kannst du eine Tau-Armee des Sa'cea-Septums aufstellen.",
+  "strategy": "Tau-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "XV8-Krisis-Kampfanzug- und Manta-Verbände haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Angriffsdrohnen des Tigerhais"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee der Welt Sa'cea des Tau-Imperiums aufstellen."
+  ],
+  "units": [
+    {
+      "from": "TAU.json",
+      "units": [
+        "Himmlischer",
+        "Shas'o",
+        "Shas'el",
+        "XV8 Krisis-Kampfanzüge",
+        "Feuerkrieger",
+        "Angriffsdrohnen",
+        "Kroot-Hunde",
+        "Kroot-Söldner-Meisterweiser",
+        "Kroot-Söldner-Krieger",
+        "Krootox",
+        "Späher",
+        "XV15 Geist-Kampfanzüge",
+        "XV88 Koloss-Kampfanzug",
+        "Piranha",
+        "Tetra",
+        "Teufelsrochen",
+        "Ionen-Hammerhai",
+        "Massebeschleuniger-Hammerhai",
+        "Fusions-Hammerhai",
+        "Dornenhai",
+        "Manta"
+      ],
+      "unitRules": [
+        "Koordinierter Beschuss",
+        "Himmlischer",
+        "Gelenkte Raketen",
+        "Zielmarker",
+        "Tau-Sprungmodule",
+        "Ablenkschild"
+      ]
+    },
+    {
+      "from": "tauNavy.json",
+      "units": [
+        "Barracuda",
+        "Schwertfisch-Jagdbomber",
+        "Schwertfisch AX-1-0",
+        "Orca",
+        "Schlachtschiff der Custodian-Klasse",
+        "Kreuzer der Protector-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Sa'cea-Kader",
+      "formations": [
+        {
+          "name": "XV8-Krisis-Kampfanzug-Kader",
+          "units": "Ein Shas'el und vier XV8-Krisis-Kampfanzüge",
+          "extraUnits": [
+            "Angriffsdrohnen",
+            "Shas'o",
+            "Krisis-Kampfanzüge"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Feuerkrieger-Angriffsformation",
+          "units": "Acht Feuerkrieger, oder sechs Feuerkrieger und drei Teufelsrochen.",
+          "extraUnits": [
+            "Koloss-Kampfanzüge",
+            "Himmlischer",
+            "Piranhas",
+            "Feuerkrieger",
+            "Späher",
+            "Hammerhaie",
+            "Dornenhai",
+            "Gebundenes Team",
+            "Angriffsdrohnen"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Sa'cea Unterstützungsformationen",
+      "description": "Bis zu drei für jeden gewählten Sa'cea Cadre.",
+      "formations": [
+        {
+          "name": "Hammerhai-Gruppe",
+          "units": "Vier Ionen-Hammerhaie oder vier Fusions-Hammerhaie",
+          "extraUnits": [
+            "Ersetze vier Ionen- oder Fusions-Hammerhaie durch vier Massebeschleuniger-Hammerhaie: 25 Punkte",
+            "Angriffsdrohnen",
+            "Hammerhaie",
+            "Piranhas",
+            "Dornenhai"
+          ],
+          "points": 200
+        },
+        {
+          "name": "XV88-Koloss-Kampfanzug-Gruppe",
+          "units": "Sechs XV88-Koloss-Kampfanzüge",
+          "extraUnits": [
+            "Angriffsdrohnen"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Kroot-Söldner-Sippe",
+          "units": "Ein Kroot-Söldner-Meisterweiser und neun Kroot-Söldner-Krieger",
+          "extraUnits": [
+            "Kroot-Söldner",
+            "Kroot-Hunde",
+            "Krootox"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Spähergruppe",
+          "units": "Vier Späher, zwei Teufelsrochen",
+          "extraUnits": [
+            "Angriffsdrohnen"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Antigrav-Aufklärungsgruppe",
+          "units": "Beliebige sechs der folgenden Einheiten: Piranha, Tetra",
+          "extraUnits": [
+            "Füge bis zu zwei Piranhas hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Luftabwehr-Unterstützungsgruppe",
+          "units": "Drei Dornenhaie",
+          "extraUnits": [
+            "Angriffsdrohnen"
+          ],
+          "points": 250
+        },
+        {
+          "name": "XV15-Geist-Kampfanzug-Gruppe",
+          "units": "Sechs XV15-Geist-Kampfanzüge",
+          "extraUnits": [
+            "Angriffsdrohnen"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Sa'cea-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Barracuda-Staffel",
+          "units": "Zwei Barracudas",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Tigerhai-Staffel",
+          "units": "Zwei Tigerhai-Bomber (B)",
+          "extraUnits": [
+            "Füge sechs Angriffsdrohnen hinzu: 75 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "AX-1-0-Staffel",
+          "units": "Zwei Tigerhai AX-1-0",
+          "extraUnits": [
+          ],
+          "points": 350
+        },
+        {
+          "name": "Orca-Landungsschiff",
+          "units": "Ein Orca",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Manta-Landungsschiff",
+          "units": "Ein Manta",
+          "extraUnits": [
+          ],
+          "points": 550
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Kreuzer der Protector-Klasse",
+          "extraUnits": [
+            "Ersetze den Protector durch ein Schlachtschiff der Custodian-Klasse: 25 Punkte"
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Maximal drei Aufwertungen pro Verband. Jede Aufwertung darf nur einmal pro Verband gewählt werden.",
+    "items": [
+      {
+        "name": "Gebundenes Team",
+        "description": "Gib dem Verband Anführer (diese Sonderfähigkeit wird keiner bestimmten Einheit hinzugefügt)",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "0–1 Shas'o",
+        "description": "Ersetze einen Shas'el-Charakter durch einen Shas'o-Charakter",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "0–1 Himmlischer",
+        "description": "Einmal pro Armee darf eine Feuerkrieger-Einheit einen Himmlischen erhalten",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Krisis-Kampfanzüge",
+        "description": "Füge zwei oder vier XV8-Krisis-Kampfanzüge hinzu",
+        "points": [
+          "75 Punkte für zwei",
+          "150 Punkte für vier"
+        ]
+      },
+      {
+        "name": "Feuerkrieger",
+        "description": "Füge eine der folgenden Optionen hinzu:",
+        "options": [
+          {
+            "description": "Füge vier Feuerkrieger hinzu",
+            "points": "100 Punkte"
+          },
+          {
+            "description": "Füge vier Feuerkrieger und zwei Teufelsrochen hinzu",
+            "points": "125 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Späher",
+        "description": "Füge zwei Späher und einen Teufelsrochen hinzu",
+        "points": "100 Punkte"
+      },
+      {
+        "name": "Koloss-Kampfanzüge",
+        "description": "Füge drei XV88-Koloss-Kampfanzüge hinzu",
+        "points": "125 Punkte"
+      },
+      {
+        "name": "Piranhas",
+        "description": "Füge zwei Piranhas hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Angriffsdrohnen",
+        "description": "Füge zwei Angriffsdrohnen hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Hammerhaie",
+        "description": "Füge eine der folgenden Optionen hinzu:",
+        "options": [
+          {
+            "description": "Füge zwei Ionen-Hammerhaie hinzu",
+            "points": "75 Punkte"
+          },
+          {
+            "description": "Füge bis zu zwei Massebeschleuniger-Hammerhaie oder bis zu zwei Fusions-Hammerhaie hinzu",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Kroot-Söldner",
+        "description": "Füge vier Kroot-Söldner-Krieger hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Kroot-Hunde",
+        "description": "Füge zwei Kroot-Hunde hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Krootox",
+        "description": "Füge drei Krootox hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Dornenhai",
+        "description": "Füge 1 Dornenhai hinzu",
+        "points": "100 Punkte"
+      }
+    ]
+  }
+}

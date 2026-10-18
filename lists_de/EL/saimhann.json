@@ -1,0 +1,239 @@
+{
+  "fraction": "Eldar",
+  "army": "Weltenschiff Saim-Hann",
+  "version": "Beta 0.1.1",
+  "release": "2023-03-29",
+  "armyforge": "EAR_Eldar_SaimHann",
+  "strategy": "Weltenschiff-Eldar-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Aspektkrieger, Titanen und Avatar-Verbände haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Avatar (Saim-Hann)",
+    "Darf keine Garnison bilden (Saim-Hann)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Netzportal",
+    "Unabhängige Zwillinge"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee des Eldar-Weltenschiffs Saim-Hann aufstellen."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Häuptling der Wilden Reiter",
+        "Avatar des Khaine",
+        "Eldar-Exarch",
+        "Eldar-Gardisten",
+        "Eldar-Runenprophet",
+        "Berittener Runenprophet von Saim-Hann",
+        "Eldar-Schwerwaffenplattform",
+        "Phantomdroiden",
+        "Kampfläufer",
+        "Wilde Reiter von Saim-Hann",
+        "Schleierläufer von Saim-Hann",
+        "Asuryans Jäger",
+        "Feuerdrachen",
+        "Schwarze Khaindar",
+        "Banshees",
+        "Skorpionkrieger",
+        "Sternenlanzen",
+        "Kriegsfalken",
+        "Saim-Hann-Hornet",
+        "Saim-Hann-Viper",
+        "Wellenschlange",
+        "Falcon",
+        "Illum Zar",
+        "Nachtspinne",
+        "Feuersturm",
+        "Skorpion",
+        "Kobra",
+        "Sturmserpent",
+        "Phantom-Titan"
+      ],
+        "unitRules": [
+            "Holofelder (x)",
+            "Lanze",
+            "Schildbohrer",
+            "Schildbrecher",
+            "Windflink"
+        ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschwinge-Abfangjäger",
+        "Phönix-Bomber (B)",
+        "Vampire-Jäger",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Saim-Hann-Spezialregeln",
+      "formations": [
+        {
+          "name": "1 Avatar",
+          "units": "Ein Avatar",
+          "points": 0
+        },
+        {
+          "name": "0–1 Netzportal",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Saim-Hann-Kriegsscharn",
+      "description": "Für jede Kriegsschar der Wilden Reiter darf jeweils eine Aspektkrieger-Kriegsschar und eine Kriegsschar berittener Gardisten gewählt werden.",
+        "formations": [
+            {
+                "name": "Kriegsschar der Wilden Reiter",
+                "units": "Acht Wilde Reiter von Saim-Hann, berittener Runenprophet von Saim-Hann",
+                "extraUnits": [
+                    "Ersetze bis zu drei Wilde Reiter durch Viper von Saim-Hann und/oder Schleierläufer von Saim-Hann: kostenlos",
+                    "(0–1 pro Armee) Ersetze eine Einheit Wilde Reiter durch einen Häuptling der Wilden Reiter: 50 Punkte",
+                    "Füge bis zu zwei Saim-Hann-Hornets hinzu: 50 Punkte pro Stück"
+                ],
+                "points": 275
+            },
+            {
+                "name": "Berittene Gardisten-Kriegsschar",
+                "units": "Drei Wellenschlangen, Runenprophet, fünf Gardisten",
+                "extraUnits": [
+                    "Ersetze zwei Eldar-Gardisten durch zwei Eldar-Schwerwaffenplattformen (kostenlos) oder eine Phantomdroiden-Einheit (25 Punkte)",
+                    "Füge 1 Feuersturm hinzu: 50 Punkte"
+                ],
+                "points": 250
+            },
+            {
+                "name": "Aspektkrieger-Kriegsschar",
+                "units": "Acht Sternenlanzen und/oder Kriegsfalken",
+                "extraUnits": [
+                    "Füge bis zu zwei Exarchen hinzu: 25 Punkte pro Stück"
+                ],
+                "points": 300
+            }
+        ]
+    },
+    {
+      "name": "Saim-Hann-Verbände",
+      "description": "Bis zu drei Saim-Hann-Verbände pro gewählter Saim-Hann-Kriegsschar.",
+        "formations": [
+
+            {
+                "name": "Wildreiter-Truppe",
+                "units": "Sechs Wilde Reiter von Saim-Hann",
+                "extraUnits": [
+                    "Ersetze bis zu drei Wilde Reiter durch Viper von Saim-Hann und/oder Schleierläufer von Saim-Hann: kostenlos",
+                    "Füge bis zu zwei Saim-Hann-Hornets hinzu: 50 Punkte pro Stück"
+                ],
+                "points": 200
+            },
+            {
+                "name": "Berittener Aspektkriegertrupp",
+                "units": "Drei Wellenschlangen und sechs Aspektkrieger aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Skorpionkrieger",
+                "extraUnits": [
+                    "Füge 1 Exarch hinzu: 25 Punkte"
+                ],
+                "points": 325
+            },
+            {
+                "name": "Kriegsmaschinen von Vaul",
+                "units": "Ein Kriegsmaschine von Vaul aus folgender Auswahl: Kobra, Skorpion, Sturmserpent",
+                "extraUnits": [
+                    "Füge bis zu zwei Kobra, Skorpion, und/oder Sturmserpent hinzu: 200 Punkte pro Stück"
+                ],
+                "points": 250
+            },
+            {
+                "name": "Schwerter von Vaul",
+                "units": "Drei Falcons, drei Eldar-Gardisten",
+                "extraUnits": [
+                    "Ersetze einen Falcon durch einen Feuersturm: kostenlos",
+                    "Ersetze bis zu drei Eldar-Gardisten durch Eldar-Schwerwaffenplattformen: kostenlos"
+                ],
+                "points": 200
+            },
+            {
+                "name": "Illum-Zar-Trupp",
+                "units": "Drei Illum Zars",
+                "extraUnits": [
+                ],
+                "points": 250
+            },
+            {
+                "name": "Nachtspinnen-Trupp",
+                "units": "Drei Nachtspinnen",
+                "extraUnits": [
+                    "Füge 1 Nachtspinne hinzu: 75 Punkte"
+                ],
+                "points": 175
+            },
+            {
+                "name": "Hornissen-Trupp",
+                "units": "Drei Saim-Hann-Hornets",
+                "extraUnits": [
+                ],
+                "points": 175
+            },
+            {
+                "name": "Kampfläufer-Trupp",
+                "units": "Vier Kampfläufer",
+                "extraUnits": [
+                    "Füge bis zu zwei Kampfläufer hinzu: 25 Punkte pro Stück"
+                ],
+                "points": 150
+            }
+        ]
+    },
+    {
+      "name": "Saim-Hann-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Nachtschwingen-Staffel",
+          "units": "Zwei Nachtschwingen-Abfangjäger",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phönix-Bomberstaffel",
+          "units": "Drei Phönix-Bomber (B)",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Vampire-Jäger",
+          "units": "Ein Vampire-Jäger",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phantom-Titanen",
+          "units": "Zwei Phantom-Titanen",
+          "extraUnits": [
+            "Gib dem Verband die Sonderregel 'Unabhängige Zwillinge': 50 Punkte"
+          ],
+          "points": 650
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 125 Punkte"
+          ],
+          "points": 175
+        }
+      ]
+    }
+  ]
+}

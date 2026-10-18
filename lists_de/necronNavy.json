@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Necron-Flotte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Nachtsichel-Transporter",
+        "type": "WE/AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC Zwillings-Tesla Zerstörer",
+          "AC Wurmlochportal"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 1",
+          "Furchtlos",
+          "Regeneration",
+          "Ausdauernd",
+          "[*]Portal. Darf nur verwendet werden, um das Schlachtfeld zu betreten, nicht um in die Reserve zu wechseln. Darf nur im gelandeten Zustand verwendet werden."
+        ]
+      },
+      {
+        "name": "Todessichel-Jäger",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 5,
+        "weapons": [
+          "AC Zwillings-Tesla Zerstörer",
+          "AC Todesstrahl"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Ausdauernd"
+        ]
+      },
+      {
+        "name": "Nachtmantel-Bomber (B)",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC Zwillings-Tesla Zerstörer",
+          "AC Todessphären||FxF"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Ausdauernd"
+        ]
+      },
+      {
+        "name": "Cairn-Klasse Gruftschiff",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss|1|"
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 auf dem Schlachtfeld eintreffen)"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "fraction": "Ork",
+  "army": "Snakebite-Klan, WAAAGH! Ghazghkull",
+  "version": "1.0.Beta-2",
+  "release": "2022-04-28",
+  "armyforge": "EAR_Ork_FeralOrk",
+  "intro": "Im Gegensatz zu den sehr starren Verbänden des Imperiums unterscheiden sich Ork-Verbände stark in Größe und Zusammensetzung. Die Regeln zur Zusammenstellung von Ork-Verbänden spiegeln dies wider. Die häufigste Art eines Ork-Verbands ist die Kriegsbande. Daneben gibt es weitere, spezialisierte Verbände wie Heizakulte und Blitzbrigaden. Die verfügbaren Ork-Verbände sind im folgenden Armeeorganisationsplan aufgeführt.</p><p>Einige Ork-Verbände können in drei Größen aufgestellt werden: normal, groß oder riesig. Ein Großverband umfasst doppelt so viele Einheiten wie ein normaler Verband, ein Riesenverband dreimal so viele. Begrenzungen für Aufwertungen werden bei Großverbänden verdoppelt und bei Riesenverbänden verdreifacht. Ein normaler Heizakult kann beispielsweise 0–1 Oddboy enthalten, ein großer 0–2 und ein riesiger 0–3.",
+  "strategy": "Snakebite Clan-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 3+.",
+  "specialRules": [
+    "Waaaghbosse des Snakebite-Klans",
+    "Köppe zählen",
+    "Macht des Waaagh!"
+  ],
+  "units": [
+    {
+      "from": "ORK.json",
+      "units": [
+        "Waaghboss",
+        "Wyrdboy",
+        "Pigdok",
+        "Grots",
+        "Grobiane",
+        "Wildschweinreiter",
+        "Jäger",
+        "Schrottkarren",
+        "Lobba",
+        "Fallensteller",
+        "Wildorks",
+        "Irre Boys",
+        "Squig-Katapult",
+        "Schrott-Pikk-Up",
+        "Squiggofant",
+        "Flakka-Squiggofant",
+        "Supa-Lobba-Squiggofant",
+        "Riesensquiggofant",
+        "Orkeosaurus",
+        "Dampf-Gargant"
+      ],
+      "unitRules": [
+        "Super-Entbehrlich",
+        "Los geht's",
+        "Stürmt los, Jungs"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kriegerscharen der Snakebites",
+      "formations": [
+        {
+          "name": "Mob der Snakebites",
+          "units": "Zwei Brutes, sechs Huntas und drei Grots",
+          "extraUnits": [
+            "beliebig viele Huntas: 15 Punkte pro Stück",
+            "beliebig viele Wildboyz: 15 Punkte pro Stück",
+            "beliebig viele Boarboyz: 25 Punkte pro Stück",
+            "Füge bis zu 3 Squig Katapults hinzu: 25 Punkte pro Stück",
+            "beliebig viele Huntas + Grots: 35 Punkte",
+            "Füge eine Brutes-Einheit hinzu: 35 Punkte pro Stück",
+            "Füge 1 Wyrdboy zu einer Brutes-Einheit hinzu: 25 Punkte pro Stück",
+            "Füge bis zu 2 Squiggofant Flakkas hinzu: 40 Punkte pro Stück",
+            "Füge 3 Squiggofant Supa-Lobbas hinzu: 100 Punkte",
+            "Füge genug Squiggofants hinzu, um den gesamten Verband zu transportieren: 30 Punkte pro Stück, 1 Gargantuan Squiggofant: 100 Punkte oder 1 Orkeosaurus: 175 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "200"
+            },
+            {
+              "name": "Groß",
+              "points": "350"
+            },
+            {
+              "name": "Riesig",
+              "points": "500"
+            }
+          ]
+        },
+        {
+          "name": "Boarboyz-Mob",
+          "units": "Ein Pigdok, acht Boarboyz",
+          "extraUnits": [
+            "beliebig viele Boarboyz: 25 Punkte pro Stück",
+            "Füge bis zu 1 Wyrdboy hinzu: 25 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "200"
+            },
+            {
+              "name": "Groß",
+              "points": "350"
+            },
+            {
+              "name": "Riesig",
+              "points": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unterstützungsmobs der Snakebites",
+      "description": "Pro Mob der Snakebites darf ein Unterstützungsmob der Snakebites aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Junka-Brigade",
+          "units": "Eine Brutes-Einheit, fünf Junkas und sechs Junkatrukks ",
+          "extraUnits": [
+            "beliebig viele Junkas + Junkatrukk: 30 Punkte",
+            "Füge eine Brutes-Einheit und einen Junkatrukk hinzu: 50 Punkte",
+            "Füge 1 Wyrdboy zu einer Brutes-Einheit hinzu: 25 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "225"
+            },
+            {
+              "name": "Groß",
+              "points": "400"
+            }
+          ]
+        },
+        {
+          "name": "Lobba-Mob",
+          "units": "Sechs Lobbas",
+          "extraUnits": [
+            "Füge bis zu 1 Einheit von Brutes hinzu: 35 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Madboyz-Mob",
+          "units": "Sechs Madboyz",
+          "extraUnits": [
+            "Füge bis zu 6 Madboyz hinzu: 25 Punkte pro Stück",
+            "Füge bis zu 3 Wyrdboys hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Trappas-Mob",
+          "units": "Acht Trappas",
+          "extraUnits": [
+            "Füge beliebig viele Trappas hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Wildboyz-Mob",
+          "units": "Ein Brute, sieben Wildboyz",
+          "extraUnits": [
+            "beliebig viele Wildboyz: 15 Punkte pro Stück",
+            "Füge eine Brutes-Einheit hinzu: 35 Punkte pro Stück",
+            "Füge 1 Wyrdboy zu einer Brutes-Einheit hinzu: 25 Punkte",
+            "Füge bis zu 2 Squiggofant Flakkas hinzu: 40 Punkte pro Stück",
+            "Füge 3 Squiggofant Supa-Lobbas hinzu: 100 Punkte",
+            "Füge genug Squiggofants hinzu, um den gesamten Verband zu transportieren: 30 Punkte pro Stück, 1 Gargantuan Squiggofant: 100 Punkte oder 1 Orkeosaurus: 175 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "150"
+            },
+            {
+              "name": "Groß",
+              "points": "250"
+            }
+          ]
+        }
+      ]
+  },
+    {
+      "name": "Gargants der Snakebites",
+      "description": "Bis zu 25 % der verfügbaren Punkte dürfen für diese Verbände ausgegeben werden.",
+      "formations": [
+          {
+            "name": "Gargant-Mob der Snakebites",
+            "units": "Ein Steam Gargant",
+            "extraUnits": [
+                "Füge 1 Steam Gargant hinzu: 175 Punkte"
+            ],
+            "points": 225
+          }
+      ]
+    }
+  ]
+}

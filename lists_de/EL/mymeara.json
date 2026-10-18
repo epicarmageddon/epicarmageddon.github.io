@@ -1,0 +1,258 @@
+{
+  "fraction": "Eldar",
+  "army": "Weltenschiff Mymeara",
+  "version": "1.1",
+  "release": "2022-04-01",
+  "strategy": "Mymeara-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Aspektkriegerformationen, Titanen, Phantomritter und der Avatar haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Avatar (Mymeara)",
+    "Darf keine Garnison bilden (Mymeara)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Netzportal",
+    "Unabhängige Zwillinge"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee des Eldar-Weltenschiffs Mymeara aufstellen."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Phönixkönig",
+        "Avatar des Khaine",
+        "Eldar-Exarch",
+        "Geisterseher",
+        "Eldar-Runenprophet",
+        "Eldar-Gardisten",
+        "Eldar-Schwerwaffenplattform",
+        "Unterstützungswaffenplattform",
+        "Schattenspektren",
+        "Korsaren-Geisterläufer",
+        "Asuryans Jäger",
+        "Feuerdrachen",
+        "Schwarze Khaindar",
+        "Banshees",
+        "Skorpionkrieger",
+        "Warpspinnen",
+        "Phantom-Schnitter",
+        "Korsaren-Wespe",
+        "Phantomlord",
+        "Wellenschlange",
+        "Nachtspinne",
+        "Hornet",
+        "Illum Zar",
+        "Feuersturm",
+        "Warpjäger",
+        "Luchs",
+        "Skorpion",
+        "Kobra",
+        "Phantomritter",
+        "Phantom-Titan",
+        "Mymeara-Phantomtitan"
+      ],
+      "unitRules": [
+          "Lanze",
+          "Schildbohrer",
+          "Schildbrecher",
+          "Holofelder (x)",
+          "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschatten-Abfangjäger",
+        "Hemlock-Phantomjäger",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Spezialregeln des Weltenschiffs Mymeara",
+      "formations": [
+        {
+          "name": "1 Avatar",
+          "units": "Ein Avatar",
+          "points": "0"
+        },
+        {
+          "name": "0–1 Netzportal",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Kriegsscharn des Weltenschiffs Mymeara",
+      "formations": [
+        {
+          "name": "0–1 Schattengeist-Kriegsschar",
+          "units": "Acht Schattenspektren",
+          "upgrades": [
+            "Exarch, Phönixkönig"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Aspektkrieger-Kriegsschar",
+          "units": "Zwei Wellenschlangen und vier Aspektkrieger-Einheiten aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Skorpionkrieger, Warpspinnen",
+          "upgrades": [
+            "Exarch"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Gardisten-Kriegsschar",
+          "units": "Fünf Gardisten, ein Runenleser, drei Wellenschlangen",
+          "upgrades": [
+            "Runenprophet"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Mymeara-Verbände",
+      "description": "Für jede gewählte Kriegsschar des Weltenschiffs Mymeara dürfen bis zu zwei Mymeara-Verbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Korsaren-Wespen",
+          "units": "Vier Korsaren-Wespen",
+          "upgrades": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Schwere Phantomwachen",
+          "units": "Drei Schwere Phantomdroiden",
+          "upgrades": [
+            "Füge drei Wellenschlangen hinzu: 75 Punkte",
+            "Feuersturm",
+            "Füge zwei Phantomlords und einen Geisterseher hinzu: 125 Punkte"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Hornets",
+          "units": "Vier Hornets",
+          "upgrades": [
+            "Füge bis zu zwei Hornets hinzu: 35 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Nachtspinnen-Trupp",
+          "units": "Drei Nachtspinnen",
+          "upgrades": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Jäger von Vaul",
+          "units": "Fünf Warpjäger",
+          "upgrades": [
+            "Feuersturm"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Illum-Zar-Trupp ",
+          "units": "Drei Illum Zars",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Rüstung von Vaul",
+          "units": "Zwei Luchse",
+          "upgrades": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Kriegsmaschine von Vaul",
+          "units": "Eine beliebige Einheit aus folgender Auswahl: Kobra oder Skorpion",
+          "upgrades": [
+            "Füge bis zu zwei Einheiten aus folgender Auswahl hinzu: Kobra oder Skorpion: 200 Punkte pro Stück"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Mymeara-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Nachtschatten-Abfangjägerstaffel",
+          "units": "Zwei Nachtschatten-Abfangjäger",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Hemlock-Phantomjäger-Staffel",
+          "units": "Zwei Hemlock-Phantomjäger",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phantomritter",
+          "units": "Drei Phantomritter",
+          "upgrades": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Phantom-Titanen",
+          "units": "Zwei Phantom-Titanen",
+          "upgrades": [
+            "Unabhängige Zwillinge: 50 Punkte"
+          ],
+          "points": 625
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 125 Punkte"
+          ],
+          "points": 175
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Phönixkönig",
+        "description": "Ersetze einen Eldar-Exarch durch einen Eldar-Phönixkönig-Charakter",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Exarch",
+        "description": "Füge bis zu zwei Eldar-Exarchen zu Aspektkrieger-Einheiten hinzu.",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Feuersturm",
+        "description": "Ersetze einen Falcon durch einen Feuersturm",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Runenprophet",
+        "description": "Füge 1 Runenprophet-Charakter zu einer Gardisten-Einheit hinzu",
+        "points": "25 Punkte"
+      }
+    ]
+  }
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Streitkräfte der Harlekine",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Harlekin-Avatar",
+        "type": "CH",
+        "weapons": [
+          "Kuss des Harlekins"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Befehlshaber"
+        ],
+        "notes": "Darf sich nur Harlekin-Truppn oder Skyweaver-Jetbikes anschließen."
+      },
+      {
+        "name": "Meistermime",
+        "type": "CH",
+        "weapons": [
+          "Monomolecular Klinge"
+        ],
+        "specialRules": [
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Solitär",
+        "type": "CH",
+        "weapons": [
+          "Kuss des Harlekins"
+        ],
+        "specialRules": [
+          "Inspirierend"
+        ]
+      },
+      {
+        "name": "Schattenseher",
+        "type": "CH",
+        "weapons": [
+          "Lichtsplitter"
+        ],
+        "specialRules": [
+            "Anführer",
+            "Inspirierend"
+        ]
+      },
+      {
+        "name": "Mimen",
+        "type": "INF",
+        "speed": 20,
+        "cc": 3,
+        "weapons": [
+          "Verborgene Mimerklingen"
+        ],
+        "specialRules": [
+          "Holofeld (5+)",
+          "Aufklärer",
+          "Infiltratoren",
+        "Teleportieren"
+        ]
+      },
+      {
+        "name": "Todesnarren",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Shrieker Kanonen"
+        ],
+        "specialRules": [
+          "Holofeld (5+)",
+          "Infiltratoren",
+          "Teleportieren",
+          "Windflink"
+        ]
+      },
+      {
+        "name": "Harlekin-Trupp",
+        "type": "INF",
+        "speed": 15,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Harlekins Umarmung"
+        ],
+        "specialRules": [
+          "Holofeld (5+)",
+          "Infiltratoren",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Skyweaver-Jetbikes",
+        "type": "INF",
+        "speed": 40,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Shurikenkanone",
+          "Zephyrgleve"
+        ],
+        "specialRules": [
+          "Holofeld (5+)",
+          "Beritten",
+          "Antigrav",
+          "Teleportieren",
+          "Windflink"
+        ]
+      },
+      {
+        "name": "Voidweaver",
+        "type": "LV",
+        "speed": 40,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Prismatic Kanone",
+          "Shurikenkanone"
+        ],
+        "specialRules": [
+            "Holofeld (5+)",
+            "Antigrav",
+            "Teleportieren",
+            "Windflink"
+        ]
+      },
+      {
+        "name": "Starweaver",
+        "type": "LV",
+        "speed": 40,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Shurikenkanone"
+        ],
+        "specialRules": [
+        "Holofeld (5+)",
+            "Antigrav",
+            "Teleportieren",
+            "Windflink",
+          "Transport 1 (kann eine Harlekin-Trupp oder eine Einheit Todesnarren transportieren)"
+        ]
+      }
+    ]
+  }
+]

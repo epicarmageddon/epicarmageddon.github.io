@@ -1,0 +1,486 @@
+[
+  {
+    "name": "Genestealer-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Symbiontenpatriarch",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "weapons": [
+          "Groß Reiß Klauen"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Inspirierend",
+          "Aufklärer",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Symbiontenmagus",
+        "type": "CH",
+        "weapons": [
+          "Psionikerkräfte"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Konklaven-Locus",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Inspirierend"
+        ]
+      },
+      {
+        "name": "Symbiontenlord",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Schakal-Alphus",
+        "type": "CH",
+        "weapons": [
+          "Scharfschützengewehr"
+        ],
+        "specialRules": [
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Hybrid-Primus",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Seismische Kanone",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Befehlshaber",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Akolythenhybriden",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Seismische Kanone",
+          "Klauen"
+        ],
+        "specialRules": [
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Hybrid-Aberranten",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "weapons": [
+          "Riesenkeulen"
+        ],
+        "specialRules": [
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Konklaven-Biker",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Laserpistolen",
+          "Klauen"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Wolfquad",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Atalan-Verbrenner"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Symbionten",
+        "type": "INF",
+        "speed": 20,
+        "armour": 6,
+        "cc": 2,
+        "weapons": [
+          "Reiß Klauen"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Metamorph-Hybriden",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Metamorph-Biomorphe"
+        ],
+        "specialRules": [
+          "Teleportieren",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Liktor",
+        "type": "LV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Fleischhaken",
+          "Scythed Klauen"
+        ],
+        "specialRules": [
+          "Erstschlag",
+          "Infiltratoren",
+          "Aufklärer",
+          "Unmodifizierter Rettungswurf",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Konklaven-Limousine",
+        "type": "LV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schwerer Maschinengewehr"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Hybrid-Aberranten und Symbiontenpatriarch zählen jeweils als zwei Einheiten."
+      },
+      {
+        "name": "Konklaven-Geländewagen",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schwerer-Maschinengewehr-Turm"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Konklaven-Ridgerunner",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Seismische Kanone"
+        ],
+        "specialRules": [
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Konklaven-Goliath",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bergbaulaser"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Hybrid-Aberranten und der Symbiontenpatriarch zählen jeweils als 2 Einheiten."
+      },
+      {
+        "name": "Kultisten-Donnerkeil-Jäger",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 6,
+        "weapons": [
+          "AC-Multilaser||FxF",
+          "AC Underwing Raketen||FxF",
+          "AC Sturmbolter||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Kultisten-Infanterie",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Maschinenkanone",
+          "Lasergewehre"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ],
+        "notes": "Jede zweite Kult-Infanterieeinheit ist mit einer Maschinenkanone bewaffnet."
+      },
+      {
+        "name": "Kultisten-Feuerunterstützung",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Maschinenkanone|2|"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ]
+      },
+      {
+        "name": "Kultisten-Mutanten",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Automatikpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ]
+      },
+      {
+        "name": "Kultisten-Höllenhund",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Inferno Kanone",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ]
+      },
+      {
+        "name": "Kultisten-Leman-Russ",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Kampfgeschütz",
+          "Laserkanone",
+          "Schwerer Bolter|2|"
+        ],
+        "specialRules": [
+          "Brutbrüder",
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Kultisten-Leman-Russ-Demolisher",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Belagerungskanone",
+          "Laserkanone",
+          "Plasmakanone|2|"
+        ],
+        "specialRules": [
+          "Brutbrüder",
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Kultisten-Hydra",
+        "type": "AV",
+        "speed": 30,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Hydra Maschinenkanone|2",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ]
+      },
+      {
+        "name": "Kultisten-Greif",
+        "type": "AV",
+        "speed": 30,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Mörser",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ]
+      },
+      {
+        "name": "Kultisten-Basilisk",
+        "type": "AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Erdbebenkanone",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Brutbrüder"
+        ]
+      },
+      {
+        "name": "Kultisten-Chimäre",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multilaser",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Brutbrüder",
+          "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Kultisten-Landtransporter",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Schwerer Maschinengewehr"
+        ],
+        "specialRules": [
+          "Brutbrüder",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Kultisten-Baneblade",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Baneblade Kanone",
+          "Maschinenkanone",
+          "Belagerungskanone||FxF",
+          "Laserkanone|2|FxF",
+          "Zwillings-Schwere Bolter|3|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Die Einheit wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      },
+      {
+        "name": "Kultisten-Stormblade",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Stormblade-Blaster||FxF",
+          "Laserkanone|2|FxF",
+          "Zwillings-Schwere Bolter|2|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Die Einheit wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      },
+      {
+        "name": "Kultisten-Shadowsword",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Volcano Kanone||FxF",
+          "Zwillings-Schwere Bolter|2|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Die Einheit wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      }
+    ]
+  }
+]

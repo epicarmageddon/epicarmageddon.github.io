@@ -1,0 +1,534 @@
+[
+  {
+    "name": "Necron-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Necron-Hochlord",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Strahlenstab"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos",
+          "Inspirierend",
+          "Regeneration",
+          "Ausdauernd"
+        ]
+      },
+      {
+        "name": "Destruktor-Hochlord",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Strahlenstab"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos",
+          "Inspirierend",
+          "Regeneration",
+          "Beritten",
+          "Antigrav",
+          "Ausdauernd"
+        ]
+      },
+      {
+        "name": "Necronlord",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Lichtstab"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Befehlshaber",
+          "Regeneration"
+        ]
+      },
+      {
+        "name": "Destruktorlord",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Lichtstab"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Befehlshaber",
+          "Regeneration",
+          "Beritten",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Necronkrieger",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Gauss-Flayer"
+        ],
+        "specialRules": [
+          "Maschinengeist",
+          "Entbehrlich",
+          "Regeneration"
+        ]
+      },
+      {
+        "name": "Alpträume",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Klauen"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Regeneration",
+          "Teleportieren"
+        ],
+        "notes": "„Die Ungebetenen“: Alpträume dürfen nur um Missionsziele konkurrieren, müssen das Spiel in Reserve beginnen und dürfen keine Necron-Portale verwenden."
+      },
+      {
+        "name": "Extinktoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Gauss-Blaster"
+        ],
+        "specialRules": [
+          "Regeneration"
+        ]
+      },
+      {
+        "name": "Pariahs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Necron-Kriegssensen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Canoptek-Gruftspinne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Teilchenstrahler",
+          "Gruftspinnenklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Regeneration",
+          "Anführer",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Canoptek-Skarabäen",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "weapons": [
+          "Schwarmangriff"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Maschinengeist",
+          "Entbehrlich",
+          "Infiltratoren",
+          "Regeneration"
+        ]
+      },
+      {
+        "name": "Canoptek-Phantome",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "weapons": [
+          "Phantomklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Maschinengeist",
+          "Entbehrlich",
+          "Aufklärer",
+          "Regeneration",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Destruktoren",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Gauss-Kanonen"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Regeneration",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Schwere Destruktoren",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwere Gauss-Kanonen"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Regeneration",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Todesboten",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Synaptic Desintegrator"
+        ],
+        "specialRules": [
+          "Regeneration",
+          "Aufklärer",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Gruftklingen",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Tesla Karabiner"
+        ],
+        "specialRules": [
+          "Regeneration",
+          "Beritten",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Triarchat-Prätorianer",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Stäbe des Bundes"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Regeneration",
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Monolith",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Teilchenpeitsche",
+          "Gauss-Flussbogen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Lebendes Metall",
+          "Portal",
+          "Antigrav",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Obelisk",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Teilchenflegel",
+          "Gravitationsimpuls"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Lebendes Metall",
+          "Antigrav",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Geisterbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Gauss-Flayer-Batterie"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Antigrav",
+          "Ausdauernd"
+        ],
+        "notes": "Transport: 2 Infanterieeinheiten"
+      },
+      {
+        "name": "Vernichtungsbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Tesla Zerstörer",
+          "Tesla Kanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Antigrav",
+          "Ausdauernd"
+        ]
+      },
+      {
+        "name": "Katakomben-Kommandogleiter",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Gauss-Kanonen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Antigrav",
+          "Ausdauernd",
+          "Befehlshaber",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Dominator-Barke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Necron Doomsday Kanone",
+          "Gauss-Flayer-Batterie"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Antigrav",
+          "Ausdauernd"
+        ]
+      },
+      {
+        "name": "Triarch-Stalker",
+        "type": "LV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Hitzestrahl"
+        ],
+        "specialRules": [
+          "Regeneration",
+          "Geländegängig",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Seraptek-Schweres Konstrukt",
+        "type": "H-AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Singularitätsgenerator|2|",
+          "Titanische Vordergliedmaßen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Maschinengeist",
+          "Entbehrlich",
+          "Regeneration",
+          "Geländegängig",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Wachposten-Pylonen",
+        "type": "AV",
+        "speed": "Immobile",
+        "armour": 4,
+        "ff": 5,
+        "weapons": [
+          "Gauss-Vernichter"
+        ],
+        "specialRules": [
+          "Regeneration",
+          "Furchtlos",
+          "Maschinengeist",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "C\u0027tan-Fragment",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 3,
+        "cc": 4,
+        "ff": 2,
+        "weapons": [
+          "Transdimensionaler Bolter",
+          "Entropische Berührung",
+          "Feuersplitter"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Anführer",
+          "Befehlshaber",
+          "Inspirierend",
+          "Regeneration"
+        ],
+        "notes": "Wird der C'tan-Splitter aufgerieben, wird er sofort zerstört, verursacht jedoch keine zusätzlichen Beschussmarken."
+      },
+      {
+        "name": "Pylon",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 4,
+        "ff": 4,
+        "weapons": [
+          "Teilchenbeschleuniger",
+          "Gauss-Flussbogen"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Furchtlos",
+          "Maschinengeist",
+          "Lebendes Metall",
+          "Teleportieren",
+          "Ausdauernd"
+        ],
+        "crit": "Pylon wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei einem Wurf von 4+ einen Treffer."
+      },
+      {
+        "name": "Megalith",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Teilchenpeitsche|2|",
+          "Gauss-Flussbogen"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos",
+          "Portal",
+          "Lebendes Metall",
+          "Antigrav",
+          "Teleportieren",
+          "Transport",
+          "Ausdauernd"
+        ],
+        "notes": "Kann bis zu zwei Monolithen oder Obelisken transportieren.",
+        "crit": "Das Portal des Megalith wird zerstört. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Äonen-Sphäre",
+        "type": "WE",
+        "speed": 15,
+        "armour": 5,
+        "ff": 6,
+        "weapons": [
+          "Sternenkäfig"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Furchtlos",
+          "Lebendes Metall",
+          "Hilfstransportschiff",
+          "Ausdauernd"
+        ],
+        "crit": "Æonic Orb wird zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Abattoir",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Gauss-Flussbatterie",
+          "Ernteranken"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Furchtlos",
+          "Lebendes Metall",
+          "Portal",
+          "Antigrav",
+          "Ausdauernd"
+        ],
+        "crit": "Das Portal des Abattoir wird zerstört. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+      }
+    ]
+  }
+]

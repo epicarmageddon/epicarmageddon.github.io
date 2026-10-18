@@ -1,0 +1,216 @@
+{
+  "fraction": "Tau",
+  "army": "Vior'la",
+  "version": "1.0.Beta-2",
+  "release": "2023-07-20",
+  "armyforge": "EAR_Tau_ViorLa",
+  "intro": "Mit dem Vior'la-Tau-Armeeorganisationsplan kannst du eine Tau-Armee des Vior'la-Septums aufstellen. Vior'la setzt auf größere Tau-Kampfanzüge; die Unterstützungsoptionen beschränken sich weitgehend auf weitere Kampfanzüge und Drohnen.",
+  "strategy": "Tau-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "XV8-Krisis-Kampfanzüge, XV10-Schwerkampfanzug-Kader, KV128-Sturmwoge-Ballistikanzüge und die KX139-Ta'unar-Vorherrschaftsrüstung haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Angriffsdrohnen des Tigerhais"
+  ],
+  "units": [
+    {
+      "from": "TAU.json",
+      "units": [
+        "Shas'o",
+        "Shas'el",
+        "Feuerkrieger",
+        "Angriffsdrohnen",
+        "Markiererdrohnen",
+        "Raketen-Drohnen",
+        "Schilddrohnen",
+        "XV8 Krisis-Kampfanzüge",
+        "XV15 Geist-Kampfanzüge",
+        "Teufelsrochen",
+        "Dornenhai",
+        "XV88 Koloss-Kampfanzug",
+        "XV95 Schattengeist-Kampfanzug",
+        "XV107 R'varna-Kampfanzug",
+        "XV109 Y'vahra-Kampfanzug",
+        "XV104 Sturmflut-Kampfanzug",
+        "KV128 Sturmwoge-Ballistikanzug",
+        "KX139 Ta'unar-Vorherrschaftsrüstung"
+      ],
+      "unitRules": [
+        "Koordinierter Beschuss",
+        "Gelenkte Raketen",
+        "Zielmarker",
+        "Schildbrecher",
+        "Tau-Sprungmodule",
+        "Ablenkschild",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "tauNavy.json",
+      "units": [
+        "Barracuda",
+        "Schwertfisch-Jagdbomber",
+        "Schlachtschiff der Custodian-Klasse",
+        "Kreuzer der Protector-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Vior'la-Kernformationen",
+      "formations": [
+        {
+          "name": "XV8-Krisis-Kampfanzug-Kader",
+          "units": "Ein Shas'el und sechs XV8-Krisis-Kampfanzüge",
+          "extraUnits": [
+            "Shas'o",
+            "Krisis-Kampfanzüge",
+            "Drohnen"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Schweres Kampfanzug-Kader",
+          "units": "Ein Shas'el und drei XV104-Sturmflut-Kampfanzüge, drei XV107-R'varna-Kampfanzüge oder drei XV109-Y'vahra-Kampfanzüge",
+          "extraUnits": [
+            "Shas'o",
+            "Schwere Kampfanzüge",
+            "Drohnen"
+          ],
+          "points": 325
+        },
+        {
+          "name": "XV88-Koloss-Kampfanzug-Gruppe",
+          "units": "Sechs XV88-Koloss-Kampfanzüge",
+          "extraUnits": [
+            "Drohnen"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Vior'la-Unterstützungsformationen",
+      "description": "Für jede gewählte Vior'la-Kernformation dürfen bis zu zwei Unterstützungsformationen gewählt werden.",
+      "formations": [
+        {
+          "name": "Feuerkrieger-Angriffsgruppe",
+          "units": "Acht Feuerkrieger, oder sechs Feuerkrieger und drei Teufelsrochen",
+          "extraUnits": [
+            "Koloss-Kampfanzüge",
+            "Drohnen",
+            "Dornenhai"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Drohnengruppe",
+          "units": "Acht Angriffsdrohnen",
+          "extraUnits": [
+            "Ersetze zwei Angriffsdrohnen durch zwei Raketen-Drohnen oder zwei Schilddrohnen (kostenlos) oder durch zwei Markiererdrohnen (25 Punkte)"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Tarnkampfanzug-Gruppe",
+          "units": "Sechs XV15-Geist-Kampfanzüge",
+          "extraUnits": [
+            "Ersetze drei XV15-Geist-Kampfanzüge durch drei XV95-Schattengeist-Kampfanzüge: 75 Punkte",
+            "Drohnen"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Luftabwehr-Unterstützungsgruppe",
+          "units": "Drei Dornenhaie",
+          "extraUnits": [
+            "Drohnen"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Vior'la-Kriegsmaschinen und Verbände der Luftkaste",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden..",
+      "formations": [
+        {
+          "name": "Barracuda-Staffel",
+          "units": "Zwei Barracudas",
+          "points": 150
+        },
+        {
+          "name": "KV128-Sturmwoge-Ballistikanzug",
+          "units": "Ein KV128-Sturmwoge-Ballistikanzug (Standard- oder Unterstützungskonfiguration)",
+          "points": 225
+        },
+        {
+          "name": "KX139 Ta'unar-Vorherrschaftsrüstung",
+          "units": "Ein Shas'el und eine KX139-Ta'unar-Vorherrschaftsrüstung",
+          "points": 500
+        },
+        {
+          "name": "Tigerhai-Staffel",
+          "units": "Zwei Tigerhai-Bomber (B)",
+          "extraUnits": [
+            "Füge sechs Angriffsdrohnen oder sechs Raketen-Drohnen hinzu: 75 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Kreuzer der Protector-Klasse",
+          "extraUnits": [
+            "Ersetze den Protector durch ein Schlachtschiff der Custodian-Klasse: 25 Punkte"
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Koloss-Kampfanzüge",
+        "description": "Füge drei XV88-Koloss-Kampfanzüge hinzu",
+        "points": "125 Punkte"
+      },
+      {
+        "name": "0–1 Shas'o",
+        "description": "Ersetze einen Shas'el-Charakter durch einen Shas'o-Charakter",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Krisis-Kampfanzüge",
+        "description": "Füge zwei XV8-Krisis-Kampfanzüge hinzu",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Drohnen",
+        "description": "Füge dem Verband eine der folgenden Aufwertungen hinzu",
+        "options": [
+          {
+            "description": "Zwei Angriffsdrohnen, Raketen-Drohnen oder Schilddrohnen",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Zwei Markiererdrohnen",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Dornenhai",
+        "description": "Füge 1 Dornenhai hinzu",
+        "points": "100 Punkte"
+      },
+      {
+        "name": "Schwere Kampfanzüge",
+        "description": "Füge bis zu zwei XV104-Sturmflut-Kampfanzüge, XV107-R'varna-Kampfanzüge oder XV109-Y'vahra-Kampfanzüge hinzu. Ein Verband darf keine unterschiedlichen schweren Kampfanzüge enthalten.",
+        "points": "75 Punkte pro Stück"
+      }
+    ]
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Word Bearers",
+  "version": "1.0.Beta",
+  "release": "2024-04-15",
+  "armyforge": "EAR_Chaos_WordBearers",
+  "strategy": "Word Bearer-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Die Word-Bearers-Gefolge und alle Word-Bearers-Elite-Verbände haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der Word Bearers",
+    "Launische Meister",
+    "Charaktere der Word Bearers"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Word Bearers nach ihren bevorzugten Einsatzmethoden aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Dunkler Apostel",
+        "Word-Bearers-Dämonenprinz",
+        "Word-Bearers-Koryphäus",
+        "Ikonenträger",
+        "Chaos Space Marines",
+        "Havocs",
+        "Dämonkin",
+        "Word-Bearers-Ikonoklasten",
+        "Chaos-Terminatoren",
+        "Chaos Rhino",
+        "Chaos-Jäger",
+        "Chaos Vindicator",
+        "Chaos Predator",
+        "Chaos Land Raider",
+        "Chaos-Cybot"
+      ],
+      "unitRules": [
+          "Verstärkte Beschwörung (+x)",
+          "Dämonischer Fokus",
+          "Herolde der Wahrheit"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Cerberit",
+        "Schlächterbestie",
+        "Geißel",
+        "Dezimator",
+        "Todesrad",
+        "Schmiedebestie",
+        "Abtrünniger Ritter"
+      ],
+      "unitRules": [
+        "Dämonenmaschine (x)",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "chaoscultists.json",
+      "units": [
+        "Kultisten",
+        "Mutanten",
+        "Chaosbrut",
+        "Chaos-Hunde",
+        "Landtransporter",
+        "Chaosaltar"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Dämonetten des Slaanesh",
+        "Seuchenhüter des Nurgle",
+        "Zerfleischer des Khorne",
+        "Horrors des Tzeentch",
+        "Hüter der Geheimnisse",
+        "Großer Verpester",
+        "Blutdämon",
+        "Herrscher des Wandels",
+        "Dämonische Bestien des ungeteilten Chaos"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllendrache",
+        "Harbringer-Bomber (B)",
+        "Kreuzer der Devastation-Klasse",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Word Bearers Kernverbände",
+      "description": "Pro Word Bearer Gefolge dürfen bis zu zwei Kultistenhorden aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Word Bearers Gefolge",
+          "units": "Ein Word Bearer Coryphaus, sechs Chaos Space Marines, Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Ikonenträger",
+            "Transport",
+            "Havocs",
+            "Besessene",
+            "Cybots",
+            "Predators",
+            "Stalker"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Kultistenhorde",
+          "units": "Ein Word Bearer Coryphaus, zehn Kultisten, Dämonenpakt",
+          "extraUnits": [
+            "Ikonenträger",
+            "Ersetze bis zu 2 Kultisten durch Mutanten: kostenlos",
+            "Ersetze bis zu 2 Kultisten durch Chaos-Hunde: kostenlos",
+            "Ersetze bis zu 2 Kultisten durch Chaosbrut: 25 Punkte pro Stück",
+            "Füge genügend Kultisten-Landtransporter hinzu, um den Verband ohne freie Transportkapazität zu transportieren: 10 Punkte pro Stück",
+            "Füge 1 Chaosaltar hinzu: 150 Punkte"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Word Bearers Eliteverbände",
+      "description": "Pro Word Bearers Gefolge darf bis zu ein Eliteverband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Iconoclasts",
+          "units": "Ein Word Bearer Coryphaus, vier Word Bearers Iconoclasts, Dämonenpakt",
+          "extraUnits": [
+            "Ikonenträger",
+            "Predators"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Havocs",
+          "units": "Ein Word Bearer Coryphaus, vier Havocs, zwei Chaos Rhinos, Dämonenpakt",
+          "extraUnits": [
+            "Ersetze 2 Havocs durch 2 Daemonkin: kostenlos",
+            "Ersetze 2 Chaos Rhinos durch Chaos Land Raiders, 2 Chaos Cybots: 75 Punkte",
+            "Ikonenträger",
+            "Predators",
+            "Stalker"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Panzerkompanie",
+          "units": "Vier Chaos Predators",
+          "extraUnits": [
+            "Ersetze 4 Chaos Predators durch 4 Chaos Vindicators (kostenlos) oder 4 Chaos Land Raiders (75 Punkte)",
+            "Stalker"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Die Gesalbten",
+          "units": "Ein Word Bearer Coryphaus, drei Chaos Terminatoren, drei Chaos Land Raiders, Dämonenpakt",
+          "extraUnits": [
+            "Ersetze 1 Chaos Terminatoren Einheit durch 2 Daemonkin: kostenlos",
+            "Ersetze 3 Chaos Land Raiders durch 3 Chaos Cybots: kostenlos",
+            "Oberbefehlshaber",
+            "Ikonenträger",
+            "Stalker",
+            "Predators"
+          ],
+          "points": 375
+        }
+      ]
+    },
+    {
+      "name": "Dämonenmaschinen Verbände",
+      "description": "Pro Kultistenhorden-Verband darf bis zu ein Dämonenmaschinen-Verband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Cerberites",
+          "units": "Drei Cerberites",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Forgefiends",
+          "units": "Zwei Forgefiends",
+          "points": 200
+        },
+        {
+          "name": "Maulerfiends",
+          "units": "Vier Maulerfiends",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Geißels",
+          "units": "Vier Geißels",
+          "extraUnits": [
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Kriegsmaschinen & Chaos Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Dezimator",
+          "units": "Ein Decimator",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Chaos-Ritter",
+          "units": "Zwei Abtrünnige Ritter, Dämonenpakt",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Todesrad",
+          "units": "Ein Todesrad",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Höllendrachen",
+          "units": "Zwei Höllendrachen",
+          "points": 225
+        },
+        {
+          "name": "Harbringer",
+          "units": "Ein Harbringer-Bomber (B)",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "0–1 Chaos Kreuzer",
+          "units": "Ein Kreuzer der Devastation-Klasse",
+          "extraUnits": [
+            "Schlachtschiff"
+          ],
+          "points": 125
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen. Für jeden Dämonenpakt in der Armee kommt ein Punkt hinzu.",
+          "points": 20
+        },
+        {
+          "name": "Pool Großer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Greater-Daemon-Pool.",
+          "points": 50
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Word Bearers Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Schlachtschiff",
+        "description": "Ersetze den Kreuzer der Devastation-Klasse durch ein Schlachtschiff der Despoiler-Klasse",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "options": [
+          {
+            "description": "Wähle eine der folgenden Optionen:"
+          },
+          {
+            "description": "Füge 1 Dark Apostle zum Verband hinzu",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Füge 1 Dämonenprinz Einheit zum Verband hinzu",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Transporter",
+        "options": [
+          {
+            "description": "Füge bis zu 3 Chaos Rhinos hinzu",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu 3 Chaos Land Raiders hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "(Nur so viele wie für den Transport des Verbands erforderlich, ohne freie Transportkapazität.)",
+            "points": ""
+          }
+        ]
+      },
+      {
+        "name": "Ikonenträger",
+        "description": "Füge 1 Icon Bearer character hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 3 Chaos Cybots hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Stalker",
+        "description": "Füge 1 Chaos Stalker hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Predators",
+        "description": "Füge bis zu 2 Chaos Predators hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Havocs",
+        "description": "Ersetze 2 Chaos Space Marines durch 2 Havocs",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Besessene",
+        "description": "Ersetze 2 Chaos Space Marines durch 2 Daemonkin",
+        "points": "25 Punkte"
+      }
+    ]
+  }
+}

@@ -40,7 +40,7 @@ var eaTemplating = {
             return v1 !== v2;
         });
 
-        Handlebars.registerHelper('und', function (one, two) {
+        Handlebars.registerHelper('and', function (one, two) {
             return true === one && true === two;
         });
 

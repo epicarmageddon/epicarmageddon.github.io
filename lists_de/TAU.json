@@ -1,0 +1,690 @@
+[
+  {
+    "name": "Tau-Streitkräfte",
+    "specialRules": [
+
+    ],
+    "unit": [
+      {
+        "name": "Himmlischer",
+        "type": "CH",
+        "weapons": [
+          "Honour Klinge"
+        ],
+        "specialRules": [
+          "Himmlischer",
+          "Inspirierend",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Shas'el",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Koordinierter Beschuss"
+        ]
+      },
+      {
+        "name": "Shas'o",
+        "type": "CH",
+        "weapons": [
+          "Experimental Waffen"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Koordinierter Beschuss"
+        ]
+      },
+      {
+        "name": "Shas'o-Kampfanzug",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Experimental Waffen"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Koordinierter Beschuss"
+        ]
+      },
+      {
+        "name": "Feuerkrieger",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Impulsgewehre",
+          "Impuls-Karabiner"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Feuerkrieger-Brecher",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Impulsblaster|2"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Strahlende Feuerkrieger",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Skullhamma-Kanone",
+          "Impuls-Karabiner"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Raketen-Drohnen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Raketenbehälter"
+        ],
+        "specialRules": [
+          "Tau-Sprungmodule"
+        ]
+      },
+      {
+        "name": "Angriffsdrohnen",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Impulskarabiner"
+        ],
+        "specialRules": [
+          "Tau-Sprungmodule"
+        ]
+      },
+      {
+        "name": "Markiererdrohnen",
+        "type": "INF",
+        "speed": 20,
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Zielmarker",
+          "Tau-Sprungmodule"
+        ]
+      },
+      {
+        "name": "Schilddrohnen",
+        "type": "LV",
+        "speed": 25,
+        "armour": 5,
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Tau-Sprungmodule",
+          "Ablenkschild"
+        ]
+      },
+      {
+        "name": "Späher",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schienengewehre",
+          "Impuls-Karabiner"
+        ],
+        "specialRules": [
+          "Koordinierter Beschuss",
+          "Zielmarker",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "XV8 Krisis-Kampfanzüge",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Raketenbehälter",
+          "Zwillings-Plasmagewehr",
+          "Zwillings-Fusionsblaster"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Tau-Sprungmodule"
+        ]
+      },
+      {
+        "name": "XV84 Krisis-Kampfanzüge",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Plasmagewehr",
+          "Zwillings-Fusionsblaster"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Zielmarker",
+          "Tau-Sprungmodule"
+        ]
+      },
+      {
+        "name": "XV15 Geist-Kampfanzüge",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Gedämpfte Salvenkanonen"
+        ],
+        "specialRules": [
+          "Erstschlag",
+          "Verstärkte Panzerung",
+          "Zielmarker",
+          "Aufklärer",
+          "Tau-Sprungmodule",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "XV25 Geist-Kampfanzüge",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Fusionsblaster"
+        ],
+        "specialRules": [
+          "Erstschlag",
+          "Verstärkte Panzerung",
+          "Zielmarker",
+          "Aufklärer",
+          "Tau-Sprungmodule",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Scharfschützen-Drohnen",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Scharfschütze Drohne"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Teleportieren",
+          "Tau-Sprungmodule",
+          "Zählt für den Transport als Gun Drone."
+        ]
+      },
+      {
+        "name": "Firesight-Scharfschützen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Scharfschütze Drohne"
+        ],
+        "specialRules": [
+          "Teleportieren",
+          "Zielmarker",
+          "Aufklärer",
+          "Zählt für den Transport als Fire Warrior."
+        ]
+      },
+      {
+        "name": "Vespid-Stachelflügel",
+        "type": "INF",
+        "speed": 30,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Neutronenblaster"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Kroot-Söldner-Meisterweiser",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kroot-Söldner-Gewehre"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Anführer",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Kroot-Söldner-Krieger",
+        "type": "INF",
+        "speed": 15,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kroot-Söldner-Gewehre"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Kroot-Hunde",
+        "type": "INF",
+        "speed": 20,
+        "cc": 3,
+        "weapons": [
+          "Fangzähne"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Krootox",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kroot-Söldner-Geschütz",
+          "Krootox-Klauen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Großer Knarloc",
+        "type": "LV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Kroot-Söldner-Bolterwerfer",
+          "Knarloc Klauen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "XV9-04 Hazard-Kampfanzug",
+        "type": "LV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Phasen-Ionengeschütze"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Tau Jet Pack"
+        ]
+      },
+      {
+        "name": "XV95 Schattengeist-Kampfanzug",
+        "type": "LV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Cyclic Ionen Raker",
+          "Fusionsblaster"
+        ],
+        "specialRules": [
+          "Erstschlag",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Zielmarker",
+          "Tau Jet Pack",
+          "Teleportieren",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "XV88 Koloss-Kampfanzug",
+        "type": "LV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Lichtschienenkanone",
+          "Intelligentes Raketensystem"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Piranha",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Belagerungsbrecherkanone",
+          "Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Tetra",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Tetra Impulsgewehre"
+        ],
+        "specialRules": [
+          "Koordinierter Beschuss",
+          "Zielmarker",
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Teufelsrochen",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Belagerungsbrecherkanone",
+          "Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "Kann zwei Einheiten Feuerkrieger oder Späher transportieren."
+      },
+      {
+        "name": "Schwertfisch",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Lichtschienenkanone"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "Kann eine Einheit Angriffsdrohnen transportieren."
+      },
+      {
+        "name": "Raketen-Hammerhai",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Raketenbehälter|2|",
+          "Intelligentes Raketensystem",
+          "Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "Kann 1 Einheit Angriffsdrohnen transportieren."
+      },
+      {
+        "name": "Ionen-Hammerhai",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Ionenkanone",
+          "Intelligentes Raketensystem",
+          "Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "Kann 1 Einheit Angriffsdrohnen transportieren."
+      },
+      {
+        "name": "Massebeschleuniger-Hammerhai",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Schienenkanone",
+          "Intelligentes Raketensystem",
+          "Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Fusions-Hammerhai",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Fusionskanone",
+          "Intelligentes Raketensystem",
+          "Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Dornenhai",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Intelligentes Raketensystem",
+          "Zielsuchraketen|2|",
+          "Jägerraketen|2|"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Zielmarker"
+        ]
+      },
+      {
+        "name": "XV107 R'varna-Kampfanzug",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Impuls-Streumunitionskanonen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "XV104 Sturmflut-Kampfanzug",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Ionenbeschleuniger",
+          "Zwillings-Intelligentes Raketensystem",
+          "Geschwindigkeitspeiler"
+        ],
+        "specialRules": [
+          "Tau Jet Pack",
+          "Tau Ablenkschild",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "XV109 Y'vahra-Kampfanzug",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Plasmaflammenwerfer",
+          "Ionenentladungskanone"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Tau Jet Pack",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "KV128 Sturmwoge-Ballistikanzug",
+        "type": "WE",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          ">Standard-Konfiguration<",
+          "Impuls-Treiberkanone||FwA",
+          "Zerstörer Raketen|2|",
+          "Geschwindigkeitspeiler",
+          ">Unterstützungswaffen-Konfiguration<",
+          "Impuls-Druckwellenkanone||FwA",
+          "Zwillings-Intelligentes Raketensystem|2|",
+          "Geschwindigkeitspeiler"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 3",
+          "Unmodifizierter Rettungswurf",
+          "Geländegängig"
+        ],
+        "crit": "Stormsurge erleidet 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "KX139 Ta'unar-Vorherrschaftsrüstung",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Tri-axis Ionenkanone|2|FwA",
+          "Hellhammer-Kanone|2|",
+          "Zwillings-Intelligentes Raketensystem|2|",
+          "Nexus-Raketenbatterie|0-1|",
+          "Schwere Schienenkanone|0-1|FwA",
+          "Impuls-Artillerie-Mehrfachtreiber|0-1|FwA"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 5",
+          "Furchtlos",
+          "Tau Ablenkschild",
+          "Geländegängig"
+        ],
+        "notes": "Mit einem Nexus-Raketenarray, einer Schweren Schienenkanone oder einem Puls-Ordnance-Multitreiber bewaffnet.",
+        "crit": "Der Tau Ablenkschild fällt aus und darf für den Rest des Spiels nicht mehr verwendet werden. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Manta",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Schwere Schienenkanone||FxF",
+          "Schwerer Ionen Phalanx||FxF",
+          "Zwillings-Raketenbehälter",
+          "Zielsuchraketen|2|",
+          "Hellhammer-Kanone|4|"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 6",
+          "Furchtlos",
+          "Zielmarker",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Hilfstransportschiff",
+          "Tau Ablenkschild",
+          "Transport"
+        ],
+        "notes": "Kann zwölf Feuerkrieger, Späher, XV15- und XV25-Geist-Kampfanzüge, Angriffsdrohnen, Kroot-Söldner-Krieger, Kroot-Söldner-Meisterweiser und Kroot-Hunde transportieren. Krootox, XV8-Krisis-, XV9-04-Hazard-, XV88-Koloss- und XV95-Schattengeist-Kampfanzüge zählen jeweils als zwei Einheiten. Zusätzlich können acht Piranhas und Tetras mitgeführt werden. Teufelsrochen, Hammerhaie und Dornenhaie zählen jeweils als zwei Einheiten.",
+        "crit": "Der Tau Ablenkschild fällt aus und darf für den Rest des Spiels nicht mehr verwendet werden. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+      }
+    ]
+  }
+]

@@ -1,0 +1,203 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Elysianische Luftlandetruppen",
+  "version": "1.0.Beta",
+  "release": "2023-07-02",
+  "armyforge": "EAR_ImperialGuard_Elysian",
+  "strategy": "Elysianische Luftlandetruppen-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Mut, Disziplin und Loyalität",
+    "Luftüberlegenheit",
+    "Schocktruppen",
+    "Elysianische Transporter"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Elysianischer Oberbefehlshaber",
+        "Elysianischer Befehlshaber",
+        "Kommissar",
+        "Elysianische Luftlandetruppen",
+        "Elysianischer Feuerunterstützungstrupp",
+        "Elysianischer Mörsertrupp",
+        "Rapier",
+        "Elysianische Stoßtruppen",
+        "Gepanzerter Sentinel",
+        "Abwurf-Sentinel",
+        "Unterstützungs-Sentinel",
+        "Sentinel",
+        "Tauros",
+        "Tauros Venator",
+        "Sky Talon",
+        "Valkyrie",
+        "Vendetta",
+        "Vulture"
+      ],
+      "unitRules": [
+        "Gravfallschirme"
+      ]
+    },
+    {
+      "from": "AM.json",
+      "units": [
+        "Tarantula"
+      ],
+      "unitRules": [
+        "Maschinengeist"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Donnerkeil-Jäger",
+        "Blitzschlag-Abfangjäger",
+        "Marauder-Bomber (B)",
+        "Marauder-Zerstörer",
+        "Kreuzer der Lunar-Klasse",
+        "Schlachtschiff der Emperor-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Elysian Kernverbände",
+      "formations": [
+        {
+          "name": "0–1 Regimentshauptquartier",
+          "units": "Ein Elysian Oberbefehlshaber mit einem Kommissar und sieben Elysianische Luftlandetruppen plus Transporter.",
+          "extraUnits": [
+            "Abwurf-Sentinels",
+            "Feuerunterstützung",
+            "Infanterie (INF) Platoon"
+          ],
+          "points": 375
+        },
+        {
+          "name": "Luftlandetruppenkompanie",
+          "units": "Ein Elysian Befehlshaber mit einem Kommissar und sieben Elysianische Luftlandetruppen plus Transporter.",
+          "extraUnits": [
+            "Abwurf-Sentinels",
+            "Feuerunterstützung",
+            "Infanterie (INF) Platoon"
+          ],
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Elysian Unterstützungsverbände",
+      "description": "Pro Kernkompanie dürfen bis zu zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Landungssentinel-Staffel",
+          "units": "Sechs Abwurf-Sentinels",
+          "extraUnits": [
+            "Füge 3 Sky Talons hinzu: 75 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Sentinel-Staffel",
+          "units": "Vier Sentinels",
+          "extraUnits": [
+            "Ersetze alle Sentinels durch gepanzerte Sentinels: 25 Punkte",
+            "Ersetze alle Sentinels durch Unterstützungs-Sentinels: 50 Punkte"
+          ],
+          "points": 100
+        },
+        {
+          "name": "Stoßtruppenkompanie",
+          "units": "Acht Elysianische Stoßtruppen und ein Kommissar, plus Transporter.",
+          "points": 350
+        },
+        {
+          "name": "Unterstützungszug",
+          "units": "Vier Rapiers oder vier Elysianische Mörsertrupps plus Transporter",
+          "points": 225
+        },
+        {
+          "name": "Tauros-Venator-Staffel",
+          "units": "Vier Tauros Venators",
+          "extraUnits": [
+            "Füge bis zu 2 Tauros Venators hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Tauros-Aufklärungsstaffel",
+          "units": "Vier Tauros",
+          "points": 150
+        },
+        {
+          "name": "Vulture-Staffel",
+          "units": "Vier Vultures",
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Statische Verteidigungsanlagen & Imperial Flotte Verbündete",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden. Pro Tauros-Aufklärungs- oder Venator-Schwadron darf höchstens ein Tarantula-Verband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Tarantula",
+          "units": "Vier Tarantulas",
+          "points": 125
+        },
+        {
+          "name": "Blitzschlag-Staffel",
+          "units": "Zwei Blitzschlag-Abfangjägers",
+          "points": 150
+        },
+        {
+          "name": "Marauder-Zerstörer",
+          "units": "Ein Marauder-Zerstörer",
+          "points": 175
+        },
+        {
+          "name": "Marauder-Staffel",
+          "units": "Zwei Marauder-Bomber (B)",
+          "points": 250
+        },
+        {
+          "name": "Donnerkeil-Staffel",
+          "units": "Zwei Donnerkeil-Jägers",
+          "points": 175
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein Kreuzer der Lunar-Klasse",
+          "points": 150,
+          "extraUnits": [
+            "Ersetze den Kreuzer der Lunar-Klasse durch ein Schlachtschiff der Emperor-Klasse: 25 Punkte"
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Elysian Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Abwurf-Sentinels",
+        "description": "Ersetze 2 Elysianische Luftlandetruppen durch 2 Abwurf-Sentinels und 1 Sky Talon",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Feuerunterstützung",
+        "description": "Ersetze 2 Elysianische Luftlandetruppen durch 2 Elysian Feuerunterstützungstrupps",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Infanteriezug",
+        "description": "Füge 2 Elysianische Luftlandetruppen hinzu",
+        "points": "75 Punkte"
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Genestealer-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Symbiontenpatriarch",
+        "type": "CH",
+        "weapons": [
+          "Groß Reiß Klauen||EA(+1)"
+        ],
+        "specialRules": [
+          "Erweiterte Befehlsreichweite",
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Panzerung",
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Symbiontenmagus",
+        "type": "CH",
+        "weapons": [
+          "Geistiger Ansturm"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Erweiterte Befehlsreichweite",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Symbiontenprimus",
+        "type": "CH",
+        "weapons": [
+          "Groß Reiß Klauen||EA(+1)"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Hybrid-Ikonwart",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Symbiarch",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Akolythenhybriden",
+        "type": "INF",
+        "speed": 20,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Schwerer Maschinengewehr",
+          "Automatikpistolen",
+          "Reiß Klauen"
+        ],
+        "specialRules": [
+          "Entbehrlich"
+        ],
+        "notes": "Jede zweite Einheit (aufgerundet) ist mit einem Schweren Maschinengewehr bewaffnet."
+      },
+      {
+        "name": "Symbionten",
+        "type": "INF",
+        "speed": 20,
+        "armour": 6,
+        "cc": 2,
+        "weapons": [
+          "Reiß Klauen"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Aberranten",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Riesenkeulen"
+        ],
+        "specialRules": [
+        ],
+        "notes": "Zählt beim Transport als zwei INF-Einheiten."
+      },
+      {
+        "name": "Metamorph-Hybriden",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Blasting Ladungen",
+          "Hand Flammenwerfer",
+          "Reiß Klauen"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Ehrengarde"
+        ]
+      },
+      {
+        "name": "Neophyten",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Maschinenkanone",
+          "Automatikgewehre"
+        ],
+        "notes": "Jede zweite Einheit (aufgerundet) ist mit einer Maschinenkanone bewaffnet."
+      },
+      {
+        "name": "Neophyten-Feuerunterstützung",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Maschinenkanone|2"
+        ]
+      },
+      {
+        "name": "Kult-Schwerer-Mörser",
+        "type": "INF",
+        "speed": 10,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Schwerer Mörser"
+        ]
+      },
+      {
+        "name": "Neophyten-Ausreiter",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Automatikpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Ausreiter-Quadbike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Atalan-Verbrenner"
+        ]
+      },
+      {
+        "name": "Ridgerunner",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Schwerer Bergbaulaser|0-1",
+          "Seismic Schwerer Kanone|0-1"
+        ],
+        "notes": "Mit einem Schweren Bergbaulaser oder einer Schweren Seismischen Kanone bewaffnet."
+      },
+      {
+        "name": "Bewaffneter Geländewagen",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schwerer-Maschinengewehr-Turm"
+        ]
+      },
+      {
+        "name": "Landtransporter",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Schwerer Maschinengewehr"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren. Aberrants belegen jeweils zwei Plätze."
+      },
+      {
+        "name": "Konklaven-Limousine",
+        "type": "LV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Granate Werfer"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Goliath-Truck",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Seismic Schwerer Kanone"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Aberrants belegen jeweils zwei Plätze."
+      },
+      {
+        "name": "Goliath-Schürfer",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Drilldozer-Klinge"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Aberrants belegen jeweils zwei Plätze."
+      },
+      {
+        "name": "Transportlasterkanone",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Nachgerüsteter Verteidigungslaser||FxF",
+          "Zwillings-Schwerer Maschinengewehr|2|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos"
+        ],
+        "crit": "Die Plasmareservoirs des Defence Laser explodieren und zerstören die Einheit. Alle Einheiten innerhalb von 5cm um das Modell erleiden bei einem Wurf von 4+ einen Treffer."
+      },
+      {
+        "name": "Sturm-Bagger",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Excavator Energie-Arms",
+          "Zwillings-Schwerer Maschinengewehr|2|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "crit": "Die Einheit erleidet 1 Schaden."
+      }
+    ]
+  }
+]

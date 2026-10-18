@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Streitkräfte der Eldar-Korsaren",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Korsaren-Felarch",
+        "type": "CH",
+        "weapons": [
+          "Eldar-Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Inspirierend",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Korsarenkrieger",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Shuriken-Katapulte"
+        ],
+        "specialRules": ["Sprungmodule"]
+      },
+      {
+        "name": "Korsarenveteran",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Shurikenpistolen",
+          "Eldar-Energiewaffe"
+        ],
+        "specialRules": ["Sprungmodule"]
+      },
+      {
+        "name": "Geisterläufer",
+        "type": "INF",
+        "speed": 20,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Geisterläufer-Ranger-Jagdgewehr"
+        ],
+        "specialRules": ["Sprungmodule", "Aufklärer"]
+      },
+      {
+        "name": "Korsaren-Wespe",
+        "type": "LV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Sternenkanone|2"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Korsaren-Schattenviper",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Splitterkanone",
+          "Zwillings-Splittergewehr"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "Kann eine Einheit Korsarenkrieger, Korsarenveteranen oder Geisterläufer transportieren."
+      },
+      {
+        "name": "Korsaren-Nachtschwinge-Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "Höllenfeuerkanone",
+          "AC Laserlanze|2"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Korsaren-Vampire-Schattenbarke",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC Impulslaser|2|",
+          "AC Impulslaser"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann bis zu acht der folgenden Einheiten transportieren: Korsarenkrieger, Korsarenveteranen, Geisterläufer oder Korsaren-Wespen. Korsaren-Wespen belegen jeweils zwei Plätze.",
+        "crit": "Vampire Schattenbarke und alle Einheiten an Bord werden zerstört."
+      }
+    ]
+  }
+]

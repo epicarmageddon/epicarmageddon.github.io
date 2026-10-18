@@ -1,0 +1,276 @@
+[
+  {
+    "name": "Streitkräfte der Eldar-Exoditen",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Drachenprinz",
+        "type": "CH",
+        "weapons": [
+          "Phantomknochenlanze"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf",
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Drachenfürst",
+        "type": "CH",
+        "weapons": [
+          "Phantomknochenlanze"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Weltenliedsänger",
+        "type": "CH",
+        "weapons": [
+          "Singspeer"
+        ],
+        "specialRules": [
+          "Weitsicht",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Drachenritter",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Höllenschlund"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Windritter",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Exoditen-Jagdlanzen"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Himmelsdrache",
+        "type": "LV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Eldar-Raketenwerfer"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Drachen-Vorreiter",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Ranger-Jagdgewehr"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Aufklärer",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Exoditenmiliz",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Shuriken-Katapulte"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Exoditen-Waffenplattform",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Unterstützungs-D-Kanone|0-1",
+          "Schattenweber|0-1"
+        ],
+        "notes": "Mit einer Unterstützungs-D-Kanone oder einem Shadow Weaver bewaffnet."
+      },
+      {
+        "name": "Exoditen-Phantomdroiden",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Phantomkanonen"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Blutrachen-Megadon",
+        "type": "LV",
+        "speed": 30,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Impulslaser",
+          "Klauen, Zähne \u0026 Schwanz"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Leerenprisma-Megadon",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Prismenlanze"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Feuersturmritter",
+        "type": "H-AV",
+        "speed": 25,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Ritter-Psioniklanze",
+          "Ritter-Impulslaser"
+        ],
+        "specialRules": [
+          "Holofeld (4+)",
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Glanzross-Ritter",
+        "type": "H-AV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Ritter-Psioniklanze"
+        ],
+        "specialRules": [
+          "Holofeld (4+)",
+          "Furchtlos",
+          "Reinforced Armor",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Überragender Zerstörer-Ritter",
+        "type": "H-AV",
+        "speed": 30,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Ritter-Psioniklanze",
+          "Impulslaser",
+          "Ritter-Nahkampfwaffen"
+        ],
+        "specialRules": [
+          "Holofeld (4+)",
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Großer Megadon",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Prism Projektor||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 3",
+          "Geländegängig"
+        ],
+        "crit": "Der Große Megadon wird zerstört."
+      },
+      {
+        "name": "Ewiger Drache",
+        "type": "WE",
+        "speed": 25,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Lodernder Atem",
+          "Klauen, Zähne \u0026 Schwanz"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 3",
+          "Befehlshaber",
+          "Furchtlos",
+          "Sprungmodule",
+          "Inspirierend"
+        ],
+        "crit": "Ewiger Drache wird zerstört. Alle Exodite-Eldar-Verbände (eigene und gegnerische) mit Sichtlinie zum Ewiger Drache erhalten 1 Beschussmarke."
+      },
+      {
+        "name": "Kolossaler Carnosaurus",
+        "type": "WE",
+        "speed": 25,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Sonnenkanone|2|FxF",
+          "Ferocious Biss"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 5",
+          "Furchtlos",
+          "Geländegängig"
+        ],
+        "crit": "Der Kolossale Carnosaurus erleidet 1 zusätzlichen Schaden."
+      }
+    ]
+  }
+]

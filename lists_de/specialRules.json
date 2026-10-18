@@ -1,0 +1,1358 @@
+{
+  "rules": [
+    {
+      "title": "Schweres gepanzertes Fahrzeug (H-AV)",
+      "description": [
+        "Einheiten des Typs H-AV können zwei Schadenspunkte erleiden, bevor sie zerstört werden, und zählen für Überzahl, Beschussmarken, die Anzahl der Angriffe im Nahkampf, die Trefferverteilung und die maximale Anzahl von Einheiten in Basekontakt als zwei Einheiten. Wenn H-AVs von Waffen getroffen werden, die mehrere Schadenspunkte verursachen (z. B. TK(W3)), gelten sie als WE. Außerdem können H-AVs kritisch getroffen werden. Wird ein Kritischer Treffer gewürfelt, wird die Einheit ohne weitere Auswirkungen zerstört. H-AVs können durch Punktziel-Angriffe anvisiert werden; diese zielen jedoch nicht auf einzelne Modelle. Stattdessen werden die Treffer innerhalb des Verbands zufällig verteilt. In allen anderen Belangen werden H-AVs wie normale gepanzerte Fahrzeuge behandelt."
+      ]
+    },
+    {
+      "title": "Maschinengeist",
+      "description": [
+        "Ein Verband, der ausschließlich aus Einheiten mit <i>Maschinengeist</i> besteht, darf nur die Aktionen Halten, Offensive, Ordnen, Dauerfeuer und Feuerbereitschaft durchführen. Außerdem dürfen solche Verbände nur um Missionsziele konkurrieren und gelten bei Sammelversuchen immer als höchstens 30 cm von einem gegnerischen Verband entfernt."
+      ]
+    },
+    {
+      "title": "Null-Schilde",
+      "description": [
+        "Jeder Null Schild verhindert automatisch einen Schadenspunkt und fällt anschliessend aus. Für durch Null-Schilde verhinderten Schaden werden keine Rüstungswürfe abgelegt und keine Beschussmarken zugeteilt. Sobald alle Schilde ausgeschaltet sind, kann die Kriegsmaschine normal beschädigt werden und für erzielte Treffer dürfen Schutzwürfe abgelegt werden. Treffer im Nahkampf ignorieren Null-Schilde; Einheiten, die ihren Feuergefechtswert verwenden, müssen jedoch zunächst alle Schilde ausschalten, bevor sie den Titanen beschädigen können.",
+        "Ausgeschaltete Null-Schilde können repariert werden. Jede Kriegsmaschine kann in der Endphase jeder Runde einen ausgefallenen Leeren Schild reparieren.",
+        "Wenn sich eine Kriegsmaschine sammelt (durch die Aktion Halten oder Ordnen), kann sie den Wurf sowohl zum Reparieren Leerer Schilde als auch zum Entfernen von Beschussmarken verwenden. Zum Wiederherstellen Leerer Schilde darf jedoch nur die Hälfte der erzielten Punkte ausgegeben werden (Bruchteile werden aufgerundet). Bei einem Wurf von 3 kannst du beispielsweise drei Beschussmarken entfernen oder zwei Null-Schilde reparieren und eine Beschussmarke entfernen."
+      ]
+    },
+    {
+      "title": "Göttermaschine",
+      "description": [
+        "Kriegsmaschinen mit mindestens 8 DC unterliegen den Sonderregeln Göttermaschine und Geteiltes Feuer.",
+        "Die Erhabenheit dieser ehrfurchtgebietenden Konstrukte hat ihren Preis: Sollte eine solche Verkörperung der Macht ins Wanken geraten oder zerstört werden, werden die zu ihrer Unterstützung herbeigeeilten Streitkräfte schwer erschüttert.",
+        "Aus diesem Grund erhält jeder befreundete Verband eine Beschussmarke, sobald eine Einheit mit der Sonderregel Göttermaschine aufgerieben wird (auch wenn sie bereits aufgerieben ist und eine Offensive verliert). Wird eine Einheit mit der Sonderregel Göttermaschine zerstört, erhalten alle befreundeten Verbände auf dem Schlachtfeld W3 Beschussmarken.",
+        "Einheiten mit der Sonderregel Göttermaschine sind selbst immun gegen diesen Effekt."
+      ]
+    },
+    {
+      "title": "Geteiltes Feuer",
+      "description": [
+        "Eine Kriegsmaschine mit dieser Sonderregel kann beim Versuch, die Aktion Dauerfeuer oder Vorrücken durchzuführen, Geteiltes Feuer ansagen und erleidet dafür einen Modifikator von -1 auf den Wurf. Ist die Aktion erfolgreich, darf die WE auf bis zu zwei gegnerische Verbände feuern, aber mit jeder einzelnen Waffe höchstens einen Verband als Ziel wählen."
+      ]
+    },
+    {
+      "title": "Stampft sie nieder",
+      "description": [
+        "Eine Kriegsmaschine mit dieser Sonderregel kann beim Versuch, die Aktion Dauerfeuer durchzuführen, Geteiltes Feuer ansagen und erleidet dafür einen Modifikator von -1 auf den Wurf. Unabhängig davon, ob die Aktion gelingt oder der Verband zum Halten gezwungen wird, darf die WE auf bis zu zwei gegnerische Verbände feuern, aber mit jeder einzelnen Waffe höchstens einen Verband als Ziel wählen."
+      ]
+    },
+    {
+      "title": "Adeptus-Custodes",
+      "description": [
+        "Adeptus Custodes sind für ihre Zähigkeit und Tapferkeit bekannt. Dies wird durch folgende Regeln dargestellt:",
+        "* Eine Adeptus-Custodes-Einheit wird erst durch 2 Beschussmarken unterdrückt.",
+        "* Adeptus-Custodes-Verbände werden erst aufgerieben, wenn sie 2 Beschussmarken pro Einheit im Verband haben.",
+        "* Adeptus-Custodes-Verbände zählen bei der Ermittlung des Nahkampfergebnisses nur die Hälfte ihrer Beschussmarken (abgerundet; beachte, dass es keinen Bonus von +1 für keine Beschussmarken gibt, wenn der Verband vor dem Abrunden eine Beschussmarke hatte).",
+        "* Wenn sich ein aufgeriebener Adeptus-Custodes-Verband sammelt, erhält er Beschussmarken in Höhe seiner Einheitenzahl statt der halben Anzahl. Adeptus Custodes mit der Sonderfähigkeit Anführer entfernen 2 statt 1 Beschussmarke.",
+        "* Adeptus-Custodes-Einheiten gelten in jeder Hinsicht als Furchtlos, müssen sich aber weiterhin aufgerieben ausserhalb von 15 cm zu einem gegnerischen Verband bewegen. Gelingt ihnen das nicht, gelten die normalen Regeln für das Niedermachen aufgeriebener, nicht furchtloser Einheiten innerhalb von 15 cm zu einem Gegner; dabei sind die obigen Regeln für Adeptus Custodes und Beschussmarken zu berücksichtigen."
+      ]
+    },
+    {
+      "title": "Hilfstransportschiff",
+      "description": [
+        "Hilfstransportschiff sind Antigravfahrzeuge und gelten für Sichtlinien und Gelände stets als aufgetaucht. Verfügt das Hilfstransportschiff über eine Transportoption, darf es Einheiten wie üblich ein- und ausschiffen. Eingeschiffte Einheiten dürfen einen Schutzwurf ablegen (siehe 1.7.5), wenn das Hilfstransportschiff zerstört wird.",
+        "Hilfstransportschiff blockieren keine Sichtlinie und müssen bei Offensiven stets ihre Antigravfähigkeit einsetzen, um ein Feuergefecht zu erzwingen. Infanterie in Basekontakt mit einem Hilfstransportschiff kann dieses nicht als Deckung nutzen."
+      ]
+    },
+    {
+      "title": "Geisterlords",
+      "description": [
+        "Ein Verband mit einem lebenden Ahnen erleidet keinen Modifikator von -1 auf seinen Aktionstest, wenn er versucht, die Initiative zu behalten."
+      ]
+    },
+    {
+      "title": "Tunneltransporte",
+      "description": [
+        "Verbände mit Einheiten, die sowohl die Sonderregel Transport als auch Tunnelgräber besitzen, müssen das Spiel in Reserve beginnen und dürfen das Schlachtfeld nur durch Tunnelbewegung betreten. Kriegsmaschinen mit diesen Sonderregeln dürfen das Spiel nicht leer beginnen, sondern müssen einen anderen Verband transportieren."
+      ]
+    },
+    {
+      "title": "Schildbrecher",
+      "description": [
+        "Jeder Schadenspunkt eines Treffers mit \u003ci\u003eSchildbrecher\u003c/i\u003e schaltet zwei \u003ci\u003eKraftfelder\u003c/i\u003e, \u003ci\u003eSchattenfelder\u003c/i\u003e oder \u003ci\u003eLeere Schilde\u003c/i\u003e aus. Wird eine Einheit getroffen, der nur noch ein Feld verbleibt, wird dieses ausgeschaltet; überschüssiger Schaden wird nicht übertragen. Treffer mit \u003ci\u003eSchildbrecher\u003c/i\u003e ignorieren außerdem \u003ci\u003eAblenkschilde\u003c/i\u003e und \u003ci\u003eIonenschilde\u003c/i\u003e."
+      ]
+    },
+    {
+      "title": "Tapferkeit",
+      "description": [
+        "Alle Ritterverbände erhalten einen Modifikator von +1 auf ihren Aktionstest, wenn sie eine Offensive durchführen, sowie +1 auf ihre Sammeltests."
+      ]
+    },
+    {
+      "title": "Ritterlichkeit",
+      "description": [
+        "Alle Ritterverbände erhalten einen Modifikator von +1 auf ihren Aktionstest, wenn sie eine Offensive oder einen Eilschritt durchführen, sowie +1 auf ihre Sammeltests."
+      ]
+    },
+    {
+      "title": "Starrköpfig",
+      "description": [
+        "Jeder Verband, in dem sich mindestens eine Einheit mit Starrköpfig befindet, verringert den durch Beschussmarken verursachten Schaden, solange der Verband aufgerieben ist, um eins; verringert die Anzahl zusätzlicher Treffer durch einen verlorenen Nahkampf um eins; benötigt eine zusätzliche Beschussmarke, bevor er aufgerieben wird; und darf bei der Ermittlung der Unterdrückung eine Beschussmarke ignorieren."
+      ]
+    },
+    {
+      "title": "Ionenschild (x)",
+      "description": [
+        "Ritter verwenden Ionenschilde, um Beschuss- und Feuergefechtsangriffe abzulenken. Wird ein Ritter von Fernbeschuss getroffen, darf er statt seines Rüstungswerts einen Schutzwurf mit dem in Klammern angegebenen Wert ablegen.",
+        "Dieser Schutzwurf wird niemals modifiziert und ist von Treffern durch Makrowaffen, Lanzen und Titanenkiller unberührt (jeder Schadenspunkt eines Titanenkiller-Treffers muss einzeln abgewehrt werden; Treffer mit der Sonderregel Versprengen wirken normal). Verfügt die Einheit zusätzlich über Verstärkte Panzerung, darf sie einen misslungenen Schutzwurf mit ihrem Rüstungswert wiederholen, sofern der Treffer nicht von einer Makrowaffe, Lanze oder Titanenkillerwaffe verursacht wurde.",
+        "Ionenschilde dürfen nur gegen Beschuss eingesetzt werden, ausser die Einheit befindet sich in einem Kreuzfeuer, und gegen FF, sofern der Treffer nicht von einer unterstützenden Einheit verursacht wird. Gegen CC-Angriffe dürfen sie nicht eingesetzt werden. Würfle bei Bedarf die CC- und FF-Würfel getrennt, wenn Einheiten mit Ionenschilden angegriffen werden."
+      ]
+    },
+    {
+      "title": "Ionen-Flammenschild",
+      "description": [
+        "Ritter mit <i>Ionen-Flammenschild</i> dürfen ihren Ionenschild auch gegen CC-Angriffe einsetzen."
+      ]
+    },
+    {
+      "title": "Schildbohrer",
+      "description": [
+        "Waffen mit der Sonderregel <i>Schildbohrer</i> ignorieren Deflektorschilde, Ionenschilde, Schpezialfelda, Schattenfelder und Null-Schilde (Schattenfelder bieten weiterhin Deckung gegen Beschuss)."
+      ]
+    },
+    {
+      "title": "Psibolzen",
+      "description": [
+        "Waffen mit der Sonderregel <i>Psibolzen</i> ignorieren Unverwundbar und Regeneration."
+      ]
+    },
+    {
+      "title": "Sturmangriff",
+      "description": [
+        "Die Waffe oder Einheit erhält <i>Erstschlag</i> bei Offensiven, die von ihrem Verband eingeleitet werden."
+      ]
+    },
+    {
+      "title": "Instabil",
+      "description": [
+        "Wird beim Trefferwurf eine natürliche 1 gewürfelt, würfle einen weiteren Würfel. Wird erneut eine natürliche 1 gewürfelt, wird der Träger zerstört."
+      ]
+    },
+    {
+      "title": "Mut, Disziplin und Loyalität",
+      "description": [
+        "Wird die Wiederholung des Oberbefehlshabers für einen Verband mit einem Kommissar oder Ministorum-Priester verwendet, gilt für diesen Verband bei der Wiederholung des Aktionstests ein Initiativwert von 1+."
+      ]
+    },
+    {
+      "title": "Grimmiges Auftreten",
+      "description": [
+        "Valhallan-Verbände mit einem Ministorum-Priester erhalten einen Bonus von +1 auf ihren Aktionstest, wenn sie versuchen, die Aktion Ordnen durchzuführen."
+      ]
+    },
+    {
+      "title": "Gravfallschirme",
+      "description": [
+        "Einheiten mit der Sonderregel <i>Gravfallschirme</i> dürfen innerhalb von 10cm statt der üblichen 5cm von einem <i>Antigrav</i>-Transportfahrzeug aussteigen."
+      ]
+    },
+    {
+      "title": "Himmlischer",
+      "description": [
+        "Alle Einheiten eines Verbands, dem sich ein Himmlischer angeschlossen hat, erhalten Furchtlos. Wird die Einheit mit dem Himmlischen ausgeschaltet, verliert der Verband Furchtlos und erhält 1D3 Beschussmarken."
+      ]
+    },
+    {
+      "title": "Catachan-Befehlshaber",
+      "description": [
+        "Wird die Wiederholung des Oberbefehlshabers für einen Verband mit einem Catachanischen Oberbefehlshaber oder Catachanischen Befehlshaber verwendet, gilt für diesen Verband bei der Wiederholung des Aktionstests ein Initiativwert von 1+."
+      ]
+    },
+    {
+      "title": "Befestigte Stellungen",
+      "description": [
+        "Befestigte Stellungen werden gleichzeitig mit dem Verband aufgestellt, für den sie gekauft wurden. Einheiten dieser Verbände müssen so in den befestigten Stellungen aufgestellt werden, dass kein Platz frei bleibt. Alle Teile einer befestigten Stellung müssen sich innerhalb von 5cm zu einem anderen Teil befinden. Nach dem Aufstellen gelten befestigte Stellungen als Gelände, das die Sichtlinie nicht blockiert, und sie können von beiden Seiten genutzt werden. INF-Einheiten, die innerhalb einer befestigten Stellung Deckung erhalten, dürfen nur durch eine WE so beiseitegeschoben werden, dass sie nicht aus ihrer Stellung bewegt werden.",
+        "\u003cb\u003eGeschützstellung\u003c/b\u003e: Gewährt einer INF-Einheit einen Deckungswurf von 4+ oder einer AV- oder LV-Einheit (aber nicht H-AV) einen Deckungswurf von 5+.",
+        "\u003cb\u003eBunker\u003c/b\u003e: Gewährt bis zu drei INF-Einheiten einen Deckungswurf von 3+ und Verstärkte Heckpanzerung. Gilt für AV und WE als gefährliches Gelände. Bunker dürfen maximal 8 cm x 8 cm gross sein.",
+        "\u003cb\u003eSchützengraben\u003c/b\u003e: Gewährt INF einen Deckungswurf von 4+. Kann eine INF-Einheit pro 4 cm Länge aufnehmen. Gilt für AV als gefährliches Gelände.",
+        "\u003cb\u003eStacheldraht\u003c/b\u003e: Gilt für alle INF als gefährliches Gelände, einschliesslich Einheiten mit der Sonderregel Beritten. Gefährliches Gelände durch Stacheldraht darf nicht mit der Geländegängig-Fähigkeit erneut gewürfelt werden (Einheiten dürfen sich weiterhin vorsichtig durch solches Gelände bewegen). Der Stacheldraht muss so aufgestellt werden, dass jedes Teil ohne Zwischenraum ein anderes Teil derselben Gruppe berührt.",
+        "\u003cb\u003eMinenfelder\u003c/b\u003e: Gelten für alle Einheitentypen als gefährliches Gelände. Tests für gefährliches Gelände durch Minenfelder dürfen nicht mit der Geländegängig-Fähigkeit wiederholt werden (Einheiten dürfen sich weiterhin vorsichtig durch solches Gelände bewegen). Antigravfahrzeuge und Einheiten mit Sprungmodulen, die Minenfelder überqüren, müssen ebenfalls Tests für gefährliches Gelände ablegen. Minenfelder müssen so aufgestellt werden, dass jedes Teil ohne Zwischenraum ein anderes Teil derselben Gruppe berührt."
+      ]
+    },
+    {
+      "title": "Baran-Regimentshauptquartier",
+      "description": [
+        "In Epic-Turnierspielen muss eine Belagerungsmeister-Armee ein Regimentshauptquartier enthalten. Der Gegner gilt als hätte er das Ziel „Brecht Ihren Willen“ erreicht, wenn er diesen Verband oder den teuersten Verband der Armee zerstört (siehe Siegesbedingungen)."
+      ]
+    },
+    {
+      "title": "Luftüberlegenheit",
+      "description": [
+        "Elysianische Fallschirmjäger dürfen beim Aktivierungswurf für Flugzeugverbände eine Beschussmarke ignorieren.",
+        "Elysianische Fallschirmjäger dürfen Flugzeuge ausserdem zu Beginn statt Garnisonen in Feuerbereitschaft in Luftkampfpatrouille (CAP) versetzen. Bis zu zwei Verbände dürfen in Feuerbereitschaft oder CAP beginnen. Auf diese Weise in CAP versetzte Flugzeugverbände folgen den normalen CAP-Regeln, werden aber während der Aufstellungsphase vor dem Spiel aufgestellt."
+      ]
+    },
+    {
+      "title": "Schocktruppen",
+      "description": [
+        "Eine Armee der Elysianischen Fallschirmjäger mit einem Raumschiff darf Verbände, die in Valkyries, Vendettas oder Sky Talons transportiert werden, im Raumschiff aufstellen. Ein Kreuzer der Lunar-Klasse kann einen Verband aufnehmen, ein Schlachtschiff der Emperor-Klasse bis zu zwei Verbände. Alle Transportfahrzeuge eines im Raumschiff aufgestellten Verbands erhalten die Sonderregel \u003ci\u003ePlanetfall\u003c/i\u003e. Für jedes Transportfahrzeug wird einzeln auf Abweichung gewürfelt.",
+        "Vor jedem Spiel kann der Spieler der Imperialen Armee, nachdem die gegnerische Armee bekannt ist, aber bevor Missionsziele platziert werden, auswählen, welche Verbände gegebenenfalls im Raumschiff aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Belagerungsspezialisten",
+      "description": [
+        "Einheiten dürfen misslungene Tests für gefährliches Gelände wiederholen, wenn sie sich durch Minenfelder oder Stacheldraht auf der eigenen Spielfeldhälfte bewegen. Einheiten mit \u003ci\u003eGeländegängig\u003c/i\u003e dürfen dies gegen Minenfelder oder Stacheldraht auf der gegnerischen Spielfeldhälfte tun.",
+        "Zusätzlich dürfen bis zu drei garnisonierte Verbände statt der üblichen zwei in Feuerbereitschaft beginnen."
+      ]
+    },
+    {
+      "title": "Belagerungsmeister",
+      "description": [
+        "Einheiten dürfen misslungene Tests für gefährliches Gelände wiederholen, wenn sie sich durch Minenfelder oder Stacheldraht auf der eigenen Spielfeldhälfte bewegen. Einheiten mit \u003ci\u003eGeländegängig\u003c/i\u003e dürfen dies gegen Minenfelder oder Stacheldraht auf der gegnerischen Spielfeldhälfte tun.",
+        "Zusätzlich dürfen bis zu drei garnisonierte Verbände statt der üblichen zwei in Feuerbereitschaft beginnen, und bis zu zwei garnisonierte Verbände müssen keine Einheit innerhalb von 15 cm zu einem Missionsziel auf der eigenen Spielfeldhälfte haben."
+      ]
+    },
+    {
+      "title": "Tunnelgräber",
+      "description": [
+        "Tunnelbohrer dürfen vor Schlachtbeginn gleichzeitig mit den Raumschiffen aufgestellt werden, sodass sie die eigene Spielfeldkante berühren (siehe 4.3.1). Zu diesem Zeitpunkt müssen auch alle in ihnen transportierten Einheiten beiseitegestellt werden. Notiere geheim den Ort, an dem der Tunnelbohrer auftauchen soll, wie auch die Koordinaten einer Landezone (siehe 4.3.1). Notiere ausserdem geheim die Runde, in der er auftauchen wird. Soll er innerhalb der Aufstellungszone und bis zu 30 cm von einer Spielfeldkante entfernt auftauchen, kann er ab der ersten Runde eintreffen. Liegt der Auftauchpunkt innerhalb der Aufstellungszone und bis zu 65 cm von einer Spielfeldkante entfernt, kann er in Runde zwei erscheinen. Ab der dritten Runde kann er an jeder Stelle des Schlachtfelds erscheinen.",
+        "Stelle die Tunnelbohrer zu Beginn der angegebenen Runde am notierten Ort auf, bevor bestimmt wird, wer den Strategiewurf gewinnt. Das Auftauchen gilt nicht als Bewegung und löst daher kein gegnerisches Feuerbereitschaftsfeuer aus. Wäre ein Tunnelbohrer auf Gelände aufgetaucht, das für ihn unpassierbar ist, unter einer befreundeten Einheit oder in einer gegnerischen Kontrollzone, wird angenommen, dass seine Bordsensoren ihn zu einem anderen Einstiegspunkt umleiten. Bewege die Einheit zum nächstgelegenen Ort, an dem sie auftauchen kann.",
+        "Bei Verbänden mit mehreren Tunnelbohrern muss nur ein gemeinsamer Auftauchort notiert werden. Stelle die erste Tunnelbohrer-Einheit dort auf. Alle weiteren Tunnelbohrer müssen innerhalb von 5cm zu einem bereits aufgestellten Tunnelbohrer und vollständig innerhalb eines Radius von 15 cm um die ursprünglichen Auftauchkoordinaten aufgestellt werden; dieser Punkt darf ausserhalb der Bereiche liegen, in denen Tunnelbohrer in dieser Runde auftauchen können. Beim Auftauchen müssen Tunnelbohrer keine Würfe für gefährliches oder schwieriges Gelände ablegen. Nachdem alle Tunnelbohrer aufgestellt wurden, dürfen transportierte Einheiten sofort aussteigen und bei einem Auftauchen in Runde zwei auch auf der gegnerischen Spielfeldhälfte.",
+        "Das Aussteigen löst wie üblich Feuerbereitschaftsfeuer aus. Tunnelbohrer und alle von ihnen transportierten Einheiten dürfen in der Runde, in der sie erscheinen, eine Aktion durchführen."
+      ]
+    },
+    {
+      "title": "Planetare Selbstlandung",
+      "description": [
+        "Selbstständige Planetare Landung wird genau wie Planetare Landung geplant (siehe 4.4). Sowohl die Ankunftsrunde als auch der Landeort werden festgelegt. Da diese Einheiten viel kleiner als Raumschiffe im Orbit sind, dürfen sie jedoch in derselben Runde eintreffen, in der sich ein anderes Raumschiff im Orbit befindet. In der festgelegten Runde wird der Verband mit Selbstständiger Planetarer Landung wie ein Raumschiff in der normalen Aktivierungsreihenfolge aktiviert. Bestimme die Aktion des Verbands und würfle zur Aktivierung. Misslingt die Aktivierung, verzögert sich seine Ankunft bis zur nächsten Runde. Gelingt sie, stelle den Verband in der geplanten Landezone auf und ermittle wie bei einer normalen Planetaren Landung die Abweichung gemäß 4.4; eingeschiffte Einheiten dürfen bis zu 5cm entfernt aussteigen. anschließend wird die Aktion des Verbands in jeder Hinsicht normal fortgesetzt. Der Verband erhält also zu Beginn seiner Aktion die „freie Bewegung“ durch die Platzierung bei der Planetaren Landung, wird ansonsten aber normal aktiviert. Hinweis: Die Aktion wird bei der Aktivierung und vor der Abweichung gewählt. Wähle sie sorgfältig, denn ein ungünstiger Abweichungswurf kann manche Aktionen wirkungslos machen."
+      ]
+    },
+    {
+      "title": "Treu",
+      "description": [
+        "Wenn eine Offensive zu einem Nahkampf führt (d. h. mindestens eine Einheit sich innerhalb von 15 cm zu einer gegnerischen Einheit befindet), erhalten Einheiten mit der Sonderregel \u003ci\u003eTreu\u003c/i\u003e Furchtlos, und der Verband zählt, als enthalte er einen zusätzlichen Charakter mit der Sonderregel \u003ci\u003eInspirierend\u003c/i\u003e. Diese Effekte halten bis zum Ende der aktuellen Runde an, gehen jedoch verloren, wenn alle Einheiten mit \u003ci\u003eTreu\u003c/i\u003e im Verband zerstört werden."
+      ]
+    },
+    {
+      "title": "Bionik",
+      "description": [
+        "Die umfangreichen bionischen Modifikationen der Iron Hands und Iron Krieger erhöhen ihre Widerstandsfähigkeit gegen körperliche Verletzungen. Charaktere mit der Sonderregel Bionik erhöhen den Rüstungswert ihrer Einheit auf 3+, wenn sie einer INF-Einheit hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Reparaturen auf dem Schlachtfeld",
+      "description": [
+        "Solange ein Verband eine Einheit mit der Sonderfähigkeit \u003ci\u003eReparaturen auf dem Schlachtfeld\u003c/i\u003e enthält, erhalten alle gepanzerten Fahrzeugeinheiten des Verbands Unverwundbar."
+      ]
+    },
+    {
+      "title": "Erweiterte Befehlsreichweite",
+      "description": [
+        "Verbände mit mindestens einer Einheit mit der Fähigkeit \u003ci\u003eExtended Command\u003c/i\u003e vergrössern die Reichweite, innerhalb derer Kommandeure in ihrem Verband andere Verbände bei einem gemeinsamen Angriff zum Folgen auffordern können, von 5cm auf 15 cm (siehe 2.1.2)."
+      ]
+    },
+    {
+      "title": "Sie kennen keine Furcht",
+      "description": [
+        "Space Marines sind für ihre Zähigkeit und Tapferkeit bekannt. Dies wird durch folgende Regeln dargestellt:",
+        "\u003cul\u003e\u003cli\u003eEs sind 2 Beschussmarken erforderlich, um eine Space-Marine-Einheit zu unterdrücken oder eine Einheit in einem aufgeriebenen Verband auszuschalten (überschüssige Beschussmarken werden ignoriert).\u003c/li\u003e\u003cli\u003eSpace-Marine-Verbände werden erst aufgerieben, wenn sie 2 Beschussmarken pro Einheit im Verband haben.\u003c/li\u003e\u003cli\u003eSpace-Marine-Verbände zählen bei der Ermittlung des Nahkampfergebnisses nur die Hälfte ihrer Beschussmarken (abgerundet, mindestens jedoch eine). Die zusätzlichen Treffer, die ein Space-Marine-Verband durch einen verlorenen Nahkampf erleidet, werden halbiert und zugunsten der Space Marines abgerundet.\u003c/li\u003e\u003cli\u003eWenn sich ein aufgeriebener Space-Marine-Verband sammelt, erhält er Beschussmarken in Höhe seiner Einheitenzahl statt der halben Anzahl.\u003c/li\u003e\u003c/ul\u003e"
+      ]
+    },
+    {
+      "title": "Space-Marine-Transporter",
+      "description": [
+        "Space Marines sind eine sehr bewegliche Armee. Daher sind in den Punktkosten eines Kontingents normalerweise genügend Rhino-Transportfahrzeuge enthalten, um es und alle gekauften Aufwertungen zu transportieren. Bestimme die benötigte Anzahl Rhinos, nachdem alle Aufwertungen gekauft wurden. Es werden immer nur so viele Rhinos mitgeführt, wie zum Transport des Verbands mindestens erforderlich sind; zusätzliche Fahrzeuge als Ersatz für Verluste sind nicht erlaubt.",
+        "Beachte, dass viele Verbände keine Rhinos erhalten, meist weil sie nicht hineinpassen. Kontingente mit Rhinos sind im Einheitenabschnitt des Armeeorganisationsplan mit „plus Transport“ gekennzeichnet.",
+        "Du musst keine Rhinos mitnehmen, wenn du das nicht möchtest. Du kannst den Verband stattdessen zu Fuß einsetzen, zum Beispiel als Garnison, oder ihn in einem Thunderhawk transportieren.",
+        "außerdem kannst du die Rhinos eines Kontingents durch Landungskapseln ersetzen. In diesem Fall kommt das Kontingent gemäß den Regeln für Planetare Landung (siehe Planetare Landung) in einer Landungskapsel ins Spiel. Beachte, dass du dafür auch einen Space-Marine-Schlachtkreuzer oder eine Kampfbarge benötigst, von dem aus die Landungskapseln eingesetzt werden.",
+        "Vor jedem Spiel kann der Space-Marine-Spieler, nachdem die gegnerische Armee bekannt ist, aber bevor Missionsziele platziert werden, auswählen, welche Verbände mit der Aufwertung „plus Transport“ in Rhinos, Landungskapseln oder zu Fuß aufgestellt werden. Enthält ein Verband Einheiten, die nicht in Landungskapseln aufgestellt werden können, darf diese Option nicht ausgewählt werden."
+      ]
+    },
+    {
+      "title": "Elysianische Transporter",
+      "description": [
+        "Die Elysianer sind eine sehr bewegliche Armee. Daher enthalten die Punktkosten eines Verbands normalerweise genügend Transportfahrzeuge, um ihn und alle gekauften Aufwertungen zu transportieren. Jeder Verband mit dem Vermerk \u003ci\u003eplus Transport\u003c/i\u003e muss genügend Valkyries oder Vendettas enthalten, um den Verband zu transportieren. Diese Transportfahrzeuge dürfen nicht zurückgelassen werden, um beispielsweise dem Verband als Garnison zu dienen. Bestimme die benötigte Anzahl Valkyries/Vendettas, nachdem alle Aufwertungen gekauft wurden. Es werden immer nur so viele Fahrzeuge mitgeführt, wie zum Transport des Verbands mindestens erforderlich sind; zusätzliche Fahrzeuge als Ersatz für Verluste sind nicht erlaubt."
+      ]
+    },
+    {
+      "title": "Grey-Knights-Transporter",
+      "description": [
+        "Grey-Knights-Verbände mit dem Vermerk „plus Transport“ dürfen statt normaler Rhinos Grey-Knights-Rhinos erhalten."
+      ]
+    },
+    {
+      "title": "Imperial-Fists-Transporter",
+      "description": [
+        "Die Imperial Fists sind eine sehr bewegliche Armee. Daher sind in den Punktkosten eines Kontingents normalerweise genügend Rhino-Transportfahrzeuge enthalten, um es und alle gekauften Aufwertungen zu transportieren. Bestimme die benötigte Anzahl Rhinos, nachdem alle Aufwertungen gekauft wurden. Es werden immer nur so viele Rhinos mitgeführt, wie zum Transport des Verbands mindestens erforderlich sind; zusätzliche Fahrzeuge als Ersatz für Verluste sind nicht erlaubt.",
+        "Beachte, dass viele Verbände keine Rhinos erhalten, meist weil sie nicht hineinpassen. Kontingente mit Rhinos sind im Einheitenabschnitt des Armeeorganisationsplan mit „plus Transport“ gekennzeichnet.",
+        "Du musst keine Rhinos mitnehmen, wenn du das nicht möchtest. Du kannst den Verband stattdessen zu Fuß einsetzen, zum Beispiel als Garnison.",
+        "Vor jedem Spiel kann der Spieler der Imperial Fists, nachdem die gegnerische Armee bekannt ist, aber bevor Missionsziele platziert werden, auswählen, welche Verbände mit der Aufwertung „plus Transport“ in Rhinos oder zu Fuß aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Im Sattel geboren",
+      "description": [
+        "Die White Scars sind Meister blitzschneller Störangriffe und lassen dem Gegner nie zu, einen entscheidenden oder statischen Kampf zu erzwingen. Einheiten mit \u003ci\u003eIm Sattel geboren\u003c/i\u003e dürfen sich bis zu 15 cm statt der üblichen 5cm neu formieren."
+      ]
+    },
+    {
+      "title": "Windflink",
+      "description": [
+        "Einheiten mit \u003ci\u003eWindflink\u003c/i\u003e ignorieren den Trefferwurfmodifikator von -1 beim Schiessen während eines Eilschritts, erhalten beim Dauerfeuer jedoch nicht den Trefferwurfbonus von +1."
+      ]
+    },
+    {
+      "title": "White-Scars-Transporter",
+      "description": [
+        "Die White Scars sind eine außergewöhnlich bewegliche Armee. Daher sind in den Punktkosten eines Kontingents normalerweise genügend Transportfahrzeuge enthalten, um es und alle gekauften Aufwertungen zu transportieren. Es werden immer nur so viele Fahrzeuge mitgeführt, wie zum Transport des Verbands mindestens erforderlich sind; zusätzliche Fahrzeuge als Ersatz für Verluste sind nicht erlaubt.",
+        "Beachte, dass viele Verbände keine Transportfahrzeuge erhalten, meist weil sie nicht hineinpassen. Kontingente mit Fahrzeugen sind mit „plus Transport“ gekennzeichnet. Kontingente der White Scars müssen ihre Transportfahrzeuge mitnehmen. Du kannst sie nicht zurücklassen, um die Einheit als Garnison einzusetzen, zu teleportieren oder in einem Thunderhawk aufzustellen.",
+        "außerdem kannst du die Rhinos eines Kontingents durch Landungskapseln ersetzen. In diesem Fall kommt das Kontingent gemäß den Regeln für Planetare Landung (siehe Planetare Landung) in einer Landungskapsel ins Spiel. Beachte, dass du dafür auch einen Space-Marine-Schlachtkreuzer oder eine Kampfbarge benötigst, von dem aus die Landungskapseln eingesetzt werden.",
+        "Vor jedem Spiel kann der Spieler der White Scars, nachdem die gegnerische Armee bekannt ist, aber bevor Missionsziele platziert werden, auswählen, welche Verbände mit der Aufwertung „plus Transport“ in Rhinos oder Landungskapseln aufgestellt werden. Enthält ein Verband Einheiten, die nicht in Landungskapseln aufgestellt werden können, darf diese Option nicht ausgewählt werden."
+      ]
+    },
+    {
+      "title": "Navis Nobilite",
+      "description": [
+        "Die Raumschiffe der Grey Knights gehören zu den schnellsten und am besten gesteuerten Schiffen der Galaxis. Wurde ein Grey-Knights-Schlachtkreuzer gekauft, gilt für den Spieler der Blood Ravens bei der Wahl der Runde, in der das Raumschiff das Schlachtfeld überfliegt, ein Strategiewert von 6."
+      ]
+    },
+    {
+      "title": "Ad-hoc-Kontingente",
+      "description": [
+        "Das Ordo Xenos musste aus der Notwendigkeit heraus zum Experten für Improvisation werden, rasch lokale Verbündete sammeln und sich an die ständig wechselnden Fähigkeiten und Mitglieder der Deathwatch anpassen. Deshalb dürfen Verbände mit Befehlshaber die Fähigkeit auch einsetzen, wenn ihr eigener oder ein anderer befreundeter Verband innerhalb von 5cm gegen einen Angriff verteidigt; erkläre beide Verbände dabei als vermischt (siehe 1.12.10). Nach der Erklärung als vermischt folgen die Verbände des Commanders genau denselben Regeln, als hätte der Gegner sie als vermischt erklärt. Beachte: Erklärt ein Spieler die Verbände als vermischt, gelten sie als vermischt."
+      ]
+    },
+    {
+      "title": "Schwingen des Himmelsengels",
+      "description": [
+        "Alle Deathwatch-Kontingente müssen das Spiel in Reserve beginnen und entweder in einem Dark-Hunter-Klasse-Zerstörer, einem Corvus-Blackstar-Landungsschiff oder einem Deathwatch-Thunderhawk-Transporter eingeschifft sein.",
+        "Gegen Corvus-Blackstar-Landungsschiffe erleiden alle Flugabwehrschüsse zusätzlich einen Trefferwurfmodifikator von -1."
+      ]
+    },
+    {
+      "title": "Abstieg der Engel",
+      "description": [
+        "Einheiten eines Verbands mit Stormravens müssen bei Anwendung der Sonderregel Planetare Landung keinen Abweichungswurf ablegen. Stelle den ersten Stormraven innerhalb von 15 cm zu den vorher festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu diesem Modell und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Lucifer-Muster-Maschine",
+      "description": [
+        "Einheiten mit der Sonderregel Lucifer-Muster-Maschine erhalten bei einer Offensive zusätzlich 5cm Geschwindigkeit."
+      ]
+    },
+    {
+      "title": "Blood-Angels-Rhinos",
+      "description": [
+        "Blood-Angels-Verbände mit „plus Transport“ dürfen statt normaler Rhinos Blood-Angels-Rhinos erhalten."
+      ]
+    },
+    {
+      "title": "Rudelmentalität",
+      "description": [
+        "Space-Wolves-Rudel zählen als hätten sie einen Charakter mit der Sonderregel \u003ci\u003eInspirierend\u003c/i\u003e, wenn sie einen Nahkampf einleiten, in dem ein anderer Verband mit \u003ci\u003eRudelmentalität\u003c/i\u003e sie unterstützt, oder wenn sie einen gemeinsamen Angriff durchführen, an dem mehr als ein Verband mit \u003ci\u003eRudelmentalität\u003c/i\u003e beteiligt ist. Durch \u003ci\u003eRudelmentalität\u003c/i\u003e erhältst du niemals mehr als einen Bonus durch \u003ci\u003eInspirierend\u003c/i\u003e, selbst wenn du sowohl einen gemeinsamen Angriff als auch unterstützende Verbände hast oder mehrere Verbände dich unterstützen."
+      ]
+    },
+    {
+      "title": "Apokalyptisches Sperrfeuer",
+      "description": [
+        "Verwendet statt der normalen Schablone die Orbitale-Sperrfeuer-Schablone."
+      ]
+    },
+    {
+      "title": "Unabhängig",
+      "description": [
+        "Die Sonderregel Unabhängig erlaubt einem Kriegsmaschinenverband, in jeder Hinsicht wie zwei unabhängige Kriegsmaschinen zu agieren, auch bei der Bestimmung des BTS der Armee (jede Einheit gilt als eigener Verband und ist die Hälfte des ursprünglichen Verbandswerts einschliesslich Aufwertungen wert). Wird eine der beiden Kriegsmaschinen zerstört, erhält die überlebende sofort eine Beschussmarke.",
+        ""
+      ]
+    },
+    {
+      "title": "Teleportieren-Peilsender",
+      "description": [
+        "Einheiten, die sich innerhalb von 15 cm zu einer befreundeten, nicht aufgeriebenen Einheit mit Teleportieren-Peilsender teleportieren (ausser teleportierende Verbände), dürfen beim Test auf eine Teleportieren-Fehlfunktion gewürfelte Einsen wiederholen.",
+        "Zusätzlich dürfen Verbände, die ausschliesslich aus Modellen mit Teleportieren bestehen, in einem gekauften Raumschiff aufgestellt werden. Von dort können sie entweder normal teleportieren oder ihren Teleportieren mit der Aktivierung des Raumschiffs koordinieren.",
+        "Mit der Aktivierung eines Raumschiffs koordinierte Teleportierens finden statt, nachdem das Orbitale Sperrfeuer, Punktziel-Angriffe und alle Ereignisse im Zusammenhang mit der Planetaren Landung von Verbänden abgehandelt wurden. Alle diese Teleportierens gelten als gleichzeitig und nicht nacheinander. Der gesamte Verband muss innerhalb von 15 cm zu einer Einheit mit der Sonderregel Teleportieren-Peilsender aufgestellt werden. Ist er dazu nicht in der Lage oder nicht bereit, muss er warten und in einer späteren Runde normal teleportieren."
+      ]
+    },
+    {
+      "title": "Ehrengarde",
+      "description": [
+        "Einheiten mit der Sonderregel Ehrengarde sind Furchtlos, solange ihr Verband einen Charakter mit der Sonderregel Oberbefehlshaber enthält. Befinden sie sich im selben Verband, darf der Oberbefehlshaber einer Einheit mit dieser Sonderregel hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Land Speeder-Eskorte",
+      "description": [
+        "Alle Arten von Land Speeders, die als Teil der Aufwertung „Land Speeder der Raven Guard“ gekauft werden, erhalten die Sonderregel \u003ci\u003ePlanetare Landung\u003c/i\u003e (würfle für den gesamten Verband nur einmal auf Abweichung). außerdem dürfen solche Land Speeders das Spiel in einem Lufttransporter eingeschifft beginnen, ohne Transportkapazität zu belegen, und gelten beim Aussteigen als hätten sie die Sonderregel \u003ci\u003eSprungmodule\u003c/i\u003e. Sobald sie auf dem Schlachtfeld sind, können sie nicht erneut aufgenommen werden."
+      ]
+    },
+    {
+      "title": "Expertenaufklärung",
+      "description": [
+        "Befreundete Raven-Guard-Verbände, die durch \u003ci\u003ePlanetare Landung\u003c/i\u003e das Schlachtfeld betreten und innerhalb von 30 cm zu einer Einheit mit der Sonderregel \u003ci\u003eExpertenaufklärung\u003c/i\u003e aufgestellt werden, müssen nicht auf Abweichung würfeln. Befreundete Raven-Guard-Verbände, die durch \u003ci\u003eTeleportieren\u003c/i\u003e das Schlachtfeld betreten und innerhalb von 15 cm zu einer Einheit mit der Sonderregel \u003ci\u003eExpertenaufklärung\u003c/i\u003e aufgestellt werden, dürfen ausserdem beim Test auf eine Teleportieren-Fehlfunktion gewürfelte Einsen wiederholen."
+      ]
+    },
+    {
+      "title": "Flink zu Fuß",
+      "description": [
+        "Drukhari- und Harlekin-Verbände erhalten einen Bonus von +1, wenn sie versuchen, einen Marsch durchzuführen. Außerdem dürfen sie nach einem Marsch weiterhin Unterstützungsfeuer in Nahkämpfen leisten, einen Kreuzfeuerbonus beanspruchen und Flugabwehrfeuer abgeben."
+      ]
+    },
+    {
+      "title": "Kabal des Schwarzen Herzens",
+      "description": [
+        "Die Armee muss einen Black-Heart-Verband enthalten. Der Gegner gilt als hätte er das Siegesziel „Brecht Ihren Willen“ (BTS) erreicht, wenn er diesen Verband oder den teuersten Verband der Armee zerstört."
+      ]
+    },
+    {
+      "title": "Wraithkind-Gefolge",
+      "description": [
+        "Die Armee muss einen Wraithkind-Verband enthalten. Der Gegner gilt als hätte er das Siegesziel „Brecht Ihren Willen“ (BTS) erreicht, wenn er diesen Verband und/oder den teuersten Verband der Armee zerstört."
+      ]
+    },
+    {
+      "title": "Netzportal",
+      "description": [
+        "Eine Armee mit Netzportals darf bis zu drei Verbände in Reserve halten; Infanterieeinheiten dieser Reserveverbände dürfen als in ihren Transportern eingeschifft gelten. Diese Verbände können während des Spiels aktiviert werden und durch ein befreundetes Netzportal auf das Spielfeld ziehen. Ihre erste Bewegung wird von einem beliebigen Punkt innerhalb des vom Portal eingenommenen Bereichs aus gemessen.",
+        "Ein Netzportal darf nur einmal pro Runde verwendet werden. Misslingt einem Verband die Aktivierung beim Versuch, durch ein Netzportal einzutreten, darf er nur eine Halten-Aktion ausserhalb des Spielfelds durchführen und sich sammeln. Nur INF, LV oder AV mit der Fähigkeit Geländegängig dürfen Netzportals verwenden. H-AV-Einheiten dürfen Portale nur verwenden, wenn ausdrücklich anders angegeben.",
+        "Jedes Mal, wenn ein Verband ein zerstörtes Portal verwendet, erhält er eine Beschussmarke.",
+        "Befindet sich ein Netzportal in einer gegnerischen Kontrollzone, muss jeder hindurchkommende Verband den gegnerischen Verband bzw. die gegnerischen Verbände offensiv angreifen. Befindet sich das Portal zudem direkt unter einem gegnerischen Verband, muss der eintretende Verband so viel Basekontakt wie möglich herstellen."
+      ]
+    },
+    {
+      "title": "Großes Netzportal",
+      "description": [
+        "Grosse Netzportals folgen allen Regeln für normale Netzportals. AV-Einheiten benötigen jedoch nicht Geländegängig, um das Schlachtfeld durch ein solches Portal zu betreten."
+      ]
+    },
+    {
+      "title": "Schattenfelder",
+      "description": [
+        "Jedes Shadowfield verhindert automatisch einen Schadenspunkt und fällt anschliessend aus. Für durch Schattenfelderverhinderten Schaden werden keine Rüstungswürfe abgelegt und keine Beschussmarken zugeteilt. Sobald alle Schattenfeldereines Fahrzeugs oder einer Kriegsmaschine ausgeschaltet sind, kann es normal beschädigt werden und für erzielte Treffer dürfen Schutzwürfe abgelegt werden. Treffer im Nahkampf ignorieren Schattenfelder; Einheiten, die ihren Feuergefechtswert verwenden, müssen jedoch erst alle Schattenfelderausschalten, bevor sie Schaden verursachen können. Solange ein Fahrzeug oder eine Kriegsmaschine mindestens ein funktionierendes Shadowfield hat, gilt es als verborgen (1.8.2); jeder Beschuss einschliesslich Flugabwehr ohne die Fähigkeit Deckung ignorieren erleidet dadurch einen Trefferwurfmodifikator von -1."
+      ]
+    },
+    {
+      "title": "Seher von Ulthwé",
+      "description": [
+        "Seher von Ulthwé – Armeen des Weltenschiffs Ulthwé gelten in jeder Hinsicht als hätten sie einen Strategiewert von 5, ausser beim Strategiewurf zu Beginn einer Runde."
+      ]
+    },
+    {
+      "title": "Ewiger Drache",
+      "description": [
+        "Der Ewiger Drache muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einer Weltenliedsänger-Einheit auf.",
+        "Der Ewiger Drache gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Ewiger Drache nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Angeborene Beweglichkeit",
+      "description": [
+        "Berittene INF der Exoditen müssen keine Tests für gefährliches oder schwieriges Gelände ablegen, ausser diese werden durch befestigte Stellungen wie Minenfelder, Stacheldraht oder besondere Geländestücke verursacht."
+      ]
+    },
+    {
+      "title": "Avatar (Biel-Tan)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einer Runenprophet-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Lugganath)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einem Geisterseher-Charakter oder einer Runenprophet-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Saim-Hann)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einer Runenprophet- oder berittenen Runenprophet-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Iyanden)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einem Geisterseher-Charakter oder einer Phantomseher-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Fir Lirithion)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einem Geisterseher-Charakter auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Ulthwé)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einem Seher-Rat oder einer Runenprophet-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Yme-Loc)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einer Runenprophet-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Avatar (Mymeara)",
+      "description": [
+        "Der Avatar muss das Spiel in Reserve beginnen. Stelle ihn in der Strategiephase einer beliebigen Runde vor dem Strategiewurf innerhalb von 15 cm zu einer Runenprophet-Einheit auf.",
+        "Der Avatar gilt als eigener Verband und darf nur auf diese Weise ins Spiel kommen.",
+        "Solange er sich auf dem Spielfeld befindet, darf der Avatar nur um Missionsziele konkurrieren. Entferne ihn in der Endphase der Runde, in der er eingetroffen ist, bevor Verbände sich sammeln oder Missionsziele gezählt werden. Nach dem Entfernen kann er nicht zurückkehren."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Kabal des Schwarzen Herzens)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Mandraks Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Saim-Hann)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Kampfläufer und Saim-Hann-Hornets Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Iyanden)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Eldar-Ranger und Kampfläufer Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Biel-Tan)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Eldar-Ranger und Kampfläufer Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Ulthwé)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Eldar-Ranger und Kampfläufer Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Mymeara)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Korsaren-Geisterläufer, Korsaren-Wespen und Hornets als Garnison aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Lugganath)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Korsaren-Geisterläufer und Korsaren-Wespen Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Yme-Loc)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Hornets Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Fir Lirithion)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen keine Verbände als Garnison aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Schwarzes Herz)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Mandraks Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Darf keine Garnison bilden (Wraithkind)",
+      "description": [
+        "Im Epic-Turnierszenario dürfen nur Mandraks Missionsziele als Garnison besetzen."
+      ]
+    },
+    {
+      "title": "Weitsicht",
+      "description": [
+        "Eldar-Verbände mit einer Einheit, die Weitsicht besitzt, dürfen den Modifikator von -1 auf Aktionstestwürfe ignorieren, wenn sie versuchen, die Initiative zu behalten.",
+        "Zusätzlich darf der Eldar-Spieler einmal pro Runde versuchen, die Initiative zweimal hintereinander zu behalten (d. h. der Eldar-Spieler kann drei Aktivierungen hintereinander durchführen). Jeder Eldar-Verband darf ausgewählt werden, auch ohne eine Einheit mit Weitsicht, aber mindestens eine Einheit mit Weitsicht muss sich auf dem Schlachtfeld befinden.",
+        "Der ausgewählte Verband muss weiterhin einen Aktionstest mit einem Modifikator von -1 ablegen, ausser er enthält eine Einheit mit Weitsicht."
+      ]
+    },
+    {
+      "title": "Schlag und Flucht",
+      "description": [
+        "Eldar-, Drukhari- und Harlekin-Verbände, die Vorrücken oder einen Eilschritt durchführen, dürfen vor oder nach jeder Bewegung Schießen, aber insgesamt weiterhin nur einmal. Entscheidet sich der Verband für einen Eilschritt, gilt der Trefferwurfmodifikator von -1 auch dann, wenn vor der Bewegung geschossen wird. außerdem dürfen Verbände, die einen Nahkampf gewinnen, sich bis zu ihrem Geschwindigkeitswert statt der üblichen 5cm neu formieren."
+      ]
+    },
+    {
+      "title": "Holofelder (x)",
+      "description": [
+        "Holofelder verleihen einen Schutzwurf mit dem Wert \u003ci\u003ex\u003c/i\u003e. Dieser Schutzwurf darf immer abgelegt werden, auch gegen Waffen mit den Fähigkeiten Makrowaffe oder Titanen-Killer (TK).",
+        "Hat eine Einheit Verstärkte Panzerung, darf sie ihren Wiederholungswurf verwenden, ausser bei Treffern durch Lanze-, Makrowaffe- oder Titan-Killer-Angriffe; der Wiederholungswurf verwendet dann jedoch den Rüstungswert der Einheit. Durch Holofelder abgewehrte Treffer erzeugen keine Beschussmarken, auch wenn sie Versprengen besitzen.",
+        "Gegen Titan-Killer-Angriffe, die zusätzlichen Schaden verursachen, wird nur ein Holofeld-Schutzwurf abgelegt. Ist er erfolgreich, erleidet die Einheit keinen Schaden; misslingt er, erleidet sie den gesamten Schaden.",
+        "Holofeld-Schutzwürfe können durch Modifikatoren wie den Schutzwurfmodifikator von -1 durch Kreuzfeuer oder Waffen mit der Fähigkeit Scharfschütze verschlechtert werden. Hat eine Einheit mit Holofeld auch einen Schutzwurf durch Deckung, muss sie wählen, welchen Schutzwurf sie verwendet."
+      ]
+    },
+    {
+      "title": "Lanze",
+      "description": [
+        "Einheiten mit Verstärkter Panzerung dürfen misslungene Rüstungswürfe nicht wiederholen, wenn sie von einer Waffe mit der Fähigkeit Lanze getroffen werden."
+      ]
+    },
+    {
+      "title": "Unabhängige Zwillinge",
+      "description": [
+        "Die Sonderregel Unabhängige Zwillinge erlaubt einem Kriegsmaschinenverband, in jeder Hinsicht als zwei unabhängige Kriegsmaschinen zu agieren, auch bei der Bestimmung des BTS der Armee (jede Einheit gilt als eigener Verband und ist die Hälfte des ursprünglichen Verbandspunkts einschliesslich Aufwertungen wert). Wird eine der beiden Kriegsmaschinen zerstört, erhält die überlebende sofort eine Beschussmarke.",
+        "außerdem dürfen Unabhängige Zwillinge die Befehlshaber-Fähigkeit gemeinsam mit ihrem Zwilling einsetzen. In diesem Fall hat die Befehlshaber-Fähigkeit unbegrenzte statt der normalen Reichweite von 5cm."
+      ]
+    },
+    {
+      "title": "Cegorach, der Lachende Gott",
+      "description": [
+        "Solange sich mindestens ein Solitär auf dem Schlachtfeld befindet, gelten alle gegnerischen Verbände ohne Harlekine bei Sammeltests in der Endphase als innerhalb von 30 cm zu einer gegnerischen Einheit."
+      ]
+    },
+    {
+      "title": "Schattensicht",
+      "description": [
+        "Einheiten, die sich innerhalb von 15 cm zu einer befreundeten, nicht aufgeriebenen Einheit mit Schattensicht teleportieren, dürfen beim Test auf eine Teleportieren-Fehlfunktion gewürfelte Einsen wiederholen. Dies gilt auch, wenn die Einheit mit Schattensicht selbst teleportiert."
+      ]
+    },
+    {
+      "title": "Meister des Netzportals",
+      "description": [
+        "Harlekine sind die unvergleichlichen Meister des Webway. Sie müssen das Spiel in Reserve beginnen und dürfen das Schlachtfeld nur durch Teleportation oder ein Wraithgate betreten. Harlekine dürfen beim Test auf eine Teleportieren-Fehlfunktion gewürfelte Einsen wiederholen."
+      ]
+    },
+    {
+      "title": "Tanz der Schatten",
+      "description": [
+        "Alle FF-Angriffe gegen einen Verband mit einem Schattenseher erleiden einen zusätzlichen Trefferwurfmodifikator von -1."
+      ]
+    },
+    {
+      "title": "Beschwörung",
+      "description": [
+        "Jeder Verband mit einer Einheit mit Dämonenpakt oder der Verbandsaufwertung Dämonenpakt darf Dämonen beschwören. Jeder Dämonenpakt der Armee stellt zu Beginn der Schlacht automatisch einen Punkt für den Pool der niederen Dämonen bereit (der Spieler darf zusätzliche Punkte für niedere und/oder Große Dämonenpools kaufen).",
+        "Dämonenpools sind nicht fraktionsgebunden. Die Grösse der Dämonenpools muss jederzeit für alle Spieler sichtbar sein; es wird empfohlen, ihre Grösse mit Markern oder Würfeln anzuzeigen. Beim Beschwören von Dämonen muss der Pool angepasst werden.",
+        "Um Dämonen zu beschwören, kündigt der Verband dies an, bevor ein Aktionswurf abgelegt wird (aber nachdem die Aktion ausgewählt wurde). Wird der beschwörende Verband in einem anderen Verband transportiert (z. B. in einem Chaos-Thunderhawk), kann er nicht beschwören, wenn das Chaos-Thunderhawk aktiviert wird.",
+        "Der Spieler würfelt anschliessend 2D3, um die Anzahl der Beschwörungspunkte dieses Verbands zu ermitteln. Der Verband darf dann Dämonen bis zur Höhe der erzielten Beschwörungspunkte beschwören; nicht verwendete Punkte verfallen. Die Anzahl ist ausserdem durch die noch verfügbaren Punkte im Pool der niederen oder grossen Dämonen begrenzt.",
+        "Beschworene Einheiten müssen vollständig innerhalb von 5cm zu einer nicht beschworenen Einheit des beschwörenden Verbands aufgestellt werden (eine Kette beschworener Einheiten ist also nicht erlaubt). Hat der Verband die Fähigkeit Transport, dürfen neu beschworene Einheiten bei ausreichendem Platz darin aufgestellt werden. Sie dürfen nicht in gegnerischen Kontrollzonen oder auf unpassierbarem Gelände platziert werden. Beschworene Einheiten gehören regeltechnisch zum beschwörenden Verband, solange sie sich auf dem Schlachtfeld befinden.",
+        "Beschworene niedere Dämonen sind Verbrauchbar, gelten ansonsten jedoch als normale Einheiten und werden berücksichtigt, wenn ermittelt wird, ob ein Verband einen Gegner im Nahkampf zahlenmässig übertrifft oder durch Beschussmarken aufgerieben wird usw. Im Nahkampf getötete Dämonen zählen auch zur Anzahl der vom Gegner ausgeschalteten Einheiten, wenn Modifikatoren für das Nahkampfergebnis ermittelt werden.",
+        "Beschworene Einheiten bleiben bis zur Endphase der Runde im Spiel, in der sie beschworen wurden. Nachdem alle Verbände versucht haben, sich zu sammeln, werden alle beschworenen Einheiten vom Spielfeld entfernt und ihre Poolkosten dem jeweiligen Dämonenpool zurückerstattet. Dadurch kann der Verband aufgerieben werden, wenn seine Beschussmarken nun der Anzahl seiner Einheiten entsprechen oder sie übersteigen.",
+        "Wird ein Verband aufgerieben, werden alle von ihm beschworenen Einheiten zerstört.",
+        "Bei der Berechnung der Siegespunkte gibt der Pool der niederen Dämonen halbe Punkte ab, wenn höchstens die Hälfte (aufgerundet) seiner ursprünglichen Dämonen verbleibt. Er gibt volle Punkte ab, wenn höchstens ein Viertel (aufgerundet) seiner Dämonen verbleibt. Große Dämonen gelten bei der Berechnung von Siegespunkten als Kriegsmaschinen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Black Legion",
+      "description": [
+        "Alle Verbände der Black Legion verehren das Ungeteilte Chaos. Verbände des Ungeteilten Chaos mit Dämonenpakt dürfen beliebige der folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Dämonetten des Slaanesh (1), Seuchenhüter des Nurgle (1), Zerfleischer des Khorne (1), Horrors des Tzeentch (1), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Große Dämonen: Slaanesh Hüter der Geheimnisse (8), Nurgle Großer Verpester (8), Khorne Blutdämon (8), Tzeentch Herrscher des Wandels (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Word Bearers",
+      "description": [
+        "Alle Verbände der Word Bearers verehren das Ungeteilte Chaos. Verbände des Ungeteilten Chaos mit Dämonenpakt dürfen beliebige der folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Dämonetten des Slaanesh (1), Seuchenhüter des Nurgle (1), Zerfleischer des Khorne (1), Horrors des Tzeentch (1), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Große Dämonen: Slaanesh Hüter der Geheimnisse (8), Nurgle Großer Verpester (8), Khorne Blutdämon (8), Tzeentch Herrscher des Wandels (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Emperor's Children",
+      "description": [
+        "Alle Verbände der Emperor\u0027s Children verehren den Prinzen der Freuden, Slaanesh. Verbände mit Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Dämonetten des Slaanesh (1), Slaaneshbestien (1), Slaanesh-Reiterinnen (2).",
+        "Große Dämonen: Hüter der Geheimnisse (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Death Guard",
+      "description": [
+        "Alle Verbände der Death Guard verehren den Seuchenherrscher Nurgle. Verbände mit Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Seuchenhüter des Nurgle (1), Seuchenbestien des Nurgle (1), Seuchendrohnen des Nurgle (2).",
+        "Große Dämonen: Großer Verpester (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der World Eaters",
+      "description": [
+        "Alle Verbände der World Eaters verehren den Blutgott Khorne. Verbände mit Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Zerfleischer des Khorne (1), Bluthunde des Khorne (1), Zerschmetterer des Khorne (2).",
+        "Große Dämonen: Blutdämon (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Thousand Sons",
+      "description": [
+        "Alle Verbände der Thousand Sons verehren den Architekten des Schicksals, Tzeentch. Verbände mit Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Horrors des Tzeentch (1), Feuerdämonen des Tzeentch (1), Kreischer des Tzeentch (1).",
+        "Große Dämonen: Herrscher des Wandels (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Verlorenen und Verdammten",
+      "description": [
+        "Alle Chaos-Kultistenverbände der Verlorenen und Verdammten verehren das Ungeteilte Chaos. Verbände mit Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Dämonetten des Slaanesh (1), Seuchenhüter des Nurgle (1), Zerfleischer des Khorne (1), Horrors des Tzeentch (1), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Große Dämonen: Hüter der Geheimnisse (8), Großer Verpester (8), Blutdämon (8), Herrscher des Wandels (8).",
+        "Von jedem Typ grosser Dämon darf sich höchstens einer gleichzeitig auf dem Schlachtfeld befinden. Kein Verband darf mehr als einen grossen Dämon enthalten.",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Alpha Legion",
+      "description": [
+        "Alle Kultistenverbände der Alpha Legion verehren das Ungeteilte Chaos. Verbände mit Dämonische Ikone dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Dämonetten des Slaanesh (1), Seuchenhüter des Nurgle (1), Zerfleischer des Khorne (1), Horrors des Tzeentch (1), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Night Lords",
+      "description": [
+        "Alle Verbände der Night Lords sind dem Ungeteilten Chaos zugewandt. Verbände mit einer Einheit mit Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Furien des ungeteilten Chaos (2).",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Sklaven der Finsternis",
+      "description": [
+        "Alle Verbände der Sklaven der Dunkelheit verehren das Ungeteilte Chaos. Verbände mit einer Einheit Dämonische Ikone oder der Verbandsaufwertung Dämonenpakt dürfen die folgenden Dämonen beschwören (die Beschwörungspunktekosten stehen in Klammern):",
+        "Niedere Dämonen: Dämonetten des Slaanesh (1), Seuchenhüter des Nurgle (1), Zerfleischer des Khorne (1), Horrors des Tzeentch (1), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen.",
+        "Füge dem Pool der niederen Dämonen für jede Einheit mit Dämonische Ikone oder jeden Verband mit Dämonenpakt einen Punkt hinzu."
+      ]
+    },
+    {
+      "title": "Beschwörungsregeln der Dämonischen Invasion",
+      "description": [
+        "Verbände einer Daemonic-Incursion-Armee dürfen niedere Dämonen der Macht beschwören, der sie zugeordnet sind. Dazu ist keine Aufwertung erforderlich. Kultistenkonklaven-Verbände sind allen Mächten zugeordnet, die zu Beginn der Schlacht in der Armee vertreten sind (Beschwörungspunktekosten stehen in Klammern):",
+        "Slaanesh: Dämonetten des Slaanesh (1), Slaaneshbestien (1), Slaanesh-Reiterinnen (2).",
+        "Nurgle: Seuchenhüter des Nurgle (1), Seuchenbestien des Nurgle (1), Seuchendrohnen des Nurgle (2).",
+        "Khorne: Zerfleischer des Khorne (1), Bluthunde des Khorne (1), Zerschmetterer des Khorne (2).",
+        "Tzeentch: Horrors des Tzeentch (1), Kreischer des Tzeentch (1), Feuerdämonen des Tzeentch (2).",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen.",
+        "Bei der Berechnung der Siegespunkte im Gleichstandsentscheid wird nur der Teil des Pools der niederen Dämonen berücksichtigt, der separat gekauft wurde, wenn ermittelt wird, ob weniger als die Hälfte übrig ist. Als Teil eines Verbands gekaufte Punkte für den Pool der niederen Dämonen zählen zu dessen Start-Einheiten."
+      ]
+    },
+    {
+      "title": "TTL-Beschwörungsregeln",
+      "description": [
+        "Verbände der Verräter-Titanenlegion mit Dämonenpakt dürfen niedere Dämonen der Macht beschwören, der sie zugeordnet sind (Beschwörungspunktekosten stehen in Klammern):",
+        "Slaanesh: Dämonetten des Slaanesh (1), Slaaneshbestien (1).",
+        "Nurgle: Seuchenhüter des Nurgle (1), Seuchenbestien des Nurgle (1).",
+        "Khorne: Zerfleischer des Khorne (1), Bluthunde des Khorne (1).",
+        "Tzeentch: Horrors des Tzeentch (1), Feuerdämonen des Tzeentch (1).",
+        "Ungeteiltes Chaos: Dämonetten des Slaanesh (2), Seuchenhüter des Nurgle (2), Zerfleischer des Khorne (2), Horrors des Tzeentch (2), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen.",
+        ""
+      ]
+    },
+    {
+      "title": "QT-Beschwörungsregeln",
+      "description": [
+        "Verbände mit Dämonenpakt in einer Questor-Traitoris-Armee dürfen niedere Dämonen der Macht beschwören, der sie zugeordnet sind (Beschwörungspunktekosten stehen in Klammern):",
+        "Slaanesh: Dämonetten des Slaanesh (1), Slaaneshbestien (1).",
+        "Nurgle: Seuchenhüter des Nurgle (1), Seuchenbestien des Nurgle (1).",
+        "Khorne: Zerfleischer des Khorne (1), Bluthunde des Khorne (1).",
+        "Tzeentch: Horrors des Tzeentch (1), Feuerdämonen des Tzeentch (1).",
+        "Ungeteiltes Chaos: Dämonetten des Slaanesh (2), Seuchenhüter des Nurgle (2), Zerfleischer des Khorne (2), Horrors des Tzeentch (2), Dämonische Bestien des ungeteilten Chaos (1).",
+        "Beachte, dass die Beschwörungspunktekosten für die verschiedenen Dämonentypen variieren, die Kosten im Dämonenpool jedoch immer eins betragen."
+      ]
+    },
+    {
+      "title": "Charaktere der Black Legion",
+      "description": [
+        "Black-Legion-Charaktere dürfen nur Chaos Space Marines, Havocs, Raptoren, Chaos-Angriffsbikes oder Chaos Terminatoren hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Charaktere der Iron Krieger",
+      "description": [
+        "Iron-Krieger-Charaktere dürfen nur Chaos Space Marines, Iron-Krieger-Sturmmarines, Iron-Krieger-Havocs, Tyrant Terminatoren oder Chaos Cybots hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Charaktere der Night Lords",
+      "description": [
+        "Night-Lords-Charaktere dürfen nur Night-Raptoren, Chaos Space Marines, Chaos-Trikes, Sturmtrupps der Night Lords oder Chaos Terminatoren hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Charaktere der Emperor's Children",
+      "description": [
+        "Charaktere der Emperor\u0027s Children dürfen nur Chaos Space Marines, Chaos-Angriffsbikes, Noise Marines, Noise Marine Havocs, Raptoren oder Sirenshriek Terminatoren hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Charaktere der Death Guard",
+      "description": [
+        "Death-Guard-Charaktere dürfen nur Chaos Space Marines, Havocs, Seuchenmarines oder Blightlord Terminatoren hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Charaktere der World Eaters",
+      "description": [
+        "World-Eaters-Charaktere dürfen nur World-Eaters-Sturmtrupps, Khorne Berserker, Skullseeker Terminatoren, Juggernaut Riders oder Khorne-Berserker-Angriffsbikes hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Charaktere der Word Bearers",
+      "description": [
+        "Word-Bearers-Charaktere dürfen nur Chaos Space Marines, Havocs, Chaos Terminatoren, Kultisten oder Word Bearers Iconoclasts hinzugefügt werden."
+      ]
+    },
+        {
+      "title": "Herolde der Wahrheit",
+      "description": [
+        "Jeder Verband mit mindestens einer Einheit mit der Sonderregel Herolde der Wahrheit ignoriert beim Sammeln den Modifikator von -1 für gegnerische Verbände innerhalb von 30 cm."
+      ]
+    },
+    {
+      "title": "Verstärkte Beschwörung (+x)",
+      "description": [
+        "Einheiten mit Verstärkte Beschwörung (+x) erhöhen die Beschwörungspunkte um x, wenn der Verband, dem sie angehören, Dämonen beschwört (siehe Beschwörung). Eine Einheit mit Verstärkte Beschwörung (+2) ermöglicht einem Verband mit Dämonenpakt beispielsweise, 2D3+2 statt der üblichen 2D3 Beschwörungspunkte zu würfeln."
+      ]
+    },
+    {
+      "title": "Dämonischer Fokus",
+      "description": [
+        "Einheiten mit Dämonischer Fokus dürfen beliebige oder alle vom Verband beschworenen Einheiten im Spiel halten. Beschworene Einheiten verschwinden nach dem Sammelversuch des Verbands nicht in den Warp zurück. Dämonischer Fokus kann nicht verwendet werden, um beschworene Einheiten im Spiel zu halten, wenn der Verband aufgerieben ist. Mehrfaches Dämonischer Fokus hat keinen zusätzlichen Effekt."
+      ]
+    },
+    {
+      "title": "Launische Meister",
+      "description": [
+        "Würfelt der Chaos-Spieler in der Strategiephase einer Runde eine 6, erhält er einen Beschwörungspunkt für den Pool der niederen Dämonen. Bei einer 1 verliert er hingegen einen Punkt aus diesem Pool. Wurde kein Pool der niederen Dämonen gekauft oder ist er leer, hat dies im letzteren Fall keine Auswirkung."
+      ]
+    },
+    {
+      "title": "Wandler der Wege",
+      "description": [
+        "Verbände mit Thousand-Sons-Dämonenprinzen und Scarab Occult Terminatoren dürfen nur INF-Einheiten sowie AV-Einheiten mit Geländegängig enthalten und müssen das Spiel in Reserve beginnen. Sie dürfen das Schlachtfeld nur durch einen Warp-Riss betreten."
+      ]
+    },
+    {
+      "title": "Dämonenmaschine (x)",
+      "description": [
+        "Verbände, in denen mindestens eine Einheit die Sonderregel Dämonenmaschine (x) besitzt, erhalten den Bonus der jeweiligen Fraktion:",
+        "\u003cul\u003e\u003cli\u003eUngeteiltes Chaos: Der Verband ignoriert beim Sammeln den Modifikator von -1 für gegnerische Verbände innerhalb von 30 cm.\u003c/li\u003e\u003cli\u003eKhorne: Der Verband erhält bei einem Versuch, eine Offensive durchzuführen, einen Aktivierungsbonus von +1.\u003c/li\u003e\u003cli\u003eNurgle: Der Verband erhält bei einem Versuch, Ordnen durchzuführen, einen Aktivierungsbonus von +1.\u003c/li\u003e\u003cli\u003eSlaanesh: Der Verband erhält bei einem Versuch, einen Eilschritt durchzuführen, einen Aktivierungsbonus von +1.\u003c/li\u003e\u003cli\u003eTzeentch: Der Verband erhält bei einem Versuch, Vorrücken durchzuführen, einen Aktivierungsbonus von +1.\u003c/li\u003e\u003c/ul\u003e"
+      ]
+    },
+    {
+      "title": "Dreadclaw-Landungskapseln der Black Legion",
+      "description": [
+        "Dreadclaws ermöglichen einem Chaos-Verband, gemäss den Regeln für Planetare Landung ins Spiel zu kommen, wenn ein Raumschiff gekauft wurde, um sie zu transportieren. Einheiten eines Verbands mit Dreadclaws werden nach den Regeln für Planetare Landung aufgestellt, würfeln aber nicht auf Abweichung. Stelle die erste Einheit innerhalb von 15 cm zu den vorab festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu dieser Einheit und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden.",
+        "Folgende Einheiten dürfen mit Dreadclaws aufgestellt werden: Noise Marines, Rubric Marines, Khorne Berserker, Seuchenmarines, Chaos Space Marines, Havocs, Chaos Terminatoren, Kyborgs und Chaos Cybots."
+      ]
+    },
+    {
+      "title": "Dreadclaw-Landungskapseln der Night Lords",
+      "description": [
+        "Dreadclaws ermöglichen einem Chaos-Verband, gemäss den Regeln für Planetare Landung ins Spiel zu kommen, wenn ein Raumschiff gekauft wurde, um sie zu transportieren. Einheiten eines Verbands mit Dreadclaws werden nach den Regeln für Planetare Landung aufgestellt, würfeln aber nicht auf Abweichung. Stelle die erste Einheit innerhalb von 15 cm zu den vorab festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu dieser Einheit und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden.",
+        "Folgende Einheiten dürfen mit Dreadclaws aufgestellt werden: Sturmtrupps der Night Lords, Atramentar Terminatoren und Night-Lords-Cybots."
+      ]
+    },
+    {
+      "title": "Dreadclaw-Landungskapseln der Word Bearers",
+      "description": [
+        "Dreadclaws ermöglichen einem Chaos-Verband, gemäss den Regeln für Planetare Landung ins Spiel zu kommen, wenn ein Raumschiff gekauft wurde, um sie zu transportieren. Einheiten eines Verbands mit Dreadclaws werden nach den Regeln für Planetare Landung aufgestellt, würfeln aber nicht auf Abweichung. Stelle die erste Einheit innerhalb von 15 cm zu den vorab festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu dieser Einheit und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden.",
+        "Folgende Einheiten dürfen mit Dreadclaws aufgestellt werden: Chaos Space Marines, Havocs, Chaos Terminatoren, Word Bearers Besessene und Chaos Cybots."
+      ]
+    },
+    {
+      "title": "Dreadclaw-Landungskapseln der Emperor's Children",
+      "description": [
+        "Dreadclaws ermöglichen einem Chaos-Verband, gemäss den Regeln für Planetare Landung ins Spiel zu kommen, wenn ein Raumschiff gekauft wurde, um sie zu transportieren. Einheiten eines Verbands mit Dreadclaws werden nach den Regeln für Planetare Landung aufgestellt, würfeln aber nicht auf Abweichung. Stelle die erste Einheit innerhalb von 15 cm zu den vorab festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu dieser Einheit und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden.",
+        "Folgende Einheiten dürfen mit Dreadclaws aufgestellt werden: Noise Marines, Chaos Space Marines, Havocs, Sirenshriek Terminatoren und Chaos Cybots."
+      ]
+    },
+    {
+      "title": "Dreadclaw-Landungskapseln der Iron Krieger",
+      "description": [
+        "Dreadclaws ermöglichen einem Chaos-Verband, gemäss den Regeln für Planetare Landung ins Spiel zu kommen, wenn ein Raumschiff gekauft wurde, um sie zu transportieren. Einheiten eines Verbands mit Dreadclaws werden nach den Regeln für Planetare Landung aufgestellt, würfeln aber nicht auf Abweichung. Stelle die erste Einheit innerhalb von 15 cm zu den vorab festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu dieser Einheit und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden.",
+        "Folgende Einheiten dürfen mit Dreadclaws aufgestellt werden: Chaos Space Marines, Havocs, Kyborgs, Tyrant Terminatoren, Chaos Cybots und Chaos Siege Cybots."
+      ]
+    },
+    {
+      "title": "Dreadclaw-Landungskapseln der World Eaters",
+      "description": [
+        "Dreadclaws ermöglichen einem Chaos-Verband, gemäss den Regeln für Planetare Landung ins Spiel zu kommen, wenn ein Raumschiff gekauft wurde, um sie zu transportieren. Einheiten eines Verbands mit Dreadclaws werden nach den Regeln für Planetare Landung aufgestellt, würfeln aber nicht auf Abweichung. Stelle die erste Einheit innerhalb von 15 cm zu den vorab festgelegten Koordinaten der Landezone auf und alle übrigen Einheiten des Verbands innerhalb von 15 cm zu dieser Einheit und in Verband. Einheiten dürfen nicht auf unpassierbarem Gelände oder in gegnerischen Kontrollzonen aufgestellt werden.",
+        "Folgende Einheiten dürfen mit Dreadclaws aufgestellt werden: Khorne Berserker, World Eaters Marines, Skullseeker Terminatoren, Cybots und Mutilators."
+      ]
+    },
+    {
+      "title": "Befall",
+      "description": [
+        "Verbände, die ausschließlich aus Einheiten mit der Sonderregel \u003ci\u003eBefall\u003c/i\u003e bestehen, müssen in Reserve gehalten und nach den Regeln für Teleportation aufgestellt werden. außerdem dürfen Einheiten mit der Sonderregel \u003ci\u003eBefall\u003c/i\u003e nur um Szenario-Missionsziele konkurrieren."
+      ]
+    },
+    {
+      "title": "Ewige Feindschaft der Verlorenen und Verdammten",
+      "description": [
+        "Jeder Unterstützungszirkel einer Armee der Verlorenen und Verdammten ist entweder einer der Verderbten Mächte oder dem Ungeteilten Chaos treu. Mit Ausnahme des Ungeteilten Chaos hegen die verschiedenen Fraktionen ewige Feindschaft gegeneinander. Dies wird durch folgende Regeln dargestellt:",
+        "Eine Armee der Verlorenen und Verdammten mit Verbänden der Fraktion Khorne darf keine Verbände der Fraktion Slaanesh enthalten und umgekehrt.",
+        "Eine Armee der Verlorenen und Verdammten mit Verbänden der Fraktion Nurgle darf keine Verbände der Fraktion Tzeentch enthalten und umgekehrt."
+      ]
+    },
+    {
+      "title": "Ewige Feindschaft der Sklaven der Dunkelheit",
+      "description": [
+        "Jeder verbündete Verband des Dunklen Mechanicus in einer Armee der Sklaven der Dunkelheit ist entweder einer der Verderbten Mächte oder dem Ungeteilten Chaos treu. Mit Ausnahme des Ungeteilten Chaos hegen die verschiedenen Fraktionen ewige Feindschaft gegeneinander. Dies wird durch folgende Regeln dargestellt:",
+        "Eine Armee der Sklaven der Dunkelheit mit Verbänden der Fraktion Khorne darf keine Verbände der Fraktion Slaanesh enthalten und umgekehrt.",
+        "Eine Armee der Sklaven der Dunkelheit mit Verbänden der Fraktion Nurgle darf keine Verbände der Fraktion Tzeentch enthalten und umgekehrt."
+      ]
+    },
+    {
+      "title": "Ewige Feindschaft des Dämonischen Einfalls",
+      "description": [
+        "Jeder Dämonenverband einer Armee des Dämonischen Einfalls ist einer der Verderbten Mächte treu. Mit Ausnahme des Ungeteilten Chaos hegen die verschiedenen Fraktionen ewige Feindschaft gegeneinander. Dies wird durch folgende Regeln dargestellt:",
+        "Eine Armee des Dämonischen Einfalls mit Verbänden der Fraktion Khorne darf keine Verbände der Fraktion Slaanesh enthalten und umgekehrt.",
+        "Eine Armee des Dämonischen Einfalls mit Verbänden der Fraktion Nurgle darf keine Verbände der Fraktion Tzeentch enthalten und umgekehrt."
+      ]
+    },
+    {
+      "title": "TTL Ewige Feindschaft",
+      "description": [
+        "Jeder Verband einer Verräter-Titanenlegion-Armee ist entweder einer der Verderbten Mächte oder dem Ungeteilten Chaos treu. Mit Ausnahme des Ungeteilten Chaos hegen die verschiedenen Fraktionen ewige Feindschaft gegeneinander. Dies wird durch folgende Regeln dargestellt:",
+        "Eine Verräter-Titanenlegion-Armee mit Verbänden der Fraktion Khorne darf keine Verbände der Fraktion Slaanesh enthalten und umgekehrt.",
+        "Eine Verräter-Titanenlegion-Armee mit Verbänden der Fraktion Nurgle darf keine Verbände der Fraktion Tzeentch enthalten und umgekehrt."
+      ]
+    },
+    {
+      "title": "QT Ewige Feindschaft",
+      "description": [
+        "Jeder Verband einer Questor-Traitoris-Armee ist entweder einer der Verderbten Mächte oder dem Ungeteilten Chaos treu. Mit Ausnahme des Ungeteilten Chaos hegen die verschiedenen Fraktionen ewige Feindschaft gegeneinander. Dies wird durch folgende Regeln dargestellt:",
+        "Eine Questor-Traitoris-Armee mit Verbänden der Fraktion Khorne darf keine Verbände der Fraktion Slaanesh enthalten und umgekehrt.",
+        "Eine Questor-Traitoris-Armee mit Verbänden der Fraktion Nurgle darf keine Verbände der Fraktion Tzeentch enthalten und umgekehrt."
+      ]
+    },
+    {
+      "title": "Herrschaft des Chaos",
+      "description": [
+        "In der Strategiephase würfelt der Spieler der Dämonischer Einfall 2d6 und verwendet den höheren Wert. Addiere ausserdem beide Würfel und sieh das Ergebnis in folgender Tabelle nach:",
+        "(2-3) *Chaotisches Ebben* Alle Einheiten der Dämonenlegion (Freund und Feind) verlieren für den Rest der Runde Unverwundbar.",
+        "(4-5) *Die Winde lassen nach* Alle Spieler, die Dämonen beschwören können, verlieren 1D3 Punkte aus ihrem Pool der niederen Dämonen. Spieler der Dämonischer Einfall verlieren zusätzlich W3. Ist der Pool leer, geschieht nichts.",
+        "(6-8) *Auge des Sturms* Es geschieht nichts.",
+        "(9-10) *Die Winde nehmen zu* Alle Spieler, die Dämonen beschwören können, erhalten 1D3 Punkte für ihren Pool der niederen Dämonen. Spieler der Dämonischer Einfall erhalten zusätzlich W3.",
+        "(11-12) *Chaotischer Ansturm* Alle Einheiten der Dämonenlegion (Freund und Feind) verbessern Unverwundbar für den Rest der Runde auf 5+."
+      ]
+    },
+    {
+      "title": "Das Große Ritual",
+      "description": [
+        "Alle Erhabenen großen Dämonen und alle Verbände der Dämonenlegion müssen das Spiel in Reserve beginnen. Erhabene Große Dämonen dürfen das Schlachtfeld entweder durch einen Warp-Riss oder durch ein Chaostor betreten (auch wenn sie zuvor einen Warp-Riss geplant hatten). Verbände der Dämonenlegion dürfen das Schlachtfeld nur durch ein Chaostor betreten."
+      ]
+    },
+    {
+      "title": "Schrecken aus dem Jenseits",
+      "description": [
+        "Um das BTS-Ziel der Dämonischer Einfall zu erreichen, muss der Gegner alle Verbände mit Erhabenen großen Dämonen zerstören. Alle Verbände mit Erhabenen großen Dämonen, die sich in der Endphase von Runde 3 noch in Reserve befinden, werden zerstört.",
+        "Solange die Daemonic-Incursion-Armee noch Erhabene Große Dämonen enthält, darf sie zusätzlich einmal pro Runde einen misslungenen Aktionstest beliebigen Typs wiederholen. Befinden sich alle Erhabenen großen Dämonen in Reserve, darf die Wiederholung nur für sie selbst verwendet werden."
+      ]
+    },
+    {
+      "title": "Dämonische Instabilität",
+      "description": [
+        "Wird ein Verband mit einem Erhabenen großen Dämonen oder ein Verband der Dämonenlegion aus irgendeinem Grund aufgerieben, wird er sofort zerstört."
+      ]
+    },
+    {
+      "title": "Warp-Riss",
+      "description": [
+        "Verbände mit mindestens einem Modell mit der Sonderregel Warp-Riss müssen das Spiel in Reserve beginnen und dürfen das Schlachtfeld nur durch einen Warp-Riss oder ein Chaostor betreten.",
+        "Warp-Risse werden genau wie Selbstständige Planetare Landungen geplant. Sowohl die Ankunftsrunde als auch die Lande-Koordinaten müssen notiert werden. Die Ankunftsrunde eines Verbands muss nicht bekanntgegeben werden.",
+        "Die geplanten Koordinaten des Warp-Risses müssen bei Ankunft in Runde eins innerhalb von 60 cm zum befreundeten Blitz-Missionsziel liegen; bei Ankunft in Runde zwei oder drei dürfen sie sich an beliebiger Stelle auf dem Schlachtfeld befinden.",
+        "In der festgelegten Runde wird der Warp-Rift-Verband wie bei einer Selbstständigen Planetaren Landung in der normalen Aktivierungsreihenfolge aktiviert.",
+        "Zürst muss die Aktion des Verbands festgelegt werden. Würfle danach, um Dämonen zu beschwören, und anschliessend zur Aktivierung. Misslingt die Aktivierung, muss der Verband die Aktion Halten durchführen. Er darf dann entweder durch ein beliebiges verfügbares Chaostor das Schlachtfeld betreten oder seine Ankunft auf die folgende Runde verschieben und in Reserve bleiben.",
+        "Gelingt die Aktivierung, platziere einen Warp-Rift-Marker an den geplanten Koordinaten. Er weicht nicht ab.",
+        "Würde sich ein Warp-Riss auf Gelände öffnen, das für die hindurchtretenden Einheiten unpassierbar ist, unter einer befreundeten Einheit oder in einer gegnerischen Kontrollzone, wird angenommen, dass er zu einem anderen Einstiegspunkt umgeleitet wird. Verschiebe den Warp-Riss zum nächstgelegenen Ort, an dem er sich öffnen kann.",
+        "anschließend führt der aktivierte Verband den zu Beginn seiner Aktion festgelegten Befehl aus und muss sich aus dem Warp-Riss herausbewegen. Miss alle Entfernungen vom Mittelpunkt des Markers.",
+        "Alle Einheiten des aktivierten Verbands müssen sich aus dem Warp-Riss herausbewegen. Einheiten, die ihn nicht verlassen können, werden zerstört. Entferne anschliessend den Warp-Rift-Marker vom Schlachtfeld."
+      ]
+    },
+    {
+      "title": "Chaostor",
+      "description": [
+        "Verbände der Dämonischer Einfall in Reserve dürfen Chaostors verwenden, um das Schlachtfeld zu betreten. Pro Runde dürfen beliebig viele Verbände ein Chaostor nutzen, wenn es Teil eines Missionsziels ist; ein auf einer Kriegsmaschine montiertes Chaostor darf jedoch nur von einem Verband pro Runde verwendet werden.",
+        "Zürst muss die Aktion des Verbands festgelegt werden. Würfle danach, um Dämonen zu beschwören, und anschliessend zur Aktivierung. Misslingt die Aktivierung, muss der Verband die Aktion Halten durchführen. Er darf dann entweder durch ein beliebiges verfügbares Chaostor das Schlachtfeld betreten oder in Reserve bleiben.",
+        "Chaostors, die Teil von Missionszielen sind, können nicht zerstört werden. Auf Kriegsmaschinen montierte Chaostors werden zerstört, wenn die Kriegsmaschine zerstört wird.",
+        "Jeder Verband, der durch ein auf einer aufgeriebenen Kriegsmaschine montiertes Chaostor das Schlachtfeld betritt, erhält eine Beschussmarke. Miss alle Bewegungsentfernungen vom Chaostor aus ab dem Mittelpunkt des Markers oder der Kante der Kriegsmaschine.",
+        "Befindet sich ein Chaostor in einer gegnerischen Kontrollzone, muss jeder hindurchkommende Verband den gegnerischen Verband bzw. die gegnerischen Verbände offensiv angreifen. Befindet sich das Portal zudem direkt unter einem gegnerischen Verband, muss der eintretende Verband so viel Basekontakt wie möglich herstellen."
+      ]
+    },
+    {
+      "title": "Die Heimsuchung",
+      "description": [
+        "Armeen der Alpha Legion gelten in jeder Hinsicht als hätten sie einen Strategiewert von 5, ausser beim Strategiewurf zu Beginn einer Runde."
+      ]
+    },
+    {
+      "title": "Sabotage",
+      "description": [
+        "Vor dem Wurf für die erste Runde und vor Teleportationen darf der Spieler für jeden Verband mit mindestens einer Einheit mit der Sonderregel Sabotage einen gegnerischen Verband auswählen (beide Verbände müssen auf dem Schlachtfeld aufgestellt sein) und einen W6 würfeln.",
+        "Bei einem Wurf von 2-5 beginnt der gegnerische Verband mit einer Beschussmarke. Bei einer 6 beginnt er mit d3 Beschussmarken. Bei einer 1 erhält der Verband mit Sabotage eine Beschussmarke. Kein Verband darf mehr als einmal Ziel von Sabotage sein, auch wenn der erste Wurf eine 1 ergibt."
+      ]
+    },
+    {
+      "title": "Alpha-Legion-Transporter",
+      "description": [
+        "Die Alpha Legion ist eine sehr bewegliche Armee. Daher sind in den Punktkosten eines Kontingents normalerweise genügend Rhino-Transportfahrzeuge enthalten, um es und alle gekauften Aufwertungen zu transportieren. Bestimme die benötigte Anzahl Rhinos, nachdem alle Aufwertungen gekauft wurden. Es werden immer nur so viele Rhinos mitgeführt, wie zum Transport des Verbands mindestens erforderlich sind; zusätzliche Fahrzeuge als Ersatz für Verluste sind nicht erlaubt.",
+        "Beachte, dass viele Verbände keine Rhinos erhalten, meist weil sie nicht hineinpassen. Kontingente mit Rhinos sind im Einheitenabschnitt des Armeeorganisationsplan mit „plus Transport“ gekennzeichnet.",
+        "Du musst keine Rhinos mitnehmen, wenn du das nicht möchtest. Du kannst den Verband stattdessen zu Fuß einsetzen, zum Beispiel als Garnison, oder ihn in einem Sturmadler transportieren.",
+        "außerdem kannst du die Rhinos eines Kontingents durch Landungskapseln ersetzen. In diesem Fall kommt das Kontingent gemäß den Regeln für Planetare Landung in Landungskapseln ins Spiel (siehe Planetare Landung). Beachte, dass du dafür auch einen Chaos-Schlachtkreuzer benötigst, von dem aus die Landungskapseln eingesetzt werden.",
+        "Vor jedem Spiel kann der Spieler der Alpha Legion, nachdem die gegnerische Armee bekannt ist, aber bevor Missionsziele platziert werden, auswählen, welche Verbände mit „plus Transport“ in Rhinos, Landungskapseln oder zu Fuß aufgestellt werden. Enthält ein Verband Einheiten, die nicht in Landungskapseln aufgestellt werden können, darf diese Option nicht ausgewählt werden."
+      ]
+    },
+    {
+      "title": "Im Mitternachtsschwarz",
+      "description": [
+        "Furien des ungeteilten Chaos, die in einem Nahkampf getötet werden, zählen nicht für das Nahkampfergebnis, solange der Spieler der Night Lords den Angriff eingeleitet hat."
+      ]
+    },
+    {
+      "title": "Klauen für immer rot",
+      "description": [
+        "Zusätzlich zur Unterdrückung dürfen Einheiten der Night Lords mit Handfeuerwaffen Schießen. Sie können zwar keinen direkten Schaden verursachen, fügen gegnerischen Verbänden unter Beschuss aber dennoch eine Beschussmarke zu."
+      ]
+    },
+    {
+      "title": "Necron-Reserven",
+      "description": [
+        "Jeder Necron-Verband, der das Schlachtfeld durch Teleportation oder ein Necron-Portal betreten kann, darf in Reserve gehalten werden. Jeder Necron-Verband, der sich ab der Endphase der dritten Runde in Reserve befindet, gilt für Gleichstandsentscheidungen und das Turnierszenario-Ziel „Brecht Ihren Willen“ als zerstört."
+      ]
+    },
+    {
+      "title": "Necron-Garnisonen",
+      "description": [
+        "In Epic-Turnierszenarien dürfen nur Necron-Phalanx- und Canoptek-Schwarm-Verbände als Garnison aufgestellt werden. Necron-Phalanx-Verbände dürfen nur von einem Tomb-Complex-Missionsziel aus als Garnison aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Die Ungebetenen",
+      "description": [
+        "Necron-Armeen müssen mindestens einen Verband „Die Ungebetenen“ enthalten. Alpträume dürfen nur um Missionsziele konkurrieren, müssen das Spiel in Reserve beginnen und dürfen keine Necron-Portale verwenden."
+      ]
+    },
+    {
+      "title": "Extradimensionaler Durchgang",
+      "description": [
+        "Necron-Einheiten dürfen beim Test auf eine Teleportieren-Fehlfunktion gewürfelte Einsen wiederholen."
+      ]
+    },
+    {
+      "title": "Regeneration",
+      "description": [
+        "Regeneration funktioniert genau wie Unverwundbar, bietet jedoch einen Schutzwurf von 5+ statt 6+. Gegen Titan-Killer-Angriffe müssen WE und H-AV für jeden Schadenspunkt einen Unverwundbar-Schutzwurf ablegen."
+      ]
+    },
+    {
+      "title": "Lebendes Metall",
+      "description": [
+        "Lebendes Metall funktioniert genau wie Unverwundbar, bietet jedoch einen Schutzwurf von 4+ statt 6+. Gegen Titan-Killer-Angriffe müssen WE und H-AV für jeden Schadenspunkt einen Unverwundbar-Schutzwurf ablegen."
+      ]
+    },
+    {
+      "title": "Ernter",
+      "description": [
+        "Einmal pro Aktion eines beliebigen Verbands darf ein Verband mit einer Einheit mit der Sonderregel Ernter einen misslungenen <i>Regeneration</i>-Schutzwurf wiederholen, wenn er Schaden erleidet. Bei Offensiven darf pro Runde eine Wiederholung erfolgen."
+      ]
+    },
+    {
+      "title": "Necron-Portale",
+      "description": [
+        "Necron-Portale dürfen nur von INF sowie von AV- oder LV-Einheiten mit \u003ci\u003eGeländegängig\u003c/i\u003e verwendet werden. Jedes Portal darf pro Runde entweder zum Betreten oder zum Verlassen des Schlachtfelds verwendet werden, aber nicht für beides.",
+        "Ein Verband in Reserve darf im Rahmen jeder bewegungserlaubenden Aktion durch eine Einheit mit \u003ci\u003ePortal\u003c/i\u003e ins Spiel kommen. Miss seine Bewegung vom Mittelpunkt des Missionsziels (bei einem Gruftkomplex) oder von der Kante der Einheit aus. Verbände dürfen das Spielfeld auch durch ein Portal verlassen und in die Reserve zurückkehren. Ein Portal kann Einheiten außerdem ähnlich wie ein Lufttransporter aufnehmen. Endet die Aktion einer Einheit mit \u003ci\u003ePortal\u003c/i\u003e innerhalb von 5cm zu allen Einheiten eines befreundeten Verbands, darf der Necron-Spieler das Portal aktivieren, um diesen Verband in Reserve zu versetzen. Aufgeriebene Einheiten mit \u003ci\u003ePortal\u003c/i\u003e dürfen nicht auf diese Weise Verbände aufnehmen.",
+        "Wenn ein Verband in Reserve versetzt wird, darf er sofort durch ein anderes \u003ci\u003ePortal\u003c/i\u003e wieder ins Spiel kommen oder in Reserve bleiben. Das Betreten oder Verlassen eines \u003ci\u003ePortals\u003c/i\u003e erfordert eine vollständige Bewegung: Ein Verband mit einer Doppelaktion darf das Schlachtfeld also mit der ersten Bewegung verlassen und mit der zweiten durch ein anderes \u003ci\u003ePortal\u003c/i\u003e wieder betreten. Bei Vorrücken oder einer Offensive darf ein Verband jedoch nicht im Rahmen derselben Bewegung ein Portal betreten und ein anderes verlassen. Einheiten, die sich am Ende einer Bewegung außerhalb der Verband befinden, werden zerstört. Ein durch ein \u003ci\u003ePortal\u003c/i\u003e aufgenommener Verband muss in Reserve bleiben, bis er aktiviert werden kann, um ins Spiel zurückzukehren. Er darf in derselben Runde wieder aktiviert werden, in der er aufgenommen wurde, sofern er davor noch nicht aktiviert worden war.",
+        "Jedes Mal, wenn ein Verband ein \u003ci\u003ePortal\u003c/i\u003e einer aufgeriebenen Einheit verwendet, erhält er eine Beschussmarke. Dies gilt auch für aufgeriebene Verbände, die ein aufgeriebenes Portal verwenden; dabei geht eine Einheit verloren, sofern nicht alle Einheiten Furchtlos sind.",
+        "Befindet sich ein \u003ci\u003ePortal\u003c/i\u003e in einer gegnerischen Kontrollzone, muss jeder hindurchkommende Verband den blockierenden Verband offensiv angreifen. Befindet sich das Portal zudem direkt unter einer gegnerischen Einheit, darf der Verband das Schlachtfeld weiterhin durch das Portal betreten, muss aber so viel Basekontakt wie möglich mit den blockierenden Einheiten herstellen."
+      ]
+    },
+    {
+      "title": "Unaufhaltsamer Vormarsch",
+      "description": [
+        "Necron-Verbände erhalten einen Bonus von +1, wenn sie versuchen, Ordnen durchzuführen, erleiden jedoch einen Malus von -1, wenn sie versuchen, einen Marsch durchzuführen."
+      ]
+    },
+    {
+      "title": "Schwerfällig",
+      "description": [
+        "Einheiten mit der Sonderregel Schwerfällig dürfen beim Aufgeriebenwerden oder bei einem misslungenen Sammelversuch nur einen einzelnen Rückzugsschritt statt zwei durchführen."
+      ]
+    },
+    {
+      "title": "Phasenausfall",
+      "description": [
+        "Am Ende einer beliebigen Aktion wird ein aufgeriebener Necron-Verband, der mindestens die Hälfte seiner ursprünglichen Einheitenzahl verloren hat, aus der Phase genommen. Das bedeutet, dass er vom Schlachtfeld entfernt wird und für Siegesbedingungen als zerstört gilt."
+      ]
+    },
+    {
+      "title": "Ausdauernd",
+      "description": [
+        "Necron-Verbände mit Einheiten, die \u003ci\u003eAusdauernd\u003c/i\u003e besitzen, werden nicht \u003ci\u003eaus der Phase genommen\u003c/i\u003e. Hat der Verband alle Einheiten mit \u003ci\u003eAusdauernd\u003c/i\u003e verloren, wird er wie üblich aus der Phase genommen."
+      ]
+    },
+    {
+      "title": "Big Mek",
+      "description": [
+        "Jede Armee der Großen Gargant-Mobs muss einen kostenlosen Oberbefehlshaber namens Big Mek enthalten. Der Big Mek schließt sich der teuersten Kriegsmaschine der Armee an."
+      ]
+    },
+    {
+      "title": "Schlachtfestungen und Geschützfestungen",
+      "description": [
+        "Mega Transportpanzer und Mega Wummenpanzer dürfen nur Einheiten ihres eigenen Verbands transportieren (d. h. die Regeln für Kriegsmaschinentransporter gelten für sie in Turnierarmeelisten nicht)."
+      ]
+    },
+    {
+      "title": "Schpezialfelda",
+      "description": [
+        "Einige Ork-Kriegsmaschinen werden durch Schpezialfelda geschützt. Die Anzahl der Schpezialfelda jeder Kriegsmaschine ist auf ihrem Datenblatt angegeben. Schpezialfelda funktionieren genau wie Null-Schilde (siehe Null-Schilde), ausser dass sie nach dem Ausschalten durch einen Treffer nicht repariert werden können und für den Rest der Schlacht ausgefallen bleiben. Bei einer variablen Anzahl Schpezialfelda wird direkt nach der Aufstellung des Verbands auf dem Spielfeld oder ausserhalb des Spielfelds für sie gewürfelt."
+      ]
+    },
+    {
+      "title": "Super-Entbehrlich",
+      "description": [
+        "Ein Verband erhält keine Beschussmarke, wenn eine Einheit mit Super-Entbehrlich zerstört wird. Dies gilt auch für die zusätzliche Beschussmarke beim ersten Verlust durch Kreuzfeuer und für Einheiten, die nach einer Bewegung zerstört werden, weil sie sich ausserhalb der Verband befinden. Wird eine Super-Entbehrlich-Einheit von einer Waffe mit Versprengen getroffen, verursacht sie keine Beschussmarke.",
+        "Im Nahkampf getötete Super-Entbehrlich-Einheiten werden bei der Ermittlung des Ergebnisses nicht mitgezählt.",
+        "Verbände, die ausschliesslich aus Verbrauchbar- und/oder Super-Entbehrlich-Einheiten bestehen, profitieren nicht von den obigen Regeln."
+      ]
+    },
+    {
+      "title": "Waaaghbosse des Snakebite-Klans",
+      "description": [
+        "Jede Armee des Snakebite-Klans muss einen kostenlosen Oberbefehlshaber namens Waaaghboss enthalten. Für den Waaaghboss müssen keine Punkte bezahlt werden. Er muss einer Brutes-Einheit im stärksten Verband der Armee angeschlossen werden, also dem Verband mit den meisten Einheiten, der ebenfalls eine Brutes-Einheit enthält. Kriegsmaschinen zählen als eine Einheit pro Schadenskapazitätspunkt."
+      ]
+    },
+    {
+      "title": "Treibt sie stärker an, Jungs",
+      "description": [
+        "Besteht ein Gargant beliebigen Typs einen Aktionstest, der Bewegung erlaubt, darf der Spieler die Geschwindigkeit der Einheit für die gesamte Aktion auf 20 cm setzen. Wird diese Fähigkeit verwendet, erleidet das Modell für jede durchgeführte Bewegung jedoch einen Kritischen Treffer."
+      ]
+    },
+    {
+      "title": "Köppe zählen",
+      "description": [
+        "Orks glauben, dass sie immer eine Chance auf den Sieg haben, solange noch eine ganze Menge von ihnen gemeinsam kämpfen (am besten etwas mehr, als sie zählen können), ganz gleich, wie schlecht die Chancen stehen. Deshalb erhalten Ork-Verbände mit mehr als fünf Einheiten (also mehr, als an einer Hand abzählbar sind; Grots und Kanonänbatterie werden nicht mitgezählt) einen Modifikator von +1 auf Sammelwürfe. Verbände mit mehr als 10 solchen Einheiten erhalten einen Modifikator von +2. Für diese Regel zählt jeder Punkt anfangs vorhandener Schadenskapazität einer Kriegsmaschine als eine Einheit. Kriegsmaschinen mit der Sonderregel Göttermaschine gelten immer als hätten sie mehr als 10 Einheiten."
+      ]
+    },
+    {
+      "title": "Los geht's",
+      "description": [
+        "Einheiten mit der Sonderregel Los geht's erhalten zusätzlich 5cm Geschwindigkeit, wenn ihr Verband eine Offensive durchführt."
+      ]
+    },
+    {
+      "title": "Stürmt los, Jungs",
+      "description": [
+        "Verbände mit mindestens einer Einheit mit der Sonderregel \u003ci\u003eStürmt los, Jungs\u003c/i\u003e erhalten einen Modifikator von +1 auf ihren Aktionstest, wenn sie versuchen, einen Marsch durchzuführen."
+      ]
+    },
+    {
+      "title": "Macht des Waaagh!",
+      "description": [
+        "Orks sind nicht für ihre organisatorischen Fähigkeiten bekannt und haben daher meist einen niedrigen Initiativewert. Doch nichts spornt eine Ork-Kriegsbande so sehr an wie die Aussicht auf eine gute Rauferei! Deshalb erhalten Ork-Verbände bei Versuchen, eine Offensive oder einen Eilschritt durchzuführen, einen Modifikator von +2 auf ihren Aktionstest. Auch Ork-Piloten können es kaum erwarten, Dinge unter Beschuss zu nehmen, und erhalten bei Versuchen, Abfangen oder Bodenangriff durchzuführen, einen Modifikator von +2 auf ihren Aktionstest (siehe Flugzeuge)."
+      ]
+    },
+    {
+      "title": "Waaaghboss des Goffs-Klans",
+      "description": [
+        "Jede Kriegerbande muss einen kostenlosen Oberbefehlshaber namens Waaaghboss enthalten. Enthält die Armee Große Garganten, muss der Waaaghboss einem davon angeschlossen werden. Andernfalls schließt er sich einer Gargant- oder Bosse-Einheit an."
+      ]
+    },
+    {
+      "title": "Waaaghboss der Speedfreaks",
+      "description": [
+        "Jede Speedfreak-Armee muss einen kostenlosen Oberbefehlshaber namens Mek Bad Ork Biker enthalten. Für diesen Mek müssen keine Punkte bezahlt werden. Er darf einem beliebigen Ork-Verband der Armee hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Speedfreaks",
+      "description": [
+        "Jede Einheit einer Speedfreak-Armee der Evil Sunz muss mindestens 30 cm schnell sein oder in einer Einheit mit mindestens 30 cm Geschwindigkeit transportiert werden. Verbände dürfen also keine Einheiten mit weniger als 30 cm Geschwindigkeit enthalten, es sei denn, sie verfügen über ein Transportfahrzeug, das diese Einheiten transportieren kann."
+      ]
+    },
+    {
+      "title": "Koordinierter Beschuss",
+      "description": [
+        "Ein Verband mit mindestens einer Einheit mit Koordinierter Beschuss darf bis zu zwei weitere nicht aufgeriebene Verbände innerhalb von 15 cm, die in dieser Runde noch keine Aktion durchgeführt haben, auffordern, ihm bei Vorrücken, einem Eilschritt oder Dauerfeuer zu folgen.",
+        "Lege einen einzelnen Initiativwurf für alle Verbände ab und berücksichtige dabei einen gemeinsamen Modifikator von -1, falls einer der Verbände Beschussmarken hat. Misslingt der Test, erhält der ursprüngliche Verband (mit der Einheit, die Koordinierter Beschuss einsetzt) eine Beschussmarke und muss Halten durchführen. Die anderen Verbände sind nicht betroffen und dürfen später in der Runde eine Aktion durchführen. Gelingt der Test, dürfen alle beteiligten Verbände Vorrücken, einen Eilschritt oder Dauerfeuer durchführen.",
+        "Nicht alle Verbände müssen dieselbe Aktion durchführen; die Aktionen dürfen in beliebiger Reihenfolge abgehandelt werden, müssen sich aber alle gegen denselben Zielverband richten. Kann oder will ein aktivierter Verband nicht auf den ausgewählten Verband feuern, darf er in dieser Runde überhaupt nicht feuern. Die Verbände müssen keinen bestimmten Abstand zueinander einhalten und führen ihre Aktionen nacheinander durch. Die Aktion jedes Verbands wird angesagt und abgehandelt (einschliesslich des Tests, ob der Zielverband aufgerieben wird), bevor der nächste Tau-Verband an die Reihe kommt."
+      ]
+    },
+    {
+      "title": "Ablenkschild",
+      "description": [
+        "Tau-Deflektorschilde funktionieren in jeder Hinsicht wie Unverwundbar, bieten jedoch einen Schutzwurf von 5+ statt 6+. Gegen Titan-Killer-Angriffe müssen WE und H-AV für jeden Schadenspunkt einen Unverwundbar-Schutzwurf ablegen."
+      ]
+    },
+    {
+      "title": "Gelenkte Raketen",
+      "description": [
+        "Lenkflugkörper dürfen ohne Sichtlinie abgefeuert werden, aber nur auf Ziele, die mit Zielmarker markiert wurden.",
+        "Lenkflugkörper folgen allen normalen Regeln zur Unterdrückung. Befindet sich eine Einheit mit einer Lenkflugkörperwaffe in Reichweite und Sichtlinie zu einer Einheit des Zielverbands, wird sie bei der Unterdrückung mitgezählt, auch wenn der Zielverband nicht markiert ist.",
+        "Zum Zweck der Unterdrückung, des Kreuzfeuers und beim Schiessen im Rahmen einer Feuerbereitschaftsaktion gelten Lenkflugkörper als hätten sie Sichtlinie zu allen Einheiten eines markierten Verbands."
+      ]
+    },
+    {
+      "title": "Zielmarker",
+      "description": [
+        "Alle gegnerischen Verbände mit mindestens einer Einheit innerhalb von 30 cm und Sichtlinie zu mindestens einer Tau-Einheit mit der Sonderregel Zielmarker gelten als markiert. Bei Fernkampfangriffen gegen einen markierten Verband erhalten alle Fernkampfwaffen einen zusätzlichen Trefferwurfmodifikator von +1. Dieser Bonus gilt nicht bei Flugabwehrangriffen oder Sperrfeuerangriffen. Ein aufgeriebener Tau-Verband oder ein Verband, der in dieser Runde einen Marsch durchgeführt hat, darf keine gegnerischen Verbände markieren."
+      ]
+    },
+    {
+      "title": "Tau-Sprungmodule",
+      "description": [
+        "Tau-Sprungmodule folgen allen Regeln für Sprungmodule. Verbände, die ausschliesslich aus Einheiten mit Tau-Sprungmodulen bestehen, dürfen am Ende einer Aktion Vorrücken, Eilschritt oder Marsch zusätzlich bis zu 10cm weit bewegt werden. Diese zusätzliche Bewegung ist unabhängig davon erlaubt, ob die Einheit feuert, und erfolgt nach dem Schiessen. Sie darf in jede Richtung führen und folgt allen normalen Bewegungsregeln; Einheiten müssen also wie üblich den Zusammenhalt und Kontrollzonen beachten."
+      ]
+    },
+    {
+      "title": "Angriffsdrohnen des Tigerhais",
+      "description": [
+        "Transportierte Gun-Drone-Verbände dürfen ausnahmsweise nach den normalen Regeln für Lufttransporter auf mehrere Tigerhais verteilt werden. Die Tigerhais dürfen nicht landen, offensiv angreifen oder Einheiten einschiffen, können aber nach einer Anflugbewegung transportierte Angriffsdrohnen aussteigen lassen. Der Gun-Drone-Verband darf beim Aussteigen wie üblich Schießen (siehe Transport von Bodeneinheiten) und gilt in dieser Runde als aktiviert. Nach dieser ersten Aufstellung ist der Gun-Drone-Verband vollständig unabhängig."
+      ]
+    },
+    {
+      "title": "Synapse",
+      "description": [
+        "Die folgenden Regeln gelten nur für Primär- und Sekundär-Synapsenschwarm-Verbände. Synapsenkreaturen sind alle Einheiten mit der Sonderregel \u003ci\u003eSynapse\u003c/i\u003e. Ein Synapsenschwarm ohne verbliebene Synapsenkreaturen hat einen Initiativwert von 3+ und darf weder Missionsziele einnehmen noch bestreiten, einschliesslich „Sie Können Nicht Vorbei“.",
+        "Ein Synapsenschwarm mit verbliebenen Synapsenkreaturen darf am Ende seiner Aktion andere Synapsenschwarm-Verbände ohne verbliebene Synapsenkreaturen aufnehmen. Eine Einheit des aufnehmenden Verbands muss sich innerhalb von 5cm zu einer Einheit der aufzunehmenden Verbände befinden. Einheiten und Beschussmarken des aufgenommenen Verbands werden Teil des aufnehmenden Verbands (aufgeriebene Verbände gelten als hätten sie so viele Beschussmarken wie verbliebene Einheiten bzw. anfängliche DC). Für das Ziel Brecht Ihren Willen gilt der aufgenommene Verband als vollständig zerstört."
+      ]
+    },
+    {
+      "title": "Knoten des Schwarmbewusstseins",
+      "description": [
+        "Solange die Tyraniden-Armee eine Einheit mit Knoten des Schwarmbewusstseins enthält, darf sie einmal pro Runde einen einzelnen misslungenen Aktionstest beliebigen Typs wiederholen (es sei denn, alle Einheiten mit Knoten des Schwarmbewusstseins befinden sich ausserhalb des Spielfelds)."
+      ]
+    },
+    {
+      "title": "Brutbewusstsein",
+      "description": [
+        "Alle Genestealer-Cult-Verbände mit einem Iconward, Magus, Primus, Patriarch oder Symbiontenlord erhalten einen Modifikator von +1 auf ihren Aktionstest, wenn sie eine Offensive durchführen, sowie einen Bonus von +1 auf Sammeltests."
+      ]
+    },
+    {
+      "title": "Charaktere des Symbiontenkults",
+      "description": [
+        "Genestealer-Cult-Charaktere dürfen nur INF-Einheiten hinzugefügt werden, die dem Verband nicht als Teil einer Aufwertung hinzugefügt wurden."
+      ]
+    },
+    {
+      "title": "Schwarmbewusstsein",
+      "description": [
+        "Alle Tyraniden-Verbände erhalten einen Modifikator von +1 auf ihren Aktionstest, wenn sie eine Offensive durchführen, sowie +1 auf ihre Sammeltests."
+      ]
+    },
+    {
+      "title": "Schießt auf die Großen!",
+      "description": [
+        "Die Feinde der Tyraniden haben gelernt, dass die Vernichtung der Synapsenkreaturen des Schwarmbewusstseins die Tyranidenschwärme in Unordnung bringt. Deshalb werden bestimmte Einheiten, die normalerweise Infanterie wären, stattdessen als leichte Fahrzeuge eingestuft."
+      ]
+    },
+    {
+      "title": "Extreme Beweglichkeit",
+      "description": [
+        "Tyraniden-AV- und WE-Einheiten legen keine Tests für gefährliches Gelände ab. Tyraniden-LV bewegen sich durch Gelände und erhalten Deckung wie INF; Tyraniden-INF müssen keine Tests für schwieriges Gelände ablegen. Befestigte Stellungen wie Minenfelder, Stacheldraht und besondere Geländestücke wirken normal auf Tyraniden."
+      ]
+    },
+    {
+      "title": "Extreme Beweglichkeit (Symbiontenkult)",
+      "description": [
+        "Akolythenhybriden, Aberrants, Symbionten und Metamorph-Hybriden müssen keine Geländetests ablegen. Befestigte Stellungen wie Minenfelder, Stacheldraht und besondere Geländestücke wirken normal auf diese Einheiten."
+      ]
+    },
+    {
+      "title": "Ganten",
+      "description": [
+        "Die Hälfte (aufgerundet) aller Einheiten mit der Sonderregel \u003ci\u003eGanten\u003c/i\u003e, die im Nahkampf getötet werden, zählt nicht für das Nahkampfergebnis. \u003ci\u003eGanten\u003c/i\u003e sind ausserdem \u003ci\u003eVerbrauchbar\u003c/i\u003e, solange sich noch mindestens eine Einheit mit \u003ci\u003eSynapse\u003c/i\u003e im Verband befindet."
+      ]
+    },
+    {
+      "title": "Vorhutorganismen des Dagon",
+      "description": [
+        "Nur Symbionten, Liktors und Brutnestschwarms dürfen als Garnison aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Vorhutorganismen der Hydra",
+      "description": [
+        "Nur Brutnester, Symbiontenschwärme und Infiltratorenschwärme dürfen als Garnison aufgestellt werden."
+      ]
+    },
+    {
+      "title": "Schwarmbildung",
+      "description": [
+        "Die Hive-Fleet-Hydra-Armee darf während der Schlacht Ganten hervorbringen, um ihre Reihen zu verstärken. Die Armee beginnt das Spiel mit einem Schwarm-Pool ausserhalb des Spielfelds. Beim Erstellen der Armee gekaufte Schwarm-Pool-Punkte ermöglichen es, Verbänden, die schwarmen, Einheiten mit der Sonderregel \u003ci\u003eGanten\u003c/i\u003e hinzuzufügen. Die Grösse des Schwarm-Pools muss jederzeit für alle Spieler sichtbar sein; es wird empfohlen, sie mit Markern oder Würfeln anzuzeigen. Beim Hervorbringen von Ganten muss die Poolgrösse angepasst werden. Du darfst jeden in der Armee verfügbaren Einheitentyp mit der Sonderregel \u003ci\u003eGanten\u003c/i\u003e hervorbringen, unabhängig von der ursprünglichen Zusammensetzung des Verbands.",
+
+        "In der Endphase, bevor sich Verbände gesammelt haben, darf jeder Tyraniden-Verband mit mindestens einer Einheit mit \u003ci\u003eSynapse\u003c/i\u003e schwarmen. Würfle 1D3, um die Anzahl der dem Verband verfügbaren Erzeugungspunkte zu bestimmen (modifiziert durch die Sonderregeln \u003ci\u003eVerstärkte Schwarmbildung (+x)\u003c/i\u003e und \u003ci\u003eUnterstützte Schwarmbildung\u003c/i\u003e). Der Verband darf anschliessend Ganten bis zur Höhe der erzielten Erzeugungspunkte hervorbringen. Alle so hinzugefügten Einheiten müssen innerhalb von 5cm zu bereits vor dem Schwarmen auf dem Spielfeld befindlichen Einheiten platziert werden und dürfen nicht in gegnerischen Kontrollzonen oder auf unpassierbarem Gelände aufgestellt werden. Auch aufgeriebene Verbände dürfen schwarmen, müssen aber zwei Erzeugungspunkte pro hinzugefügter Einheit ausgeben.",
+
+        "Ein Verband, der sich sammelt, darf den Wurf ausserdem verwenden, um entweder Einheiten aus dem Schwarm-Pool hervorzubringen oder Beschussmarken zu entfernen. Bei einem Sammelwurf von 3 kann ein Verband zum Beispiel drei Beschussmarken entfernen, drei Ganten hervorbringen oder eine Beschussmarke entfernen und zwei Ganten hervorbringen."
+      ]
+    },
+    {
+      "title": "Verstärkte Schwarmbildung (+x)",
+      "description": [
+        "Einheiten mit \u003ci\u003eVerstärkte Schwarmbildung (+x)\u003c/i\u003e fügen eine Anzahl Erzeugungspunkte in Höhe von \u003ci\u003ex\u003c/i\u003e hinzu, wenn der Verband schwarmt (siehe Armeeregel \u003ci\u003eSchwarmbildung\u003c/i\u003e)."
+      ]
+    },
+    {
+      "title": "Unterstützte Schwarmbildung",
+      "description": [
+        "Einheiten mit \u003ci\u003eUnterstützte Schwarmbildung\u003c/i\u003e fügen befreundeten Verbänden innerhalb von 15 cm zur Einheit (einschliesslich des eigenen Verbands) beim Schwarmen einen Erzeugungspunkt hinzu (siehe Armeeregel \u003ci\u003eSchwarmbildung\u003c/i\u003e). Mehrere Einheiten mit \u003ci\u003eUnterstützte Schwarmbildung\u003c/i\u003e fügen jeweils einen Punkt hinzu."
+      ]
+    },
+    {
+      "title": "Allgemeine Turnier-Stichentscheidungsregeln",
+      "description": [
+        "Gibt ein Spieler auf oder erscheint nicht innerhalb von 30 Minuten, wird dem Gegner ein Gesamtsieg zugesprochen. Muss ein Spiel vor Runde 4 aus Zeitmangel abgebrochen werden, bestimmt die aktuelle Missionszielwertung das Ergebnis; endet das Spiel vorzeitig in Runde 2, erhalten beide Seiten einen Malus von -4, endet es in Runde 3, einen Malus von -2. Hat sich ein Spieler mehr als 5 Minuten verspätet, erhält dieser Spieler die Malusse beider Seiten."
+      ]
+    },
+    {
+      "title": "Brutbrüder",
+      "description": [
+        "Solange ein Verband einen Symbiontenpatriarch, Genestealer Primus, Symbiontenmagus oder Hybrid-Ikonwart enthält, verursachen Einheiten desselben Verbands mit der Sonderregel \u003ci\u003eBrutbrüder\u003c/i\u003e weder bei ihrer Zerstörung noch bei einem Treffer durch eine Waffe mit der Sonderregel \u003ci\u003eVersprengen\u003c/i\u003e Beschussmarken. Dies gilt auch für die zusätzliche Beschussmarke beim ersten Verlust durch Kreuzfeuer und für Einheiten, die nach einer Bewegung zerstört werden, weil sie sich ausserhalb der Verband befinden. Im Nahkampf getötete Einheiten mit \u003ci\u003eBrutbrüder\u003c/i\u003e werden bei der Ermittlung des Ergebnisses mitgezählt."
+      ]
+    },
+    {
+      "title": "Brutkult",
+      "description": [
+        "Die Armee muss einen Brutkult-Verband enthalten. Der Gegner gilt als hätte er das Siegesziel „Brecht Ihren Willen“ (BTS) erreicht, wenn er diesen oder den teuersten Verband der Armee zerstört."
+      ]
+    },
+    {
+      "title": "Charaktere der Thousand Sons",
+      "description": [
+        "Thousand-Sons-Charaktere dürfen nur Chaos Space Marines, Rubric Marines, Scarab Occult Terminatoren oder Sorcerer Discreiter hinzugefügt werden."
+      ]
+    },
+    {
+      "title": "Einsatz des Overlords",
+      "description": [
+        "Einige Primaris Space Marines sind mit schweren Sprungmodulen oder Gravfallschirme ausgerüstet, die dafür vorgesehen sind, sie aus niedriger Umlaufbahn von den Landebuchten tief fliegender Angriffsschiffe auf das Schlachtfeld abzusetzen. Dies wird dadurch dargestellt, dass der Verband die Sonderregel \u003ci\u003eSelbststaendige Planetare Landung\u003c/i\u003e erhält, mit einer Ausnahme: Würfle nur für die erste Einheit des Verbands auf Abweichung. Stelle anschliessend alle übrigen Einheiten innerhalb von 5cm zur ersten Einheit auf."
+      ]
+    }
+  ]
+}

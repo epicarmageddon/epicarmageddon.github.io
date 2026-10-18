@@ -1,0 +1,277 @@
+{
+  "fraction": "Dunkler Mechanicus",
+  "army": "Questor Traitoris",
+  "version": "0.6.0",
+  "release": "2022-04-01",
+  "strategy": "Armeen des Dunklen Mechanicus haben einen Strategiewert von 3.",
+  "Initiative": "Die Chaos-Warbringer-Verbände haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "QT-Beschwörungsregeln",
+    "Launische Meister",
+    "QT Ewige Feindschaft"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee der Verräter-Titanenlegionen mit Unterstützung des Dunklen Mechanicus aufstellen."
+  ],
+  "units": [
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Chaos-Ikone",
+        "Höllenstreiter",
+        "Höllenritter",
+        "Höllengeißel",
+        "Schänder-Ritter",
+        "Rampager-Ritter",
+        "Verwüster-Ritter",
+        "Abtrünniger Ritter",
+        "Tyrannenritter",
+        "Doomglaive-Ritter",
+        "Perfidor-Ritter",
+        "Erz-Heretek",
+        "Höllenschmied",
+        "Chaoszwerge",
+        "Phospexor",
+        "Gepanzerter Triaros-Verwüster",
+        "Krios-Blitzpanzer",
+        "Krios Venator",
+        "Chaos Rhino",
+        "Chrono-Gladiatoren",
+        "Ordinatus Hereticus",
+        "Ordinatus Hereticus Majoris",
+        "Kaban-Maschine"
+      ],
+      "unitRules": [
+         "Dämonischer Fokus",
+        "Dämonenmaschine (x)",
+        "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Null-Schilde",
+        "Schildbohrer",
+        "Schildbrecher",
+        "Lanze"
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Dämonetten des Slaanesh",
+        "Seuchenhüter des Nurgle",
+        "Zerfleischer des Khorne",
+        "Horrors des Tzeentch",
+        "Dämonische Bestien des ungeteilten Chaos"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Chaos-Warbringer"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllendrache",
+        "Harbringer-Bomber (B)",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Höllenschmiede-Kernformationen",
+      "formations": [
+        {
+          "name": "Höllenschmiede-Manipel",
+          "units": "Ein Höllenschmied, elf Chaos-Squats",
+          "extraUnits": [
+            "Ersetze vier Chaos-Squats durch vier Phospexors: 25 Punkte",
+            "Füge zwei Krios Lightning, zwei Krios Venators, oder ein Ordinatus Hereticus hinzu: 125 Punkte",
+            "Erz-Heretek",
+            "Kaban-Maschine",
+            "Höllenschmiede-Transporter"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Dämonische Bannerformationen",
+      "description": "Für jede Höllenschmiede-Kernformation dürfen bis zu drei dämonische Bannerformationen gewählt werden. Die Armee darf keine Verbände des Nurgle und Tzeentch oder des Slaanesh und Khorne miteinander kombinieren.",
+      "formations": [
+        {
+          "name": "Höllenritter des Slaanesh",
+          "units": "Dämonenpakt, zwei Höllenritter",
+          "extraUnits": [
+            "Füge einen zusätzlichen Höllenritter hinzu: 100 Punkte"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Höllengeißeln des Slaanesh",
+          "units": "Dämonenpakt, zwei Höllenharpyien",
+          "extraUnits": [
+            "Füge einen zusätzlichen Höllenritter hinzu: 100 Punkte"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Höllenstreiter des Slaanesh",
+          "units": "Dämonenpakt, vier Hell-Striders",
+          "extraUnits": [
+            "Füge eine zusätzliche Hell-Strider hinzu: 50 Punkte"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Schänder-Ritter des Tzeentch",
+          "units": "Dämonenpakt, zwei Schänder-Ritter",
+          "extraUnits": [
+            "Chaos-Ikone"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Entweiher-Ritter des Nurgle",
+          "units": "Dämonenpakt, zwei Entweiher-Ritter",
+          "extraUnits": [
+            "Chaos-Ikone"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Rampager-Ritter des Khorne",
+          "units": "Dämonenpakt, zwei Rampager-Ritter",
+          "extraUnits": [
+            "Chaos-Ikone"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Abtrünnige Ritter des Ungeteilten Chaos",
+          "units": "Dämonenpakt, zwei Abtrünnige Ritter",
+          "extraUnits": [
+            "Chaos-Ikone"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Tyrannenritter des Ungeteilten Chaos",
+          "units": "Dämonenpakt, ein Tyrannenritter",
+          "extraUnits": [
+            "Chaos-Ikone"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Armiger des Ungeteilten Chaos",
+          "units": "Dämonenpakt, vier Doomglaive-Ritter oder vier Perfidor-Ritter",
+          "extraUnits": [
+            "Füge einen zusätzlichen Doomglaive-Ritter oder Perfidor-Ritter hinzu (Konfigurationen dürfen nicht gemischt werden): 50 Punkte"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Höllenschmiede-Unterstützung, Verräter-Titanen und Verbündete der Chaosflotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Chrono-Gladiatoren",
+          "units": "Sechs Chrono-Gladiators",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Ordinatus Hereticus",
+          "units": "Zwei Ordinatus Hereticus",
+          "extraUnits": [
+            "Werte eine Battle Weapon im Verband zu einer Unterstützungswaffe auf: 25 Punkte",
+            "Kaban-Maschine"
+          ],
+          "points": 325
+        },
+        {
+          "name": "0–1 Ordinatus Hereticus Majoris",
+          "units": "Ein Ordinatus Retlaxi",
+          "extraUnits": [
+            "Werte den Ordinatus Retlaxi zu einem Ordinatus Temporia (25 Punkte) oder Ordinatus Cyclothrathe (50 Punkte) auf",
+            "Oberbefehlshaber"
+          ],
+          "points": 425
+        },
+        {
+          "name": "Chaos-Warbringer",
+          "units": "Ein Chaos Warbringer",
+          "points": 650
+        },
+        {
+          "name": "Höllendrachen",
+          "units": "Zwei Höllendrachen",
+          "points": 225
+        },
+        {
+          "name": "Harbringer",
+          "units": "Ein Harbringer-Bomber (B)",
+          "points": 300
+        },
+        {
+          "name": "0–1 Chaos Schlachtschiff",
+          "units": "Ein Schlachtschiff der Despoiler-Klasse",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Dämonenvorrat",
+      "description": "Für Punkte des Daemon Pool darf ein beliebiger Punktewert ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Für Punkte des Pool niederer Dämonen darf ein beliebiger Punktewert ausgegeben werden. Für jeden Dämonenpakt wird ein Punkt zum Pool niederer Dämonen hinzugefügt.",
+          "points": 15
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Questor Traitoris",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "(0–1 pro Armee) Oberbefehlshaber",
+        "description": "Füge einer Höllenschmied-Einheit oder einem Ordinatus Hereticus Majoris einen Erz-Heretek hinzu.",
+        "points": "100 Punkte"
+      },
+      {
+        "name": "(0–1 pro Armee) Kaban-Maschine",
+        "description": "Füge dem Verband die Kaban-Maschine hinzu.",
+        "points": "200 Punkte"
+      },
+      {
+        "name": "Chaos-Ikone",
+        "description": "Füge eine Chaos-Ikone zum Verband hinzu.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Höllenschmiede-Transporter",
+        "description": "Beliebige Kombinationen von Transportoptionen dürfen gewählt werden, um einen Verband zu transportieren, solange kein Fahrzeug völlig leer ist und keine Einheit ohne Transport bleibt.",
+        "points": [
+          "Chaos Rhino: 10 Punkte",
+          "Gepanzerter Triaros-Despoiler: 75 Punkte"
+        ]
+      }
+    ]
+  }
+}

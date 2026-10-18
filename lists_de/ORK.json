@@ -1,0 +1,1232 @@
+[
+  {
+    "name": "Ork-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Waaghboss",
+        "type": "CH",
+        "weapons": [
+          "Mehr Dakka",
+          "Energieklaue"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber"
+        ],
+        "notes": "Erhält bei Auswahl für eine WE-Einheit \u0027Ore Dakka oder bei Auswahl für eine INF-Einheit eine Power Claw."
+      },
+      {
+        "name": "Mek des Bad-Ork-Bikerboys",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Kustom-Blasta",
+          "Choppa-Klingen"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Big Mek",
+        "type": "CH",
+        "weapons": [
+          "Mehr Dakka"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Oddboy",
+        "type": "CH",
+        "weapons": [
+          "Supa-Zzap-Geschütz|0-1|",
+          "Mega Kanonä|0-1|",
+          "W3+1 Schpezialfelda|0-1|"
+        ],
+        "specialRules": [
+          "Ersetze eine Kanonä entweder durch ein Supa-Zzap-Geschütz oder durch eine Mega Kanonä; alternativ kann die Einheit W3+1 Kraftfelder erhalten."
+        ]
+      },
+      {
+        "name": "Bad-Moons-Oddboy",
+        "type": "CH",
+        "weapons": [
+          "Mega Kanonä|0-1|",
+          "Wyrdboy-Turm|0-1|",
+          "W3+1 Schpezialfelda|0-1|"
+        ],
+        "specialRules": [
+        ],
+        "notes": "Ersetze eine Kanonä entweder durch eine Mega Kanonä oder einen Wyrdboy-Turm. Alternativ kann die Einheit [*] W3+1 Schpezialkraftfelder erhalten."
+      },
+      {
+        "name": "Heizakult-Oddboy",
+        "type": "CH",
+        "weapons": [
+          "Lifta Droppa|0-1|",
+          "W3+1 Schpezialfelda|0-1|",
+          "Deff-Rolla \u0026 Rote Farbä|0-1|"
+        ],
+        "specialRules": [
+          "Die Einheit ersetzt entweder eine Kanonä durch einen Lifta Droppa, oder [*] erhält W3+1 Kraftfelder, oder [**] wird mit einer Deff-Rolla (Geländegängig) und mit Rota Farbä (erhöhe die Geschwindigkeit um 10cm) ausgerüstet"
+        ]
+      },
+      {
+        "name": "Wyrdboy",
+        "type": "CH",
+        "weapons": [
+          "Faust des Gork"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Pigdok",
+        "type": "CH",
+        "weapons": [
+          "Cyberkeiler"
+        ],
+        "specialRules": [
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Boys",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Fette Wumme"
+        ],
+        "specialRules": [
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Grots",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Grot-Knarren und Messer"
+        ],
+        "specialRules": [
+          "Super-Entbehrlich",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Bosse",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Fette Wumme|2|",
+          "Fette Spalta"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Posas",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Snazzguns",
+          "Fette Spalta"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Boss-Waaghbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Abgesägtä Fette Wumme",
+          "Fette Spalta"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Kanonänbatterie",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Kanonä"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Kommandos",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Fette Wumme"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Stormboys",
+        "type": "INF",
+        "speed": 30,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Knarren"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Waaghbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Abgesägtä Fette Wumme"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Waaghbike-Aufklärer",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Abgesägtä Fette Wumme"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Pulsa-Raketen",
+        "type": "LV",
+        "speed": 10,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Pulsa-Rakete"
+        ],
+        "specialRules": [
+        ],
+                "notes": "Angebrochene BPs werden aufgerundet"
+      },
+      {
+        "name": "Deffkopta",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Fette Wumme"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Waaghkopta",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Knarren"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "1 Einheit Kommandos. Einheiten dürfen während des Transports schießen und an Feuergefechten teilnehmen."
+      },
+      {
+        "name": "Buggy",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Fette Wumme"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Brennabuggy",
+        "type": "LV",
+        "speed": 35,
+        "armour": 6,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Brenna"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Heizakult-Pikk-Up",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 5,
+        "weapons": [
+            "n/a"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys oder Bosse. Einheiten dürfen während des Transports schießen und an Feuergefechten teilnehmen, sofern sich kein gegnerisches Modell in Basekontakt mit dem Transporter befindet."
+      },
+      {
+        "name": "Mek-Speedsta",
+        "type": "AV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Kustom-Kanone"
+        ],
+        "specialRules": [
+          "Anführer",
+          "W3 Schpezialfelda"
+        ]
+      },
+      {
+        "name": "Transportpanza",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Fette Wumme|2|"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "2 Einheiten Boys, Bosse, Posas, Kommandos oder Grots. Kanonänbatterien belegen jeweils 2 Plätze. Zusätzlich zu anderen transportierten Einheiten darf 1 Einheit Grots mitgeführt werden."
+      },
+      {
+        "name": "Kampfpanza",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Kanonä"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys, Bosse, Posas, Kommandos oder Grots."
+      },
+      {
+        "name": "Heizakult-Kampfpanza",
+        "type": "AV",
+        "speed": 35,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Kanonä"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys, Bosse, Kommandos oder Grots."
+      },
+      {
+        "name": "Erbeuteter Leman Russ/Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Kanonä",
+          "Fette Wumme|2|"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys, Bosse, Kommandos oder Grots."
+      },
+      {
+        "name": "Erbeuteter Vindicator/Thunderer",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Spleenrippa",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Kampfgeschütz"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Flakpanza",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Flakgeschütz"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys, Bosse, Posas, Kommandos oder Grots."
+      },
+      {
+        "name": "Heizakult-Flakpanza",
+        "type": "AV",
+        "speed": 35,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Flakgeschütz"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys, Bosse, Kommandos oder Grots."
+      },
+      {
+        "name": "Erbeutete Hydra/Stalker",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Flakgeschütz"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "1 Einheit Boys, Bosse, Kommandos oder Grots."
+      },
+      {
+        "name": "Killa Bot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Fette Wumme",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Deff-Dread",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Fette Wumme|2|",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+            "Geländegängig",
+            "Los geht's"
+        ]
+      },
+      {
+        "name": "Meka-Dread",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kanonä",
+          "Reparaturarm"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Geländegängig",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Stampfa",
+        "type": "H-AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kanonä|2-3|",
+          "Kampfhammer|0-1|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Los geht's"
+        ],
+        "notes": "Bewaffnet entweder mit drei Kanonän oder mit zwei Kanonän und einem Kampfhammer."
+      },
+      {
+        "name": "Mega Transportpanza",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Kanonä",
+          "Zwillings-Fette Wumme|4|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Transport"
+        ],
+        "notes": "8 Boys, Posas, Bosse, Kommandos oder Grots. Kanonänbatterien belegen jeweils 2 Plätze. Zusätzlich zu anderen transportierten Einheiten dürfen 4 Grots-Einheiten mitgeführt werden.",
+        "crit": "Der Mega Transportpanza wird zerstört, alle transportierten Einheiten werden getötet, ausser sie würfeln eine 6+."
+      },
+      {
+        "name": "Mega Wummenpanza",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Kanonä|3|",
+          "Zwillings-Fette Wumme|5|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Transport"
+        ],
+        "notes": "4 Boys, Bosse, Posas, Kommandos oder Grots. Kanonänbatterien belegen jeweils 2 Plätze. Zusätzlich zu anderen transportierten Einheiten dürfen 2 Grots-Einheiten mitgeführt werden.",
+        "crit": "Der Mega Wummenpanza wird zerstört, alle transportierten Einheiten werden getötet, ausser sie würfeln eine 6+."
+      },
+      {
+        "name": "Flakka-Mega-Transportpanza",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Kanonä",
+          "Flakgeschütz|3|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3"
+        ],
+        "crit": "Die Flakka-Mega-Transportpanza wird zerstört, alle transportierten Einheiten werden getötet, außer bei einer 6+."
+      },
+      {
+        "name": "Schädelhammer",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Höllenzornkanone||FxF",
+          "Kanonä||FxF",
+          "Brenna|2|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3"
+        ],
+        "crit": "Skullhamma wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer"
+      },
+      {
+        "name": "Supa-Stampfa",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Blick des Mork",
+          "Mega Kanonä|2-3|FxF",
+          "Killa-Spalta|0-1|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Schpezialfelda 1D3",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "crit": "Der Kopf des Supa-Stampfa wird weggeschossen und er erhält für den Rest des Spiels einen Modifikator von -1 auf alle Trefferwürfe beim Schiessen. Weitere kritische Treffer verursachen stattdessen 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Supa-Stampfa ",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Kopfbewaffnung (Wähle eine)",
+          "Blick des Mork|0-1|",
+          "Blick des Gork|0-1|",
+          "Armbewaffnung (Wähle zwei)",
+          "Mega Kanonä|1-2|FxF",
+          "Killa-Spalta|0-1|FxF",
+          "Bauchbewaffnung (Wähle eine)",
+          "Mega Kanonä|0-1|FxF",
+          "Dakka-Kanone|0-1|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Schpezialfelda 1D3",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "crit": "Der Kopf des Supa-Stampfa wird weggeschossen und er erhält für den Rest des Spiels einen Modifikator von -1 auf alle Trefferwürfe beim Schiessen. Weitere kritische Treffer verursachen stattdessen 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Gargant",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Blick des Mork",
+          "Mega Kanonä|2-3|FxF",
+          "Supa-Zzap-Geschütz|0-1|FxF",
+          "Megaspalta|0-1|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 7",
+          "Schpezialfelda 1D3+3",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Bewaffnet entweder mit drei Mega Kanonäs oder mit zwei Mega Kanonäs und entweder einem Supa-Zzap-Geschütz oder einer Mega-Choppa"
+        ],
+        "crit": "Der Gargant fängt Feuer. Würfle in der Endphase jeder Runde 1W6 für jedes auf der Einheit brennende Feuer. 1: Ein weiteres Feuer entsteht. 5-6: Das Feuer wird gelöscht. Jeder Wurf von 1-4 verursacht 1 Schaden."
+      },
+      {
+        "name": "Gargant ",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Kopfbewaffnung (Wähle eine)",
+          "Blick des Mork|0-1|",
+          "Blick des Gork|0-1|",
+          "Armbewaffnung (Wähle zwei)",
+          "Mega Kanonä|0-2|FxF",
+          "Dakka-Kanone|0-2|FxF",
+          "Megaspalta|0-2|",
+          "Zzap-Geschütz|0-2|FxF",
+          "Bauchbewaffnung (Wähle eine)",
+          "Mega Kanonä|0-1|FxF",
+          "Supa-Brenna|0-1|FxF",
+          "Supa-Zzap-Geschütz|0-1|FxF",
+          "Snappa|0-1|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 7",
+          "Schpezialfelda 1D3+3",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "crit": "Der Gargant fängt Feuer. Würfle in der Endphase jeder Runde 1W6 für jedes auf der Einheit brennende Feuer. 1: Ein weiteres Feuer entsteht. 5-6: Das Feuer wird gelöscht. Jeder Wurf von 1-4 verursacht 1 Schaden."
+      },
+      {
+        "name": "Großer Gargant",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Blick des Mork",
+          "Kanonä|2|",
+          "Mega Kanonä||FxF",
+          "Zwillings-Mega Kanonä|1-2|FxF",
+          "Lifta Droppa|0-1|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 10",
+          "Schpezialfelda 1D3+6",
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Bewaffnet entweder mit zwei Zwillings-Mega-Kanonäs oder mit einer Zwillings-Mega-Kanonä und einem Lifta Droppa"
+        ],
+        "crit": "Der Große Gargant fängt Feuer. Würfle in der Endphase jeder Runde 1W6 für jedes auf der Einheit brennende Feuer. 1: Ein weiteres Feuer entsteht. 5-6: Das Feuer wird gelöscht. Jeder Wurf von 1-4 verursacht 1 Schaden."
+      },
+      {
+        "name": "Großer Gargant ",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Kanonä|2|",
+          "Kopfbewaffnung (Wähle eine)",
+          "Blick des Mork|0-1|",
+          "Blick des Gork|0-1|",
+          "Armbewaffnung (Wähle zwei)",
+          "Zwillings-Mega Kanonä|0-2|FxF",
+          "Dakka-Dakka-Kanone|0-2|FxF",
+          "Mega-Lobba|0-2|FxF",
+          "Lifta Droppa|0-1|",
+          "Bauchbewaffnung (Wähle eine)",
+          "Mega Kanonä|0-1|FxF",
+          "Supa-Brenna|0-1|FxF",
+          "Supa-Zzap-Geschütz|0-1|FxF",
+          "Snappa|0-1|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 10",
+          "Schpezialfelda 1D3+6",
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "crit": "Der Große Gargant fängt Feuer. Würfle in der Endphase jeder Runde 1W6 für jedes auf der Einheit brennende Feuer. 1: Ein weiteres Feuer entsteht. 5-6: Das Feuer wird gelöscht. Jeder Wurf von 1-4 verursacht 1 Schaden."
+      },
+      {
+        "name": "Mega-Gargant",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Kanonä|4|",
+          "Wyrdboy-Turm",
+          "2x Grot-gelenkte Rakete||FwA",
+          "Zwillings-Supa-Zzap-Geschütz||FwA",
+          "Mega-Kanonä-Bauchbatterie||FxF",
+          "Kampfarme"
+        ],
+        "specialRules": [
+          "Schadenskapazität 13",
+          "Schpezialfelda 1D3+9",
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Geländegängig",
+          "Furchtlos",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Der Mega Gargant fängt Feuer. Würfle in der Endphase jeder Runde 1W6 für jedes auf der Einheit brennende Feuer. 1: Ein weiteres Feuer entsteht. 5-6: Das Feuer wird gelöscht. Jeder Wurf von 1-4 verursacht 1 Schaden."
+      },
+      {
+        "name": "Jagdbomma",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 6,
+        "weapons": [
+          "AC Zwillings-Fette Wumme||FxF",
+          "AC-Panzerknacker-Raketen||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Dakkajet",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "AC-Zwillings-Supa-Knarre|2|FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Blitza-Bomma",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC Flakka",
+          "AC-Zwillings-Supa-Knarre||FxF",
+          "AC Boom Bomben||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Wazbom-Blastajet",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC Flakka",
+          "AC-Zwillings-Kustom-Megakanone||FxF"
+        ],
+        "specialRules": [
+          "Schpezialfelda 1D3"
+        ]
+      },
+      {
+        "name": "Bomma",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC-Flakka-Dakka",
+          "AC-Blasta-Bomben||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2"
+        ],
+        "crit": "Der Bommer wird zerstört."
+      },
+      {
+        "name": "Landungsschiff",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Flakka-Dakka-Türme",
+          "AC-Panzerknacker-Raketen|2|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "10 Killa Bots, Waaghbikes, Boys, Bosse, Kommandos, Stormboys oder Grots. Kanonänbatterie, Warbuggies, Brennabuggies und Deff Dreads belegen jeweils 2 Plätze. Zusätzlich zu anderen transportierten Einheiten dürfen 4 Grots-Einheiten mitgeführt werden.",
+        "crit": "Das Landungsschiff und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Landungsrakete",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 3,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Große Knarren|4|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Planetfall[*]",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "10 Killa Bots, Boys, Bosse, Kommandos, Stormboys oder Grots. Deff Dreads und Mega Dreads belegen jeweils 2 Plätze. [*] Muss das Spiel an Bord eines Blutäxte-Kill-Kreuzers oder Schlachtkreuzers beginnen und darf das Spiel nur durch Planetare Landung betreten.",
+        "crit": "Die Landungsrakete und alle transportierten Einheiten werden zerstört"
+      },
+      {
+        "name": "Kill-Kreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "1D6BP, MW"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blutäxte-Kill-Kreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "1D6BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 1 Drop Rok und die darin mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Schlachtkreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "1D6+4BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 eintreffen)",
+          "Transport: Kann 12 Landungsschiffe und die auf ihnen mitgeführten Einheiten transportieren"
+        ]
+      },
+      {
+        "name": "Blutäxte-Schlachtkreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "1D6+3BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 4 Drop Roks und die darin mitgeführten Einheiten transportieren."
+      },
+
+      {
+        "name": "Wildschweinreiter",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Spaltas",
+          "Knarren"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Geländegängig",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Grobiane",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Fette Spalta",
+          "Geklaute Knarren|2|"
+        ],
+        "specialRules": [
+          "Stürmt los, Jungs",
+          "Los geht's",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Jäger",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Geklaute Knarren",
+          "Spaltas"
+        ],
+        "specialRules": [
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Schrottkarren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Große Knarren"
+        ],
+        "specialRules": [
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Lobba",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Lobba"
+        ],
+        "notes": "Angebrochene BPs werden aufgerundet"
+      },
+      {
+        "name": "Irre Boys",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+          "Spaltas"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Fallensteller",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Geklaute Knarren",
+          "Feuer Bomben"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Wildorks",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+          "Spaltas"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Los geht's"
+        ]
+      },
+      {
+        "name": "Squig-Katapult",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Squig-Katapult"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Schrott-Pikk-Up",
+        "type": "LV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Fette Wumme"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 1 Einheit Junkas oder Nobs transportieren. Einheiten dürfen während des Transports schießen und an Feuergefechten teilnehmen, sofern sich kein gegnerisches Modell in Basekontakt mit dem Transporter befindet."
+      },
+      {
+        "name": "Squiggofant",
+        "type": "LV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kanonä",
+          "Zwillings-Fette Wumme|2|",
+          "Zähne und Hörner"
+        ],
+        "specialRules": [
+          "Los geht's",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 4 der folgenden Einheiten transportieren: Huntas, Brutes, Squig Katapult oder Wildboyz. Zusätzlich zu anderen Einheiten dürfen bis zu 2 Grots mitgeführt werden."
+      },
+      {
+        "name": "Supa-Lobba-Squiggofant",
+        "type": "LV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Supa-Lobba",
+          "Zähne und Hörner"
+        ],
+        "specialRules": [
+          "Los geht's",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Flakka-Squiggofant",
+        "type": "LV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Flakgeschütz",
+          "Zwillings-Fette Wumme|2|",
+          "Zähne und Hörner"
+        ],
+        "specialRules": [
+          "Los geht's",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Riesensquiggofant",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Fette Wumme|3|",
+          "Fangzähne und Hörner",
+          "Supa-Lobba"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 8 der folgenden Einheiten transportieren: Huntas, Brutes, Squig Katapult oder Wildboyz. Zusätzlich zu anderen Einheiten dürfen bis zu 4 Grots mitgeführt werden.",
+        "crit": "Gargantuan Squiggofant wird zerstört."
+      },
+      {
+        "name": "Orkeosaurus",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Fette Wumme|4|",
+          "Kanonä|2|",
+          "Spießende Hauer"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 6",
+          "Furchtlos",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 16 der folgenden Einheiten transportieren: Huntas, Brutes, Squig Katapult oder Wildboyz. Zusätzlich zu anderen Einheiten dürfen bis zu 6 Grots mitgeführt werden.",
+        "crit": "Orkeosaurus erleidet 1 zusätzlichen Schaden, und W3 zufällige transportierte Einheiten erleiden einen Treffer."
+      },
+      {
+        "name": "Dampf-Gargant",
+        "type": "WE",
+        "speed": "20cm",
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Stumpfe Mega Kanonä||FxF",
+          "Megaspalta"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Furchtlos",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Steam Gargant fängt Feuer. Würfle in der Endphase jeder Runde 1W6 für jedes auf der Einheit brennende Feuer. 1: Ein weiteres Feuer entsteht. 5-6: Das Feuer wird gelöscht. Jeder Wurf von 1-4 verursacht 1 Schaden."
+      }
+    ]
+  }
+]

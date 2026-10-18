@@ -1,0 +1,625 @@
+[
+  {
+    "name": "Streitkräfte der Inquisition",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Prinzipalin",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Palatine",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Ministorumspriester",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Treu",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Lebende Heilige",
+        "type": "INF",
+        "speed": 35,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Ardent Klinge"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Anführer",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ordo-Hereticus-Großinquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Multimelter",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos",
+          "Aufklärer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ordo-Hereticus-Inquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Multimelter",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Aufklärer",
+          "Unmodifizierter Rettungswurf"
+
+        ]
+      },
+      {
+        "name": "Ordo-Malleus-Großinquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Psikanone",
+          "Schmetterschlag",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos",
+          "Teleportieren-Peilsender",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ordo-Malleus-Inquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Psikanone",
+          "Schmetterschlag",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Furchtlos",
+          "Teleportieren-Peilsender",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Kasrkin",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Meltergewehre"
+        ],
+        "specialRules": [
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Ordo-Xenos-Großinquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Frag Kanone",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ordo-Xenos-Inquisitor",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Frag Kanone",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Akolythen des Ordo Xenos",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Plasmageschütze"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Arbitratoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Granate Werfer",
+          "Energiekeulen & Unterdrückungs Schilde"
+        ],
+        "specialRules": []
+      },
+      {
+        "name": "Arbitratoren-Kampfbike",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Energiekeulen",
+          "Automatikpistolen"
+        ],
+        "specialRules": [
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Cybermastiffs",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "weapons": [
+          "Fangzähne"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Entbehrlich",
+          "Maschinengeist",
+          "Schwerfällig"
+        ]
+      },
+      {
+        "name": "Sororitas-Schwestern",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter",
+          "Bolter"
+        ],
+        "specialRules": [
+          "Treu"
+        ]
+      },
+      {
+        "name": "Celestia-Schwestern",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multimelter|2|"
+        ],
+        "specialRules": [
+          "Treu"
+        ]
+      },
+      {
+        "name": "Dominion-Schwestern",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Meltergewehre"
+        ],
+        "specialRules": [
+          "Treu",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Retributor-Schwestern",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Flammenwerfer|2|"
+        ],
+        "specialRules": [
+          "Treu"
+        ]
+      },
+      {
+        "name": "Seraphim-Schwestern",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Boltpistolen"
+        ],
+        "specialRules": [
+          "Treu",
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Repentia-Schwestern",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+          "Eviszeratoren"
+        ],
+        "specialRules": [
+          "Treu",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Arco-Flagellanten",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+          "Kampfflegel"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Furchtlos",
+          "Maschinengeist",
+          "Entbehrlich"
+        ]
+      },
+      {
+        "name": "Todeskult-Assassinen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Assassinenwaffen"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Redemptionisten",
+        "type": "INF",
+        "speed": 15,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Flammenwerfer",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Kreuzritter",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "weapons": [
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ordo-Hereticus-Landtransporter",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Flammenwerfer"
+        ],
+        "specialRules": [],
+        "notes": "Kann zwei Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren."
+      },
+      {
+        "name": "Läuterer",
+        "type": "LV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Flammenwerfer",
+          "Energie-Saws"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Entbehrlich",
+          "Maschinengeist",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Mortifier",
+        "type": "LV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Schwere Bolter",
+          "Penitent Flegel"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Treu",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Anchorite",
+        "type": "LV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schwere Bolter",
+          "Penitent Flegel"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Inspirierend",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Prioris-Exorzist",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Exorzist Werfer"
+        ],
+        "specialRules": [
+          "Treu"
+        ]
+      },
+      {
+        "name": "Sanctorum-Exorzist",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Whirlwind Werfer"
+        ],
+        "specialRules": [
+          "Treu"
+        ]
+      },
+      {
+        "name": "Exorzistenjäger",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Jagd-Killer"
+        ],
+        "specialRules": [
+          "Treu"
+        ]
+      },
+      {
+        "name": "Sororitas-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Treu",
+          "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Arbites-Repressor",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schwerer Maschinengewehr"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren."
+      },
+      {
+        "name": "Sororitas-Repressor",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Flammenwerfer"
+        ],
+        "specialRules": [
+          "Treu",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Beritten oder Jet Packs transportieren."
+      },
+      {
+        "name": "Sororitas-Immolator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Multimelter"
+        ],
+        "specialRules": [
+          "Treu",
+          "Transport"
+        ],
+        "notes": "Kann eine Infanterieeinheit ohne Beritten oder Sprungmodule transportieren."
+      },
+      {
+        "name": "Sororitas-Stormlord",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Vulcan-Megabolter||FxF",
+          "Zwillings-Schwere Bolter||FxF",
+          "Zwillings-Schwerer Flammenwerfer|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Treu",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann acht Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren; zwei davon dürfen vom Schießdeck aus feuern und sich bei Nahkämpfen mit ihrem FF beteiligen.",
+        "crit": "Stormlord ist bewegungsunfähig und darf sich für den Rest des Spiels nicht mehr bewegen. 1W3 zufällige transportierte Einheiten erleiden einen Treffer. Weitere kritische Treffer zerstören die Einheit."
+      },
+      {
+        "name": "Kapelle des Imperators",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Exorzist Werfer|2|FxF",
+          "Inferno Kanone|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Treu",
+          "Transport"
+        ],
+        "notes": "Kann acht Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren.",
+        "crit": "Emperor's Chapel erleidet 1 zusätzlichen Schaden. W3 transportierte Einheiten erleiden einen Treffer."
+      },
+      {
+        "name": "Kathedrale des Gottimperators",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Volcano Kanone||FxF",
+          "Kampfgeschütz|4|",
+          "Inferno-Kanone|4|",
+          "Schwerer Bolter-Flugabwehrturm|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 8",
+          "Null-Schilde 6",
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Treu",
+          "Transport"
+        ],
+        "notes": "Kann 8 Infanterieeinheiten ohne Beritten oder Jet Packs transportieren.",
+        "crit": "Die Kathedrale des Gottimperators erleidet W3 zusätzlichen Schaden, und W6 transportierte Einheiten erleiden einen Treffer."
+      }
+    ]
+  }
+]

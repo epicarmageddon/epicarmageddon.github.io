@@ -1,0 +1,231 @@
+{
+  "fraction": "Adeptus Mechanicus",
+  "army": "Ritterwelt",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusMechanicus_KnightWorld",
+  "strategy": "Ritterwelt-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 2+. Außerdem unterliegen alle Ritterhaus-Verbände der Sonderregel „Tapferkeit“.",
+  "specialRules": [
+    "Tapferkeit",
+    "Befestigte Stellungen"
+  ],
+  "units": [
+    {
+      "from": "QK.json",
+      "units": [
+        "Seneschall",
+        "Ritter-Baron",
+        "Ritter-Paladin",
+        "Ritter-Castellan",
+        "Ritter-Lancer",
+        "Ritter-Warden-Demolisher",
+        "Ritter-Warden-Vanquisher",
+        "Ritter-Warden-Skyjäger",
+        "Ritter-Errant"
+      ],
+      "unitRules": [
+        "Ionenschild (x)",
+        "Sturmangriff",
+        "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Lanze"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Infanterie der Planetaren Verteidigungsstreitkräfte",
+        "Thudd-Geschütz",
+        "Rapier",
+        "Schwere Flugabwehrkanone",
+        "Haubitze",
+        "Kavallerie",
+        "Landtransporter"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Donnerkeil-Jäger",
+        "Marauder-Bomber (B)"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ritterwelt-Kernhäuser",
+      "formations": [
+        {
+          "name": "Paladin-Haus",
+          "units": "Fünf Ritter-Paladins",
+          "extraUnits": [
+            "Seneschall",
+            "Ritter-Paladins",
+            "Ritter-Baron"
+          ],
+          "points": 450
+        }
+      ]
+    },
+    {
+      "name": "Ritterwelt-Unterstützungshäuser",
+      "description": "Pro Kernhaus dürfen bis zu zwei Unterstützungshäuser aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Castellan-Haus",
+          "units": "Zwei Ritter-Castellans (beliebige Kombination von Konfigurationen)",
+          "extraUnits": [
+            "Seneschall",
+            "Ritter-Castellans"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Errant-Haus",
+          "units": "Drei Ritter-Errants",
+          "extraUnits": [
+            "Seneschall",
+            "Ritter-Errants"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Lancer-Haus",
+          "units": "Drei Ritter-Lancer",
+          "extraUnits": [
+            "Seneschall",
+            "Ritter-Lancer"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Warden-Haus",
+          "units": "Vier Ritter-Wardens (beliebige Kombination von Konfigurationen)",
+          "extraUnits": [
+            "Seneschall",
+            "Ritter-Wardens"
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Ritterwelt Gefolgsverbände",
+      "description": "Pro Kern- oder Unterstützungshaus darf bis zu ein Gefolgsverband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Planetarer Verteidigungszug",
+          "units": "Acht Infanteristen der Planetaren Verteidigungsstreitkräfte (INF)",
+          "extraUnits": [
+            "Kultisten-Landtransporter",
+            "Unterstützungswaffen",
+            "Schanzanlagen"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Kavalleriezug",
+          "units": "Sechs Kavallerie",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Flakstellung",
+          "units": "Drei schwere Flugabwehrgeschütze, drei Geschützstellungen",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Haubitzenstellung",
+          "units": "Vier Haubitzen, vier Geschützstellungen",
+          "extraUnits": [
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Imperial Flotte Verbände",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für Imperiale Flotte Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Donnerkeil-Staffel",
+          "units": "Zwei Donnerkeil-Jägers",
+          "points": 175
+        },
+        {
+          "name": "Marauder-Staffel",
+          "units": "Zwei Marauder-Bomber (B)",
+          "points": 250
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Ritterwelt Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Seneschall",
+        "description": "Füge 1 Seneschall zum Verband hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "0–1 Ritter-Baron",
+        "description": "Ersetze den Seneschall und seinen Ritter durch einen Ritter-Baron",
+        "points": "50 Punkte"
+      },
+            {
+        "name": "Paladin-Ritter",
+        "description": "Füge bis zu 2 Ritter-Paladins hinzu",
+        "points": "75 Punkte pro Stück"
+      },
+      {
+        "name": "Castellan-Ritter",
+        "description": "Füge bis zu 2 Ritter-Castellans in beliebiger Konfiguration hinzu",
+        "points": "125 Punkte pro Stück"
+      },
+      {
+        "name": "Lancer-Ritter",
+        "description": "Füge bis zu 2 Ritter-Lancers hinzu",
+        "points": "100 Punkte pro Stück"
+      },
+      {
+        "name": "Warden-Ritter",
+        "description": "Füge bis zu zwei Questoris-Ritter-Wardens in beliebiger Konfiguration hinzu",
+        "points": "75 Punkte pro Stück"
+      },
+      {
+        "name": "Errant-Ritter",
+        "description": "Füge bis zu 2 Ritter-Errants hinzu",
+        "points": "100 Punkte pro Stück"
+      },
+      {
+        "name": "Kultisten-Landtransporter",
+        "description": "Füge 4 Kultisten-Landtransporter hinzu (keine weiteren Aufwertungen möglich).",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Unterstützungswaffen",
+        "description": "Füge 3 Rapiers oder 2 Thudd-Geschütze hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Schanzanlagen",
+        "description": "40 cm Stacheldraht, 40 cm Schützengräben",
+        "points": "50 Punkte"
+      }
+    ]
+  },
+  "about": [
+    "Version 1.0 Beta: Die Ritterwelt-Liste ist eine Mischung aus den Ritterlisten von E-UK und NetEA, wobei Werte und Struktur aus beiden übernommen wurden. Da diese Listen auf dem Retro-40k-Hintergrund der 1990er-Jahre beruhen, wurden die Namen der meisten Ritter geändert, um Namenskonflikte mit den Rittern des aktuellen Hintergrunds zu vermeiden.",
+    "Die größte Änderung gegenüber den Ritterlisten von E-UK und NetEA ist, dass Ritter keine DC2-WE mehr sind, sondern stattdessen H-AV. Dadurch lassen sich Ritterverbände vernünftiger spielen und bekämpfen, und es ist deutlich einfacher, innerhalb der EA-Regeln zu bleiben. Außerdem ist es nun kein Problem mehr, den Baron mit einem Punktziel-Angriff auszuschalten.",
+    "Eine weitere wesentliche Änderung ist, dass die Retainer-Verbände leichter zugänglich sind, wodurch die Liste etwas flexibler wird."
+  ]
+}

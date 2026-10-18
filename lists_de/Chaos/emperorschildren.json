@@ -1,0 +1,311 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Emperor's Children",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Chaos_EmperorsChildren",
+  "intro": "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Verräterlegion Emperor's Children aufzustellen. Die Emperor's Children sind eine schnelle, bewegliche Armee, die ihre relativ kleinen Verbände durch Dämonen verstärkt.",
+  "strategy": "Chaos Space Marine-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Alle Kern- und Unterstützungsverbände der Emperor's Children sowie der Verband der Auserkorenen haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der Emperor's Children",
+    "Launische Meister",
+    "Dreadclaw-Landungskapseln der Emperor's Children",
+    "Charaktere der Emperor's Children"
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Noise-Kriegsherr",
+        "Noise-Fürst",
+        "Chaoschampion",
+        "Dämonenprinz des Slaanesh",
+        "Chaos Space Marines",
+        "Noise-Marine-Havocs",
+        "Auserkorene",
+        "Raptoren",
+        "Sirenenschrei-Terminatoren",
+        "Noise Marines",
+        "Chaos-Sturmbikes",
+        "Emperor's-Children-Rhino",
+        "Emperor's-Children-Land-Schattenbarke",
+        "Emperor's-Children-Predator",
+        "Emperor's-Children-Cybot",
+        "Chaos-Jäger"
+      ],
+      "unitRules": [
+          "Verstärkte Beschwörung (+x)",
+          "Dämonischer Fokus"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Entwürdiger",
+        "Höllenstreiter",
+        "Höllenritter",
+        "Höllengeißel",
+        "Questor",
+        "Unterwerfer"
+      ],
+      "unitRules": [
+        "Null-Schilde",
+        "Dämonenmaschine (x)",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Dämonetten des Slaanesh",
+        "Slaaneshbestien",
+        "Slaanesh-Reiterinnen",
+        "Hüter der Geheimnisse"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllenklinge Abfangjäger",
+        "Höllenklaue-Jagdbomber",
+        "Kreuzer der Devastation-Klasse",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Emperor's Children Kernverbände",
+      "formations": [
+        {
+          "name": "Emperor's Children Gefolge",
+          "units": "Ein Noise-Lord, drei Noise Marines, drei Chaos Space Marines, Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Gefolge Transport",
+            "Champion",
+            "Stalker",
+            "Dreadclaws",
+            "Noise-Marine-Havocs",
+            "Predators",
+            "Cybots"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Emperor's Children Terminatoren",
+          "units": "Ein Noise-Lord, vier Sirenshriek Terminatoren, Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Terminator Transport",
+            "Champion",
+            "Dreadclaws",
+            "Cybots"
+          ],
+          "points": 400
+      }      ]
+    },
+    {
+      "name": "Emperor's Children Eliteverbände",
+      "description": "Pro Kernverband darf ein Eliteverband aufgestellt werden",
+      "formations": [
+        {
+          "name": "Auserkorene",
+          "units": "Vier Auserkorene, zwei Emperor's Children Rhinos, Dämonenpakt",
+          "extraUnits": [
+              "Ersetze 2 Emperor's Children Rhinos durch 2 Emperor's Children Cybots: 75 Punkte"
+          ],
+          "points": 175
+      },
+      {
+        "name": "Slaanesh-Geißel-Meute",
+        "units": "Vier Debasers",
+        "extraUnits": [
+        ],
+        "points": 250
+      }
+      ]
+    },
+    {
+      "name": "Emperor's Children Unterstützungsverbände",
+      "description": "Pro Kernverband dürfen zwei Unterstützungsverbände aufgestellt werden",
+      "formations": [
+        {
+          "name": "Bike-Kompanie",
+          "units": "Ein Noise-Lord, sechs Chaos-Angriffsbikes und ein Dämonenpakt",
+          "extraUnits": [
+              "Predators"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Raptorenkult",
+          "units": "Ein Noise-Lord, vier Raptoren, Dämonenpakt",
+          "extraUnits": [
+            "Predators"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Panzerkompanie",
+          "units": "Vier Emperor's Children Predators",
+          "extraUnits": [
+            "Ersetze 4 Emperor's Children Predators durch 4 Emperor's Children Land Raiders: 50 Punkte",
+            "Stalker"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Dark-Mechanicus-Dämonenmaschinen und Chaos-Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Höllenstreiter des Slaanesh",
+          "units": "Vier Hell-Striders",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Höllenritter",
+          "units": "Drei Höllenritter",
+          "points": 325
+        },
+        {
+          "name": "Höllenharpyien",
+          "units": "Drei Höllenharpyien",
+          "points": 325
+        },
+        {
+          "name": "Questor",
+          "units": "Ein Questor",
+          "points": 275
+        },
+        {
+          "name": "Unterwerfer",
+          "units": "Ein Subjugator",
+          "points": 275
+        },
+        {
+          "name": "Höllenklinge-Staffel",
+          "units": "Drei Höllenklinge Abfangjägers",
+          "points": 175
+        },
+        {
+          "name": "Höllenklaue-Staffel",
+          "units": "Zwei Höllenklaue-Jagdbomber",
+          "points": 225
+        },
+        {
+          "name": "0–1 Chaos Kreuzer",
+          "units": "Ein Kreuzer der Devastation-Klasse",
+          "extraUnits": [
+            "Schlachtschiff"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        },
+        {
+          "name": "Pool Großer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Greater-Daemon-Pool. Der erste ist kostenlos.",
+          "points": 50
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Emperor's Children Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+        {
+          "name": "Schlachtschiff",
+          "description": "Ersetze den Kreuzer der Devastation-Klasse durch ein Schlachtschiff der Despoiler-Klasse",
+          "points": "50 Punkte"
+        },
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Ersetze den Noise-Lord durch einen Noise-Kriegsherrn",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze den Noise-Lord und seine Einheit durch einen Dämonenprinzen des Slaanesh.",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Gefolge-Transporter",
+        "description": "Füge Rhinos oder Land Raiders zum Verband, bis zu die erforderliche Anzahl um die gesamte Infanterie zu transportieren Einheiten im Verband hinzu",
+        "options": [
+          {
+            "description": "Füge bis zu 3 Emperor's Children Rhinos hinzu",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu 3 Emperor's Children Land Raiders hinzu",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Terminator-Transporter",
+        "description": "Ersetze 1 Sirenshriek Terminator durch 3 Emperor's Children Land Raiders",
+        "points": "100 Punkte"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Emperor's Children Cybots zum Verband hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Champion",
+        "description": "Füge einen Chaoschampion-Charakter zum Verband hinzu.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Stalker",
+        "description": "Füge 1 Chaos Stalker zum Verband hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Predators",
+        "description": "Füge bis zu 2 Emperor's Children Predators hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transportiere einen Verband, der ausschließlich Infanterieeinheiten und Cybots enthält, in Dreadclaws (der Verband muss auf einem Raumschiff aufgestellt werden).",
+        "points": "5 Punkte pro Einheit"
+      },
+      {
+        "name": "Noise-Marine-Havocs",
+        "description": "Ersetze 3 Noise Marines durch 3 Noise Marine Havocs",
+        "points": "25 Punkte"
+      }
+    ]
+  },
+  "about": [
+    "EA-R Emperor's Children basiert auf der NetEA-Version der Liste. Abgesehen von allen Änderungen, die von der Black-Legion-Liste übernommen wurden, gibt es einige wesentliche Unterschiede. Es ist nicht mehr möglich, die Liste ohne Noise Marines zu spielen, aber es ist auch nicht möglich, eine rein Furchtlose Liste zu spielen. Die Liste erhält einen Punkt für den Greater-Daemon-Pool kostenlos, um den Verlust an Flexibilität auszugleichen, den die Black Legion hat. Die Terminatoren der Emperor's Children (Sirenshriek Terminatoren) sind nun Furchtlos, vor allem aus thematischen Gründen. Der Questor und der Subjugator haben leicht abweichende Ausrüstungen, die näher am Hintergrund liegen, während die Ritterverbände nicht mehr 0–1, dafür aber deutlich kleiner sind. Die Höllenritter haben etwas bessere Werte, um sie mit den Höllenharpyien auf eine Stufe zu bringen. Der 'Debaser' Geißel wurde aus der E-UK-Liste eingeführt. Der Chaos-Thunderhawk kostet 25 Punkte mehr, wie im Codex Astartes."
+  ]
+}

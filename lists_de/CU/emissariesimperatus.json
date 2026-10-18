@@ -1,0 +1,213 @@
+{
+  "fraction": "Adeptus Custodes",
+  "army": "Emissaries Imperatus",
+  "version": "1.1",
+  "release": "2022-04-01",
+  "strategy": "Adeptus-Custodes-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Alle Verbände haben einen Initiativewert von 1+.",
+  "specialRules": [
+    "Adeptus-Custodes"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Adeptus-Custodes-Armee aufstellen. Für alle Einheiten außer den Schwestern der Stille gilt die Sonderregel 'Adeptus-Custodes'."
+  ],
+  "units": [
+    {
+      "from": "CU.json",
+      "units": [
+        "Tribun",
+        "Generalkommandant",
+        "Centura der Oblivion Knights",
+        "Sagittarum",
+        "Custodesgardist",
+        "Sentinel-Wächter",
+        "Custodeshüter",
+        "Aquilon-Terminator",
+        "Venatari",
+        "Schwester der Stille",
+        "Vertus Praetors",
+        "Achilles-Contemptor-Cybot",
+        "Schwerer Telemon-Cybot",
+        "Antigravschweber Pallas",
+        "Caladius-Antigravpanzer",
+        "Coronus",
+        "Custodes-Land-Schattenbarke",
+        "Rhino der Schwestern der Stille",
+        "Jäger der Schwestern der Stille",
+        "Orion-Angriffsschiff"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "SM.json",
+      "units": [
+        "Sturmtalon"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Adeptus-Custodes-Kernverbände",
+      "formations": [
+        {
+          "name": "Custodes-Gardistentrupp",
+          "units": "Zwei Sagittarum sowie entweder zwei Custodesgardisten oder zwei Sentinel-Wächter und zwei ehrwürdige Custodes-Land-Schattenbarke oder zwei Coronus",
+          "upgrades": [
+            "Befehlshaber"
+          ],
+          "points": 375
+        }
+      ]
+    },
+    {
+      "name": "Adeptus-Custodes-Eliteverbände",
+      "description": "Pro Kerndetachment darf ein Elite-Detachment gewählt werden.",
+      "formations": [
+        {
+          "name": "Wächterstaffel",
+          "units": "Fünf Custodeshüter",
+          "upgrades": [
+            "Befehlshaber",
+            "Cybot",
+            "Transport"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Cybot-Staffel",
+          "units": "Drei in beliebiger Kombination aus Achilles-Contemptor-Cybots oder schweren Telemon-Cybots",
+          "upgrades": [
+            "Cybot"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Aquilon-Custodes",
+          "units": "Vier Aquilon Terminatoren",
+          "upgrades": [
+            "Befehlshaber",
+            "Cybot",
+            "Transport"
+          ],
+          "points": 375
+        }
+      ]
+    },
+    {
+      "name": "Adeptus-Custodes-Unterstützungsverbände",
+      "description": "Pro Kernverband dürfen zwei Unterstützungsverbände gewählt werden.",
+      "formations": [
+        {
+          "name": "Venatari-Staffel",
+          "units": "Fünf Venatari",
+          "upgrades": [
+            "Befehlshaber"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Kataphractoi",
+          "units": "Sechs Vertus Praetors",
+          "upgrades": [
+            "Befehlshaber"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Pallas-Antigravpanzer",
+          "units": "Vier Pallas-Antigravpanzer",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Caladius-Antigravpanzer",
+          "units": "Drei Caladius-Antigravpanzer",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Kader der Schwestern der Stille",
+          "units": "Sechs Einheiten der Schwestern der Stille und drei Rhinos der Schwestern der Stille",
+          "upgrades": [
+            "Jäger der Schwestern der Stille"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Lufttransport und imperiale Verbündete der Adeptus Custodes",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Orion-Angriffsschiff",
+          "units": "Ein Orion-Angriffsschiff",
+          "points": 225
+        },
+        {
+          "name": "Sturmtalons der Adeptus Astartes",
+          "units": "Zwei Sturmtalons",
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Adeptus Custodes",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Befehlshaber",
+        "description": "Füge einen der folgenden Charaktere zu einer beliebigen Einheit im Verband hinzu",
+        "options": [
+          {
+            "description": "Generalkommandant, Centura der Oblivion Knights",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "0–1 Tribune pro Armee",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Jäger der Schwestern der Stille",
+        "description": "Füge 1 Jäger der Schwestern der Stille hinzu",
+        "points": "75 Punkte pro Stück"
+      },
+      {
+        "name": "Cybot",
+        "description": "Füge bis zu zwei aus folgender Auswahl Cybots zur Verband hinzu",
+        "options": [
+          {
+            "description": "Contemptor Cybot Achilles",
+            "points": "100 Punkte"
+          },
+          {
+            "description": "Schwerer Telemon-Cybot",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Transporter",
+        "description": "Füge genügend der folgenden Optionen hinzu, um den gesamten Verband zu transportieren.",
+        "options": [
+          {
+            "description": "Ehrwürdige Custodes-Land-Schattenbarken",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Coronus",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      }
+    ]
+  }
+}

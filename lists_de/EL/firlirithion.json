@@ -1,0 +1,205 @@
+{
+  "fraction": "Eldar",
+  "army": "Fir Lirithion",
+  "version": "0.6.0",
+  "release": "2022-04-01",
+  "strategy": "Fir Lirithion-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Titanen, Phantomritter und der Avatar haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Avatar (Fir Lirithion)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Darf keine Garnison bilden (Fir Lirithion)",
+
+    "Netzportal",
+    "Unabhängige Zwillinge"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee aus Eldar-Titanen und Eldar-Rittern aufstellen."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+          "Avatar des Khaine",
+        "Knochensänger",
+        "Geisterseher",
+        "Phantomklingen",
+        "Phantomdroiden",
+        "Phantomlord",
+        "Phantomritter",
+        "Skorpion",
+        "Kobra",
+        "Sturmserpent",
+        "Phantom-Titan",
+        "Runenleser-Titan",
+        "Mymeara-Phantomtitan"
+      ],
+      "unitRules": [
+          "Holofelder (x)",
+          "Lanze",
+          "Schildbohrer",
+          "Schildbrecher",
+          "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschwinge-Abfangjäger",
+        "Vampire-Jäger",
+        "Vampire Schattenbarke",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Fir-Lirithion-Spezialregeln",
+      "formations": [
+        {
+          "name": "1 Avatar",
+          "units": "Ein Avatar",
+          "points": 0
+        },
+        {
+          "name": "0–1 Netzportal",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Fir-Lirithion-Kampftitanen",
+      "formations": [
+        {
+          "name": "0–1 Runenleser-Titan",
+          "units": "Ein Runenleser-Titan",
+          "extraUnits": [
+          ],
+          "points": 850
+        },
+        {
+          "name": "Phantomtitan",
+          "units": "Ein Phantomtitan",
+          "extraUnits": [
+            "Knochensänger"
+          ],
+          "points": 700
+        }
+      ]
+    },
+    {
+      "name": "Fir-Lirithion-Aufklärungstitanen",
+      "description": "Für jeden Kampftitan dürfen bis zu zwei Scout-Titan-Verbände gewählt werden.",
+      "formations": [
+        {
+          "name": "Phantom-Titan",
+          "units": "Zwei Phantom-Titanen",
+          "extraUnits": [
+            "Gib dem Verband die Sonderregel 'Unabhängige Zwillinge': 50 Punkte"
+          ],
+          "points": 650
+        }
+      ]
+    },
+    {
+      "name": "Fir-Lirithion-Verbände",
+      "description": "Für jeden Kampf- oder Kundschafter-Titan-Verband dürfen bis zu drei weitere Verbände gewählt werden.",
+      "formations": [
+        {
+          "name": "Phantomritter-Trupp",
+          "units": "Zwei Phantomritter (Konfigurationen dürfen nicht gemischt werden)",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Kriegsmaschinen von Vaul",
+          "units": "Ein Kriegsmaschine von Vaul aus folgender Auswahl: Kobra, Skorpion, Sturmserpent",
+          "extraUnits": [
+            "Füge bis zu zwei zusätzliche Kriegsmaschinen von Vaul hinzu: 200 Punkte pro Stück.",
+            "Knochensänger"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Phantomwachen-Phantomkriegsschar",
+          "units": "Ein Geisterseher Charakter, vier Phantomdroiden",
+          "extraUnits": [
+            "Phantomlords",
+            "Phantomdroiden",
+            "Phantomklingen",
+            "Füge vier Wellenschlangen hinzu: 150 Punkte (darf nur gewählt werden, wenn der gesamte Verband hineinpasst)"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Weltenschiff-Flotte",
+      "description": "Bis zu ein Viertel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Nachtschwingen-Staffel",
+          "units": "Zwei Nachtschwingen-Abfangjäger",
+          "extraUnits": [
+            "Füge 1 Nachtschwinge-Abfangjäger hinzu: 75 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Vampire-Jäger",
+          "units": "Ein Vampire-Jäger",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Vampire",
+          "units": "Eine Vampire Schattenbarke",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 125 Punkte"
+          ],
+          "points": 175
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen von Fir Lirithion",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Knochensänger",
+        "description": "Füge dem Verband einen Knochensänger hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Phantomdroiden",
+        "description": "Füge zwei Eldar-Phantomdroiden hinzu",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Phantomklingen",
+        "description": "Füge zwei Eldar-Phantomklingen hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Phantomlord",
+        "description": "Füge bis zu drei Eldar-Phantomlords hinzu",
+        "points": "50 Punkte pro Stück"
+      }
+    ]
+  }
+}

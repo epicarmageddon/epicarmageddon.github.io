@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Tyraniden-Schwarmflotte",
+    "specialRules": [
+      {
+      }
+    ],
+    "unit": [
+      {
+        "name": "Landungsspore",
+        "type": "Special",
+        "speed": "n/a",
+        "weapons": [
+          "Tentakel"
+        ],
+        "specialRules": [
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann einen Verband transportieren, der ausschließlich aus folgenden Einheitentypen besteht: Barbgaunts, Termaganten, Hormaganten, Venatoren, Biovores, Pyrovores, Carnifex beliebigen Typs, Schwarmtyrant, Schwarmherrscher, Dagon-Oberherrscher, Tyranidenkrieger oder Zoantroph. Tyranidenkrieger-Shrikes dürfen nicht enthalten sein. Nach der Landung greift die Myzetische Spore alle gegnerischen Einheiten innerhalb von 15 cm an. Jeder angegriffene gegnerische Verband erhält eine BM, weil er unter Beschuss gerät, sowie eine zusätzliche BM pro Verlust. Anschließend werden die transportierten Verbände innerhalb von 5cm um den Landepunkt der Myzetischen Spore oder innerhalb von 5cm um eine bereits ausgestiegene Einheit desselben Verbands aufgestellt (jedoch höchstens 15 cm vom Landepunkt der Myzetischen Spore entfernt)."
+      },
+      {
+        "name": "Razorfiend",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann zwei Myzetische Sporen einschließlich ihrer Fracht transportieren."
+      },
+      {
+        "name": "Schwarm-Schiff",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "6BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 eintreffen), Transport"
+        ],
+        "notes": "Kann drei Myzetische Sporen einschließlich ihrer Fracht transportieren."
+      }
+    ]
+  }
+]

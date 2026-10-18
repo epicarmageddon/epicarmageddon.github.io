@@ -1,0 +1,372 @@
+{
+  "fraction": "Chaos-Kultisten",
+  "army": "Sklaven der Dunkelheit",
+  "version": "1.0.Beta-3",
+  "release": "2022-09-29",
+  "armyforge": "EAR_Chaos_StD",
+  "strategy": "Sklaven der Dunkelheit-Armeen haben einen Strategiewert von 1.",
+  "Initiative": "Chaos Space Marine-Verbände haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der Sklaven der Finsternis",
+    "Launische Meister",
+    "Ewige Feindschaft der Sklaven der Dunkelheit"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee eines abtrünnigen Regiments der Imperialen Armee mit Chaos-Verbündeten aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "chaoscultists.json",
+      "units": [
+        "Erzhäretiker",
+        "Dämonische Ikone",
+        "Gefallener Befehlshaber",
+        "Dämonenprinz",
+        "Mutanten",
+        "Chaosbrut",
+        "Bewaffneter Geländewagen",
+        "Landtransporter"
+      ],
+      "unitRules": [
+        "Verstärkte Beschwörung (+x)",
+        "Dämonischer Fokus"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Infanterie",
+        "Feuerunterstützungstrupp",
+        "Ogryns",
+        "Kavallerie",
+        "Sentinel",
+        "Basilisk",
+        "Chimäre",
+        "Greif",
+        "Höllenhund",
+        "Hydra",
+        "Leman Russ Kampfpanzer",
+        "Leman-Russ-Belagerungspanzer",
+        "Leman Russ Thunderer",
+        "Shadowsword",
+        "Baneblade"
+      ],
+      "unitRules": []
+    },
+    {
+      "from": "CSM.json",
+      "units": [
+        "Chaos Space Marines",
+        "Chaos Rhino"
+      ],
+      "unitRules": []
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Dämonetten des Slaanesh",
+        "Seuchenhüter des Nurgle",
+        "Zerfleischer des Khorne",
+        "Horrors des Tzeentch",
+        "Dämonische Bestien des ungeteilten Chaos"
+      ],
+      "unitRules": []
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Geißel",
+        "Dezimator",
+        "Todesrad",
+        "Höllenritter",
+        "Höllengeißel",
+        "Seuchenturm",
+        "Seuchenschnitter",
+        "Dämonische Sturmmaschine",
+        "Herr der Schlachten",
+        "Silberturm",
+        "Warp-Palast"
+      ],
+      "unitRules": [
+        "Regeneration",
+        "Null-Schilde",
+        "Dämonenmaschine (x)",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllenklinge Abfangjäger",
+        "Höllenklaue-Jagdbomber"
+      ],
+      "unitRules": []
+    }
+  ],
+  "sections": [
+    {
+      "name": "Sklaven der Dunkelheit Kernverbände",
+      "description": "Pro Verrätergardisten Verband dürfen bis zu ein Chaos Space Marine Verband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Verrätergardisten",
+          "units": "Ein Fallen Befehlshaber, neun Einheiten von Infanterie (INF)",
+          "extraUnits": [
+            "Alle"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Sklaven der Dunkelheit Unterstützungsverbände",
+      "description": "Pro Kernverband dürfen bis zu ein Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Flakbatterie",
+          "units": "Drei Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Artilleriebatterie",
+          "units": "Drei Basilisken",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Sentinel-Staffel",
+          "units": "Vier Sentinels",
+          "extraUnits": [],
+          "points": 100
+        },
+        {
+          "name": "Kavalleriezug",
+          "units": "Sechs Kavallerie",
+          "extraUnits": [
+            "Dämonische Ikone"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Superschwerer Panzerzug",
+          "units": "Ein Baneblade",
+          "extraUnits": [
+            "Ersetze den Baneblade durch ein Shadowsword: 25 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Leman-Russ-Staffel",
+          "units": "Vier ausgewählt aus: Leman Russ, Leman Russ Demolisher, Leman Russ Thunderer",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Greif-Batterie",
+          "units": "Drei Greifs",
+          "extraUnits": [
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Sklaven der Dunkelheit Chaos Verbündete",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für Chaos-Verbündete der Sklaven der Dunkelheit ausgegeben werden. Nurgle/Tzeentch-Verbände dürfen nicht mit Slaanesh/Khorne-Verbänden in derselben Armee gemischt werden.",
+      "formations": [
+        {
+          "name": "Höllenklinge-Staffel",
+          "units": "Drei Höllenklinge Abfangjägers",
+          "points": 175
+        },
+        {
+          "name": "Höllenklaue-Staffel",
+          "units": "Zwei Höllenklaue-Jagdbomber",
+          "points": 225
+        },
+        {
+          "name": "Chaos Space Marines des Ungeteilten Chaos",
+          "units": "Sechs Chaos Space Marines, drei Chaos Rhinos",
+          "extraUnits": [
+            "Füge Dämonenpakt zum Verband hinzu: 25 Punkte"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Decimator des Ungeteilten Chaos",
+          "units": "Ein Decimator",
+          "points": 225
+        },
+        {
+          "name": "Verwüster des Ungeteilten Chaos",
+          "units": "Vier Geißels",
+          "points": 250
+        },
+        {
+          "name": "Todesrad des Ungeteilten Chaos",
+          "units": "Ein Todesrad",
+          "upgrades": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Höllenritter",
+          "units": "Drei Höllenritter",
+          "points": 325
+        },
+        {
+          "name": "Höllenharpyien",
+          "units": "Drei Höllenharpyien",
+          "points": 325
+        },
+        {
+          "name": "Seuchenschnitter des Nurgle",
+          "units": "Ein Plague Reaper",
+          "points": 200
+        },
+        {
+          "name": "Seuchenturm des Nurgle",
+          "units": "Ein Seuchenturm",
+          "points": 200
+        },
+        {
+          "name": "Dämonische Sturmmaschinen des Khorne",
+          "units": "Vier dämonische Sturmmaschinen",
+          "points": 225
+        },
+        {
+          "name": "Herr der Schlachten des Khorne",
+          "units": "Ein Herr der Schlachten",
+          "points": 425
+        },
+        {
+          "name": "Silbertürme des Tzeentch",
+          "units": "Vier Silver Towers",
+          "points": 275
+        },
+        {
+          "name": "Warp-Palast des Tzeentch",
+          "units": "Ein Warp Palace",
+          "points": 450
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden. Für jedes Dämonische Ikon oder jeden Dämonischen Pakt in der Armee wird der Pool der niederen Dämonen um einen Punkt erhöht.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Sklaven der Dunkelheit Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband nur einmal gewählt werden. Höchstens 5 verschiedene Aufwertungen pro Verband.",
+    "items": [
+      {
+        "name": "Dämonische Ikone",
+        "options": [
+          {
+            "description": "Füge 1 Dämonische Ikone zu einem Fallen Befehlshaber oder Dämonenprinz hinzu",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Füge 1 Dämonische Ikone zu einer Einheit von Kavallerie hinzu",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Füge 1 Arch-Heretic zu einem Fallen Befehlshaber hinzu",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Werte den Fallen Befehlshaber zu einem Dämonenprinz auf",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Feuerunterstützungszug",
+        "description": "Füge bis zu 2 Feuerunterstützungstrupps hinzu",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Ogryns",
+        "description": "Füge bis zu 2 Einheiten von Ogryns hinzu",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Flak",
+        "description": "Füge 1 Hydra hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Höllenhunde",
+        "description": "Füge 1 Höllenhund hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Greifs",
+        "description": "Füge 1 Greif hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Leman Russ Kampfpanzer",
+        "description": "Füge 1 oder 3 Leman Russ, Leman Russ Demolishers oder Leman Russ Thunderers hinzu",
+        "options": [
+          {
+            "description": "Eine Leman-Russ-Variante",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Drei Leman Russ derselben Variante",
+            "points": "150 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Mutanten",
+        "description": "Füge bis zu 4 Mutanten hinzu",
+        "points": "10 Punkte pro Stück"
+      },
+      {
+        "name": "Bewaffnete Geländewagen",
+        "description": "Füge bis zu 2 Bewaffnete Geländewagen hinzu",
+        "points": "20 Punkte pro Stück"
+      },
+      {
+        "name": "Chaosbrut",
+        "description": "Füge 1 Chaosbrut hinzu",
+        "points": "35 Punkte"
+      },
+      {
+        "name": "Transporter",
+        "description": "Füge dem Verband so viele Transporter hinzu, wie zum Transport aller Infanterieeinheiten des Verbands erforderlich sind",
+        "options": [
+          {
+            "description": "Füge beliebig viele Kultisten-Landtransporter hinzu",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Füge beliebig viele Chimären hinzu",
+            "points": "25 Punkte pro Stück"
+          }
+        ]
+      }
+    ]
+  }
+}

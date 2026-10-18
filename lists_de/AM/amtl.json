@@ -1,0 +1,211 @@
+{
+  "fraction": "Adeptus Mechanicus",
+  "army": "Collegia Titanica",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusMechanicus_AMTL",
+  "strategy": "Collegia Titanica-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Kampftitan-Verbände und der Warhound-Titanen-Verband haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+. Außerdem unterliegen Questoris-Banner-Verbände der Sonderregel „Ritterlichkeit“.",
+  "specialRules": [
+  ],
+  "units": [
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Legat",
+        "Veteranen-Princeps",
+        "Warhound ",
+        "Reaver-Titan, Hun-Klasse",
+        "Reaver-Titan, Goth-Klasse",
+        "Warlord-Titan, Todbringer-Klasse",
+        "Warlord-Titan, Nemesis-Klasse",
+        "Imperator-Titan",
+        "Warmonger-Titan"
+      ],
+      "unitRules": [
+        "Erweiterte Befehlsreichweite",
+        "Schildbrecher",
+        "Schildbohrer",
+        "Göttermaschine",
+        "Geteiltes Feuer",
+        "Null-Schilde"
+      ]
+    },
+    {
+      "from": "AM.json",
+      "units": [
+        "Secutarii-Axiarch",
+        "Tech-Priesterer",
+        "Secutarii-Hopliten",
+        "Secutarii-Pelasten",
+        "Elektro-Priester",
+        "Chimäre",
+        "Chimedon",
+        "Kastelan-Roboter",
+        "Castellax-Kampfautomaten",
+        "Ordinatus Minoris ",
+        "Avenger-Sturzkampfflugzeug",
+        "Lysander-Jäger",
+        "Ark-Mechanicus-Schlachtschiff"
+      ],
+      "unitRules": [
+        "Maschinengeist",
+        "Schwerfällig"
+      ]
+    },
+    {
+      "from": "QK.json",
+      "units": [
+        "Questoris-Ritter-Paladin",
+        "Questoris-Ritter-Errant",
+        "Questoris-Ritter-Crusader",
+        "Questoris-Ritter-Gallant",
+        "Questoris-Ritter-Warden"
+      ],
+      "unitRules": [
+        "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Ritterlichkeit",
+        "Starrköpfig",
+        "Ionenschild (x)"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kampftitan-Verbände",
+      "formations": [
+        {
+          "name": "0–1 Imperator-Titan",
+          "units": "Ein Imperator-Titan oder Warmonger-Titan, Veteranen-Princeps",
+          "extraUnits": [
+            "Legat"
+          ],
+          "points": 950
+        },
+        {
+          "name": "Warlord-Titan",
+          "units": "Ein Warlord-Titan (Todbringer- oder Nemesis-Klasse), Veteranen-Princeps",
+          "extraUnits": [
+            "Legat"
+          ],
+          "points": 750
+        },
+        {
+          "name": "Reaver-Titan",
+          "units": "Ein Reaver-Titan der Hun- oder Goth-Klasse",
+          "extraUnits": [
+            "Veteranen-Princeps"
+          ],
+          "points": 600
+        }
+      ]
+    },
+    {
+      "name": "Aufklärungsverbände",
+      "description": "Pro Kampftitan-Verband dürfen bis zu zwei Aufklärungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Warhound-Titanen",
+          "units": "Ein Warhound-Titan, entweder in Standard- oder Unterstützungskonfiguration",
+          "extraUnits": [
+            "Füge 1 Warhound-Titan derselben Konfiguration hinzu: 200 Punkte",
+            "Veteranen-Princeps",
+            "Panzerjäger-Konfiguration"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Questoris-Banner",
+          "units": "Zwei Questoris-Ritter (dürfen nicht aus verschiedenen Konfigurationen bestehen)",
+          "extraUnits": [
+          ],
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Unterstützungsverbände",
+      "description": "Pro Kampftitan-Verband dürfen bis zu zwei Unterstützungsverbände aufgestellt werden",
+      "formations": [
+        {
+          "name": "Secutarii-Titanenwache",
+          "units": "Ein Secutarii Axiarch, acht Secutarii Hoplites oder acht Secutarii Pelasts",
+          "extraUnits": [
+            "Füge 2 Electro-Priests hinzu: 25 Punkte",
+            "Ersetze 2 Secutarii Hoplites oder Pelasts durch 3 Chimären oder 3 Chimedons: 25 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Kastelan-Manipel",
+          "units": "Fünf Kastelan-Roboter, ein Tech-Priester",
+          "extraUnits": [
+            "Füge bis zu 2 Kastelan-Roboter hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Castellax-Manipel",
+          "units": "Ein Tech-Priester, vier Castellax-Kampfautomaten",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Minoris",
+          "units": "Ordinatus Minoris",
+          "extraUnits": [
+              "Füge 1 Ordinatus Minoris hinzu: 125 Punkte"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Adeptus Mechanicus Flotte",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für Verbände der Flotte des Adeptus Mechanicus ausgegeben werden. Pro Warmonger-Titan oder Anvilus-Landeplattform darf höchstens ein Lysander Jäger aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Lysander-Jäger",
+          "units": "Ein Lysander Jäger",
+          "points": 75
+        },
+        {
+          "name": "Avenger-Staffel",
+          "units": "Zwei Avenger-Jagdbomber",
+          "points": 175
+        },
+        {
+          "name": "0–1 Mechanicus Schlachtschiff",
+          "units": "Ein Ark-Mechanicus-Schlachtschiff",
+          "points": 225
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Titan Legion Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "0–1 Legat",
+        "description": "Füge 1 Legat zum Verband hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Veteranen-Princeps",
+        "description": "Füge einen Veteranen-Princeps zum Verband hinzu. Nicht mit einem Legat kombinierbar.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Panzerjäger",
+        "description": "Werte alle Warhound-Titanen im Verband auf die Panzerjäger-Konfiguration auf",
+        "points": "25 Punkte pro Stück"
+      }
+    ]
+  },
+  "about": [
+    "v1.0.Beta: Titan-Listen bewegen sich am Rand dessen, was das EA-Regelwerk handhaben kann, und die Liste Collegia Titanica ist Teil des Versuchs, solche Listen weniger zu einer Frage von Gewinnen oder Verlieren zu machen.",
+    "Eine (sehr) unvollständige Änderungsliste umfasst Änderungen an den Profilen (Titanen lassen sich leichter im Nahkampf angreifen, weniger DC, Schild bei bestimmten Titanen), die Preise (generell günstiger), die Einführung neuer Regeln (Geteiltes Feuer, um den grössten Titanen mehr Flexibilität zu geben und sie näher an die Funktionsweise in A-T 2018 heranzuführen; die Regel Göttermaschine, damit sich Angriffe auf sie lohnen) sowie die Änderung der Regel Null Schild (verhindert, dass grosse WE mit einer einzigen Aktion völlig erschöpfte VS vollständig aufladen)."
+  ]
+}

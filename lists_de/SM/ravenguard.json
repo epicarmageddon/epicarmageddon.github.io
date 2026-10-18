@@ -1,0 +1,285 @@
+{
+  "fraction": "Space Marines",
+  "army": "Ravenguard",
+  "version": "1.0.beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusAstartes_Ravenguard",
+  "intro": "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee des Space-Marine-Ordens Raven Guard oder eines seiner Nachfolgeorden aufzustellen. Die Raven Guard ist auf Guerillakriegsführung spezialisiert: Sie dringt unübertroffen unbemerkt hinter die feindlichen Linien vor und schlägt mit präziser Gewalt zu.",
+  "strategy": "Space Marine-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 1+.",
+  "specialRules": [
+    "Land Speeder-Eskorte",
+    "Space-Marine-Transporter",
+    "Sie kennen keine Furcht"
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Captain",
+        "Ordenspriester",
+        "Scriptor",
+        "Oberbefehlshaber",
+        "Sturmtrupps",
+        "Sturm-Bikes",
+        "Raven-Guard-Aufklärer",
+        "Protektorgarde-Veteranen",
+        "Taktische Trupps",
+        "Devastor-Trupps",
+        "Cyclone-Terminatoren",
+        "Terminatoren",
+        "Expugnatorgarde-Veteranen",
+        "Trike",
+        "Land Speeder",
+        "Land Speeder Storm",
+        "Land Speeder Tempest",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Hunter",
+        "Razorback",
+        "Rhino",
+        "Stalker",
+        "Sturmadler",
+        "Sturmtalon",
+        "Angriffskreuzer",
+        "Vanguard-Klasse-Leichter-Kreuzer",
+        "Landungskapsel"
+      ],
+      "unitRules": [
+          "Expertenaufklärung",
+          "Sturmangriff"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Warhound"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ravenguard Kernkontingente",
+      "formations": [
+        {
+          "name": "Sturmaufklärer",
+          "units": "Drei Raven Guard Aufklärer, drei Land Speeder Storms",
+          "extraUnits": [
+            "Befehlshaber",
+            "Land Speeders"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Taktische Trupps",
+          "units": "Vier Taktische Trupps plus Transporter",
+          "extraUnits": [
+            "Befehlshaber",
+            "Flugabwehr",
+            "Land Speeders",
+            "Razorbacks"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Ravenguard Elitekontingente",
+      "description": "Pro Kernkontingent darf ein Elitekontingent aufgestellt werden",
+      "formations": [
+        {
+          "name": "Sternguard Veteran",
+          "units": "Vier Sternguard-Veteranen plus Transporter",
+          "extraUnits": [
+            "Befehlshaber",
+            "Flugabwehr",
+            "Land Speeders",
+            "Razorbacks"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Vanguard Veteran",
+          "units": "Vier Vanguard Veterans",
+          "extraUnits": [
+            "Befehlshaber",
+            "Land Speeders"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Terminatoren",
+          "units": "Beliebige vier der folgenden Einheiten: Terminatoren, Cyclone Terminatoren",
+          "extraUnits": [
+            "Befehlshaber"
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Ravenguard Unterstützungskontingente",
+      "description": "Pro Kernkontingent dürfen zwei Unterstützungskontingente aufgestellt werden",
+      "formations": [
+        {
+          "name": "Sturmtrupps",
+          "units": "Vier Sturmtrupps",
+          "extraUnits": [
+            "Befehlshaber",
+            "Land Speeders"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Bike-Verband",
+          "units": "Beliebige fünf der folgenden Einheiten: Trike, Sturm-Bikes",
+          "extraUnits": [
+            "Befehlshaber",
+            "Land Speeders"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Devastor-Trupps",
+          "units": "Vier Devastor-Trupps plus Transporter",
+          "extraUnits": [
+            "Flugabwehr",
+            "Befehlshaber",
+            "Land Speeders",
+            "Razorbacks"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Land Speeders",
+          "units": "Beliebige fünf der folgenden Einheiten: Land Speeder, Land Speeder Tornado",
+          "extraUnits": [
+            "Land Speeder Variants"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Aufklärer",
+          "units": "Vier Raven Guard Aufklärer plus Transporter",
+          "extraUnits": [
+            "Land Speeders",
+            "Scharfschützen",
+            "Razorbacks"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Ravenguard Flotte & Collegia Titanica Verbündete",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Sturmtalons",
+          "units": "Zwei Sturmtalons",
+          "points": 200
+        },
+        {
+          "name": "Sturmadler",
+          "units": "Ein Sturmadler",
+          "points": 175
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein leichter Kreuzer der Vanguard-Klasse",
+          "extraUnits": [
+            "Angriffskreuzer"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Warhounds",
+          "units": "Ein Warhound-Titan",
+          "extraUnits": [
+            "Füge 1 zusätzlichen Warhound-Titan hinzu: 200 Punkte"
+          ],
+          "points": 275
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Ravenguard Aufwertungen",
+    "description": "Jede Aufwertung darf pro Kontingent nur einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Flugabwehr",
+        "description": "Füge eine beliebige der folgenden Einheiten zum Verband hinzu",
+        "options": [
+          {
+            "description": "Füge 1 Hunter hinzu",
+            "points": "75 Punkte"
+          },
+          {
+            "description": "Füge 1 Stalker hinzu",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Befehlshaber",
+        "description": "Füge einen beliebigen der folgenden Charaktere einer Einheit im Verband hinzu",
+        "options": [
+          {
+            "description": "Captain, Scriptor",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Ordenspriester",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "0–1 Oberbefehlshaber",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Land Speeder Variants",
+        "description": "Ersetze beliebig viele Land Speeders durch dieselbe Anzahl an Land Speeder Typhoons oder Land Speeder Tempests",
+        "points": "10 Punkte pro Stück"
+      },
+      {
+        "name": "Land Speeder der Raven Guard",
+        "description": "Füge 2 beliebige der folgenden Optionen hinzu. Alle im Rahmen dieser Aufwertung gekauften Land Speeders unterliegen der Sonderregel „Land Speeder-Eskorte“.",
+        "options": [
+          {
+            "description": "Land Speeder, Land Speeder Tornado",
+            "points": "30 Punkte pro Stück"
+          },
+          {
+            "description": "Land Speeder Typhoon",
+            "points": "40 Punkte pro Stück"
+          },
+          {
+            "description": "Land Speeder Tempest",
+            "points": "40 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Razorbacks",
+        "description": "Füge beliebig viele Razorbacks hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Scharfschützen",
+        "description": "Alle Aufklärer im Verband erhalten für ihre Heavy Bolters die Sonderregel „Scharfschütze“.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Angriffskreuzer",
+        "description": "Ersetze den leichten Kreuzer der Vanguard-Klasse durch einen Angriffskreuzer",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

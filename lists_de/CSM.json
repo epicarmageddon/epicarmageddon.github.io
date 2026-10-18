@@ -1,0 +1,1623 @@
+[
+  {
+    "name": "Streitkräfte der Chaos Space Marines",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Kriegsherr",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Noise-Kriegsherr",
+        "type": "CH",
+        "weapons": [
+            "Verdammnissirene"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Iron-Krieger-Kriegsschmied",
+        "type": "CH",
+        "weapons": [
+          "Servoarm"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Reparaturen auf dem Schlachtfeld",
+          "Bionik",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Night-Lords-Erster Hauptmann",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Dämonenpakt",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Blutlord",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Großapostel",
+        "type": "CH",
+        "weapons": [
+          "Dämonischer Bolter"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Inspirierend",
+          "Verstärkte Beschwörung (+2D3)",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Erhabener Hexer",
+        "type": "CH",
+        "weapons": [
+          "Blaues Feuer der Metamorphose",
+          "Dämon Waffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dunkler Apostel",
+        "type": "CH",
+        "weapons": [
+          "Dämonischer Bolter"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Oberbefehlshaber",
+          "Herolde der Wahrheit",
+          "Verstärkte Beschwörung (+W3)",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Chaosfürst",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Noise-Fürst",
+        "type": "CH",
+        "weapons": [
+          "Verdammnissirene"
+        ],
+        "specialRules": [
+            "Dämonischer Fokus",
+            "Befehlshaber",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Iron-Krieger-Warpenschmied",
+        "type": "CH",
+        "weapons": [
+          "Servoarm"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Reparaturen auf dem Schlachtfeld",
+          "Bionik",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Fürst",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Night-Lords-Hauptmann",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Dämonenpakt",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Schädelherr",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Aufstrebender Hexer",
+        "type": "CH",
+        "weapons": [
+          "Rotes Feuer der Veränderung",
+          "Dämon Waffe"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Hexerfürst",
+        "type": "CH",
+        "weapons": [
+          "Warp-Bolter"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+            {
+        "name": "Word-Bearers-Koryphäus",
+        "type": "CH",
+        "weapons": [
+            "n/a"
+        ],
+        "specialRules": [
+          "Herolde der Wahrheit",
+          "Verstärkte Beschwörung (+W3)",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Hexer",
+        "type": "CH",
+        "weapons": [
+          "Warp-Bolter"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Chaoschampion",
+        "type": "CH",
+        "weapons": [
+          "Dämonisch Possession"
+        ],
+        "specialRules": [
+          "Verstärkte Beschwörung (+2D3)",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Darf geopfert werden. Vor dem Wurf für die Beschwörungspunkte des Verbands wird die Fähigkeit Verstärkte Beschwörung (+2D3) dieser Einheit durch Verstärkte Beschwörung (+6) ersetzt. Nach diesem Wurf wird die Einheit mit dem Champion zerstört; Schutzwürfe sind nicht zulässig. Eine auf diese Weise geopferte Einheit verursacht keinen Beschussmarker."
+      },
+      {
+        "name": "Night-Lords-Sergeant",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Ikonenträger",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Verstärkte Beschwörung (+1)",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+            {
+        "name": "Word-Bearers-Akolyth",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Verstärkte Beschwörung (+W3)",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonenprinz",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Warp-Bolter",
+          "Æther Klinge"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Teleportieren",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Night-Lords-Dämonenprinz",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Warp-Bolter",
+          "Warp-Klauen"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Teleportieren",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Dämonenpakt",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+            {
+        "name": "Word-Bearers-Dämonenprinz",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Warp-Bolter",
+          "Æther Klinge"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Herolde der Wahrheit",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Verstärkte Beschwörung (+W3)",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonenprinz des Slaanesh",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Dämonischer Bolter",
+          "Rapturous Klinge"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Teleportieren",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonenprinz des Nurgle",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Seuchenböe",
+          "Klinge der Fäulnis"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Teleportieren",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonenprinz des Khorne",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Peitsche des Khorne",
+          "Æther Klinge"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Teleportieren",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonenprinz des Tzeentch",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 2,
+        "weapons": [
+          "Pandæmonium",
+          "Blaues Feuer der Metamorphose",
+          "Bedlam Stab"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Warp-Riss",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Maschinenkanone"
+        ],
+        "specialRules": [
+          "Starrköpfig"
+        ]
+      },
+      {
+        "name": "Chaos Space Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Maschinenkanone"
+        ]
+      },
+      {
+        "name": "Marines der Thousand Sons",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Seelenschnitterkanone"
+        ]
+      },
+      {
+        "name": "Chaos-Sturmmarines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Plasmageschütze",
+          "Ketten-Glaives"
+        ]
+      },
+      {
+        "name": "Iron-Krieger-Sturmmarines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolter und Enterungsschilde"
+        ]
+      },
+      {
+        "name": "World-Eaters-Sturmmarines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Plasmageschütze",
+          "Ketten-Glaives"
+        ]
+      },
+      {
+        "name": "Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Maschinenkanone|2|"
+        ]
+      },
+      {
+        "name": "Iron-Krieger-Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Plasmakanone|2|"
+        ]
+      },
+      {
+        "name": "Thousand-Sons-Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Seelenschnitterkanone|2|"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Maschinenkanone|2|"
+        ],
+        "specialRules": [
+          "Starrköpfig"
+        ]
+      },
+      {
+        "name": "Auserkorene",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Maschinenkanone"
+        ],
+        "specialRules": [
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Night-Lords-Auserkorene",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Scharfschützengewehre"
+        ],
+        "specialRules": [
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Kopfjäger",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter",
+          "Banestrike-Kombibolter"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Infiltratoren",
+          "Aufklärer",
+          "Sabotage"
+        ]
+      },
+      {
+        "name": "Raptoren",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasmapistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Night-Raptoren",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Plasmageschütze",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Word-Bearers-Ikonoklasten",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Iconoclast Äxte"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Chaos-Zerstörer",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Radium-Raketenwerfer"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Bezashk-Zerstörer",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Radium-Raketenwerfer"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Zerstörer",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Radium-Raketenwerfer"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Noise Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Noise-Marine-Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster|3|"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Seuchenmarines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Bolter",
+          "Seuchenmesser"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Khorne Berserker",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Kettenäxte"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Rubrik-Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Inferno-Bolter"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Warp-Klauen",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Warpschrei",
+          "Warp-Klauen"
+        ],
+        "specialRules": [
+          "Teleportieren",
+          "Sprungmodule",
+          "Furchtlos"
+        ],
+        "notes": "Muss das Spiel in Reserve beginnen und darf das Spielfeld nur durch Teleportieren betreten. Kann nicht transportiert werden."
+      },
+      {
+        "name": "Dämonkin",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Dämonisch Klauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Chaos-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Reaper-Maschinenkanone|2|",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Atramentar-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Kombibolter",
+          "Blitzklauen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Tyrant-Belagerungsterminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Cyclone-Raketenwerfer",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Lernaean-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 2,
+        "weapons": [
+          "Volkite-Ladungen",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Sirenenschrei-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Verdammnissirene|2|",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Seuchenfürsten-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Reaper-Maschinenkanone|2|",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Schädeljäger-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 3,
+        "weapons": [
+          "Kombimelter",
+          "Blitzklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Scarab-Occult-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 2,
+        "weapons": [
+          "Inferno-Kombibolter",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Warp-Riss",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Kyborgs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 2,
+        "weapons": [
+          "Waffen des manifestierten Körpers"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Mutilatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Manifested Nahkampfwaffen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Hexer auf Disks",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Zauberbolzen"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Chaos-Sturmbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Kombibolter",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Chaos-Angriffs-Bike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Reaper-Maschinenkanone"
+        ]
+      },
+      {
+        "name": "Khorne-Berserker-Sturmbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Kettenäxte"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Juggernaut-Reiter",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Juggernaut"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Beritten",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Kombibolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren und Kyborgs) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Chaos-Belagerungsrhino",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Kombibolter"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren und Kyborgs) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Alpha-Legion-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Kombibolter"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Death-Guard-Rhino",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Kombibolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Emperor's-Children-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Warp-Verstärker"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "World-Eaters-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Kombimelter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Thousand-Sons-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Kombibolter",
+          "Flackernde Flammen"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Chaos Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2|",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Chaos Terminatoren und Kyborgs zählen jeweils als 2 Einheiten."
+      },
+      {
+        "name": "Alpha-Legion-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2|",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Emperor's-Children-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2|",
+          "Blastmaster"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Sirenshriek-Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Death-Guard-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2|",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Blightlord-Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "World-Eaters-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Reaper-Maschinenkanone|2|"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 2 Terminatoren, Mutilators oder 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Thousand-Sons-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2|",
+          "Schwerer Warpflamer"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Terminator oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Chaos Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone",
+          "Schwerer Bolter|2|"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Predator Kanone",
+          "Schwerer Bolter|2|"
+        ],
+        "specialRules": [
+          "Starrköpfig"
+        ]
+      },
+      {
+        "name": "Emperor's-Children-Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone",
+          "Blastmaster|2|"
+        ]
+      },
+      {
+        "name": "Thousand-Sons-Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone",
+          "Flammensturmkanone"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Sicarian-Kampfpanzer",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Beschleuniger Maschinenkanone",
+          "Schwerer Bolter|3|"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Basilisk der Iron Krieger",
+        "type": "AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Erdbebenkanone",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Greif der Iron Krieger",
+        "type": "AV",
+        "speed": 30,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Mörser",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Bezashk-Medusa",
+        "type": "AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Medusa-Phospex-Geschütz",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Chaos Vindicator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "World-Eaters-Vindicator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Vindicator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Death-Guard-Vindicator",
+        "type": "AV",
+        "speed": 20,
+        "armour": 3,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Chaos-Jäger",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Hades Maschinenkanone"
+        ]
+      },
+      {
+        "name": "Death-Guard-Jäger",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Hades Maschinenkanone"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Chaos-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Reaper-Maschinenkanone",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Night-Lords-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Reaper-Maschinenkanone",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Thousand-Sons-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Raketenwerfer",
+          "Zwillings-Laserkanone"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Berserker-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Cybot Kettenfaust|2|"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Chaos-Belagerungscybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Schwere Bolter",
+          "Schwerer Flammenwerfer",
+          "Belagerungsbohrer"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Alpha-Legion-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasmakanone",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Emperor's-Children-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Verdammnissirene",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Death-Guard-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Blight Werfer",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Chaos-Spartan-Sturmpanzer",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Reaper-Maschinenkanone|2|",
+          "Zwillings-Schwerer Flammenwerfer"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Terminatoren zählen jeweils als 2 Einheiten."
+      },
+      {
+        "name": "Schwerer Chaos-Typhon-Belagerungspanzer",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Dreadhammer Belagerungs-Kanone",
+          "Laserkanone|2|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Iron-Krieger-Stormsword",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungs-Kanone||FxF",
+          "Zwillings-Schwere Bolter|3|FxF",
+          "Schwerer Flammenwerfer|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Die Einheit wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      }
+    ]
+  }
+]

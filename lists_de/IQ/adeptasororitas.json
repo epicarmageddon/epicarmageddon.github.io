@@ -1,0 +1,270 @@
+{
+  "fraction": "Imperiale Inquisition",
+  "army": "Adepta Sororitas",
+  "version": "1.0.Beta-3",
+  "release": "2023-01-09",
+  "armyforge": "EAR_Inquisition_AdeptaSororitas",
+  "strategy": "Adepta-Sororitas-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Ordo-Hereticus-Verbände einschließlich der Inquisitor Gefolge sowie Verbände der Imperial Flotte haben einen Initiativewert von 2+. Alle anderen Verbände haben einen Initiativewert von 1+.",
+  "specialRules": [
+  ],
+  "units": [
+    {
+      "from": "IQ.json",
+      "units": [
+        "Prinzipalin",
+        "Palatine",
+        "Ministorumspriester",
+        "Lebende Heilige",
+        "Ordo-Hereticus-Großinquisitor",
+        "Ordo-Hereticus-Inquisitor",
+        "Arco-Flagellanten",
+        "Sororitas-Schwestern",
+        "Dominion-Schwestern",
+        "Celestia-Schwestern",
+        "Retributor-Schwestern",
+        "Redemptionisten",
+        "Seraphim-Schwestern",
+        "Repentia-Schwestern",
+        "Läuterer",
+        "Mortifier",
+        "Ordo-Hereticus-Landtransporter",
+        "Prioris-Exorzist",
+        "Sanctorum-Exorzist",
+        "Sororitas-Rhino",
+        "Exorzistenjäger",
+        "Sororitas-Repressor",
+        "Sororitas-Immolator",
+        "Sororitas-Stormlord"
+      ],
+      "unitRules": [
+            "Treu",
+        "Maschinengeist"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Stoßtruppen",
+        "Chimäre",
+        "Hydra",
+        "Höllenhund",
+        "Vulture",
+        "Valkyrie"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Blitzschlag-Abfangjäger",
+        "Marauder-Zerstörer",
+        "Kreuzer der Lunar-Klasse",
+        "Schlachtschiff der Emperor-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Adepta-Sororitas-Kernformationen",
+      "description": "",
+      "formations": [
+        {
+          "name": "Mission",
+          "units": "Eine Palatine und acht Sororitas-Kampfschwestern",
+          "extraUnits": [
+            "Ersetze zwei Einheiten Sororitas-Kampfschwestern durch zwei Exorzist-Prioris: 50 Punkte",
+            "Ordo Hereticus Superior",
+            "Hunter",
+            "Transport"
+          ],
+          "points": 250
+      },
+      {
+        "name": "0–1 Ordo Hereticus Inquisitor Gefolge",
+        "units": "Ein Ordo Hereticus Inquisitor, fünf Stoßtruppen, drei Chimären",
+        "extraUnits": [
+          "Füge 1 Hydra hinzu: 50 Punkte",
+          "Ersetze drei Chimären durch drei Valkyries: 50 Punkte",
+          "Höllenhunde",
+          "Ordo Hereticus Superior"
+        ],
+        "points": 250
+      }
+      ]
+    },
+    {
+      "name": "Adepta Sororita Unterstützungsformationen",
+      "description": "Pro Adepta-Sororitas-Kernformation dürfen zwei Adepta-Sororitas-Unterstützungsformationen gewählt werden.",
+      "formations": [
+        {
+          "name": "Immolation",
+          "units": "Ein Palatine, drei Celestian Sisters, drei Sororitas Immolators",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Exorcism",
+          "units": "Vier Exorzist Prioris",
+          "extraUnits": [
+            "Ersetze vier Exorzist Prioris durch vier Exorzist Sanctorum: 25 Punkte",
+            "Hunter"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Seraph",
+          "units": "Ein Palatine, sechs Seraphim Sisters",
+          "extraUnits": [
+            "Lebende Heilige"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Retribution",
+          "units": "Ein Palatine, vier Retributor Sisters, zwei Sororitas-Rhinos",
+          "extraUnits": [
+            "Ersetze zwei Sororitas-Rhinos durch zwei Sororitas Repressors: 20 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Repentance",
+          "units": "Drei Repentia Sisters, drei Mortifiers",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+            "name": "Dominus",
+            "units": "Ein Palatine, vier Dominion Sisters, zwei Sororitas-Rhinos",
+            "extraUnits": [
+                "Ersetze zwei Sororitas-Rhinos durch zwei Sororitas Repressors: 20 Punkte"
+            ],
+            "points": 175
+        },
+        {
+            "name": "Stormlord",
+            "units": "Ein Sororitas Stormlord",
+            "extraUnits": [
+            ],
+            "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Ordo-Hereticus-Verbände",
+      "description": "Pro Adepta-Sororitas-Kernformation darf eine Ordo-Hereticus-Verband gewählt werden.",
+      "formations": [
+        {
+          "name": "Vulture",
+          "units": "Vier Vultures",
+          "points": 300,
+          "extraUnits": []
+        },
+        {
+          "name": "Redemption",
+          "units": "Ein Ministorum-Priester, acht Redemptionisten und vier Kultisten-Landtransporter des Ordo Hereticus",
+          "extraUnits": [
+            "Ersetze vier Ordo Hereticus Kultisten-Landtransporter und vier Redemptionists durch sechs Arco-Flagellants, oder vier Läuterers: 50 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Infernus",
+          "units": "Vier Höllenhunde",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Verbände der Imperial Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für Verbände der Imperial Flotte ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Blitzschlag-Staffel",
+          "units": "Zwei Blitzschlag-Abfangjägers",
+          "points": 150
+        },
+        {
+          "name": "Marauder-Zerstörer",
+          "units": "Ein Marauder-Zerstörer",
+          "points": 175
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein Kreuzer der Lunar-Klasse",
+          "extraUnits": [
+            "Ersetze den Kreuzer der Lunar-Klasse durch ein Schlachtschiff der Emperor-Klasse: 50 Punkte"
+          ],
+          "points": 125
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Ordo Hereticus Superior (0–1 pro Armee)",
+        "description": "Wähle eine Option aus folgender Auswahl",
+        "options": [
+          {
+            "description": "Ersetze einen Palatine durch eine Prinzipalin (nur in der Missionsformation)",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze den Ordo Hereticus Inquisitor durch einen Ordo Hereticus Inquisitor Lord (nur in einer Ordo-Hereticus-Inquisitor-Gefolge).",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Living Saint (0–1 pro Armee)",
+        "description": "Ersetze einen Palatine und seine Einheit durch eine Living Saint",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Hunter",
+        "description": "Füge 1 Exorzist Hunter hinzu",
+        "points": [
+          "50 Punkte"
+        ]
+      },
+      {
+        "name": "Höllenhunde",
+        "description": "Füge bis zu zwei Höllenhunde hinzu",
+        "points": [
+          "25 Punkte pro Stück"
+        ]
+      },
+      {
+        "name": "Transporter",
+        "description": "Du musst genau so viele wählen, dass alle Einheiten im Verband nach etwaigen Aufwertungen transportiert werden. Nach Möglichkeit dürfen keine Transportplätze übrig bleiben",
+        "options": [
+          {
+            "description": "Füge beliebig viele Sororitas Immolators hinzu",
+            "points": "30 Punkte pro Stück"
+          },
+          {
+            "description": "Füge beliebig viele Sororitas Repressors hinzu",
+            "points": "20 Punkte pro Stück"
+          },
+          {
+            "description": "Füge beliebig viele Sororitas-Rhinos hinzu",
+            "points": "10 Punkte pro Stück"
+          }
+        ]
+      }
+    ]
+  },
+  "usage": [
+ ]
+}

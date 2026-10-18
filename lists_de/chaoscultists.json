@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Streitkräfte der Chaos-Kultisten",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Erzhäretiker",
+        "type": "CH",
+        "weapons": [
+          "Dämon Waffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Ikonenträger",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Verstärkte Beschwörung (+1)",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Demagoge",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Granate Werfer",
+          "Dämon Waffe"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+2D3)"
+        ]
+      },
+      {
+        "name": "Dämonische Ikone",
+        "type": "CH",
+        "weapons": [],
+        "specialRules": [
+          "Dämonenpakt",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Aufstrebender Champion",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Maschinenkanone",
+          "Dämon Waffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Gefallener Befehlshaber",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Maschinenkanone",
+          "Dämon Waffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonenprinz",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Warp-Bolter",
+          "Æther Klinge"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Sprungmodule",
+          "Furchtlos",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Kultisten",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Granate Werfer"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Mutanten",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+          "Automatikpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Kultistenkavallerie",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Laserpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Große Mutanten",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Maschinengewehr|2|",
+          "Massive Nahkampfwaffen"
+        ],
+        "specialRules": [
+        ],
+        "notes": "Zählt beim Transport als zwei INF-Einheiten."
+      },
+      {
+        "name": "Chaosbrut",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Schreckliche Mutationen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Zählt beim Transport als 2 INF-Einheiten."
+      },
+      {
+        "name": "Geflügelte Chaosbrut",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Schreckliche Mutationen",
+          "Zauberbolzen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Chaos-Hunde",
+        "type": "INF",
+        "speed": 30,
+        "armour": 6,
+        "cc": 4,
+        "weapons": [
+          "Klauen und Fangzähne"
+        ],
+        "specialRules": [
+          "Entbehrlich"
+        ],
+        "notes": "Kann nicht transportiert werden."
+      },
+      {
+        "name": "Landtransporter",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Schwerer Maschinengewehr"
+        ],
+        "specialRules": [
+            "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren."
+      },
+      {
+        "name": "Bewaffneter Geländewagen",
+        "type": "LV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schwerer-Maschinengewehr-Turm"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Chaosaltar",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Arkane Technologie"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Furchtlos",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Augmented Beschwörung (+W3)"
+        ],
+        "crit": "Der Chaosaltar wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen MW-Treffer."
+      },
+      {
+        "name": "Warpaltar",
+        "type": "WE",
+        "speed": 10,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+            "Arkane Technologie"
+        ],
+        "specialRules": [
+            "Schadenskapazität 3",
+            "Verstärkte Panzerung",
+            "Unmodifizierter Rettungswurf",
+            "Furchtlos",
+            "Inspirierend",
+            "Dämonischer Fokus",
+            "Augmented Beschwörung (+W3)",
+          "Chaostor"
+        ],
+        "crit": "Warp Altar wird zerstört. Alle Daemon-Legion-Einheiten innerhalb von 5cm werden zerstört, alle anderen Einheiten innerhalb von 5cm erleiden bei 6+ einen MW-Treffer."
+      },
+      {
+        "name": "Seuchenwandler des Nurgle",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "weapons": [
+          "Wandelnde Pest"
+        ],
+        "specialRules": [
+          "Regeneration",
+          "Infiltratoren",
+          "Befall"
+        ]
+      },
+      {
+        "name": "Tzaangors",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Automatikpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Tzaangor-Discreiter",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Divining Speer"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Mutalith-Vortexbestie",
+        "type": "LV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Strahl der Unwirklichkeit",
+          "Mahlstrom des Wahnsinns"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig",
+          "Verstärkte Panzerung",
+          "Regeneration",
+          "Verstärkte Beschwörung (+2D3)"
+        ]
+      }
+    ]
+  }
+]

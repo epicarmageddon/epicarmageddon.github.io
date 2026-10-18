@@ -1,0 +1,302 @@
+{
+  "fraction": "Eldar",
+  "army": "Weltenschiff Iyanden",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Eldar_Iyanden",
+  "intro": "Mit dem folgenden Armeeorganisationsplan kannst du eine Eldar-Armee des Weltenschiffs Iyanden aufstellen.",
+  "strategy": "Armeen des Weltenschiffs Iyanden haben einen Strategiewert von 4.",
+  "Initiative": "Aspektkrieger-Verbände, Titanen, Phantomritter und der Avatar haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Avatar (Iyanden)",
+    "Darf keine Garnison bilden (Iyanden)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Netzportal"
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Geisterseher",
+        "Avatar des Khaine",
+        "Eldar-Exarch",
+        "Eldar-Runenprophet",
+        "Eldar-Gardisten",
+        "Eldar-Schwerwaffenplattform",
+        "Unterstützungswaffenplattform",
+        "Ranger",
+        "Asuryans Jäger",
+        "Feuerdrachen",
+        "Schwarze Khaindar",
+        "Banshees",
+        "Skorpionkrieger",
+        "Sternenlanzen",
+        "Kriegsfalken",
+        "Warpspinnen",
+        "Phantomdroiden",
+        "Phantomklingen",
+        "Kampfläufer",
+        "Phantomlord",
+        "Phantomseher",
+        "Wellenschlange",
+        "Falcon",
+        "Illum Zar",
+        "Nachtspinne",
+        "Feuersturm",
+        "Skorpion",
+        "Kobra",
+        "Sturmserpent",
+        "Phantomritter",
+        "Phantom-Titan",
+        "Phantomtitan"
+      ],
+      "unitRules": [
+          "Holofelder (x)",
+          "Lanze",
+          "Schildbohrer",
+          "Schildbrecher",
+          "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschwinge-Abfangjäger",
+        "Hemlock-Phantomjäger",
+        "Vampire Schattenbarke",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Iyanden-Spezialregeln",
+      "formations": [
+        {
+          "name": " 1 Avatar",
+          "units": "Ein Avatar",
+          "points": 0
+        },
+        {
+          "name": "0–1 Netzportal",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Iyanden-Phantomkriegsschars",
+      "formations": [
+        {
+          "name": "Phantomwachen-Phantomkriegsschar",
+          "units": "Eine Phantomdroiden-Einheit mit einem Geisterseher-Charakter und drei weitere Phantomdroiden",
+          "extraUnits": [
+            "Phantomdroiden",
+            "Phantomlords",
+            "Füge vier Wellenschlangen hinzu: 150 Punkte (darf nur gewählt werden, wenn der gesamte Verband hineinpasst)",
+            "Phantomseher"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Phantomklingen-Phantomkriegsschar",
+          "units": "Eine Phantomklingen-Einheit mit einem Geisterseher-Charakter und drei weitere Phantomklingen",
+          "extraUnits": [
+            "Phantomdroiden",
+            "Phantomlords",
+            "Füge vier Wellenschlangen hinzu: 150 Punkte (darf nur gewählt werden, wenn der gesamte Verband hineinpasst)",
+            "Phantomseher"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Iyanden-Verbände",
+      "description": "Bis zu zwei für jede gewählte Iyanden Phantomkriegsschar.",
+      "formations": [
+          {
+            "name": "Gardisten",
+            "units": "Eine Runenpropheten-Einheit und sieben Gardisten",
+            "extraUnits": [
+              "Schwere Waffen, Unterstützungswaffen, Phantomdroiden, Phantomklingen, Phantomlords.",
+              "Füge vier Wellenschlangen hinzu: 150 Punkte (darf nur gewählt werden, wenn der gesamte Verband hineinpasst)"
+            ],
+            "points": 150
+        },
+        {
+          "name": "Aspektkriegertrupp",
+          "units": "Sechs Aspektkrieger aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Sternenlanzen, Skorpionkrieger, Kriegsfalken, Warpspinnen",
+          "extraUnits": [
+            "Exarch"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Kriegsmaschinen von Vaul",
+          "units": "Ein Kriegsmaschine von Vaul aus folgender Auswahl: Kobra, Skorpion, Sturmserpent",
+          "extraUnits": [
+            "Füge bis zu zwei zusätzliche Kriegsmaschinen von Vaul hinzu: 200 Punkte pro Stück (Kobra, Skorpion oder Sturmserpent)."
+          ],
+          "points": 250
+        },
+        {
+          "name": "Schwerter von Vaul",
+          "units": "Fünf Falcons",
+          "extraUnits": [
+            "Ersetze bis zu zwei Falcons durch Feuerstürme: kostenlos"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Illum-Zar-Trupp",
+          "units": "Drei Illum Zars",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Nachtspinnen-Trupp",
+          "units": "Drei Nachtspinnen",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Ranger",
+          "units": "Vier Eldar-Ranger",
+          "extraUnits": [
+          ],
+          "points": 100
+        },
+        {
+          "name": "Kampfläufer-Trupp",
+          "units": "Vier Kampfläufer",
+          "extraUnits": [
+              "Füge bis zu zwei Kampfläufer hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+      {
+        "name": "Geisterläufer-Trupp",
+        "units": "Vier Phantomlords",
+        "extraUnits": [
+        ],
+        "points": 250
+      }
+      ]
+    },
+    {
+      "name": "Iyanden-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Nachtschwingen-Staffel",
+          "units": "Zwei Nachtschwingen-Abfangjäger",
+          "extraUnits": [
+            "Füge 1 Nachtschwinge-Abfangjäger hinzu: 75 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Hemlock-Phantomjäger-Staffel",
+          "units": "Zwei Hemlock-Phantomjäger",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+
+        {
+          "name": "Vampire",
+          "units": "Eine Vampire Schattenbarke",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Phantomritter",
+          "units": "Zwei Phantomritter (Konfigurationen dürfen nicht gemischt werden)",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Phantom-Titanen",
+          "units": "Zwei Phantom-Titanen",
+          "extraUnits": [
+          ],
+          "points": 650
+        },
+        {
+          "name": "Phantom",
+          "units": "Ein Phantomtitan",
+          "extraUnits": [
+          ],
+          "points": 700
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 150 Punkte"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen von Iyanden",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Phantomseher",
+        "description": "Ersetze einen Geisterseher und seine Einheit durch einen Phantomseher",
+        "points": "100 Punkte"
+      },
+      {
+        "name": "Exarch",
+        "description": "Füge einen Eldar-Exarchen zu einer Aspektkrieger-Einheit hinzu.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Viper",
+        "description": "Ersetze beliebig viele Eldar-Jetbikes durch Viper der Eldar",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Schwere Waffen",
+        "description": "Ersetze bis zu drei Eldar-Gardisten durch Eldar-Schwerwaffenplattformen",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Unterstützungswaffen",
+        "description": "Ersetze bis zu drei Eldar-Gardisten durch Eldar-Unterstützungswaffenplattformen (alle mit derselben Waffe bewaffnet).",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Phantomdroiden",
+        "description": "Füge zwei Eldar-Phantomdroiden hinzu",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Phantomklingen",
+        "description": "Füge zwei Eldar-Phantomklingen hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Phantomlords",
+        "description": "Füge bis zu drei Eldar-Phantomlords hinzu",
+        "points": "50 Punkte pro Stück"
+      }
+    ]
+  },
+  "about": [
+    "v1.0.Beta: Die Grundstruktur der EA:R-Liste für das Weltenschiff Iyanden basiert auf der NetEA-Version. Ergänzt wurden wichtige Änderungen und Erweiterungen, die größtenteils aus der Erstellung der überarbeiteten EA:R-Liste des Weltenschiffs Biel-Tan übernommen wurden. Da Phantomdroiden nun einen Rettungswurf von 3+ haben, wurde derselbe Rettungswurf auch den Phantomklingen verliehen. Da diese Einheiten keinen Rettungswurf von 4++ mehr haben und furchtlos sind, konnten ihre Verbände etwas günstiger bepunktet werden.",
+    "Die Sonderregel „Geländegängig“ der Phantomkriegsschar wurde an die übrigen Phantomkriegsscharn angeglichen. Außerdem erhält die Liste Zugang zu einem Phantomritter-Verband mit dem Einheitentyp H-AV."
+  ]
+}

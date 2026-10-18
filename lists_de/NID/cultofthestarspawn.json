@@ -1,0 +1,215 @@
+{
+  "fraction": "Tyraniden",
+  "army": "Kult der Sternengeborenen",
+  "version": "0.6.5",
+  "release": "2022-04-01",
+  "strategy": "Tyraniden-Armeen haben einen Strategiewert von 1.",
+  "Initiative": "Die Kultkompanie und alle Kult-Unterstützungsformationen haben einen Initiativewert von 2+ und unterliegen der Sonderregel „Brutbrüder“. Alle anderen Verbände haben einen Initiativewert von 1+.",
+  "specialRules": [
+    "Brutkult",
+    "Brutbewusstsein",
+    "Brutbrüder",
+    "Extreme Beweglichkeit (Kult der Sternengeborenen)"
+  ],
+  "usage": [
+  ],
+  "units": [
+    {
+      "from": "GS2.json",
+      "units": [
+        "Symbiontenpatriarch",
+        "Konklaven-Locus",
+        "Symbiarch",
+        "Symbiontenprimus",
+        "Akolythenhybriden",
+        "Metamorph-Hybriden",
+        "Liktor",
+        "Aberranten",
+        "Neophyten-Ausreiter",
+        "Neophyten",
+        "Neophyten-Feuerunterstützung",
+        "Symbionten",
+        "Ridgerunner",
+        "Goliath-Truck",
+        "Konklaven-Limousine",
+        "Bewaffneter Geländewagen",
+        "Konklaven-Thunderbolt-Jäger",
+        "Kult-Basilisk",
+        "Kult-Höllenhund",
+        "Kult-Greif",
+        "Kult-Chimäre",
+        "Kult-Hydra",
+        "Kult-Leman-Russ",
+        "Kult-Leman-Russ-Demolisher",
+        "Kult-Baneblade",
+        "Kult-Stormblade",
+        "Kult-Shadowsword"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kult-Kernformationen",
+      "description": "Es muss eine Nexus-Brut-Verband gewählt werden.",
+      "formations": [
+        {
+          "name": "1 Nexus-Brut",
+          "units": "Ein Symbiontenpatriarch, drei Symbionten und drei Akolythenhybriden",
+          "extraUnits": [
+            "Füge vier Konklaven-Limousinen (75 Punkte) oder vier Goliath-Trucks (125 Punkte) hinzu",
+            "Ersetze drei Symbionten durch drei Akolythenhybriden oder drei Akolythenhybriden durch drei Symbionten: kostenlos",
+            "Aberranten",
+            "Konklaven-Flak"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Kultistenkompanie",
+          "units": "Ein Symbiontenprimus und neun Kult-Infanteristen",
+          "extraUnits": [
+            "Füge vier Kult-Infanteristen hinzu: 50 Punkte",
+            "Füge zwei Kult-Feuerunterstützungseinheiten hinzu: 50 Punkte",
+            "Füge drei Kult-Leman-Russ oder Kult-Leman-Russ-Demolisher hinzu: 150 Punkte",
+            "Füge genügend Kult-Chimären hinzu, um die gesamte Verband ohne freie Transportplätze zu transportieren: 25 Punkte pro Stück",
+            "Füge eine Kult-Hydra hinzu: 50 Punkte",
+            "Füge bis zu zwei Kult-Höllenhunde hinzu: 25 Punkte pro Stück",
+            "Füge drei Kult-Greife hinzu: 50 Punkte"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Konklaven-Vorhut-Verbände",
+      "description": "Für jede Kult-Kernformation darf eine Konklaven-Vorhut-Verband gewählt werden.",
+      "formations": [
+        {
+          "name": "Symbiontenrotte",
+          "units": "Ein Symbiontenpatriarch und sechs Symbionten",
+          "extraUnits": [
+            "Symbionten"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Hybridenrotte",
+          "units": "Sechs Akolythenhybriden",
+          "extraUnits": [
+            "Füge drei Goliath-Trucks hinzu: 100 Punkte",
+            "Aberranten",
+            "Konklaven-Flak"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Bikerrotte",
+          "units": "Sechs Konklaven-Biker",
+          "extraUnits": [
+            "Konklaven-Flak"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Aufklärungsrotte",
+          "units": "Fünf Konklaven-Ridgerunner",
+          "extraUnits": [
+            "Konklaven-Flak"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Donnerkeil-Rotte",
+          "units": "Zwei Konklaven-Donnerkeiljäger",
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Konklaven-Hinterhaltsformationen",
+      "description": "Für jede Konklaven-Vorhut-Verband darf eine Konklaven-Hinterhaltsformation gewählt werden.",
+      "formations": [
+        {
+          "name": "Liktor-Schwarm",
+          "units": "Fünf Liktoren",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Metamorph-Rotte",
+          "units": "Sechs Metamorph-Hybriden",
+          "extraUnits": [
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Kult-Unterstützungsformationen",
+      "description": "Für jede Kult-Kernformation darf eine Kult-Unterstützungsformation gewählt werden.",
+      "formations": [
+        {
+          "name": "Kultisten-Superschwerer-Panzerzug",
+          "units": "Ein Konklaven-Locus-Charakter, ein Kult-Baneblade oder Kult-Stormblade",
+          "extraUnits": [
+            "Ersetze den Kult-Baneblade oder Kult-Stormblade durch einen Kult-Shadowsword: 25 Punkte"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Kultisten-Leman-Russ-Zug",
+          "units": "Ein Konklaven-Locus-Charakter, sechs Kult-Leman-Russ oder Kult-Leman-Russ-Demolisher",
+          "extraUnits": [
+          ],
+          "points": 425
+        },
+        {
+          "name": "Kultisten-Basilisken-Batterie",
+          "units": "Ein Konklaven-Locus-Charakter und drei Kult-Basilisken",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Mechanisierter Kultistenzug",
+          "units": "Ein Konklaven-Locus-Charakter, sechs Kult-Infanteristen und drei Kult-Chimären",
+          "extraUnits": [
+            "Füge bis zu zwei Kult-Höllenhunde hinzu: 25 Punkte pro Stück",
+            "Füge drei Kult-Greife hinzu: 50 Punkte"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Kultisten-Flakbatterie",
+          "units": "Ein Konklaven-Locus-Charakter und drei Kult-Hydras",
+          "extraUnits": [
+          ],
+          "points": 175
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Aberranten",
+        "description": "Füge zwei Hybrid-Aberranten hinzu.",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Symbionten",
+        "description": "Füge drei Symbionten hinzu.",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Konklaven-Flak",
+        "description": "Füge bis zu zwei Konklaven-Geländewagens hinzu.",
+        "points": "20 Punkte pro Stück"
+      }
+    ]
+  }
+}

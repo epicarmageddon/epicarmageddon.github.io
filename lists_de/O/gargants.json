@@ -1,0 +1,224 @@
+{
+  "fraction": "Ork",
+  "army": "Klan der Bad Moons, Gargantenmob von Nazdreg Ug Urdgrub",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Ork_BadMoonsGargants",
+  "intro": "Im Gegensatz zu den sehr starren Verbänden des Imperiums unterscheiden sich Ork-Verbände stark in Größe und Zusammensetzung. Die Regeln zur Zusammenstellung von Ork-Verbänden spiegeln dies wider. Die häufigste Art eines Ork-Verbands ist die Kriegsbande. Daneben gibt es weitere, spezialisierte Verbände wie Heizakulte und Blitzbrigaden. Die verfügbaren Ork-Verbände sind im folgenden Armeeorganisationsplan aufgeführt.</p><p>Einige Ork-Verbände können in drei Größen aufgestellt werden: normal, groß oder riesig. Ein Großverband umfasst doppelt so viele Einheiten wie ein normaler Verband, ein Riesenverband dreimal so viele. Begrenzungen für Aufwertungen werden bei Großverbänden verdoppelt und bei Riesenverbänden verdreifacht. Ein normaler Heizakult kann beispielsweise 0–1 Oddboy enthalten, ein großer 0–2 und ein riesiger 0–3.",
+  "strategy": "Ork-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 3+.",
+  "specialRules": [
+    "Köppe zählen",
+    "Macht des Waaagh!",
+    "Big Mek",
+    "Treibt sie stärker an, Jungs"
+  ],
+  "units": [
+    {
+      "from": "ORK.json",
+      "units": [
+        "Big Mek",
+        "Oddboy",
+        "Boys",
+        "Grots",
+        "Kanonänbatterie",
+        "Kommandos",
+        "Posas",
+        "Pulsa-Raketen",
+        "Deffkopta",
+        "Kampfpanza",
+        "Transportpanza",
+        "Flakpanza",
+        "Killa Bot",
+        "Deff-Dread",
+        "Meka-Dread",
+        "Stampfa",
+        "Mega Transportpanza",
+        "Mega Wummenpanza",
+        "Supa-Stampfa ",
+        "Gargant ",
+        "Großer Gargant ",
+        "Mega-Gargant",
+        "Jagdbomma",
+        "Bomma",
+        "Kill-Kreuzer",
+        "Schlachtkreuzer"
+      ],
+      "unitRules": [
+          "Los geht's",
+      "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Schpezialfelda",
+        "Schlachtfestungen und Geschützfestungen",
+        "Los geht's",
+        "Super-Entbehrlich",
+        "Göttermaschine",
+        "Geteiltes Feuer"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Garganten-Mob der Bad Moons",
+      "description": "Die Armee muss mindestens einen Mega Gargant oder Großen Gargant enthalten. Der Big Mek schließt sich, falls verfügbar, einem Mega Gargant an, andernfalls einem Großen Gargant.",
+      "formations": [
+        {
+          "name": "0–1 Mega Gargant",
+          "units": "Ein Mega Gargant",
+          "upgrades": [
+            "Füge 1 Riesenbanner des Gork (Inspirierend) hinzu: 50 Punkte"
+          ],
+          "points": 950
+        },
+        {
+          "name": "Großer Gargant",
+          "units": "Ein Großer Gargant",
+          "upgrades": [
+            "Füge 1 Riesenbanner des Gork (Inspirierend, 50 Punkte) oder ein Großbanner des Mork (Anführer, 25 Punkte; darf nicht mit Big Mek kombiniert werden) hinzu"
+          ],
+          "points": 750
+        },
+        {
+          "name": "Gargant",
+          "units": "Ein Gargant",
+          "upgrades": [
+            "Füge 1 Großbanner des Mork (Anführer) hinzu: 25 Punkte"
+          ],
+          "points": 550
+        }
+      ]
+    },
+    {
+      "name": "Große Mob der Bad Moons",
+      "description": "Bis zu drei pro Gargant-Verband der Bad Moons",
+      "formations": [
+        {
+          "name": "Mob der Bad Moons",
+          "units": "Zwei Posas, sechs Boys, zwei Grots",
+          "extraUnits": [
+            "Füge beliebig viele Boys hinzu: 15 Punkte pro Stück",
+            "Füge beliebig viele Transportpanzas hinzu: 20 Punkte pro Stück",
+            "Füge beliebig viele Killa Bots, Kanonänbatterien und Kommandos hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Flakpanzas, Kampfpanzas hinzu: 30 Punkte pro Stück",
+            "Füge beliebig viele Deffkoptas, Deff Dreads hinzu: 35 Punkte pro Stück",
+            "Füge beliebig viele Boys und Grots hinzu: 35 Punkte pro Stück",
+            "0-3 Stampfas: 60 Punkte pro Stück",
+            "0-1 Mega Transportpanza: 100 Punkte",
+            "0–1: Füge einem Mega Transportpanza, einer Kanonänbatterie oder einem Kampfpanza einen Oddboy-Charakter hinzu: 50 Punkte",
+            "0-2 Posas: 35 Punkte pro Stück"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Blitz-Brigade der Bad Moons",
+          "units": "Beliebige vier der folgenden Einheiten: Deffkopta, Flakpanza, Kampfpanza",
+          "extraUnits": [
+            "Füge beliebig viele Deffkoptas, Flakpanzas, Kampfpanzas hinzu: 30 Punkte pro Stück",
+            "0-1 Posas: 35 Punkte",
+            "0-1 Mega Wummenpanza: 100 Punkte",
+            "0–1: Füge einem Mega Wummenpanza oder einem Kampfpanza einen Oddboy-Charakter hinzu: 50 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Festungsmob der Bad Moons",
+          "units": "Ein Posa, drei Boys, ein Grot, ein Mega Wummenpanza",
+          "extraUnits": [
+            "Füge beliebig viele Flakpanzas, Kampfpanzas hinzu: 30 Punkte pro Stück",
+            "Füge beliebig viele Deffkoptas hinzu: 35 Punkte pro Stück",
+            "0–1: Füge einer Mega Wummenpanza- oder Kampfpanza-Einheit einen Oddboy-Charakter hinzu: 50 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Rokkitz-Mob der Bad Moons",
+          "units": "Sechs Pulsa Rokkitz",
+          "extraUnits": [
+            "Füge beliebig viele Kanonänbatterien hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Pulsa Rokkitz, Flakpanzas hinzu: 30 Punkte pro Stück",
+            "0–1: Füge einer Kanonänbatterie einen Oddboy-Charakter hinzu: 50 Punkte",
+            "0-1 Posas: 35 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Mekwummen-Mob",
+          "units": "Fünf Kanonänbatterie",
+          "extraUnits": [
+            "Füge beliebig viele Kanonänbatterien hinzu: 20 Punkte pro Stück",
+            "Füge beliebig viele Flakpanzas hinzu: 30 Punkte pro Stück",
+            "Füge beliebig viele Stampfas hinzu: 60 Punkte pro Stück",
+            "0-1 Posas: 35 Punkte",
+            "0–1: Füge einer Kanonänbatterie einen Oddboy-Charakter hinzu: 50 Punkte"
+          ],
+          "points": 125
+        },
+        {
+          "name": "Big Mek-Dread-Mob",
+          "units": "Ein Deff Dread, vier Killa Bots",
+          "extraUnits": [
+            "Füge beliebig viele Killa Bots hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Flakpanzas hinzu: 30 Punkte pro Stück",
+            "Füge beliebig viele Deff Dreads hinzu: 35 Punkte pro Stück",
+            "0-1 Meka Dread: 60 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "125"
+            },
+            {
+              "name": "Groß",
+              "points": "225"
+            },
+            {
+              "name": "Riesig",
+              "points": "325"
+            }
+          ]
+        },
+        {
+          "name": "Big Mek-Stampfa-Mob",
+          "units": "Zwei Stampfas",
+          "extraUnits": [
+            "Füge beliebig viele Killa Bots hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Flakpanzas hinzu: 30 Punkte pro Stück",
+            "Füge beliebig viele Deff Dreads hinzu: 35 Punkte pro Stück",
+            "0-3 Stampfas: 60 Punkte pro Stück",
+            "0-1 Meka Dread: 60 Punkte",
+            "0-1 Supa-Stampfa: 225 Punkte"
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Raumschiff der Bad Moons",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Jagdbomma-Staffel",
+          "units": "Drei Jagdbommas",
+          "upgrades": [
+            "Füge bis zu 6 Jagdbommas hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Bomma",
+          "units": "Ein Bommer",
+          "upgrades": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "0–1 Kill-Kreuzer",
+          "units": "Ein Kill-Kreuzer",
+          "extraUnits": [
+            "Ersetze den Kill-Kreuzer durch einen Schlachtkreuzer: 50 Punkte"
+          ],
+          "points": 100
+        }
+      ]
+    }
+  ]
+}

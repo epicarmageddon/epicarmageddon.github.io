@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Tau-Flotte",
+    "specialRules": [
+
+    ],
+    "unit": [
+      {
+        "name": "Barracuda",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "AC Ionenkanone",
+          "AC-Zwillings-Raketenbehälter",
+          "Eldar-Energielanzen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Rasierhai-Jäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "Flakk-Raketenwerfer",
+          "Eldar-Energielanzen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Sonnenhai-Bomber (B)",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC-Impulsbombengenerator",
+          "AC-Zwillings-Raketenbehälter",
+          "Eldar-Energielanzen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Schwertfisch-Jagdbomber",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "Höllenschneider-Kampfklaue",
+          "AC-Zwillings-Raketenbehälter",
+          "AC-Zielsuchraketen"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann drei Angriffsdrohnen transportieren."
+      },
+      {
+        "name": "Schwertfisch AX-1-0",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC-Zwillings-Schienenkanone",
+          "AC-Zwillings-Raketenbehälter",
+          "AC-Zielsuchraketen",
+          "Eldar-Energielanzen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Orca",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC-Zwillings-Raketenbehälter",
+          "AC-Zielsuchraketen",
+          "Eldar-Energielanzen"
+        ],
+        "specialRules": [
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann zwölf Feuerkrieger, Späher, XV15- und XV25-Geist-Kampfanzüge, Angriffsdrohnen, XV88-Koloss-Kampfanzüge, Kroot-Söldner-Krieger, Kroot-Söldner-Meisterweiser und Kroot-Hunde transportieren. XV8-Krisis-, XV9-04-Hazard-, XV88-Koloss- und XV95-Schattengeist-Kampfanzüge zählen jeweils als zwei Einheiten. Zusätzlich zur übrigen Fracht können bis zu zwei Angriffsdrohnen mitgeführt werden.",
+        "crit": "Orca und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Schlachtschiff der Custodian-Klasse",
+        "type": "SC",
+        "weapons": [
+          "Gravitische Leitsalve",
+          "Präzisionsschuss||"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 18 der folgenden Einheiten sowie die darin transportierten Einheiten mitführen: Orca, Manta. Mantas zählen jeweils als drei Einheiten. Sonderregel [*]: Eine Gravitic Tracer Salvo darf auf einen markierten Verband beliebigen Typs abgefeuert werden."
+      },
+      {
+        "name": "Kreuzer der Protector-Klasse",
+        "type": "SC",
+        "weapons": [
+          "Präzisionsschuss|2|"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann sechs der folgenden Einheiten sowie die darin transportierten Einheiten mitführen: Orca, Manta. Mantas zählen jeweils als drei Einheiten."
+      },
+      {
+        "name": "Kreuzer der Protector-II-Klasse",
+        "type": "SC",
+        "weapons": [
+          "Gravitische Leitsalve|0-1|",
+          "Präzisionsschuss|0-2|"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Muss zu Beginn der Schlacht entweder Gravitic Tracer Salvo ODER zwei Punktziel-Angriffe auswählen. Kann sechs der folgenden Einheiten sowie die darin transportierten Einheiten mitführen: Orca, Manta. Mantas zählen jeweils als drei Einheiten. Sonderregel [*]: Eine Gravitic Tracer Salvo darf auf einen markierten Verband beliebigen Typs abgefeuert werden."
+      }
+    ]
+  }
+]

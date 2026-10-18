@@ -1,0 +1,2935 @@
+[
+  {
+    "name": "Space-Marine-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Captain",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Wolfslord-Kapitän",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Erweiterte Befehlsreichweite",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Wolfsstandartenträger",
+        "type": "CH",
+        "weapons": [],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Captain der Dark Angels",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Unmodifizierter Rettungswurf",
+          "Anführer",
+          "Teleportieren-Peilsender"
+        ]
+      },
+      {
+        "name": "Captain der Grey Knights",
+        "type": "CH",
+        "weapons": [],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Justicar der Grey Knights",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Erweiterte Befehlsreichweite",
+          "Befehlshaber",
+          "Teleportieren-Peilsender",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Deathwatch-Sergeant",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Befehlshaber"
+        ]
+      },
+      {
+        "name": "Ordenspriester",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Captain der Iron Hands",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Bionik",
+          "Befehlshaber",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Veteranensergeant der Iron Hands",
+        "type": "CH",
+        "weapons": [
+          "Boltpistolen"
+        ],
+        "specialRules": [
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Techmarine",
+        "type": "CH",
+        "weapons": [
+          "Servoarm"
+        ],
+        "specialRules": [
+          "Reparaturen auf dem Schlachtfeld",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Scriptor",
+        "type": "CH",
+        "weapons": [
+          "Schmetterschlag"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Blood-Ravens-Scriptor",
+        "type": "CH",
+        "weapons": [
+          "Schmetterschlag"
+        ],
+        "specialRules": [
+          "Teleportieren-Peilsender",
+          "Unmodifizierter Rettungswurf",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Blood-Ravens-Oberbefehlshaber",
+        "type": "CH",
+        "weapons": [
+          "Schmetterschlag",
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Teleportieren-Peilsender",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Iron-Hands-Oberbefehlshaber",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Bionik",
+          "Oberbefehlshaber",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Oberbefehlshaber",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Großwolf-Oberbefehlshaber",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Erweiterte Befehlsreichweite",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Großmeister der Grey Knights",
+        "type": "CH",
+        "weapons": [
+          "Schwerer Dämonenhammer"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Oberbefehlshaber",
+          "Erweiterte Befehlsreichweite",
+          "Teleportieren-Peilsender"
+        ]
+      },
+      {
+        "name": "Deathwatch-Befehlshaber",
+        "type": "CH",
+        "weapons": [
+          "Energiewaffe"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Sturmtrupps",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasmapistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Blutklauen-Sturmtrupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Infiltratoren"
+        ],
+        "notes": "Zählt für Transportzwecke als Taktische Trupps."
+      },
+      {
+        "name": "Himmelsklauen-Sturmtrupps",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Sturm-Bikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Bolter",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Schnellklauen-Sturmbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Bolter",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Fenriswölfe",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Klauen und Fangzähne"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Donnerwolfkavallerie",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Donnerhammer und Sturmschild"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Beritten",
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Terminatoren."
+      },
+      {
+        "name": "Todeskompanie-Marines",
+        "type": "INF",
+        "speed": "15cm",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Bolter",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Infiltratoren"
+        ],
+        "notes": "Zählt beim Transport als Taktische Trupps."
+      },
+      {
+        "name": "Devastor-Trupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Raketenwerfer|2"
+        ]
+      },
+      {
+        "name": "Iron-Hands-Devastortrupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Graviton-Geschütze"
+        ]
+      },
+      {
+        "name": "Langfang-Devastortrupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Laserkanone|2",
+          "Schwerer Bolter"
+        ],
+        "notes": "Zählen für Transportzwecke als Devastor-Trupps."
+      },
+      {
+        "name": "Dark-Angels-Devastortrupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Plasmakanone|2"
+        ]
+      },
+      {
+        "name": "Deathwatch-Devastortrupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Dragonfire-Schwere Bolter",
+          "Frag Kanone"
+        ]
+      },
+      {
+        "name": "Aufklärer",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Raven-Guard-Aufklärer",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Expertenaufklärung",
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Wolf-Aufklärer",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Taktische Trupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Raketenwerfer"
+        ]
+      },
+      {
+        "name": "Graumähnen-Taktische-Trupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Bolter",
+          "Kettenschwerter"
+        ],
+        "notes": "Zählen für Transportzwecke als Taktische Trupps."
+      },
+      {
+        "name": "Deathwatch-Taktische-Trupps",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Dragonfire-Schwere Bolter"
+        ]
+      },
+      {
+        "name": "Deathwatch-Schwarze-Schilde",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolter",
+          "Schwere Donnerhämmer"
+        ]
+      },
+      {
+        "name": "Space-Marine-Rapier",
+        "type": "INF",
+        "speed": 10,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Rapier Laserzerstörer"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Space-Marine-Thudd-Geschütz",
+        "type": "INF",
+        "speed": 10,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Thudd Geschütz"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Space-Marine-Thunderfire",
+        "type": "INF",
+        "speed": 10,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Donnerfeuerkanone"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Sturmkanone|2",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Wolfsgarde-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Sturmkanone|2",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung"
+        ],
+        "notes": "Kann in Landungskapseln aufgestellt werden."
+      },
+      {
+        "name": "Sturm-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Sturmbolter",
+          "Donnerhammer und Sturmschild"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Deathwatch-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Sturmkanone",
+          "Frag Kanone",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Cyclone-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Cyclone-Raketenwerfer",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Deathwing-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Sturmkanone|2",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung"
+        ]
+      },
+      {
+        "name": "Deathwing-Ritter",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Streitkolben der Absolution und Sturmschilde",
+          "Flegel der Unversöhnlichen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Teleportieren",
+          "Verstärkte Heckpanzerung",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Grey-Knights-Terminatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 3,
+        "weapons": [
+          "Psi-Silencer|2|",
+          "Holocaust",
+          "Nemesis Dämon Hämmer"
+        ],
+        "specialRules": [
+          "Treu",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Teleportieren",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Sturm-Centurions",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Flammenwerfer",
+          "Hurrikanbolter",
+          "Belagerungs-Bohrer"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ],
+        "notes": "Zählt beim Transport als Terminatoren."
+      },
+      {
+        "name": "Devastor-Centurions",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Raketenwerfer",
+          "Laserkanone",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ],
+        "notes": "Zählt beim Transport als Terminatoren."
+      },
+      {
+        "name": "Sanguinische-Garde",
+        "type": "INF",
+        "speed": 30,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Angelus-Boltergewehre",
+          "Karmesinrote Gleven"
+        ],
+        "specialRules": [
+          "Ehrengarde",
+          "Sprungmodule"
+        ],
+        "notes": "Zählt beim Transport als Sturmtrupps."
+      },
+      {
+        "name": "Protektorgarde-Veteranen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter",
+          "Veteranengarde-Bolter"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Teleportieren",
+          "Sturmangriff"
+        ]
+      },
+      {
+        "name": "Expugnatorgarde-Veteranen",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Hawk's Krallen"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Sturmangriff"
+        ]
+      },
+      {
+        "name": "Deathwatch-Sturmtrupps",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Boltpistolen",
+          "Energie-Waffen"
+        ],
+        "specialRules": [
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "Grey-Knights-Angriffstrupp",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 3,
+        "weapons": [
+          "Psikanone",
+          "Holocaust",
+          "Nemesis-Psionikwaffen"
+        ],
+        "specialRules": [
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Grey-Knights-Purgatortrupp",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Verbrenner|2|",
+          "Holocaust"
+        ],
+        "specialRules": [
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Grey-Knights-Abfangtrupp",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 2,
+        "ff": 3,
+        "weapons": [
+          "Holocaust",
+          "Nemesis-Psionikwaffen"
+        ],
+        "specialRules": [
+          "Treu",
+          "Unmodifizierter Rettungswurf",
+          "Teleportieren",
+          "Sprungmodule"
+        ]
+      },
+      {
+        "name": "White-Scars-Sturmbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Bolter",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Im Sattel geboren",
+          "Beritten",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "White-Scars-Scoutbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Bolter",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+          "Im Sattel geboren",
+          "Beritten",
+          "Aufklärer",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Ravenwing-Sturmbikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Bolter"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ravenwing-Schwarze-Ritter",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasmaklauen",
+          "Corvus Hämmer"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Aufklärer",
+          "Befehlshaber",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Nemesis-Ritter",
+        "type": "LV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Gatling-Psilencer",
+          "Nemesis-Dämonenhammer"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Verstärkte Panzerung",
+          "Infiltratoren",
+          "Teleportieren",
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Trike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter"
+        ]
+      },
+      {
+        "name": "Deathwatch-Trike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Dragonfire-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Teleportieren-Peilsender",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Melta-Bike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Multimelter"
+        ],
+        "specialRules": []
+      },
+      {
+        "name": "Ravenwing-Trike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Teleportieren-Peilsender"
+        ]
+      },
+      {
+        "name": "Land Speeder Storm",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport"
+        ],
+        "notes": "Kann 1 Einheit Aufklärer transportieren."
+      },
+      {
+        "name": "Land Speeder",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multimelter"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "White-Scars-Land Speeder",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multimelter"
+        ],
+        "specialRules": [
+          "Windflink",
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Ravenwing-Land Speeder",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multimelter"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Antigrav",
+          "Unmodifizierter Rettungswurf",
+          "Teleportieren-Peilsender"
+        ]
+      },
+      {
+        "name": "Land Speeder Tornado",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Sturmkanone",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "White-Scars-Land Speeder-Tornado",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Sturmkanone",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Windflink",
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Deathwatch-Land-Speeder-Tornado",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Sturmkanone",
+          "Dragonfire-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Antigrav",
+          "Teleportieren-Peilsender",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ravenwing-Land Speeder-Tornado",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Sturmkanone",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Antigrav",
+          "Unmodifizierter Rettungswurf",
+          "Teleportieren-Peilsender"
+        ]
+      },
+      {
+        "name": "Land Speeder Typhoon",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Typhoon-Rakete",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "White-Scars-Land Speeder-Typhoon",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Typhoon-Rakete",
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Windflink",
+          "Aufklärer",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Land Speeder Tempest",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Raketenwerfer",
+          "Sturmkanone"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "White-Scars-Land Speeder-Tempest",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Raketenwerfer",
+          "Sturmkanone"
+        ],
+        "specialRules": [
+          "Windflink",
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Ravenwing-Land Speeder-Vengeance",
+        "type": "LV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Plasma-Sturmbatterie",
+          "Sturmkanone"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Unmodifizierter Rettungswurf",
+          "Teleportieren-Peilsender"
+        ]
+      },
+      {
+        "name": "White-Scars-Trike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Bolter"
+        ],
+        "specialRules": [
+          "Im Sattel geboren",
+          "Windflink",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "White-Scars-Melta-Bike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Multimelter"
+        ],
+        "specialRules": [
+          "Im Sattel geboren",
+          "Windflink",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Ehrwürdiger Cybot",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Inspirierend",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann nur einer Cybot-Einheit beliebiger Konfiguration hinzugefügt werden."
+      },
+      {
+        "name": "Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Sturmkanone",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Scriptor-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Krafthellebarde und Energiefaust",
+          "Schmetterschlag"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Wulfen-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Helfrost Kanone",
+          "Klaue des Großen Wolfs"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Infiltratoren",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Deathwatch-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Energiefaust",
+          "Frag Kanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Todeskompanie-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Blood Kralle|2"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Infiltratoren",
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Mortis-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Mortis Maschinenkanone|2"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Deathwing-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Energiefaust",
+          "Plasmakanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Furioso-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Energiefaust",
+          "Frag Kanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Hellfire-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Raketenwerfer",
+          "Zwillings-Laserkanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Doomglaive-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Psikanone",
+          "Nemesis-Verdammnisklinge"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ironclad-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Hurrikanbolter",
+          "Seismischer Hammer"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Belagerungs-Cybot",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Schwere Bolter",
+          "Schwerer Flammenwerfer",
+          "Belagerungsbohrer"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ],
+        "notes": "Zählt beim Transport als Cybot."
+      },
+      {
+        "name": "Predator Annihilator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Laserkanone",
+          "Laserkanone|2"
+        ]
+      },
+      {
+        "name": "Predator Destructor",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Predator Kanone",
+          "Schwerer Bolter|2"
+        ]
+      },
+      {
+        "name": "Baal Predator Hades",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Sturmkanone",
+          "Multimelter|2"
+        ],
+        "specialRules": [
+          "Lucifer-Muster-Maschine"
+        ]
+      },
+      {
+        "name": "Baal Predator Infernus",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Flammensturmkanone",
+          "Schwerer Flammenwerfer|2"
+        ],
+        "specialRules": [
+          "Lucifer-Muster-Maschine"
+        ]
+      },
+      {
+        "name": "Deimos Predator Executioner",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Plasma-Zerstörer",
+          "Laserkanone|2"
+        ]
+      },
+     {
+        "name": "Leman Russ Exterminator",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Maschinenkanone",
+          "Schwerer Flammenwerfer",
+          "Schwerer Bolter|2|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": "5+/4",
+        "weapons": [
+          {
+            "name": "0–1x Zwillings-Laserkanone",
+            "modes": [
+              {
+                "firepower": "AT4+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0–1x Zwillings-Schwerbolter",
+            "modes": [
+              {
+                "firepower": "AP4+",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 1 Infanterieeinheit (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren. Bewaffnet entweder mit einer Zwillings-Laserkanone oder einem Zwillings-Schwerbolter. Razorbacks mit Zwillings-Schwerbolter erhalten einen Feuergefechtswert von 4+."
+      },
+      {
+        "name": "Blood-Angels-Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": "5+/4",
+        "weapons": [
+          {
+            "name": "0–1x Zwillings-Laserkanone",
+            "modes": [
+              {
+                "firepower": "AT4+",
+                "range": 45
+              }
+            ]
+          },
+          {
+            "name": "0–1x Zwillings-Schwerbolter",
+            "modes": [
+              {
+                "firepower": "AP4+",
+                "range": 30
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport",
+          "Lucifer-Muster-Maschine"
+        ],
+        "notes": "Kann 1 Infanterieeinheit (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren. Bewaffnet entweder mit einer Zwillings-Laserkanone oder einem Zwillings-Schwerbolter. Razorbacks mit Zwillings-Schwerbolter erhalten einen Feuergefechtswert von 4+."
+      },
+      {
+        "name": "Deathwatch-Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Dragonfire-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 1 Infanterieeinheit (außer einer Terminator-Einheit) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Vortimer-Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Zwillings-Psikanone"
+        ],
+        "specialRules": [
+          "Transport",
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann 1 Infanterieeinheit (außer einer Terminator-Einheit) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Blood-Angels-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Transport",
+          "Lucifer-Muster-Maschine"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Belagerungs-Rhino",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Damokles-Kommandorhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Erweiterte Befehlsreichweite",
+          "Transport"
+        ],
+        "notes": "Kann 1 Infanterieeinheit (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Grey-Knights-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Transport",
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+            {
+        "name": "Grey-Knights-Razorback",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Psikanone"
+        ],
+        "specialRules": [
+          "Transport",
+          "Treu",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten (außer Terminatoren) ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Hunter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Jagd-Killer"
+        ]
+      },
+      {
+        "name": "Blood-Angels-Hunter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Jagd-Killer"
+        ],
+        "specialRules": [
+          "Lucifer-Muster-Maschine"
+        ]
+      },
+      {
+        "name": "Stalker",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Icarus-Sturmkanonen"
+        ]
+      },
+      {
+        "name": "Blood-Angels-Stalker",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Icarus-Sturmkanonen"
+        ],
+        "specialRules": [
+          "Lucifer-Muster-Maschine"
+        ]
+      },
+      {
+        "name": "Vindicator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ],
+        "specialRules": [
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Deimos-Laservindicator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Warpflammenwerfer"
+        ]
+      },
+      {
+        "name": "Whirlwind",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Whirlwind Werfer"
+        ]
+      },
+      {
+        "name": "White-Scars-Vindicator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Belagerungskanone"
+        ]
+      },
+      {
+        "name": "Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Land Raider Redeemer",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Energielanzen|2",
+          "Zwillings-Sturmkanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren; Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Deathwing-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Vortimer-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "Zwillings-Psikanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Treu",
+          "Verstärkte Heckpanzerung",
+          "Transport",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Vortimer-Land-Schattenbarke-Redeemer",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Psikanone",
+          "Verbrenner|2"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Treu",
+          "Verstärkte Heckpanzerung",
+          "Transport",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "notes": "Kann 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren; Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Land Raider Ares",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Belagerungskanone",
+          "Zwillings-Sturmkanone",
+          "Schwerer Flammenwerfer|2"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Land Raider Achilles",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Donnerfeuerkanone",
+          "Zwillings-Multimelter|2|"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Infanterieeinheit ohne Sprungmodule oder Beritten transportieren. Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Land Raider Anvilarum",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Vierlings-Laserkanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Cybot oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Land Raider Crusader",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Sturmkanone",
+          "Hurrikanbolter|2"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Deathwatch-Land-Schattenbarke",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Dragonfire-Schwere Bolter",
+          "Hurrikanbolter|2"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Teleportieren-Peilsender",
+          "Transport"
+        ],
+        "notes": "Kann 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Land Raider Helios",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "Hyperios Werfer|0-1",
+          "Whirlwind Werfer|0-1"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Bewaffnet entweder mit einem Hyperios- oder einem Whirlwind Launcher. Kann 1 Infanterieeinheit (außer einer Terminator-Einheit) ohne Sprungmodule oder Beritten transportieren. Zählt beim Transport selbst als Land Raider."
+      },
+      {
+        "name": "Land Raider Prometheus",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Vierlings-Schwere Bolter|2"
+        ],
+        "specialRules": [
+          "Erweiterte Befehlsreichweite",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Land Raider Zorn von Mjalnar",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2|",
+          "Zwillings-Helfrost Kanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Bastion",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Hyperios Werfer",
+          "Zwillings-Schwere Bolter|2|",
+          "Rapier Laserzerstörer|0-2|",
+          "Donnerfeuerkanone|0-2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung"
+        ],
+        "notes": "Muss entweder 2 Rapier Laser Destruktoren oder 2 Salvenkanones erhalten. Eine Bastion gilt nach ihrer Zerstörung als Ruinengelände.",
+        "crit": "Bastion erleidet 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Fellblade",
+        "type": "WE",
+        "speed": "15",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Beschleuniger Kanone",
+          "Vierlings-Laserkanone|2|FxF",
+          "Belagerungskanone||FxF",
+          "Zwillings-Schwere Bolter||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Fellblade wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
+      },
+      {
+        "name": "Glaive",
+        "type": "WE",
+        "speed": "15",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Volkite-Karronade",
+          "Vierlings-Laserkanone|2|FxF",
+          "Zwillings-Schwere Bolter||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Glaive wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
+      },
+      {
+        "name": "Deathwatch-Landungsschiff",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "AC-Zwillings-Dragonfire-Schwere Bolter|3"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 12 Infanterieeinheiten, Trikes oder Cybots transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten. Zusätzlich können bis zu 6 gepanzerte Fahrzeugeinheiten (außer Cybots) mitgeführt werden; Land Raiders zählen jeweils als 1,5 Einheiten (aufgerundet).",
+        "crit": "Die Einheit und alle transportierten Einheiten werden zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Grey-Knights-Landungsschiff",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "AC-Zwillings-Psikanone|3"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos",
+          "Treu",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Transport"
+        ],
+        "notes": "Kann 12 Infanterieeinheiten oder Cybots transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten. Zusätzlich können bis zu 6 gepanzerte Fahrzeugeinheiten (außer Cybots) mitgeführt werden; Land Raiders zählen jeweils als 1,5 Einheiten (aufgerundet). Effekt eines Kritischen Treffers: Die Einheit und alle transportierten Einheiten werden zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 4+ einen Treffer."
+      },
+      {
+        "name": "Stormwolf-Sturmboot",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC-Zwillings-Schwere Bolter||",
+          "Zwillings-Helfrost Kanone||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Verstärkte Panzerung",
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann 6 Infanterieeinheiten ohne Beritten transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten. Zählt beim Transport selbst als Landungsschiff.",
+        "crit": "Stormwolf und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Stormfang-Landungsschiff",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC Helfrost Zerstörer||FxF",
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC-Zwillings-Schwere Bolter||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Stormfang wird zerstört."
+      },
+      {
+        "name": "Sturmtalon",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "AC Zwillings-Sturmkanone||FwA",
+          "AC-Zwillings-Schwere Bolter||FxF"
+        ]
+      },
+      {
+        "name": "Deathwatch Sturmtalon",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "AC Zwillings-Sturmkanone||FwA",
+          "AC-Zwillings-Dragonfire-Schwere Bolter||FxF"
+        ]
+      },
+      {
+        "name": "Grey Knights Sturmtalon",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "AC Zwillings-Sturmkanone||FwA",
+          "AC-Zwillings-Psikanone||FxF"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Stormraven",
+        "type": "AV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Sturmkanone",
+          "Bloodstrike Raketen",
+          "Hurrikanbolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Antigrav",
+          "Planetfall",
+          "Abstieg der Engel",
+          "Transport"
+        ],
+        "notes": "Kann 1 Terminator oder 2 Infanterieeinheiten ohne Beritten transportieren. Zusätzlich kann 1 Cybot mitgeführt werden. Zählt beim Transport selbst als Landungskapsel."
+      },
+      {
+        "name": "Corvus-Blackstar-Landungsschiff",
+        "type": "AC/WE",
+        "speed": "Jagdbomber (FB)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC Zwillings-Sturmkanone||FxF",
+          "AC-Blackstar-Raketen",
+          "Hammerschlagwerfer"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Schwingen des Himmelsengels",
+          "Transport"
+        ],
+        "notes": "Kann 3 Infanterieeinheiten oder Trikes transportieren. Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zusätzlich kann 1 Cybot oder Land Speeder mitgeführt werden."
+      },
+      {
+        "name": "Ravenwing-Nephilim",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "AC-Zwillings-Schwere Bolter||FxF",
+          "Blackstar-Hurrikanbolter||FxF"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Ravenwing-Dark-Talon",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 5,
+        "weapons": [
+          "AC Rift Kanone||FxF",
+          "AC-Zwillings-Ionenkanone||FxF",
+          "AC Stasis Bombe||FxF"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Feuerraptor",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC-Zwillings-Avenger-Bolterkanone||FxF",
+          "AC-Raketenbatterie||FxF",
+          "AC-Vierlings-Schwere Bolter-Türme||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Fire Raptor wird zerstört."
+      },
+      {
+        "name": "Sturmadler",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Hurrikanbolter||FxF",
+          "AC-Zwillings-Schwere Bolter||FxF",
+          "Vengeance Werfer||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Beritten transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten. Zählt beim Transport selbst als Thunderhawk.",
+        "crit": "Der Sturmadler und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Darkwing-Sturmadler",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Hurrikanbolter|2|FxF",
+          "AC-Zwillings-Schwere Bolter||FxF",
+          "Vengeance Werfer||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Beritten transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten.",
+        "crit": "Der Sturmadler und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Thunderhawk",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Kampfgeschütz||FxF",
+          "AC-Zwillings-Schwere Bolter|2|FxF",
+          "AC-Zwillings-Schwere Bolter||Left",
+          "AC-Zwillings-Schwere Bolter||Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 8 Infanterieeinheiten oder Trikes transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten.",
+        "crit": "Thunderhawk und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Thunderhawk-Transporter",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC-Vierlings-Schwere Bolter||Left",
+          "AC-Vierlings-Schwere Bolter||Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 2 der folgenden Einheiten transportieren: Stalkers, Hunters, Predators, Razorbacks, Rhinos und Vindicators. Land Raiders zählen jeweils als 2 Einheiten. Außerdem dürfen darin transportierte Infanterieeinheiten mitgeführt werden; sie gelten beim Aussteigen als innerhalb dieser Fahrzeuge befindlich.",
+        "crit": "Thunderhawk-Transporter und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Iron-Hands-Thunderhawk-Transporter",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC-Zwillings-Schwere Bolter|2|Left",
+          "AC-Zwillings-Schwere Bolter|2|Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 2 der folgenden Einheiten transportieren: Cybots, Hunters, Predators, Razorbacks, Rhinos, Stalkers und Vindicators. Land Raiders zählen jeweils als 2 Einheiten. Außerdem dürfen darin transportierte Infanterieeinheiten mitgeführt werden; sie gelten beim Aussteigen als innerhalb dieser Fahrzeuge befindlich.",
+        "crit": "Thunderhawk-Transporter und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Deathwatch-Thunderhawk-Transporter",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC-Zwillings-Dragonfire-Schwere Bolter|2|Left",
+          "AC-Zwillings-Dragonfire-Schwere Bolter|2|Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 2 der folgenden Einheiten transportieren: Stalkers, Hunters, Predators, Razorbacks, Rhinos und Vindicators. Land Raiders zählen jeweils als 2 Einheiten. Außerdem dürfen darin transportierte Infanterieeinheiten mitgeführt werden; sie gelten beim Aussteigen als innerhalb dieser Fahrzeuge befindlich.",
+        "crit": "Thunderhawk-Transporter und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Grey-Knights-Thunderhawk-Transporter",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Zwillings-Psikanone|2|Left",
+          "AC-Zwillings-Psikanone|2|Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Treu",
+          "Unmodifizierter Rettungswurf",
+          "Transport"
+        ],
+        "notes": "Kann bis zu 2 der folgenden Einheiten transportieren: Stalkers, Hunters, Predators, Razorbacks, Rhinos und Vindicators. Land Raiders zählen jeweils als 2 Einheiten. Außerdem dürfen darin transportierte Infanterieeinheiten mitgeführt werden; sie gelten beim Aussteigen als innerhalb dieser Fahrzeuge befindlich.",
+        "crit": "Thunderhawk-Transporter und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Thunderhawk-Bomber (B)",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "Kampfgeschütz||FxF",
+          "AC-Zwillings-Schwere Bolter|2|FxF",
+          "AC-Zwillings-Schwere Bolter||Left",
+          "AC-Zwillings-Schwere Bolter||Right",
+          "AC Bombe Racks||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Thunderhawk wird zerstört."
+      },
+      {
+        "name": "Landungsschiff",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "AC-Zwillings-Schwere Bolter|3"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 12 Infanterieeinheiten, Trikes oder Cybots transportieren; Terminatoren und Cybots zählen jeweils als 2 Einheiten. Zusätzlich können bis zu 6 gepanzerte Fahrzeugeinheiten (außer H-AV und Cybots) mitgeführt werden; Land Raiders zählen jeweils als 1,5 Einheiten (aufgerundet).",
+        "crit": "Landungsschiff und alle transportierten Einheiten werden zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Hunter-Klasse-Zerstörer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "1BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten transportieren. Diese dürfen das Spielfeld nur durch Teleportieren betreten."
+      },
+      {
+        "name": "Dark-Hunter-Klasse-Zerstörer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "1BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten transportieren. Diese dürfen das Spielfeld nur durch Teleportieren betreten. Zusätzlich dürfen 5 Corvus-Blackstar-Landungsschiffe und 3 Thunderhawk-Transporter samt den von ihnen transportierten Einheiten mitgeführt werden."
+      },
+      {
+        "name": "Vanguard-Klasse-Leichter-Kreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 12 Infanterieeinheiten, Trikes oder Cybots sowie 5 leichte oder gepanzerte Fahrzeugeinheiten (außer Trikes und Cybots), 2 Thunderhawks und genügend Landungskapseln für alle übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Angriffskreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 20 Infanterieeinheiten, Trikes oder Cybots sowie 10 leichte oder gepanzerte Fahrzeugeinheiten (außer Trikes und Cybots), 6 Thunderhawks und genügend Landungskapseln oder Landungsschiff für alle übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Grey-Knights-Angriffskreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Navis Nobilite",
+          "Transport"
+        ],
+        "notes": "Kann 20 Infanterieeinheiten, Trikes oder Cybots sowie 10 leichte oder gepanzerte Fahrzeugeinheiten (außer Trikes und Cybots), 6 Thunderhawks/Sturmadler und genügend Landungskapseln oder Landungsschiffe für alle übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Schlachtbarke",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "10BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 eintreffen)",
+          "Transport"
+        ],
+        "notes": "Kann 30 Infanterieeinheiten, Trikes oder Cybots sowie 20 gepanzerte Fahrzeugeinheiten (außer Trikes und Cybots), 9 Thunderhawks und genügend Landungskapseln oder Landungsschiff für alle übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Landungskapsel",
+        "weapons": [
+          {
+            "name": "Todeswind",
+            "modes": [
+              {
+                "firepower": "AP6+/AT6+",
+                "range": 15
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann nur eine Verband aus folgenden Einheiten transportieren: Taktische Trupps, Devastor-Trupps, Cybot, Sternguard-Veteranen, Wolfsgarde-Terminatoren, Grey-Knights-Angriffstrupp oder Grey-Knights-Purgatortrupp. Nach der Landung der Landungskapsel greift ihr Todeswind alle gegnerischen Einheiten innerhalb von 15 cm an. Jede angegriffene gegnerische Verband erhält einen Beschussmarker dafür, dass sie unter Beschuss gerät, sowie einen zusätzlichen Beschussmarker pro Verlust. Anschließend müssen alle in der Landungskapsel transportierten Truppen innerhalb von 5cm zur Landungskapsel oder innerhalb von 5cm zu einer bereits gelandeten Einheit derselben Verband aussteigen, sofern alle Einheiten innerhalb von 15 cm zur Landungskapsel aufgestellt werden. Entferne die Landungskapselmodelle vom Spielfeld, sobald die transportierte Verband ausgestiegen ist."
+      },
+      {
+        "name": "Intercessor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Boltergewehr"
+        ]
+      },
+      {
+        "name": "Sturm-Intercessor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwere Boltpistole & Kettenschwert"
+        ],
+        "specialRules": [
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Schwerer Intercessor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Schweres Boltergewehr"
+        ]
+      },
+      {
+        "name": "Inceptor",
+        "type": "INF",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Reinforced Armor",
+          "Einsatz des Overlords"
+        ]
+      },
+      {
+        "name": "Hellblaster",
+        "type": "INF",
+        "speed": "15",
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Plasma-Verbrenner|2"
+        ]
+      },
+      {
+        "name": "Outrider",
+        "type": "INF",
+        "speed": "35",
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Schwere Boltpistole & Kettenschwert"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Eradicator",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Schweres Meltagewehr"
+        ],
+        "specialRules": [
+          "Reinforced Armor"
+        ]
+      },
+      {
+        "name": "Aggressor",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Flammenstulpe|2"
+        ],
+        "specialRules": [
+          "Reinforced Armor"
+        ]
+      },
+      {
+        "name": "Suppressor",
+        "type": "INF",
+        "speed": "30",
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Beschleuniger-Maschinenkanone"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Einsatz des Overlords",
+          "Reinforced Armor"
+        ]
+      },
+      {
+        "name": "Reiver",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [],
+        "specialRules": [
+          "Infiltratoren",
+          "Einsatz des Overlords",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Eliminator",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Bolter-Scharfschützengewehr"
+        ],
+        "specialRules": [
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Infiltratoren",
+        "type": "INF",
+        "speed": "15",
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [],
+        "specialRules": [
+          "Teleportieren"
+        ]
+      },
+      {
+        "name": "Invader",
+        "type": "LV",
+        "speed": "35",
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Ansturm-Gatlingkanone"
+        ]
+      },
+      {
+        "name": "Invictor-Kampfanzug",
+        "type": "LV",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Maschinenkanone",
+          "Servoarm"
+        ],
+        "specialRules": [
+          "Reinforced Armor",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Redemptor-Cybot",
+        "type": "AV",
+        "speed": "15",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schwere Ansturm-Gatlingkanone",
+          "Icarus-Raketenbehälter",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Reinforced Armor",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Impulsor",
+        "type": "AV",
+        "speed": "35",
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Raketenwerfer"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Aggressors und Eradicators zählen jeweils als 2 Einheiten."
+      },
+      {
+        "name": "Repulsor",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Ansturm-Gatlingkanone",
+          "Laserkralle"
+        ],
+        "specialRules": [
+          "Reinforced Armor",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Aggressors und Eradicators zählen jeweils als 2 Einheiten."
+      },
+      {
+        "name": "Gladiator-Lancer",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Laserzerstörer"
+        ]
+      },
+      {
+        "name": "Gladiator-Valiant",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkralle",
+          "Multimelter|2"
+        ]
+      },
+      {
+        "name": "Gladiator-Reaper",
+        "type": "AV",
+        "speed": "30",
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Schwere Ansturm-Gatlingkanone"
+        ]
+      },
+      {
+        "name": "Storm-Speeder Thunderstrike",
+        "type": "AV",
+        "speed": "35",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Vierlings-Ionenturm",
+          "Icarus-Raketenbehälter",
+          "Laserkralle"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Storm-Speeder Hammerstrike",
+        "type": "AV",
+        "speed": "35",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Meltazerstörer",
+          "AC-Zwillings-Salvenkanone"
+        ],
+        "specialRules": [
+          "Antigrav"
+        ]
+      },
+      {
+        "name": "Astraeus",
+        "type": "WE",
+        "speed": "20",
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Makro-Beschleunigerkanone",
+          "Plasma-Auslöscher|2|FxF",
+          "Zwillings-Schwere Bolter||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Astraeus wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
+      }
+    ]
+  }
+]

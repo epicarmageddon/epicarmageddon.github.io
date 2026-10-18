@@ -8,8 +8,8 @@
     <tr>
         <th scope="col" class="unit-table-header">
             <div class="row">
-                <div class="col-12 col-md-5">Einheiten</div>
-                <div class="d-none d-md-inline col-md-7">Waffe</div>
+                <div class="col-12 col-md-5">Units</div>
+                <div class="d-none d-md-inline col-md-7">Weapons</div>
             </div>
         </th>
     </tr>
@@ -27,9 +27,9 @@
                     <table class="table-sm stats-table">
                         <tbody>
                         <tr>
-                            <td>Typ</td>
-                            <td>Geschw</td>
-                            <td>Arm</td>
+                            <td>Type</td>
+                            <td>Speed</td>
+                            <td>Armour</td>
                             <td>CC</td>
                             <td>FF</td>
                         </tr>
@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col">
                     <small>
-                        <b>Anmerkungen:</b>
+                        <b>Notizen:</b>
                         {{#each specialRules}}
                         {{#unless @last}}<i>{{this}}</i>,{{/unless}}
                         {{#if @last}}<i>{{this}}</i>.{{/if}}

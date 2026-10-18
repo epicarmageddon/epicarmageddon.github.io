@@ -1,0 +1,257 @@
+{
+  "fraction": "Eldar",
+  "army": "Weltenschiff Ulthwé",
+  "version": "1.0.Beta-2",
+  "release": "2023-07-20",
+  "armyforge": "EAR_Eldar_Ulthwe",
+  "intro": "Mit dem folgenden Armeeorganisationsplan kannst du eine Eldar-Armee des Weltenschiffs Ulthwé aufstellen.",
+  "strategy": "Weltenschiff-Eldar-Armeen haben einen Strategiewert von 4. Für das Weltenschiff Ulthwé gilt außerdem die Sonderregel 'Seher von Ulthwé'.",
+  "Initiative": "Ulthwé-Kriegsscharn, Aspektkrieger, Phantomritter, Titanen und Avatar-Verbände haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Seher von Ulthwé",
+    "Avatar (Ulthwé)",
+    "Darf keine Garnison bilden (Ulthwé)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Netzportal"
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Rat der Seher",
+        "Avatar des Khaine",
+        "Eldar-Exarch",
+        "Eldar-Runenprophet",
+        "Eldar-Gardisten",
+        "Ranger",
+        "Eldar-Schwerwaffenplattform",
+        "Unterstützungswaffenplattform",
+        "Eldar-Jetbikes",
+        "Asuryans Jäger",
+        "Feuerdrachen",
+        "Schwarze Khaindar",
+        "Banshees",
+        "Skorpionkrieger",
+        "Sternenlanzen",
+        "Kriegsfalken",
+        "Warpspinnen",
+        "Phantomdroiden",
+        "Viper",
+        "Kampfläufer",
+        "Phantomlord",
+        "Wellenschlange",
+        "Falcon",
+        "Illum Zar",
+        "Nachtspinne",
+        "Feuersturm",
+        "Phantomritter",
+        "Skorpion",
+        "Kobra",
+        "Sturmserpent",
+        "Phantom-Titan",
+        "Runenleser-Titan"
+      ],
+      "unitRules": [
+        "Holofelder (x)",
+        "Lanze",
+        "Schildbohrer",
+        "Schildbrecher"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschwinge-Abfangjäger",
+        "Phönix-Bomber (B)",
+        "Vampire Schattenbarke",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ulthwé-Spezialregeln",
+      "formations": [
+        {
+          "name": "0–1 Avatar",
+          "units": "Ein Avatar",
+          "points": 50
+        },
+        {
+          "name": "1 Netzportal",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "extraUnits": [
+          ],
+          "points": "kostenlos"
+        }
+      ]
+    },
+    {
+      "name": "Ulthwé-Kriegsschars",
+      "formations": [
+        {
+          "name": "Schwarze-Gardisten-Kriegsschar",
+          "units": "Zwei Runenpropheten, sechs Eldar-Gardisten",
+          "extraUnits": [
+            "Rat der Seher",
+            "Ersetze bis zu drei Eldar-Gardisten durch dieselbe Anzahl an Eldar-Schwerwaffenplattformen: kostenlos",
+            "Ersetze bis zu drei Eldar-Gardisten durch Unterstützungswaffenplattformen (alle mit derselben Waffe ausgerüstet): 25 Punkte pro Stück",
+            "Füge zwei Eldar-Phantomdroiden hinzu: 75 Punkte",
+            "Füge bis zu drei Eldar-Phantomlords hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Berittene Schwarze-Gardisten-Kriegsschar",
+          "units": "Zwei Runenpropheten, sechs Eldar-Gardisten und vier Wellenschlangen",
+          "extraUnits": [
+            "Rat der Seher",
+            "Ersetze bis zu drei Eldar-Gardisten durch dieselbe Anzahl an Eldar-Schwerwaffenplattformen: kostenlos",
+            "Ersetze beliebig viele Wellenschlangen durch jeweils zwei Falcons: 50 Punkte pro Stück"
+          ],
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Ulthwé-Linien-Verbände",
+      "description": "Für jede Ulthwé-Kriegsschar dürfen bis zu zwei Ulthwé-Linien-Verbände gewählt werden.",
+      "formations": [
+          {
+            "name": "Kampfläufer",
+            "units": "Vier Kampfläufer",
+            "extraUnits": [
+                "Füge bis zu zwei Kampfläufer hinzu: 25 Punkte pro Stück"
+            ],
+            "points": 150
+          },
+          {
+            "name": "Windreiter",
+            "units": "Sechs Eldar-Jetbikes",
+            "extraUnits": [
+              "Ersetze bis zu sechs Eldar-Jetbikes durch Viper: kostenlos"
+            ],
+            "points": 200
+        },
+        {
+          "name": "Aspektkriegertrupp",
+          "units": "Sechs Aspektkrieger-Einheiten aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Sternenlanzen, Skorpionkrieger, Kriegsfalken, Warpspinnen. Der Verband darf keine unterschiedlichen Aspekte mischen.",
+          "extraUnits": [
+            "Füge 1 Exarch hinzu: 25 Punkte"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Kriegsmaschinen von Vaul",
+          "units": "Ein Kriegsmaschine von Vaul aus folgender Auswahl: Kobra, Skorpion, Sturmserpent",
+          "extraUnits": [
+            "Füge bis zu zwei zusätzliche Kriegsmaschinen von Vaul hinzu: 200 Punkte pro Stück (Kobra, Skorpion oder Sturmserpent)."
+          ],
+          "points": 250
+        },
+        {
+          "name": "Illum-Zar-Trupp",
+          "units": "Drei Illum Zars",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Nachtspinnen-Trupp",
+          "units": "Drei Nachtspinnen",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Ranger",
+          "units": "Vier Eldar-Ranger",
+          "extraUnits": [
+          ],
+          "points": 100
+        },
+
+        {
+          "name": "Schwerter von Vaul",
+          "units": "Fünf Falcons",
+          "extraUnits": [
+            "Ersetze bis zu zwei Falcons durch Feuerstürme: kostenlos"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Ulthwé-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Nachtschwingen-Staffel",
+          "units": "Zwei Nachtschwingen-Abfangjäger",
+          "extraUnits": [
+            "Füge 1 Nachtschwinge-Abfangjäger hinzu: 75 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phönix-Bomberstaffel",
+          "units": "Drei Phönix-Bomber (B)",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Vampire",
+          "units": "Eine Vampire Schattenbarke",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Phantomritter",
+          "units": "Zwei Phantomritter (Konfigurationen dürfen nicht gemischt werden)",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Phantom-Titanen",
+          "units": "Zwei Phantom-Titanen",
+          "extraUnits": [
+          ],
+          "points": 650
+        },
+        {
+          "name": "0–1 Runenleser-Titan",
+          "units": "Ein Runenleser-Titan",
+          "extraUnits": [
+          ],
+          "points": 850
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 150 Punkte"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen von Ulthwé",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Seer Council",
+        "description": "Ersetze einen Runenprophet durch einen Seer Council.",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

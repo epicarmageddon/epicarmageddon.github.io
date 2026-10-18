@@ -1,0 +1,348 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Death Guard",
+  "version": "1.0.Beta-4",
+  "release": "2023-01-28",
+  "armyforge": "EAR_Chaos_DeathGuard",
+  "strategy": "Chaos Space Marine-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Death-Guard-Kern-, Elite- und Traitor-Titan-Verbände haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der Death Guard",
+    "Launische Meister",
+    "Charaktere der Death Guard"
+  ],
+  "intro": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Verräterlegion Death Guard aufzustellen. Die Death Guard ist eine langsam vorrückende Streitmacht aus unerbittlicher Infanterie, unterstützt von mächtigen Dämonenmaschinen, die ihre Feinde mit Giftwaffen vernichten."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Kriegsherr",
+        "Chaosfürst",
+        "Hexerfürst",
+        "Chaoschampion",
+        "Ikonenträger",
+        "Dämonenprinz des Nurgle",
+        "Chaos Space Marines",
+        "Havocs",
+        "Seuchenfürsten-Terminatoren",
+        "Seuchenmarines",
+        "Death-Guard-Rhino",
+        "Death-Guard-Land-Schattenbarke",
+        "Death-Guard-Vindicator",
+        "Chaos-Cybot",
+        "Death-Guard-Jäger"
+      ],
+      "unitRules": [
+      "Verstärkte Beschwörung (+x)",
+      "Dämonischer Fokus",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "chaoscultists.json",
+      "units": [
+        "Seuchenwandler des Nurgle"
+      ],
+      "unitRules": [
+        "Befall"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Schänder",
+        "Seuchendrohne",
+        "Seuchenmaschine",
+        "Seuchenturm",
+        "Seuchenschnitter"
+      ],
+      "unitRules": [
+        "Regeneration",
+        "Dämonenmaschine (x)"
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Seuchenhüter des Nurgle",
+        "Seuchenbestien des Nurgle",
+        "Seuchendrohnen des Nurgle",
+        "Großer Verpester"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Seuchenhund",
+        "Abscheulicher Titan"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllendrache",
+        "Harbringer-Bomber (B)",
+        "Plagueship"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Death Guard Kernverbände",
+      "formations": [
+        {
+          "name": "Gefolge der Death Guard",
+          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Seuchenmarines, drei Chaos Space Marines, Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Gefolge Transport",
+            "Champion",
+            "Stalker",
+            "Ikonenträger",
+            "Vindicators",
+            "Havocs",
+            "Cybots"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Terminatoren der Death Guard",
+          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Blightlord Terminatoren, Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Terminator Transport",
+            "Champion",
+            "Ikonenträger",
+            "Vindicators",
+            "Cybots"
+          ],
+          "points": 400
+        }
+      ]
+    },
+    {
+      "name": "Death Guard Eliteverbände",
+      "description": "Pro Kernverband darf ein Eliteverband aufgestellt werden",
+      "formations": [
+        {
+          "name": "Havocs",
+          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Havocs, Dämonenpakt",
+          "extraUnits": [
+            "Havoc Transport",
+            "Cybots",
+            "Vindicators",
+            "Ikonenträger",
+            "Stalker"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Panzerkompanie",
+          "units": "Fünf Death Guard Vindicators",
+          "extraUnits": [
+            "Ersetze 5 Death Guard Vindicators durch 4 Death Guard Land Raiders: 25 Punkte",
+            "Füge 2 Death Guard Vindicators hinzu: 80 Punkte",
+            "Stalker"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Death Guard Unterstützungsverbände",
+      "description": "Pro Kernverband dürfen bis zu zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Pox Geländegängig Befall",
+          "units": "Sieben Seuchenwandler",
+          "points": 125
+        },
+        {
+          "name": "Seuchenschnitter",
+          "units": "Ein Plague Reaper",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Nurgle-Geißel-Meute",
+          "units": "Vier Desecrators",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Blight Drones",
+          "units": "Sieben Blight Drones",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Contagion Engines",
+          "units": "Vier Contagion Engines",
+          "extraUnits": [
+          ],
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Traitor Titans und Chaos-Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Seuchenhund",
+          "units": "Ein Plaguehound Titan",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Repugnant",
+          "units": "Ein Repugnant Titan",
+          "extraUnits": [
+          ],
+          "points": 600
+        },
+        {
+          "name": "Höllendrachen",
+          "units": "Zwei Höllendrachen",
+          "points": 225
+        },
+        {
+          "name": "Harbringer",
+          "units": "Ein Harbringer-Bomber (B)",
+          "points": 300
+        },
+        {
+          "name": "0–1 Plagueship",
+          "units": "Ein Plagueship",
+          "points": 100
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        },
+        {
+          "name": "Pool Großer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Greater-Daemon-Pool. Der erste ist kostenlos.",
+          "points": 50
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Death Guard Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Ersetze den Chaos-Lord durch einen Klanlord",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze den Chaos-Lord und seine Einheit durch einen Dämonenprinz des Nurgle.",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Gefolge-Transporter",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Füge 4 Death Guard Rhinos hinzu",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Füge 1 Seuchenturm hinzu",
+            "points": "150 Punkte"
+        },
+          {
+            "description": "Füge 4 Death Guard Land Raiders hinzu",
+            "points": "200 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Terminator-Transporter",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Ersetze 1 Blightlord Terminator durch 3 Death Guard Land Raiders",
+            "points": "100 Punkte"
+        },
+        {
+          "description": "Füge 1 Seuchenturm hinzu",
+          "points": "150 Punkte"
+      }
+        ]
+      },
+      {
+        "name": "Havoc-Transporter",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Füge 2 Death Guard Rhinos hinzu",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Füge 2 Death Guard Land Raiders hinzu",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Cybots zum Verband hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Champion",
+        "description": "Füge einen Chaoschampion-Charakter zum Verband hinzu.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Ikonenträger",
+        "description": "Füge 1 Icon Bearer character hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Stalker",
+        "description": "Füge 1 Death Guard Stalker zum Verband hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge bis zu 2 Death Guard Vindicators hinzu",
+        "points": "40 Punkte pro Stück"
+      },
+      {
+        "name": "Havocs",
+        "description": "Ersetze 3 Chaos Space Marines durch 3 Havocs",
+        "points": "35 Punkte"
+      }
+    ]
+  }
+}

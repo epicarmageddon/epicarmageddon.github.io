@@ -1,0 +1,286 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Alpha Legion",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Chaos_AlphaLegion",
+  "strategy": "Chaos-Space-Marine-Armeen haben einen Strategiewert von 4. Außerdem unterliegen Alpha-Legion-Armeen der Sonderregel „Die Heimsuchung“.",
+  "Initiative": "Kultistenkonklave- und Kultisten-Unterstützungsverbände haben einen Initiativwert von 2+. Alle übrigen Verbände haben einen Initiativwert von 1+.",
+  "specialRules": [
+    "Die Heimsuchung",
+    "Alpha-Legion-Transporter",
+    "Beschwörung",
+    "Beschwörungsregeln der Alpha Legion",
+    "Launische Meister"
+  ],
+  "intro": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Alpha Legion mit Verbündeten der Verräter-Imperialen-Armee aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Alpha-Legion-Fürst",
+        "Alpha-Legion-Hexer",
+        "Alpha-Legion-Marines",
+        "Alpha-Legion-Havocs",
+        "Alpha-Legion-Kopfjäger",
+        "Alpha-Legion-Zerstörer",
+        "Lernaean-Terminatoren",
+        "Alpha-Legion-Cybot",
+        "Alpha-Legion-Rhino",
+        "Alpha-Legion-Vindicator",
+        "Alpha-Legion-Predator",
+        "Alpha-Legion-Land-Schattenbarke",
+        "Alpha-Legion-Sicarian-Kampfpanzer"
+      ],
+      "unitRules": [
+        "Sabotage",
+        "Starrköpfig"
+      ]
+    },
+    {
+      "from": "chaoscultists.json",
+      "units": [
+        "Dämonenprinz",
+        "Aufstrebender Champion",
+        "Dämonische Ikone",
+        "Kultisten",
+        "Mutanten",
+        "Chaosbrut",
+        "Chaos-Hunde",
+        "Landtransporter"
+      ],
+      "unitRules": [
+        "Dämonischer Fokus",
+        "Verstärkte Beschwörung (+x)"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Chimäre",
+        "Salamander-Spähpanzer",
+        "Greif",
+        "Hydra",
+        "Kavallerie"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Dämonetten des Slaanesh",
+        "Seuchenhüter des Nurgle",
+        "Zerfleischer des Khorne",
+        "Horrors des Tzeentch",
+        "Dämonische Bestien des ungeteilten Chaos"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Chaos-Xiphon-Abfangjäger",
+        "Sturmadler der Alpha Legion",
+        "Chaos-Feuerraptor",
+        "Chaos-Angriffskreuzer",
+        "Landungskapsel der Alpha Legion"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Alpha-Legion-Kernverbände",
+      "description": "Pro Alpha-Legion-Marines Verband darf bis zu ein Kultistenkonklave Verband aufgestellt werden",
+      "formations": [
+        {
+          "name": "Alpha-Legion-Marines",
+          "units": "Ein Alpha-Legion-Lord oder Alpha-Legion-Hexer, vier Alpha-Legion-Marines plus Transporter",
+          "extraUnits": [
+            "Ersetze 4 Alpha-Legion-Marines durch 4 Alpha-Legion-Havocs: 50 Punkte",
+            "Füge bis zu 2 Alpha-Legion-Land-Schattenbarken hinzu: 50 Punkte pro Stück",
+            "Oberbefehlshaber",
+            "Cybots",
+            "Vindicators",
+            "Predators"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Kultistenkonklave",
+          "units": "Ein Aspirantenchampion, neun Kultisten und/oder Mutanten",
+          "extraUnits": [
+            "Füge 1 Dämonische Ikone zum Aspirantenchampion hinzu: 25 Punkte",
+            "Füge genügend Kultisten-Landtransporter hinzu, um den Verband zu transportieren: 10 Punkte pro Stück",
+            "Ersetze beliebig viele Kultisten-Landtransporter durch Chimären: 15 Punkte pro Stück",
+            "Füge bis zu 3 Chaos-Hunde hinzu: 10 Punkte pro Stück",
+            "Füge 1 Chaosbrut hinzu: 35 Punkte",
+            "Füge 1 Hydra hinzu: 50 Punkte",
+            "Oberbefehlshaber"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Alpha-Legion-Elitekontingente",
+      "description": "Pro Alpha-Legion-Marines Verband dürfen bis zu ein Alpha-Legion-Elitekontingent aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Destruktoren",
+          "units": "Ein Alpha-Legion-Lord oder Alpha-Legion-Hexer, vier Alpha-Legion-Destruktoren",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Predators"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Kopfjäger",
+          "units": "Ein Alpha-Legion-Lord oder Alpha-Legion-Hexer, vier Alpha-Legion-Kopfjäger plus Transporter",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Vindicators"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Terminatoren",
+          "units": "Ein Alpha-Legion-Lord oder Alpha-Legion-Hexer, vier Lernaean-Terminatoren plus Transporter",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Cybots"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Sicarians",
+          "units": "Vier Sicarian-Kampfpanzer der Alpha Legion",
+          "extraUnits": [
+            "Predators"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Kultisten-Unterstützungsverbände",
+      "description": "Pro Kultistenkonklave-Verband dürfen bis zu zwei Kultisten-Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Kavalleriezug",
+          "units": "Sechs Kavallerie",
+          "extraUnits": [
+            "Füge 1 Dämonische Ikone hinzu: 75 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Salamander-Staffel",
+          "units": "Vier Salamander-Aufklärungspanzer",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Flakbatterie",
+          "units": "Drei Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Greif-Batterie",
+          "units": "Drei Greifs",
+          "extraUnits": [
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Alpha-Legion-Flotte",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für die Alpha-Legion-Flotte ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Sturmadler",
+          "units": "Ein Sturmadler der Alpha Legion",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Feuerraptor",
+          "units": "Ein Chaos-Feuerraptor",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Xiphon-Staffel",
+          "units": "Zwei Chaos-Xiphon-Abfangjäger",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "0–1 Angriffskreuzer",
+          "units": "Ein Chaos-Angriffskreuzer",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Alpha-Legion-Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Werte den Aspirantenchampion zu einem Dämonenprinz",
+            "points": "100 Punkte"
+          },
+          {
+            "description": "„Ich bin Alpharius!“ Die Armee profitiert von der Sonderregel Oberbefehlshaber, solange sich mindestens ein Alpha-Legion-Lord auf dem Schlachtfeld befindet. Der Verband muss einen Alpha-Legion-Lord enthalten.",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge bis zu 2 Alpha Legion Vindicators hinzu",
+        "points": "35 Punkte pro Stück"
+      },
+      {
+        "name": "Predators",
+        "description": "Füge bis zu 2 Alpha Legion Predators hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Alpha Legion Cybots hinzu",
+        "points": "50 Punkte pro Stück"
+      }
+    ]
+  }
+}

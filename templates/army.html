@@ -37,13 +37,13 @@
                         {{/if}}
                     </div>
                     <div class="col-3 order-lg-9" style="text-align: right">
-                        {{#if points}}{{appendOnNumber points ' Punkte'}}{{/if}}
+                        {{#if points}}{{appendOnNumber points ' points'}}{{/if}}
                         {{#if pointsOptions}}
-                        {{#each pointsOptions}}{{this.name}} - {{appendOnNumber points ' Punkte'}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                        {{#each pointsOptions}}{{this.name}} - {{appendOnNumber points ' points'}}{{#unless @last}}<br>{{/unless}}{{/each}}
                         {{/if}}
                     </div>
                     <div class="col-12 col-lg-5">
-                        {{#if upgrades}}<span class="d-inline"><i>Erweiterungen</i></span>{{/if}}
+                        {{#if upgrades}}<span class="d-inline"><i>Upgrades</i></span>{{/if}}
                         {{#if upgrades}}
                         <ul style="padding-left: 1rem">
                             {{#each upgrades}}
@@ -52,7 +52,7 @@
                         </ul>
                         {{/if}}
 
-                        {{#if extraUnits}}<span class="d-inline"><i>Erweiterungen</i></span>{{/if}}
+                        {{#if extraUnits}}<span class="d-inline"><i>Upgrades</i></span>{{/if}}
                         {{#if extraUnits}}
                         <ul style="padding-left: 1rem">
                             {{#each extraUnits}}
@@ -113,9 +113,9 @@
                         <div class="col-8" style="text-align: right">{{description}}</div>
                         <div class="col-4" style="text-align: right">
                             {{#if (isArray points)}}
-                            {{#each points}}{{appendOnNumber this ' Punkte'}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                            {{#each points}}{{appendOnNumber this ' points'}}{{#unless @last}}<br>{{/unless}}{{/each}}
                             {{else}}
-                            {{appendOnNumber points ' Punkte'}}
+                            {{appendOnNumber points ' points'}}
                             {{/if}}
                         </div>
                     </div>

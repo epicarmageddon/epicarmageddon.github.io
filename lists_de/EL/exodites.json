@@ -1,0 +1,206 @@
+{
+  "fraction": "Eldar",
+  "army": "Exoditen",
+  "version": "1.0.Beta",
+  "release": "2024-04-15",
+  "armyforge": "EAR_Eldar_Exodites",
+  "intro": "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee der Eldar-Exoditen aufstellen.",
+  "strategy": "Exoditen-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Alle Verbände haben einen Initiativewert von 2+. Die Drachenritter-, Windritter- und Ritter-Kriegsscharn der Exoditen unterliegen der Sonderregel Tapferkeit.",
+  "specialRules": [
+    "Weitsicht",
+    "Ewiger Drache",
+    "Angeborene Beweglichkeit",
+    "Schlag und Flucht",
+    "Netzportal",
+    "Tapferkeit"
+  ],
+  "units": [
+    {
+      "from": "eldarExo.json",
+      "units": [
+        "Drachenprinz",
+        "Drachenfürst",
+        "Weltenliedsänger",
+        "Drachenritter",
+        "Drachen-Vorreiter",
+        "Himmelsdrache",
+        "Exoditenmiliz",
+        "Exoditen-Waffenplattform",
+        "Exoditen-Phantomdroiden",
+        "Windritter",
+        "Blutrachen-Megadon",
+        "Leerenprisma-Megadon",
+        "Glanzross-Ritter",
+        "Feuersturmritter",
+        "Überragender Zerstörer-Ritter",
+        "Großer Megadon",
+        "Ewiger Drache",
+        "Kolossaler Carnosaurus"
+      ],
+      "unitRules": [
+        "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Holofelder (x)",
+        "Lanze",
+        "Sturmangriff",
+        "Schildbohrer",
+        "Schildbrecher"
+      ]
+    },
+    {
+      "from": "eldarCorsairs.json",
+      "units": [
+        "Korsaren-Felarch",
+        "Geisterläufer",
+        "Korsarenkrieger",
+        "Korsarenveteran",
+        "Korsaren-Wespe",
+        "Korsaren-Schattenviper",
+        "Korsaren-Vampire-Schattenbarke",
+        "Korsaren-Nachtschwinge-Abfangjäger"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Exoditen-Spezialregeln",
+      "formations": [
+        {
+          "name": "Drachenprinz (0–1 pro Armee)",
+          "units": "Ersetze einen Drachenfürsten der Armee durch einen Drachenprinzen.",
+          "points": "50 Punkte"
+        },
+        {
+          "name": "Ewiger Drache (0–1 pro Armee)",
+          "units": "Ein Ewiger Drache",
+          "points": 50
+        },
+        {
+          "name": "Netzportal (0–1 pro Armee)",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "points": "kostenlos"
+        }
+      ]
+    },
+    {
+      "name": "Exoditen-Kriegsscharn",
+      "formations": [
+        {
+          "name": "Drachenritter-Kriegsschar",
+          "units": "Ein Drachenfürst und acht Drachenritter",
+          "points": "300",
+          "extraUnits": [
+            "Drachenprinz",
+            "Füge einen Weltenliedsänger-Charakter hinzu: 25 Punkte",
+            "Ersetze zwei Drachenritter durch zwei Himmelsdrachen: 25 Punkte. Alternativ kannst du bis zu zwei Drachenritter durch Blutrachen-Megadons ersetzen: 25 Punkte pro Stück."
+          ]
+        },
+        {
+          "name": "Windritter-Kriegsschar",
+          "units": "Ein Drachenfürst und acht Windritter",
+          "points": "300",
+          "extraUnits": [
+            "Drachenprinz",
+            "Füge einen Weltenliedsänger-Charakter hinzu: 25 Punkte"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exoditen-Unterstützungsverbände",
+      "description": "Bis zu drei Unterstützungsformationen pro Kriegsscharn-Verband.",
+      "formations": [
+        {
+          "name": "Drachen-Vorreiter",
+          "units": "Vier Drachen-Vorreiter",
+          "points": "125"
+        },
+        {
+          "name": "Himmelsdrachen-Trupp",
+          "units": "Fünf Himmelsdrachen",
+          "points": "200",
+          "extraUnits": [
+            "Ersetze zwei Himmelsdrachen durch zwei Blutrachen-Megadons: 25 Punkte."
+          ]
+        },
+        {
+          "name": "Exoditenmiliz-Trupp",
+          "units": "Acht Exoditenmiliz und ein Weltenliedsänger",
+          "points": "175",
+          "extraUnits": [
+            "Ersetze bis zu drei Exoditenmiliz durch Exoditen-Waffenplattformen: 25 Punkte pro Stück.",
+            "Füge zwei Exoditen-Phantomdroiden hinzu: 75 Punkte"
+          ]
+        },
+        {
+          "name": "Leerenprisma-Trupp",
+          "units": "Vier Leerenprisma-Megadons",
+          "points": "225",
+          "extraUnits": [
+          ]
+        },
+        {
+          "name": "Großmegadon-Trupp",
+          "units": "Ein Großer Megadon",
+          "points": "175",
+          "extraUnits": [
+            "Füge bis zu zwei Große Megadons hinzu: 125 Punkte pro Stück"
+          ]
+        },
+        {
+          "name": "Kolossaler Carnosaurus",
+          "units": "Ein Kolossaler Carnosaurus",
+          "points": "350"
+        }
+      ]
+    },
+    {
+      "name": "Unterstützung durch Eldar-Ritter und Korsaren",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Korsaren-Raubzug",
+          "units": "Vier Korsarenkrieger und ein Korsaren-Felarch",
+          "extraUnits": [
+            "Füge bis zu zwei Korsaren-Wespen hinzu: 25 Punkte pro Stück",
+            "Füge bis zu zwei Korsarenveteranen hinzu: 25 Punkte pro Stück",
+            "Füge bis zu zwei Geisterläufer hinzu: 25 Punkte pro Stück",
+            "Füge genügend Korsaren-Schattenvipern hinzu, um den gesamten Verband zu transportieren: 25 Punkte pro Stück. Wenn Schattenvipern hinzugefügt werden, muss der gesamte Verband transportiert werden."
+          ],
+          "points": 150
+        },
+        {
+          "name": "Korsaren-Vampire-Schattenbarke (0–1 pro Raubzug-Trupp)",
+          "units": "Eine Korsaren-Vampire-Schattenbarke",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+                {
+          "name": "Korsaren-Nachtschwingen-Staffel",
+          "units": "Zwei Korsaren-Nachtschwinge-Abfangjäger",
+          "extraUnits": [
+            "Füge einen Korsaren-Nachtschwinge-Abfangjäger hinzu: 75 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Korsaren-Feuerunterstützung (0–1 pro Raubzug-Trupp)",
+          "units": "Vier Korsaren-Wespen",
+          "points": 150
+        },
+        {
+          "name": "Exoditen-RitterKriegsschar",
+          "units": "Zwei Feuerstürme, zwei Helle Hengste oder zwei turmhohe Zerstörer-Ritter",
+          "points": 275,
+          "extraUnits": [
+            "Füge einen Ritter derselben Konfiguration zum Verband hinzu: 100 Punkte",
+            "Füge einen Weltenliedsänger-Charakter hinzu: 50 Punkte"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "fraction": "Space Marines",
+  "army": "Primaris",
+  "version": "1.0.beta",
+  "release": "2022-05-28",
+  "armyforge": "EAR_AdeptusAstartes_Primaris",
+  "intro": "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Primaris Space Marines aufzustellen.",
+  "strategy": "Space Marine-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 1+.",
+  "armyRules": "Die Sonderregel <i>Sie kennen keine Furcht</i> gilt für alle Primaris-Kontingente und Flugzeugverbände.",
+  "specialRules": [
+    "Sie kennen keine Furcht"
+  ],
+  "usage": [
+    "Der folgende Armeeorganisationsplan ..."
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Captain",
+        "Ordenspriester",
+        "Scriptor",
+        "Oberbefehlshaber",
+        "Sturm-Intercessor",
+        "Intercessor",
+        "Inceptor",
+        "Hellblaster",
+        "Outrider",
+        "Aggressor",
+        "Suppressor",
+        "Reiver",
+        "Eliminator",
+        "Infiltratoren",
+        "Eradicator",
+        "Invader",
+        "Invictor-Kampfanzug",
+        "Redemptor-Cybot",
+        "Impulsor",
+        "Repulsor",
+        "Gladiator-Lancer",
+        "Gladiator-Reaper",
+        "Gladiator-Valiant",
+        "Storm-Speeder Thunderstrike",
+        "Storm-Speeder Hammerstrike",
+        "Sturmtalon",
+        "Astraeus"
+      ],
+      "unitRules": [
+        "Lanze",
+        "Einsatz des Overlords",
+        "Null-Schilde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Primaris Kernkontingente",
+      "formations": [
+        {
+          "name": "Gefechtslinientrupp",
+          "units": "Vier Intercessoren, Sturm-Intercessoren oder Hellblasters",
+          "extraUnits": [
+            "Nahunterstützung",
+            "Befehlshaber",
+            "Transports",
+            "Läufer"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Primaris Elitekontingente",
+      "formations": [
+        {
+          "name": "Inceptortrupp",
+          "units": "Vier Inceptors",
+          "extraUnits": [
+            "Befehlshaber"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Suppressortrupp",
+          "units": "Vier Suppressors",
+          "extraUnits": [
+            "Befehlshaber"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Reivertrupp",
+          "units": "Vier Reivers",
+          "extraUnits": [
+            "Befehlshaber"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Infiltratoren-Trupp",
+          "units": "Vier Infiltratoren",
+          "extraUnits": [
+            "Befehlshaber"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Primaris Unterstützungskontingente",
+      "formations": [
+        {
+          "name": "Feuerunterstützungstrupp",
+          "units": "Drei Aggressors oder drei Eradicators",
+          "extraUnits": [
+            "Nahunterstützung",
+            "Befehlshaber",
+            "Transports",
+            "Läufer"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Eliminatortrupp",
+          "units": "Vier Eliminators",
+          "extraUnits": [
+            "Transports"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Ausreitertrupp",
+          "units": "Vier Outriders",
+          "extraUnits": [
+            "Befehlshaber",
+            "Füge 2 Invaders hinzu: 75 Punkte"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Storm-Speeder",
+          "units": "Drei Storm-Speeder, Hammerstrike oder Thunderstrike configuration",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Gladiators",
+          "units": "Vier Gladiators, Lancer oder Reaper configuration",
+          "extraUnits": [
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Codex Astartes Flotte, Primaris Super Heavies",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Sturmtalons",
+          "units": "Zwei Sturmtalons",
+          "points": 200
+        },
+        {
+          "name": "Astraeus",
+          "units": "Ein Astraeus Super Heavy Tank",
+          "points": 425
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Primaris Aufwertungen",
+    "description": "Jede Aufwertung darf pro Kontingent nur einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Nahunterstützung",
+        "description": "Füge bis zu 2 Gladiator Valiants hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Befehlshaber",
+        "description": "Füge einen beliebigen der folgenden Charaktere einer Einheit im Verband hinzu",
+        "options": [
+          {
+            "description": "Captain, Scriptor",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Ordenspriester",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "0–1 Oberbefehlshaber",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Transports",
+        "description": "Füge beliebig viele Impulsors oder Repulsors hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "options": [
+          {
+            "description": "Repulsors",
+            "points": "75 Punkte pro Stück"
+          },
+          {
+            "description": "Impulsors",
+            "points": "25 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Läufer",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Füge bis zu 2 Redemptor Cybots hinzu",
+            "points": "75 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu 2 Invictor Warsuits hinzu",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      }
+    ]
+  }
+}

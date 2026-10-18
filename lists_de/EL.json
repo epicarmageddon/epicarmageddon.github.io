@@ -1,0 +1,958 @@
+[
+  {
+    "name": "Eldar-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+        {
+            "name": "Häuptling der Wilden Reiter",
+            "type": "INF",
+            "speed": 35,
+            "armour": 4,
+            "cc": 4,
+            "ff": 5,
+            "weapons": [
+                "Eldar-Energiewaffe",
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Oberbefehlshaber",
+                "Unmodifizierter Rettungswurf",
+                "Inspirierend",
+                "Windflink"
+            ]
+        },
+        {
+            "name": "Phönixkönig",
+            "type": "INF",
+            "speed": 35,
+            "armour": 4,
+            "cc": 5,
+            "ff": 4,
+            "weapons": [],
+            "specialRules": [
+                "Sprungmodule",
+                "Teleportieren",
+                "Oberbefehlshaber",
+                "Unmodifizierter Rettungswurf",
+                "Inspirierend"
+            ]
+        },
+        {
+            "name": "Eldar-Autarch",
+            "type": "CH",
+            "weapons": [
+                "Eldar-Energiewaffe"
+            ],
+            "specialRules": [
+                "Oberbefehlshaber",
+                "Unmodifizierter Rettungswurf"
+            ]
+        },
+        {
+            "name": "Hof des Jungen Königs",
+            "type": "CH",
+            "weapons": [
+                "Uralte Waffen"
+            ]
+        },
+        {
+            "name": "Knochensänger",
+            "type": "CH",
+            "weapons": [
+                "n/a"
+            ],
+            "specialRules": [
+                "Oberbefehlshaber"
+            ]
+        },
+        {
+            "name": "Rat der Seher",
+            "type": "INF",
+            "speed": 15,
+            "armour": 4,
+            "cc": 4,
+            "ff": 5,
+            "weapons": [
+                "Hexenklingen",
+                "Psikräfte"
+            ],
+            "specialRules": [
+                "Oberbefehlshaber",
+                "Weitsicht",
+                "Unmodifizierter Rettungswurf"
+            ],
+            "notes": "Der Rat der Seher kann verwendet werden, um den Avatar zu beschwören."
+        },
+        {
+            "name": "Geisterseher",
+            "type": "CH",
+            "weapons": [],
+            "specialRules": [
+                "Befehlshaber",
+                "Weitsicht"
+            ],
+            "notes": "Einheiten mit einem Geisterseher können verwendet werden, um den Avatar zu beschwören."
+        },
+        {
+            "name": "Avatar des Khaine",
+            "type": "WE",
+            "speed": 15,
+            "armour": 3,
+            "cc": 2,
+            "ff": 4,
+            "weapons": [
+                "Klagendes Verderben"
+            ],
+            "specialRules": [
+                "Schadenskapazität 3",
+                "Inspirierend",
+                "Furchtlos",
+                "Befehlshaber",
+                "Unmodifizierter Rettungswurf",
+                "Geländegängig"
+            ],
+            "crit": "Der Avatar wird zerstört. Alle Weltenschiff-Eldar-Verbände (eigene und gegnerische) mit Sichtlinie zum Avatar erhalten 1 Beschussmarke."
+        },
+        {
+            "name": "Eldar-Exarch",
+            "type": "CH",
+            "weapons": [
+                "Exarch-Fernkampfwaffe|0-1",
+                "Exarch-Nahkampfwaffe|0-1",
+                "Feuerlanze|0-1",
+                "Khaindar-Raketenwerfer|0-1",
+                "Sternenlanze|0-1"
+            ],
+            "specialRules": [
+                "Inspirierend"
+            ],
+            "notes": "Asuryans Jäger, Kriegsfalken und Warpspinnen haben eine Exarch-Fernkampfwaffe. Banshees und Skorpionkrieger haben eine Exarch-Nahkampfwaffe. Schwarze Khaindar haben einen Khaindar-Raketenwerfer, Feuerdrachen eine Feuerlanze und Sternenlanzen eine Sternenlanze."
+        },
+        {
+            "name": "Berittener Runenprophet von Saim-Hann",
+            "type": "INF",
+            "speed": 35,
+            "armour": 4,
+            "cc": 4,
+            "ff": 5,
+            "weapons": [
+                "Hexenklingen",
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Befehlshaber",
+                "Weitsicht",
+                "Beritten",
+                "Antigrav",
+                "Windflink"
+            ],
+            "notes": "Der berittene Runenprophet kann verwendet werden, um den Avatar zu beschwören."
+        },
+        {
+            "name": "Eldar-Runenprophet",
+            "type": "INF",
+            "speed": 15,
+            "armour": 4,
+            "cc": 4,
+            "ff": 5,
+            "weapons": [
+                "Hexenklingen",
+                "Shurikenpistolen"
+            ],
+            "specialRules": [
+                "Weitsicht",
+                "Befehlshaber"
+            ],
+            "notes": "Der Runenprophet kann verwendet werden, um den Avatar zu beschwören."
+        },
+        {
+            "name": "Eldar-Gardisten",
+            "type": "INF",
+            "speed": 15,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+                "Shuriken-Katapulte"
+            ],
+            "specialRules": [
+            ]
+        },
+        {
+            "name": "Eldar-Schwerwaffenplattform",
+            "type": "INF",
+            "speed": 15,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Impulslaser"
+            ],
+            "specialRules": [
+            ]
+        },
+        {
+            "name": "Unterstützungswaffenplattform",
+            "type": "INF",
+            "speed": 15,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Vibrokanone|0-1",
+                "Unterstützungs-D-Kanone|0-1"
+            ],
+            "notes": "Bewaffnet entweder mit einer Vibrokanone oder einer Unterstützungs-D-Kanone."
+        },
+        {
+            "name": "Ranger",
+            "type": "INF",
+            "speed": 15,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Ranger-Jagdgewehr",
+                "Shurikenpistolen"
+            ],
+            "specialRules": [
+                "Aufklärer"
+            ]
+        },
+        {
+            "name": "Korsaren-Geisterläufer",
+            "type": "INF",
+            "speed": 30,
+            "armour": 6,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+                "Ranger-Jagdgewehr",
+                "Shurikenpistolen"
+            ],
+            "specialRules": [
+                "Aufklärer",
+                "Sprungmodule"
+            ]
+        },
+        {
+            "name": "Korsaren-Wespe",
+            "type": "LV",
+            "speed": 35,
+            "armour": 6,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Zwillings-Sternenkanone"
+            ],
+            "specialRules": [
+                "Aufklärer",
+                "Geländegängig",
+                "Sprungmodule"
+            ]
+        },
+        {
+            "name": "Eldar-Jetbikes",
+            "type": "INF",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+                "Zwillings-Shurikenkatapult"
+            ],
+            "specialRules": [
+                "Beritten",
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Lugganath-Jetbikes",
+            "type": "INF",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Beritten",
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Wilde Reiter von Saim-Hann",
+            "type": "INF",
+            "speed": 35,
+            "armour": 5,
+            "cc": 4,
+            "ff": 5,
+            "weapons": [
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Beritten",
+                "Antigrav",
+                "Windflink"
+            ]
+        },
+        {
+            "name": "Schleierläufer von Saim-Hann",
+            "type": "INF",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Scharfschützengewehr"
+            ],
+            "specialRules": [
+                "Beritten",
+                "Antigrav",
+                "Aufklärer",
+                "Windflink"
+            ]
+        },
+        {
+            "name": "Asuryans Jäger",
+            "type": "INF",
+            "speed": 15,
+            "armour": 5,
+            "cc": 5,
+            "ff": 4,
+            "weapons": [
+                "Avenger-Shurikenkatapulte"
+            ],
+            "specialRules": [
+            ]
+        },
+        {
+            "name": "Feuerdrachen",
+            "type": "INF",
+            "speed": 15,
+            "armour": 5,
+            "cc": 5,
+            "ff": 5,
+            "weapons": [
+                "Fusionsstrahler"
+            ]
+        },
+        {
+            "name": "Schwarze Khaindar",
+            "type": "INF",
+            "speed": 15,
+            "armour": 4,
+            "cc": 5,
+            "ff": 4,
+            "weapons": [
+                "Khaindar-Raketenwerfer"
+            ]
+        },
+        {
+            "name": "Skorpionkrieger",
+            "type": "INF",
+            "speed": 20,
+            "armour": 4,
+            "cc": 3,
+            "ff": 5,
+            "weapons": [
+                "Mandiblaster",
+                "Shurikenpistolen"
+            ],
+            "specialRules": [
+            ]
+        },
+        {
+            "name": "Banshees",
+            "type": "INF",
+            "speed": 15,
+            "armour": 5,
+            "cc": 2,
+            "ff": 5,
+            "weapons": [
+                "Bansheemaske",
+                "Shurikenpistolen"
+            ],
+            "specialRules": [
+                "Erstschlag",
+                "Infiltratoren"
+            ]
+        },
+        {
+            "name": "Sternenlanzen",
+            "type": "INF",
+            "speed": 35,
+            "armour": 4,
+            "cc": 4,
+            "ff": 5,
+            "weapons": [
+                "Zwillings-Höllenschlund",
+                "Zwillings-Shurikenkatapult"
+            ],
+            "specialRules": [
+                "Beritten",
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Kriegsfalken",
+            "type": "INF",
+            "speed": 35,
+            "armour": 5,
+            "cc": 5,
+            "ff": 4,
+            "weapons": [
+                "Laserblaster"
+            ],
+            "specialRules": [
+                "Sprungmodule",
+                "Aufklärer",
+                "Teleportieren"
+            ]
+        },
+        {
+            "name": "Schattenspektren",
+            "type": "INF",
+            "speed": 35,
+            "armour": 4,
+            "cc": 5,
+            "ff": 4,
+            "weapons": [
+                "Prismengewehre"
+            ],
+            "specialRules": [
+                "Teleportieren",
+                "Sprungmodule"
+            ]
+        },
+        {
+            "name": "Warpspinnen",
+            "type": "INF",
+            "speed": 20,
+            "armour": 4,
+            "cc": 5,
+            "ff": 4,
+            "weapons": [
+                "Todesspinner"
+            ],
+            "specialRules": [
+                "Erstschlag",
+                "Sprungmodule"
+            ]
+        },
+        {
+            "name": "Phantomklingen",
+            "type": "INF",
+            "speed": 15,
+            "armour": 3,
+            "cc": 3,
+            "weapons": [
+                "Phantomklingen"
+            ],
+            "specialRules": [
+                "Furchtlos"
+            ],
+            "notes": "Zählt beim Transport als eine Einheit Phantomdroiden."
+        },
+        {
+            "name": "Phantomdroiden",
+            "type": "INF",
+            "speed": 15,
+            "armour": 3,
+            "cc": 4,
+            "ff": 4,
+            "weapons": [
+                "Phantomkanonen"
+            ],
+            "specialRules": [
+                "Furchtlos"
+            ]
+        },
+        {
+            "name": "Phantom-Schnitter",
+            "type": "INF",
+            "speed": 15,
+            "armour": 3,
+            "cc": 4,
+            "ff": 4,
+            "weapons": [
+                "D-Sensen"
+            ],
+            "specialRules": [
+                "Furchtlos"
+            ]
+        },
+        {
+            "name": "Viper",
+            "type": "LV",
+            "speed": 35,
+            "armour": 4,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Impulslaser"
+            ],
+            "specialRules": [
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Saim-Hann-Viper",
+            "type": "LV",
+            "speed": 35,
+            "armour": 4,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Impulslaser"
+            ],
+            "specialRules": [
+                "Antigrav",
+                "Windflink"
+            ]
+        },
+        {
+            "name": "Schattenviper",
+            "type": "LV",
+            "speed": 35,
+            "armour": 4,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Splitterkanone",
+                "Zwillings-Splittergewehr"
+            ],
+            "specialRules": [
+                "Antigrav",
+                "Der Transporter kann eine INF-Einheit ohne Sprungmodule oder Beritten transportieren."
+            ]
+        },
+        {
+            "name": "Kampfläufer",
+            "type": "LV",
+            "speed": 20,
+            "armour": 5,
+            "cc": 6,
+            "ff": 6,
+            "weapons": [
+                "Impulslaser",
+                "Eldar-Raketenwerfer"
+            ],
+            "specialRules": [
+                "Aufklärer",
+                "Geländegängig"
+            ]
+        },
+        {
+            "name": "Hornet",
+            "type": "LV",
+            "speed": 40,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Zwillings-Hornet Impulslaser"
+            ],
+            "specialRules": [
+                "Antigrav",
+                "Aufklärer"
+            ]
+        },
+        {
+            "name": "Saim-Hann-Hornet",
+            "type": "LV",
+            "speed": 40,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Zwillings-Hornet Impulslaser"
+            ],
+            "specialRules": [
+                "Antigrav",
+                "Aufklärer",
+                "Windflink"
+            ]
+        },
+        {
+            "name": "Phantomseher",
+            "type": "AV",
+            "speed": 15,
+            "armour": 4,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+                "Phantomkanone",
+                "Singspeer"
+            ],
+            "specialRules": [
+                "Oberbefehlshaber",
+                "Weitsicht",
+                "Furchtlos",
+                "Verstärkte Panzerung",
+                "Geländegängig"
+            ],
+            "notes": "Der Phantomseher kann verwendet werden, um den Avatar zu beschwören."
+        },
+        {
+            "name": "Phantomlord",
+            "type": "AV",
+            "speed": 15,
+            "armour": 4,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+                "Eldar-Energiefaust",
+                "Zwillings-Laserlanze"
+            ],
+            "specialRules": [
+                "Furchtlos",
+                "Verstärkte Panzerung",
+                "Geländegängig"
+            ]
+        },
+        {
+            "name": "Wellenschlange",
+            "type": "AV",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+                "Zwillings-Shurikenkanone"
+            ],
+            "specialRules": [
+                "Verstärkte Panzerung",
+                "Antigrav",
+                "Transport"
+            ],
+            "notes": "Kann bis zu 2 der folgenden Einheiten transportieren: Runenprophet, Gardisten, Eldar-Ranger, Eldar-Schwerwaffenplattform, Banshees, Skorpionkrieger, Feuerdrachen, Asuryans Jäger, Schwarze Khaindar, Kriegsfalken, Phantomklingen oder Phantomdroiden. Phantomklingen und Phantomdroiden belegen jeweils 2 Plätze."
+        },
+        {
+            "name": "Falcon",
+            "type": "AV",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+                "Impulslaser",
+                "Impulslaser"
+            ],
+            "specialRules": [
+                "Antigrav",
+                "Transport"
+            ],
+            "notes": "Kann bis zu 1 der folgenden Einheiten transportieren: Runenprophet, Gardisten, Eldar-Ranger, Eldar-Schwerwaffenplattform, Banshees, Skorpionkrieger, Feuerdrachen, Asuryans Jäger, Schwarze Khaindar oder Kriegsfalken."
+        },
+        {
+            "name": "Illum Zar",
+            "type": "AV",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Prismenkanone"
+            ],
+            "specialRules": [
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Warpjäger",
+            "type": "AV",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Warpjäger-D-Kanone"
+            ],
+            "specialRules": [
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Nachtspinne",
+            "type": "AV",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Nachtspinner"
+            ],
+            "specialRules": [
+                "Antigrav"
+            ]
+        },
+        {
+            "name": "Feuersturm",
+            "type": "AV",
+            "speed": 35,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Zwillings-Salvenkanone"
+            ],
+            "specialRules": [
+                "Antigrav",
+                "Transport"
+            ],
+            "notes": "Kann bis zu 1 der folgenden Einheiten transportieren: Runenprophet, Gardisten, Eldar-Ranger, Eldar-Schwerwaffenplattform, Banshees, Skorpionkrieger, Feuerdrachen, Asuryans Jäger, Schwarze Khaindar oder Kriegsfalken."
+        },
+        {
+            "name": "Luchs",
+            "type": "WE",
+            "speed": 30,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Schalllanze",
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 2",
+                "Verstärkte Panzerung",
+                "Holofeld (5+)",
+                "Antigrav"
+            ],
+            "crit": "Der Luchs wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+        },
+        {
+            "name": "Skorpion",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Zwillings-Pulsar",
+                "Shurikenkanone",
+                "Impulslaser|2"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 3",
+                "Verstärkte Panzerung",
+                "Holofeld (4+)",
+                "Antigrav"
+            ],
+            "crit": "Der Skorpion wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei einer 6+ einen Treffer."
+        },
+        {
+            "name": "Kobra",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Cobra D-Kanone||FxF",
+                "Eldar-Raketenwerfer",
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 3",
+                "Verstärkte Panzerung",
+                "Holofeld (4+)",
+                "Antigrav"
+            ],
+            "crit": "Die Kobra wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei einer 6+ einen Treffer."
+        },
+        {
+            "name": "Todespirscher",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Prismenstrahler||FxF",
+                "Eldar-Raketenwerfer",
+                "Shurikenkanone"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 3",
+                "Verstärkte Panzerung",
+                "Holofeld (4+)",
+                "Antigrav"
+            ],
+            "crit": "Der Todespirscher wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei einer 6+ einen Treffer."
+        },
+        {
+            "name": "Sturmserpent",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Sturmserpent-Impulslaser",
+                "Impulslaser"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 3",
+                "Verstärkte Panzerung",
+                "Holofeld (4+)",
+                "Netzportal",
+                "Antigrav"
+            ],
+            "crit": "Der Sturmserpent wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei einer 6+ einen Treffer."
+        },
+        {
+            "name": "Leerenwirbler",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 6,
+            "ff": 5,
+            "weapons": [
+                "Leerspinner"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 3",
+                "Verstärkte Panzerung",
+                "Antigrav"
+            ],
+            "crit": "Der Leerspinner wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei einer 6+ einen Treffer."
+        },
+        {
+            "name": "Skathach-Phantomritter",
+            "type": "H-AV",
+            "speed": 30,
+            "cc": 4,
+            "ff": 3,
+            "weapons": [
+                "Zwillings-Todeshüllenkanone|0-1|",
+                "Zwillings-Inferno-Lanze|0-1|",
+                "Zwillings-Shurikenkanone"
+            ],
+            "specialRules": [
+                "Holofeld (3+)",
+                "Furchtlos",
+                "Geländegängig",
+                "Teleportieren"
+            ],
+            "notes": "Skathach-Phantomritter sind entweder mit einer Zwillings-Todeshüllenkanone oder einer Zwillings-Inferno-Lanze bewaffnet."
+        },
+        {
+            "name": "Phantomritter",
+            "type": "H-AV",
+            "speed": 35,
+            "armour": 4,
+            "cc": 3,
+            "ff": 4,
+            "weapons": [
+                "Zwillings-Schwere Phantomkanonen|0-1|",
+                "Geistergleve und Streuschild|0-1|",
+                "Sonnenkanone|0-1|",
+                "Zwillings-Shurikenkanone"
+            ],
+            "specialRules": [
+                "Holofeld (3+)",
+                "Verstärkte Panzerung (Streuschild)",
+                "Furchtlos",
+                "Geländegängig"
+            ],
+            "notes": "Muss entweder mit Zwillings-Schweren Phantomkanonen, Geistergleve und Streuschild oder mit einer Sonnenkanone bewaffnet sein. Sonderregel [*]: Der Streuschild verleiht dem Modell die Sonderregel „Verstärkte Panzerung“."
+        },
+        {
+            "name": "Phantom-Titan",
+            "type": "WE",
+            "speed": 35,
+            "armour": 5,
+            "cc": 4,
+            "ff": 4,
+            "weapons": [
+                "Wiedergänger-Pulsar|2|",
+                "Eldar-Raketenwerfer|2|"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 3",
+                "Furchtlos",
+                "Holofeld (3+)",
+                "Sprungmodule",
+                "Geländegängig"
+            ],
+            "crit": "Der Holofeldprojektor des Phantom-Titans wird zerstört. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+        },
+        {
+            "name": "Phantomtitan",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 3,
+            "ff": 3,
+            "weapons": [
+                "Titanenpulsar|1-2|",
+                "Eldar-Titan-Energiefaust|0-1|",
+                "Zwillings-Eldar-Raketenwerfer|2|"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 6",
+                "Furchtlos",
+                "Holofeld (3+)",
+                "Anführer",
+                "Verstärkte Panzerung",
+                "Geländegängig"
+            ],
+            "crit": "Der Holofeldprojektor des Phantomtitanen wird zerstört. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+        },
+        {
+            "name": "Mymeara-Phantomtitan",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 3,
+            "ff": 3,
+            "weapons": [
+                "Armbewaffnung (Wähle zwei. Höchstens eine 0–1)",
+                "Titanenpulsar",
+                "Schreckenspulsar",
+                "Sternpulsar",
+                "Titan-Vibrokanone",
+                "Titan-D-Kanone",
+                "Eldar-Titan-Energiefaust|0-1|",
+                "Ashuna-Valcry'le|0-1|",
+                "RÜCKENPANZER",
+                "Zwillings-Eldar-Raketenwerfer|2|"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 6",
+                "Furchtlos",
+                "Holofeld (3+)",
+                "Anführer",
+                "Verstärkte Panzerung",
+                "Geländegängig"
+            ],
+            "crit": "Der Holofeldprojektor des Phantomtitanen wird zerstört. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+        },
+        {
+            "name": "Runenleser-Titan",
+            "type": "WE",
+            "speed": 25,
+            "armour": 5,
+            "cc": 3,
+            "ff": 3,
+            "weapons": [
+                "Psionische Lanze",
+                "Eldar-Titan-Energiefaust",
+                "Zwillings-Eldar-Raketenwerfer|2|"
+            ],
+            "specialRules": [
+                "Schadenskapazität: 6",
+                "Furchtlos",
+                "Holofeld (3+)",
+                "Inspirierend",
+                "Weitsicht",
+                "Anführer",
+                "Verstärkte Panzerung",
+                "Geländegängig"
+            ],
+            "crit": "Der Holofeldprojektor des Runenleser-Titans wird zerstört. Weitere kritische Treffer verursachen 1 zusätzlichen Schaden."
+        }
+    ]
+  }
+]

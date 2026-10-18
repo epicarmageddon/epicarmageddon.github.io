@@ -1,37 +1,49 @@
-<h2>Armeeorganisationspläne</h2>
+<script>
+    if (typeof eaNav === 'undefined') {
+        document.location.href = "/"
+    }
+</script>
+
+<h2>Armeen</h2>
 
 <p class="lead">
-    Die hier präsentierten Armeeorganisationspläne sind ursprünglich vom EA:Ragnaök Team entwickelt worden. Für weiterführende Information bzgl. Designentscheidungen wird auf die verlinkte <a href="https://earagnarok.github.io" target="_blank" class="external">Webpräsenz</a> verwiesen.
+    Die meisten EA:Ragnarök-Armeelisten basieren auf Listen der NetEA-, Epic-UK- und F-ERC-Gruppen. Wir haben an allen
+    EA:Ragnarök-Listen allgemeine Änderungen sowie verschiedene Anpassungen, Abschwächungen und Verbesserungen
+    vorgenommen. Jede Liste enthält eine Beschreibung ihrer Herkunft und der Änderungen gegenüber dem Original.
+</p>
+<p class="lead">
+    Zu jeder Liste gehört ein Link zum Armeelisten-Generator Army Forge, der auch <a href="https://earagnarok.github.io/snapfire/indexEAR.html" target="_blank" class="external">hier</a> aufgerufen werden kann.
 </p>
 
-<script>
-    $(document).ready(function () {
-        console.log("[document-ready] initializing armies...");
 
-        var urlSearchParams = new URLSearchParams(new URL(window.location).search);
-        var filter = urlSearchParams.get("display");
+    <script>
+        $(document).ready(function () {
+            console.log("[document-ready] initializing armies...");
 
-        var states = ['approved'];
+            var urlSearchParams = new URLSearchParams(new URL(window.location).search);
+            var filter = urlSearchParams.get("display");
 
-        if (filter === 'beta') {
-            states.push('beta');
-        } else if (filter === 'alpha') {
-            states.push('beta');
-            states.push('alpha');
-        } else if (filter === 'all') {
-            states.push('beta');
-            states.push('alpha');
-            states.push('experimental');
-        }
+            var states = ['approved'];
 
-        $.getJSON("lists/index.json", function (data) {
-            var filtered = data;
-            filtered.index.forEach(section =>
-                section.index.forEach(race => {
-                    race.lists = race.lists.filter(item => states.includes(item.status))
-                }));
+            if (filter === 'beta') {
+                states.push('beta');
+            } else if (filter === 'alpha') {
+                states.push('beta');
+                states.push('alpha');
+            } else if (filter === 'all') {
+                states.push('beta');
+                states.push('alpha');
+                states.push('experimental');
+            }
 
-            $("#content").append(eaTemplating.templates['list'](filtered))
+            $.getJSON("lists_de/index.json", function (data) {
+                var filtered = data;
+                filtered.index.forEach(section =>
+                    section.index.forEach(race => {
+                        race.lists = race.lists.filter(item => states.includes(item.status))
+                    }));
+
+                $("#content").append(eaTemplating.templates['list'](filtered))
+            });
         });
-    });
-</script>
+    </script>

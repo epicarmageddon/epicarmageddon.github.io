@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Imperiale Flotte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Blitzschlag-Jäger",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 6,
+        "weapons": [
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC Underwing Raketen||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Blitzschlag-Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC Maschinenkanone"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Donnerkeil-Jäger",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 6,
+        "weapons": [
+          "AC-Multilaser||FxF",
+          "AC Underwing Raketen||FxF",
+          "AC Sturmbolter||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Avenger-Jagdbomber",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 5,
+        "weapons": [
+          "AC-Avenger-Bolterkanone||FxF",
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC-Schwerer-Maschinengewehr-Turm"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Marauder-Bomber (B)",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC Bombe Racks||FxF",
+          "AC-Zwillings-Schwerbolterturm|2|"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Marauder-Zerstörer",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC Zwillings-Maschinenkanone|3|FxF",
+          "AC-Raketenbatterie||FxF",
+          "AC Zwillings-Sturmkanone Turm||",
+          "AC-Zwillings-Schwerbolterturm||"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Marauder Koloss",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC Koloss Bombe||FxF",
+          "AC-Zwillings-Schwerbolterturm|2|"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Kreuzer der Lunar-Klasse",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss"
+        ]
+      },
+      {
+        "name": "Schlachtschiff der Emperor-Klasse",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "8BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 auf dem Schlachtfeld eintreffen)"
+        ]
+      }
+    ]
+  }
+]

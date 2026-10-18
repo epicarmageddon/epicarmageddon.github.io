@@ -1,0 +1,363 @@
+[
+  {
+    "name": "Chaosflotte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Höllenklinge Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "AC-Reaper-Maschinenkanone|2|FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Höllenklaue-Jagdbomber",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 5,
+        "weapons": [
+          "AC-Havoc-Werfer||FxF",
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC Incendiary Bomben||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Höllendrache",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "AC Hades Maschinenkanone||FxF",
+          "AC Piston-Driven Klauen"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Baledrake-Jagdbomber",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 5,
+        "weapons": [
+          "AC-Höllenflammenwerfer||FxF",
+          "AC Piston-Driven Klauen"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Doomwing",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 6,
+        "weapons": [
+          "AC Flammen Kanone||FxF"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Firelord",
+        "type": "AC",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC Incendiary Bomben||FxF",
+          "AC Flammen Kanone||FxF",
+          "Blackstar-Hurrikanbolter||FxF"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+    },
+      {
+        "name": "Harbringer-Bomber (B)",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC Schwerer Incendiary Bomben||FxF",
+          "AC-Zwillings-Reaper-Maschinenkanone|2|FxF",
+          "AC-Kombibolter|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "crit": "Harbringer-Bomber (B) wird zerstört."
+      },
+      {
+        "name": "Seuchenbringer-Bomber (B)",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "weapons": [
+          "AC Blight Bomben||FxF",
+          "AC-Zwillings-Reaper-Maschinenkanone|2|FxF",
+          "AC-Kombibolter|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Unmodifizierter Rettungswurf"
+        ],
+        "crit": "Seuchenbringer-Bomber (B) wird zerstört."
+      },
+      {
+        "name": "Chaos-Xiphon-Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "AC-Hurrikanbolter||FxF",
+          "AC Xiphon Rotary Raketenwerfer||FxF"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Sturmadler der Alpha Legion",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Hurrikanbolter||FxF",
+          "AC-Zwillings-Schwere Bolter||FxF",
+          "Vengeance Werfer||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann vier Infanterieeinheiten ohne Beritten transportieren; Terminatoren, Dämonenprinzen, Chaosbruten, große Mutanten und Cybots zählen jeweils als zwei Einheiten. Gilt beim Transport als Chaos-Thunderhawk.",
+        "crit": "Der Sturmadler und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Chaos-Feuerraptor",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC-Zwillings-Avenger-Bolterkanone||FxF",
+          "AC-Raketenbatterie||FxF",
+          "AC-Vierlings-Schwere Bolter-Türme||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Fire Raptor wird zerstört."
+      },
+      {
+        "name": "Chaos-Thunderhawk",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Kampfgeschütz||FxF",
+          "AC-Zwillings-Schwere Bolter|2|FxF",
+          "AC-Zwillings-Schwere Bolter||Left",
+          "AC-Zwillings-Schwere Bolter||Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann acht Infanterieeinheiten transportieren; Terminatoren, Dämonenprinzen, Chaosbruten, große Mutanten und Cybots zählen jeweils als zwei Einheiten.",
+        "crit": "Thunderhawk und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Thunderhawk der Night Lords",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "AC-Laserzerstörer||FxF",
+          "AC-Reaper-Maschinenkanone|2|FxF",
+          "AC-Reaper-Maschinenkanone||Left",
+          "AC-Reaper-Maschinenkanone||Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 8 Infanterieeinheiten transportieren; Terminatoren, Dämonenprinzs, Chaosbrut, Große Mutanten und Cybots zählen jeweils als 2 Einheiten.",
+        "crit": " Thunderhawk und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Thunderhawk der Alpha Legion",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Kampfgeschütz||FxF",
+          "AC-Zwillings-Schwere Bolter|2|FxF",
+          "AC-Zwillings-Schwere Bolter||Left",
+          "AC-Zwillings-Schwere Bolter||Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Starrköpfig",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann 8 Infanterieeinheiten transportieren; Terminatoren, Dämonenprinzs, Chaosbrut, Große Mutanten und Cybots zählen jeweils als 2 Einheiten.",
+        "crit": " Thunderhawk und alle transportierten Einheiten werden zerstört."
+      },
+      {
+        "name": "Chaos-Sturmvogel",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Blackstar-Hurrikanbolter|3|FxF",
+          "AC-Zwillings-Schwere Bolter|2|Left",
+          "AC-Zwillings-Schwere Bolter|2|Right"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann zwölf Infanterieeinheiten transportieren; Chaosbruten, Terminatoren und Cybots zählen jeweils als zwei Einheiten. Gilt beim Transport als Thunderhawk.",
+        "crit": "Stormbird und alle transportierten Einheiten werden zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Leichter Kreuzer der Hellbringer-Klasse",
+        "type": "SC",
+        "weapons": [
+          "Präzisionsschuss"
+        ],
+        "notes": "Transporter: Kann 8 Infanterieeinheiten transportieren. Diese dürfen das Schlachtfeld nur durch Teleportation betreten."
+      },
+      {
+        "name": "Kreuzer der Devastation-Klasse",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss"
+        ],
+        "notes": "Transporter: Kann 20 Infanterieeinheiten oder Cybots sowie drei Thunderhawks und genügend Dreadclaws für den Transport aller übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Plagueship",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 eintreffen)"
+        ]
+      },
+      {
+        "name": "Warpship",
+        "type": "SC",
+        "weapons": [
+          "Präzisionsschuss"
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 eintreffen)"
+        ]
+      },
+      {
+        "name": "Schlachtschiff der Despoiler-Klasse",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss|2|"
+        ],
+        "specialRules": [
+          "Verzögerte Ankunft (darf erst ab Runde 2 eintreffen)"
+        ],
+        "notes": "Transporter: Kann 30 Infanterieeinheiten oder Cybots sowie sechs Thunderhawks und genügend Dreadclaws für den Transport aller übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Chaos-Angriffskreuzer",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 20 Infanterieeinheiten oder Cybots sowie 20 leichte oder gepanzerte Fahrzeugeinheiten (außer Cybots), sechs Thunderhawks und genügend Landungskapseln und Thunderhawk-Transporter für den Transport aller übrigen mitgeführten Einheiten transportieren."
+      },
+      {
+        "name": "Landungskapsel der Alpha Legion",
+        "weapons": [
+          {
+            "name": "Todeswind",
+            "modes": [
+              {
+                "firepower": "AP6+/AT6+",
+                "range": 15
+              }
+            ]
+          }
+        ],
+        "specialRules": [
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann einen Verband transportieren, der ausschließlich aus folgenden Einheiten besteht: Alpha-Legion-Marines, Alpha-Legion-Havocs, Alpha-Legion-Kopfjäger, Lernaean-Terminatoren oder Alpha Legion Cybots. Nach der Landung der Landungskapsel greift ihr Todeswind alle gegnerischen Einheiten innerhalb von 15 cm an. Jeder angegriffene gegnerische Verband erhält eine Beschussmarke, weil er unter Beschuss gerät, sowie eine zusätzliche Beschussmarke pro Verlust. Anschließend müssen alle transportierten Truppen innerhalb von 5cm zur Landungskapsel oder zu einer bereits gelandeten Einheit desselben Verbands aussteigen, sofern alle Einheiten innerhalb von 15 cm zur Landungskapsel aufgestellt werden. Die Modelle der Landungskapsel sollten vom Spielfeld entfernt werden, sobald der transportierte Verband ausgestiegen ist."
+      }
+    ]
+  }
+]

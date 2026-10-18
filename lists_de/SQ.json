@@ -1,0 +1,441 @@
+[
+  {
+    "name": "Squat-Streitkräfte",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Lebender Ahne",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Geisterlords",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Klan-Großlord",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Energiewaffe",
+          "Maschinenkanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Klanlord",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Energiewaffe",
+          "Maschinenkanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Anführer",
+          "Befehlshaber"
+        ]
+      },
+      {
+        "name": "Squat-Techpriester",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Axt des Omnissiah"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Squat-Krieger",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Lasergewehre",
+          "Raketenwerfer"
+        ],
+        "specialRules": [
+        ],
+        "notes": "Jede zweite Einheit (aufgerundet) ist mit einem Missile Launcher bewaffnet."
+      },
+      {
+        "name": "Squat-Berserker",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Laserpistolen",
+          "Kettenschwerter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Squat-Hearthguards",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Heirloom Geschütze"
+        ],
+        "specialRules": [
+          "Inspirierend",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Squat-Donnerer",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Mehrere Laserkanonen",
+          "Mehrere schwere Bolter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Maulwurf-Mörser",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Mole Mörser"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Thudd-Geschütz",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Thudd Geschütz"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Rapier",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Rapier Laserzerstörer"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Gildenmeister-Trike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Bolter",
+          "Trike Energielanze"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Squat-Trike",
+        "type": "LV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Multimelter"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Squat-Biker",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Bolter"
+        ],
+        "specialRules": [
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Squat-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Squat-Klanlord, Großklanlord und Squat-Salvenkanone-Einheiten belegen jeweils 2 Plätze. Beim Transport von Squat-Salvenkanonen wird die Geschwindigkeit der Squat-Rhinos auf 20 cm reduziert."
+      },
+      {
+        "name": "Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Laserkanone|2",
+          "Zwillings-Schwere Bolter"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Squat-Klanlord- und Grand-Klanlord-Einheiten belegen jeweils 2 Plätze."
+      },
+      {
+        "name": "Squat-Thunderfire",
+        "type": "AV",
+        "speed": 5,
+        "armour": 5,
+        "ff": 6,
+        "weapons": [
+          "Squat-Donnerfeuerkanonen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Eisenadler-Gyrokopter",
+        "type": "AV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Maschinenkanone",
+          "Ragnarok Kampfgeschütz"
+        ],
+        "specialRules": [
+          "Scout, Antigrav"
+        ]
+      },
+      {
+        "name": "Bronze-Raben-Kanonenboot",
+        "type": "AC",
+        "speed": "Bomber (B)[*]",
+        "armour": 5,
+        "weapons": [
+          "Blackstar-Hurrikanbolter||FxF",
+          "AC Raketenwerfer|3|"
+        ],
+        "specialRules": [
+        ],
+        "notes": "[*] Bronze Raven Gunships sind Bomber (B), die auch die Aktion „Abfangen“ durchführen dürfen."
+      },
+      {
+        "name": "Overlord-Luftschiff",
+        "type": "WE",
+        "speed": 25,
+        "armour": 3,
+        "ff": 4,
+        "weapons": [
+          "Ragnarok Kampfgeschütz|6|FxF",
+          "Zwillings-Maschinenkanone|2|FxF",
+          "Overlord-Sperrfeuer||FxF",
+          "Flakkanonen"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Hilfstransportschiff"
+        ],
+        "crit": "Overlord wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      },
+      {
+        "name": "Termite",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Sturmbolter"
+        ],
+        "specialRules": [
+          "Verstärkte Heckpanzerung",
+          "Tunnelgräber",
+          "Transport"
+        ],
+        "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Squat-Klanlord-Einheiten belegen jeweils 2 Plätze."
+      },
+      {
+        "name": "Höllenbohrer",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Sturmbolter Batterie"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Furchtlos",
+          "Verstärkte Heckpanzerung",
+          "Tunnelgräber",
+          "Transport"
+        ],
+        "notes": "Kann 12 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Squat-Klanlord-Einheiten belegen jeweils 2 Plätze.",
+        "crit": "Hellbore wird zerstört."
+      },
+      {
+        "name": "Goliath",
+        "type": "WE",
+        "speed": "5cm",
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Squat-Megakanone"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Die Einheit wird zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Leviathan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Squat-Weltuntergangskanone||FxF",
+          "Ragnarok Kampfgeschütz",
+          "Zwillings-Laserkanone|6|FxF",
+          "Sturmbolter Batterie"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 4",
+          "Null-Schilde: 4",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Furchtlos",
+          "Transport"
+        ],
+        "notes": "Kann 12 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Bis zu 2 Einheiten dürfen von der Kampfplattform des Leviathan aus schießen und sich mit ihrem FF an Feuergefechten beteiligen.",
+        "crit": "Leviathan ist bewegungsunfähig und darf sich für den Rest des Spiels nicht mehr bewegen. 1W3 zufällige transportierte Einheiten erleiden einen Treffer. Weitere kritische Treffer zerstören Leviathan."
+      },
+      {
+        "name": "Zyklop",
+        "type": "WE",
+        "speed": "15",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Salvenkanone und Drohnen||FxF",
+          "Ragnarok Kampfgeschütz",
+          "AC-Zwillings-Shurikenkanone|6|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 5",
+          "Null-Schilde: 4",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Furchtlos"
+        ],
+        "crit": "Zyklop darf seine Hellfury Cannon nicht mehr abfeuern. Weitere kritische Treffer zerstören Zyklop, und alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Koloss",
+        "type": "WE",
+        "speed": "15",
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Squat-Weltuntergangskanone||FxF",
+          "Ragnarok Kampfgeschütz|4|FxF",
+          "Belagerungskanone||FxF",
+          "Plasma-Rakete|4|FwA",
+          "Sturmbolter Batterie"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 5",
+          "Null-Schilde: 4",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Furchtlos"
+        ],
+        "crit": "Koloss ist bewegungsunfähig und darf sich für den Rest des Spiels nicht mehr bewegen. Weitere kritische Treffer zerstören Koloss."
+      },
+      {
+        "name": "Squat-Landzug",
+        "type": "WE",
+        "speed": "20",
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Squat-Mjolnir-Kanone||FxF",
+          "Ragnarok Kampfgeschütz|2|",
+          "Sturmbolter Batterie",
+          "SCHLACHTWAGEN-WAFFEN",
+          "Berserker Kampf-Car",
+          "Dragon Kampf-Car",
+          "Belagerungsmörser Kampf-Car",
+          "0–1 Bombe Kampf-Car"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2 + aktuelle Anzahl Kampf-Cars",
+          "Null-Schilde: aktuelle Anzahl Kampf-Cars",
+          "Verstärkte Panzerung",
+          "Furchtlos"
+        ],
+        "notes": "[*] Jeder Berserker-Kampf-Car darf 1 Einheit Squat-Berserker transportieren. Diese darf während des Transports im Landzug an Feuergefechten teilnehmen.",
+        "crit": "Der letzte Kampf-Car im Zug wird zerstört. Bleibt kein Kampf-Car übrig, wird die Land-Train-Lokomotive zerstört."
+      }
+    ]
+  }
+]

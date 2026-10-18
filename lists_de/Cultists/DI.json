@@ -1,0 +1,274 @@
+{
+  "fraction": "Chaos-Kultisten",
+  "army": "Dämonische Invasion",
+  "version": "1.0.Beta",
+  "release": "2023-03-08",
+  "armyforge": "EAR_Chaos_DaemonicIncursion",
+  "strategy": "Eine nicht gemischte Armee der Dämonischen Invasion (ausschließlich mit dämonischen Verbänden einer Chaosmacht) hat einen Strategiewert von 1, eine gemischte Armee der Dämonischen Invasion hingegen von 0.",
+  "Initiative": "Verbände mit Erhabenen Großen Dämonen haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der Dämonischen Invasion",
+    "Dämonische Instabilität",
+    "Launische Meister",
+    "Das Große Ritual",
+    "Schrecken aus dem Jenseits",
+    "Chaostor",
+    "Ewige Feindschaft des Dämonischen Einfalls"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee auf Grundlage einer Dämonischen Invasion aufzustellen, unterstützt von den Verlorenen und Verdammten."
+  ],
+  "units": [
+    {
+      "from": "daemons.json",
+      "units": [
+        "Herold des Slaanesh",
+        "Herold des Slaanesh auf Sucherstreitwagen",
+        "Dämonetten des Slaanesh",
+        "Slaaneshbestien",
+        "Slaanesh-Reiterinnen",
+        "Herold des Nurgle auf einer Sänfte",
+        "Herold des Nurgle auf Seuchenfliege",
+        "Seuchenhüter des Nurgle",
+        "Seuchenbestien des Nurgle",
+        "Seuchendrohnen des Nurgle",
+        "Herold des Khorne auf Schädelkanone",
+        "Herold des Khorne auf Moloch",
+        "Zerfleischer des Khorne",
+        "Bluthunde des Khorne",
+        "Zerschmetterer des Khorne",
+        "Herold des Tzeentch",
+        "Herold des Tzeentch auf Brennendem Streitwagen",
+        "Horrors des Tzeentch",
+        "Feuerdämonen des Tzeentch",
+        "Kreischer des Tzeentch",
+        "Erhabener Hüter der Geheimnisse",
+        "Hüter der Geheimnisse",
+        "Erhabener Großer Verpester",
+        "Großer Verpester",
+        "Erhabener Blutdämon",
+        "Blutdämon",
+        "Erhabener Herrscher des Wandels",
+        "Herrscher des Wandels",
+        "Seelenzermalmer"
+      ],
+      "unitRules": [
+          "Verstärkte Beschwörung (+x)",
+          "Dämonischer Fokus",
+          "Warp-Riss"
+      ]
+    },
+    {
+      "from": "chaoscultists.json",
+      "units": [
+        "Ikonenträger",
+        "Aufstrebender Champion",
+        "Kultisten",
+        "Mutanten",
+        "Große Mutanten",
+        "Chaosbrut",
+        "Landtransporter",
+        "Bewaffneter Geländewagen",
+        "Chaos-Hunde",
+        "Warpaltar"
+      ],
+      "unitRules": [
+      ]
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Höllendrache"
+    ],
+    "unitRules": [
+    ]
+  }
+  ],
+  "sections": [
+    {
+      "name": "Sonderregeln der Dämonischen Invasion",
+      "description": "Die Armee muss ein Chaostor enthalten.",
+      "formations": [
+        {
+          "name": "1 Chaostor",
+          "units": "Ersetze den Blitz-Zielmarker in der Spielfeldhälfte des Spielers der Daemonischen Invasion durch ein Chaostor. Er zählt sowohl als Zielmarker als auch als Chaostor.",
+          "upgrades": [
+          ],
+          "points": "0"
+        }
+      ]
+    },
+    {
+      "name": "1+ Erhabene Große Dämonen. Höchstens einer pro 1500 Punkte der Armee.",
+      "formations": [
+        {
+          "name": "Erhabener Großer Dämon des Slaanesh",
+          "units": "Ein Erhabener Hüter der Geheimnisse",
+          "extraUnits": [
+            "Seelenzermalmer"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Erhabener Großer Dämon des Nurgle",
+          "units": "Ein Erhabener Großer Verpester",
+          "extraUnits": [
+            "Seelenzermalmer"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Erhabener Großer Dämon des Khorne",
+          "units": "Ein Erhabener Blutdämon",
+          "extraUnits": [
+            "Seelenzermalmer"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Erhabener Großer Dämon des Tzeentch",
+          "units": "Ein Erhabener Herrscher des Wandels",
+          "extraUnits": [
+            "Seelenzermalmer"
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Dämonenlegionen",
+      "description": "Es dürfen beliebig viele Verbände der Dämonenlegionen aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Slaanesh-Legion des Übermaßes",
+          "units": "Zwei Herolde des Slaanesh und fünf Punkte aus dem Pool niederer Dämonen",
+          "extraUnits": [
+            "Ersetze zwei Herolde des Slaanesh durch einen Hüter der Geheimnisse: 125 Punkte",
+            "Ersetze zwei Herolde des Slaanesh durch zwei Herolde des Slaanesh auf Sucherstreitwagen: 25 Punkte",
+            "Seelenzermalmer"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Nurgles Seuchenlegion",
+          "units": "Zwei Herolde des Nurgle auf einer Sänfte und fünf Punkte aus dem Pool niederer Dämonen",
+          "extraUnits": [
+            "Ersetze zwei Herolde des Nurgle auf einer Sänfte durch einen Großen Verpester: 125 Punkte",
+            "Ersetze zwei Herolde des Nurgle auf einer Sänfte durch zwei Herolde des Nurgle auf Seuchenfliegen: 25 Punkte",
+            "Seelenzermalmer"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Khornes Blutlegion",
+          "units": "Zwei Herolde des Khorne auf Molochen und fünf Punkte aus dem Pool niederer Dämonen",
+          "extraUnits": [
+            "Ersetze zwei Herolde des Khorne auf Molochen durch einen Blutdämon: 150 Punkte",
+            "Ersetze zwei Herolde des Khorne auf Molochen durch zwei Herolde des Khorne auf Schädelkanonen: 25 Punkte",
+            "Seelenzermalmer"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Tzeentchs Schillernde Legion",
+          "units": "Zwei Herolde des Tzeentch und fünf Punkte aus dem Pool niederer Dämonen",
+          "extraUnits": [
+            "Ersetze zwei Herolde des Tzeentch durch einen Herrscher des Wandels: 150 Punkte",
+            "Ersetze zwei Herolde des Tzeentch durch zwei Herolde des Tzeentch auf Brennenden Streitwagen: 25 Punkte",
+            "Seelenzermalmer"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Sterbliche und Dämonenmaschinen",
+      "description": "Bis zur Hälfte der verfügbaren Punkte darf für Verbände aus Sterblichen und Dämonenmaschinen ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Kultisten-Konklave",
+          "units": "Dämonenpakt, ein aufstrebender Champion, neun Chaos-Kultisten und/oder Mutanten",
+          "extraUnits": [
+            "Kultisten/Mutanten",
+            "Chaos-Hunde",
+            "Bewaffnete Geländewagen",
+            "Chaosbrut",
+            "Große Mutanten",
+            "Ikonenträger",
+            "Landtransporter",
+            "Warpaltar"
+          ],
+          "points": 175
+      },
+      {
+        "name": "Höllendrachen",
+        "units": "Zwei Höllendrachen",
+        "points": 225
+      }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Dämonischen Invasion",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Seelenzermalmer",
+        "description": "Füge bis zu zwei Seelenzermalmer hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Ikonenträger",
+        "description": "Füge einen Ikonenträger hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Kultisten/Mutanten",
+        "description": "Füge bis zu vier Kultisten/Mutanten hinzu",
+        "points": "10 Punkte pro Stück"
+      },
+      {
+        "name": "Große Mutanten",
+        "description": "Ersetze bis zu vier Kultisten/Mutanten durch Große Mutanten",
+        "points": "15 Punkte pro Stück"
+      },
+      {
+        "name": "Chaosbrut",
+        "description": "Füge eine Chaosbrut hinzu",
+        "points": "35 Punkte"
+      },
+      {
+        "name": "Chaos-Hunde",
+        "description": "Füge bis zu drei Chaos-Hunde hinzu",
+        "points": "10 Punkte pro Stück"
+      },
+      {
+        "name": "Bewaffnete Geländewagen",
+        "description": "Füge bis zu 4 Bewaffnete Geländewagen hinzu",
+        "points": "20 Punkte pro Stück"
+      },
+      {
+        "name": "Landtransporter",
+        "description": "Füge genügend Landtransporter hinzu, um den Verband zu transportieren",
+        "points": "10 Punkte pro Stück"
+    },
+    {
+      "name": "Warpaltar",
+      "description": "Füge einen Warpaltar hinzu",
+      "points": "150 Punkte"
+    }
+    ]
+  }
+}

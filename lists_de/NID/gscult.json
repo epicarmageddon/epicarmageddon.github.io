@@ -1,0 +1,306 @@
+{
+  "fraction": "Tyraniden",
+  "army": "Kult der Rostklaue",
+  "version": "1.0.beta-3",
+  "release": "2024-05-21",
+  "armyforge": "EAR_GenestealerCult_Cult",
+  "intro": "Mit der Armeeorganisationsplan des Kults der Rostklaue kannst du eine Armee dieses Symbiontenkults aufstellen. Die Liste stellt eine Armee mit Einheiten aus allen Phasen des Infektionszyklus der Symbionten dar.",
+  "strategy": "Symbiontenkult-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Alle Verbände haben einen Initiativewert von 2+ und unterliegen der Sonderregel 'Brutbewusstsein'.",
+  "specialRules": [
+    "Brutkult",
+    "Brutbewusstsein",
+    "Extreme Beweglichkeit (Symbiontenkult)",
+    "Charaktere des Symbiontenkults",
+    "Tunnelgräber"
+  ],
+  "units": [
+    {
+      "from": "GS2.json",
+      "units": [
+        "Symbiarch",
+        "Symbiontenmagus",
+        "Symbiontenpatriarch",
+        "Symbiontenprimus",
+        "Hybrid-Ikonwart",
+        "Akolythenhybriden",
+        "Symbionten",
+        "Aberranten",
+        "Metamorph-Hybriden",
+        "Neophyten",
+        "Neophyten-Ausreiter",
+        "Neophyten-Feuerunterstützung",
+        "Kult-Schwerer-Mörser",
+        "Ridgerunner",
+        "Landtransporter",
+        "Ausreiter-Quadbike",
+        "Bewaffneter Geländewagen",
+        "Konklaven-Limousine",
+        "Goliath-Truck",
+        "Goliath-Schürfer",
+        "Transportlasterkanone",
+        "Sturm-Bagger"
+      ],
+      "unitRules": [
+        "Erweiterte Befehlsreichweite",
+        "Ehrengarde"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Basilisk",
+        "Chimäre",
+        "Höllenhund",
+        "Hydra",
+        "Leman Russ Kampfpanzer",
+        "Sentinel"
+      ],
+      "unitRules": []
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Donnerkeil-Jäger"
+      ],
+      "unitRules": []
+    }
+  ],
+  "sections": [
+    {
+      "name": "Akolyten-Verbände",
+      "description": "Es muss eine Brutkult-Verband gewählt werden.",
+      "formations": [
+        {
+          "name": "1 Brutkult",
+          "units": "Ein Symbiontenpatriarch und acht Metamorph-Hybriden",
+          "extraUnits": [
+            "Kulttransporter",
+            "Symbionten",
+            "Bewaffnete Geländewagen"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Akolythenkult",
+          "units": "Ein Metamorph-Hybrid mit einem Hybrid-Ikonwart und sieben Akolythenhybriden",
+          "extraUnits": [
+            "Minenstollen-Infiltratoren",
+            "Aberranten",
+            "Akolythenhybriden",
+            "Konklaven-Anführer",
+            "Kulttransporter",
+            "Schwere Bergbaumaschinen",
+            "Bewaffnete Geländewagen"
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Elite-Verbände",
+      "description": "Pro Akolythenformation darf eine Eliteformation gewählt werden.",
+      "formations": [
+        {
+          "name": "Atalan-Schakale",
+          "units": "Ein Hybrid-Ikonwart, zehn Neophyten-Ausreiter",
+          "extraUnits": [
+            "Konklaven-Anführer",
+            "Ausreiter-Quadbikes",
+            "Bewaffnete Geländewagen"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Symbiontenschwarm",
+          "units": "Ein Symbiontenpatriarch, sechs Symbionten",
+          "extraUnits": [
+            "Symbionten"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Sturmangriffs-Konklave",
+          "units": "Ein Hybrid-Ikonwart, vier Aberranten und entweder vier Goliath-Trucks oder vier Goliath-Schürfer",
+          "extraUnits": [
+            "Konklaven-Anführer",
+            "Bewaffnete Geländewagen"
+          ],
+          "points": 275
+      },
+      {
+        "name": "Ridgerunner-Staffel",
+        "units": "Sechs Ridgerunner",
+        "points": 200
+      }
+      ]
+    },
+    {
+      "name": "Unterstützungsformationen",
+      "description": "Bis zu eine Unterstützungsformation pro Akolythenformation.",
+      "formations": [
+        {
+          "name": "Mechanisierter Neophytenzug",
+          "units": "Ein Hybrid-Ikonwart, sechs Neophyten und drei Chimären",
+          "extraUnits": [
+            "Konklaven-Anführer",
+            "Flak",
+            "Höllenhunde"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Neophytenkompanie",
+          "units": "Ein Hybrid-Ikonwart, dreizehn Neophyten",
+          "extraUnits": [
+            "Konklaven-Anführer",
+            "Unterstützungswaffen"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Sentinel-Staffel",
+          "units": "Vier Sentinels",
+          "extraUnits": [],
+          "points": 100
+        },
+        {
+          "name": "Flakbatterie",
+          "units": "Drei Hydras",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Artilleriebatterie",
+          "units": "Drei Basilisken",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Leman-Russ-Staffel",
+          "units": "Vier Leman-Russ-Kampfpanzer",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Donnerkeil-Jäger",
+          "units": "Zwei Donnerkeil-Jäger",
+          "extraUnits": [],
+          "points": 175
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Minenstollen-Infiltratoren",
+        "description": "Alle Einheiten im Verband erhalten die Sonderregel „Tunnelgräber“, dürfen aber nur die Aufwertungen „Akolythen“, „Aberranten“ und „Konklaven-Anführer“ haben.",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Aberranten",
+        "description": "Ersetze bis zu zwei Akolythenhybriden durch Aberranten.",
+        "points": "15 Punkte pro Stück"
+      },
+      {
+        "name": "Akolythenhybriden",
+        "description": "Füge bis zu vier Akolythenhybriden hinzu.",
+        "points": "15 Punkte pro Stück"
+      },
+      {
+        "name": "Akolythen-Transporter",
+        "description": "Füge dem Verband so viele Kultisten-Landtransporter, Konklaven-Limousinen, Goliath-Trucks oder Goliath-Schürfer hinzu, wie erforderlich sind, um alle Infanterieeinheiten zu transportieren.",
+        "options": [
+          {
+            "description": "Kultisten-Landtransporter (nur Akolythenkult)",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Konklaven-Limousine (nur Brutkult)",
+            "points": "15 Punkte pro Stück"
+          },
+          {
+            "description": "Goliath-Truck",
+            "points": "25 Punkte pro Stück"
+          },
+          {
+            "description": "Goliath-Schürfer",
+            "points": "25 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Konklaven-Anführer",
+        "description": "Ersetze einen Hybrid-Ikonwart durch einen Symbiontenprimus oder Symbiontenmagus.",
+        "options": [
+          {
+            "description": "Symbiontenprimus",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Symbiontenmagus",
+            "points": "25 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Unterstützungswaffen",
+        "options": [
+          {
+            "description": "Füge zwei Neophyten-Feuerunterstützungseinheiten hinzu.",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Füge drei Kult-Schwerer-Mörser-Unterstützungseinheiten hinzu.",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Flak",
+        "description": "Füge 1 Hydra hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Symbionten",
+        "description": "Füge bis zu drei Symbionten hinzu.",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Höllenhunde",
+        "description": "Füge bis zu zwei Höllenhunde hinzu.",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Schwere Bergbaumaschinen",
+        "description": "Füge eine Kriegsmaschine aus folgender Auswahl zum Verband hinzu.",
+        "options": [
+          {
+            "description": "Sturm-Bagger",
+            "points": "125 Punkte"
+          },
+          {
+            "description": "Transportlasterkanone",
+            "points": "150 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Quadbikes",
+        "description": "Ersetze bis zu fünf Neophyten-Ausreiter durch Ausreiter-Quadbikes.",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Bewaffnete Geländewagen",
+        "description": "Füge bis zu zwei Bewaffnete Geländewagen hinzu",
+        "points": "20 Punkte pro Stück"
+      }
+    ]
+  }
+}

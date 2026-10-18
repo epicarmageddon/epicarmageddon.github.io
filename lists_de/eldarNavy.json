@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Flotte der Weltenschiff-Eldar",
+    "specialRules": [
+
+    ],
+    "unit": [
+      {
+        "name": "Nachtschwinge-Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 5,
+        "weapons": [
+          "Höllenfeuerkanone",
+          "AC Laserlanze|2"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Nachtschatten-Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 4,
+        "weapons": [
+          "AC Laserlanze|2|"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Phönix-Bomber (B)",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 5,
+        "weapons": [
+          "Höllenfeuerkanone",
+          "AC Impulslaser",
+          "AC Spinner Batterie"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Hemlock-Phantomjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 4,
+        "weapons": [
+          "AC Schwerer D-Sense"
+        ],
+        "specialRules": [
+          "Weitsicht"
+        ]
+      },
+      {
+        "name": "Vampire Schattenbarke",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC Impulslaser|2|",
+          "AC Impulslaser"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Planetfall",
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann bis zu acht der folgenden Einheiten transportieren: Runenprophet, Gardisten, Eldar-Ranger, Schwerwaffenplattform, Unterstützungswaffe Platform, Banshees, Skorpionkrieger, Feuerdrachen, Asuryans Jäger, Schwarze Khaindar, Warpspinnen oder Kriegsfalken. Phantomdroiden und Phantomklingen belegen jeweils zwei Plätze.",
+        "crit": "Vampire Schattenbarke und alle Einheiten an Bord werden zerstört."
+      },
+      {
+        "name": "Vampire-Jäger",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC Vampire-Jäger-Zwillingspulsar",
+          "AC Eldar-Zwillingsraketenwerfer",
+          "AC Impulslaser"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Verstärkte Panzerung"
+        ],
+        "crit": "Vampire-Jäger wird zerstört."
+      },
+      {
+        "name": "Korsaren-Vampire-Jäger",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 5,
+        "weapons": [
+          "AC Vampire-Jäger-Zwillingspulsar",
+          "AC Zwillings-Phoenix Raketenwerfer",
+          "AC Impulslaser"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Verstärkte Panzerung",
+          "Holofeld (5+)",
+          "Transport"
+        ],
+        "notes": "Kann vier Korsaren-Geisterläufer oder Korsaren-Wespen transportieren.",
+        "crit": "Der Korsaren-Vampire-Jäger und alle Einheiten an Bord werden zerstört."
+      },
+      {
+        "name": "Phantomschiff",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "0–1x Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss|0-1|"
+        ],
+        "specialRules": [
+          "Ist entweder mit Orbitalbombardement oder einem Punktziel-Angriff ausgerüstet (die Auswahl erfolgt zu Beginn der Schlacht)"
+        ]
+      },
+      {
+        "name": "Drachenschiff",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "0–1x Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "8BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss|0-1 2|"
+        ],
+        "specialRules": [
+          "Ist entweder mit Orbitalbombardement oder zwei Präzisionsschüssen ausgerüstet (die Auswahl erfolgt zu Beginn der Schlacht)",
+          "Transport"
+        ],
+        "notes": "Kann bis zu zwölf Vampires und alle darin transportierten Einheiten mitführen."
+      }
+    ]
+  }
+]

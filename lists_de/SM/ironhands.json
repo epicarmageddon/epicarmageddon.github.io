@@ -1,0 +1,305 @@
+{
+  "fraction": "Space Marines",
+  "army": "Iron Hands",
+  "version": "1.0.beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusAstartes_IronHands",
+  "intro": "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee des Space-Marine-Ordens Iron Hands oder eines seiner Nachfolgeorden aufzustellen. Die Iron Hands sind für ihren umfangreichen Einsatz von Bionik und ihre Verehrung aller mechanischen Dinge bekannt, was ihre enge Verbindung zum Adeptus Mechanicus erklärt.",
+  "strategy": "Space Marine-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 1+.",
+  "armyRules": "Die Sonderregel <i>Sie kennen keine Furcht</i> gilt für alle Iron Hands-Kontingente und Flugzeugverbände.",
+  "specialRules": [
+    "Space-Marine-Transporter",
+    "Sie kennen keine Furcht"
+  ],
+  "usage": [
+    "Der folgende Armeeorganisationsplan ermöglicht es dir, eine Armee auf Grundlage der Iron Hands oder eines ihrer Nachfolgeorden aufzustellen und dabei ihre bevorzugten Einsatzmethoden zu nutzen."
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Captain der Iron Hands",
+        "Iron-Hands-Oberbefehlshaber",
+        "Techmarine",
+        "Iron-Hands-Devastortrupps",
+        "Taktische Trupps",
+        "Aufklärer",
+        "Cybot",
+        "Hellfire-Cybot",
+        "Ironclad-Cybot",
+        "Belagerungs-Cybot",
+        "Ehrwürdiger Cybot",
+        "Land Raider",
+        "Land Raider Anvilarum",
+        "Land Raider Helios",
+        "Land Raider Prometheus",
+        "Predator Annihilator",
+        "Predator Destructor",
+        "Razorback",
+        "Rhino",
+        "Belagerungs-Rhino",
+        "Stalker",
+        "Vindicator",
+        "Whirlwind",
+        "Sturmtalon",
+        "Thunderhawk-Transporter",
+        "Schlachtbarke",
+        "Angriffskreuzer",
+        "Landungskapsel"
+      ],
+      "unitRules": [
+        "Bionik",
+        "Erweiterte Befehlsreichweite",
+        "Reparaturen auf dem Schlachtfeld",
+        "Lanze"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Reaver-Titan, Hun-Klasse",
+        "Warhound "
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Iron Hands Kernkontingente",
+      "formations": [
+        {
+          "name": "Cybot Clan",
+          "units": "Ein Iron Hands Captain oder Techmarine, 4 Taktische Trupps plus Transporter und 2 beliebige der folgenden Einheiten: Cybot, Hellfire Cybot, Siege Cybot",
+          "extraUnits": [
+            "Flugabwehr",
+            "Oberbefehlshaber",
+            "Venerable Cybot",
+            "Ironclad Cybots",
+            "Cybots",
+            "Devastor-Trupps",
+            "Transports"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Mechanized Clan",
+          "units": "Ein Iron Hands Captain oder Techmarine, 4 Taktische Trupps plus Transporter und 2 beliebige der folgenden Einheiten: Predator Annihilator, Predator Destructor oder Vindicator",
+          "extraUnits": [
+            "Flugabwehr",
+            "Oberbefehlshaber",
+            "Devastor-Trupps",
+            "Transports",
+            "Vindicators"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Iron Hands Unterstützungskontingente",
+      "description": "Pro Kernkontingent dürfen zwei Unterstützungskontingente aufgestellt werden",
+      "formations": [
+        {
+          "name": "Cybot Talon",
+          "units": "Beliebige vier der folgenden Einheiten: Cybot, Hellfire Cybot, Siege Cybot. Plus Transporter.",
+          "extraUnits": [
+            "Venerable Cybot",
+            "Ironclad Cybots",
+            "Cybots"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Land Raiders",
+          "units": "Drei Land Raiders",
+          "extraUnits": [
+            "Füge 1 Land Raider hinzu: 50 Punkte",
+            "Helios",
+            "Flugabwehr",
+            "Vindicators"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Predators",
+          "units": "Vier Predator Destructors und/oder Predator Annihilators",
+          "extraUnits": [
+            "Flugabwehr"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Aufklärer",
+          "units": "Drei Aufklärer, drei Razorbacks",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Belagerungsscouts",
+          "units": "Vier Aufklärer, zwei Siege Rhinos und zwei Vindicators",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Vindicators",
+          "units": "Vier Vindicators",
+          "extraUnits": [
+            "Flugabwehr",
+            "Vindicators"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Whirlwinds",
+          "units": "Drei Whirlwinds",
+          "extraUnits": [
+            "Füge 1 Whirlwind zum Verband hinzu: 50 Punkte",
+            "Flugabwehr"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Iron Hands Flotte & Collegia Titanica Verbündete",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Sturmtalons",
+          "units": "Zwei Sturmtalons",
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk-Transporters",
+          "units": "Zwei Thunderhawk-Transporters",
+          "points": 275
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein Angriffskreuzer",
+          "extraUnits": [
+            "Schlachtbarke"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Warhound-Rudel",
+          "units": "Zwei Warhound-Titanen – Standard- oder Unterstützungskonfiguration",
+          "extraUnits": [
+            "Werte beide Warhound-Titanen auf die Panzerjäger-Konfiguration auf: 50 Punkte"
+          ],
+          "points": 475
+        },
+        {
+          "name": "Reaver",
+          "units": "Ein Reaver-Titan, Hun-Klasse",
+          "points": 625
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Iron Hands Aufwertungen",
+    "description": "Jede Aufwertung darf pro Kontingent nur einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Flugabwehr",
+        "options": [
+          {
+            "description": "Wähle eine der folgenden Optionen:"
+          },
+          {
+            "description": "Füge 1 Hunter zum Verband hinzu",
+            "points": "75 Punkte"
+          },
+          {
+            "description": "Füge 2 Hunters zum Verband hinzu",
+            "points": "125 Punkte"
+          },
+          {
+            "description": "Füge bis zu 2 Stalkers zum Verband hinzu",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Schlachtbarke",
+        "description": "Ersetze den Angriffskreuzer durch einen Schlachtbarke",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Devastor-Trupps",
+        "description": "Ersetze alle taktischen Trupps im Verband durch Devastortrupps der Iron Hands.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge 2 beliebige der folgenden Einheiten hinzu: Cybot, Hellfire Cybot oder Siege Cybot.",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Ironclad Cybots",
+        "description": "Ersetze bis zu 2 Cybots durch Ironclad Cybots",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Venerable Cybot",
+        "description": "Füge 1 Venerable Cybot character zu einem Cybot in beliebiger Konfiguration hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Helios",
+        "description": "Werte beliebig viele Land Raiders zu Land Raider Helios auf",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Oberbefehlshaber (0–1 pro Armee)",
+        "description": "Ersetze 1 Iron Hands Captain durch einen Iron Hands Oberbefehlshaber",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Transports",
+        "description": "Füge beliebig viele Razorbacks oder Land Raider variants hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "options": [
+          {
+            "description": "Der Verband darf Siege Rhinos statt Rhinos einsetzen.",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Razorback",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Land Raider",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Land Raider Anvilarum",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Land Raider Helios",
+            "points": "75 Punkte pro Stück"
+          },
+          {
+            "description": "0-1 Land Raider Prometheus",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge bis zu 2 Vindicators hinzu",
+        "points": [
+          "50 Punkte für einen",
+          "75 Punkte für zwei"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Black Legion",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Chaos_BlackLegion",
+  "intro": "Der Armeeorganisationsplan der Black Legion deckt ein breites Spektrum an Chaos-Space-Marine-Kriegsbanden und -Armeen des ungeteilten Chaos ab und bietet daher Zugriff auf mehr Einheitentypen als andere CSM-Listen.",
+  "strategy": "Chaos Space Marine-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Kern-, Elite- und Unterstützungsverbände der Black Legion sowie alle Verräter-Titanenverbände haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der Black Legion",
+    "Launische Meister",
+    "Dreadclaw-Landungskapseln der Black Legion",
+    "Charaktere der Black Legion"
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Kriegsherr",
+        "Chaosfürst",
+        "Hexerfürst",
+        "Chaoschampion",
+        "Ikonenträger",
+        "Dämonenprinz",
+        "Chaos Space Marines",
+        "Havocs",
+        "Auserkorene",
+        "Raptoren",
+        "Chaos-Terminatoren",
+        "Noise Marines",
+        "Seuchenmarines",
+        "Khorne Berserker",
+        "Rubrik-Marines",
+        "Kyborgs",
+        "Chaos-Sturmbikes",
+        "Chaos Rhino",
+        "Chaos Land Raider",
+        "Chaos Predator",
+        "Chaos Vindicator",
+        "Chaos-Cybot",
+        "Chaos-Jäger"
+      ],
+      "unitRules": [
+          "Verstärkte Beschwörung (+x)",
+          "Dämonischer Fokus"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Geißel",
+        "Dezimator",
+        "Todesrad"
+      ],
+      "unitRules": [
+        "Dämonenmaschine (x)"
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Dämonetten des Slaanesh",
+        "Seuchenhüter des Nurgle",
+        "Zerfleischer des Khorne",
+        "Horrors des Tzeentch",
+        "Hüter der Geheimnisse",
+        "Großer Verpester",
+        "Blutdämon",
+        "Herrscher des Wandels",
+        "Dämonische Bestien des ungeteilten Chaos"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Chaos-Warhound",
+        "Chaos-Reaver",
+        "Chaos-Kriegsherr"
+      ],
+      "unitRules": [
+        "Null-Schilde",
+        "Göttermaschine",
+        "Geteiltes Feuer"
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllenklinge Abfangjäger",
+        "Höllenklaue-Jagdbomber",
+        "Kreuzer der Devastation-Klasse",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Black Legion Kernverbände",
+      "formations": [
+        {
+          "name": "Gefolge der Black Legion",
+          "units": "Ein Chaos-Lord oder Sorcerer Lord, acht Chaos Space Marines",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Transport",
+            "Champion",
+            "Cult Marines",
+            "Dämonenpakt",
+            "Stalker",
+            "Dreadclaws",
+            "Ikonenträger",
+            "Vindicators",
+            "Havocs",
+            "Cybots"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Black Legion Eliteverbände",
+      "description": "Pro Kernverband darf ein Eliteverband aufgestellt werden",
+      "formations": [
+        {
+          "name": "Auserkorene",
+          "units": "Vier Auserkorene, zwei Chaos Rhinos",
+          "extraUnits": [
+            "Ersetze zwei Chaos Rhinos durch zwei Chaos-Cybots: 75 Punkte",
+            "Dämonenpakt"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Chaos-Terminatoren",
+          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Chaos Terminatoren",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Champion",
+            "Transport",
+            "Dreadclaws",
+            "Ikonenträger",
+            "Kyborgs",
+            "Cybots",
+            "Dämonenpakt"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Black Legion Unterstützungsverbände",
+      "description": "Pro Kernverband dürfen zwei Unterstützungsverbände aufgestellt werden",
+      "formations": [
+        {
+          "name": "Raptorenkult",
+          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Raptoren",
+          "extraUnits": [
+            "Füge bis zu 4 Raptoren hinzu: 30 Punkte pro Stück",
+            "Dämonenpakt"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Panzerkompanie",
+          "units": "Vier Chaos Predators",
+          "extraUnits": [
+            "Ersetze 4 Chaos Predators durch 4 Chaos Land Raiders: 75 Punkte",
+            "Stalker",
+            "Vindicators"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Havocs",
+          "units": "Ein Chaos-Lord oder Hexer-Lord, vier Havocs und zwei Chaos-Rhinos",
+          "extraUnits": [
+            "Ersetze 2 Chaos Rhinos durch Chaos Land Raiders: 75 Punkte",
+            "Dämonenpakt",
+            "Stalker",
+            "Vindicators"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Bike-Kompanie",
+          "units": "Ein Chaos-Lord oder Hexer-Lord und acht Chaos-Angriffsbikes",
+          "extraUnits": [
+            "Dämonenpakt",
+            "Ikonenträger"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Dark-Mechanicus-Dämonenmaschinen, Traitor Titans und Chaos-Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Geißel-Meute",
+          "units": "Vier Geißels",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Dezimator",
+          "units": "Ein Decimator",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Chaos-Warhound-Titan",
+          "units": "Ein Chaos Warhound-Titan",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Todesrad",
+          "units": "Ein Todesrad",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Chaos-Reaver-Titan",
+          "units": "Ein Chaos Reaver-Titan",
+          "points": 600
+        },
+        {
+          "name": "Chaos-Warlord-Titan",
+          "units": "Ein Chaos-Warlord-Titan",
+          "points": 750
+        },
+        {
+          "name": "Höllenklinge-Staffel",
+          "units": "Drei Höllenklinge Abfangjägers",
+          "points": 175
+        },
+        {
+          "name": "Höllenklaue-Staffel",
+          "units": "Zwei Höllenklaue-Jagdbomber",
+          "points": 225
+        },
+        {
+          "name": "0–1 Chaos Kreuzer",
+          "units": "Ein Kreuzer der Devastation-Klasse",
+          "extraUnits": [
+            "Schlachtschiff"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        },
+        {
+          "name": "Pool Großer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Greater-Daemon-Pool",
+          "points": 50
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Black Legion Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Schlachtschiff",
+        "description": "Ersetze den Kreuzer der Devastation-Klasse durch ein Schlachtschiff der Despoiler-Klasse",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Oberbefehlshaber (0–1 pro Armee)",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Ersetze den Chaos-Lord durch einen Klanlord",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze den Chaos-Lord & Einheit durch einen Dämonenprinz",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Transporter",
+        "description": "Füge so viele Chaos Rhinos oder Chaos Land Raider hinzu, wie benötigt werden, um alle Infanterieeinheiten des Verbands zu transportieren.",
+        "options": [
+          {
+            "description": "Chaos Rhinos (nur für das Gefolge)",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Chaos Land Raiders",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Dämonenpakt",
+        "description": "Füge den Dämonenpakt zum Verband hinzu und füge 1 Punkt zum Pool niederer Dämonen hinzu.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Chaos Cybots hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Champion",
+        "description": "Füge einen Chaoschampion hinzu.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Kultmarines",
+        "description": "Ersetze 4 Chaos Space Marines durch 4 Noise Marines, Khorne Berserker, Seuchenmarines oder Rubric Marines.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Ikonenträger",
+        "description": "Füge 1 Icon Bearer character hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Stalker",
+        "description": "Füge einen Stalker hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transportiere einen Verband, der ausschließlich Infanterieeinheiten und Cybots enthält, in Dreadclaws (der Verband muss auf einem Raumschiff aufgestellt werden).",
+        "points": "5 Punkte pro Einheit"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge bis zu 2 Chaos Vindicators hinzu",
+        "points": "35 Punkte pro Stück"
+      },
+      {
+        "name": "Havocs",
+        "description": "Ersetze 4 Chaos Space Marines durch 4 Havocs",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Kyborgs",
+        "description": "Füge bis zu 2 Kyborgs hinzu",
+        "points": "75 Punkte pro Stück"
+      }
+    ]
+  },
+  "about": [
+    "Die EA:Ragnarök-Liste der Black Legion basiert auf der NetEA-Version, weist aber einige wesentliche Unterschiede auf. Fraktionen gibt es nicht mehr; stattdessen handelt es sich um eine Armee des ungeteilten Chaos mit günstigeren Beschwörungskosten. Horrors ersetzen Feuerdämonen als grundlegende niedere Dämonen des Tzeentch, und die dämonischen Bestien wurden durch Furien ersetzt. Diese Änderungen erfolgten aus thematischen Gründen, vor allem aber, um die verschiedenen niederen Dämonen besser auszubalancieren. Alle Dämoneneinheiten haben stets einen unmodifizierten Rettungswurf – sowohl aus thematischen Gründen als auch, um Verwirrung zu vermeiden.",
+    "Havocs und Kultmarines ersetzen nun die Chaos Space Marines im Gefolge, anstatt sie zu ergänzen. Auserkorene dürfen keine Dreadclaw-Landungskapseln mehr nutzen und erhalten standardmäßig Chaos Rhinos, die sie aber durch Chaos-Cybots ersetzen dürfen. Chaos-Cybots sind mit einer Reaper-Maschinenkanone statt einer Zwillingsmaschinenkanone bewaffnet, damit ihre Feuerkraft der eines loyalistischen Cybots entspricht. Ein Stalker wurde hinzugefügt, um die Abhängigkeit der Liste von Kyborgs zu verringern. Kyborgs dürfen nur Chaos-Terminatoren hinzugefügt werden.",
+    "Chaos Land Raider sind günstiger, entsprechend der allgemeinen Senkung der Kosten für Transportfahrzeuge. Die Panzerkompanie wurde vom Kern- in den Unterstützungsbereich verschoben, kann aber Stalker erhalten; außerdem wurden Chaos Land Raider als Aufwertung etwas günstiger. Der Raptoren-Verband ist größer, kostet im Verhältnis zu seiner Größe aber etwas weniger. Alle Dämonenmaschinen haben einen Initiativwert von 2+ und stets einen unmodifizierten Rettungswurf. Zum Ausgleich für den niedrigeren Initiativwert verfügen sie außerdem über die Sonderregel „Dämonenmaschine (x)“, durch die die Einheiten der jeweiligen Chaosmacht thematisch auftreten und in einem Aspekt verlässlicher werden. Dadurch konnten Geißel-Verbände deutlich günstiger werden. Höllenklingen-Abfangjäger verwenden die E-UK-Werte; der Harbringer-Bomber (B) wurde in die Armee der Iron Warriors verschoben. Die Chaos-Titanen wurden günstiger und ihre Werte an die anderer imperialer Titanen angepasst. Das Chaos-Schlachtschiff ist ebenfalls etwas günstiger und verfügt über die Sonderregel „Verzögerte Ankunft“ statt „Langsam und Stetig“."
+  ]
+}

@@ -1,0 +1,1151 @@
+[
+  {
+    "name": "Streitkräfte des Dunklen Mechanicus",
+    "specialRules": [
+
+    ],
+    "unit": [
+      {
+        "name": "Erz-Heretek",
+        "type": "CH",
+        "weapons": [
+          "Arkane Technologie"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Dämonischer Fokus",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Dämonischer Fokus"
+        ]
+      },
+      {
+        "name": "Chaos-Ikone",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Verstärkte Beschwörung (+1)",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Höllenschmied",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Verbotene Technologie"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Adsecularis",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Mitralocks"
+        ],
+        "specialRules": [
+          "Maschinengeist",
+          "Furchtlos",
+          "Entbehrlich",
+          "Schwerfällig"
+        ]
+      },
+      {
+        "name": "Chrono-Gladiatoren",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "weapons": [
+          "Energie-Klauen"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Chaoszwerge",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Phospex-Serpenta"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Phospexor",
+        "type": "INF",
+        "speed": 10,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Phospex-Werfer"
+        ],
+        "specialRules": []
+      },
+      {
+        "name": "Arlatax-Kampautomaten",
+        "type": "LV",
+        "speed": 10,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Reaper-Maschinenkanone",
+          "Energiefaust"
+        ],
+        "specialRules": [
+          "Maschinengeist",
+          "Furchtlos",
+          "Entbehrlich",
+          "Schwerfällig"
+        ]
+      },
+      {
+        "name": "Chaos-Tarantel",
+        "type": "LV",
+        "speed": "Immobile",
+        "armour": 5,
+        "ff": 4,
+        "weapons": [
+          "Reaper-Maschinenkanone"
+        ],
+        "specialRules": [
+          "Maschinengeist",
+          "Furchtlos",
+          "Entbehrlich"
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Kombibolter"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann zwei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Höllen-Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Phospex-Blaster"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann eine Infanterieeinheit ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Macrocarid-Exploitator",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Phospex-Blaster|2|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann drei Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Gepanzerter Triaros-Verwüster",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Phospex-Blaster|3|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Transport"
+        ],
+        "notes": "Kann sechs Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
+      },
+      {
+        "name": "Krios-Blitzpanzer",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Blitzkanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Krios Venator",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Pulsar-Füsil"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung"
+        ]
+      },
+      {
+        "name": "Ordinatus Hereticus",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bolter|2|",
+          ">Kampfwaffen<",
+          "Turboblaster|0-1|FxF",
+          "Verdammnisbrenner|0-1|FxF",
+          "Plasma-Kremator|0-1|FxF",
+          "Zwillings-Hades Maschinenkanone|0-1|",
+          ">Unterstützungswaffen<",
+          "Plasma-Verbrenner|0-1|FxF",
+          "Kanone des Chaos|0-1|FxF",
+          "Cyclone-Kanone|0-1|FxF",
+          "4x Havoc-Sperrfeuer-Rakete|0-1|FwA"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Furchtlos"
+        ],
+        "notes": "Mit einer einzelnen Kampfwaffe bewaffnet. Kann zu einer Unterstützungswaffe aufgewertet werden.",
+        "crit": "Ordinatus wird zerstört, und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
+      },
+      {
+        "name": "Ordinatus Hereticus ",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bolter|2|",
+          "Turboblaster|0-1|FxF",
+          "Verdammnisbrenner|0-1|FxF",
+          "Plasma-Kremator|0-1|FxF",
+          "Zwillings-Hades Maschinenkanone|0-1|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Furchtlos"
+        ],
+        "notes": "Mit einem Turboblaster, Verdammnisbrenner, Plasma-Kremator oder einer Zwillings-Hades-Maschinenkanone bewaffnet.",
+        "crit": "Ordinatus wird zerstört, und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
+      },
+      {
+        "name": "Ordinatus Hereticus Majoris",
+        "type": "WE",
+        "speed": 10,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Bolter|2|",
+          "Laserkanone|2|",
+          ">Ordinatus Cyclothrathe<",
+          "Terrebrax-Phospex-Batterie||FxF",
+          ">Ordinatus Retlaxi<",
+          "Graviton-Singularitätsstrahler||FxF",
+          ">Ordinatus Temporia<",
+          "Gyrator Sperrfeuer Kanone||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Null-Schilde 4",
+          "Verstärkte Panzerung",
+          "Furchtlos"
+        ],
+        "crit": "Ordinatus wird zerstört, und alle Einheiten innerhalb von 5cm erleiden bei 4+ einen Treffer"
+      },
+      {
+        "name": "Ordinatus Cyclothrathe",
+        "type": "WE",
+        "speed": 10,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+            "Schwerer Bolter|2|",
+            "Laserkanone|2|",
+          "Terrebrax-Phospex-Batterie||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Null-Schilde 4",
+          "Verstärkte Panzerung",
+          "Furchtlos"
+        ],
+        "crit": "Ordinatus wird zerstört, und alle Einheiten innerhalb von 5cm erleiden bei 4+ einen Treffer"
+      },
+      {
+        "name": "Kaban-Maschine",
+        "type": "WE",
+        "speed": 25,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Kaban-Störsender||FwA",
+          "Kaban-Konversionsstrahler||FwA",
+          "Kaban-Schwanzgeschütze"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Null-Schilde 2",
+          "Anführer",
+          "Verstärkte Panzerung",
+          "Furchtlos"
+        ],
+        "crit": "Kaban-Maschine wird zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer."
+      },
+      {
+        "name": "Geißel",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Kampfgeschütz",
+          "Reaper-Maschinenkanone",
+          "Schwerer Flammenwerfer",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Höllenfeuerkanone",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Laserzerstörer-Batterie"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Schmiedebestie",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Hades Maschinenkanone"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Geländegängig",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Cerberit",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Ectoplasma Kanone|3|"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Geländegängig",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Schlächterbestie",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Lasher Ranken",
+          "Melterschneider"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Infiltratoren",
+          "Geländegängig",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Schwerer Cerberus-Panzer der Word Bearers",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Ectoplasma Batterie",
+          "Ectoplasma Kanone|2|"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Doomglaive-Ritter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Maschinengewehr",
+          "Multimelter",
+          "Schnitter-Kettenspalter"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Aufklärer",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Perfidor-Ritter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Reaper-Maschinenkanone",
+          "Schwerer Maschinengewehr"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Aufklärer",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Abtrünniger Ritter",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schnellfeuer Kampfgeschütz",
+          "Reaper-Maschinenkanone",
+          "Renegade Kettenschwert"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+      {
+        "name": "Tyrannenritter",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Blitzkanone",
+          "Pulsar-Füsil",
+          "Verdammnisschlag-Rakete|2|FwA",
+          "Hyperwellenhorn"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ],
+        "crit": "Der Tyrannenritter wird zerstört."
+      },
+      {
+        "name": "Dreadblade-Ritter",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Reaper-Maschinenkanone",
+          "Renegade Kettenschwert",
+          ">Incarnate Slaughter<",
+          "Hyperwellenhorn",
+          "Donnerschlaghandschuh",
+          ">Gilded King<",
+          "Schnellfeuer Kampfgeschütz",
+          "Sturmfurie-Raketen",
+          ">Hass auf Krastellan<",
+          "Schwerer Neutronenlaser",
+          ">Litanei der Zerstörung<",
+          "Laserzerstörer",
+          "Stormspear-Raketenbehälter"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonischer Fokus",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ]
+      },
+
+      {
+        "name": "Dezimator",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Decimator Kanone||FxF",
+          "Zwillings-Reaper-Maschinenkanone|4|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ],
+        "crit": "Decimator wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      },
+      {
+        "name": "Todesrad",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Kampfgeschütz|2|FxF",
+          "Reaper-Maschinenkanone|4|FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)"
+        ],
+        "crit": "Todesrad wird zerstört."
+      },
+      {
+        "name": "Chaos-Schrein",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Schwerer Kanone|2|FxF",
+          "Arkane Technologie||"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Ungeteiltes Chaos)",
+          "Transport"
+        ],
+        "notes": "Kann 14 Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren. Chaosbruten, Terminatoren und Cybots zählen jeweils als zwei Einheiten.",
+        "crit": "Schrein des Chaos erleidet 1 zusätzlichen Schaden. W3 transportierte Einheiten erleiden einen Treffer."
+      },
+      {
+        "name": "Entwürdiger",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster|2|",
+          "Todesheuler",
+          "Kampfklauen",
+          "Warp-Verstärker"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Slaanesh)"
+        ]
+      },
+      {
+        "name": "Höllenstreiter",
+        "type": "AV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Laserkanone",
+          "Multimelter"
+        ],
+        "specialRules": [
+          "Geländegängig",
+          "Aufklärer",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Slaanesh)"
+        ]
+      },
+      {
+        "name": "Höllenritter",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Thermallanze"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Slaanesh)"
+        ]
+      },
+      {
+        "name": "Höllengeißel",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Castigator Kanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Slaanesh)"
+        ]
+      },
+      {
+        "name": "Questor",
+        "type": "WE",
+        "speed": 30,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Castigator Kanone|2|",
+          "Laserkanone|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Slaanesh)"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Questor erleidet 1 Schaden."
+      },
+      {
+        "name": "Unterwerfer",
+        "type": "WE",
+        "speed": 30,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Tormentor Kanonen",
+          "Verdammnissirene",
+          "Ionengewehre|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Null-Schilde 2",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Slaanesh)"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Subjugator erleidet 1 Schaden."
+      },
+      {
+        "name": "Schänder",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Reaper-Maschinenkanone",
+          "Seuchenkanone",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig",
+          "Infiltratoren",
+          "Regeneration",
+          "Dämonenmaschine (Nurgle)"
+        ]
+      },
+      {
+        "name": "Seuchendrohne",
+        "type": "LV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Reaper-Maschinenkanone",
+          "Maw Kanone"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Sprungmodule",
+          "Regeneration",
+          "Dämonenmaschine (Nurgle)"
+        ]
+      },
+      {
+        "name": "Seuchenmaschine",
+        "type": "AV",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Seuchenkatapult",
+          "Vomit Kanone"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Regeneration",
+          "Dämonenmaschine (Nurgle)"
+        ]
+      },
+      {
+        "name": "Seuchenschnitter",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Pus Kanone||",
+          "Laserkanone|2|FxF",
+          "Zwillings-Schwere Bolter|3|FxF",
+          "Bile Kanone",
+          "Nurglinge"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Regeneration",
+          "Dämonenmaschine (Nurgle)"
+        ],
+        "crit": "Plague Reaper wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      },
+      {
+        "name": "Schänder-Ritter",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Laserzerstörer||FwA",
+          "Pustelwerfer-Kapsel||FwA",
+          "Renegade Kettenschwert"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Furchtlos",
+          "Geländegängig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Regeneration",
+          "Dämonenmaschine (Nurgle)"
+        ],
+        "crit": "Der Entweiher-Ritter wird zerstört."
+      },
+      {
+        "name": "Seuchenturm",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Seuchenmörser||FxF",
+          "Belagerungskanone|2|FxF",
+          "Bile Kanone",
+          "Nurglinge"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Furchtlos",
+          "Regeneration",
+          "Dämonenmaschine (Nurgle)",
+          "Transport"
+        ],
+        "notes": "Kann 14 Infanterieeinheiten transportieren. Große Mutanten, Chaosbruten, Terminatoren, Dämonenprinzen, Blight Drones und Chaos-Cybots zählen jeweils als zwei Einheiten.",
+        "crit": "Seuchenturm erleidet 1 zusätzlichen Schaden. 1W3 zufällige transportierte Einheiten erleiden einen Treffer."
+      },
+      {
+        "name": "Schlachtbestie",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schwerer Kanone",
+          "Reaper-Maschinenkanone",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ]
+      },
+      {
+        "name": "Khorne-Kanone",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Laserzerstörer-Batterie"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ]
+      },
+      {
+        "name": "Untergangsblaster",
+        "type": "AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Verdammnisblaster"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ]
+      },
+      {
+        "name": "Dämonische Sturmmaschine",
+        "type": "AV",
+        "speed": 25,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Blood Kanonen",
+          "Dämonisch Klingen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ]
+      },
+      {
+        "name": "Rampager-Ritter",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Stormspear-Raketenbehälter",
+          "Verdammnishandschuh",
+          "Renegade Kettenschwert"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ],
+        "crit": "Der Rampager-Ritter wird zerstört."
+      },
+      {
+        "name": "Großer Messingskorpion",
+        "type": "WE",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Scorpion-Kanone||FwA",
+          "Belagerungskanone||FxF",
+          "AC-Vierlings-Laserkanone||FxF",
+          "Scorpion-Klauen"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Furchtlos",
+          "Infiltratoren",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ],
+        "crit": "Greater Brass Scorpion wird zerstört."
+      },
+      {
+        "name": "Herr der Schlachten",
+        "type": "WE",
+        "speed": 25,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Kampfgeschütz|2|FxF",
+          "Todessturm||FwA",
+          "Kettenfaust"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Khorne)"
+        ],
+        "crit": "Herr der Schlachten erleidet 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Schädelturm",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Höllenschlagkanone||FxF",
+          "Laserzerstörer-Batterie|2|FxF",
+          "Zwillings-Reaper-Maschinenkanonenturm|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Regeneration",
+          "Dämonenmaschine (Khorne)"
+        ],
+        "crit": "Turm der Schädel erleidet 1 zusätzlichen Schaden."
+      },
+      {
+        "name": "Täuscher",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Kampfgeschütz",
+          "Zwillings-Schwerer Warpflamer",
+          "Auge des Magnus",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Geländegängig",
+          "Infiltratoren",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Tzeentch)"
+        ]
+      },
+      {
+        "name": "Silberturm",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Arcane Kanonen",
+          "Strahl der Energie"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Antigrav",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Tzeentch)"
+        ]
+      },
+      {
+        "name": "Verwüster-Ritter",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Schnellfeuer Kampfgeschütz||FwA",
+          "Verderber-Gatlingkanone||FwA",
+          "Hyperwellenhorn"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 2",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Tzeentch)"
+        ],
+        "crit": "Der Schänder-Ritter wird zerstört."
+      },
+      {
+        "name": "Spiegelbestie",
+        "type": "WE",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Pandæmonium",
+          "Kampfklauen"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Furchtlos",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf",
+          "Dämonenmaschine (Tzeentch)"
+        ],
+        "crit": "Die Runen, die den gefangenen Dämon binden, zerbrechen und der Mirrorfiend wird zerstört. Alle Modelle innerhalb von 5cm erleiden bei 4+ einen Treffer."
+      },
+      {
+        "name": "Warp-Palast",
+        "type": "WE",
+        "speed": 20,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Tzeentchs Warpflamme",
+          "Arcane Kanonen|3|",
+          "Strahl der Energie|2|"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Hilfstransportschiff",
+          "Dämonenmaschine (Tzeentch)",
+          "Regeneration"
+        ],
+        "crit": "Warp Palace erleidet 1 zusätzlichen Schaden. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen zusätzlichen MW-Treffer."
+      }
+    ]
+  }
+]

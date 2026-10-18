@@ -1,0 +1,270 @@
+{
+  "fraction": "Squats",
+  "army": "Wodanaz-Feste",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Squats_WodanazStronghold",
+  "strategy": "Squat-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Alle Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Tunnelgräber",
+    "Tunneltransporte"
+  ],
+  "units": [
+    {
+      "from": "SQ.json",
+      "units": [
+        "Klan-Großlord",
+        "Klanlord",
+        "Lebender Ahne",
+        "Squat-Techpriester",
+        "Squat-Krieger",
+        "Squat-Berserker",
+        "Squat-Biker",
+        "Squat-Hearthguards",
+        "Squat-Donnerer",
+        "Maulwurf-Mörser",
+        "Rapier",
+        "Thudd-Geschütz",
+        "Gildenmeister-Trike",
+        "Squat-Trike",
+        "Squat-Rhino",
+        "Land Raider",
+        "Squat-Thunderfire",
+        "Eisenadler-Gyrokopter",
+        "Goliath",
+        "Overlord-Luftschiff",
+        "Termite",
+        "Höllenbohrer",
+        "Leviathan",
+        "Koloss",
+        "Zyklop",
+        "Squat-Landzug"
+      ],
+      "unitRules": [
+        "Geisterlords",
+        "Hilfstransportschiff"
+      ]
+    },
+    {
+      "from": "AM.json",
+      "units": [
+        "Kastelan-Roboter",
+        "Tarantula"
+      ],
+      "unitRules": [
+        "Maschinengeist",
+        "Schwerfällig"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Bruderschaftsformationen der Wodanaz-Feste",
+      "formations": [
+        {
+          "name": "Krieger-Bruderschaft",
+          "units": "Squat-Hearthguards, neun Squat-Krieger",
+          "extraUnits": [
+            "Ersetze zwei Squat-Krieger durch zwei Rapieren oder zwei Squat-Donnerer: 25 Punkte",
+            "Füge vier Squat-Krieger hinzu: 75 Punkte",
+            "Klanlord",
+            "Krieger-Transporter",
+            "Lebender Ahne (nur für Leviathan)"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Berserker-Bruderschaft",
+          "units": "Squat-Hearthguards, sieben Squat-Berserker, vier Squat-Rhinos",
+          "extraUnits": [
+            "Ersetze vier Squat-Rhinos durch vier Termiten: 25 Punkte"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Unterstützungsformationen der Wodanaz-Feste",
+      "description": "Für jede Krieger-Bruderschaftsformation dürfen bis zu zwei Unterstützungsformationen der Feste gewählt werden.",
+      "formations": [
+        {
+          "name": "Biker",
+          "units": "Sechs Squat-Biker",
+          "extraUnits": [
+            "Füge ein Gildenmeister-Trike hinzu: 25 Punkte",
+            "Ersetze bis zu drei Squat-Biker durch Squat-Trikes: kostenlos"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Donnerer",
+          "units": "Vier Squat-Donnerer, zwei Squat-Rhinos",
+          "extraUnits": [
+            "Donnerer-Transporter"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Wachbatterie",
+          "units": "Sechs Rapieren und/oder Tarantulas",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Leichte Artilleriebatterie",
+          "units": "Sechs Thudd-Geschütze und/oder Maulwurf-Mörser",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Thunderfire-Batterie",
+          "units": "Drei Squat-Salvenkanonen",
+          "extraUnits": [
+            "Füge drei Squat-Rhinos hinzu: 25 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Gyrokopter-Staffel",
+          "units": "Vier Eisenadler-Gyrokopter",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Kastelan-Manipel",
+          "units": "Ein Squat Tech-Priester, fünf Kastelan-Roboter",
+          "extraUnits": [
+            "Füge bis zu zwei Kastelan-Roboter hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Kriegsmaschinen der Wodanaz-Feste",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für Kriegsmaschinen der Wodanaz-Feste ausgegeben werden. Pro Krieger-Bruderschaftsformation mit der Aufwertung „Höllenbohrer-Transport“ ist höchstens ein Höllenbohrer erlaubt.",
+      "formations": [
+        {
+          "name": "Höllenbohrer",
+          "units": "Ein Höllenbohrer",
+          "extraUnits": [
+            "Lebender Ahne"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Overlord",
+          "units": "Ein Overlord-Luftschiff",
+          "extraUnits": [
+            "Lebender Ahne"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Goliath-Batterie",
+          "units": "Zwei Goliath-Megakanonen",
+          "extraUnits": [
+          ],
+          "points": 350
+        },
+        {
+          "name": "Zyklop",
+          "units": "Ein Zyklop",
+          "extraUnits": [
+            "Lebender Ahne"
+          ],
+          "points": 425
+        },
+        {
+          "name": "Koloss",
+          "units": "Ein Koloss",
+          "extraUnits": [
+            "Lebender Ahne"
+          ],
+          "points": 450
+        },
+        {
+          "name": "Landzug",
+          "units": "Ein Squat-Landzug und zwischen zwei und vier Kampf-Cars",
+          "extraUnits": [
+            "Lebender Ahne",
+            "Drachen-Kampf-Car: 75 Punkte pro Stück",
+            "Belagerungsmörser-Kampf-Car: 75 Punkte pro Stück",
+            "Berserker-Kampf-Car und ein Squat-Berserker: 75 Punkte pro Stück",
+            "0–1 Bombe Kampf-Car: 125 Punkte"
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Wodanaz-Feste",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "Klanlord",
+        "description": "Füge dem Verband 1 Einheit aus der folgenden Auswahl hinzu",
+        "options": [
+          {
+            "description": "Klanlord",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "(0–1 pro Armee) Squat Großklanlord",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Lebender Ahne",
+        "description": "Füge einem Overlord-Luftschiff, Leviathan, Zyklop, Koloss oder Landzug einen Lebenden Ahnen hinzu.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Donnerer-Transporter",
+        "description": "Ersetze zwei Squat-Rhinos durch zwei Termiten oder zwei Land Raider.",
+        "options": [
+          {
+            "description": "Termiten",
+            "points": "kostenlos"
+          },
+          {
+            "description": "Land Raiders",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Krieger-Transporter",
+        "description": "Füge dem Verband so viele Transporter hinzu, wie erforderlich sind, um alle Infanterieeinheiten zu transportieren. Termiten, Höllenbohrer und Leviathan dürfen nicht mit anderen Transportoptionen kombiniert werden. Transporter dürfen nur gewählt werden, wenn der gesamte Verband transportiert werden kann.",
+        "options": [
+          {
+            "description": "Squat-Rhinos",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Land Raiders",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Termiten",
+            "points": "15 Punkte pro Stück"
+          },
+          {
+            "description": "Höllenbohrer-Transporter (separat zu erwerben)",
+            "points": "kostenlos"
+          },
+          {
+            "description": "Leviathan",
+            "points": "275 Punkte"
+          }
+        ]
+      }
+    ]
+  }
+}

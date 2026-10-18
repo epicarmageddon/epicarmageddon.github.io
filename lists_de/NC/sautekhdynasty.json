@@ -1,0 +1,348 @@
+{
+  "fraction": "Necron",
+  "army": "Sautekh-Dynastie",
+  "version": "0.5.0",
+  "release": "2022-04-01",
+  "strategy": "Necron-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Alle Necron-Verbände haben einen Initiativewert von 1+.",
+  "specialRules": [
+    "Necron-Reserven",
+    "Necron-Garnisonen",
+    "Die Ungebetenen",
+    "Necron-Portale",
+    "Unaufhaltsamer Vormarsch",
+    "Phasenausfall"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee der Sautekh-Dynastie aufstellen."
+  ],
+  "units": [
+    {
+      "from": "NC.json",
+      "units": [
+        "Necron-Hochlord",
+        "Necronlord",
+        "Destruktoren",
+        "Schwere Destruktoren",
+        "Extinktoren",
+        "Necronkrieger",
+        "Kryptek",
+        "Canoptek-Phantome",
+        "Monolith",
+        "Obelisk",
+        "Canoptek-Gruftspinne",
+        "Todesboten",
+        "Gruftklingen",
+        "Triarchat-Prätorianer",
+        "Geisterbarke",
+        "Vernichtungsbarke",
+        "Katakomben-Kommandogleiter",
+        "Dominator-Barke",
+        "Triarch-Stalker",
+        "Wachposten-Pylonen",
+        "C\u0027tan-Fragment",
+        "Seraptek-Schweres Konstrukt",
+        "C\u0027tan-Fragment"
+      ],
+      "unitRules": [
+          "Regeneration",
+          "Maschinengeist",
+          "Schwerfällig",
+          "Ausdauernd"
+      ]
+    },
+    {
+      "from": "necronNavy.json",
+      "units": [
+        "Nachtsichel-Transporter",
+        "Todessichel-Jäger",
+        "Nachtmantel-Bomber (B)",
+        "Ernter der Sichel-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Spezialregel der Maynarkh-Dynastie",
+      "formations": [
+        {
+          "name": "0–1 pro Armee – Gruftkomplex",
+          "units": "Der erste Zielmarker, den der Necron-Spieler an seiner eigenen Spielfeldkante platziert, gilt regeltechnisch sowohl als Portal als auch als Zielmarker. Er kann nicht zerstört werden. Verbände, die das Portal verwenden, messen von der Spielfeldkante aus, die als Startpunkt der Verband gilt.",
+          "points": 25
+        },
+        {
+          "name": "0–1 pro Armee – Necron-Hochlord",
+          "units": "Ersetze einen Necronlord in der Armee durch einen Necron-Hochlord.",
+          "points": 75
+        }
+      ]
+    },
+    {
+      "name": "Phalanxen der Sautekh-Dynastie",
+      "formations": [
+        {
+          "name": "Geisterbarken-Phalanx",
+          "units": "Drei Geisterbarken, sechs Necronkrieger und ein Necronlord.",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Sautekh-Dynastie Unterstützungsformationen",
+      "description": "Für jede gewählte Phalanx der Maynarkh-Dynastie dürfen bis zu drei Unterstützungsformationen gewählt werden.",
+      "formations": [
+        {
+          "name": "Infanteriephalanx",
+          "units": "Acht Necronkrieger und ein Necronlord",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Klingen-Manipel",
+          "units": "Sechs Gruftklingen",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Iudicium-Manipel",
+          "units": "Fünf Dominator-Barkes oder fünf Annihilation Barges",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Eques-Manipel",
+          "units": "Beliebige sechs der folgenden Einheiten: Destruktoren, Schwere Destruktoren",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Monolith-Manipel",
+          "units": "Zwei Monolithen und zwei Obelisken",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Stalker-Manipel",
+          "units": "Vier Triarch-Stalker",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Wächter-Manipel",
+          "units": "Vier Wächter-Pylonen.",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Triarch-Phalanx",
+          "units": "Vier Triarchat-Prätorianer",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Letum-Manipel",
+          "units": "Vier Todeszeichen",
+          "upgrades": [
+            "Siehe unten"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Ernter der Maynarkh-Dynastie",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "0–1 Erntemaschine",
+          "units": "Ein aus folgender Auswahl Einheiten: Abattoir, Æonic Orb",
+          "upgrades": [
+            "Keine"
+          ],
+          "points": 600
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Ernter der Sichel-Klasse",
+          "upgrades": [
+            "Keine"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Nachtsicheln",
+          "units": "Zwei Nachtsicheln",
+          "upgrades": [
+            "Keine"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Todessicheln",
+          "units": "Zwei Todessicheln",
+          "upgrades": [
+            "Keine"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Nachtmantel-Bomber (B)",
+          "units": "Ein Nachtmantel-Bomber (B)",
+          "upgrades": [
+            "Keine"
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Sautekh-Dynastie",
+    "items": [
+      {
+        "name": "Geisterbarken-Phalanx",
+        "options": [
+          {
+            "description": "Füge einen Kryptek und eine Geisterbarke hinzu",
+            "points": "100 Punkte"
+          },
+          {
+            "description": "Füge bis zu drei Annihilation Barges hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu drei Dominator-Barkes hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu drei Phantome hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu drei Triarch Stalkers hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Ersetze bis zu 3 Necronkrieger durch Extinktoren",
+            "points": "25 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Infanteriephalanx",
+        "options": [
+          {
+            "description": "Füge bis zu drei Tomb Spyders hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu drei Phantome hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge 1 Kryptek hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Ersetze bis zu 3 Necronkrieger durch Extinktoren",
+            "points": "25 Punkte pro Stück"
+          },
+          {
+            "description": "Füge einen C'tan-Splitter hinzu",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Iudicium-Manipel",
+        "options": [
+          {
+            "description": "Füge 1 Command Barge mit einem Lord-Charakter hinzu",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Eques-Manipel",
+        "options": [
+          {
+            "description": "Füge einen Necron-Lord hinzu",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Füge bis zu drei Phantome hinzu",
+            "points": "50 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Monolith-Manipel",
+        "options": [
+          {
+            "description": "Füge 1 Obelisk hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu 1 Monolith  hinzu",
+            "points": "75 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Stalker-Manipel",
+        "options": [
+          {
+            "description": "Füge 0-2 Seraptek Heavy Construct hinzu",
+            "points": "125 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Triarch-Phalanx",
+        "options": [
+          {
+            "description": "Füge 1 Necron-Lord-Einheit hinzu",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Füge 1 Kryptek-Einheit hinzu",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Füge zwei Triarch Praetorian-Einheiten hinzu.",
+            "points": "125 Punkte"
+          },
+          {
+            "description": "Füge bis zu drei Triarch Stalkers  hinzu",
+            "points": "50 Punkte pro Stück"
+          },
+          {
+            "description": "Füge einen C'tan-Splitter hinzu",
+            "points": "100 Punkte"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Valhallanische Eis-Krieger",
+  "version": "0.6.0",
+  "release": "2022-04-01",
+  "strategy": "Valhallan Ice Warrior-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Ministorum Mission-Verbände haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Mut, Disziplin und Loyalität",
+    "Grimmiges Auftreten",
+    "Befestigte Stellungen"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Valhallanische Eis-Krieger aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Valhallanischer Oberbefehlshaber",
+        "Valhallanischer Befehlshaber",
+        "Valhallanische Infanterie",
+        "Feuerunterstützungstrupp",
+        "Scharfschützen",
+        "Hydra",
+        "Basilisk",
+        "Mantikor",
+        "Höllenhund",
+        "Todesstoß",
+        "Gepanzerter Sentinel",
+        "Valhallanischer Greif",
+        "Ragnarok-Schwerer Kampfpanzer",
+        "Macharius",
+        "Macharius-Kommandopanzer",
+        "Baneblade",
+        "Shadowsword",
+        "Stormlord"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "IQ.json",
+      "units": [
+        "Ministorumspriester",
+        "Sororitas-Schwestern",
+        "Sororitas-Rhino"
+      ],
+      "unitRules": [
+              "Treu"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Blitzschlag-Abfangjäger",
+        "Marauder-Zerstörer",
+        "Kreuzer der Lunar-Klasse",
+        "Schlachtschiff der Emperor-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Valhallan Kernkompanie-Verbände",
+      "formations": [
+        {
+          "name": "Valhallanisches Regimentshauptquartier",
+          "units": "Ein valhallanischer Oberbefehlshaber, ein Ministorum-Priester und neun valhallanische Infanteristen",
+          "extraUnits": [
+            "Valhallanische Greifen",
+            "Ogryns",
+            "Scharfschützen",
+            "Feuerunterstützung",
+            "Flak",
+            "Schanzanlagen"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Valhallanische Infanteriekompanie",
+          "units": "Ein valhallanischer Befehlshaber, ein Ministorum-Priester und neun valhallanische Infanteristen",
+          "extraUnits": [
+            "Valhallanische Greifen",
+            "Ogryns",
+            "Scharfschützen",
+            "Feuerunterstützung",
+            "Flak",
+            "Schanzanlagen",
+            "Stormlord"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Artilleriekompanie",
+          "units": "Ein Ministorum-Priester und sechs Basilisken",
+          "extraUnits": [
+            "Ersetze 6 Basilisken durch 6 Mantikors: 50 Punkte",
+            "Flak"
+          ],
+          "points": 400
+        }
+      ]
+    },
+    {
+      "name": "Valhallan Unterstützungsverbände",
+      "description": "Pro Kernkompanie dürfen bis zu zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Schwerer Panzerzug",
+          "units": "Sechs Ragnarok-Schwere Kampfpanzer",
+          "extraUnits": [
+            "Valhallanische Greifen",
+            "Flak"
+          ],
+          "points": 375
+        },
+        {
+          "name": "Macharius-Kompanie",
+          "units": "Ein Macharius Command mit einem Ministorum Priest, zwei Macharius",
+          "extraUnits": [
+            "Flak"
+          ],
+          "points": 375
+        },
+        {
+          "name": "Superschwerer Panzerzug",
+          "units": "Ein Baneblade, Stormlord oder Shadowsword",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Todesstoß-Batterie",
+          "units": "Zwei Todesstoß-Raketensilos",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Höllenhund-Staffel",
+          "units": "Vier Höllenhunde",
+          "points": 200,
+          "extraUnits": [
+          ]
+        },
+        {
+          "name": "Gepanzerte Sentinel-Staffel",
+          "units": "Vier gepanzerte Sentinels",
+          "extraUnits": [
+          ],
+          "points": 125
+        }
+      ]
+    },
+    {
+      "name": "Adeptus-Ministorum- und Imperial-Flottenverbündete",
+      "description": "Bis zu einem Viertel der verfügbaren Punkte darf für Verbände des Adeptus Ministorum, Tunnelgräber und der Imperialen Flotte ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Ministorum-Mission",
+          "units": "Sechs Sororitas-Kampfschwestern und drei Sororitas-Rhinos",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Blitzschlag-Staffel",
+          "units": "Zwei Blitzschlag-Abfangjäger",
+          "points": 175
+        },
+        {
+          "name": "Marauder-Zerstörer",
+          "units": "Ein Marauder-Zerstörer",
+          "points": 175
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein Kreuzer der Lunar-Klasse",
+          "points": 125,
+          "extraUnits": [
+            "Ersetze den Kreuzer durch ein Schlachtschiff der Emperor-Klasse: 50 Punkte"
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Valhallan Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden. Pro Kompanie sind höchstens 3 Aufwertungen erlaubt.",
+    "items": [
+      {
+        "name": "Valhallanische Greifen",
+        "options": [
+          {
+            "description": "Füge 3 Valhallanische Greifen hinzu",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Ogryns",
+        "options": [
+          {
+            "description": "Füge bis zu 2 Ogryns hinzu",
+            "points": "25 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Flak",
+        "options": [
+          {
+            "description": "Füge 1 Hydra zum Verband hinzu",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Feuerunterstützung",
+        "options": [
+          {
+            "description": "Füge 2 oder 4 Feuerunterstützungstrupps hinzu",
+            "points": "50 Punkte für zwei, 100 Punkte für vier"
+          }
+        ]
+      },
+      {
+        "name": "Scharfschützen",
+        "options": [
+          {
+            "description": "Füge bis zu 2 Scharfschützen hinzu",
+            "points": "25 Punkte pro Stück"
+          }
+        ]
+      },
+      {
+        "name": "Schanzanlagen",
+        "options": [
+          {
+            "description": "40 cm Stacheldraht, 40 cm Schützengräben",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Stormlord",
+        "description": "Ersetze 2 Valhallan-Infanterieeinheiten durch 1 Stormlord (nicht mit anderen Aufwertungen kombinierbar).",
+        "points": "125 Punkte"
+      }
+    ]
+  }
+}

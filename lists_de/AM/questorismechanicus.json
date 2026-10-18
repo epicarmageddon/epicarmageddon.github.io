@@ -1,0 +1,212 @@
+{
+  "fraction": "Adeptus Mechanicus",
+  "army": "Questoris Mechanicus",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusMechanicus_QuestorisMechanicus",
+  "strategy": "Questoris Mechanicus-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 2+. Außerdem unterliegen alle Ritterbanner-Verbände der Sonderregel „Ritterlichkeit“.",
+  "specialRules": [
+    "Ritterlichkeit"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee des Questoris Mechanicus des Adeptus Mechanicus aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "QK.json",
+      "units": [
+        "Seneschallord",
+        "Seneschall",
+        "Zwillings-Icarus-Autokanone",
+        "Dominus-Ritter-Castellan",
+        "Dominus-Ritter-Valiant",
+        "Questoris-Ritter-Paladin",
+        "Questoris-Ritter-Errant",
+        "Questoris-Ritter-Crusader",
+        "Questoris-Ritter-Gallant",
+        "Questoris-Ritter-Warden",
+        "Questoris-Ritter-Preceptor",
+        "Questoris-Reliktritter-Styrix",
+        "Questoris-Reliktritter-Magaera",
+        "Cerastus-Ritter-Lancer",
+        "Cerastus-Ritter-Acheron",
+        "Cerastus-Ritter-Castigator",
+        "Cerastus-Reliktritter-Atrapos",
+        "Armiger-Ritter-Warglaive",
+        "Armiger-Ritter-Helverin",
+        "Armiger-Reliktritter-Moirax",
+        "Acastus-Reliktritter-Porphyrion",
+        "Acastus-Reliktritter-Asterius"
+      ],
+      "unitRules": [
+        "Starrköpfig",
+        "Ionenschild (x)",
+        "Ionen-Flammenschild",
+        "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Schildbohrer",
+        "Schildbrecher",
+        "Sturmangriff",
+        "Lanze"
+      ]
+    },
+    {
+      "from": "AM.json",
+      "units": [
+        "Magos",
+        "Hypaspisten",
+        "Onager-Dünenkrabbler",
+        "Skorpius-Dünenreiter",
+        "Skorpius-Desintegrator",
+        "Gorgon",
+        "Avenger-Sturzkampfflugzeug",
+        "Ark-Mechanicus-Schlachtschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kernbanner",
+      "description": "Pro Questoris-Banner darf bis zu ein Dominus-Banner aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Questoris",
+          "units": "Zwei Questoris-Ritter in einer dieser Konfigurationen: Paladin, Crusader, Errant, Warden oder Gallant. Konfigurationen dürfen nicht gemischt werden.",
+          "extraUnits": [
+            "Füge einen Questoris-Ritter derselben Konfiguration hinzu: 125 Punkte",
+            "Füge jedem Questoris-Ritter in einem Verband mit Paladin-, Crusader- oder Errant-Konfiguration eine Zwillings-Icarus Maschinenkanone hinzu: 25 Punkte",
+            "Seneschall",
+            "Seneschallord"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Dominus",
+          "units": "Ein Dominus-Ritter",
+          "extraUnits": [
+            "Seneschall",
+            "Seneschallord"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Aufklärungsbanner",
+      "description": "Pro Kernbanner darf bis zu ein Aufklärungsbanner aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Cerastus",
+          "units": "Ein Cerastus-Ritter",
+          "extraUnits": [
+            "Füge einen Cerastus-Ritter derselben Konfiguration hinzu: 175 Punkte",
+            "Seneschall"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Armiger",
+          "units": "Vier Armiger-Ritter-Warglaives oder drei Armiger-Ritter-Helverins",
+          "extraUnits": [
+            "Füge einen Armiger-Ritter derselben Konfiguration hinzu: 50 Punkte",
+            "Füge einen Questoris-Ritter-Preceptor mit einem Seneschall hinzu: 175 Punkte"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Reliktbanner",
+      "description": "Pro angefangene 1.500 Punkte der Armee darf ein Reliktbanner aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Armiger-Reliktbanner",
+          "units": "Drei Armiger-Reliktritter-Moirax derselben Konfiguration",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Questoris-Reliktbanner",
+          "units": "Ein Questoris-Reliktritter-Styrix oder ein Questoris-Reliktritter-Magaera",
+          "extraUnits": [
+            "Füge einen Questoris-Reliktritter derselben Konfiguration hinzu: 175 Punkte",
+            "Seneschall"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Cerastus-Reliktbanner",
+          "units": "Ein Seneschall, ein Cerastus-Reliktritter-Atrapos",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Acastus-Reliktbanner",
+          "units": "Ein Acastus-Reliktritter-Porphyrion oder ein Acastus-Reliktritter-Asterius",
+          "extraUnits": [
+            "Füge einen Acastus-Reliktritter derselben Konfiguration hinzu: 225 Punkte",
+            "Seneschall"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Mechanicus Verbündete",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für Verbündete der Schmiedewelten ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Skitarii-Manipel",
+          "units": "Ein Magos, neun Hypaspisten und ein Gorgon",
+          "extraUnits": [
+            "Ersetze den Gorgon kostenlos durch fünf Skorpius-Dünenreiter"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Onager-Manipel",
+          "units": "Ein Onager-Dünenkrabbler mit Icarus-Array und drei Onager-Dünenkrabbler mit jeweils derselben weiteren Konfiguration",
+          "points": 225
+        },
+        {
+          "name": "Skorpius-Manipel",
+          "units": "Vier Skorpius-Desintegratoren",
+          "extraUnits": [
+            "Füge bis zu zwei Skorpius-Desintegratoren hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Avenger-Staffel",
+          "units": "Zwei Avenger-Jagdbomber",
+          "points": 175
+        },
+        {
+          "name": "0–1 Mechanicus-Schlachtschiff",
+          "units": "Ein Ark-Mechanicus-Schlachtschiff",
+          "points": 225
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Questoris Mechanicus Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Seneschall",
+        "description": "Füge 1 Seneschall zum Verband hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Seneschallord (0–1 pro Armee)",
+        "description": "Ersetze den Seneschall durch einen Seneschallord",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

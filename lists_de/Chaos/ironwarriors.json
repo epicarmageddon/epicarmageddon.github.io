@@ -1,0 +1,320 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Iron Krieger",
+  "version": "1.0.Beta-2",
+  "release": "2022-09-29",
+  "armyforge": "EAR_Chaos_IronWarriors",
+  "strategy": "Chaos Space Marine-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Dark-Mechanicus- und Chaos-Flotte-Verbände haben einen Initiativwert von 2+. Alle übrigen Verbände haben einen Initiativwert von 1+.",
+  "specialRules": [
+    "Dreadclaw-Landungskapseln der Iron Krieger",
+    "Charaktere der Iron Krieger"
+  ],
+  "intro": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Verräterlegion Iron Krieger aufzustellen, die den loyalistischen Iron Hands und Imperial Fists in ihrem Einsatz von Belagerungswaffen ähnelt. Sie verabscheuen Dämonen und dürfen diese nicht beschwören, lieben jedoch Bionik und verbotene Waffen."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Iron-Krieger-Kriegsschmied",
+        "Iron-Krieger-Warpenschmied",
+        "Dämonenprinz",
+        "Chaos Space Marines",
+        "Havocs",
+        "Auserkorene",
+        "Bezashk-Zerstörer",
+        "Tyrant-Belagerungsterminatoren",
+        "Kyborgs",
+        "Basilisk der Iron Krieger",
+        "Bezashk-Medusa",
+        "Chaos-Spartan-Sturmpanzer",
+        "Schwerer Chaos-Typhon-Belagerungspanzer",
+        "Chaos Rhino",
+        "Chaos-Belagerungsrhino",
+        "Chaos Predator",
+        "Chaos Land Raider",
+        "Chaos Vindicator",
+        "Chaos-Cybot",
+        "Chaos-Belagerungscybot",
+        "Iron-Krieger-Stormsword"
+      ],
+      "unitRules": [
+        "Bionik",
+        "Reparaturen auf dem Schlachtfeld",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Geißel",
+        "Schlächterbestie",
+        "Dezimator",
+        "Ordinatus Hereticus ",
+        "Ordinatus Cyclothrathe"
+      ],
+      "unitRules": [
+        "Dämonenmaschine (x)"
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllendrache",
+        "Harbringer-Bomber (B)",
+        "Kreuzer der Devastation-Klasse",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Iron Krieger Kernverbände",
+      "formations": [
+        {
+          "name": "Iron Krieger Gefolge",
+          "units": "Ein Iron Krieger Warpsmith, sechs Chaos Space Marines",
+          "extraUnits": [
+            "Ersetze 2 Chaos Space Marines durch 2 Havocs: 25 Punkte",
+            "Oberbefehlshaber",
+            "Transport",
+            "Kyborgs",
+            "Dreadclaws",
+            "Vindicators",
+            "Cybots"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Panzerkompanie der Iron Krieger",
+          "units": "Sechs Chaos Vindicators",
+          "extraUnits": [
+            "Ersetze 6 Chaos-Vindicators durch 6 Chaos-Predators (25 Punkte), 3 Chaos-Spartan-Sturmpanzer (75 Punkte) oder 6 Chaos-Land-Raider (125 Punkte)"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Havocs",
+          "units": "Ein Warpschmied der Iron Warriors, vier Havocs und ein Chaos-Spartan-Sturmpanzer",
+          "extraUnits": [
+            "Ersetze den Chaos-Spartan-Sturmpanzer durch 2 Chaos-Land-Raider: 25 Punkte",
+            "Oberbefehlshaber",
+            "Vindicators"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Iron Krieger Eliteverbände",
+      "description": "Pro Kernverband darf ein Eliteverband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Auserkorene",
+          "units": "Vier Auserkorene, zwei Chaos Rhinos",
+          "extraUnits": [
+            "Ersetze 2 Chaos Rhinos durch 2 Chaos Siege Rhinos (10 Punkte), oder 2 Chaos Cybots oder 2 Chaos Siege Cybots (75 Punkte)",
+            "Vindicators"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Bezashk Destruktoren",
+          "units": "Ein Iron Krieger Warpsmith, vier Bezashk Destruktoren",
+          "extraUnits": [
+            "Vindicators"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Cybot-Sturmrudel",
+          "units": "Vier Chaos Cybots",
+          "extraUnits": [
+            "Cybots",
+            "Dreadclaws"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Tyrant Terminatoren",
+          "units": "Ein Iron Krieger Warpsmith, vier Tyrant Siege Terminatoren",
+          "extraUnits": [
+            "Kyborgs",
+            "Oberbefehlshaber",
+            "Cybots",
+            "Dreadclaws"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Iron Krieger Belagerungsverbände",
+      "description": "Pro Kernverband darf ein Belagerungsverband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Schwere Belagerungsmaschine",
+          "units": "Iron-Krieger-Stormsword",
+          "extraUnits": [
+            "Kyborgs",
+            "Vindicators",
+            "Cybots"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Bezashk-Belagerungsbatterie",
+          "units": "Vier Bezashk Medusa",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Artilleriebatterie der Iron Krieger",
+          "units": "Drei Iron Krieger Basilisken",
+          "extraUnits": [
+            "Füge 1 Iron Krieger Basilisk hinzu: 75 Punkte"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Schwere Belagerungspanzer",
+          "units": "Zwei schwere Chaos-Typhon-Belagerungspanzer",
+          "extraUnits": [
+            "Füge 1 schweren Chaos-Typhon-Belagerungspanzer hinzu: 125 Punkte"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Dunkler Mechanicus und Chaos-Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Maulerfiends",
+          "units": "Vier Maulerfiends",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Dezimator",
+          "units": "Ein Decimator",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Geißel-Meute",
+          "units": "Vier Geißels",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Ordinatus Hereticus",
+          "units": "Zwei Ordinatus Hereticus",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "0–1 Ordinatus Cyclothrathe",
+          "units": "Ein Ordinatus Cyclothrathe",
+          "extraUnits": [
+          ],
+          "points": 450
+        },
+        {
+          "name": "Höllendrachen",
+          "units": "Zwei Höllendrachen",
+          "points": 225
+        },
+        {
+          "name": "Harbringer",
+          "units": "Ein Harbringer-Bomber (B)",
+          "points": 300
+        },
+        {
+          "name": "0–1 Chaos Kreuzer",
+          "units": "Ein Kreuzer der Devastation-Klasse",
+          "extraUnits": [
+            "Schlachtschiff"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Iron Krieger Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Schlachtschiff",
+        "description": "Ersetze den Kreuzer der Devastation-Klasse durch ein Schlachtschiff der Despoiler-Klasse",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Ersetze 1 Iron Krieger Warpsmith durch einen Iron Krieger Warsmith",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze 1 Iron Krieger Warpsmith und seine Einheit durch einen Dämonenprinz",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Transporter",
+        "description": "Füge dem Verband so viele Transporter hinzu, wie zum Transport aller Infanterieeinheiten des Verbands erforderlich sind",
+        "options": [
+          {
+            "description": "Füge bis zu 3 Chaos Rhinos hinzu",
+            "points": "10 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu 3 Chaos Siege Rhinos hinzu",
+            "points": "15 Punkte pro Stück"
+          },
+          {
+            "description": "Füge bis zu 3 Chaos Land Raiders hinzu",
+            "points": "50 Punkte pro Stück"
+        },
+        {
+          "description": "Füge bis zu 2 Chaos-Spartan-Sturmpanzer hinzu",
+          "points": "75 Punkte pro Stück"
+        }
+        ]
+      },
+      {
+        "name": "Kyborgs",
+        "description": "Füge bis zu 2 Kyborgs hinzu",
+        "points": "75 Punkte pro Stück"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Chaos Cybots, oder bis zu 2 Siege Cybots hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transportiere einen Verband, der ausschließlich Infanterieeinheiten und Cybots enthält, in Dreadclaws (der Verband muss auf einem Raumschiff aufgestellt werden).",
+        "points": "5 Punkte pro Einheit"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge bis zu 2 Chaos Vindicators hinzu",
+        "points": "35 Punkte pro Stück"
+      }
+    ]
+  }
+}

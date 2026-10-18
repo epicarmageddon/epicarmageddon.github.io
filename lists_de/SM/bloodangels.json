@@ -1,0 +1,301 @@
+{
+  "fraction": "Space Marines",
+  "army": "Blood Angels",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusAstartes_BloodAngels",
+  "intro": "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee des Space-Marine-Ordens Blood Angels oder eines seiner Nachfolgeorden aufzustellen. Die Blood Angels sind in der ganzen Galaxis für ihre Blutgier im Kampf bekannt und wegen des Fluchs ihres fehlerhaften Gensaat-Erbes gefürchtet.",
+  "strategy": "Space-Marine-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 1+.",
+  "armyRules": "Die Sonderregel <i>Sie kennen keine Furcht</i> gilt für alle Blood Angels-Kontingente und Flugzeugverbände.",
+  "specialRules": [
+    "Space-Marine-Transporter",
+    "Blood-Angels-Rhinos",
+    "Sie kennen keine Furcht"
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Captain",
+        "Ordenspriester",
+        "Scriptor",
+        "Oberbefehlshaber",
+        "Sturmtrupps",
+        "Todeskompanie-Marines",
+        "Devastor-Trupps",
+        "Sanguinische-Garde",
+        "Aufklärer",
+        "Taktische Trupps",
+        "Todeskompanie-Cybot",
+        "Sturm-Terminatoren",
+        "Sturm-Bikes",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Melta-Bike",
+        "Trike",
+        "Furioso-Cybot",
+        "Cybot",
+        "Blood-Angels-Hunter",
+        "Blood-Angels-Razorback",
+        "Blood-Angels-Rhino",
+        "Blood-Angels-Stalker",
+        "Land Raider",
+        "Land Raider Redeemer",
+        "Baal Predator Hades",
+        "Baal Predator Infernus",
+        "Sturmtalon",
+        "Stormraven",
+        "Landungsschiff",
+        "Schlachtbarke",
+        "Angriffskreuzer",
+        "Vanguard-Klasse-Leichter-Kreuzer",
+        "Landungskapsel"
+      ],
+      "unitRules": [
+        "Ehrengarde",
+        "Abstieg der Engel",
+        "Lucifer-Muster-Maschine"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Warhound"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Blood Angels Kernkontingente",
+      "description": "Es muss ein Todeskompanie-Verband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "1 Todeskompanie",
+          "units": "Ein Ordenspriester, vier Todeskompanie Marines plus Transporter (nur Landungskapseln oder zu Fuss)",
+          "extraUnits": [
+            "Füge 2 Todeskompanie Marines hinzu: 75 Punkte",
+            "Füge bis zu 2 Todeskompanie Cybots hinzu: 75 Punkte pro Stück"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Sturmtrupps",
+          "units": "Vier Sturmtrupps",
+          "extraUnits": [
+            "Sturmtrupps",
+            "Befehlshaber",
+            "Cybots",
+            "Honor Guards",
+            "Predators",
+            "Stormraven Transports"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Taktische Trupps",
+          "units": "Sechs Taktische Trupps plus Transporter",
+          "extraUnits": [
+            "Flugabwehr",
+            "Befehlshaber",
+            "Cybots",
+            "Honor Guards",
+            "Land Raider Transport",
+            "Predators",
+            "Razorbacks",
+            "Stormraven Transports"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Sturm-Terminatoren",
+          "units": "Vier Angriffsterminatoren",
+          "extraUnits": [
+            "Befehlshaber",
+            "Cybots",
+            "Ersetze einen Angriffsterminator durch drei Stormraven oder drei Land Raider: 100 Punkte oder füge zwei Land Raider Redeemer hinzu: 100 Punkte"
+          ],
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Blood Angels Unterstützungskontingente",
+      "description": "Pro Kernkontingent dürfen bis zu zwei Unterstützungskontingente aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Baal Predators",
+          "units": "Beliebige vier der folgenden Einheiten: Baal Predator Hades, Baal Predator Infernus",
+          "extraUnits": [
+            "Flugabwehr"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Bike-Verband",
+          "units": "Fünf Sturm-Bikes",
+          "extraUnits": [
+            "Trikes",
+            "Befehlshaber"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Devastor-Trupps",
+          "units": "Vier Devastor-Trupps plus Transporter",
+          "extraUnits": [
+            "Flugabwehr",
+            "Befehlshaber",
+            "Cybots",
+            "Land Raider Transport",
+            "Predators",
+            "Razorbacks",
+            "Stormraven Transports"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Land Speeder",
+          "units": "Beliebige fünf der folgenden Einheiten: Land Speeder, Land Speeder Tornado",
+          "extraUnits": [
+            "Typhoons"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Aufklärer",
+          "units": "Vier Aufklärer plus Transporter",
+          "extraUnits": [
+            "Razorbacks",
+            "Scharfschützen"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Flotten- und Titanenlegionsverbündete der Blood Angels",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Sturmtalons",
+          "units": "Zwei Sturmtalons",
+          "points": 200
+        },
+        {
+          "name": "Landungsschiff",
+          "units": "Ein Landungsschiff",
+          "points": 325
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein leichter Kreuzer der Vanguard-Klasse",
+          "extraUnits": [
+            "Ersetze den leichten Kreuzer der Vanguard-Klasse durch einen Angriffskreuzer: 50 Punkte oder eine Schlachtbarke: 125 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Warhounds",
+          "units": "Ein Warhound-Titan",
+          "extraUnits": [
+            "Füge 1 zusätzlichen Warhound-Titan hinzu: 200 Punkte"
+          ],
+          "points": 275
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Blood Angels Aufwertungen",
+    "description": "Jede Aufwertung darf pro Kontingent nur einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Flugabwehr",
+        "description": "Füge eine beliebige der folgenden Einheiten zum Verband hinzu",
+        "options": [
+          {
+            "description": "Füge 1 Hunter hinzu",
+            "points": "75 Punkte"
+          },
+          {
+            "description": "Füge 1 Stalker hinzu",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Sturmtrupps",
+        "description": "Füge 2 Sturmtrupps zum Verband hinzu",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Trikes",
+        "description": "Ersetze beliebig viele Sturm-Bikes durch dieselbe Anzahl an Trikes oder Melta-Bikes",
+        "points": "kostenlos"
+      },
+      {
+        "name": "Befehlshaber",
+        "description": "Füge einen beliebigen der folgenden Charaktere einer Einheit im Verband hinzu",
+        "options": [
+          {
+            "description": "Captain, Scriptor",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Ordenspriester",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "0–1 Oberbefehlshaber",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Cybots oder Furioso Cybots zum Verband hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Honor Guards",
+        "description": "Bei einem Verband mit einem Oberbefehlshaber-Charakter: Ersetze bis zu 2 Sturmtrupps oder Taktische Trupps durch Sanguinary Guards.",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Land Raider-Transporter",
+        "description": "Füge beliebig viele Land Raiders und/oder Land Raider Redeemers hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Predators",
+        "description": "Füge 2 Baal Predator Hades oder 2 Baal Predator Infernus hinzu",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Razorbacks",
+        "description": "Füge beliebig viele Blood Angels Razorbacks hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Scharfschützen",
+        "description": "Gib allen Aufklärer im Verband die Sonderregel „Scharfschütze“ für ihre Heavy Bolters.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Stormraven Transports",
+        "description": "Füge beliebig viele Stormravens hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Typhoons",
+        "description": "Ersetze bis zu 5 Land Speeders durch dieselbe Anzahl an Land Speeder Typhoons",
+        "points": "10 Punkte pro Stück"
+      }
+    ]
+  }
+}

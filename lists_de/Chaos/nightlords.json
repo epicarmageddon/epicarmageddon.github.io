@@ -1,0 +1,257 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Night Lords",
+  "version": "Alpha 0.6.0",
+  "release": "2022-04-01",
+  "strategy": "Chaos Space Marine-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 1+.",
+  "specialRules": [
+    "Im Mitternachtsschwarz",
+    "Beschwörung",
+    "Beschwörungsregeln der Night Lords",
+    "Launische Meister",
+    "Dreadclaw-Landungskapseln der Night Lords",
+    "Charaktere der Night Lords"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Night Lords nach ihren bevorzugten Einsatzmethoden aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Night-Lords-Erster Hauptmann",
+        "Night-Lords-Hauptmann",
+        "Ikonenträger",
+        "Chaos-Sturmmarines",
+        "Chaos Space Marines",
+        "Raptoren",
+        "Warp-Klauen",
+        "Night-Lords-Auserkorene",
+        "Chaos-Zerstörer",
+        "Atramentar-Terminatoren",
+        "Chaos Rhino",
+        "Chaos Land Raider",
+        "Chaos-Spartan-Sturmpanzer",
+        "Chaos-Jäger",
+        "Chaos-Angriffs-Bike",
+        "Night-Lords-Cybot"
+      ],
+      "unitRules": [
+        "Verstärkte Beschwörung (+x)",
+        "Dämonischer Fokus",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Chaos-Tarantel"
+      ],
+      "unitRules": [
+        "Maschinengeist"
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Furien des ungeteilten Chaos"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Chaos-Xiphon-Abfangjäger",
+        "Chaos-Feuerraptor",
+        "Chaos-Thunderhawk",
+        "Kreuzer der Devastation-Klasse",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Night Lords Kernverbände",
+      "formations": [
+        {
+          "name": "Nacht-Raptor-Kompanie",
+          "units": "Ein Night-Lords-Hauptmann, sechs Raptoren",
+          "extraUnits": [
+            "Füge bis zu 2 Raptoren hinzu: 30 Punkte pro Stück",
+            "Oberbefehlshaber",
+            "Ikonenträger"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Night Lords Eliteverbände",
+      "description": "Pro Night Lords Kernverband darf bis zu ein Eliteverband aufgestellt werden",
+      "formations": [
+        {
+          "name": "Auserkorene",
+          "units": "Vier Night-Lords-Auserkorene, zwei Chaos Rhinos",
+          "extraUnits": [
+            "Ersetze 2 Chaos Rhinos durch 4 Chaos Tarantulas: 25 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Warpkrallenkult",
+          "units": "Drei Warp Talons, Dämonenpakt",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Terminatorenkompanie",
+          "units": "Ein Night-Lords-Hauptmann, vier Atramentar Terminatoren",
+          "extraUnits": [
+            "Füge 2 Chaos-Spartan-Sturmpanzer hinzu: 150 Punkte",
+            "Oberbefehlshaber",
+            "Ikonenträger",
+            "Cybots",
+            "Dreadclaws"
+          ],
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Night Lords Unterstützungsverbände",
+      "description": "Pro Night Lords Kernverband dürfen bis zu zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Destruktoren",
+          "units": "Vier Chaos Destruktoren",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Terror-Kompanie",
+          "units": "Ein Night-Lords-Hauptmann, vier Sturmtrupps der Night Lords, zwei Night-Lords-Cybots",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Ikonenträger",
+            "Cybots",
+            "Dreadclaws"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Unterstützungskompanie",
+          "units": "Ein Night-Lords-Hauptmann, sechs Chaos Space Marines, drei Chaos Rhinos",
+          "extraUnits": [
+            "Ersetze 3 Chaos Rhinos durch 3 Chaos Land Raiders: 125 Punkte",
+            "Oberbefehlshaber",
+            "Ikonenträger",
+            "Stalker"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Sturmkompanie",
+          "units": "Ein Night-Lords-Hauptmann, sechs Chaos-Trikes",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Ikonenträger",
+            "Stalker"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Night-Lords-Verteidigungsanlagen und -Flotte",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden. Pro Verband der Auserkorenen ist höchstens ein Tarantula-Verband zulässig.",
+      "formations": [
+        {
+          "name": "Tarantula",
+          "units": "Vier Chaos Tarantulas",
+          "points": 125
+        },
+        {
+          "name": "Feuerraptor",
+          "units": "Ein Chaos-Feuerraptor",
+          "points": 175
+        },
+        {
+          "name": "Xiphon-Staffel",
+          "units": "Zwei Chaos-Xiphon-Abfangjäger",
+          "points": 225
+        },
+        {
+          "name": "Thunderhawk",
+          "units": "Ein Chaos-Thunderhawk",
+          "points": 225
+        },
+        {
+          "name": "0–1 Angriffskreuzer",
+          "units": "Chaos-Angriffskreuzer",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen. Für jeden Dämonenpakt in der Armee kommt ein Punkt hinzu.",
+          "points": 20
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Night Lords Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "(0–1 pro Armee) Oberbefehlshaber",
+        "options": [
+          {
+            "description": "Wähle eine der folgenden Optionen:"
+          },
+          {
+            "description": "Ersetze den Night-Lords-Hauptmann durch einen Night Lords First Captain",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze den Night-Lords-Hauptmann und seine Einheit durch einen Night Lords Dämonenprinz",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Ikonenträger",
+        "description": "Füge 1 Icon Bearer zum Verband hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transportiere einen Verband, der ausschließlich Infanterieeinheiten und Cybots enthält, in Landungskapseln (der Verband muss auf einem Raumschiff aufgestellt werden).",
+        "points": "10 Punkte pro Einheit"
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge bis zu 2 Night Lords Cybots hinzu",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Stalker",
+        "description": "Füge 1 Chaos Stalker hinzu",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

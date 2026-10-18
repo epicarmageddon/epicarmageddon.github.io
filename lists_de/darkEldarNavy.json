@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Flotte der Drukhari",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Razorwing-Abfangjäger",
+        "type": "AC",
+        "speed": "Jäger",
+        "armour": 4,
+        "weapons": [
+          "AC Schattenlanze|2|",
+          "AC Monoscythe Raketen",
+          "AC Splitterkanone"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Voidraven-Abfangjäger",
+        "type": "AC",
+        "speed": "Jagdbomber (FB)",
+        "armour": 4,
+        "weapons": [
+          "AC-Zwillings-Leerenlanze",
+          "AC Zwillings-Splitterkanone",
+          "AC-Leerenminen"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Sklavenbringer-Angriffsboot",
+        "type": "AC/WE",
+        "speed": "Bomber (B) (B)",
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "AC Zwillings-Schattenlanze|2|",
+          "AC Turreted Splitterkanone"
+        ],
+        "specialRules": [
+          "Schadenskapazität 2",
+          "Schattenfelder1",
+          "Planetfall",
+          "Transport"
+        ],
+        "notes": "Kann bis zu acht Infanterieeinheiten ohne Beritten transportieren. Grotesken zählen jeweils als zwei Einheiten.",
+        "crit": "Slavebringer und alle Einheiten an Bord werden zerstört."
+      },
+      {
+        "name": "Kreuzer der Torture-Klasse",
+        "type": "SC",
+        "weapons": [
+          {
+            "name": "Orbitalbombardement",
+            "modes": [
+              {
+                "firepower": "6BP, MW"
+              }
+            ]
+          },
+          "Präzisionsschuss"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "Kann bis zu zwei Executioner-Landemodule und zwei Slavebringer-Sturmboote oder bis zu sechs Slavebringer-Sturmboote sowie die darin transportierten Truppen mitführen."
+      }
+    ]
+  }
+]

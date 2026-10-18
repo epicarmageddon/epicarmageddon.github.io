@@ -1,0 +1,337 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "World Eaters",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Chaos_WorldEaters",
+  "strategy": "Chaos Space Marine-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Alle Kern- und Eliteverbände der World Eaters haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Beschwörung",
+    "Beschwörungsregeln der World Eaters",
+    "Launische Meister",
+    "Dreadclaw-Landungskapseln der World Eaters",
+    "Charaktere der World Eaters"
+  ],
+  "intro": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Verräterlegion World Eaters aufzustellen. Die World Eaters verzichten auf den Großteil ihrer Fernkampfwaffen, um sich auf den Nahkampf zu spezialisieren, wie es ihre Gottheit verlangt."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Kriegsherr",
+        "Chaosfürst",
+        "Chaoschampion",
+        "Ikonenträger",
+        "Dämonenprinz des Khorne",
+        "Chaos-Sturmmarines",
+        "Chaos Space Marines",
+        "Schädeljäger-Terminatoren",
+        "Khorne Berserker",
+        "Chaos-Zerstörer",
+        "Mutilatoren",
+        "Khorne-Berserker-Sturmbikes",
+        "Juggernaut-Reiter",
+        "World-Eaters-Rhino",
+        "Chaos-Jäger",
+        "World-Eaters-Vindicator",
+        "Chaos Land Raider",
+        "Chaos-Spartan-Sturmpanzer",
+        "Berserker-Cybot"
+      ],
+      "unitRules": [
+          "Verstärkte Beschwörung (+x)",
+          "Dämonischer Fokus",
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Untergangsblaster",
+        "Khorne-Kanone",
+        "Schlachtbestie",
+        "Dämonische Sturmmaschine",
+        "Großer Messingskorpion",
+        "Herr der Schlachten",
+        "Schädelturm"
+      ],
+      "unitRules": [
+        "Dämonenmaschine (x)",
+        "Regeneration"
+      ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Zerfleischer des Khorne",
+        "Bluthunde des Khorne",
+        "Zerschmetterer des Khorne",
+        "Blutdämon"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Höllenklinge Abfangjäger",
+        "Höllenklaue-Jagdbomber",
+        "Kreuzer der Devastation-Klasse",
+        "Schlachtschiff der Despoiler-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kernverbände der World Eaters",
+      "formations": [
+        {
+          "name": "Gefolge der World Eaters",
+          "units": "Ein Chaos-Lord, vier Khorne-Berserker, vier World-Eaters-Sturmtrupps, vier Rhinos der World Eaters und ein Dämonenpakt",
+          "extraUnits": [
+            "Füge 2 Berzerker Cybots hinzu: 75 Punkte",
+            "Oberbefehlshaber",
+            "Berzerker Transport",
+            "Champion",
+            "Ikonenträger",
+            "Stalker",
+            "Vindicators"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Skullseeker Terminatoren",
+          "units": "Ein Chaos-Lord, vier Skullseeker Terminatoren, Dämonenpakt",
+          "extraUnits": [
+            "Füge bis zu 2 Mutilators hinzu: 50 Punkte pro Stück",
+            "Oberbefehlshaber",
+            "Skullseeker Transport",
+            "Champion",
+            "Ikonenträger"
+          ],
+          "points": 400
+        }
+      ]
+    },
+    {
+      "name": "World Eaters Eliteverbände",
+      "description": "Pro Kernverband darf ein Eliteverband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Destruktoren",
+          "units": "Vier Chaos Destruktoren, Dämonenpakt",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Chaos Space Marines",
+          "units": "Sechs Chaos Space Marines, drei World Eaters Rhinos, Dämonenpakt",
+          "extraUnits": [
+            "Ersetze 3 World Eaters Rhinos durch 3 Chaos Land Raiders: 125 Punkte",
+            "Stalker",
+            "Vindicators"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Berzerker-Sturmbikes",
+          "units": "Ein Chaos-Lord, sechs Khorne-Berserker-Angriffsbikes und ein Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Champion",
+            "Ikonenträger"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Juggernaut-Reiter",
+          "units": "Ein Chaos-Lord, sechs Juggernaut-Reiter und ein Dämonenpakt",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Champion",
+            "Ikonenträger"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Unterstützungsverbände der World Eaters",
+      "description": "Pro Kernverband dürfen zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Doomblasters",
+          "units": "Drei Doomblasters",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Khorne-Geißel-Meute",
+          "units": "Vier Slaughterfiends",
+          "extraUnits": [
+              "Füge bis zu 3 Slaughterfiends hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Kanonen des Khorne",
+          "units": "Vier Kanonen des Khorne",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Dämonische Sturmmaschinen",
+          "units": "Vier dämonische Sturmmaschinen",
+          "extraUnits": [
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Kriegsmaschinen- und Chaos-Flottenverbände",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Greater Brass Scorpions",
+          "units": "Ein Greater Brass Scorpion",
+          "extraUnits": [
+            "Füge bis zu 2 Greater Brass Scorpions hinzu: 175 Punkte pro Stück"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Herr der Schlachten",
+          "units": "Ein Herr der Schlachten",
+          "extraUnits": [
+          ],
+          "points": 425
+        },
+        {
+          "name": "0–1 Turm der Schädel",
+          "units": "Ein Turm der Schädel",
+          "extraUnits": [
+          ],
+          "points": 600
+        },
+        {
+          "name": "Höllenklinge-Staffel",
+          "units": "Drei Höllenklinge Abfangjägers",
+          "points": 175
+        },
+        {
+          "name": "Höllenklaue-Staffel",
+          "units": "Zwei Höllenklaue-Jagdbomber",
+          "points": 225
+        },
+        {
+          "name": "0–1 Chaos Kreuzer",
+          "units": "Ein Kreuzer der Devastation-Klasse",
+          "extraUnits": [
+            "Schlachtschiff"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Dämonenpool",
+      "description": "Es dürfen beliebig viele Punkte für den Dämonenpool ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Pool niederer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Pool niederer Dämonen",
+          "points": 20
+        },
+        {
+          "name": "Pool Großer Dämonen",
+          "units": "Beliebig viele Punkte aus dem Greater-Daemon-Pool. Der erste ist kostenlos.",
+          "points": 50
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "World Eaters Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Schlachtschiff",
+        "description": "Ersetze den Kreuzer der Devastation-Klasse durch ein Schlachtschiff der Despoiler-Klasse",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Wähle eine der folgenden Optionen:",
+        "options": [
+          {
+            "description": "Ersetze den Chaos-Lord durch einen Klanlord",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Ersetze den Chaos-Lord und seine Einheit durch einen Dämonenprinz des Khorne.",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Berzerker-Transporter",
+        "options": [
+          {
+            "description": "Ersetze 4 Chaos Rhinos durch Dreadclaws",
+            "points": "kostenlos"
+          },
+          {
+            "description": "Ersetze 4 Chaos-Rhinos durch 2 Chaos-Spartan-Sturmpanzer.",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Skullseeker-Transporter",
+        "options": [
+          {
+            "description": "Füge Dreadclaws zum Verband hinzu",
+            "points": "kostenlos"
+          },
+          {
+            "description": "Füge 2 Chaos-Spartan-Sturmpanzer hinzu.",
+            "points": "100 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Dämonenpakt",
+        "description": "Füge Dämonenpakt zum Verband, und 1 point zum Pool niederer Dämonen hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Stalker",
+        "description": "Füge 1 Chaos Stalker zum Verband hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Champion",
+        "description": "Füge einen Chaoschampion-Charakter zum Verband hinzu.",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Ikonenträger",
+        "description": "Füge 1 Icon Bearer character hinzu",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge 2 World Eaters Vindicators hinzu",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

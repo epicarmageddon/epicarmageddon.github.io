@@ -1,0 +1,566 @@
+[
+  {
+    "name": "Streitkräfte der Dämonenlegion",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Erhabener Hüter der Geheimnisse",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schneidende Splitter",
+          "Peitsche der Qual"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Anführer",
+          "Befehlshaber",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Warp-Riss",
+          "Geländegängig",
+          "Verstärkte Beschwörung (+W3)"
+        ],
+        "crit": "Der Erhabene Große Dämon wird zerstört. Alle beschworenen Dämonen innerhalb von 5cm werden zerstört."
+      },
+      {
+        "name": "Hüter der Geheimnisse",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schneidende Splitter",
+          "Peitsche der Qual"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Geländegängig",
+          "Verstärkte Beschwörung (+1)"
+        ],
+        "crit": "Der Große Dämon wird zerstört. Alle beschworenen Dämonen-Einheiten innerhalb von 5cm werden bei 5+ zerstört"
+      },
+      {
+        "name": "Herold des Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Stachelklauen",
+          "Kakophonischer Schallstoß"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Herold des Slaanesh auf Sucherstreitwagen",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Stachelklauen",
+          "Kakophonischer Schallstoß"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Dämonetten des Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Durchbohrend Klauen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Slaaneshbestien",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Klauen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Slaanesh-Reiterinnen",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 2,
+        "weapons": [
+          "Stachelklauen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf",
+          "Beritten",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Erhabener Großer Verpester",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Strom der Verderbnis",
+          "Filth Streitkolben"
+        ],
+        "specialRules": [
+          "Schadenskapazität 5",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Anführer",
+          "Befehlshaber",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Warp-Riss",
+          "Geländegängig",
+          "Verstärkte Beschwörung (+W3)"
+        ],
+        "crit": "Der Erhabene Große Dämon wird zerstört. Alle beschworenen Dämonen innerhalb von 5cm werden zerstört."
+      },
+      {
+        "name": "Großer Verpester",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Strom der Verderbnis",
+          "Filth Streitkolben"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Geländegängig",
+          "Verstärkte Beschwörung (+1)"
+        ],
+        "crit": "Der Große Dämon wird zerstört. Alle beschworenen Dämonen-Einheiten innerhalb von 5cm werden bei 5+ zerstört"
+      },
+      {
+        "name": "Herold des Nurgle auf einer Sänfte",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Ranzige Heimsuchungen",
+          "Nurglinge"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Herold des Nurgle auf Seuchenfliege",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Ranzige Heimsuchungen",
+          "Seuchenfliege"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Beritten",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Seuchenhüter des Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Seuchenschwerter"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Seuchenbestien des Nurgle",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Schleimende Zuneigung"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Seuchendrohnen des Nurgle",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Todesköpfe",
+          "Seuchenfliege"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Beritten",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Erhabener Blutdämon",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Axt des Khorne",
+          "Peitsche des Khorne"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Anführer",
+          "Befehlshaber",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Warp-Riss",
+          "Geländegängig",
+          "Sprungmodule",
+          "Verstärkte Beschwörung (+W3)"
+        ],
+        "crit": "Der Erhabene Große Dämon wird zerstört. Alle beschworenen Dämonen innerhalb von 5cm werden zerstört."
+      },
+      {
+        "name": "Blutdämon",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Axt des Khorne",
+          "Peitsche des Khorne"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Geländegängig",
+          "Sprungmodule",
+          "Verstärkte Beschwörung (+1)"
+        ],
+        "crit": ". Alle beschworenen Dämonen-Einheiten innerhalb von 5cm werden bei 5+ zerstört"
+      },
+      {
+        "name": "Herold des Khorne auf Schädelkanone",
+        "type": "LV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schädelkanone"
+        ],
+        "specialRules": [
+            "Dämonischer Fokus",
+            "Infiltratoren",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Herold des Khorne auf Moloch",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Schwert des Blutes",
+          "Juggernaut"
+        ],
+        "specialRules": [
+          "Beritten",
+          "Geländegängig",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Zerfleischer des Khorne",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Höllenklingen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Bluthunde des Khorne",
+        "type": "INF",
+        "speed": 35,
+        "armour": 5,
+        "cc": 2,
+        "weapons": [
+          "Klauen und Fangzähne"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Zerschmetterer des Khorne",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Juggernaut"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf",
+          "Beritten",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Erhabener Herrscher des Wandels",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Withering Blick",
+          "Bedlam Stab"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Anführer",
+          "Befehlshaber",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Warp-Riss",
+          "Geländegängig",
+          "Sprungmodule",
+          "Verstärkte Beschwörung (+W3)"
+        ],
+        "crit": "Der Erhabene Große Dämon wird zerstört. Alle Dämonen-Einheiten innerhalb von 5cm werden zerstört."
+      },
+      {
+        "name": "Herrscher des Wandels",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Withering Blick",
+          "Bedlam Stab"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Verstärkte Panzerung",
+          "Unmodifizierter Rettungswurf",
+          "Inspirierend",
+          "Dämonischer Fokus",
+          "Geländegängig",
+          "Sprungmodule",
+          "Verstärkte Beschwörung (+1)"
+        ],
+        "crit": "Der Große Dämon wird zerstört. Alle beschworenen Dämonen-Einheiten innerhalb von 5cm werden bei 5+ zerstört."
+      },
+      {
+        "name": "Herold des Tzeentch",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Violettes Feuer des Tzeentch"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Herold des Tzeentch auf Brennendem Streitwagen",
+        "type": "LV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Violettes Feuer des Tzeentch"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Dämonischer Fokus",
+          "Unmodifizierter Rettungswurf",
+          "Verstärkte Beschwörung (+1)"
+        ]
+      },
+      {
+        "name": "Horrors des Tzeentch",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Zauberbolzen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Feuerdämonen des Tzeentch",
+        "type": "INF",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 2,
+        "weapons": [
+          "Tzeentchs Flammen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Kreischer des Tzeentch",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "weapons": [
+          "Klauen und Fangzähne"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Dämonische Bestien des ungeteilten Chaos",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Klauen"
+        ],
+        "specialRules": [
+          "Entbehrlich",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Furien des ungeteilten Chaos",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "weapons": [
+          "Klauen"
+        ],
+        "specialRules": [
+          "Im Mitternachtsschwarz",
+          "Entbehrlich",
+          "Sprungmodule",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Seelenzermalmer",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Ernterkanone",
+          "Warpschwert"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus",
+          "Infiltratoren",
+          "Geländegängig",
+          "Unmodifizierter Rettungswurf"
+        ]
+      }
+    ]
+  }
+]

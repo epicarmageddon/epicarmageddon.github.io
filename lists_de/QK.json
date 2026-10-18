@@ -1,0 +1,599 @@
+[
+  {
+    "name": "Questoris-Ritter",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Seneschallord",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Inspirierend",
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Seneschall",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Befehlshaber",
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Zwillings-Icarus-Autokanone",
+        "type": "CH",
+        "weapons": [
+          "Zwillings-Icarus Maschinenkanone"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Ironstorm-Raketenbehälter",
+        "type": "CH",
+        "weapons": [
+          "Sturmfurie-Raketen||FwA"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Armiger-Ritter-Warglaive",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Thermalspeer",
+          "Schnitter-Kettenspalter"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Armiger-Ritter-Helverin",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Maschinenkanone"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Armiger-Reliktritter-Moirax",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Blitzschlösser|0-1|",
+          "Volkite Veuglaire|0-1|",
+          "Gyges Belagerungsklaue|0-1|"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (4+)",
+          "Ionen-Flammenschild"
+        ],
+        "notes": "Muss entweder mit Lightning Locks oder mit Volkite Veuglaire und Gyges Siege Claw bewaffnet sein."
+      },
+      {
+        "name": "Questoris-Ritter-Paladin",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schnellfeuer Kampfgeschütz",
+          "Reaper-Kettenschwert"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Ritter-Errant",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Thermalkanone",
+          "Reaper-Kettenschwert"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Ritter-Crusader",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Schnellfeuer Kampfgeschütz",
+          "Rächer-Gatlingkanone"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Ritter-Gallant",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Icarus Maschinenkanone",
+          "Donnerschlaghandschuh",
+          "Reaper-Kettenschwert"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Ritter-Warden",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Rächer-Gatlingkanone",
+          "Sturmfurie-Raketen",
+          "Reaper-Kettenschwert"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Ritter-Preceptor",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Laserimpulsor",
+          "Donnerschlaghandschuh"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Ritter-Freeblade",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Donnerschlaghandschuh",
+          ">Chrimson Glaive<",
+          "Feuersturmkanone",
+          ">Iron Wolf<",
+          "Helfrost Zerstörer",
+          ">Justice<",
+          "Castigator Kanone",
+          ">Canis Rex<",
+          "Laserimpulsor"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Questoris-Reliktritter-Styrix",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Volkite Chierovile",
+          "Zwillings-Rad Cleanser",
+          "Graviton-Zermalmer",
+          "Hekaton Belagerungsklaue"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)",
+          "Ionen-Flammenschild"
+        ]
+      },
+      {
+        "name": "Questoris-Reliktritter-Magaera",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Blitzkanone",
+          "Zwillings-Phasen-Plasmafusil",
+          "Reaper-Kettenschwert"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Ionenschild (3+)",
+          "Ionen-Flammenschild"
+        ]
+      },
+      {
+        "name": "Dominus-Ritter-Castellan",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Ironstorm-Raketenbehälter|4|",
+          "Vulkanlanze||FwA",
+          "Verdammnisschlag-Rakete||",
+          "Plasma-Dezimator||FwA"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Dominus-Ritter-Valiant",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Ironstorm-Raketenbehälter|2|",
+          "Verdammnisschlag-Rakete|2|",
+          "Feuersturmkanone",
+          "Donnerwendel-Harpune"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Cerastus-Ritter-Acheron",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Cerastus Flammen Kanone",
+          "Reaper-Kettenfaust"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Cerastus-Ritter-Castigator",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Castigator Kanone",
+          "Sturmkriegsklinge"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (3+)"
+        ]
+      },
+      {
+        "name": "Cerastus-Ritter-Lancer",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Cerastus-Schocklanze"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (3+)",
+          "Ionen-Flammenschild"
+        ]
+      },
+      {
+        "name": "Cerastus-Reliktritter-Atrapos",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Graviton-Singularitätskanone",
+          "Atrapos-Laserschneider"
+        ],
+        "specialRules": [
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (3+)",
+          "Ionen-Flammenschild"
+        ]
+      },
+      {
+        "name": "Acastus-Reliktritter-Porphyrion",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Vierlings-Magna Laserkanone||FxF",
+          "Maschinenkanone|2|FxF",
+          "Helios Verteidigungs Raketen"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 3",
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ],
+        "crit": "Der Acastus-Ritter erleidet 1 zusätzlichen Schadenspunkt."
+      },
+      {
+        "name": "Acastus-Reliktritter-Asterius",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Konversions Strahl Kanone|2|FxF",
+          "Volkite-Kulverine|2|FxF",
+          "Karacnos-Mörserbatterie||FxF"
+        ],
+        "specialRules": [
+          "Schadenskapazität: 3",
+          "Starrköpfig",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (3+)"
+        ],
+        "crit": "Der Acastus-Ritter erleidet 1 zusätzlichen Schadenspunkt."
+      },
+      {
+        "name": "Ritter-Baron",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Schnellfeuer Kampfgeschütz",
+          "Schocklanze",
+          "Ritter-Energiehandschuh"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber",
+          "Verstärkte Panzerung",
+          "Verstärkte Heckpanzerung",
+          "Furchtlos",
+          "Geländegängig",
+          "Inspirierend",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Paladin",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kampfgeschütz",
+          "Schocklanze",
+          "Ritter-Kettenschwert"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Castellan",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Langkanone",
+          "Mehrläufige Maschinenkanone|0-1|",
+          "Zwillings-Laserkanone|0-1|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Lancer",
+        "type": "H-AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Kampfgeschütz",
+          "Ritter-Energielanze"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Aufklärer",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Errant",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Thermalkanone",
+          "Schocklanze",
+          "Ritter-Energiehandschuh"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Warden-Demolisher",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Belagerungskanone",
+          "Schwerer Bolter|2|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Warden-Vanquisher",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Vanquisher Kanone"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (4+)"
+        ]
+      },
+      {
+        "name": "Ritter-Warden-Skyjäger",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Skysweeper Raketenwerfer",
+          "Multilaser|2|"
+        ],
+        "specialRules": [
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Ionenschild (4+)"
+        ]
+      }
+    ]
+  }
+]

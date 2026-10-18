@@ -1,0 +1,213 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Belagerungsmeister von Baran",
+  "version": "1.0.Beta",
+  "release": "2023-03-08",
+  "armyforge": "EAR_ImperialGuard_BaranBelagerungsmeister",
+  "strategy": "Baran Siegemaster-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Baran-Regimentshauptquartier",
+    "Belagerungsmeister",
+    "Mut, Disziplin und Loyalität",
+    "Tunnelgräber",
+    "Befestigte Stellungen"
+  ],
+  "usage": [
+    "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee der Baran-Siegesmeister aufzustellen."
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Baran-Belagerungsmeister",
+        "Baran-Befehlshaber",
+        "Kommissar",
+        "Belagerungsinfanterie",
+        "Pioniere",
+        "Todesreiter",
+        "Scharfschützen",
+        "Ogryns",
+        "Thudd-Geschütz",
+        "Rapier",
+        "Maulwurfswerfer-Trupp",
+        "Schwere Flugabwehrkanone",
+        "Medusa-Kanone",
+        "Bombarde",
+        "Greif",
+        "Höllenhund",
+        "Seuchenwolf",
+        "Teufelshund",
+        "Todesstoß",
+        "Haubitze",
+        "Ragnarok-Schwerer Kampfpanzer",
+        "Siegfried-Leichtpanzer",
+        "Hades-Aufbrechbohrer",
+        "Macharius",
+        "Macharius-Kommandopanzer",
+        "Malcador",
+        "Malcador Defender",
+        "Verteidigungslaser"
+      ],
+      "unitRules": [
+        "Schweres gepanzertes Fahrzeug (H-AV)"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Donnerkeil-Jäger",
+        "Marauder-Bomber (B)",
+        "Kreuzer der Lunar-Klasse",
+        "Schlachtschiff der Emperor-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Kernkompanie-Verbände",
+      "description": "Ein Regimentshauptquartier der Baran-Belagerungsmeister muss aufgestellt werden. Jeder Kernkompanie-Verband muss mindestens eine und höchstens drei Aufwertungen erhalten. Jede Aufwertung darf nur einmal gewählt werden.",
+      "formations": [
+        {
+          "name": "1 Regimentshauptquartier der Baran-Belagerungsmeister",
+          "units": "Ein Baran-Belagerungsmeister mit einem Kommissar und neun Belagerungsinfanteristen",
+          "extraUnits": [
+              "40 cm Stacheldraht und 4 cm Schützengräben pro Infanterieeinheit im Verband: 50 Punkte. Ersetze 24 cm Schützengräben durch 2 Bunker: 25 Punkte.",
+              "5 Belagerungsinfanteristen, 2 Scharfschützen, 2 Pioniere oder 2 Ogryns: 50 Punkte",
+              "4 Rapiers, 3 Mole-Mörser, 3 Thudd-Geschütze, 2 Medusa-Kanonen mit 2 Geschützstellungen oder 1 Todesstoß: 75 Punkte",
+              "1 Verteidigungslaser, 2 Malcadors oder 2 Malcador-Verteidiger: 150 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Belagerungsinfanterie-Kompanie",
+          "units": "Ein Baran-Befehlshaber mit einem Kommissar und neun Belagerungsinfanteristen",
+          "extraUnits": [
+              "40 cm Stacheldraht und 4 cm Schützengräben pro Infanterieeinheit im Verband: 50 Punkte. Ersetze 24 cm Schützengräben durch 2 Bunker: 25 Punkte.",
+              "5 Belagerungsinfanteristen, 2 Scharfschützen, 2 Pioniere oder 2 Ogryns: 50 Punkte",
+              "4 Rapiers, 3 Mole-Mörser, 3 Thudd-Geschütze, 2 Medusa-Kanonen mit 2 Geschützstellungen oder 1 Todesstoß: 75 Punkte",
+              "1 Verteidigungslaser, 2 Malcadors oder 2 Malcador-Verteidiger: 150 Punkte"
+          ],
+          "points": 175
+      }
+      ]
+    },
+    {
+      "name": "Baran Unterstützungsverbände",
+      "description": "Pro Kernkompanie dürfen bis zu zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+          {
+            "name": "Schwere Panzerkompanie",
+            "units": "Ein Kommissar und sechs Ragnarok-Schwere Kampfpanzer",
+            "extraUnits": [
+              "Füge 3 Ragnarok-Schwere Kampfpanzer hinzu: 125 Punkte"
+            ],
+            "points": 350
+        },
+        {
+          "name": "Macharius-Kompanie",
+          "units": "Ein Macharius-Kommandopanzer mit einem Kommissar und zwei Macharius-Panzern",
+          "extraUnits": [
+              "Füge bis zu 3 Höllenhunde, Seuchenwölfe, oder Teufelshunde hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Pionierkompanie",
+          "units": "Ein Kommissar, acht Pioniere und ein Hades-Aufbrechbohrer",
+          "points": 225
+        },
+        {
+          "name": "Belagerungsartilleriestellung",
+          "units": "Vier Medusa-Kanonen und vier Geschützstellungen",
+          "extraUnits": [
+              "Ersetze 4 Medusa-Kanonen und 4 Geschützstellungen durch 3 Bombarden und 3 Geschützstellungen: 25 Punkte"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Haubitzenstellung",
+          "units": "Drei Haubitzen und drei Geschützstellungen",
+          "extraUnits": [
+              "Füge 3 Haubitzen und 3 Geschützstellungen hinzu: 100 Punkte; oder einen Kommissar, 6 Haubitzen und 6 Geschützstellungen: 200 Punkte",
+              "Füge 1 schweres Flugabwehrgeschütz und 1 Geschützstellung hinzu: 50 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Flakstellung",
+          "units": "Drei schwere Flugabwehrgeschütze und drei Geschützstellungen",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Leichte Artilleriestellung",
+          "units": "Vier Rapiers, vier Thudd-Geschütze oder vier Mole-Mörser mit 16 cm Schützengräben",
+          "extraUnits": [
+              "Füge 4 Einheiten desselben Typs, 16 cm Schützengräben und einen Kommissar hinzu: 125 Punkte"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Greif-Batterie",
+          "units": "Drei Greifs",
+          "extraUnits": [
+              "Füge bis zu 3 Höllenhunde, Seuchenwölfe, oder Teufelshunde hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Todesreiter",
+          "units": "Sechs Todesreiter",
+          "extraUnits": [
+              "Füge 6 Todesreiter und einen Kommissar hinzu: 100 Punkte",
+              "Füge bis zu 3 Höllenhunde, Seuchenwölfe, oder Teufelshunde hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Belagerungsaufklärungsstaffel",
+          "units": "Vier Siegfried-Leichtpanzer",
+          "extraUnits": [
+              "Füge bis zu 3 Höllenhunde, Seuchenwölfe, oder Teufelshunde hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 125
+      },
+      {
+        "name": "Verteidigungslaser",
+        "units": "Ein Verteidigungslaser",
+        "extraUnits": [
+        ],
+        "points": 200
+      }
+      ]
+    },
+    {
+      "name": "Imperial Flotte",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für Imperiale Flotte Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Donnerkeil-Staffel",
+          "units": "Zwei Donnerkeil-Jägers",
+          "points": 175
+        },
+        {
+          "name": "Marauder-Staffel",
+          "units": "Zwei Marauder-Bomber (B)",
+          "points": 250
+      },
+      {
+        "name": "0–1 Orbitale Unterstützung",
+        "units": "Ein Kreuzer der Lunar-Klasse",
+        "points": 125,
+        "extraUnits": [
+          "Ersetze durch ein Schlachtschiff der Emperor-Klasse: 50 Punkte"
+        ]
+      }
+      ]
+    }
+  ]
+}

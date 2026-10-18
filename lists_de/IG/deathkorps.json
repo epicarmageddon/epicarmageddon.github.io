@@ -1,0 +1,247 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Todeskorps von Krieg",
+  "version": "1.0.Beta-4",
+  "release": "2022-09-29",
+  "armyforge": "EAR_ImperialGuard_DKoK",
+  "strategy": "DKoK-Armeen haben einen Strategiewert von 2.",
+  "Initiative": "Verbände der Collegia Titanica haben einen Initiativwert von 1+. Alle übrigen Verbände haben einen Initiativwert von 2+.",
+  "specialRules": [
+    "Mut, Disziplin und Loyalität",
+    "Befestigte Stellungen"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Oberbefehlshaber des Todeskorps von Krieg",
+        "Befehlshaber des Todeskorps von Krieg",
+        "Kommissar",
+        "Sturminfanterie",
+        "Belagerungsinfanterie",
+        "Todesreiter",
+        "Grenadiere",
+        "Thudd-Geschütz",
+        "Rapier",
+        "Scharfschützen",
+        "Gepanzerter Sentinel",
+        "Medusa-Kanone",
+        "Erdbebenkanone",
+        "Schwere Flugabwehrkanone",
+        "Trojan",
+        "Bombarde",
+        "Greif",
+        "Todesstoß",
+        "Seuchenwolf",
+        "Sturm-Chimäre",
+        "Leman Russ Kampfpanzer",
+        "Leman Russ Annihilator",
+        "Leman Russ Thunderer",
+        "Macharius",
+        "Macharius-Kommandopanzer",
+        "Gorgon",
+        "Baneblade",
+        "Stormsword",
+        "Shadowsword"
+      ],
+      "unitRules": [
+        "Schweres gepanzertes Fahrzeug (H-AV)",
+        "Schildbrecher"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Warhound"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Donnerkeil-Jäger",
+        "Marauder-Bomber (B)",
+        "Kreuzer der Lunar-Klasse",
+        "Schlachtschiff der Emperor-Klasse"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "DKoK Kernkompanien",
+      "formations": [
+        {
+          "name": "0–1 Regimentshauptquartier des Death Korps",
+          "units": "Ein DKoK-Oberbefehlshaber mit einem Kommissar, neun Sturminfanterie (INF), ein Gorgon",
+          "extraUnits": [
+            "Füge zehn Sturminfanterie (INF) und einen Gorgon hinzu: 250 Punkte",
+            "Leman Russ Kampfpanzer",
+            "Seuchenwölfe"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Sturmkompanie",
+          "units": "Ein DKoK-Befehlshaber mit einem Kommissar, neun Sturm-Infanteristen und einem Gorgon",
+          "extraUnits": [
+            "Leman Russ Kampfpanzer",
+            "Seuchenwölfe"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Todesreiter-Kompanie",
+          "units": "Ein Kommissar, zwölf Death Riders",
+          "extraUnits": [
+            "Seuchenwölfe"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "DKoK Unterstützungsverbände",
+      "description": "Pro Kompanie-Verband dürfen bis zu zwei Unterstützungsverbände aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Leman-Russ-Staffel",
+          "units": "Vier Leman Russ, Leman Russ Thunderers, oder Leman Russ Annihilators",
+          "extraUnits": [
+            "Seuchenwölfe"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Belagerungsinfanterie-Kompanie",
+          "units": "DKoK Befehlshaber mit Kommissar, 9 Siege Infanterie (INF), 40cm Trenches, 40cm Razor Wire",
+          "extraUnits": [
+            "Füge 4 Rapiers und 16cm Trenches, oder 3 Thudd-Geschütze und 12cm Trenches hinzu: 75 Punkte",
+            "Füge bis zu 2 Scharfschützen hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Artilleriestellung",
+          "units": "Vier Medusa-Kanonen und vier Geschützstellungen",
+          "extraUnits": [
+            "Ersetze 4 Geschützstellungen durch 4 Trojaner: kostenlos",
+            "Ersetze 4 Medusa-Kanonen durch 4 Erschütterungskanonen: 50 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Flakstellung",
+          "units": "Vier schwere Flugabwehrgeschütze und vier Geschützstellungen",
+          "upgrades": [
+            "Ersetze 4 Geschützstellungen durch 4 Trojaner: kostenlos"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Bombardenbatterie",
+          "units": "Drei Bombarden",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Greif-Batterie",
+          "units": "Drei Greifs",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Todesstoß-Batterie",
+          "units": "Zwei Todesstoß-Raketensilos",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Superschwerer Panzerzug",
+          "units": "Ein Baneblade oder Stormsword",
+          "extraUnits": [
+              "Ersetze 1 Baneblade durch ein Shadowsword: 25 Punkte"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Macharius-Kompanie",
+          "units": "Ein Macharius Command mit einem Kommissar, zwei Macharius",
+          "upgrades": [
+          ],
+          "points": 350
+        },
+        {
+          "name": "Grenadierkompanie",
+          "units": "Ein DKoK-Befehlshaber mit einem Kommissar, sieben Grenadieren und vier Sturm-Chimären",
+          "extraUnits": [
+            "Ersetze 4 Storm Chimären durch ein Gorgon: kostenlos",
+            "Seuchenwolf"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Gepanzerte Sentinel-Staffel",
+          "units": "Vier gepanzerte Sentinels",
+          "extraUnits": [
+          ],
+          "points": 125
+        }
+      ]
+    },
+    {
+      "name": "Collegia Titanica & Imperial Flotte Verbündete",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für Verbände der Collegia Titanica und der Imperialen Flotte ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Warhound-Titanen",
+          "units": "Ein Warhound-Titan",
+          "points": 275,
+          "extraUnits": [
+            "Füge 1 zusätzlichen Warhound-Titan hinzu: 200 Punkte"
+          ]
+        },
+        {
+          "name": "Donnerkeil-Staffel",
+          "units": "Zwei Donnerkeil-Jägers",
+          "points": 175
+        },
+        {
+          "name": "Marauder-Staffel",
+          "units": "Zwei Marauder-Bomber (B)",
+          "points": 250
+        },
+        {
+          "name": "0–1 Orbitale Unterstützung",
+          "units": "Ein Kreuzer der Lunar-Klasse",
+          "points": 125,
+          "upgrades": [
+            "Ersetze den Kreuzer durch ein Schlachtschiff der Emperor-Klasse: 50 Punkte"
+          ]
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "DKoK Aufwertungen",
+    "description": "Jede Aufwertung darf pro Verband einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Seuchenwolf",
+        "description": "Füge bis zu 3 Seuchenwölfe hinzu",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Leman Russ Kampfpanzer",
+        "description": "Füge 3 Leman Russ, 3 Leman Russ Thunderers, oder 3 Leman Russ Annihilators hinzu",
+        "points": "150 Punkte"
+      }
+    ]
+  }
+}

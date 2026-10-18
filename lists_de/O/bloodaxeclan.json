@@ -1,0 +1,265 @@
+{
+  "fraction": "Ork",
+  "army": "Klan der Blutäxte, Roter WAAAGH!",
+  "version": "",
+  "release": "2022-04-01",
+  "strategy": "Ork-Armeen haben einen Strategiewert von 3.",
+  "Initiative": "Alle Verbände haben einen Initiativwert von 3+.",
+  "specialRules": [
+    "Köppe zählen",
+    "Macht des Waaagh!",
+    "Klanlord der Blutäxte"
+  ],
+  "usage": [
+    "Im Gegensatz zu den starren Verbänden des Imperiums unterscheiden sich Ork-Verbände stark in Größe und Zusammensetzung. Ihre Aufstellungsregeln tragen dem Rechnung. Am häufigsten sind Mobs; daneben gibt es spezialisierte Verbände wie Heizakulte und Blitzbrigaden. Die verfügbaren Verbandstypen sind im folgenden Armeeorganisationsplan aufgeführt. Dieser enthält folgende Informationen:",
+    "<b>Einheiten</b> – Diese Spalte nennt die Einheiten eines Verbands. Ork-Spieler können die Einheitenzahl verdoppeln oder verdreifachen. Ein Verband mit doppelter Stärke ist ein Großverband, einer mit dreifacher Stärke ein Riesenverband.",
+    "<b>Aufwertungen</b> – Ein Ork-Verband kann zusätzliche Einheiten aus der Spalte „Aufwertungen“ erhalten, sofern keine andere Begrenzung angegeben ist. Bei Großverbänden wird die Begrenzung verdoppelt, bei Riesenverbänden verdreifacht. Ein normaler Heizakult kann beispielsweise 0–1 Oddboy enthalten, ein großer 0–2 und ein riesiger 0–3. Alle Kern-, zusätzlichen und kostenlosen Einheiten gelten als Teil desselben Verbands und dürfen sich nicht eigenständig bewegen.",
+    "<b>Kosten</b> – Die meisten Ork-Verbände haben drei Punktwerte: normal, groß und riesig. Hat ein Verband nur einen Punktwert, kann seine Größe nicht erhöht werden."
+  ],
+  "units": [
+    {
+      "from": "ORK.json",
+      "units": [
+        "Waaghboss",
+        "Oddboy",
+        "Boys",
+        "Grots",
+        "Bosse",
+        "Kommandos",
+        "Stormboys",
+        "Deffkopta",
+        "Waaghkopta",
+        "Transportpanza",
+        "Flakpanza",
+        "Erbeuteter Leman Russ/Land Raider",
+        "Erbeuteter Vindicator/Thunderer",
+        "Killa Bot",
+        "Deff-Dread",
+        "Meka-Dread",
+        "Mega Transportpanza",
+        "Mega Wummenpanza",
+        "Flakka-Mega-Transportpanza",
+        "Schädelhammer",
+        "Jagdbomma",
+        "Wazbom-Blastajet",
+        "Landungsrakete",
+        "Blutäxte-Kill-Kreuzer",
+        "Blutäxte-Schlachtkreuzer"
+      ],
+      "unitRules": [
+        "Schpezialfelda",
+        "Super-Entbehrlich"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ork-Verbände",
+      "formations": [
+        {
+          "name": "Mob der Blutäxte",
+          "units": "Zwei Bosse, sechs Boys, zwei Grots",
+          "extraUnits": [
+            "Füge beliebig viele Looted Chimären/Rhinos, Killa Bots, Kommandos, Stormboys hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Deffkoptas, Cybots, Looted Hydras, Looted Leman Russ/Land Raiders  hinzu: 35 Punkte pro Stück",
+            "Füge beliebig viele Stampfas hinzu: 50 Punkte pro Stück",
+            "Füge beliebig viele Mega Transportpanzas hinzu: 115 Punkte pro Stück",
+            "Füge beliebig viele Mega Wummenpanzas hinzu: 115 Punkte pro Stück",
+            "0-2 Bosse: 35 Punkte pro Stück",
+            "0–1: Füge einen Oddboy-Charakter zu einer Mega Transportpanza-, Mega Wummenpanza-, Kampfpanza- oder Einheit mit Fetter Wumme hinzu: 50 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "200"
+            },
+            {
+              "name": "Groß",
+              "points": "325"
+            },
+            {
+              "name": "Riesig",
+              "points": "450"
+            }
+          ]
+        },
+        {
+          "name": "Plünderer-Brigade",
+          "units": "Beliebige vier der folgenden Einheiten: Looted Leman Russ",
+          "extraUnits": [
+            "Füge beliebig viele Brennabuggies, Waaghbikes, Warbuggies hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Deffkoptas, Flakpanzas, Kampfpanzas hinzu: 35 Punkte pro Stück",
+            "0-1: Ein Mega Wummenpanza: 115 Punkte",
+            "0–1: Füge einen Oddboy-Charakter zu einer Mega Wummenpanza- oder Kampfpanza-Einheit hinzu: 50 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "150"
+            },
+            {
+              "name": "Groß",
+              "points": "250"
+            },
+            {
+              "name": "Riesig",
+              "points": "350"
+            }
+          ]
+        },
+        {
+          "name": "Kult des Heizakults",
+          "units": "Beliebige acht der folgenden Einheiten: Brennabuggies, Waaghbikes, Warbuggies",
+          "extraUnits": [
+            "Füge beliebig viele Brennabuggies, Waaghbikes, Warbuggies hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Deffkoptas, Flakpanzas, Kampfpanzas hinzu: 35 Punkte pro Stück",
+            "0–1: Füge einen Oddboy-Charakter zu einer Kampfpanza-Einheit hinzu: 50 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "200"
+            },
+            {
+              "name": "Groß",
+              "points": "350"
+            },
+            {
+              "name": "Riesig",
+              "points": "500"
+            }
+          ]
+        },
+        {
+          "name": "Kommando-Mob",
+          "units": "Sechs Kommandos",
+          "extraUnits": [
+            "Füge beliebig viele Brennabuggies, Waaghbikes, Warbuggies, Kommandos, Stormboys hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Stormboyz-Mob",
+          "units": "Sechs Stormboys",
+          "extraUnits": [
+            "Füge beliebig viele Brennabuggies, Waaghbikes, Warbuggies, Kommandos, Stormboys hinzu: 25 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Mekwummen-Mob",
+          "units": "Fünf Kanonänbatterie",
+          "extraUnits": [
+            "Füge beliebig viele Transportpanzas und Kanonänbatterien hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Flakpanzas hinzu: 35 Punkte pro Stück",
+            "0-1 Bosse: 35 Punkte",
+            "0–1: Füge einen Oddboy-Charakter zu einer Einheit mit Fetter Wumme hinzu: 50 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "125"
+            },
+            {
+              "name": "Groß",
+              "points": "225"
+            },
+            {
+              "name": "Riesig",
+              "points": "325"
+            }
+          ]
+        },
+        {
+          "name": "Mek-Stampfa-Mob",
+          "units": "Drei Stampfas",
+          "extraUnits": [
+            "Füge beliebig viele Killa Bots hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Cybots, Flakpanzas hinzu: 35 Punkte pro Stück",
+            "Füge beliebig viele Stampfas hinzu: 50 Punkte pro Stück",
+            "0-1: Supa-Stampfa: 275 Punkte"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "225"
+            },
+            {
+              "name": "Groß",
+              "points": "375"
+            },
+            {
+              "name": "Riesig",
+              "points": "525"
+            }
+          ]
+        },
+        {
+          "name": "Mek-Dread-Mob",
+          "units": "Ein Cybot, drei Killa Bot",
+          "extraUnits": [
+            "Füge beliebig viele Killa Bots hinzu: 25 Punkte pro Stück",
+            "Füge beliebig viele Cybots, Flakpanzas hinzu: 35 Punkte pro Stück"
+          ],
+          "pointsOptions": [
+            {
+              "name": "Normal",
+              "points": "125"
+            },
+            {
+              "name": "Groß",
+              "points": "200"
+            },
+            {
+              "name": "Riesig",
+              "points": "275"
+            }
+          ]
+        },
+        {
+          "name": "0–1 Kill-Kreuzer",
+          "units": "Ein Kill-Kreuzer",
+          "extraUnits": [
+            "Ersetze den Kill-Kreuzer durch einen Schlachtkreuzer für +50 Punkte"
+          ],
+          "points": 100
+        }
+      ]
+    },
+    {
+      "name": "Ork-Flugzeug- und Gargant-Verbände",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden",
+      "formations": [
+        {
+          "name": "Jagdbomma-Staffel",
+          "units": "Drei Jagdbommas",
+          "upgrades": [
+            "Füge bis zu 6 Jagdbommas hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Landungsschiff",
+          "units": "Ein Landungsschiff",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Gargant",
+          "units": "Ein Gargant",
+          "upgrades": [
+          ],
+          "points": 550
+        },
+        {
+          "name": "Großer Gargant",
+          "units": "Ein Großer Gargant",
+          "upgrades": [
+          ],
+          "points": 700
+        }
+      ]
+    }
+  ]
+}

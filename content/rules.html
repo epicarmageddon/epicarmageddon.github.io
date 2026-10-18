@@ -1,188 +1,221 @@
-<h2>Regelwerk</h2>
+<script>
+    if (typeof eaNav === 'undefined') {
+        document.location.href = "/"
+    }
+</script>
+
+<h2>Regeln</h2>
 <p class="lead">
-    Hier wird in Kürze der Link zum deutschen Regelbuch als PDF bereitgestellt.
-    <a href="http://www.tp.net-armageddon.org/tournament-pack/" target="_blank" class="external">NetEA Tournament Pack</a>
+    EA:Ragnarök verwendet die NetEA-Regeln, die im <a href="http://www.tp.net-armageddon.org/tournament-pack/" target="_blank" class="external">NetEA-Turnierregelwerk</a> zu finden sind. Einige Regeln des NetEA-Epic-Regelwerks lassen mehrere Auslegungen zu. Hier beschreiben wir die Auslegungen und teilweise auch Hausregeln, die wir bei der Entwicklung der EA:Ragnarök-Listen verwendet haben. Wir empfehlen, sie auch bei Partien mit EA:Ragnarök-Listen und -Szenarien anzuwenden.
 </p>
 
-<h3>EA:Ragnarök rule interpretations & house-rules</h3>
-<h6>Say it und its true</h6>
+<h3>Regelauslegungen und Hausregeln von EA:Ragnarök</h3>
+<h6>Ansagen genügt</h6>
 <p>
-    Effectively lots of things may move on a table. If a player is able to put a unit 6cm away from another unit, oder 10cm into terrain, then saying they are doing so makes it so. This means if later a piece is budged say to cause intermingle, it won't be treated as such. - If you think it can't be done, advise your opponent when they 'say it'.
+    Grundsätzlich können viele Dinge auf dem Spieltisch bewegt werden. Wenn ein Spieler eine Einheit 6 cm von einer
+    anderen Einheit entfernt oder 10cm tief in ein Geländestück stellen kann, genügt es, dies anzusagen. Wird ein
+    Modell später verschoben, etwa um ein Ineinandergreifen herbeizuführen, wird dies nicht berücksichtigt. Wenn du
+    glaubst, dass eine Bewegung nicht möglich ist, teile es deinem Gegner mit, sobald er sie ansagt.
 </p>
 
-<h6>Aufklärering from behind</h6>
+<h6>Aufklärung von hinten</h6>
 <p>
-    An issue that is explicitly unresolved in the core rules is the issue of units mit the <i>Aufklärer</i> special rule blocking formations from engaging in unfair ways. While 'just don't do it' resolves some situations, it does lead to a grey zone of play which is very problematic und leads to unnecessary arguments. To resolve this issue we suggest that units mit <i>Aufklärer</i> counts as having 5cm <i>Zone of Control</i> during enemy engage actions. The following exceptions apply:
+    Die Grundregeln klären ausdrücklich nicht, ob Einheiten mit der Sonderregel <i>Aufklärer</i> gegnerische Verbände
+    auf unfaire Weise an Angriffen hindern können. „Macht das einfach nicht“ löst zwar manche Situationen, schafft
+    aber einen problematischen Graubereich und führt zu unnötigen Diskussionen. Deshalb empfehlen wir, dass Einheiten
+    mit <i>Aufklärer</i> während gegnerischer Angriffsaktionen eine Kontrollzone von 5cm haben. Es gelten folgende
+    Ausnahmen:
 </p>
 <ul>
     <li>
-        Engaging formations may not pass through Aufklärer formations (between models) that are not the target of the assault, even if the reduced Aufklärer ZoC would leave an opening to do so.
+        Angreifende Verbände dürfen sich nicht durch Aufklärerverbände hindurchbewegen (also zwischen deren Modellen
+        hindurch), wenn diese nicht Ziel des Angriffs sind – selbst dann nicht, wenn die verringerte Kontrollzone
+        der Aufklärer eine Lücke ließe.
     </li>
     <li>
-        Engaging formations may not target formations that are behind a formation of Aufklärers, even if the reduced Aufklärer ZoC would allow engaging formations to get within 15cm of the formation behind the Aufklärer screen.
+        Angreifende Verbände dürfen keine Verbände hinter einem Aufklärerverband als Ziel wählen, selbst wenn sie
+        aufgrund der verringerten Kontrollzone bis auf 15 cm an den Verband hinter dem Aufklärungsschirm herankommen.
     </li>
     <li>
-        The reduced Aufklärer ZoC does not apply during air assaults.
+        Die verringerte Kontrollzone der Aufklärer gilt nicht bei Luftangriffen.
     </li>
     <li>
-        Formations that move out of Portale must engage Aufklärers that are within 10cm.
+        Verbände, die aus Portalen kommen, müssen Aufklärer angreifen, die sich innerhalb von 10cm befinden.
     </li>
 </ul>
 
-<h6>Contacting more than eine enemy unit during an engage</h6>
+<h6>Kontakt mit mehreren gegnerischen Einheiten bei einem Angriff</h6>
 <p>
-    A gray zone in the rules is under what conditions a unit can touch more than eine enemy unit when it engages. While units must move towards enemy units once they enter their zone of control is clear, but less clear is how creative mit angling your models in the phase you can be. Our suggestion is to be liberal in interpreting this, und that
-    engaging oder counter charging units can always contact bis zu zwei enemy units if they have enough speed to do so, und there is enough physical space to fit.
+    Die Regeln lassen offen, unter welchen Umständen eine Einheit bei einem Angriff mehr als eine gegnerische Einheit
+    berühren darf. Zwar ist klar, dass sich Einheiten auf gegnerische Einheiten zubewegen müssen, sobald sie deren
+    Kontrollzone betreten; weniger klar ist jedoch, wie frei Modelle dabei ausgerichtet werden dürfen. Wir empfehlen
+    eine großzügige Auslegung: Angreifende oder Gegenangriffe ausführende Einheiten dürfen stets bis zu zwei
+    gegnerische Einheiten berühren, sofern ihre Bewegungsweite dafür ausreicht und genügend Platz vorhanden ist.
 </p>
 
-<h6>When is a formation 'in a position to support'?</h6>
+<h6>Wann befindet sich ein Verband in Unterstützungsposition?</h6>
 <p>
-    After an Engage has been resolved, formations on the losing side recieves a Blast Marker, but it is not entirely clear exactly at which point during the Engage that this is determined. Our suggestion is that formations mit units that has rolled FF dice (oder could have been allowed to roll FF dice if they had an FF value oder had not been broken), are considered to have been in a position to support. This resolves the situation in which units from the enemy formation were within 15cm from a formation at the start of the Engage, but were eliminated before the supporting formation had a chance to support.
+    Nach einem abgehandelten Angriff erhalten Verbände auf der Verliererseite eine Beschussmarke. Nicht ganz klar ist,
+    zu welchem Zeitpunkt des Angriffs dies bestimmt wird. Wir empfehlen, Verbände als in Unterstützungsposition zu
+    betrachten, wenn Einheiten darin Feuergefechtswürfel geworfen haben oder hätten werfen dürfen, falls sie einen
+    Feuergefechtswert gehabt beziehungsweise nicht aufgerieben gewesen wären. So lässt sich die Situation klären,
+    in der Einheiten des angreifenden Verbands zu Beginn des Angriffs innerhalb von 15 cm eines Verbands waren,
+    aber ausgeschaltet wurden, bevor dieser unterstützen konnte.
 </p>
 
-<h6>Resolving hits from Supporting attacks</h6>
+<h6>Treffer aus Unterstützungsfeuer abhandeln</h6>
 <p>
-    In order to determine the direction und order of hits from supporting fire, such hits are resolved eine supporting formation at a time, in any order that the controlling player wishes.
+    Um Richtung und Reihenfolge der Treffer aus Unterstützungsfeuer zu bestimmen, werden diese Verband für Verband
+    in einer beliebigen Reihenfolge abgehandelt, die der kontrollierende Spieler festlegt.
 </p>
 
-<h6>Preserve allocation order between normal und macro hits</h6>
+<h6>Zuteilungsreihenfolge normaler und Makrotreffer beibehalten</h6>
 <p>
-    Macro und standard hits are resolved in separate phases of shooting und assaults. We suggest you preserve the
-    allocation order between the zwei phases. I.e. Imperial Guard mit einemGorgon assault und receive 2 normal hits und 1
-    TK. The Gorgon und guardsmen are equally close to the enemy. If the Imperial Guard player choose to take the normal
-    hits into the Gorgon, und it doesnt die, he must also take the TK into the Gorgon. Likewise if he take the regular
-    hits into the guardsmen und they dont die the TK goes into the guardsmen. If the Guardsmen die from the normal hits
-    the TK goes into the nearest surviving unit to the enemy.
+    Makro- und normale Treffer werden beim Beschuss und bei Angriffen in getrennten Phasen abgehandelt. Wir empfehlen,
+    die Zuteilungsreihenfolge zwischen diesen Phasen beizubehalten. Beispiel: Eine Einheit der Imperialen Armee wird
+    mit einem Gorgon angegriffen und erleidet zwei normale Treffer sowie einen Titanenkiller-Treffer. Der Gorgon und
+    die Soldaten sind gleich weit vom Gegner entfernt. Entscheidet sich der Spieler der Imperialen Armee, die normalen
+    Treffer dem Gorgon zuzuteilen, und wird dieser dadurch nicht zerstört, muss auch der Titanenkiller-Treffer dem
+    Gorgon zugeteilt werden. Ebenso muss der Titanenkiller-Treffer den Soldaten zugeteilt werden, wenn die normalen
+    Treffer ihnen zugeteilt wurden und sie überleben. Werden die Soldaten durch die normalen Treffer ausgeschaltet,
+    erhält die dem Gegner nächstgelegene überlebende Einheit den Titanenkiller-Treffer.
 </p>
 
-<h6>Formations mixing BP und standard weapons</h6>
+<h6>Verbände mit Sperrfeuer- und gewöhnlichen Waffen</h6>
 <p>
-    As far as we understand there are no rules defining how things work when a formation fires both BP und standard
-    weapons. We suggest the following house-rule: A formation can chose to fire it's BP weapons before oder after any
-    non-BP weapons has been fired. This includes Macro und Titan Killer BP weapons (an exception to the
-    macro-always-goes-last rule). Resolve the BP shooting as a separate phase i.e. allocate und resolve hits from the BP
-    weapon
-    before moving on to ordinary weapons. Hits from ordinary weapons should be allocated front-to-back, as usual. This
-    means that units that were hit by the BP weapon und survived can be allocated a second hit from standard
-    shooting.
+    Soweit wir wissen, legen die Regeln nicht fest, wie ein Verband vorgeht, der sowohl mit Sperrfeuerwaffen (BP) als
+    auch mit gewöhnlichen Waffen schießt. Wir schlagen folgende Hausregel vor: Ein Verband kann entscheiden, ob er
+    seine Sperrfeuerwaffen vor oder nach den übrigen Waffen abfeuert. Das gilt auch für Makro- und
+    Titanenkiller-Sperrfeuerwaffen und ist eine Ausnahme von der Regel, dass Makrowaffen immer zuletzt abgehandelt
+    werden. Der Beschuss mit Sperrfeuerwaffen wird als eigene Phase abgehandelt: Treffer werden zugeteilt und
+    abgehandelt, bevor mit den gewöhnlichen Waffen weitergeschossen wird. Treffer gewöhnlicher Waffen werden wie
+    üblich von vorne nach hinten zugeteilt. Dadurch können Einheiten, die einen Treffer durch die Sperrfeuerwaffe
+    überlebt haben, einen weiteren Treffer durch den gewöhnlichen Beschuss erhalten.
 </p>
 
-<h6>Maximize the effect of special rules when shooting</h6>
+<h6>Sonderregeln beim Beschuss bestmöglich nutzen</h6>
 <p>
-    There are cases where some of the weapons fired has special rules while others don't. It could be Tau Railgun
-    Hammerheads (where some of the AT fire has <i>Lanze</i>) oder a Baneblade where eine of the weapons has <i>Ignore
-    Cover</i>. Hits are (as always) allocated from the front to the back but if it matters how the hits mit special
-    rules are allocated, if should be done to favor of the shooting formation. E.g. A Baneblade fires at orks, where
-    drei orks are in the open while the rest is in a house (4+ cover save). The Baneblade fires all its weapons into
-    cover (to be able to hit all the Orks). It scores vier AP hits without special rules und eine mit the <i>ignore
-    cover</i> special rule. In this case the <i>ignore cover</i> hit should not be allocated to any of the drei Orks
-    hit in the open but to eine of the zwei Orks in the house to maximize the effect of <i>ignore cover</i>. Another
-    example would be the Hammerheads shooting at a Chaos Armoured Kompanie of zwei Predators und zwei Land Raiders. The
-    Hammerheads score eine standard hit und zwei mit <i>lance</i>. The Predators are in front of the Chaos formation und
-    will take the zwei first hits. The remaining hit, allocated to the Land Raider, should be eine of the zwei hits with
-    <i>lance</i>.
+    Manche Waffen eines Verbands haben Sonderregeln, andere nicht. Das gilt etwa für Tau-Hammerhaie mit
+    Massebeschleunigern, von denen einige Panzerabwehrtreffer die Sonderregel <i>Lanze</i> haben, oder für einen
+    Baneblade, dessen Waffe <i>Deckung ignorieren</i> besitzt. Treffer werden grundsätzlich von vorne nach hinten
+    zugeteilt. Wenn es darauf ankommt, welche Treffer mit Sonderregeln zugeteilt werden, sollte dies jedoch zugunsten
+    des schießenden Verbands geschehen. Beispiel: Ein Baneblade schießt auf Orks; drei stehen im offenen Gelände,
+    der Rest in einem Gebäude mit Deckungswurf 4+. Der Baneblade schießt mit allen Waffen in das Gebäude, damit er
+    alle Orks treffen kann. Er erzielt vier Panzerabwehrtreffer ohne Sonderregel und einen mit <i>Deckung ignorieren</i>.
+    Dieser Treffer sollte nicht einem der drei Orks im offenen Gelände, sondern einem der Orks im Gebäude zugeteilt
+    werden, damit <i>Deckung ignorieren</i> bestmöglich wirkt. Ein weiteres Beispiel: Hammerhaie schießen auf eine
+    Chaos-Panzerkompanie aus zwei Predators und zwei Land Raiders. Sie erzielen einen normalen Treffer und zwei
+    Treffer mit <i>Lanze</i>. Da die Predators vorne stehen, erhalten sie die ersten beiden Treffer. Der dem Land
+    Raider zugeteilte letzte Treffer sollte einer der beiden Treffer mit <i>Lanze</i> sein.
 </p>
 
-<h6>Disembarking & embarking ground transports</h6>
+<h6>Ein- und Aussteigen aus Bodentransportern</h6>
 <p>
-    When disembarking from a transport the disembarking unit should be placed within 5cm of the transport. Only a part
-    of the model needs to be within 5cm of the transport vehicle, not the whole model. When embarking on a ground
-    transport the transport needs to touch the unit it is picking up.
+    Beim Aussteigen aus einem Transporter sollte die aussteigende Einheit innerhalb von 5cm zum Transporter platziert
+    werden. Es genügt, wenn ein Teil des Modells innerhalb von 5cm zum Transportfahrzeug liegt; das ganze Modell
+    muss nicht in diesen Bereich passen. Zum Einsteigen in einen Bodentransporter muss dieser die aufzunehmende
+    Einheit berühren.
 </p>
 
-<h6>Disembarking & embarking air transports</h6>
+<h6>Ein- und Aussteigen aus Lufttransportern</h6>
 <p>
-    When disembarking from an air transport the disembarking unit should be placed within 5cm (oder 15cm if the unit has
-    <i>Sprungmodule</i>) of the transport. Only a part of the model needs to be within 5cm (oder 15cm) of the transport
-    vehicle, not the whole model. When an air transport lands to pick up a formation, all units within (any part of the
-    model) 5cm of the transport can be picked up. The air transport can land on (barge) the units it is picking up. This
-    way you don't have to prepare a free "landing zone" inside a large formation in order to get all units in the
-    formation in range to be picked up. A formation may also move on to a landed air transport, in which case all units
-    needs to touch the landed air transport in order to embark (no 5cm "pickup zone" in this case)
+    Beim Aussteigen aus einem Lufttransporter sollte die Einheit innerhalb von 5cm zum Transporter platziert werden
+    (innerhalb von 15 cm, wenn sie <i>Sprungmodule</i> hat). Es genügt, wenn ein Teil des Modells innerhalb dieser
+    Entfernung liegt; das ganze Modell muss nicht in den Bereich passen. Landet ein Lufttransporter, um einen Verband
+    aufzunehmen, kann er alle Einheiten aufnehmen, von denen sich irgendein Teil innerhalb von 5cm befindet. Der
+    Lufttransporter darf auf den aufzunehmenden Einheiten landen und sie dabei beiseiteschieben. So muss in einem
+    großen Verband keine freie „Landezone“ geschaffen werden, damit alle Einheiten in Reichweite sind. Ein Verband
+    kann sich auch zu einem gelandeten Lufttransporter bewegen. In diesem Fall müssen alle Einheiten den gelandeten
+    Transporter berühren, um einzusteigen; eine Aufnahmereichweite von 5cm gilt dann nicht.
 </p>
 
-<h6>Barging mit transport aircraft</h6>
+<h6>Einheiten mit Transportflugzeugen beiseiteschieben</h6>
 <p>
-    The rules does not explicitly allow oder disallow transport aircraft from barging, but does state that barging is made as part of movement.
-    But as aircraft landing oder taking off is not considered movement für Overwatch purposes, it seems most consistent to not allow transport
-    aircraft to barge.
+    Die Regeln erlauben oder verbieten nicht ausdrücklich, dass Transportflugzeuge Einheiten beiseiteschieben, legen
+    jedoch fest, dass dies Teil einer Bewegung ist. Da Landen und Abheben für Feuerbereitschaft nicht als Bewegung
+    gelten, erscheint es am schlüssigsten, Transportflugzeugen das Beiseiteschieben von Einheiten nicht zu erlauben.
 </p>
 
-<h6>Broken air transports</h6>
+<h6>Aufgeriebene Lufttransporter</h6>
 <p>
-    In case an air transport breaks (without dying) it can choose to stay on the board und rally like any other
-    ground unit oder to make a disengagement move. The rules für what happens if it chooses to fly off is a bit
-    vague. We suggest the following: As soon as the unit/formation takes of in order to fly out it once again
-    counts as an aircraft, mit einemnumber of blast markers equal to the number it took to break the unit oder
-    formation. It can (like any other aircraft) pick up additional blastmarkes on the way out, if shot by enemy
-    flak und/oder if it exits from any table edge other than its own table edge.
-    E.g. an Ork Landa is broken by shooting on the ground und choses to fly off in the end phase. Once airborn
-    it will have 3 blast markers (eine pro DC). It is also hit by enemy flak (without being wounded) on the
-    way out, resulting in 4 BMs when trying to activate in the next turn.
+    Wird ein Lufttransporter aufgerieben, ohne zerstört zu werden, kann er auf dem Spielfeld bleiben und sich wie
+    eine Bodeneinheit sammeln oder einen Abflug durchführen. Weniger klar geregelt ist, was geschieht, wenn er
+    wegfliegt. Wir empfehlen: Sobald die Einheit beziehungsweise der Verband zum Abflug startet, gilt er wieder als
+    Flugzeug und erhält so viele Beschussmarken, wie nötig waren, um ihn aufzureiben. Wie jedes andere Flugzeug kann
+    er beim Abflug weitere Beschussmarken erhalten, wenn er von feindlicher Flugabwehr beschossen wird und/oder das
+    Spielfeld über eine andere als die eigene Spielfeldkante verlässt. Beispiel: Ein Ork-Landungsschiff wird am Boden durch
+    Beschuss aufgerieben und fliegt in der Endphase ab. Sobald er in der Luft ist, erhält er drei Beschussmarken
+    (eine je DC). Auf dem Weg nach draußen trifft ihn feindliche Flugabwehr, ohne ihn zu beschädigen. Bei seinem
+    Aktivierungsversuch in der nächsten Runde hat er daher vier Beschussmarken.
 </p>
 
-<h6>Aircraft sniping</h6>
+<h6>Gezieltes Ausschalten von Charaktermodellen durch Flugzeuge</h6>
 <p>
-    The rules does not restrict you from placing ground attacking aircrafts inside a formation oder even on top of
-    enemy units in order to allocate hits to chosen enemy characters oder units. This feels a bit gamy, und we
-    suggest the following house-rule: Aircrafts on a ground attack mission may not be placed within 5cm of an
-    enemy unit in the formation it is targeting. The restriction is always 5cm even für units mit the
-    <i>Aufklärer</i> special rule.
+    Die Regeln verbieten nicht, Flugzeuge bei einem Bodenangriff innerhalb eines Verbands oder sogar auf gegnerischen
+    Einheiten zu platzieren, um Treffer gezielt bestimmten Charaktermodellen oder Einheiten zuzuteilen. Das wirkt
+    ausnutzbar; deshalb schlagen wir folgende Hausregel vor: Flugzeuge bei einem Bodenangriff dürfen nicht innerhalb
+    von 5cm zu einer gegnerischen Einheit des anvisierten Verbands platziert werden. Der Mindestabstand beträgt
+    immer 5cm, auch gegenüber Einheiten mit der Sonderregel <i>Aufklärer</i>.
 </p>
 
-<h6>Jinking Aircraft mit Reinforced Armor</h6>
+<h6>Ausweichmanöver von Flugzeugen mit verstärkter Panzerung</h6>
 <p>
-    The rules für how "jinking" interacts mit <i>Reinforced Armor</i> is again vague. We suggest the aircraft will get
-    a 4+ save, that can be re-rolled as specified by the <i>Reinforced Armor</i> special rule.
+    Auch das Zusammenspiel von „Ausweichen“ und <i>Verstärkte Panzerung</i> ist in den Regeln nicht eindeutig
+    beschrieben. Wir empfehlen, dass das Flugzeug einen Schutzwurf von 4+ erhält, der gemäß der Sonderregel
+    <i>Verstärkte Panzerung</i> wiederholt werden darf.
 </p>
 
-<h6>Orbital Bombardment extra templates</h6>
+<h6>Zusätzliche Schablonen beim Orbitalbombardement</h6>
 <p>
- Extra templates from Orbital Bombardment must touch the first, plotted template, just as für normal BP type weapons.
+    Zusätzliche Schablonen eines Orbitalbombardements müssen die zuerst platzierte Schablone berühren, wie es auch
+    für gewöhnliche Sperrfeuerwaffen gilt.
 </p>
 
-<h6>Always roll für critical hits</h6>
+<h6>Immer auf kritische Treffer würfeln</h6>
 <p>
-    Players must always roll für critical hits in any situation where the critical hit may affect units oder formations
-    around the war engine,
-    even if the Kriegsmaschine was reduced to 0 DC before crits have been rolled für.
+    Spieler müssen immer auf kritische Treffer würfeln, wenn ein solcher Treffer Einheiten oder Verbände in der Nähe
+    der Kriegsmaschine beeinflussen kann – auch wenn die Kriegsmaschine bereits auf 0 DC reduziert wurde, bevor
+    für kritische Treffer gewürfelt werden konnte.
 </p>
 
-<h6>Blocking Wraithgates und other Portale</h6>
+<h6>Wraithgates und andere Portale blockieren</h6>
 <p>
-    The rules für Portale are not clear about what happens if the enemy blocks it, either by placing units on
-    top of it oder by placing it in their zone of control. We suggest that you can always enter play via the
-    portal, but if it is in enemy zone of control you have to use an assault action to do so. Even if there are
-    units physically blocking the portal you can place your units on the board, as close as possible to the
-    portal. Normal charge move rules apply, i.e. a charging unit that enters a zone of control must move into
-    base contact mit the nearest enemy who's zone of control has been entered. Only once all zones of control
-    covering the portal has ben neutralized (by placing a unit in base to base) can remaining units in the
-    assaulting formation move in any direction they desire. Formations failing an activation roll to engage from
-    within a blocked portal may not enter play und must use the hold action to remove blast markers.
+    Die Portalregeln klären nicht eindeutig, was geschieht, wenn der Gegner ein Portal blockiert, indem er Einheiten
+    darauf oder in dessen Kontrollzone platziert. Wir empfehlen, den Eintritt durch das Portal immer zu erlauben.
+    Liegt das Portal in einer gegnerischen Kontrollzone, muss dafür jedoch eine Angriffsaktion gewählt werden. Selbst
+    wenn Einheiten das Portal direkt blockieren, können eigene Einheiten möglichst nahe am Portal auf dem Spielfeld
+    platziert werden. Es gelten die üblichen Regeln für Angriffsbewegungen: Eine Einheit, die eine Kontrollzone
+    betritt, muss in Basekontakt mit dem nächstgelegenen Gegner gelangen, dessen Kontrollzone sie betreten hat.
+    Erst wenn alle Kontrollzonen am Portal neutralisiert wurden (indem eine Einheit Basekontakt hergestellt hat),
+    dürfen sich die übrigen Einheiten des angreifenden Verbands in beliebige Richtungen bewegen. Scheitert der
+    Aktivierungswurf für einen Angriff aus einem blockierten Portal, darf der Verband nicht ins Spiel kommen und
+    muss die Halten-Aktion ausführen, um Beschussmarken zu entfernen.
 </p>
 
-<h6>Moving out of Wraithgates und other Portale</h6>
+<h6>Aus Wraithgates und anderen Portalen hervorkommen</h6>
 <p>
-    Rules für how to enter play from a webway oder other portal can be played in different ways. We suggest you start
-    measuring the move from within the portal, i.e. the first 4cm of movement is used to get on to the board given a
-    standard 4x1 Infanterie base. This means a formation mit 15cm move advancing out of a portal would have to end their
-    move mit all parts of all units within 15cm of the portal.
+    Die Regeln für den Eintritt durch ein Netzportal oder ein anderes Portal lassen verschiedene Auslegungen zu.
+    Wir empfehlen, die Bewegung innerhalb des Portals zu messen. Bei einer üblichen 4 × 1 cm großen Infanteriebasis
+    werden beispielsweise die ersten 4 cm der Bewegung benötigt, um das Spielfeld zu betreten. Ein Verband mit
+    15 cm Bewegungsweite muss beim Vorrücken aus einem Portal seine Bewegung daher so beenden, dass alle Teile aller
+    Einheiten innerhalb von 15 cm zum Portal liegen.
 </p>
 
-<h6>Terrain height, skimmers & hills</h6>
+<h6>Geländehöhe, Antigravfahrzeuge und Hügel</h6>
 <p>
-    Terrain und Kriegsmaschinen are "infinitely high" to ground units mit regards to line of sight. No ground unit can see
-    directly through a piece of terrain – unless they are in it. Popped up skimmers can see over terrain, but can only
-    see units that are further away from the edge of the terrain piece than they are. Same rule as für popped up
-    skimmers also apply für units on hills. Aircrafts can always see over all terrain. In addition, see the 'Terrain'
-    section on this website.
+    Bei der Sichtlinie gelten Gelände und Kriegsmaschinen für Bodeneinheiten als „unendlich hoch“. Keine Bodeneinheit
+    kann direkt durch ein Geländestück hindurchsehen, es sei denn, sie befindet sich darin. Aufgetauchte
+    Antigravfahrzeuge können über Gelände hinwegsehen, aber nur Einheiten sehen, die weiter vom Rand des
+    Geländestücks entfernt sind als sie selbst. Für Einheiten auf Hügeln gilt dieselbe Regel. Flugzeuge können immer
+    über sämtliches Gelände hinwegsehen. Weitere Einzelheiten stehen im Abschnitt „Gelände“ dieser Website.
 </p>
-<h6>Skimmers, terrain und movement</h6>
+<h6>Antigravfahrzeuge, Gelände und Bewegung</h6>
 <p>
-    Skimmers only checks für dangerous und difficult terrain at the start und at the end of their total movement, unless otherwise stated by the player.
-    Skimmers that ignore intervening terrain can obviously not claim cover from such terrain, und counts as being popped up für Overwatch purposes.
+    Sofern der Spieler nichts anderes ansagt, prüfen Antigravfahrzeuge gefährliches und schwieriges Gelände nur zu
+    Beginn und am Ende ihrer gesamten Bewegung. Antigravfahrzeuge, die dazwischenliegendes Gelände ignorieren, können
+    daraus selbstverständlich keine Deckung beanspruchen und gelten für Feuerbereitschaft als aufgetaucht.
 </p>
 
 <!--
-<h6>TODO: WE transport transporting units, separate formations, may intermingle?</h6>
+<h6>TODO: Können Transporter vom Typ WE Einheiten zwischen getrennten Verbänden transportieren, und dürfen sich diese Verbände vermischen?</h6>
 -->

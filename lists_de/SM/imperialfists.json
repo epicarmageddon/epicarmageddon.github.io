@@ -1,0 +1,331 @@
+{
+  "fraction": "Space Marines",
+  "army": "Imperial Fists",
+  "version": "1.0.beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_AdeptusAstartes_ImperialFists",
+  "intro": "Dieser Armeeorganisationsplan ermöglicht es dir, eine Armee des Space-Marine-Ordens Imperial Fists oder eines seiner Nachfolgeorden aufzustellen. Die Imperial Fists sind auf Belagerungskriegsführung spezialisiert.",
+  "strategy": "Space Marine-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Tarantula- und Hyperios-Flakstellungsverbände haben einen Initiativwert von 2+. Alle übrigen Verbände haben einen Initiativwert von 1+.",
+  "armyRules": "Die Sonderregel <i>Sie kennen keine Furcht</i> gilt für alle Kontingente der Imperial Fists, die keinen Maschinengeist besitzen.",
+  "specialRules": [
+    "Imperial-Fists-Transporter",
+    "Sie kennen keine Furcht",
+    "Belagerungsspezialisten",
+    "Befestigte Stellungen"
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Captain",
+        "Ordenspriester",
+        "Scriptor",
+        "Oberbefehlshaber",
+        "Sturm-Centurions",
+        "Devastor-Centurions",
+        "Devastor-Trupps",
+        "Aufklärer",
+        "Space-Marine-Rapier",
+        "Space-Marine-Thunderfire",
+        "Taktische Trupps",
+        "Terminatoren",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Cybot",
+        "Hellfire-Cybot",
+        "Belagerungs-Cybot",
+        "Hunter",
+        "Stalker",
+        "Land Raider",
+        "Land Raider Achilles",
+        "Land Raider Crusader",
+        "Predator Annihilator",
+        "Predator Destructor",
+        "Razorback",
+        "Rhino",
+        "Belagerungs-Rhino",
+        "Whirlwind",
+        "Vindicator",
+        "Bastion",
+        "Fellblade",
+        "Sturmtalon"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "AM.json",
+      "units": [
+        "Hyperios-Wachgeschütz",
+        "Tarantula"
+      ],
+      "unitRules": [
+        "Maschinengeist"
+      ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+          "Reaver-Titan, Goth-Klasse"
+      ],
+      "unitRules": [
+        "Null-Schilde"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Imperial Fists Kernkontingente",
+      "formations": [
+        {
+          "name": "Devastor-Trupps",
+          "units": "Vier Devastor-Trupps plus Transporter",
+          "extraUnits": [
+            "Achilles",
+            "Flugabwehr",
+            "Befehlshaber",
+            "Land Raider Transport",
+            "Razorbacks",
+            "Belagerungsausrüstung",
+            "Vindicators",
+            "Cybots"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Vindicators",
+          "units": "Vier Vindicators",
+          "extraUnits": [
+            "Flugabwehr",
+            "Vindicators"
+          ],
+          "points": 225
+      },
+        {
+          "name": "Taktische Trupps",
+          "units": "Sechs Taktische Trupps plus Transporter",
+          "extraUnits": [
+            "Achilles",
+            "Flugabwehr",
+            "Befehlshaber",
+            "Land Raider Transport",
+            "Razorbacks",
+            "Belagerungsausrüstung",
+            "Vindicators"
+          ],
+          "points": 275
+      }
+      ]
+    },
+    {
+      "name": "Imperial Fists Unterstützungskontingente",
+      "description": "Pro Kernkontingent dürfen bis zu zwei Unterstützungskontingente aufgestellt werden.",
+      "formations": [
+          {
+            "name": "Land Raiders",
+            "units": "Drei Land Raiders",
+            "extraUnits": [
+              "Füge 1 Land Raider hinzu: 50 Punkte",
+              "Achilles",
+              "Flugabwehr",
+              "Vindicators"
+            ],
+            "points": 275
+          },
+
+        {
+          "name": "Predators",
+          "units": "Vier Predator Destructors und/oder Predator Annihilators",
+          "extraUnits": [
+            "Flugabwehr"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Land Speeders",
+          "units": "Beliebige fünf der folgenden Einheiten: Land Speeder, Land Speeder Tornado",
+          "extraUnits": [
+            "Typhoons"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Aufklärer",
+          "units": "Vier Aufklärer plus Transporter",
+          "extraUnits": [
+            "Darf Siege Rhinos statt normaler Rhinos erhalten: 25 Punkte",
+            "Razorbacks",
+            "Scharfschützen",
+            "Vindicators"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Terminatoren",
+          "units": "Vier Terminatoren",
+          "extraUnits": [
+            "Achilles",
+            "Befehlshaber",
+            "Land Raider Transport",
+            "Vindicators"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Centurions",
+          "units": "Vier Sturm- und/oder Devastor-Centurions",
+          "extraUnits": [
+            "Achilles",
+            "Land Raider Transport",
+            "Vindicators"
+          ],
+          "points": 275
+        },
+
+        {
+          "name": "Whirlwinds",
+          "units": "Vier Whirlwinds",
+          "extraUnits": [
+            "Füge 2 Whirlwinds hinzu: 75 Punkte",
+            "Flugabwehr"
+          ],
+          "points": 275
+        },
+        {
+          "name": "0–1 Fellblade Relics",
+          "units": "Ein Fellblade",
+          "extraUnits": [
+            "Füge 1 Fellblade hinzu: 300 Punkte"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Statische Verteidigungsanlagen, Flotten- und Titanenlegionsverbündete der Imperial Fists",
+      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden. Pro Aufklärungskontingent darf höchstens ein Tarantula- oder Hyperios-Verband aufgestellt werden.",
+      "formations": [
+        {
+          "name": "Bastion",
+          "units": "Ein Bastion",
+          "extraUnits": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Fortifications",
+          "units": "2 Bunkers sowie 40 cm Schützengräben und/oder Minenfelder (die genaue Aufteilung wird zu Beginn des Spiels vor dem Aufstellen der Missionsziele festgelegt).",
+          "points": 50
+        },
+        {
+          "name": "Tarantula",
+          "units": "Vier Tarantulas",
+          "points": 125
+        },
+        {
+          "name": "Hyperios",
+          "units": "Drei Hyperios-Wachgeschütze",
+          "points": 150
+        },
+        {
+          "name": "Sturmtalons",
+          "units": "Zwei Sturmtalons",
+          "points": 200
+        },
+        {
+          "name": "Reaver",
+          "units": "Ein Reaver-Titan der Goth-Klasse",
+          "points": 600
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Imperial Fists Aufwertungen",
+    "description": "Jede Aufwertung darf pro Kontingent nur einmal gewählt werden.",
+    "items": [
+      {
+        "name": "Flugabwehr",
+        "description": "Füge eine beliebige der folgenden Einheiten zum Verband hinzu",
+        "options": [
+          {
+            "description": "Füge 1 Hunter hinzu",
+            "points": "75 Punkte"
+          },
+          {
+            "description": "Füge 1 Stalker hinzu",
+            "points": "50 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Befehlshaber",
+        "description": "Füge einen beliebigen der folgenden Charaktere einer Einheit im Verband hinzu",
+        "options": [
+          {
+            "description": "Captain, Scriptor",
+            "points": "25 Punkte"
+          },
+          {
+            "description": "Ordenspriester",
+            "points": "50 Punkte"
+          },
+          {
+            "description": "Land Raider Achilles",
+            "points": "75 Punkte"
+        },
+          {
+            "description": "0–1 Oberbefehlshaber",
+            "points": "75 Punkte"
+          }
+        ]
+      },
+      {
+        "name": "Cybots",
+        "description": "Füge 2 beliebige der folgenden Einheiten hinzu: Cybot, Hellfire Cybot, Siege Cybot.",
+        "points": [
+          "50 Punkte pro Stück"
+        ]
+      },
+      {
+        "name": "Land Raider-Transporter",
+        "description": "Füge beliebig viele Land Raiders oder Land Raider Crusaders hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "points": "50 Punkte pro Stück"
+      },
+      {
+        "name": "Razorbacks",
+        "description": "Füge beliebig viele Razorbacks hinzu, bis zur erforderlichen Anzahl, um den Verband zu transportieren",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Scharfschützen",
+        "description": "Gib allen Aufklärer im Verband die Sonderregel „Scharfschütze“ für ihre Heavy Bolters.",
+        "points": "25 Punkte"
+      },
+      {
+        "name": "Belagerungsausrüstung",
+        "description": "Der Verband darf statt normaler Rhinos Belagerungs-Rhinos einsetzen oder die Option „plus Transporter“ durch Space-Marine-Rapiers oder Space-Marine-Thunderfires ersetzen.",
+        "points": [
+          "25 Punkte für Siege Rhinos",
+          "25 Punkte für zwei Rapiers oder zwei Thunderfires",
+          "100 Punkte für vier Rapiers oder vier Thunderfires"
+        ]
+      },
+      {
+        "name": "Typhoons",
+        "description": "Ersetze bis zu 5 Land Speeders durch dieselbe Anzahl an Land Speeder Typhoons",
+        "points": "10 Punkte pro Stück"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Füge bis zu 2 Vindicators hinzu",
+        "points": [
+          "50 Punkte pro Stück",
+          "75 Punkte pro Paar"
+        ]
+      }
+    ]
+  }
+}

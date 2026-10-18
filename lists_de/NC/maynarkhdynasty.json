@@ -1,0 +1,212 @@
+{
+  "fraction": "Necron",
+  "army": "Maynarkh-Dynastie",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Necron_MaynarkhDynasty",
+  "strategy": "Necron-Armeen haben einen Strategiewert von 1.",
+  "Initiative": "Alle Necron-Verbände haben einen Initiativewert von 1+.",
+  "specialRules": [
+    "Necron-Reserven",
+    "Necron-Garnisonen",
+    "Die Ungebetenen",
+    "Necron-Portale",
+    "Extradimensionaler Durchgang",
+    "Unaufhaltsamer Vormarsch",
+    "Phasenausfall"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee der Necrons der Maynarkh-Dynastie aufstellen."
+  ],
+  "units": [
+    {
+      "from": "NC.json",
+      "units": [
+        "Necron-Hochlord",
+        "Necronlord",
+        "Destruktor-Hochlord",
+        "Destruktorlord",
+        "Destruktoren",
+        "Schwere Destruktoren",
+        "Alpträume",
+        "Extinktoren",
+        "Pariahs",
+        "Necronkrieger",
+        "Canoptek-Skarabäen",
+        "Canoptek-Phantome",
+        "Monolith",
+        "Obelisk",
+        "Canoptek-Gruftspinne",
+        "Abattoir",
+        "Äonen-Sphäre",
+        "Pylon",
+        "Megalith"
+      ],
+      "unitRules": [
+        "Regeneration",
+        "Lebendes Metall",
+        "Maschinengeist",
+        "Ausdauernd"
+      ]
+    },
+    {
+      "from": "necronNavy.json",
+      "units": [
+        "Nachtmantel-Bomber (B)",
+        "Todessichel-Jäger",
+        "Cairn-Klasse Gruftschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Spezialregeln der Maynarkh-Dynastie",
+      "formations": [
+        {
+          "name": "0–1 Necron-Gruftkomplex",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Necron-Spielers durch einen Gruftkomplex. Dieser zählt als Zielmarker und Necron-Portal und kann nicht zerstört werden. Verbände, die das Portal verwenden, messen vom Mittelpunkt des Zielmarkers aus.",
+          "points": 75
+        }
+      ]
+    },
+    {
+      "name": "Kernformationen der Maynarkh-Dynastie",
+      "formations": [
+        {
+          "name": "Necron-Phalanx",
+          "units": "Acht Necronkrieger und ein Necronlord",
+          "extraUnits": [
+            "Necron-Hochlord",
+            "Canoptek-Phantome",
+            "Canoptek-Gruftspinne",
+            "Ersetze drei Necronkrieger durch drei Pariahs oder drei Extinktoren: 50 Punkte"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Portalformationen der Maynarkh-Dynastie",
+      "description": "Für jede Necron-Phalanx darf bis zu eine Portalformation gewählt werden.",
+      "formations": [
+        {
+          "name": "Portal-Phalanx",
+          "units": "Ein Monolith, zwei Obelisks",
+          "extraUnits": [
+            "Ersetze bis zu zwei Obelisks durch Monoliths: 25 Punkte pro Stück"
+          ],
+          "points": 175
+        }
+      ]
+    },
+    {
+      "name": "Unterstützungsformationen der Maynarkh-Dynastie",
+      "description": "Für jede Necron-Phalanx dürfen bis zu zwei Unterstützungsformationen gewählt werden. Eine Necron-Armee muss mindestens eine 'Die Ungebetenen'-Verband enthalten.",
+      "formations": [
+        {
+          "name": "1+ Die Ungebetenen",
+          "units": "Sieben Alpträume",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Obelisk-Phalanx",
+          "units": "Vier Obelisks",
+          "extraUnits": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Zerstörer-Phalanx",
+          "units": "Beliebige sieben der folgenden Einheiten: Destruktoren, Schwere Destruktoren",
+          "extraUnits": [
+            "Necron-Hochlord",
+            "Ersetze einen Destruktor durch einen Destruktorlord: 25 Punkte"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Gruftwächter",
+          "units": "Ein Pylon",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Canoptek-Schwarm",
+          "units": "Ein Canoptek Spyder, sechs Canoptek Skarabäen",
+          "extraUnits": [
+            "Canoptek-Phantome"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Ernter und Flotte der Maynarkh-Dynastie",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Megalith Conduit",
+          "units": "Ein Megalith",
+          "extraUnits": [
+            "Füge bis zu zwei Obelisks (50 Punkte pro Stück) und/oder Monoliths (75 Punkte pro Stück) hinzu"
+          ],
+          "points": 350
+        },
+        {
+          "name": "0–1 Erntemaschine",
+          "units": "Entweder ein Æonic Orb oder ein Abbatoir",
+          "extraUnits": [
+          ],
+          "points": 450
+        },
+        {
+          "name": "0–1 Gruftschiff",
+          "units": "Ein Cairn-Klasse Gruftschiff",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Todessicheln",
+          "units": "Zwei Todessichel-Jäger",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Nachtmantel-Bomberstaffel",
+          "units": "Ein Nachtmantel-Bomber (B)",
+          "upgrades": [
+          ],
+          "points": 225
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen der Maynarkh-Dynastie",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Necron-Hochlord",
+        "description": "Ersetze entweder einen Necronlord durch einen Necron-Hochlord oder einen Destruktorlord durch einen Destruktor-Hochlord",
+        "points": "75 Punkte"
+      },
+      {
+        "name": "Canoptek-Phantome",
+        "description": "Füge bis zu zwei Canoptek-Phantome hinzu",
+        "points": "25 Punkte pro Stück"
+      },
+      {
+        "name": "Canoptek-Gruftspinne",
+        "description": "Füge 1 Canoptek Spyder hinzu",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

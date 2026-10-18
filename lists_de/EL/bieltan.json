@@ -1,0 +1,273 @@
+{
+  "fraction": "Eldar",
+  "army": "Weltenschiff Biel-Tan",
+  "version": "1.0.Beta",
+  "release": "2022-04-01",
+  "armyforge": "EAR_Eldar_BielTan",
+  "intro": "Mit dem folgenden Armeeorganisationsplan kannst du eine Eldar-Armee des Weltenschiffs Biel-Tan aufstellen.",
+  "strategy": "Biel-Tan-Eldar-Armeen haben einen Strategiewert von 4.",
+  "Initiative": "Aspektkriegerformationen, Titanen und der Avatar haben einen Initiativewert von 1+. Alle anderen Verbände haben einen Initiativewert von 2+.",
+  "specialRules": [
+    "Avatar (Biel-Tan)",
+    "Darf keine Garnison bilden (Biel-Tan)",
+    "Weitsicht",
+    "Schlag und Flucht",
+    "Netzportal"
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Eldar-Autarch",
+        "Avatar des Khaine",
+        "Hof des Jungen Königs",
+        "Eldar-Exarch",
+        "Eldar-Runenprophet",
+        "Eldar-Gardisten",
+        "Eldar-Schwerwaffenplattform",
+        "Unterstützungswaffenplattform",
+        "Ranger",
+        "Eldar-Jetbikes",
+        "Asuryans Jäger",
+        "Feuerdrachen",
+        "Schwarze Khaindar",
+        "Banshees",
+        "Skorpionkrieger",
+        "Sternenlanzen",
+        "Kriegsfalken",
+        "Warpspinnen",
+        "Phantomdroiden",
+        "Viper",
+        "Kampfläufer",
+        "Phantomlord",
+        "Wellenschlange",
+        "Falcon",
+        "Illum Zar",
+        "Nachtspinne",
+        "Feuersturm",
+        "Skorpion",
+        "Kobra",
+        "Sturmserpent",
+        "Leerenwirbler",
+        "Phantom-Titan",
+        "Phantomtitan",
+        "Runenleser-Titan"
+      ],
+      "unitRules": [
+        "Holofelder (x)",
+        "Lanze",
+        "Schildbohrer",
+        "Schildbrecher"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nachtschwinge-Abfangjäger",
+        "Phönix-Bomber (B)",
+        "Vampire Schattenbarke",
+        "Phantomschiff",
+        "Drachenschiff"
+      ],
+      "unitRules": [
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Biel-Tan-Spezialregeln",
+      "formations": [
+        {
+          "name": "1 Avatar",
+          "units": "Ein Avatar mit einem Charakter des Hofs des Jüngsten Königs",
+          "points": "kostenlos"
+        },
+        {
+          "name": "0–1 Netzportal",
+          "units": "Ersetze einen Zielmarker in der Spielfeldhälfte des Eldar-Spielers durch ein Netzportal. Dieses zählt als Zielmarker und kann weder angegriffen noch auf irgendeine Weise beschädigt werden.",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Biel-Tan-Kriegsschars",
+      "description": "Für jede Aspekt- oder berittene Aspektkrieger-Kriegsschar darf bis zu eine Gardisten-Kriegsschar gewählt werden.",
+      "formations": [
+        {
+          "name": "Berittene Aspektkrieger-Kriegsschar",
+          "units": "Vier Wellenschlangen und acht Aspektkrieger-Einheiten aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Skorpionkrieger oder Kriegsfalken. Der Verband darf keine unterschiedlichen Aspekte mischen.",
+          "extraUnits": [
+            "Autarch",
+            "Exarchen",
+            "Ersetze beliebig viele Wellenschlangen durch jeweils zwei Falcons: 50 Punkte pro Stück",
+            "Ersetze eine Wellenschlange durch zwei Feuerstürme: 50 Punkte"
+          ],
+          "points": 450
+        },
+        {
+          "name": "Aspektkrieger-Kriegsschar",
+          "units": "Acht Aspektkrieger-Einheiten aus folgender Auswahl: Schwarze Khaindar, Asuryans Jäger, Feuerdrachen, Banshees, Sternenlanzen, Skorpionkrieger, Kriegsfalken oder Warpspinnen. Der Verband darf keine unterschiedlichen Aspekte mischen.",
+          "extraUnits": [
+            "Autarch",
+            "Exarchen"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Gardisten-Kriegsschar",
+          "units": "Eine Runenpropheten-Einheit und sieben Gardisten",
+          "extraUnits": [
+            "Ersetze bis zu drei Eldar-Gardisten durch Eldar-Schwerwaffenplattformen: kostenlos",
+            "Ersetze bis zu drei Eldar-Gardisten durch Unterstützungswaffenplattformen (alle mit derselben Waffe ausgerüstet): 25 Punkte pro Stück",
+            "Füge zwei Eldar-Phantomdroiden hinzu: 75 Punkte",
+            "Füge bis zu drei Eldar-Phantomlords hinzu: 50 Punkte pro Stück",
+            "Füge vier Wellenschlangen hinzu: 150 Punkte (darf nur gewählt werden, wenn der gesamte Verband hineinpasst)"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Biel-Tan-Verbände",
+      "description": "Für jede Biel-Tan-Kriegsschar dürfen bis zu drei Biel-Tan-Verbände gewählt werden.",
+      "formations": [
+          {
+            "name": "Ranger",
+            "units": "Vier Eldar-Ranger",
+            "extraUnits": [
+            ],
+            "points": 100
+          },
+          {
+            "name": "Kampfläufer-Trupp",
+            "units": "Vier Kampfläufer",
+            "extraUnits": [
+                "Füge bis zu zwei Kampfläufer hinzu: 25 Punkte pro Stück"
+            ],
+            "points": 150
+          },
+        {
+          "name": "Windreiter-Truppe ",
+          "units": "Sechs Jetbike-Einheiten",
+          "extraUnits": [
+            "Ersetze beliebig viele Eldar-Jetbikes durch Viper der Eldar: kostenlos"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Schwerter von Vaul",
+          "units": "Fünf Falcons",
+          "extraUnits": [
+            "Ersetze bis zu zwei Falcons durch Feuerstürme: kostenlos"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Illum-Zar-Trupp",
+          "units": "Drei Illum Zars",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Nachtspinnen-Trupp",
+          "units": "Drei Nachtspinnen",
+          "extraUnits": [
+          ],
+          "points": 175
+        },
+        {
+          "name": "Leerenwirbler",
+          "units": "Ein Void Spinner",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Kriegsmaschinen von Vaul",
+          "units": "Ein Kriegsmaschine von Vaul aus folgender Auswahl: Kobra, Skorpion, Sturmserpent",
+          "extraUnits": [
+            "Füge bis zu zwei zusätzliche Kriegsmaschinen von Vaul hinzu: 200 Punkte pro Stück (Kobra, Skorpion oder Sturmserpent)."
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Biel-Tan-Flugzeuge, Raumschiffe und Titanen",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden..",
+      "formations": [
+        {
+          "name": "Nachtschwingen-Staffel",
+          "units": "Zwei Nachtschwingen-Abfangjäger",
+          "extraUnits": [
+            "Füge 1 Nachtschwinge-Abfangjäger hinzu: 75 Punkte"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phönix-Bomberstaffel",
+          "units": "Drei Phönix-Bomber (B)",
+          "extraUnits": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Vampire",
+          "units": "Eine Vampire Schattenbarke",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Phantom-Titanen",
+          "units": "Zwei Phantom-Titanen",
+          "extraUnits": [
+          ],
+          "points": 650
+        },
+        {
+          "name": "Phantom",
+          "units": "Ein Phantomtitan",
+          "extraUnits": [
+          ],
+          "points": 700
+        },
+        {
+          "name": "0–1 Runenleser-Titan",
+          "units": "Ein Runenleser-Titan",
+          "extraUnits": [
+          ],
+          "points": 850
+        },
+        {
+          "name": "0–1 Raumschiff",
+          "units": "Ein Phantomschiff",
+          "extraUnits": [
+            "Ersetze es durch ein Drachenschiff: 150 Punkte"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen Biel-Tans",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Autarch",
+        "description": "Füge 1 Eldar-Autarch-Charakter zu einer Einheit mit einem Eldar-Exarch-Charakter hinzu",
+        "points": "50 Punkte"
+      },
+      {
+        "name": "Exarchen",
+        "description": "Füge bis zu zwei Eldar-Exarchen hinzu",
+        "points": "25 Punkte pro Stück"
+      }
+    ]
+  },
+  "feedback": [
+
+  ]
+}

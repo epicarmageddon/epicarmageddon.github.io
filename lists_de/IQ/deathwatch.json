@@ -1,0 +1,226 @@
+{
+  "fraction": "Imperiale Inquisition",
+  "army": "Deathwatch",
+  "version": "0.6.0",
+  "release": "2022-04-01",
+  "strategy": "Deathwatch-Armeen haben einen Strategiewert von 5.",
+  "Initiative": "Ordo-Xenos- und Planetary-Defense-Force-Verbände haben einen Initiativewert von 2+. Alle anderen Verbände haben einen Initiativewert von 1+.",
+  "armyRules": "Für alle Deathwatch-Detachments und Flugzeugformationen gilt die Sonderregel <i>Sie kennen keine Furcht</i>.",
+  "specialRules": [
+    "Ad-hoc-Kontingente",
+    "Teleportieren-Peilsender",
+    "Schwingen des Himmelsengels"
+  ],
+  "usage": [
+    "Mit dem folgenden Armeeorganisationsplan kannst du eine Armee des Ordo Xenos mit Deathwatch-Verbündeten aufstellen."
+  ],
+  "units": [
+    {
+      "from": "IQ.json",
+      "units": [
+        "Ordo-Xenos-Großinquisitor",
+        "Ordo-Xenos-Inquisitor",
+        "Akolythen des Ordo Xenos",
+        "Arbitratoren",
+        "Arbites-Repressor"
+      ],
+      "unitRules": [
+      ]
+    },
+    {
+      "from": "SM.json",
+      "units": [
+        "Deathwatch-Befehlshaber",
+        "Deathwatch-Sergeant",
+        "Ordenspriester",
+        "Scriptor",
+        "Deathwatch-Taktische-Trupps",
+        "Deathwatch-Sturmtrupps",
+        "Deathwatch-Schwarze-Schilde",
+        "Deathwatch-Devastortrupps",
+        "Deathwatch-Terminatoren",
+        "Deathwatch-Cybot",
+        "Deathwatch-Trike",
+        "Deathwatch-Land-Speeder-Tornado",
+        "Deathwatch-Land-Schattenbarke",
+        "Corvus-Blackstar-Landungsschiff",
+        "Deathwatch-Thunderhawk-Transporter",
+        "Dark-Hunter-Klasse-Zerstörer"
+      ],
+      "unitRules": [
+        "Sie kennen keine Furcht"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Vulture",
+        "Vendetta",
+        "Infanterie der Planetaren Verteidigungsstreitkräfte",
+        "Flakteam",
+        "Thudd-Geschütz",
+        "Gepanzerter Sentinel",
+        "Leman Russ Kampfpanzer",
+        "Leman Russ Thunderer",
+        "Landtransporter"
+      ],
+      "unitRules": []
+    }
+  ],
+  "sections": [
+    {
+      "name": "Deathwatch-Spezialregeln",
+      "description": "",
+      "formations": [
+        {
+          "name": "0–1 Officio Assassinorum",
+          "units": "Einmal pro Schlacht wird während eines vom Deathwatch-Spieler eingeleiteten Angriffs (nachdem sich alle Einheiten bewegt haben) eine einzelne Einheit an beliebiger Stelle in der/den gegnerischen Verband(en) von W3 Treffern getroffen. Diese Treffer zählen als Nahkampftreffer und haben die Sonderregeln 'Scharfschütze' und 'Erstschlag'. Jeder durch diese Treffer verursachte Schaden zählt für die Ermittlung des Kampfergebnisses (es sei denn, das Ziel ist Super-Entbehrlich).",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Deathwatch-Verbände",
+      "description": "",
+      "formations": [
+        {
+          "name": "Deathwatch-Kill-Team",
+          "units": "Ein Deathwatch-Sergeant und drei Deathwatch-Taktische-Trupps",
+          "extraUnits": [
+            "Ersetze drei Deathwatch-Taktische-Trupps durch drei Deathwatch-Schwarze-Schilde: 25 Punkte",
+            "Ersetze drei Deathwatch-Taktische-Trupps durch drei Deathwatch-Devastortrupps: 50 Punkte",
+            "Oberbefehlshaber",
+            "Deathwatch-Spezialisten",
+            "Deathwatch-Unterstützung"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Angriff der Deathwatch",
+          "units": "Ein Deathwatch-Sergeant, drei Deathwatch-Trikes und ein Deathwatch-Land-Speeder-Tornado",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Deathwatch-Spezialisten"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Deathwatch-Sturmtrupps",
+          "units": "Ein Deathwatch-Sergeant und drei Deathwatch-Sturmtrupps",
+          "extraUnits": [
+            "Füge 1 Deathwatch-Land-Speeder-Tornado hinzu: 25 Punkte",
+            "Oberbefehlshaber",
+            "Deathwatch-Spezialisten"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Deathwatch-Terminatoren",
+          "units": "Ein Deathwatch-Sergeant und zwei Deathwatch-Terminatoren",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Deathwatch-Spezialisten",
+            "Deathwatch-Unterstützung"
+          ],
+          "points": 200
+        },
+        {
+          "name": "0–1 Dark-Hunter-Zerstörer",
+          "units": "Ein Zerstörer der Dark-Hunter-Klasse",
+          "extraUnits": [],
+          "points": 75
+        }
+      ]
+    },
+    {
+      "name": "Ordo-Xenos-Verbände",
+      "description": "Pro Deathwatch-Kernformation darf eine Ordo-Xenos-Verband gewählt werden.",
+      "formations": [
+        {
+          "name": "0–1 Ordo Xenos Inquisitor Task Force",
+          "units": "Ordo Xenos Inquisitor, neun Arbitrators, fünf Arbites Repressors",
+          "extraUnits": [
+            "Oberbefehlshaber",
+            "Füge drei Leman Russ Thunderers hinzu: 150 Punkte"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Akolythen des Ordo Xenos",
+          "units": "Drei Ordo Xenos Acolytes, drei Vendettas",
+          "extraUnits": [
+            "Füge bis zu zwei Vultures hinzu: 50 Punkte pro Stück"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Planetarer Verteidigungszug",
+          "units": "Acht PDF Infanterie (INF), vier Kultisten-Landtransporter",
+          "extraUnits": [
+            "Ersetze vier Kultisten-Landtransporter durch drei Thudd-Geschütze oder drei Flakteams: 25 Punkte"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Leman-Russ-Staffel",
+          "units": "Vier Leman Russ oder vier Leman Russ Thunderers",
+          "extraUnits": [
+          ],
+          "points": 275
+        },
+        {
+          "name": "Gepanzerte Sentinel-Staffel",
+          "units": "Vier gepanzerte Sentinels",
+          "extraUnits": [
+          ],
+          "points": 125
+        }
+      ]
+    },
+    {
+      "name": "Deathwatch-Luftlande-Verbände",
+      "description": "Bis zu ein Drittel der verfügbaren Punkte darf für Deathwatch-Luftlande-Verbände ausgegeben werden.",
+      "formations": [
+        {
+          "name": "Corvus-Blackstar-Landungsschiff",
+          "units": "Ein Corvus-Blackstar-Landungsschiff",
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk-Transporter",
+          "units": "Ein Deathwatch Thunderhawk-Transporter",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Aufwertungen",
+    "description": "Jede Aufwertung darf nur einmal pro Verband gewählt werden",
+    "items": [
+      {
+        "name": "0–1 Oberbefehlshaber",
+        "description": "Ersetze einen Inquisitor des Ordo Xenos durch einen Inquisitor-Lord des Ordo Xenos oder einen Deathwatch-Sergeant durch einen Deathwatch-Befehlshaber.",
+        "points": [
+          "Inquisitor Lord: 50 Punkte",
+          "Watch Befehlshaber: 100 Punkte"
+        ]
+      },
+      {
+        "name": "Deathwatch-Spezialisten",
+        "description": "Füge einen Scriptor oder Ordenspriester zum Verband hinzu.",
+        "points": [
+          "Scriptor: 25 Punkte",
+          "Ordenspriester: 50 Punkte"
+        ]
+      },
+      {
+        "name": "Deathwatch-Unterstützung",
+        "description": "Füge dem Verband entweder einen Deathwatch-Cybot oder einen Land-Raider-Crusader hinzu.",
+        "points": "50 Punkte"
+      }
+    ]
+  }
+}

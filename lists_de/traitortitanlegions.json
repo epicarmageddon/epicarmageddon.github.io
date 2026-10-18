@@ -1,0 +1,515 @@
+[
+  {
+    "name": "Streitkräfte der Verräter-Titanenlegion",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Auge der Götter",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Oberbefehlshaber"
+        ]
+      },
+      {
+        "name": "Dämonischer Herold",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Dämonischer Fokus",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Dämonischer Fokus"
+        ]
+      },
+      {
+        "name": "Chaos-Warhound",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Todessturm||FwA",
+          "Höllenschlund||FwA",
+          "Kampfkopf"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Null-Schilde 2",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Die Einheit erleidet 1 Schaden."
+      },
+      {
+        "name": "Seuchenhund",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Pus Kanone||FwA",
+          "Boil Kanone||FwA"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Null-Schilde 1",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Die Einheit erleidet 1 Schaden."
+      },
+      {
+        "name": "Bluthund",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Todessturm|0-1|FwA",
+          "Plasmaofen|0-1|FwA",
+          "Ursus Klaue",
+          "Kampfkopf"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Null-Schilde 2",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Todessturm oder Plasmaofen bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Die Einheit erleidet 1 Schaden."
+      },
+      {
+        "name": "Warp-Hound",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Arcane Kanonen|2|FwA",
+          "Blick des Tzeentch||FwA",
+          "Dämon Maw"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Null-Schilde 2",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Die Einheit erleidet 1 Schaden."
+      },
+      {
+        "name": "Chaos-Warbringer",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Anvilus Maschinenkanone Batterie",
+          "Schwanzgeschütz",
+          "Rumpfbewaffung (Wähle eine)",
+          "Corruptos Chaos Kanone|0-1|FxF",
+          "Plasma-Verbrenner|0-1|FxF",
+          "Cyclone-Kanone|0-1|FxF",
+          "Arme (Wähle eine)",
+          "2x Turboblaster||FwA",
+          "2x Hex Kanone||FwA",
+          "2x Plasma-Kremator||FwA"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Null-Schilde 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jeder Runde einen W6 für jeden Reaktorbruch der Einheit. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei einem Wurf von 5+ einen Treffer; bei einer 4–6 ist der Bruch repariert. Jeder nicht reparierte Bruch verursacht 1 Schaden."
+      },
+      {
+        "name": "Chaos-Reaver",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Todessturm|2|FwA",
+          "Verdammnisbrenner||FxF",
+          "Schwanzgeschütz",
+          "Kampfkopf"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Null-Schilde 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind.",
+        "crit": "Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jeder Runde einen W6 für jeden Reaktorbruch der Einheit. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei einem Wurf von 5+ einen Treffer; bei einer 4–6 ist der Bruch repariert. Jeder nicht reparierte Bruch verursacht 1 Schaden."
+      },
+      {
+        "name": "Reviler-Titan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Hex Kanone|0-1|FwA",
+          "Turboblaster|0-1|FwA",
+          "Plasma-Kremator|0-1|FwA",
+          "Schallverwüster||FxF",
+          "Musk Flegel",
+          "Lustpeitsche"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Null-Schilde 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Hex-Kanone, Turboblaster oder Plasma-Kremator bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Abscheulicher Titan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Fäulniskanone|0-1|FwA",
+          "Turboblaster|0-1|FwA",
+          "Plasma-Kremator|0-1|FwA",
+          "Seuchenmörser||FxF",
+          "Seuchenflegel"
+        ],
+        "specialRules": [
+          "Schadenskapazität 7",
+          "Null-Schilde 3",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Fäulniskanone, Turboblaster oder Plasma-Kremator bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Verwüster-Titan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Hex Kanone|0-1|FwA",
+          "Turboblaster|0-1|FwA",
+          "Plasma-Kremator|0-1|FwA",
+          "Verdammnisbrenner||FxF",
+          "Verdammnisklaue",
+          "Schwanzgeschütz"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Null-Schilde 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Hex-Kanone, Turboblaster oder Plasma-Kremator bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Mutator-Titan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Hex Kanone|0-1|FwA",
+          "Turboblaster|0-1|FwA",
+          "Coruscant-Hagel|0-1|FwA",
+          "Strahl der Veränderung||FwA",
+          "Flak-Flammenkanone"
+        ],
+        "specialRules": [
+          "Schadenskapazität 6",
+          "Null-Schilde 4",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Hex-Kanone, Turboblaster oder Coruscant-Hagel bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Chaos-Kriegsherr",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Kanone des Chaos||FwA",
+          "Havoc-Sperrfeuer-Rakete|6|FxF",
+          "Schwanzgeschütz",
+          "Verdammnisfaust",
+          "Kampfkopf"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 8",
+          "Null-Schilde 6",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Schmerzensfürst-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Strahl der Ekstase|0-1|FwA",
+          "Plasma-Verbrenner|0-1|FwA",
+          "Cyclone-Kanone|0-1|FwA",
+          "Strahlblaster|0-1|FwA",
+          "Gekoppelte Schallverwüster||FxF",
+          "Musk Flegel",
+          "Lustpeitsche"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 8",
+          "Null-Schilde 6",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Strahl der Ekstase, Plasma-Verbrenner, Cyclone-Kanone oder Strahlblaster bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Seuchenfürst-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Plasma-Verbrenner|0-1|FwA",
+          "Cyclone-Kanone|0-1|FwA",
+          "Strahlblaster|0-1|FwA",
+          "Schwerer Seuchenmörser||FxF",
+          "Corruption Kanone||FxF",
+          "Seuchenflegel"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 9",
+          "Null-Schilde 5",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Plasma-Verbrenner, Cyclone-Kanone oder Strahlblaster bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Verderbensfürst-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Höllenschlagkanone|0-1|FwA",
+          "Plasma-Verbrenner|0-1|FwA",
+          "Cyclone-Kanone|0-1|FwA",
+          "Strahlblaster|0-1|FwA",
+          "Havoc-Sperrfeuer-Rakete|6|FxF",
+          "Schwanzgeschütz",
+          "Verdammnisfaust"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 8",
+          "Null-Schilde 6",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit Höllenschlagkanone, Plasma-Verbrenner, Cyclone-Kanone oder Strahlblaster bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Warp-Fürst-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Tzeentch Kanone|0-2|FwA",
+          "Plasma-Verbrenner|0-2|FwA",
+          "Strahlblaster|0-2|FwA",
+          "Strahl der Veränderung||FxF",
+          "Flak-Flammenkanone|3|"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 8",
+          "Null-Schilde 6",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Muss entweder mit zwei Tzeentch-Kanonen, zwei Plasma-Verbrennern oder zwei Strahlblastern bewaffnet sein."
+        ],
+        "notes": "Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Lasterbringer-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Strahl der Verzückung||FwA",
+          "Plasma-Annihilator||FwA",
+          "Schallvernichter|2|FxF",
+          "Tempel der Versuchung",
+          "Kampfgeschütz|4|"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 10",
+          "Null-Schilde 8",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren. Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Finsternisbringer-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Fäulnissturm||FwA",
+          "Devourer Kanone||FwA",
+          "Schwerer Seuchenmörser|2|FxF",
+          "Tempel der Verwesung",
+          "Kampfgeschütz|4|"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 11",
+          "Null-Schilde 7",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren. Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Zwistbringer-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Höllensturmkanone||FwA",
+          "Plasma-Annihilator||FwA",
+          "Tempel des Zorns",
+          "Kampfgeschütz|4|",
+          "Zerfleischer"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 10",
+          "Null-Schilde 8",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren. Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      },
+      {
+        "name": "Wandelbringer-Titan",
+        "type": "WE",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Zwillings-Strahl der Veränderung||FwA",
+          "Havoc-Warp-Rakete|8|FwA",
+          "Tempel der Wandlung",
+          "Flak-Flammenkanone|4|"
+        ],
+        "specialRules": [
+          "Göttermaschine",
+          "Geteiltes Feuer",
+          "Schadenskapazität 10",
+          "Null-Schilde 8",
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig",
+          "Transport"
+        ],
+        "notes": "Kann 4 Infanterieeinheiten ohne Beritten oder Sprungmodule transportieren. Kann Einheiten und Geländestücke überschreiten, die niedriger als die Knie der Einheit und weniger als 2 cm breit sind. Effekt eines Kritischen Treffers: Der Plasmareaktor der Einheit wurde beschädigt. Würfle in der Endphase jedes Spielzugs für jeden Schaden an der Einheit mit einem W6. Bei einer 1 wird die Einheit zerstört und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer; bei 4–6 wurde der Schaden repariert. Jeder nicht reparierte Schaden verursacht 1 Schadenspunkt."
+      }
+    ]
+  }
+]

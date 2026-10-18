@@ -1,0 +1,424 @@
+[
+  {
+    "name": "Streitkräfte der Drukhari",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+        "name": "Archon",
+        "type": "CH",
+        "weapons": [
+          "Agonisator"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Oberbefehlshaber",
+          "Unmodifizierter Rettungswurf",
+          "Inspirierend"
+        ]
+      },
+      {
+        "name": "Dracon",
+        "type": "CH",
+        "weapons": [
+          "Agonisator"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Anführer",
+          "Inspirierend"
+        ]
+      },
+      {
+        "name": "Succubus",
+        "type": "CH",
+        "weapons": [
+          "Monomolecular Klinge"
+        ],
+        "specialRules": [
+          "Anführer"
+        ]
+      },
+      {
+        "name": "Ältester Haemonculus",
+        "type": "CH",
+        "weapons": [
+          "Arkane Schrecken",
+          "Scherenhände"
+        ],
+        "specialRules": [
+          "Anführer",
+          "Unmodifizierter Rettungswurf"
+        ]
+      },
+      {
+        "name": "Inkubi",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Peiniger",
+          "Klaives"
+        ],
+        "specialRules": [
+            "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Kabalenkrieger",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Splinter Gewehre",
+          "Splitterkanone"
+        ],
+        "specialRules": [
+            "Windflink"
+        ]
+      },
+      {
+        "name": "Mandraks",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Unheilfeuer",
+          "Mandrake Klingen"
+        ],
+        "specialRules": [
+          "Infiltratoren",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Harpyien",
+        "type": "INF",
+        "speed": 30,
+        "armour": 6,
+        "cc": 6,
+        "ff": 3,
+        "weapons": [
+          "Schattenlanze",
+          "Splitterkanone"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Teleportieren",
+          "Windflink"
+        ]
+      },
+      {
+        "name": "Haemonculi",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Verflüssiger",
+          "Gift Klingen"
+        ],
+        "specialRules": [
+          "Furchtlos"
+        ]
+      },
+      {
+        "name": "Folterer",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 3,
+        "weapons": [
+          "Gift Klingen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Entbehrlich"
+        ]
+      },
+      {
+        "name": "Grotesquen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Grotesquen Klingen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Entbehrlich"
+        ]
+      },
+      {
+        "name": "Talos",
+        "type": "AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Talos Klingen",
+          "Lähmer"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Perditor",
+        "type": "H-AV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Witwenmacher",
+          "Perditor Klauen"
+        ],
+        "specialRules": [
+          "Furchtlos",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ]
+      },
+      {
+        "name": "Hagashîn",
+        "type": "INF",
+        "speed": 15,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Splinter Pistolen",
+          "Wych Waffen"
+        ],
+        "specialRules": [
+          "Unmodifizierter Rettungswurf",
+          "Infiltratoren"
+        ]
+      },
+      {
+        "name": "Warpbestien",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Klauen"
+        ],
+        "specialRules": [
+          "Erstschlag"
+        ]
+      },
+      {
+        "name": "Hellion-Himmelsbretter",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 3,
+        "ff": 6,
+        "weapons": [
+          "Höllengleven",
+          "Splitterkapseln"
+        ],
+        "specialRules": [
+          "Sprungmodule",
+          "Aufklärer"
+        ]
+      },
+      {
+        "name": "Reaver-Jetbikes",
+        "type": "INF",
+        "speed": 40,
+        "armour": 5,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Splinter Gewehre",
+          "Klingen"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Beritten"
+        ]
+      },
+      {
+        "name": "Schattenviper",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Splitterkanone",
+          "Zwillings-Splittergewehr"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport",
+          "Windflink"
+        ],
+        "notes": "Kann eine Einheit Krieger, Inkubi, Haemonculi, Folterer oder Hagashîn transportieren."
+      },
+      {
+        "name": "Schattenbarke",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Schattenlanze"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Transport",
+          "Windflink"
+        ],
+        "notes": "Kann zwei Einheiten Krieger, Inkubi, Haemonculi, Folterer oder Hagashîn transportieren."
+      },
+      {
+        "name": "Schattenjäger",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Schattenlanze|2|",
+          "Splitterstoß"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Windflink"
+        ]
+      },
+      {
+        "name": "Schnitter",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Sturm-Vortex Projektor"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Windflink"
+        ]
+      },
+      {
+        "name": "Tantalus",
+        "type": "LV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Impuls-Desintegrator|2|"
+        ],
+        "specialRules": [
+          "Antigrav",
+          "Windflink",
+          "Transport"
+        ],
+        "notes": "Kann zwei Einheiten Krieger, Inkubi, Haemonculi, Folterer oder Hagashîn transportieren. Grotesken zählen jeweils als zwei Einheiten."
+      },
+      {
+        "name": "Vergnügungsbarke",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Schattenlanze|2|FxF",
+          "Splitterstoß",
+          "Splitterkanone|2|FwA"
+        ],
+        "specialRules": [
+            "Schadenskapazität 3",
+            "Schattenfelder2",
+            "Antigrav",
+            "Transport",
+            "Windflink"
+        ],
+        "notes": "Kann sechs Einheiten Krieger, Inkubi, Haemonculi, Folterer oder Hagashîn transportieren. Grotesken zählen jeweils als zwei Einheiten. Darf nur Einheiten aus dem eigenen Verband transportieren.",
+        "crit": "Barge erleidet 1 zusätzlichen Schaden. 1W3 zufällige transportierte Einheiten erleiden einen Treffer."
+      },
+      {
+        "name": "Schmerzensschiff",
+        "type": "WE",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Phantomlanze||FxF",
+          "Verwüster||FwA",
+          "Splitterkanone|2|FwA"
+        ],
+        "specialRules": [
+          "Schadenskapazität 3",
+          "Schattenfelder2",
+            "Antigrav",
+            "Windflink"
+        ],
+        "crit": "Schmerzschiff wird zerstört. Alle Einheiten innerhalb von 5cm erleiden bei 6+ einen Treffer."
+      },
+      {
+        "name": "Peiniger-Titan",
+        "type": "WE",
+        "speed": 35,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Zwillings-Schattenlanze|2|",
+          "Tormentor Klingen"
+        ],
+        "specialRules": [
+          "Schadenskapazität 4",
+          "Schattenfelder3",
+          "Furchtlos",
+          "Sprungmodule",
+          "Verstärkte Panzerung",
+          "Geländegängig"
+        ],
+        "crit": "Peiniger-Titan erleidet 1 zusätzlichen Schaden und verliert alle verbleibenden Schattenfelder."
+      },
+      {
+        "name": "Henker-Landungsmodul",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "ff": 4,
+        "weapons": [
+          "Zwillings-Schwere Phantomlanze||FxF",
+          "Splittersturm",
+          "Desintegrator Batterie"
+        ],
+        "specialRules": [
+          "Schadenskapazität 5",
+          "Schattenfelder4",
+          "Planetfall",
+          "Hilfstransportschiff",
+          "Verstärkte Panzerung",
+          "Furchtlos",
+          "Transport"
+        ],
+        "notes": "Kann bis zu zehn Infanterieeinheiten transportieren. Grotesken zählen jeweils als zwei Einheiten. Zusätzlich kann es bis zu fünf leichte oder gepanzerte Fahrzeuge oder ein Schmerzschiff oder eine Lustbarke transportieren.",
+        "crit": "Das Henker-Landungsmodul erleidet 1 zusätzlichen Schaden. W3 zufällige transportierte Einheiten erleiden einen Treffer."
+      }
+    ]
+  }
+]
