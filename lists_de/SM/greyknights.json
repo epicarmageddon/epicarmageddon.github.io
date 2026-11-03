@@ -48,7 +48,12 @@
         "Sturmadler",
         "Vanguard-Klasse-Leichter-Kreuzer",
         "Grey-Knights-Angriffskreuzer",
-        "Landungskapsel"
+        "Landungskapsel",
+        "Oberbefehlshaber",
+        "Terminatoren",
+        "Razorback",
+        "Whirlwind",
+        "Angriffskreuzer"
       ],
       "unitRules": [
         "Teleportieren-Peilsender",

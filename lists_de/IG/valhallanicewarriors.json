@@ -26,7 +26,7 @@
         "Basilisk",
         "Mantikor",
         "Höllenhund",
-        "Todesstoß",
+        "Todesstoß Raketenlafette",
         "Gepanzerter Sentinel",
         "Valhallanischer Greif",
         "Ragnarok-Schwerer Kampfpanzer",
@@ -34,7 +34,10 @@
         "Macharius-Kommandopanzer",
         "Baneblade",
         "Shadowsword",
-        "Stormlord"
+        "Stormlord",
+        "Ogryns",
+        "Sentinel",
+        "Todesstoß-Raketensilo"
       ],
       "unitRules": [
       ]
@@ -134,7 +137,7 @@
         },
         {
           "name": "Todesstoß-Batterie",
-          "units": "Zwei Todesstoß-Raketensilos",
+          "units": "Zwei Todesstoß Raketenlafette",
           "extraUnits": [
           ],
           "points": 225

@@ -18,12 +18,10 @@
       "from": "GS2.json",
       "units": [
         "Symbiontenpatriarch",
-        "Konklaven-Locus",
         "Symbiarch",
         "Symbiontenprimus",
         "Akolythenhybriden",
         "Metamorph-Hybriden",
-        "Liktor",
         "Aberranten",
         "Neophyten-Ausreiter",
         "Neophyten",
@@ -32,18 +30,32 @@
         "Ridgerunner",
         "Goliath-Truck",
         "Konklaven-Limousine",
-        "Bewaffneter Geländewagen",
-        "Konklaven-Thunderbolt-Jäger",
-        "Kult-Basilisk",
-        "Kult-Höllenhund",
-        "Kult-Greif",
-        "Kult-Chimäre",
-        "Kult-Hydra",
-        "Kult-Leman-Russ",
-        "Kult-Leman-Russ-Demolisher",
-        "Kult-Baneblade",
-        "Kult-Stormblade",
-        "Kult-Shadowsword"
+        "Bewaffneter Geländewagen"
+      ],
+      "unitRules": []
+    },
+    {
+      "from": "GS.json",
+      "units": [
+        "Konklaven-Locus",
+        "Konklaven-Biker",
+        "Konklaven-Ridgerunner",
+        "Konklaven-Geländewagen",
+        "Liktor",
+        "Hybrid-Aberranten",
+        "Kultisten-Donnerkeil-Jäger",
+        "Kultisten-Infanterie",
+        "Kultisten-Feuerunterstützung",
+        "Kultisten-Basilisk",
+        "Kultisten-Höllenhund",
+        "Kultisten-Greif",
+        "Kultisten-Chimäre",
+        "Kultisten-Hydra",
+        "Kultisten-Leman-Russ",
+        "Kultisten-Leman-Russ-Demolisher",
+        "Kultisten-Baneblade",
+        "Kultisten-Stormblade",
+        "Kultisten-Shadowsword"
       ],
       "unitRules": [
       ]
@@ -67,15 +79,15 @@
         },
         {
           "name": "Kultistenkompanie",
-          "units": "Ein Symbiontenprimus und neun Kult-Infanteristen",
+          "units": "Ein Symbiontenprimus und neun Kultisten-Infanteristen",
           "extraUnits": [
-            "Füge vier Kult-Infanteristen hinzu: 50 Punkte",
-            "Füge zwei Kult-Feuerunterstützungseinheiten hinzu: 50 Punkte",
-            "Füge drei Kult-Leman-Russ oder Kult-Leman-Russ-Demolisher hinzu: 150 Punkte",
-            "Füge genügend Kult-Chimären hinzu, um die gesamte Verband ohne freie Transportplätze zu transportieren: 25 Punkte pro Stück",
-            "Füge eine Kult-Hydra hinzu: 50 Punkte",
-            "Füge bis zu zwei Kult-Höllenhunde hinzu: 25 Punkte pro Stück",
-            "Füge drei Kult-Greife hinzu: 50 Punkte"
+            "Füge vier Kultisten-Infanteristen hinzu: 50 Punkte",
+            "Füge zwei Kultisten-Feuerunterstützungseinheiten hinzu: 50 Punkte",
+            "Füge drei Kultisten-Leman-Russ oder Kultisten-Leman-Russ-Demolisher hinzu: 150 Punkte",
+            "Füge genügend Kultisten-Chimären hinzu, um den gesamten Verband ohne freie Transportplätze zu transportieren: 25 Punkte pro Stück",
+            "Füge eine Kultisten-Hydra hinzu: 50 Punkte",
+            "Füge bis zu zwei Kultisten-Höllenhunde hinzu: 25 Punkte pro Stück",
+            "Füge drei Kultisten-Greife hinzu: 50 Punkte"
           ],
           "points": 275
         }
@@ -121,7 +133,7 @@
         },
         {
           "name": "Donnerkeil-Rotte",
-          "units": "Zwei Konklaven-Donnerkeiljäger",
+          "units": "Zwei Kultisten-Donnerkeil-Jäger",
           "points": 175
         }
       ]
@@ -152,38 +164,38 @@
       "formations": [
         {
           "name": "Kultisten-Superschwerer-Panzerzug",
-          "units": "Ein Konklaven-Locus-Charakter, ein Kult-Baneblade oder Kult-Stormblade",
+          "units": "Ein Konklaven-Locus-Charakter, ein Kultisten-Baneblade oder Kultisten-Stormblade",
           "extraUnits": [
-            "Ersetze den Kult-Baneblade oder Kult-Stormblade durch einen Kult-Shadowsword: 25 Punkte"
+            "Ersetze den Kultisten-Baneblade oder Kultisten-Stormblade durch einen Kultisten-Shadowsword: 25 Punkte"
           ],
           "points": 200
         },
         {
           "name": "Kultisten-Leman-Russ-Zug",
-          "units": "Ein Konklaven-Locus-Charakter, sechs Kult-Leman-Russ oder Kult-Leman-Russ-Demolisher",
+          "units": "Ein Konklaven-Locus-Charakter, sechs Kultisten-Leman-Russ oder Kultisten-Leman-Russ-Demolisher",
           "extraUnits": [
           ],
           "points": 425
         },
         {
           "name": "Kultisten-Basilisken-Batterie",
-          "units": "Ein Konklaven-Locus-Charakter und drei Kult-Basilisken",
+          "units": "Ein Konklaven-Locus-Charakter und drei Kultisten-Basilisken",
           "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Mechanisierter Kultistenzug",
-          "units": "Ein Konklaven-Locus-Charakter, sechs Kult-Infanteristen und drei Kult-Chimären",
+          "units": "Ein Konklaven-Locus-Charakter, sechs Kultisten-Infanteristen und drei Kultisten-Chimären",
           "extraUnits": [
-            "Füge bis zu zwei Kult-Höllenhunde hinzu: 25 Punkte pro Stück",
-            "Füge drei Kult-Greife hinzu: 50 Punkte"
+            "Füge bis zu zwei Kultisten-Höllenhunde hinzu: 25 Punkte pro Stück",
+            "Füge drei Kultisten-Greife hinzu: 50 Punkte"
           ],
           "points": 275
         },
         {
           "name": "Kultisten-Flakbatterie",
-          "units": "Ein Konklaven-Locus-Charakter und drei Kult-Hydras",
+          "units": "Ein Konklaven-Locus-Charakter und drei Kultisten-Hydras",
           "extraUnits": [
           ],
           "points": 175

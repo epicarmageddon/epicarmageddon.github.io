@@ -17,7 +17,7 @@
         "Kommissarkapitän",
         "Chimäre",
         "Infanterie",
-        "Todesstoß",
+        "Todesstoß Raketenlafette",
         "Höllenhund",
         "Salamander-Spähpanzer",
         "Basilisk",
@@ -160,7 +160,7 @@
         },
         {
           "name": "Todesstoß-Batterie",
-          "units": "Zwei Todesstoß-Raketensilos",
+          "units": "Zwei Todesstoß Raketenlafette",
           "extraUnits": [
           ],
           "points": 225

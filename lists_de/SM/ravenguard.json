@@ -22,7 +22,7 @@
         "Oberbefehlshaber",
         "Sturmtrupps",
         "Sturm-Bikes",
-        "Raven-Guard-Aufklärer",
+        "Raven Guard Scouts",
         "Protektorgarde-Veteranen",
         "Taktische Trupps",
         "Devastor-Trupps",
@@ -162,7 +162,7 @@
           "points": 200
         },
         {
-          "name": "Aufklärer",
+          "name": "Scout Trupp",
           "units": "Vier Raven Guard Aufklärer plus Transporter",
           "extraUnits": [
             "Land Speeders",

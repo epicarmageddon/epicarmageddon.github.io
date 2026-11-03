@@ -39,7 +39,7 @@
         "Chaos Rhino",
         "Chrono-Gladiatoren",
         "Ordinatus Hereticus",
-        "Ordinatus Hereticus Majoris",
+        "Ordinatus HereticusMajoris",
         "Kaban-Maschine"
       ],
       "unitRules": [
@@ -93,7 +93,7 @@
           "units": "Ein Höllenschmied, elf Chaos-Squats",
           "extraUnits": [
             "Ersetze vier Chaos-Squats durch vier Phospexors: 25 Punkte",
-            "Füge zwei Krios Lightning, zwei Krios Venators, oder ein Ordinatus Hereticus hinzu: 125 Punkte",
+            "Füge zwei Krios Lightning, zwei Krios Venators, oder ein Ordinatus Hereticushinzu: 125 Punkte",
             "Erz-Heretek",
             "Kaban-Maschine",
             "Höllenschmiede-Transporter"
@@ -201,7 +201,7 @@
           "points": 325
         },
         {
-          "name": "0–1 Ordinatus Hereticus Majoris",
+          "name": "0–1 Ordinatus HereticusMajoris",
           "units": "Ein Ordinatus Retlaxi",
           "extraUnits": [
             "Werte den Ordinatus Retlaxi zu einem Ordinatus Temporia (25 Punkte) oder Ordinatus Cyclothrathe (50 Punkte) auf",
@@ -251,7 +251,7 @@
     "items": [
       {
         "name": "(0–1 pro Armee) Oberbefehlshaber",
-        "description": "Füge einer Höllenschmied-Einheit oder einem Ordinatus Hereticus Majoris einen Erz-Heretek hinzu.",
+        "description": "Füge einer Höllenschmied-Einheit oder einem Ordinatus HereticusMajoris einen Erz-Heretek hinzu.",
         "points": "100 Punkte"
       },
       {

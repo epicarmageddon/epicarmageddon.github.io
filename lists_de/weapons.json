@@ -448,7 +448,7 @@
             ]
         },
         {
-            "name": "AC Bombe Racks",
+            "name": "AC Bombenträger",
             "modes": [
                 {
                     "firepower": "3BP",
@@ -906,7 +906,7 @@
             ]
         },
         {
-            "name": "AC-Zwillings-Schwerbolterturm",
+            "name": "AC Zwillings-schwerer Bolter-Turm",
             "modes": [
                 {
                     "firepower": "AA5+",
@@ -1168,7 +1168,7 @@
             ]
         },
         {
-            "name": "AC Underwing Raketen",
+            "name": "AC Unterflügelraketen",
             "modes": [
                 {
                     "firepower": "AT4+",

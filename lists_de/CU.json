@@ -296,7 +296,7 @@
       {
         "name": "Orion-Angriffsschiff",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 5,
         "ff": 4,

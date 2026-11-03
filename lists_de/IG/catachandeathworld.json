@@ -26,7 +26,7 @@
         "Todeswelt-Chimäre",
         "Basilisk",
         "Greif",
-        "Todesstoß",
+        "Todesstoß Raketenlafette",
         "Vulture",
         "Valkyrie",
         "Vendetta",
@@ -37,7 +37,8 @@
         "Leman-Russ-Belagerungspanzer",
         "Hellhammer",
         "Stormblade",
-        "Shadowsword"
+        "Shadowsword",
+        "Todesstoß-Raketensilo"
       ],
       "unitRules": [
                     "Schildbrecher"
@@ -112,7 +113,7 @@
         },
         {
           "name": "Todesstoß-Batterie",
-          "units": "Zwei Todesstoß-Raketensilos",
+          "units": "Zwei Todesstoß Raketenlafette",
           "extraUnits": [
           ],
           "points": 225

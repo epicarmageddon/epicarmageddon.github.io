@@ -262,7 +262,7 @@
         "crit": "Ordinatus wird zerstört, und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
       },
       {
-        "name": "Ordinatus Hereticus ",
+        "name": "Ordinatus Hereticus",
         "type": "WE",
         "speed": 20,
         "armour": 5,
@@ -285,7 +285,7 @@
         "crit": "Ordinatus wird zerstört, und alle Einheiten innerhalb von 5cm erleiden bei 5+ einen Treffer."
       },
       {
-        "name": "Ordinatus Hereticus Majoris",
+        "name": "Ordinatus HereticusMajoris",
         "type": "WE",
         "speed": 10,
         "armour": 5,

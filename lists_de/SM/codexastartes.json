@@ -21,7 +21,7 @@
         "Scriptor",
         "Oberbefehlshaber",
         "Sturmtrupps",
-        "Aufklärer",
+        "Scout",
         "Taktische Trupps",
         "Devastor-Trupps",
         "Terminatoren",
@@ -133,8 +133,8 @@
           "points": 250
         },
         {
-          "name": "Aufklärer",
-          "units": "Vier Aufklärer plus Transporter",
+          "name": "Scout Trupp",
+          "units": "Vier Scouts plus Transporter",
           "extraUnits": [
             "Razorbacks",
             "Scharfschützen"

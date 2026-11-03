@@ -27,7 +27,7 @@
         "Bombarde",
         "Chimäre",
         "Taurox",
-        "Todesstoß",
+        "Todesstoß Raketenlafette",
         "Greif",
         "Höllenhund",
         "Hydra",
@@ -150,7 +150,7 @@
         },
         {
           "name": "Todesstoß-Batterie",
-          "units": "Zwei Todesstoß-Raketensilos",
+          "units": "Zwei Todesstoß Raketenlafette",
           "extraUnits": [
           ],
           "points": 225

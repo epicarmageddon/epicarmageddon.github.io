@@ -7,7 +7,7 @@
       {
         "name": "Nachtsichel-Transporter",
         "type": "WE/AC",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 5,
         "weapons": [
           "AC Zwillings-Tesla Zerstörer",
@@ -38,7 +38,7 @@
       {
         "name": "Nachtmantel-Bomber (B)",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC Zwillings-Tesla Zerstörer",

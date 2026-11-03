@@ -33,7 +33,7 @@
       {
         "name": "Sklavenbringer-Angriffsboot",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 6,
         "ff": 5,

@@ -25,7 +25,7 @@
         "Todeskompanie-Marines",
         "Devastor-Trupps",
         "Sanguinische-Garde",
-        "Aufklärer",
+        "Scout",
         "Taktische Trupps",
         "Todeskompanie-Cybot",
         "Sturm-Terminatoren",
@@ -51,7 +51,10 @@
         "Schlachtbarke",
         "Angriffskreuzer",
         "Vanguard-Klasse-Leichter-Kreuzer",
-        "Landungskapsel"
+        "Landungskapsel",
+        "Razorback",
+        "Hunter",
+        "Stalker"
       ],
       "unitRules": [
         "Ehrengarde",

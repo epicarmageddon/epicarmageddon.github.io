@@ -69,7 +69,7 @@
       {
         "name": "Firelord",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC Incendiary Bomben||FxF",
@@ -83,7 +83,7 @@
       {
         "name": "Harbringer-Bomber (B)",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC Schwerer Incendiary Bomben||FxF",
@@ -99,7 +99,7 @@
       {
         "name": "Seuchenbringer-Bomber (B)",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC Blight Bomben||FxF",
@@ -127,7 +127,7 @@
       {
         "name": "Sturmadler der Alpha Legion",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 5,
         "cc": 6,
         "ff": 4,
@@ -149,7 +149,7 @@
       {
         "name": "Chaos-Feuerraptor",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 5,
         "weapons": [
           "AC-Zwillings-Avenger-Bolterkanone||FxF",
@@ -165,7 +165,7 @@
       {
         "name": "Chaos-Thunderhawk",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 6,
         "ff": 4,
@@ -187,7 +187,7 @@
       {
         "name": "Thunderhawk der Night Lords",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 6,
         "ff": 4,
@@ -209,7 +209,7 @@
       {
         "name": "Thunderhawk der Alpha Legion",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 6,
         "ff": 4,
@@ -232,7 +232,7 @@
       {
         "name": "Chaos-Sturmvogel",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 6,
         "ff": 3,

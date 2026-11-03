@@ -9,7 +9,7 @@
   "Initiative": "Alle Verbände haben einen Initiativwert von 1+.",
   "armyRules": "Die Sonderregel <i>Sie kennen keine Furcht</i> gilt für alle White Scars-Kontingente und Flugzeugverbände.",
   "specialRules": [
-    "White-Scars-Transporter",
+    "White Scars Transporter",
     "Sie kennen keine Furcht"
   ],
   "units": [
@@ -22,14 +22,14 @@
         "Sturmtrupps",
         "Taktische Trupps",
         "Terminatoren",
-        "White-Scars-Sturmbikes",
-        "White-Scars-Scoutbikes",
-        "White-Scars-Land Speeder",
-        "White-Scars-Land Speeder-Tornado",
-        "White-Scars-Land Speeder-Typhoon",
-        "White-Scars-Land Speeder-Tempest",
-        "White-Scars-Trike",
-        "White-Scars-Melta-Bike",
+        "White Scars Sturmbikes",
+        "White Scars Scoutbikes",
+        "White Scars Land Speeder",
+        "White Scars Land Speeder-Tornado",
+        "White Scars Land Speeder-Typhoon",
+        "White Scars Land Speeder-Tempest",
+        "White Scars Trike",
+        "White Scars Melta-Bike",
         "Hunter",
         "Land Raider",
         "Land Raider Crusader",
@@ -37,7 +37,7 @@
         "Rhino",
         "Stalker",
         "Whirlwind",
-        "White-Scars-Vindicator",
+        "White Scars Vindicator",
         "Landungsschiff",
         "Sturmtalon",
         "Thunderhawk",
@@ -66,7 +66,7 @@
       "formations": [
         {
           "name": "Bike-Verband",
-          "units": "Acht White-Scars-Sturmbikes",
+          "units": "Acht White Scars Sturmbikes",
           "extraUnits": [
             "Trikes",
             "Befehlshaber"
@@ -119,8 +119,8 @@
           "points": 225
         },
         {
-          "name": "White-Scars-Scoutbikes",
-          "units": "Fünf White-Scars-Scoutbikes",
+          "name": "White Scars Scoutbikes",
+          "units": "Fünf White Scars Scoutbikes",
           "extraUnits": [
             "Trikes"
           ],
@@ -204,7 +204,7 @@
       },
       {
         "name": "Trikes",
-        "description": "Ersetze bis zu 3 White-Scars-Sturmbikes oder 1 White-Scars-Scoutbike durch dieselbe Anzahl an White-Scars-Angriffsbikes oder White-Scars-Melta-Bikes",
+        "description": "Ersetze bis zu 3 White Scars Sturmbikes oder 1 White Scars Scoutbike durch dieselbe Anzahl an White Scars Angriffsbikes oder White Scars Melta-Bikes",
         "points": "kostenlos"
       },
       {

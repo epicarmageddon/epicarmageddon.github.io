@@ -24,7 +24,7 @@
         "Techmarine",
         "Iron-Hands-Devastortrupps",
         "Taktische Trupps",
-        "Aufklärer",
+                "Scout",
         "Cybot",
         "Hellfire-Cybot",
         "Ironclad-Cybot",
@@ -46,7 +46,11 @@
         "Thunderhawk-Transporter",
         "Schlachtbarke",
         "Angriffskreuzer",
-        "Landungskapsel"
+        "Landungskapsel",
+        "Captain",
+        "Oberbefehlshaber",
+        "Devastor-Trupps",
+        "Hunter"
       ],
       "unitRules": [
         "Bionik",

@@ -31,7 +31,7 @@
         "Trojan",
         "Bombarde",
         "Greif",
-        "Todesstoß",
+        "Todesstoß Raketenlafette",
         "Seuchenwolf",
         "Sturm-Chimäre",
         "Leman Russ Kampfpanzer",
@@ -42,7 +42,8 @@
         "Gorgon",
         "Baneblade",
         "Stormsword",
-        "Shadowsword"
+        "Shadowsword",
+        "Todesstoß-Raketensilo"
       ],
       "unitRules": [
         "Schweres gepanzertes Fahrzeug (H-AV)",
@@ -157,7 +158,7 @@
         },
         {
           "name": "Todesstoß-Batterie",
-          "units": "Zwei Todesstoß-Raketensilos",
+          "units": "Zwei Todesstoß Raketenlafette",
           "extraUnits": [
           ],
           "points": 225

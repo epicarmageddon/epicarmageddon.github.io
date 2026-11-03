@@ -180,9 +180,9 @@
       "formations": [
           {
             "name": "Gargant-Mob der Snakebites",
-            "units": "Ein Steam Gargant",
+            "units": "Ein Dampf-Gargant",
             "extraUnits": [
-                "Füge 1 Steam Gargant hinzu: 175 Punkte"
+                "Füge 1 Dampf-Gargant hinzu: 175 Punkte"
             ],
             "points": 225
           }

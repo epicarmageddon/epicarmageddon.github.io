@@ -33,7 +33,7 @@
       {
         "name": "Sonnenhai-Bomber (B)",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC-Impulsbombengenerator",
@@ -46,7 +46,7 @@
       {
         "name": "Schwertfisch-Jagdbomber",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "Höllenschneider-Kampfklaue",
@@ -61,7 +61,7 @@
       {
         "name": "Schwertfisch AX-1-0",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC-Zwillings-Schienenkanone",
@@ -75,7 +75,7 @@
       {
         "name": "Orca",
         "type": "AC/WE",
-        "speed": "Bomber (B) (B)",
+                "speed": "Bomber (B)",
         "armour": 4,
         "cc": 6,
         "ff": 5,

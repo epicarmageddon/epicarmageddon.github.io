@@ -11,7 +11,7 @@
         "armour": 6,
         "weapons": [
           "Blackstar-Hurrikanbolter||FxF",
-          "AC Underwing Raketen||FxF"
+          "AC Unterflügelraketen||FxF"
         ],
         "specialRules": [
         ]
@@ -35,7 +35,7 @@
         "armour": 6,
         "weapons": [
           "AC-Multilaser||FxF",
-          "AC Underwing Raketen||FxF",
+          "AC Unterflügelraketen||FxF",
           "AC Sturmbolter||FxF"
         ],
         "specialRules": [
@@ -57,12 +57,12 @@
       {
         "name": "Marauder-Bomber (B)",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+        "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "Blackstar-Hurrikanbolter||FxF",
-          "AC Bombe Racks||FxF",
-          "AC-Zwillings-Schwerbolterturm|2|"
+          "AC Bombenträger||FxF",
+          "AC Zwillings-schwerer Bolter-Turm|2|"
         ],
         "specialRules": [
         ]
@@ -70,13 +70,13 @@
       {
         "name": "Marauder-Zerstörer",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+        "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "AC Zwillings-Maschinenkanone|3|FxF",
           "AC-Raketenbatterie||FxF",
           "AC Zwillings-Sturmkanone Turm||",
-          "AC-Zwillings-Schwerbolterturm||"
+          "AC Zwillings-schwerer Bolter-Turm||"
         ],
         "specialRules": [
         ]
@@ -84,12 +84,12 @@
       {
         "name": "Marauder Koloss",
         "type": "AC",
-        "speed": "Bomber (B) (B)",
+        "speed": "Bomber (B)",
         "armour": 4,
         "weapons": [
           "Blackstar-Hurrikanbolter||FxF",
           "AC Koloss Bombe||FxF",
-          "AC-Zwillings-Schwerbolterturm|2|"
+          "AC Zwillings-schwerer Bolter-Turm|2|"
         ],
         "specialRules": [
         ]
