@@ -4,17 +4,17 @@
   "version": "1.0.Beta-2",
   "release": "2023-01-28",
   "armyforge": "EAR_DarkEldar_KabaloftheBlackHeart",
-  "strategy": "Kabal of the Black Heart Armeen haben einen Strategiewert von 4.",
-  "Initiative": "All Black Heart Kabal Verbände, as well as the Wych Cult und Executioner Verbände, have an Initiative Rating of 1+. Alle anderen Verbände haben eine Initiativewert von 2+.",
+  "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
+  "Initiative": "All Black Heart Kabal formations, as well as the Wych Cult and Executioner formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Fleet of Foot",
-    "Hit und Run",
+    "Hit and Run",
     "Black Heart Coterie",
-    "Dürfen nicht als Garnison aufstellen (Black Heart)",
-    "Tor zum Netz der tausend Tore"
+    "May not Garrison (Black Heart)",
+    "Webway Portal"
   ],
   "usage": [
-    "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Kabal of the Black Heart"
+    "The following army list allows you to field an army based on the Kabal of the Black Heart"
   ],
   "units": [
     {
@@ -44,10 +44,10 @@
         "Executioner Landing Module"
       ],
       "unitRules": [
-      "Lanze",
-      "Schattenfelder",
-      "Hilfstransportschiff",
-      "Schnell wie der Wind"
+      "Lance",
+      "Shadowfields",
+      "Support Craft",
+      "Wind-Swift"
       ]
     },
     {
@@ -59,7 +59,7 @@
         "Torture Class Cruiser"
       ],
       "unitRules": [
-        "Schildstörer"
+        "Shield Disruptor"
       ]
     }
   ],
@@ -69,22 +69,22 @@
       "formations": [
         {
           "name": "0-1 Wraithgate",
-          "units": "Ersetze eine objective marker in the Dark Eldar Spieler's half of the table mit einemWraithgate, this counts as an objective marker und a Tor zum Netz der tausend Tore which may not be attacked oder damaged in any way.",
+          "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
           "points": 50
         }
       ]
     },
     {
-      "name": "Black Heart Kabal Verbände",
-      "description": "The army must contain eine Black Heart Coterie",
+      "name": "Black Heart Kabal Formations",
+      "description": "The army must contain one Black Heart Coterie",
       "formations": [
         {
           "name": "1 Black Heart Coterie",
-          "units": "Ein Arcon in a Einheit Incubi, drei Incubi",
+          "units": "One Arcon in a unit of Incubi, three Incubi",
           "extraUnits": [
-            "Füge zwei Incubi: 75 Punkte",
+            "Add two Incubi: 75 points",
             "Ravagers",
-            "Portable Netz der tausend Tore",
+            "Portable Webway",
             "Black Heart Transport",
             "Warriors"
           ],
@@ -92,10 +92,10 @@
         },
         {
           "name": "Black Heart Syndicate",
-          "units": "Ein Dracon, sechs Dark Eldar Warriors",
+          "units": "One Dracon, six Dark Eldar Warriors",
           "extraUnits": [
             "Ravagers",
-            "Portable Netz der tausend Tore",
+            "Portable Webway",
             "Black Heart Transport",
             "Warriors"
           ],
@@ -103,7 +103,7 @@
         },
         {
           "name": "Black Heart Flotilla",
-          "units": "Vier Ravagers",
+          "units": "Four Ravagers",
           "extraUnits": [
             "Ravagers"
           ],
@@ -112,50 +112,50 @@
       ]
     },
     {
-      "name": "Black Heart Partisan Verbände",
-      "description": "Bis zu zwei Partisan Verbände may be taken pro Kabal Formation",
+      "name": "Black Heart Partisan Formations",
+      "description": "Up to two Partisan Formations may be taken for each Kabal Formation",
       "formations": [
           {
             "name": "Mandrake Throng",
-            "units": "Vier Mandrakes",
+            "units": "Four Mandrakes",
             "extraUnits": [
-                "Füge bis zu zwei Mandrakes: 25 Punkte jeweils"
+                "Add up to two Mandrakes: 25 points each"
             ],
             "points": 125
           },
           {
             "name": "Hellion Murder",
-            "units": "Vier Hellion Skyboards",
+            "units": "Four Hellion Skyboards",
             "extraUnits": [
-              "Füge bis zu zwei Hellion Skyboards: 25 Punkte jeweils",
-              "Füge bis zu zwei Warp Beasts: 25 Punkte jeweils"
+              "Add up to two Hellion Skyboards: 25 points each",
+              "Add up to two Warp Beasts: 25 points each"
             ],
             "points": 150
           },
           {
             "name": "Wych Cult",
-            "units": "Ein Succubus, vier Wyches",
+            "units": "One Succubus, four Wyches",
             "extraUnits": [
-              "Portable Netz der tausend Tore",
+              "Portable Webway",
               "Black Heart Transport"
             ],
             "points": 175
           },
         {
           "name": "Reaver Gang",
-          "units": "Sechs Reaver Jet Bikes",
+          "units": "Six Reaver Jet Bikes",
           "extraUnits": [
-            "Füge bis zu zwei Reaver Jet Bikes: 25 Punkte jeweils"
+            "Add up to two Reaver Jet Bikes: 25 points each"
           ],
           "points": 200
         },
 
         {
           "name": "Haemonculi Coven",
-          "units": "Haemonculus Ancient, zwei Haemonculi und vier Wracks",
+          "units": "Haemonculus Ancient, two Haemonculi and four Wracks",
           "extraUnits": [
-            "Füge bis zu zwei Grotesques: 25 Punkte jeweils",
-            "Portable Netz der tausend Tore",
+            "Add up to two Grotesques: 25 points each",
+            "Portable Webway",
             "Talos",
             "Black Heart Transport"
           ],
@@ -163,7 +163,7 @@
         },
         {
           "name": "Talos Swarm",
-          "units": "Vier Talos",
+          "units": "Four Talos",
           "extraUnits": [
             "Talos"
           ],
@@ -171,14 +171,14 @@
         },
         {
           "name": "Scourge Flight",
-          "units": "Sechs Scourges",
+          "units": "Six Scourges",
           "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Vessel of Pain",
-          "units": "Ein Vessel of Pain",
+          "units": "One Vessel of Pain",
           "extraUnits": [
           ],
           "points": 250
@@ -186,40 +186,40 @@
       ]
     },
     {
-      "name": "Commorragh Navy & Kriegsmaschinen",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für Commorragh Navy und Kriegsmaschine Verbände",
+      "name": "Commorragh Navy & War Engines",
+      "description": "Up to a third of the points available may be spent on Commorragh Navy and War Engine formations",
       "formations": [
         {
           "name": "Executioner",
-          "units": "Ein Executioner Landing Module",
+          "units": "One Executioner Landing Module",
           "extraUnits": [
           ],
           "points": 450
         },
         {
           "name": "Razorwing Cast",
-          "units": "Zwei Razorwing Interceptors",
+          "units": "Two Razorwing Interceptors",
           "extraUnits": [
           ],
           "points": 225
         },
         {
           "name": "Voidraven Cast",
-          "units": "Zwei Voidraven Interdictors",
+          "units": "Two Voidraven Interdictors",
           "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Slavebringer",
-          "units": "Ein Slavebringer Assault Boat",
+          "units": "One Slavebringer Assault Boat",
           "extraUnits": [
           ],
           "points": 200
         },
         {
-          "name": "0-1 Orbitalunterstüzung",
-          "units": "Ein Torture Class Cruiser",
+          "name": "0-1 Orbital Support",
+          "units": "One Torture Class Cruiser",
           "extraUnits": [
           ],
           "points": 250
@@ -228,39 +228,39 @@
     }
   ],
   "upgrades": {
-    "title": "Black Heart Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro formation",
+    "title": "Black Heart Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
         "name": "Ravagers",
-        "description": "Füge bis zu zwei Ravagers",
-        "points": "50 Punkte jeweils"
+        "description": "Add up to two Ravagers",
+        "points": "50 points each"
       },
       {
         "name": "Talos",
-        "description": "Füge bis zu zwei Talos",
+        "description": "Add up to two Talos",
         "points": [
-          "50 Punkte für eine",
-          "75 Punkte für zwei"
+          "50 points for one",
+          "75 points for two"
         ]
       },
       {
         "name": "Warriors",
-        "description": "Füge zwei Dark Eldar Warriors",
-        "points": "50 Punkte"
+        "description": "Add two Dark Eldar Warriors",
+        "points": "50 points"
       },
       {
-        "name": "(0-1 in the army) Portable Netz der tausend Tore",
-        "description": "Füge a Portable Tor zum Netz der tausend Tore to an Archon, Dracon, Succubus oder Haemonculus Ancient character. This Portable Netz der tausend Tore may be used once in a game. After the character's formation (oder the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (oder the unit carrying it) und outside any enemy zones of control. This marker counts as a Tor zum Netz der tausend Tore which may not be attacked oder damaged in any way. Remove this Tor zum Netz der tausend Tore marker in the End Phase of the turn before any rallying.",
-        "points": "50 Punkte"
+        "name": "(0-1 in the army) Portable Webway",
+        "description": "Add a Portable Webway Portal to an Archon, Dracon, Succubus or Haemonculus Ancient character. This Portable Webway may be used once in a game. After the character's formation (or the formation carrying it) completes an action you may place a small barrage template marker completely within 15cm of the character's unit (or the unit carrying it) and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the End Phase of the turn before any rallying.",
+        "points": "50 points"
       },
       {
         "name": "Black Heart Transport",
         "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has any empty transport slot if possible. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation.",
         "points": [
-          "Raiders: Kostenlos",
-          "Zwei Venoms: 25 Punkte",
-          "0-1 Barge of Pleasure: 125 Punkte"
+          "Raiders: Free",
+          "Two Venoms: 25 points",
+          "0-1 Barge of Pleasure: 125 points"
         ]
       }
     ]

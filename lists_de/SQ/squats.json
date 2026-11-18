@@ -189,13 +189,13 @@
         },
         {
           "name": "Landzug",
-          "units": "Ein Squat-Landzug und zwischen zwei und vier Kampf-Cars",
+          "units": "Ein Squat-Landzug und zwischen zwei und vier Kampf-Wagen",
           "extraUnits": [
             "Lebender Ahne",
-            "Drachen-Kampf-Car: 75 Punkte pro Stück",
-            "Belagerungsmörser-Kampf-Car: 75 Punkte pro Stück",
-            "Berserker-Kampf-Car und ein Squat-Berserker: 75 Punkte pro Stück",
-            "0–1 Bombe Kampf-Car: 125 Punkte"
+            "Drachen-Kampf-Wagen: 75 Punkte pro Stück",
+            "Belagerungsmörser-Kampf-Wagen: 75 Punkte pro Stück",
+            "Berserker-Kampf-Wagen und ein Squat-Berserker: 75 Punkte pro Stück",
+            "0–1 Bomben Kampf-Wagen: 125 Punkte"
           ],
           "points": 200
         }

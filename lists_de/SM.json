@@ -1835,7 +1835,7 @@
         "notes": "Kann 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren; Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zählt beim Transport selbst als Land Raider."
       },
       {
-        "name": "Deathwing-Land-Schattenbarke",
+        "name": "Deathwing-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,
@@ -1854,7 +1854,7 @@
         "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
       },
       {
-        "name": "Vortimer-Land-Schattenbarke",
+        "name": "Vortimer-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,
@@ -1874,7 +1874,7 @@
         "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
       },
       {
-        "name": "Vortimer-Land-Schattenbarke-Redeemer",
+        "name": "Vortimer-Land Raider-Redeemer",
         "type": "AV",
         "speed": 25,
         "armour": 4,
@@ -1965,7 +1965,7 @@
         "notes": "Kann 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Terminatoren zählen jeweils als 1,5 Einheiten (aufgerundet). Zählt beim Transport selbst als Land Raider."
       },
       {
-        "name": "Deathwatch-Land-Schattenbarke",
+        "name": "Deathwatch-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,

@@ -4,76 +4,76 @@
   "version": "1.0.Beta",
   "release": "2022-04-01",
   "armyforge": "EAR_Ork_GoffsWarhorde",
-  "intro": "Unlike the very rigid Verbände used by the Imperium, Ork Verbände vary widely in both size und composition. The rules für creating Ork Verbände reflect this. The most common type of Ork formation is the warband. Other more specialised Verbände do exist, such as Kults of Speed und Blitz Brigades. The different types of Ork Verbände you may choose are shown on the army list that follows.</p><p>Some Ork Verbände come in different sizes: Normal, Big & 'Uge. A Big formation is double in size und a 'Uge formation is triple. If there is a limitation to formation Erweiterungen, then the limit is doubled für a big formation und tripled für a ’uge formation. Für example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2 und a 'Uge Kult of Speed can include 0–3.",
-  "strategy": "Clan Goffs Warhorde, WAAAGH! Ghazghkul Armeen haben einen Strategiewert von 3.",
-  "Initiative": "All Verbände haben eine Initiativewert von 3+.",
+  "intro": "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows.</p><p>Some Ork formations come in different sizes: Normal, Big & 'Uge. A Big formation is double in size and a 'Uge formation is triple. If there is a limitation to formation upgrades, then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2, and a 'Uge Kult of Speed can include 0–3.",
+  "strategy": "Clan Goffs Warhorde, WAAAGH! Ghazghkul armies have a Strategy Rating of 3.",
+  "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
-    "Köppe zählen",
-    "Macht des Waagh",
-    "Clan Goffs Waaghboss"
+    "Mob Rule",
+    "Power of the Waaagh!",
+    "Clan Goffs Warlord"
   ],
   "units": [
     {
       "from": "ORK.json",
       "units": [
-        "Waaghboss",
+        "Warlord",
         "Oddboy",
-        "Boys",
+        "Boyz",
         "Grotz",
-        "Bosse",
-        "Kanonänbatterie",
+        "Nobz",
+        "Big Gunz",
         "Kommandos",
-        "StormBoys",
-        "Waaghbikes",
-        "Killakopta",
-        "Brenna",
+        "Stormboyz",
+        "Warbikes",
+        "Deffkopta",
+        "Skorcha",
         "Warbuggy",
         "Battlewagon",
-        "Kampfpanza",
+        "Gunwagon",
         "Flakwagon",
-        "Killa Bot",
+        "Killa Kan",
         "Deff Dread",
         "Stompa",
-        "Mega Transportpanza",
-        "Mega Wummenpanza",
+        "Battlefortress",
+        "Gunfortress",
         "Supa-Stompa",
         "Gargant",
         "Great Gargant",
-        "Jagdbomma",
+        "Fighta-Bommer",
         "Landa",
         "Kill Kroozer",
         "Battlekroozer"
       ],
       "unitRules": [
-        "Schpezialkraftfelder",
-        "Mega Transportpanzas und Mega Wummenpanzas",
-        "Jetz' geht's los",
-        "Vollkommen Entbehrlich",
-        "Gottgleiche Maschine",
-        "Feuer aufteilen",
-            "Schwergepanzertes Fahrzeug (H-AV)"
+        "Power Fields",
+        "Battlefortresses and Gunfortresses",
+        "‘Ere we Go",
+        "Super-Expendable",
+        "God Machine",
+        "Split Fire",
+            "Heavy Armoured Vehicle (H-AV)"
       ]
     }
   ],
   "sections": [
     {
-      "name": "Ork Verbände",
+      "name": "Ork Formations",
       "formations": [
         {
           "name": "Goffs Warband",
-          "units": "Zwei Bosse, sechs Boys, zwei Grotz",
+          "units": "Two Nobz, six Boyz, two Grotz",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Ork Boys hinzu:15 Punkte jeweils",
-            "Füge eine beliebige Anzahl Transportpanza: 20 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killa Bots, Kanonänbatterie, Kommandos, Skorchas, Waaghbikes, Buggies: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza, Kampfpanza hinzu: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Deff Dreads, Killakoptas hinzu: 35 Punkte jeweils",
-            "Füge eine beliebige Anzahl Boys + Grotz hinzu: 35 Punkte jeweils",
-            "0-1 Mega Transportpanzas: 100 Punkte jeweils",
-            "0-2 Mega Wummenpanzas: 100 Punkte jeweils",
-            "0-2 Stompas: 60 Punkte jeweils",
-            "0-2 Bosse: 35 Punkte Jeweils",
-            "0-1 Füge ein Oddboy Charaktermodell einem Mega Transportpanza, Mega Wummenpanza, Kampfpanza oder Kanonänbatterie hinzu: 50 Punkte"
+              "Add any number of Ork Boyz: 15 points each",
+              "Add any number of Battlewagons: 20 points each",
+            "Add any number of Killa Kans, Big Gunz, Kommandos, Skorchas, Warbikes, Warbuggies: 25 points each",
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deff Dreads, Deffkoptas: 35 points each",
+            "Add any number of Boyz + Grotz: 35 points each",
+            "0-1 Battlefortresses: 100 points each",
+            "0-2 Gunfortresses: 100 points each",
+            "0-2 Stompas: 60 points each",
+            "0-2 Nobz: 35 points Each",
+            "0-1 Add one Oddboy character to a Battlefortress, Gunfortress, Gunwagon or Big Gunz: 50 points"
           ],
           "pointsOptions": [
             {
@@ -92,13 +92,12 @@
         },
         {
           "name": "Blitz Brigade",
-          "units": "Vier Einheiten, in beliebiger Kombination: Killakopta, Flakwagon, Kampfpanza",
+          "units": "Any four of the following units: Deffkopta, Flakwagon, Gunwagon",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Skorchas, Waaghbikes, Buggies: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza, Kampfpanza hinzu: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killakoptas hinzu: 35 Punkte jeweils",
-            "0-1 Mega Wummenpanza: 100 Punkte",
-            "0-1 Füge ein Oddboy Charaktermodell einem Mega Wummenpanza oder Kampfpanza hinzu:50 Punkte"
+            "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
+            "Add any number of Flakwagons, Gunwagons, Deffkoptas: 30 points each",
+            "0-1 Gunfortress: 100 points",
+            "0-1 Add one Oddboy character to a Gunfortress or Gunwagon: 50 points"
           ],
           "pointsOptions": [
             {
@@ -116,13 +115,13 @@
           ]
         },
         {
-          "name": "Heizakult",
-          "units": "Acht Einheiten, in beliebiger Kombination: Skorchas, Waaghbikes, Buggies",
+          "name": "Kult of Speed",
+          "units": "Any eight of the following units: Skorchas, Warbikes, Warbuggies",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Skorchas, Waaghbikes, Buggies: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza, Kampfpanza hinzu: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killakoptas hinzu: 35 Punkte jeweils",
-            "0-1 Füge ein Oddboy Charaktermodell einem Kampfpanza hinzu:50 Punkte"
+            "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deffkoptas: 35 points each",
+            "0-1 Add one Oddboy character to a Gunwagon: 50 points"
           ],
           "pointsOptions": [
             {
@@ -141,30 +140,30 @@
         },
         {
           "name": "Kommandos Warhorde",
-          "units": "Sechs Kommandos",
+          "units": "Six Kommandos",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Skorchas, Waaghbikes, Buggies, Kommandos, StormBoys hinzu:25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killakoptas hinzu: 35 Punkte jeweils"
+            "Add any number of Skorchas, Warbikes, Warbuggies, Kommandos, Stormboyz: 25 points each",
+            "Add any number of Deffkoptas: 35 points each"
           ],
           "points": 150
         },
         {
-          "name": "StormBoys Warhorde",
-          "units": "Sechs StormBoys",
+          "name": "Stormboyz Warhorde",
+          "units": "Six Stormboyz",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Skorchas, Waaghbikes, Buggies, Kommandos, StormBoys hinzu:25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killakoptas hinzu: 35 Punkte jeweils"
+            "Add any number of Skorchas, Warbikes, Warbuggies, Kommandos, Stormboyz: 25 points each",
+            "Add any number of Deffkoptas: 35 points each"
           ],
           "points": 150
         },
         {
           "name": "Mekboy Gunzmob",
-          "units": "Fünf Kanonänbatterie",
+          "units": "Five Big Gunz",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Transportpanza, Kanonänbatterie hinzu: 20 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza: 30 Punkte jeweils",
-            "0-1 Bosse: 35 Punkte",
-            "0-1 Füge ein Oddboy Charaktermodell einem Einheit Kanonänbatterie hinzu: 50 Punkte"
+            "Add any number of Battlewagons, Big Gunz: 20 points each",
+            "Add any number of Flakwagons: 30 points each",
+            "0-1 Nobz: 35 points",
+            "0-1 Add one Oddboy character to a unit of Big Gunz: 50 points"
           ],
           "pointsOptions": [
             {
@@ -183,65 +182,65 @@
         },
         {
           "name": "Mekboy Stompamob",
-          "units": "Drei Stompas",
+          "units": "Three Stompas",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Killa Bots: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Deff Dreads: 35 Punkte jeweils",
-            "0-2 Stompas: 60 Punkte jeweils",
-            "0-1 Supa-Stompa: 225 Punkte"
+            "Add any number of Killa Kans: 25 points each",
+            "Add any number of Flakwagons: 30 points each",
+            "Add any number of Deff Dreads: 35 points each",
+            "0-2 Stompas: 60 points each",
+            "0-1 Supa-Stompa: 225 points"
           ],
           "points": 250
         },
         {
           "name": "Mekboy Dreadmob",
-          "units": "Ein Deff Dread, vier Killa Bots",
+          "units": "One Deff Dread, four Killa Kans",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Killa Bots: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Deff Dreads, Flakpanza: 35 Punkte jeweils"
+            "Add any number of Killa Kans: 25 points each",
+            "Add any number of Deff Dreads, Flakwagons: 35 points each"
           ],
           "points": 150
         }
       ]
     },
     {
-      "name": "Goffs 'Craft und Gargant Verbände",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände",
+      "name": "Goffs 'Craft and Gargant formations",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Jagdbomma Skwadron",
-          "units": "Drei Jagdbommas",
+          "name": "Fighta-Bommer Skwadron",
+          "units": "Three Fighta-Bommers",
           "upgrades": [
-            "Füge bis zu sechs Jagdbommas: 50 Punkte jeweils"
+            "Add up to six Fighta-Bommers: 50 points each"
           ],
           "points": 175
         },
         {
           "name": "Landa",
-          "units": "Ein Landa",
+          "units": "One Landa",
           "upgrades": [
           ],
           "points": 225
         },
         {
           "name": "Gargant",
-          "units": "Ein Gargant",
+          "units": "One Gargant",
           "upgrades": [
           ],
           "points": 575
         },
         {
           "name": "Great Gargant",
-          "units": "Ein Great Gargant",
+          "units": "One Great Gargant",
           "upgrades": [
           ],
           "points": 750
         },
         {
           "name": "0–1 Kroozer",
-          "units": "Ein Kill Kroozer",
+          "units": "One Kill Kroozer",
           "extraUnits": [
-            "Ersetze the Kill Kroozer mit einemBattlekroozer: 50 Punkte"
+            "Replace the Kill Kroozer with a Battlekroozer: 50 points"
           ],
           "points": 100
         }

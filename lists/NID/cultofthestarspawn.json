@@ -3,13 +3,13 @@
   "army": "Cult of the Star-Spawn",
   "version": "0.6.5",
   "release": "2022-04-01",
-  "strategy": "Tyraniden Armeen haben einen Strategiewert von 1.",
-  "Initiative": "The Cult Kompanie und all Cult Support Verbände haben eine Initiativewert von 2+ und are subject to the 'Brood Brothers' Sonderregel. All other Verbände have an Initative Rating of 1+.",
+  "strategy": "Tyranid armies have a Strategy Rating of 1.",
+  "Initiative": "The Cult Company and all Cult Support formations have an Initiative Rating of 2+, and are subject to the 'Brood Brothers' special rule. All other formations have an Initative Rating of 1+.",
   "specialRules": [
     "Broodcoven",
-    "Brutbewusstsein",
+    "Broodmind",
     "Brood Brothers",
-    "Extreme Mobilität (Cult of the Star-Spawn)"
+    "Extreme Mobility (Cult of the Star-Spawn)"
   ],
   "usage": [
   ],
@@ -17,30 +17,30 @@
     {
       "from": "GS2.json",
       "units": [
-        "Symbionten Patriarch",
+        "Genestealer Patriarch",
         "Coven Locus",
-        "Symbiarch",
-        "Symbionten Primus",
+        "Broodlord",
+        "Genestealer Primus",
         "Acolytes",
         "Hybrid Metamorphs",
-        "Liktor",
+        "Lictor",
         "Hybrid Aberrants",
         "Coven Bikers",
-        "Cult Infanterie",
-        "Cult Unterstützungstrupps",
-        "Symbionten",
+        "Cult Infantry",
+        "Cult Fire Support",
+        "Genestealers",
         "Coven Ridgerunner",
         "Coven Goliath",
         "Coven Limousine",
         "Coven Technical",
-        "Coven Thunderbolt",
+        "Coven Thunderbolt Fighter",
         "Cult Basilisk",
-        "Cult Höllenhund",
-        "Cult Greif",
-        "Cult Chimäre",
+        "Cult Hellhound",
+        "Cult Griffon",
+        "Cult Chimera",
         "Cult Hydra",
         "Cult Leman Russ",
-        "Cult Leman Russ Belagerer",
+        "Cult Leman Russ Demolisher",
         "Cult Baneblade",
         "Cult Stormblade",
         "Cult Shadowsword"
@@ -51,53 +51,53 @@
   ],
   "sections": [
     {
-      "name": "Cult Kern Verbände",
-      "description": "Ein Nexus Brood formation must be taken.",
+      "name": "Cult Core Formations",
+      "description": "One Nexus Brood formation must be taken.",
       "formations": [
         {
           "name": "1 Nexus Brood",
-          "units": "Ein Symbionten Patriarch, drei Symbionten, drei Hybrid Acolytes",
+          "units": "One Genestealer Patriarch, three Genestealers, three Hybrid Acolytes",
           "extraUnits": [
-            "Füge vier Coven Limousines (75 Punkte) oder vier Coven Goliaths (125 Punkte)",
-            "Ersetze drei Symbionten mit drei Hybrid Acolytes oder drei Hybrid Acolytes mit drei Symbionten: Kostenlos",
+            "Add four Coven Limousines (75 points) or four Coven Goliaths (125 points)",
+            "Replace three Genestealers with three Hybrid Acolytes, or three Hybrid Acolytes with three Genestealers: Free",
             "Hybrid Aberrants",
             "Coven Flak"
           ],
           "points": 350
         },
         {
-          "name": "Cult Kompanie",
-          "units": "Ein Hybrid Primus, neun Cult Infanterie",
+          "name": "Cult Company",
+          "units": "One Hybrid Primus, nine Cult Infantry",
           "extraUnits": [
-            "Füge vier Cult Infanterie: 50 Punkte",
-            "Füge zwei Cult Unterstützungstrupps: 50 Punkte",
-            "Füge drei Cult Leman Russ oder Cult Leman Russ Belagerer: 150 Punkte",
-            "Füge enough Cult Chimären to transport the entire formation mit no space left over: 25 Punkte jeweils",
-            "Füge eine Cult Hydra: 50 Punkte",
-            "Füge bis zu zwei Cult Höllenhunde: 25 Punkte jeweils",
-            "Füge drei Cult Greifen: 50 Punkte"
+            "Add four Cult Infantry: 50 points",
+            "Add two Cult Fire Support: 50 points",
+            "Add three Cult Leman Russ or Cult Leman Russ Demolishers: 150 points",
+            "Add enough Cult Chimeras to transport the entire formation with no space left over: 25 points each",
+            "Add one Cult Hydra: 50 points",
+            "Add up to two Cult Hellhounds: 25 points each",
+            "Add three Cult Griffons: 50 points"
           ],
           "points": 275
         }
       ]
     },
     {
-      "name": "Coven Vanguard Verbände",
-      "description": "Ein Coven Vanguard formation may be taken pro Cult Kern formation.",
+      "name": "Coven Vanguard Formations",
+      "description": "One Coven Vanguard formation may be taken for each Cult Core formation.",
       "formations": [
         {
-          "name": "Symbionten Brood",
-          "units": "Ein Symbiarch, sechs Symbionten",
+          "name": "Genestealer Brood",
+          "units": "One Broodlord, six Genestealers",
           "extraUnits": [
-            "Symbionten"
+            "Genestealers"
           ],
           "points": 175
         },
         {
           "name": "Hybrid Brood",
-          "units": "Sechs Hybrid Acolytes",
+          "units": "Six Hybrid Acolytes",
           "extraUnits": [
-            "Füge drei Coven Goliaths: 100 Punkte",
+            "Add three Coven Goliaths: 100 points",
             "Hybrid Aberrants",
             "Coven Flak"
           ],
@@ -105,7 +105,7 @@
         },
         {
           "name": "Biker Brood",
-          "units": "Sechs Coven Bikers",
+          "units": "Six Coven Bikers",
           "extraUnits": [
             "Coven Flak"
           ],
@@ -113,7 +113,7 @@
         },
         {
           "name": "Recon Brood",
-          "units": "Fünf Coven Ridgerunners",
+          "units": "Five Coven Ridgerunners",
           "extraUnits": [
             "Coven Flak"
           ],
@@ -121,25 +121,25 @@
         },
         {
           "name": "Thunderbolt Brood",
-          "units": "Zwei Coven Thunderbolts",
+          "units": "Two Coven Thunderbolt Fighters",
           "points": 175
         }
       ]
     },
     {
-      "name": "Coven Ambush Verbände",
-      "description": "Ein Coven Ambush formation may be taken pro Coven Vanguard formation. ",
+      "name": "Coven Ambush Formations",
+      "description": "One Coven Ambush formation may be taken for each Coven Vanguard formation. ",
       "formations": [
         {
-          "name": "Liktor Swarm",
-          "units": "Fünf Liktoren",
+          "name": "Lictor Swarm",
+          "units": "Five Lictors",
           "extraUnits": [
           ],
           "points": 225
         },
         {
           "name": "Metamorph Brood",
-          "units": "Sechs Hybrid Metamorphs",
+          "units": "Six Hybrid Metamorphs",
           "extraUnits": [
           ],
           "points": 175
@@ -147,43 +147,43 @@
       ]
     },
     {
-      "name": "Cult Unterstützungsverbände",
-      "description": "Ein Cult Support formation may be taken pro Cult Kern formation.",
+      "name": "Cult Support Formations",
+      "description": "One Cult Support formation may be taken per Cult Core formation.",
       "formations": [
         {
-          "name": "Cult Superschwerer Zug",
-          "units": "Ein Coven Locus character, eine Cult Baneblade oder Cult Stormblade",
+          "name": "Cult Super-Heavy Platoon",
+          "units": "One Coven Locus character, one Cult Baneblade or Cult Stormblade",
           "extraUnits": [
-            "Ersetze the Cult Baneblade oder Cult Stormblade mit einemCult Shadowsword: 25 Punkte"
+            "Replace the Cult Baneblade or Cult Stormblade with a Cult Shadowsword: 25 points"
           ],
           "points": 200
         },
         {
-          "name": "Cult Leman Russ Zug",
-          "units": "Ein Coven Locus character, sechs Cult Leman Russ oder Cult Leman Russ Belagerer",
+          "name": "Cult Leman Russ Platoon",
+          "units": "One Coven Locus character, six Cult Leman Russ or Cult Leman Russ Demolishers",
           "extraUnits": [
           ],
           "points": 425
         },
         {
-          "name": "Cult Basilisk Batterie",
-          "units": "Ein Coven Locus character, drei Cult Basilisken",
+          "name": "Cult Basilisk Battery",
+          "units": "One Coven Locus character, three Cult Basilisks",
           "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Cult Mechanisierte Zug",
-          "units": "Ein Coven Locus character, sechs Cult Infanterie, drei Cult Chimären",
+          "name": "Cult Mechanized Platoon",
+          "units": "One Coven Locus character, six Cult Infantry, three Cult Chimeras",
           "extraUnits": [
-            "Füge bis zu zwei Cult Höllenhunde: 25 Punkte jeweils",
-            "Füge drei Cult Greifen: 50 Punkte"
+            "Add up to two Cult Hellhounds: 25 points each",
+            "Add three Cult Griffons: 50 points"
           ],
           "points": 275
         },
         {
-          "name": "Cult Flak Batterie",
-          "units": "Ein Coven Locus character, drei Cult Hydra",
+          "name": "Cult Flak Battery",
+          "units": "One Coven Locus character, three Cult Hydras",
           "extraUnits": [
           ],
           "points": 175
@@ -192,23 +192,23 @@
     }
   ],
   "upgrades": {
-    "title": "Erweiterungen",
-    "description": "Jede Erweiterung kann nur einmalig ausgewählt werden.",
+    "title": "Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "Hybrid Aberrants",
-        "description": "Füge zwei Hybrid Aberrants",
-        "points": "75 Punkte"
+        "description": "Add two Hybrid Aberrants",
+        "points": "75 points"
       },
       {
-        "name": "Symbionten",
-        "description": "Füge drei Symbionten",
-        "points": "75 Punkte"
+        "name": "Genestealers",
+        "description": "Add three Genestealers",
+        "points": "75 points"
       },
       {
         "name": "Coven Flak",
-        "description": "Füge bis zu zwei Coven Technicals",
-        "points": "20 Punkte jeweils"
+        "description": "Add up to two Coven Technicals",
+        "points": "20 points each"
       }
     ]
   }

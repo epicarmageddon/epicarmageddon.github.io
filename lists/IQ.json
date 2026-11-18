@@ -1,6 +1,6 @@
 [
   {
-    "name": "Inquisitorial Streitmächte",
+    "name": "Inquisitorial Forces",
     "specialRules": [
     ],
     "unit": [
@@ -8,32 +8,32 @@
         "name": "Canoness",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
         "name": "Palatine",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer"
+          "Commander",
+          "Leader"
         ]
       },
       {
-        "name": "Ministorum Prediger",
+        "name": "Ministorum Priest",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Gläubig",
-          "Anführer"
+          "Faithful",
+          "Leader"
         ]
       },
       {
@@ -47,10 +47,10 @@
           "Ardent Blade"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Anführer",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf"
+          "Fearless",
+          "Leader",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
@@ -61,14 +61,14 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Multimelter",
-          "Energiewaffe"
+          "Multi-Melta",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Furchtlos",
-          "Aufklärer",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Fearless",
+          "Scout",
+          "Invulnerable Save"
         ]
       },
       {
@@ -79,14 +79,14 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Multimelter",
-          "Energiewaffe"
+          "Multi-Melta",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Aufklärer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Scout",
+          "Invulnerable Save"
 
         ]
       },
@@ -98,15 +98,15 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Psibolter",
-          "Zorn des Imperators",
-          "Energiewaffe"
+          "Psycannon",
+          "Smite",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Furchtlos",
-          "Telemetrieempfänger",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Fearless",
+          "Teleport Homer",
+          "Invulnerable Save"
         ]
       },
       {
@@ -117,16 +117,16 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Psibolter",
-          "Zorn des Imperators",
-          "Energiewaffe"
+          "Psycannon",
+          "Smite",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Furchtlos",
-          "Telemetrieempfänger",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Fearless",
+          "Teleport Homer",
+          "Invulnerable Save"
         ]
       },
       {
@@ -137,10 +137,10 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Melter"
+          "Meltaguns"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
@@ -151,13 +151,13 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Frag Geschütz",
-          "Energiewaffe"
+          "Frag Cannon",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Fearless",
+          "Invulnerable Save"
         ]
       },
       {
@@ -168,14 +168,14 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Frag Geschütz",
-          "Energiewaffe"
+          "Frag Cannon",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Fearless",
+          "Invulnerable Save"
         ]
       },
       {
@@ -186,7 +186,7 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Plasmawerfer "
+          "Plasma Guns"
         ],
         "specialRules": [
         ]
@@ -199,8 +199,8 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Granatwerfers",
-          "Power Mauls & SuppressIonenfelder"
+          "Grenade Launchers",
+          "Power Mauls & Suppression Shields"
         ],
         "specialRules": []
       },
@@ -216,7 +216,7 @@
           "Auto Pistols"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
@@ -226,28 +226,28 @@
         "armour": 5,
         "cc": 5,
         "weapons": [
-          "Zähne"
+          "Fangs"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Entbehrlich",
-          "Maschinengeist",
+          "Fearless",
+          "Expendable",
+          "Machine Spirit",
           "Ponderous"
         ]
       },
       {
-        "name": "Sororitatrupp",
+        "name": "Battle Sisters",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Schwerer Bolter",
-          "Bolter"
+          "Heavy Bolter",
+          "Bolters"
         ],
         "specialRules": [
-          "Gläubig"
+          "Faithful"
         ]
       },
       {
@@ -258,10 +258,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Multimelter|2|"
+          "Multi-Melta|2|"
         ],
         "specialRules": [
-          "Gläubig"
+          "Faithful"
         ]
       },
       {
@@ -272,11 +272,11 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Melter"
+          "Meltaguns"
         ],
         "specialRules": [
-          "Gläubig",
-          "Aufklärer"
+          "Faithful",
+          "Scout"
         ]
       },
       {
@@ -287,10 +287,10 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Schwerer Flammenwerfer|2|"
+          "Heavy Flamer|2|"
         ],
         "specialRules": [
-          "Gläubig"
+          "Faithful"
         ]
       },
       {
@@ -301,11 +301,11 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Dual Boltpistolen"
+          "Dual Bolt Pistols"
         ],
         "specialRules": [
-          "Gläubig",
-          "Sprungmodule"
+          "Faithful",
+          "Jump Packs"
         ]
       },
       {
@@ -318,8 +318,8 @@
           "Eviserators"
         ],
         "specialRules": [
-          "Gläubig",
-          "Infiltratoren"
+          "Faithful",
+          "Infiltrators"
         ]
       },
       {
@@ -332,10 +332,10 @@
           "Combat Flails"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Furchtlos",
-          "Maschinengeist",
-          "Entbehrlich"
+          "Infiltrators",
+          "Fearless",
+          "Machine Spirit",
+          "Expendable"
         ]
       },
       {
@@ -348,8 +348,8 @@
           "Assassin Weapons"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf"
+          "Infiltrators",
+          "Invulnerable Save"
         ]
       },
       {
@@ -359,23 +359,23 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Flammenwerfer",
-          "Kettenschwerter"
+          "Flamer",
+          "Chainswords"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Kreuzritter",
+        "name": "Crusaders",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "weapons": [
-          "Energiewaffen"
+          "Power Weapons"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
@@ -386,10 +386,10 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Flammenwerfer"
+          "Flamer"
         ],
         "specialRules": [],
-        "notes": "May transport zwei Infanterie Einheiten without Beritten oder Sprungmodule."
+        "notes": "May transport two infantry units without Mounted or Jump Packs."
       },
       {
         "name": "Penitent Engine",
@@ -399,14 +399,14 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer",
+          "Heavy Flamer",
           "Power Saws"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Entbehrlich",
-          "Maschinengeist",
-          "Geländegängig"
+          "Fearless",
+          "Expendable",
+          "Machine Spirit",
+          "Walker"
         ]
       },
       {
@@ -417,13 +417,13 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Synchronisierter schwerer Bolter",
+          "Twin Heavy Bolter",
           "Penitent Flails"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Gläubig",
-          "Geländegängig"
+          "Infiltrators",
+          "Faithful",
+          "Walker"
         ]
       },
       {
@@ -434,15 +434,15 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Synchronisierter schwerer Bolter",
+          "Twin Heavy Bolter",
           "Penitent Flails"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
-          "Inspirierend",
-          "Geländegängig"
+          "Infiltrators",
+          "Fearless",
+          "Invulnerable Save",
+          "Inspiring",
+          "Walker"
         ]
       },
       {
@@ -453,10 +453,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Exorcist Werfer"
+          "Exorcist Launcher"
         ],
         "specialRules": [
-          "Gläubig"
+          "Faithful"
         ]
       },
       {
@@ -467,10 +467,10 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Whirlwind Raketenwerfer"
+          "Whirlwind Launcher"
         ],
         "specialRules": [
-          "Gläubig"
+          "Faithful"
         ]
       },
       {
@@ -484,7 +484,7 @@
           "Hunter-Killer"
         ],
         "specialRules": [
-          "Gläubig"
+          "Faithful"
         ]
       },
       {
@@ -495,13 +495,13 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Sturmbolter"
+          "Storm Bolter"
         ],
         "specialRules": [
-          "Gläubig",
+          "Faithful",
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Arbites Repressor",
@@ -511,13 +511,13 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr"
+          "Twin Heavy Stubber"
         ],
         "specialRules": [
-          "Geländegängig",
+          "Walker",
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten without Beritten oder Jet Packs."
+        "notes": "May transport two infantry units without Mounted or Jet Packs."
       },
       {
         "name": "Sororitas Repressor",
@@ -527,14 +527,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer"
+          "Heavy Flamer"
         ],
         "specialRules": [
-          "Gläubig",
-          "Geländegängig",
+          "Faithful",
+          "Walker",
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten without Beritten oder Jet Packs."
+        "notes": "May transport two infantry units without Mounted or Jet Packs."
       },
       {
         "name": "Sororitas Immolator",
@@ -544,13 +544,13 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierter Multimelter"
+          "Twin Multi-Melta"
         ],
         "specialRules": [
-          "Gläubig",
+          "Faithful",
           "Transport"
         ],
-        "notes": "Darf eine Infanterie Einheit ohne Beritten oder Jet Packs."
+        "notes": "May transport one infantry unit without Mounted or Jet Packs."
       },
       {
         "name": "Sororitas Stormlord",
@@ -561,17 +561,17 @@
         "ff": 4,
         "weapons": [
           "Vulcan Mega-Bolter||FxF",
-          "Synchronisierter schwerer Bolter||FxF",
-          "Synchronisierter Schwerer Flammenwerfer  |2|"
+          "Twin Heavy Bolter||FxF",
+          "Twin Heavy Flamer  |2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Gläubig",
-          "Verstärkte Panzerung",
+          "Damage Capacity 3",
+          "Faithful",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport acht Infanterie Einheiten without Sprungmodule oder Beritten, zwei may fire from the firing deck und participate mit FF during assaults.",
-        "crit": "The Stormlord is immobilized und may not move für the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the unit."
+        "notes": "May transport eight infantry units without Jump Pack or Mounted, two may fire from the firing deck and participate with FF during assaults.",
+        "crit": "The Stormlord is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent crits destroys the unit."
       },
       {
         "name": "Emperor's Chapel",
@@ -581,18 +581,18 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Exorcist Werfer|2|FxF",
-          "Inferno Geschütz|2|"
+          "Exorcist Launcher|2|FxF",
+          "Inferno Cannon|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Gläubig",
+          "Damage Capacity 4",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Faithful",
           "Transport"
         ],
-        "notes": "May transport acht Infanterie Einheiten without Beritten oder Jet Packs.",
-        "crit": "The Emperor's Chapel takes eine additional damage. D3 transported units takes a hit."
+        "notes": "May transport eight infantry units without Mounted or Jet Packs.",
+        "crit": "The Emperor's Chapel takes one additional damage. D3 transported units takes a hit."
       },
       {
         "name": "Cathedral of the God-Emperor",
@@ -602,23 +602,23 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Vulkangeschütz||FxF",
-          "Kampfgeschütz|4|",
-          "Inferno Geschütz |4|",
-          "Schwerer Bolter AA Turm|2|"
+          "Volcano Cannon||FxF",
+          "Battle Cannon|4|",
+          "Inferno Cannon |4|",
+          "Heavy Bolter AA Turret|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 8",
-          "Deflektorschilde 6",
-          "Gottgleiche Maschine",
-          "Feuer aufteilen",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Gläubig",
+          "Damage Capacity 8",
+          "Void Shields 6",
+          "God Machine",
+          "Split Fire",
+          "Reinforced Armour",
+          "Fearless",
+          "Faithful",
           "Transport"
         ],
-        "notes": "May transport acht Infanterie Einheiten without Beritten oder Jet Packs.",
-        "crit": "The Cathedral of the God-Emperor takes D3 additional damage und D6 transported units takes a hit."
+        "notes": "May transport eight infantry units without Mounted or Jet Packs.",
+        "crit": "The Cathedral of the God-Emperor takes D3 additional damage, and D6 transported units takes a hit."
       }
     ]
   }

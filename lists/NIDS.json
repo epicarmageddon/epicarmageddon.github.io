@@ -1,171 +1,175 @@
 [
   {
-    "name": "Tyraniden Streitmächte",
+    "name": "Tyranid Forces",
     "specialRules": [
     ],
     "unit": [
       {
-        "name": "Symbiarch",
+        "name": "Brood Lord",
         "type": "CH",
         "weapons": [
           "n/a"
         ],
         "specialRules": [
-          "Inspirierend",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Inspiring",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Schwarmoberhaupt (Dagon)",
+        "name": "Dagon Overlord",
         "type": "AV",
         "speed": "20cm",
         "armour": "4",
         "cc": 2,
+        "ff": 5,
         "weapons": [
-          "Hornschwert"
+          "Boneswords"
         ],
         "specialRules": [
-          "Schwarmbewusstseinszentrum",
-          "Inspirierend",
+          "Hive Mind Locus",
+          "Inspiring",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Befehlshaber",
-          "Anführer"
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader"
         ]
       },
       {
-        "name": "Geflügeltes Schwarmoberhaupt (Dagon)",
+        "name": "Dagon Overlord Shrike",
         "type": "AV",
         "speed": "30cm",
         "armour": "5",
         "cc": 2,
+        "ff": 5,
         "weapons": [
-          "Hornschwert"
+          "Boneswords"
         ],
         "specialRules": [
-          "Schwarmbewusstseinszentrum",
-          "Inspirierend",
+          "Hive Mind Locus",
+          "Inspiring",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Befehlshaber",
-          "Anführer",
-          "Sprungmodule"
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader",
+          "Jump Pack"
         ]
       },
       {
-        "name": "Schwarmherrscher",
+        "name": "Swarmlord",
         "type": "AV",
         "speed": "20cm",
         "armour": "4",
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Biozidkanone",
-          "Große Klauen"
+          "Venom Cannon",
+          "Large Claws"
         ],
         "specialRules": [
-          "Schwarmbewusstseinszentrum",
-          "Inspirierend",
+          "Assisted Swarming",
+          "Hive Mind Locus",
+          "Inspiring",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Befehlshaber",
-          "Anführer"
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader"
         ]
       },
       {
-        "name": "Geflügelter Schwarmherrscher",
+        "name": "Swarmlord Shrike",
         "type": "AV",
         "speed": "30cm",
         "armour": "5",
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Biozidkanone",
-          "Große Klauen"
+          "Venom Cannon",
+          "Large Claws"
         ],
         "specialRules": [
-          "Schwarmbewusstseinszentrum",
-          "Inspirierend",
+          "Assisted Swarming",
+          "Hive Mind Locus",
+          "Inspiring",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Befehlshaber",
-          "Anführer",
-          "Sprungmodule"
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader",
+          "Jump Pack"
         ]
       },
       {
-        "name": "Schwarmtyrant",
+        "name": "Hive Tyrant",
         "type": "AV",
         "speed": "20cm",
         "armour": "4",
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Biozidkanone",
-          "Große Klauen"
+          "Venom Cannon",
+          "Large Claws"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Befehlshaber",
-          "Anführer"
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader"
         ]
       },
       {
-        "name": "Geflügelter Schwarmtyrant",
+        "name": "Hive Tyrant Shrike",
         "type": "AV",
         "speed": "30cm",
         "armour": "5",
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Biozidkanone",
-          "Große Klauen"
+          "Venom Cannon",
+          "Large Claws"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Befehlshaber",
-          "Anführer",
-          "Sprungmodule"
+          "Fearless",
+          "Reinforced Armour",
+          "Commander",
+          "Leader",
+          "Jump Pack"
         ]
       },
       {
-        "name": "Tyranidenkrieger",
+        "name": "Tyranid Warriors",
         "type": "LV",
         "speed": "20cm",
         "armour": "4",
         "cc": 2,
         "ff": 5,
         "weapons": [
-          "Stachelwürger"
+          "Deathspitters"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos"
+          "Fearless"
         ]
       },
       {
-        "name": "Flügelkrieger",
+        "name": "Tyranid Warrior Shrikes",
         "type": "LV",
         "speed": "30cm",
         "armour": "5",
         "cc": 2,
         "ff": 5,
         "weapons": [
-          "Stachelwürger"
+          "Deathspitters"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos",
-          "Sprungmodule"
+          "Fearless",
+          "Jump Packs"
         ]
       },
       {
@@ -176,67 +180,80 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Warp Blitz"
+          "Warp Blast"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf"
+          "Fearless",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Alpha Venatoren",
+        "name": "Ravener Alphas",
         "type": "LV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "weapons": [
-          "Grabklauen"
+          "Burrowclaws"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos",
-          "Tunnelgräber"
+          "Fearless",
+          "Tunneler"
         ]
       },
       {
-        "name": "Venatoren",
+        "name": "Raveners",
         "type": "INF",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "weapons": [
-          "Grabklauen"
+          "Burrowclaws"
         ],
         "specialRules": [
-          "Ganten",
-          "Tunnelgräber"
+          "Gaunts",
+          "Tunneler"
         ]
       },
       {
-        "name": "Termaganten",
+        "name": "Termagants",
         "type": "INF",
         "speed": 20,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Bohrkäferschleuder"
+          "Fleshborers"
         ],
         "specialRules": [
-          "Ganten"
+          "Gaunts"
         ]
       },
       {
-        "name": "Hormaganten",
+        "name": "Barbgaunts",
+        "type": "INF",
+        "speed": 15,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Gaunt Bio-Cannon"
+        ],
+        "specialRules": [
+          "Gaunts"
+        ]
+      },
+      {
+        "name": "Hormagaunts",
         "type": "INF",
         "speed": 20,
         "cc": 5,
         "weapons": [
-          "Sensenklauen"
+          "Ripping Claws"
         ],
         "specialRules": [
-          "Ganten",
-          "Infiltratoren"
+          "Gaunts",
+          "Infiltrators"
         ]
       },
       {
@@ -246,25 +263,25 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schwarmangriff"
+          "Swarm Strike"
         ],
         "specialRules": [
-          "Ganten",
-          "Sprungmodule"
+          "Gaunts",
+          "Jump Packs"
         ]
       },
       {
-        "name": "Symbionten",
+        "name": "Genestealers",
         "type": "INF",
         "speed": 20,
         "armour": 6,
         "cc": 2,
         "weapons": [
-          "Zangenkrallen"
+          "Rending Claws"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Infiltratoren"
+          "Scout",
+          "Infiltrators"
         ]
       },
       {
@@ -275,75 +292,88 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Sporenminen"
+          "Spore Mines"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Liktor",
+        "name": "Pyrovore",
+        "type": "INF",
+        "speed": 15,
+        "armour": 6,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Flamespurt"
+        ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Lictor",
         "type": "LV",
         "speed": 15,
         "armour": 5,
         "cc": 3,
         "ff": 6,
         "weapons": [
-          "Fanghaken",
-          "Geschlitzte Klauen"
+          "Flesh Hooks",
+          "Scythed Claws"
         ],
         "specialRules": [
-          "Erstschlag",
-          "Infiltratoren",
-          "Aufklärer",
-          "Unmodifizierter Rettungswurf",
-          "Teleportieren"
+          "First Strike",
+          "Infiltrators",
+          "Invulnerable Save",
+          "Scout",
+          "Teleport"
         ]
       },
       {
         "name": "Dimachaeron",
         "type": "LV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 3,
+        "speed": 30,
+        "armour": 4,
+        "cc": 2,
+        "ff": 6,
         "weapons": [
-          "Dornenberingtes Maul",
-          "Große Klauen"
+          "Large Claws"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Aufklärer"
+          "Regeneration",
+          "Scout"
         ]
       },
       {
-        "name": "Harpie",
+        "name": "Harpy",
         "type": "AV",
         "speed": 35,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Dornenwürgerkanone",
-          "Sporenzyste",
-          "Greifklauen"
+          "Stranglethorn Cannon",
+          "Spore Cyst",
+          "Grasping Talons"
         ],
         "specialRules": [
-          "Antigrav"
+          "Skimmer"
         ]
       },
       {
-        "name": "Schwarmdrude",
+        "name": "Hive Crone",
         "type": "AV",
         "speed": 35,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Geiferkanone",
-          "Tentakliden",
-          "Greifklauen"
+          "Drool Cannon",
+          "Tentaclids",
+          "Grasping Talons"
         ],
         "specialRules": [
-          "Antigrav"
+          "Skimmer"
         ]
       },
       {
@@ -357,6 +387,7 @@
           "Bio-Acid-Venom Pods"
         ],
         "specialRules": [
+          "Reinforced Armour"
         ]
       },
       {
@@ -365,12 +396,12 @@
         "speed": 25,
         "armour": 5,
         "cc": 5,
-        "ff": 5,
+        "ff": 4,
         "weapons": [
-          "Bioplasmatische Kanone"
+          "Bio-Plasmic Cannon"
         ],
         "specialRules": [
-            "Verstärkte Panzerung"
+            "Reinforced Armour"
         ]
       },
       {
@@ -381,11 +412,11 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Säurestrahl",
-          "Massive Klauen"
+          "Acid Jets",
+          "Massive Claws"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -396,84 +427,95 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Fragmentstacheln",
-          "Große Klauen"
+          "Frag Spines",
+          "Large Claws"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "Darf bis zu vier Einheiten Termaganten, Hormaganten, Gargoyles und Venatoren transportieren. Biovoren, Tyranidenkrieger und Zoantrophen zählen hierbei als anderthalb Einheiten, aufgerundet."
+        "notes": "May transport up to four units of Barbgaunts, Termagants, Hormagaunts, Gargoyles and Raveners. Biovores, Pyrovores, Tyranid Warriors and Zoanthropes counts as one and a half units each, rounded up."
       },
       {
-        "name": "Stachel-Carnifex",
+        "name": "Barbed Carnifex",
         "type": "AV",
-        "speed": 20,
+        "speed": 15,
         "armour": 4,
-        "cc": 3,
+        "cc": 4,
         "ff": 5,
         "weapons": [
-          "Biozidkanone",
-          "Klauen"
+          "Venom Cannon",
+          "Ripping Claws"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Infiltrators",
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Kreischer-Killer Carnifex",
+        "name": "Screamer-Killer Carnifex",
         "type": "AV",
-        "speed": 20,
+        "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 5,
         "weapons": [
           "Bio-Plasma",
-          "Große Klauen"
+          "Large Claws"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+           "Infiltrators",
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Tervigon Primus",
-        "type": "H-AV",
-        "speed": 25,
+        "name": "Hive Guard",
+        "type": "INF",
+        "speed": 10,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Fragmentstacheln",
-          "Große Klauen",
-          "Gantenbeutel"
+          "Impaler Cannon"
         ],
         "specialRules": [
-          "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Transport",
-          "Schwärmen (2)"
-        ],
-        "notes": "Darf bis zu zwei Einheiten Termaganten und Hormaganten transportieren. Darf zwei Einheiten Termaganten und/oder Hormaganten durch <i>Schwärmen</i> zurückbringen."
+          "Reinforced Armour"
+        ]
       },
       {
         "name": "Tervigon",
         "type": "H-AV",
-        "speed": 25,
+        "speed": 20,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Fragmentstacheln",
-          "Große Klauen",
-          "Gantenbeutel"
+          "Frag Spines",
+          "Large Claws",
+          "Gaunt Pouch"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport",
-          "Schwärmen (1)"
+          "Augmented Swarming(+1)",
+          "Synapse",
+          "Fearless"
         ],
-        "notes": "Darf bis zu zwei Einheiten Termaganten und Hormaganten transportieren. Darf eine Einheit Termaganten oder Hormaganten durch <i>Schwärmen</i> zurückbringen."
+        "notes": "May transport two units with the 'Gaunts' special rule."
+      },
+      {
+        "name": "Tyrannofex",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Rupture Cannon"
+        ],
+        "specialRules": [
+          "Reinforced Armour"
+        ]
       },
       {
         "name": "Viragon",
@@ -483,35 +525,35 @@
         "cc": 3,
         "ff": 6,
         "weapons": [
-          "Bio-elektrisches Feld",
-          "Massive Sensenklauen"
+          "Bio-Electric Field",
+          "Massive Scything Talons"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
+          "Damage Capacity: 4",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
+          "Fearless",
+          "Reinforced Armour",
           "Regeneration",
-          "Tunnelgräber"
+          "Tunneler"
         ],
-        "crit": "Der Viragon wird zerstört."
+        "crit": "The Viragon is killed."
       },
       {
-        "name": "Trygon Primus",
+        "name": "Trygon Prime",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
-          "Bio-elektrisches Feld",
-          "Große Klauen"
+          "Bio-Electric Field",
+          "Large Claws"
         ],
         "specialRules": [
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Tunnelgräber"
+          "Fearless",
+          "Reinforced Armour",
+          "Tunneler"
         ]
       },
       {
@@ -519,15 +561,15 @@
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
-        "cc": 4,
+        "cc": 3,
         "ff": 6,
         "weapons": [
-          "Bio-elektrisches Feld",
-          "Große Klauen"
+          "Bio-Electric Field",
+          "Large Claws"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Tunnelgräber"
+          "Reinforced Armour",
+          "Tunneler"
         ]
       },
       {
@@ -538,189 +580,207 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Biokanone",
-          "Große Klauen"
+          "Bio-Cannon",
+          "Tentaclids",
+          "Large Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
+          "Damage Capacity: 3",
           "Synapse",
-          "Furchtlos",
-          "Antigrav",
-          "Verstärkte Panzerung",
+          "Fearless",
+          "Skimmer",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "Darf bis zu vier Einheiten Gargoyles transportieren.",
-        "crit": "Der Harridan und alle transportierten Gargoyles werden zerstört."
+        "notes": "May transport up to four units of Gargoyles.",
+        "crit": "The Harridan is killed."
       },
       {
-        "name": "Schwarmharridan",
+        "name": "Hive Harridan",
         "type": "WE",
         "speed": 35,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Geiferkanone|2|",
-          "Tentakliden",
-          "Große Klauen",
-          "Gantenbeutel"
+          "Drool Cannon|2|",
+          "Tentaclids",
+          "Large Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
+          "Damage Capacity: 3",
           "Synapse",
-          "Furchtlos",
-          "Antigrav",
-          "Verstärkte Panzerung",
-          "Transport",
-          "Schwärmen (1)"
+          "Fearless",
+          "Skimmer",
+          "Reinforced Armour",
+          "Transport"
         ],
-        "notes": "Darf bis zu vier Einheiten Gargoyles transportieren. Darf eine Einheit Gargoyles durch <i>Schwärmen</i> zurückbringen.",
-        "crit": "Der Harridan wird zerstört."
+        "notes": "May transport up to four units of Gargoyles.",
+        "crit": "The Harridan is killed."
       },
       {
-        "name": "Stachel-Hierodule Primus",
+        "name": "Barbed Hierodule Prime",
         "type": "WE",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Synchronisierter Biokanone",
-          "Große Klauen"
+          "Twin Bio-Cannon",
+          "Large Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
+          "Damage Capacity: 3",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung"
+          "Fearless",
+          "Reinforced Armour"
         ],
-        "crit": "Der Stachel-Hierodule Primus wird zerstört."
+        "crit": "The Hierodule Prime is killed."
       },
       {
-        "name": "Stachel-Hierodule",
+        "name": "Barbed Hierodule",
         "type": "WE",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Synchronisierter Biokanone",
-          "Große Klauen"
+          "Twin Bio-Cannon",
+          "Large Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity: 3",
+          "Reinforced Armour"
         ],
-        "crit": "Der Stachel-Hierodule wird zerstört."
+        "crit": "The Hierodule is killed."
       },
       {
-        "name": "Geschlitzter Hierodule Primus",
+        "name": "Scythed Hierodule Prime",
         "type": "WE",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Pyro-Säure",
-          "Massive Sensenklauen"
+          "Pyro-Acid",
+          "Massive Scything Talons"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
+          "Damage Capacity: 3",
           "Synapse",
-          "Furchtlos",
-          "Verstärkte Panzerung"
+          "Fearless",
+          "Reinforced Armour"
         ],
-        "crit": "Der geschlitzte Hierodule Primus wird zerstört."
+        "crit": "The Scythed Hierodule Prime is killed."
       },
       {
-        "name": "Geschlitzter Hierodule",
+        "name": "Scythed Hierodule",
         "type": "WE",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Pyro-Säure",
-          "Massive Sensenklauen"
+          "Pyro-Acid",
+          "Massive Scything Talons"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity: 3",
+          "Reinforced Armour"
         ],
-        "crit": "Der geschlitzte Hierodule wird zerstört."
+        "crit": "The Scythed Hierodule is killed."
       },
       {
-        "name": "Schwarmnest",
+        "name": "Hive Nest",
         "type": "WE",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 5,
         "cc": 5,
         "ff": 6,
         "weapons": [
-          "Absorberschwärme"
+          "Ripper Swarms"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
+          "Damage Capacity: 3",
           "Synapse",
-          "Furchtlos",
+          "Fearless",
           "Regeneration"
         ],
-        "crit": "Das Schwarmnest wird zerstört."
+        "crit": "The Hive Nest is destroyed."
       },
       {
-        "name": "Dominatrix (Dagon)",
+        "name": "Spawn Nest",
+        "type": "WE",
+        "speed": "Immobile",
+        "armour": 5,
+        "cc": 5,
+        "ff": 6,
+        "weapons": [
+        ],
+        "specialRules": [
+          "Damage Capacity: 3",
+          "Synapse",
+          "Assisted Swarming",
+          "Fearless",
+          "Regeneration"
+        ],
+        "crit": "The Spawn Nest is destroyed."
+      },
+      {
+        "name": "Dagon Dominatrix",
         "type": "WE",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Bio-Titan Biokanone",
-          "Bioplasmatischer Strahl",
-          "Bioplasmatischer Ausbruch",
-          "Massive Sensenklauen"
+          "Bio-Titan Bio-Cannon",
+          "Bio-Plasmic Ray",
+          "Bio-Plasma Burst",
+          "Massive Scything Talons"
         ],
         "specialRules": [
-          "Schadenskapazität 6",
-          "Schwarmbewusstseinszentrum",
+          "Damage Capacity: 6",
+          "Hive Mind Locus",
           "Synapse",
-          "Furchtlos",
-          "Anführer",
-          "Befehlshaber",
-          "Inspirierend",
-          "Verstärkte Panzerung",
+          "Fearless",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Reinforced Armour",
           "Regeneration"
         ],
-        "notes": "Darf sich über Einheiten und unpasssierbares oder gefährliches Gelände bewegen das niedriger als der Körper ist und bis zu 2cm breit ist.",
-        "crit": "Wirf einen W6 1: Einheiten in Basekontakt werden bei 6+ von einer MW Attacke getroffen. 2-5: Erleide eine zusätzlichen Schadenspunkt. 6: Erleide W3 zusätzliche Schadenspunkte."
+        "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+        "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
       },
       {
-        "name": "Dominatrix (Hydra)",
+        "name": "Hydra Dominatrix",
         "type": "WE",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Bioenergie Entladung",
-          "Massive Sensenklauen",
-          "Gantenbeutel"
+          "Bio-Energy Pulse",
+          "Massive Scything Talons",
+          "Gaunt Pouch"
         ],
         "specialRules": [
-          "Schadenskapazität 6",
-          "Schwarmbewusstseinszentrum",
+          "Damage Capacity: 6",
+          "Hive Mind Locus",
           "Synapse",
-          "Furchtlos",
-          "Anführer",
-          "Befehlshaber",
-          "Inspirierend",
-          "Verstärkte Panzerung",
+          "Fearless",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Reinforced Armour",
           "Regeneration",
           "Transport",
-          "Schwärmen (3)"
+          "Augmented Swarming(+1)",
+          "Assisted Swarming"
         ],
-        "notes": "Darf fünf Einheiten Termaganten, Hormaganten und Gargoyles transportieren. Darf drei Einheiten Termaganten, Hormaganten und/oder Gargoyles durch <i>Schwärmen</i> zurückbringen. Darf sich über Einheiten und unpasssierbares oder gefährliches Gelände bewegen das niedriger als der Körper ist und bis zu 2cm breit ist.",
-        "crit": "Wirf einen W6 1: Einheiten in Basekontakt werden bei 6+ von einer MW Attacke getroffen. 2-5: Erleide eine zusätzlichen Schadenspunkt. 6: Erleide W3 zusätzliche Schadenspunkte."
+        "notes": "May transport five units with the 'Gaunts' special rule. May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+        "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
       },
       {
         "name": "Hierophant",
@@ -730,18 +790,18 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Bio-Titan Biokanone",
-          "Dornenspießhagel",
-          "Massive Sensenklauen"
+          "Bio-Titan Bio-Cannon",
+          "Hail of Barbed Spears",
+          "Massive Scything Talons"
         ],
         "specialRules": [
-          "Schadenskapazität 5",
-          "Furchtlos",
-          "Verstärkte Panzerung",
+          "Damage Capacity: 4",
+          "Fearless",
+          "Reinforced Armour",
           "Regeneration"
         ],
-        "notes": "Darf sich über Einheiten und unpasssierbares oder gefährliches Gelände bewegen das niedriger als der Körper ist und bis zu 2cm breit ist.",
-        "crit": "Wirf einen W6 1: Einheiten in Basekontakt werden bei 6+ von einer MW Attacke getroffen. 2-5: Erleide eine zusätzlichen Schadenspunkt. 6: Erleide W3 zusätzliche Schadenspunkte."
+        "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+        "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
       },
       {
         "name": "Hydraphant",
@@ -751,20 +811,20 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Bio-Titan Biokanone",
-          "Bioplasmatischer Ausbruch",
-          "Dornenspießhagel",
-          "Absorbertentakel",
-          "Monströse Klauen"
+          "Bio-Titan Bio-Cannon",
+          "Bio-Plasma Burst",
+          "Hail of Barbed Spears",
+          "Ripper Tentacles",
+          "Monstrous Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 7",
-          "Furchtlos",
-          "Verstärkte Panzerung",
+          "Damage Capacity: 6",
+          "Fearless",
+          "Reinforced Armour",
           "Regeneration"
         ],
-        "notes": "Darf sich über Einheiten und unpasssierbares oder gefährliches Gelände bewegen das niedriger als der Körper ist und bis zu 2cm breit ist.",
-        "crit": "Wirf einen W6 1: Einheiten in Basekontakt werden bei 6+ von einer MW Attacke getroffen. 2-5: Erleide eine zusätzlichen Schadenspunkt. 6: Erleide W3 zusätzliche Schadenspunkte."
+        "notes": "May step over units and impassable or dangerous terrain that is lower than its body and up to 2cm wide.",
+        "crit": "Roll a D6: 1: Units in base contact is hit by a MW attack on 6+. 2-5: Suffers 1 additional damage. 6: Suffers D3 additional damage."
       }
     ]
   }

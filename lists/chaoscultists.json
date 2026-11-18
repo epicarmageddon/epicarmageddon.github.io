@@ -1,6 +1,6 @@
 [
   {
-    "name": "Chaos Cultist Streitmächte",
+    "name": "Chaos Cultist Forces",
     "specialRules": [
     ],
     "unit": [
@@ -8,23 +8,23 @@
         "name": "Arch-Heretic",
         "type": "CH",
         "weapons": [
-          "Dämonenwaffen"
+          "Daemon Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Ikonenträger",
+        "name": "Icon Bearer",
         "type": "CH",
         "weapons": [
           "n/a"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Verbesserte Beschwörung (+1)",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Daemonic Focus",
+          "Augment Summoning (+1)",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -35,12 +35,12 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Granatwerfers",
-          "Dämonenwaffen"
+          "Grenade Launchers",
+          "Daemon Weapon"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+2W3)"
+          "Invulnerable Save",
+          "Augment Summoning (+2D3)"
         ]
       },
       {
@@ -49,8 +49,8 @@
         "weapons": [
         ],
         "specialRules": [
-          "Dämonischer Pakt",
-          "Verbesserte Beschwörung (+1)"
+          "Daemonic Pact",
+          "Augment Summoning (+1)"
         ]
       },
       {
@@ -61,34 +61,34 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone",
-          "Dämonenwaffen"
+          "Autocannon",
+          "Daemon Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Fallen Befehlshaber",
+        "name": "Fallen Commander",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone",
-          "Dämonenwaffen"
+          "Autocannon",
+          "Daemon Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenprinz",
+        "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -99,12 +99,12 @@
           "Æther Blade"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Fearless",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -114,7 +114,7 @@
         "cc": 5,
         "ff": 6,
         "weapons": [
-          "Granatwerfers"
+          "Grenade Launchers"
         ],
         "specialRules": [
         ]
@@ -127,8 +127,8 @@
         "cc": 5,
         "ff": 6,
         "weapons": [
-          "Automatikpistolen",
-          "Kettenschwerter"
+          "Autopistols",
+          "Chainswords"
         ],
         "specialRules": [
         ]
@@ -141,12 +141,12 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Laserpistolen",
-          "Kettenschwerter"
+          "Laspistols",
+          "Chainswords"
         ],
         "specialRules": [
-          "Beritten",
-          "Geländegängig"
+          "Mounted",
+          "Walker"
         ]
       },
       {
@@ -157,12 +157,12 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr|2|",
+          "Heavy Stubber|2|",
           "Massive Melee Weapons"
         ],
         "specialRules": [
         ],
-        "notes": "Zählt als zwei Einheiten für die Transport Regel."
+        "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Chaos Spawn",
@@ -174,10 +174,10 @@
           "Horrific Mutations"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf"
+          "Fearless",
+          "Invulnerable Save"
         ],
-        "notes": "Zählt als zwei Einheiten für die Transport Regel."
+        "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Winged Chaos Spawn",
@@ -191,8 +191,8 @@
           "Sorcerous Bolts"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Sprungmodule"
+          "Fearless",
+          "Jump Packs"
         ]
       },
       {
@@ -202,10 +202,10 @@
         "armour": 6,
         "cc": 4,
         "weapons": [
-          "Klauen und Zähne"
+          "Claws and Fangs"
         ],
         "specialRules": [
-          "Entbehrlich"
+          "Expendable"
         ],
         "notes": "May not be transported."
       },
@@ -217,12 +217,12 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schweres Maschinengewehr"
+          "Heavy Stubber"
         ],
         "specialRules": [
             "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten without Beritten oder Sprungmodule."
+        "notes": "May transport two infantry units without Mounted or Jump Packs."
       },
       {
         "name": "Technical",
@@ -232,7 +232,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr (Turm)"
+          "Twin Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
@@ -248,15 +248,15 @@
           "Arcane Technology"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Furchtlos",
-          "Inspirierend",
-          "Dämonischer Fokus",
-          "Augmented Beschwörung (+D3)"
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Fearless",
+          "Inspiring",
+          "Daemonic Focus",
+          "Augmented Summoning (+D3)"
         ],
-        "crit": "The Chaos Altar wird zerstört. All Einheiten innerhalb von 5cm suffers a MW hit on 6+."
+        "crit": "The Chaos Altar is destroyed. All units within 5cm suffers a MW hit on 6+."
       },
       {
         "name": "Warp Altar",
@@ -269,19 +269,19 @@
             "Arcane Technology"
         ],
         "specialRules": [
-            "Schadenskapazität 3",
-            "Verstärkte Panzerung",
-            "Unmodifizierter Rettungswurf",
-            "Furchtlos",
-            "Inspirierend",
-            "Dämonischer Fokus",
-            "Augmented Beschwörung (+D3)",
+            "Damage Capacity 3",
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Fearless",
+            "Inspiring",
+            "Daemonic Focus",
+            "Augmented Summoning (+D3)",
           "Chaos Gate"
         ],
-        "crit": "The Warp Altar wird zerstört. All Daemon Legion Einheiten innerhalb von 5cm are destroyed, all other Einheiten innerhalb von 5cm suffers a MW hit on 6+."
+        "crit": "The Warp Altar is destroyed. All Daemon Legion units within 5cm are destroyed, all other units within 5cm suffers a MW hit on 6+."
       },
       {
-        "name": "Poxwalkers des Nurgle",
+        "name": "Poxwalkers of Nurgle",
         "type": "INF",
         "speed": 10,
         "cc": 6,
@@ -290,7 +290,7 @@
         ],
         "specialRules": [
           "Regeneration",
-          "Infiltratoren",
+          "Infiltrators",
           "Infestation"
         ]
       },
@@ -302,8 +302,8 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Automatikpistolen",
-          "Kettenschwerter"
+          "Autopistols",
+          "Chainswords"
         ],
         "specialRules": [
         ]
@@ -319,9 +319,9 @@
           "Divining Spear"
         ],
         "specialRules": [
-          "Beritten",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf"
+          "Mounted",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
@@ -336,11 +336,11 @@
           "Mælstrom of Madness"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig",
-          "Verstärkte Panzerung",
+          "Fearless",
+          "Walker",
+          "Reinforced Armour",
           "Regeneration",
-          "Verbesserte Beschwörung (+2W3)"
+          "Augment Summoning (+2D3)"
         ]
       }
     ]

@@ -422,19 +422,19 @@
           "Ragnarok Kampfgeschütz|2|",
           "Sturmbolter Batterie",
           "SCHLACHTWAGEN-WAFFEN",
-          "Berserker Kampf-Car",
-          "Dragon Kampf-Car",
-          "Belagerungsmörser Kampf-Car",
-          "0–1 Bombe Kampf-Car"
+          "Berserker Kampf-Wagen",
+          "Drachen Kampf-Wagen",
+          "Belagerungsmörser Kampf-Wagen",
+          "0–1 Bomben Kampf-Wagen"
         ],
         "specialRules": [
-          "Schadenskapazität: 2 + aktuelle Anzahl Kampf-Cars",
-          "Null-Schilde: aktuelle Anzahl Kampf-Cars",
+          "Schadenskapazität: 2 + aktuelle Anzahl Kampf-Wagen",
+          "Null-Schilde: aktuelle Anzahl Kampf-Wagen",
           "Verstärkte Panzerung",
           "Furchtlos"
         ],
-        "notes": "[*] Jeder Berserker-Kampf-Car darf 1 Einheit Squat-Berserker transportieren. Diese darf während des Transports im Landzug an Feuergefechten teilnehmen.",
-        "crit": "Der letzte Kampf-Car im Zug wird zerstört. Bleibt kein Kampf-Car übrig, wird die Land-Train-Lokomotive zerstört."
+        "notes": "[*] Jeder Berserker-Kampf-Wagen darf 1 Einheit Squat-Berserker transportieren. Diese darf während des Transports im Landzug an Feuergefechten teilnehmen.",
+        "crit": "Der letzte Kampf-Wagen im Zug wird zerstört. Bleibt kein Kampf-Wagen übrig, wird die Land-Train-Lokomotive zerstört."
       }
     ]
   }

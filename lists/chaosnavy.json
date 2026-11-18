@@ -10,19 +10,19 @@
         "speed": "Fighter",
         "armour": 6,
         "weapons": [
-          "AC Reaper Maschinenkanone|2|FxF"
+          "AC Reaper Autocannon|2|FxF"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Hell Talon Jagdbomber",
+        "name": "Hell Talon Fighter-Bomber",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 5,
         "weapons": [
-          "AC Inferno Raketenwerfer||FxF",
-          "AC Synchronisierte Laserkanone||FxF",
+          "AC Havoc Launcher||FxF",
+          "AC Twin Lascannon||FxF",
           "AC Incendiary Bombs||FxF"
         ],
         "specialRules": [
@@ -34,24 +34,24 @@
         "speed": "Fighter",
         "armour": 6,
         "weapons": [
-          "AC Hades Maschinenkanone||FxF",
-          "AC Piston-Driven Klauen"
+          "AC Hades Autocannon||FxF",
+          "AC Piston-Driven Claws"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Baledrake Jagdbomber",
+        "name": "Baledrake Fighter-Bomber",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 5,
         "weapons": [
           "AC Baleflamer||FxF",
-          "AC Piston-Driven Klauen"
+          "AC Piston-Driven Claws"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
@@ -60,10 +60,10 @@
         "speed": "Fighter",
         "armour": 6,
         "weapons": [
-          "AC Flammengeschütz||FxF"
+          "AC Flame Cannon||FxF"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
@@ -73,11 +73,11 @@
         "armour": 4,
         "weapons": [
           "AC Incendiary Bombs||FxF",
-          "AC Flammengeschütz||FxF",
-          "AC Synchronisierte Laserkanone||FxF"
+          "AC Flame Cannon||FxF",
+          "AC Twin Lascannon||FxF"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
     },
       {
@@ -87,14 +87,14 @@
         "armour": 4,
         "weapons": [
           "AC Heavy Incendiary Bombs||FxF",
-          "AC Synchronisierter Reaper Maschinenkanone|2|FxF",
-          "AC Kombi-Bolter|2|"
+          "AC Twin Reaper Autocannon|2|FxF",
+          "AC Combi-Bolters|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Unmodifizierter Rettungswurf"
+          "Damage Capacity 3",
+          "Invulnerable Save"
         ],
-        "crit": "The Harbringer Bomber wird zerstört."
+        "crit": "The Harbringer Bomber is destroyed."
       },
       {
         "name": "Blightbringer Bomber",
@@ -103,14 +103,14 @@
         "armour": 4,
         "weapons": [
           "AC Blight Bombs||FxF",
-          "AC Synchronisierter Reaper Maschinenkanone|2|FxF",
-          "AC Kombi-Bolter|2|"
+          "AC Twin Reaper Autocannon|2|FxF",
+          "AC Combi-Bolters|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Unmodifizierter Rettungswurf"
+          "Damage Capacity 3",
+          "Invulnerable Save"
         ],
-        "crit": "The Blightbringer Bomber wird zerstört."
+        "crit": "The Blightbringer Bomber is destroyed."
       },
       {
         "name": "Chaos Xiphon Interceptor",
@@ -118,8 +118,8 @@
         "speed": "Fighter",
         "armour": 5,
         "weapons": [
-          "AC Doppeltsynchronisierte Laserkanone||FxF",
-          "AC Xiphon Rotary Raketenwerfer||FxF"
+          "AC Quad Lascannon||FxF",
+          "AC Xiphon Rotary Missile Launcher||FxF"
         ],
         "specialRules": [
         ]
@@ -132,19 +132,19 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "AC Doppeltsynchronisierte Laserkanone||FxF",
-          "AC Synchronisierter schwerer Bolter||FxF",
+          "AC Quad Lascannon||FxF",
+          "AC Twin Heavy Bolter||FxF",
           "Vengeance Launcher||"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
+          "Damage Capacity 2",
           "Planetfall",
-          "Hartnäckig",
-          "Verstärkte Panzerung",
+          "Stubborn",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport vier Infanterie Einheiten without Beritten; Terminatoren, Dämonenprinzs, Chaos Spawn, Big Mutants und Cybots counts as zwei Einheiten. Zählt als a Chaos Thunderhawk für being transported.",
-        "crit": "The Storm Eagle und all units being carried are destroyed."
+        "notes": "May transport four infantry units without Mounted; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each. Counts as a Chaos Thunderhawk for being transported.",
+        "crit": "The Storm Eagle and all units being carried are destroyed."
       },
       {
         "name": "Chaos Fire Raptor",
@@ -152,15 +152,15 @@
         "speed": "Bomber",
         "armour": 5,
         "weapons": [
-          "AC Synchronisierter Avenger Bolt Geschütz||FxF",
-          "AC Rakete Array||FxF",
-          "AC Doppeltsynchronisierter schwerer Bolter Turrets||"
+          "AC Twin Avenger Bolt Cannon||FxF",
+          "AC Missile Array||FxF",
+          "AC Quad Heavy Bolter Turrets||"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Verstärkte Panzerung"
+          "Damage Capacity 2",
+          "Reinforced Armour"
         ],
-        "crit": "The Fire Raptor wird zerstört."
+        "crit": "The Fire Raptor is destroyed."
       },
       {
         "name": "Chaos Thunderhawk",
@@ -170,19 +170,19 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz||FxF",
-          "AC Synchronisierter schwerer Bolter|2|FxF",
-          "AC Synchronisierter schwerer Bolter||Left",
-          "AC Synchronisierter schwerer Bolter||Right"
+          "Battle Cannon||FxF",
+          "AC Twin Heavy Bolter|2|FxF",
+          "AC Twin Heavy Bolter||Left",
+          "AC Twin Heavy Bolter||Right"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
+          "Damage Capacity 2",
           "Planetfall",
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport acht Infanterie Einheiten; Terminatoren, Dämonenprinzs, Chaos Spawn, Big Mutants und Cybots counts as zwei Einheiten.",
-        "crit": "The Thunderhawk und all units being carried are destroyed."
+        "notes": "May transport eight infantry units; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each.",
+        "crit": "The Thunderhawk and all units being carried are destroyed."
       },
       {
         "name": "Night Lords Thunderhawk",
@@ -193,18 +193,18 @@
         "ff": 4,
         "weapons": [
           "AC Laser Destructor||FxF",
-          "AC Reaper Maschinenkanone|2|FxF",
-          "AC Reaper Maschinenkanone||Left",
-          "AC Reaper Maschinenkanone||Right"
+          "AC Reaper Autocannon|2|FxF",
+          "AC Reaper Autocannon||Left",
+          "AC Reaper Autocannon||Right"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
+          "Damage Capacity 2",
           "Planetfall",
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport acht Infanterie Einheiten; Terminatoren, Dämonenprinzs, Chaos Spawn, Big Mutants und Cybots counts as zwei Einheiten.",
-        "crit": " The Thunderhawk und all units being carried are destroyed."
+        "notes": "May transport eight infantry units; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each.",
+        "crit": " The Thunderhawk and all units being carried are destroyed."
       },
       {
         "name": "Alpha Legion Thunderhawk",
@@ -214,20 +214,20 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz||FxF",
-          "AC Synchronisierter schwerer Bolter|2|FxF",
-          "AC Synchronisierter schwerer Bolter||Left",
-          "AC Synchronisierter schwerer Bolter||Right"
+          "Battle Cannon||FxF",
+          "AC Twin Heavy Bolter|2|FxF",
+          "AC Twin Heavy Bolter||Left",
+          "AC Twin Heavy Bolter||Right"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Hartnäckig",
+          "Damage Capacity 2",
+          "Stubborn",
           "Planetfall",
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport acht Infanterie Einheiten; Terminatoren, Dämonenprinzs, Chaos Spawn, Big Mutants und Cybots counts as zwei Einheiten.",
-        "crit": " The Thunderhawk und all units being carried are destroyed."
+        "notes": "May transport eight infantry units; Terminators, Daemon Princes, Chaos Spawn, Big Mutants and Dreadnoughts counts as two units each.",
+        "crit": " The Thunderhawk and all units being carried are destroyed."
       },
       {
         "name": "Chaos Stormbird",
@@ -237,19 +237,19 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "AC Synchronisierte Laserkanone|3|FxF",
-          "AC Synchronisierter schwerer Bolter|2|Left",
-          "AC Synchronisierter schwerer Bolter|2|Right"
+          "AC Twin Lascannon|3|FxF",
+          "AC Twin Heavy Bolter|2|Left",
+          "AC Twin Heavy Bolter|2|Right"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Furchtlos",
-          "Verstärkte Panzerung",
+          "Damage Capacity 3",
+          "Fearless",
+          "Reinforced Armour",
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport zwölf Infanteristen units; Chaos Spawn, Terminatoren und Cybots zählen als zwei Einheiten. Zählt als a Thunderhawk für being transported.",
-        "crit": "The Stormbird und all units being carried are destroyed. All Einheiten innerhalb von 5cm takes a hit."
+        "notes": "May transport twelve infantry units; Chaos Spawn, Terminators and Dreadnoughts count as two units each. Counts as a Thunderhawk for being transported.",
+        "crit": "The Stormbird and all units being carried are destroyed. All units within 5cm takes a hit."
       },
       {
         "name": "Hellbringer Class Light Cruiser",
@@ -257,7 +257,7 @@
         "weapons": [
           "Pin Point"
         ],
-        "notes": "Transport. May transport 8 Infanterie Einheiten. These may only enter the battlefield by Teleportieren."
+        "notes": "Transport. May transport 8 infantry units. These may only enter the battlefield by Teleport."
       },
       {
         "name": "Devastation Class Cruiser",
@@ -267,13 +267,13 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "3BP, MW"
+                "firepower": "3BP, MW"
               }
             ]
           },
           "Pin Point"
         ],
-        "notes": "Transport. May transport 20 Infanterie Einheiten oder Cybots; plus drei Thunderhawks to transport und enough Dreadclaws to transport any other units being carried."
+        "notes": "Transport. May transport 20 infantry units or Dreadnoughts; plus three Thunderhawks to transport and enough Dreadclaws to transport any other units being carried."
       },
       {
         "name": "Plagueship",
@@ -283,7 +283,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "4BP, MW"
+                "firepower": "4BP, MW"
               }
             ]
           }
@@ -310,7 +310,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "3BP, MW"
+                "firepower": "3BP, MW"
               }
             ]
           },
@@ -319,7 +319,7 @@
         "specialRules": [
           "Slow to Arrive (May only arrive from turn 2 onwards)"
         ],
-        "notes": "Transport. May transport 30 Infanterie Einheiten oder Cybots; plus sechs Thunderhawks und enough Dreadclaws to transport any other units being carried."
+        "notes": "Transport. May transport 30 infantry units or Dreadnoughts; plus six Thunderhawks and enough Dreadclaws to transport any other units being carried."
       },
       {
         "name": "Chaos Strike Cruiser",
@@ -329,7 +329,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "4BP, MW"
+                "firepower": "4BP, MW"
               }
             ]
           }
@@ -337,7 +337,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport 20 Infanterie Einheiten oder Cybots; plus twenty leichte Fahrzeuge oder armoured vehicle units (except Cybots); plus sechs Thunderhawks und enough Drop Pods und Thunderhawk Transporters to transport any other units being carried."
+        "notes": "May transport 20 infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawks and enough Drop Pods and Thunderhawk Transporters to transport any other units being carried."
       },
       {
         "name": "Alpha Legion Drop Pod",
@@ -346,7 +346,7 @@
             "name": "Deathwind",
             "modes": [
               {
-                "Feuerkraft": "AP6+/AT6+",
+                "firepower": "AP6+/AT6+",
                 "range": 15
               }
             ]
@@ -356,7 +356,7 @@
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport eine formation of only the following units: Alpha Legion Marines, Alpha Legion Havocs, Alpha Legion Headhunters, Lernaean Terminatoren, Alpha Legion Cybots. After the Drop Pod lands, its Deathwind attacks all enemy Einheiten innerhalb von 15cm. Jeweils enemy formation attacked receives a Beschussmarke für coming under fire und an extra Beschussmarke pro casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod oder within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop Pod models should be removed from the board once the formation they transport has disembarked."
+        "notes": "May transport one formation of only the following units: Alpha Legion Marines, Alpha Legion Havocs, Alpha Legion Headhunters, Lernaean Terminators, Alpha Legion Dreadnoughts. After the Drop Pod lands, its Deathwind attacks all enemy units within 15cm. Each enemy formation attacked receives a Blast Marker for coming under fire, and an extra Blast Marker for each casualty. Then any troops carried in the Drop Pod must disembark within 5cm of the Drop Pod or within 5cm of another unit from the same formation that has already landed, so long as all units are placed within 15cm of the Drop Pod. Drop Pod models should be removed from the board once the formation they transport has disembarked."
       }
     ]
   }

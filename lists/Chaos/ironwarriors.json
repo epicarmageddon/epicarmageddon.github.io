@@ -4,45 +4,45 @@
   "version": "1.0.Beta-2",
   "release": "2022-09-29",
   "armyforge": "EAR_Chaos_IronWarriors",
-  "strategy": "Chaos Space Marine Armeen haben einen Strategiewert von 4.",
-  "Initiative": "Dark Mechanicus und Chaos Navy Verbände haben eine Initiativewert von 2+. Alle anderen Verbände haben eine Initiativewert von 1+.",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
+  "Initiative": "Dark Mechanicus and Chaos Navy formations have an Initiative Rating of 2+. All other formations have an Initiative Rating of 1+.",
   "specialRules": [
     "Iron Warriors Dreadclaws",
     "Iron Warriors Characters"
   ],
   "intro": [
-    "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Iron Warriors Traitor Legion, which mirrors the loyalist Iron Hands und Imperial Fists in their use of siege weaponry. They abhor daemons und may not summon these, but adore bionics und forbidden weaponry."
+    "The following army list allows you to field an army based on the Iron Warriors Traitor Legion, which mirrors the loyalist Iron Hands and Imperial Fists in their use of siege weaponry. They abhor daemons, and may not summon these, but adore bionics and forbidden weaponry."
   ],
   "units": [
     {
       "from": "CSM.json",
       "units": [
-        "Iron Warriors Kriegsschmied",
+        "Iron Warriors Warsmith",
         "Iron Warriors Warpsmith",
-        "Dämonenprinz",
+        "Daemon Prince",
         "Chaos Space Marines",
         "Havocs",
-        "Auserwählte",
+        "Chosen",
         "Bezashk Destroyers",
-        "Tyrant Siege Terminatoren",
-        "Kyborgs",
+        "Tyrant Siege Terminators",
+        "Obliterators",
         "Iron Warriors Basilisk",
         "Bezashk Medusa",
-        "Chaos Spartan Assault Panzer",
-        "Chaos Typhon Heavy Siege Panzer",
+        "Chaos Spartan Assault Tank",
+        "Chaos Typhon Heavy Siege Tank",
         "Chaos Rhino",
         "Chaos Siege Rhino",
         "Chaos Predator",
         "Chaos Land Raider",
         "Chaos Vindicator",
-        "Chaos Cybot",
-        "Chaos Siege Cybot",
+        "Chaos Dreadnought",
+        "Chaos Siege Dreadnought",
         "Iron Warriors Stormsword"
       ],
       "unitRules": [
         "Bionics",
-        "Notreparaturen",
-        "Schwergepanzertes Fahrzeug (H-AV)"
+        "Battlefield Repairs",
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -50,7 +50,7 @@
       "units": [
         "Defiler",
         "Maulerfiend",
-        "Vernichter",
+        "Decimator",
         "Ordinatus Hereticus ",
         "Ordinatus Cyclothrathe"
       ],
@@ -72,36 +72,36 @@
   ],
   "sections": [
     {
-      "name": "Iron Warriors Kern Verbände",
+      "name": "Iron Warriors Core Formations",
       "formations": [
         {
           "name": "Iron Warriors Retinue",
-          "units": "Ein Iron Warriors Warpsmith, sechs Chaos Space Marines",
+          "units": "One Iron Warriors Warpsmith, six Chaos Space Marines",
           "extraUnits": [
-            "Ersetze zwei Chaos Space Marines mit zwei Havocs: 25 Punkte",
-            "Oberbefehlshaber",
+            "Replace two Chaos Space Marines with two Havocs: 25 points",
+            "Supreme Commander",
             "Transport",
-            "Kyborgs",
+            "Obliterators",
             "Dreadclaws",
             "Vindicators",
-            "Cybots"
+            "Dreadnoughts"
           ],
           "points": 225
         },
         {
-          "name": "Iron Warriors Armoured Kompanie",
-          "units": "Sechs Chaos Vindicators",
+          "name": "Iron Warriors Armoured Company",
+          "units": "Six Chaos Vindicators",
           "extraUnits": [
-            "Ersetze sechs Chaos Vindicators mit sechs Chaos Predators (25 Punkte), drei Chaos Spartan Assault Panzers (75 Punkte) oder sechs Chaos Land Raiders (125 Punkte)"
+            "Replace six Chaos Vindicators with six Chaos Predators (25 points), three Chaos Spartan Assault Tanks (75 points), or six Chaos Land Raiders (125 points)"
           ],
           "points": 275
         },
         {
           "name": "Havocs",
-          "units": "Ein Iron Warriors Warpsmith, vier Havocs, Chaos Spartan Assault Panzer",
+          "units": "One Iron Warriors Warpsmith, four Havocs, Chaos Spartan Assault Tank",
           "extraUnits": [
-            "Ersetze the Chaos Spartan Assault Panzer mit zwei Chaos Land Raiders: 25 Punkte",
-            "Oberbefehlshaber",
+            "Replace the Chaos Spartan Assault Tank with two Chaos Land Raiders: 25 points",
+            "Supreme Commander",
             "Vindicators"
           ],
           "points": 275
@@ -109,42 +109,42 @@
       ]
     },
     {
-      "name": "Iron Warriors Elite Verbände",
-      "description": "Ein Elite formation may be taken pro Kern formation.",
+      "name": "Iron Warriors Elite Formations",
+      "description": "One Elite formation may be taken per Core formation.",
       "formations": [
         {
-          "name": "Auserwählte",
-          "units": "Vier Auserwählte, zwei Chaos Rhinos",
+          "name": "Chosen",
+          "units": "Four Chosen, two Chaos Rhinos",
           "extraUnits": [
-            "Ersetze zwei Chaos Rhinos mit zwei Chaos Siege Rhinos (10 Punkte) oder zwei Chaos Cybots oder zwei Chaos Siege Cybots (75 Punkte)",
+            "Replace two Chaos Rhinos with two Chaos Siege Rhinos (10 points), or two Chaos Dreadnoughts or two Chaos Siege Dreadnoughts (75 points)",
             "Vindicators"
           ],
           "points": 150
         },
         {
           "name": "Bezashk Destroyers",
-          "units": "Ein Iron Warriors Warpsmith, vier Bezashk Destroyers",
+          "units": "One Iron Warriors Warpsmith, four Bezashk Destroyers",
           "extraUnits": [
             "Vindicators"
           ],
           "points": 200
         },
         {
-          "name": "Cybot Assault Pack",
-          "units": "Vier Chaos Cybots",
+          "name": "Dreadnought Assault Pack",
+          "units": "Four Chaos Dreadnoughts",
           "extraUnits": [
-            "Cybots",
+            "Dreadnoughts",
             "Dreadclaws"
           ],
           "points": 250
         },
         {
-          "name": "Tyrant Terminatoren",
-          "units": "Ein Iron Warriors Warpsmith, vier Tyrant Siege Terminatoren",
+          "name": "Tyrant Terminators",
+          "units": "One Iron Warriors Warpsmith, four Tyrant Siege Terminators",
           "extraUnits": [
-            "Kyborgs",
-            "Oberbefehlshaber",
-            "Cybots",
+            "Obliterators",
+            "Supreme Commander",
+            "Dreadnoughts",
             "Dreadclaws"
           ],
           "points": 275
@@ -152,96 +152,96 @@
       ]
     },
     {
-      "name": "Iron Warriors Siege Verbände",
-      "description": "Ein Siege formation may be taken pro Kern formation.",
+      "name": "Iron Warriors Siege Formations",
+      "description": "One Siege formation may be taken per Core formation.",
       "formations": [
         {
           "name": "Heavy Siege Engine",
           "units": "Iron Warriors Stormsword",
           "extraUnits": [
-            "Kyborgs",
+            "Obliterators",
             "Vindicators",
-            "Cybots"
+            "Dreadnoughts"
           ],
           "points": 200
         },
         {
-          "name": "Bezashk Siege Batterie",
-          "units": "Vier Bezashk Medusa",
+          "name": "Bezashk Siege Battery",
+          "units": "Four Bezashk Medusa",
           "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Iron Warriors Artillerie Batterie",
-          "units": "Drei Iron Warriors Basilisken",
+          "name": "Iron Warriors Artillery Battery",
+          "units": "Three Iron Warriors Basilisks",
           "extraUnits": [
-            "Füge eine Iron Warriors Basilisk: 75 Punkte"
+            "Add one Iron Warriors Basilisk: 75 points"
           ],
           "points": 250
         },
         {
-          "name": "Heavy Siege Panzers",
-          "units": "Zwei Chaos Typhon Heavy Siege Panzers",
+          "name": "Heavy Siege Tanks",
+          "units": "Two Chaos Typhon Heavy Siege Tanks",
           "extraUnits": [
-            "Füge eine Chaos Typhon Heavy Siege Panzer: 125 Punkte"
+            "Add one Chaos Typhon Heavy Siege Tank: 125 points"
           ],
           "points": 275
         }
       ]
     },
     {
-      "name": "Dark Mechanicus und Chaos Navy",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände.",
+      "name": "Dark Mechanicus and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
           "name": "Maulerfiends",
-          "units": "Vier Maulerfiends",
+          "units": "Four Maulerfiends",
           "extraUnits": [
           ],
           "points": 225
         },
         {
-          "name": "Vernichter",
-          "units": "Ein Vernichter",
+          "name": "Decimator",
+          "units": "One Decimator",
           "extraUnits": [
           ],
           "points": 225
         },
         {
           "name": "Defiler Pack",
-          "units": "Vier Defilers",
+          "units": "Four Defilers",
           "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Ordinatus Hereticus",
-          "units": "Zwei Ordinatus Hereticus",
+          "units": "Two Ordinatus Hereticus",
           "extraUnits": [
           ],
           "points": 325
         },
         {
           "name": "0-1 Ordinatus Cyclothrathe",
-          "units": "Ein Ordinatus Cyclothrathe",
+          "units": "One Ordinatus Cyclothrathe",
           "extraUnits": [
           ],
           "points": 450
         },
         {
           "name": "Heldrakes",
-          "units": "Zwei Heldrakes",
+          "units": "Two Heldrakes",
           "points": 225
         },
         {
           "name": "Harbringer",
-          "units": "Ein Harbringer Bomber",
+          "units": "One Harbringer Bomber",
           "points": 300
         },
         {
           "name": "0-1 Chaos Cruiser",
-          "units": "Ein Devastation Class Cruiser",
+          "units": "One Devastation Class Cruiser",
           "extraUnits": [
             "Battleship"
           ],
@@ -251,69 +251,69 @@
     }
   ],
   "upgrades": {
-    "title": "Iron Warriors Erweiterungen",
-    "description": "Jede Erweiterung kann nur einmalig ausgewählt werden.",
+    "title": "Iron Warriors Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "Battleship",
-        "description": "Ersetze the Devastation Class Cruiser mit einemDespoiler Class Battleship",
-        "points": "50 Punkte"
+        "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
+        "points": "50 points"
       },
       {
-        "name": "0-1 Oberbefehlshaber",
-        "description": "Choose eine of the following:",
+        "name": "0-1 Supreme Commander",
+        "description": "Choose one of the following:",
         "options": [
           {
-            "description": "Ersetze an Iron Warriors Warpsmith mit einem Iron Warriors Kriegsschmied",
-            "points": "50 Punkte"
+            "description": "Replace an Iron Warriors Warpsmith with an Iron Warriors Warsmith",
+            "points": "50 points"
           },
           {
-            "description": "Ersetze an Iron Warriors Warpsmith und its unit mit einemDämonenprinz",
-            "points": "100 Punkte"
+            "description": "Replace an Iron Warriors Warpsmith and its unit with a Daemon Prince",
+            "points": "100 points"
           }
         ]
       },
       {
         "name": "Transport",
-        "description": "Füge transports to the formation, bis zu the number required to transport all Infanterie Einheiten in the formation",
+        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation",
         "options": [
           {
-            "description": "Füge bis zu drei Chaos Rhinos",
-            "points": "10 Punkte jeweils"
+            "description": "Add up to three Chaos Rhinos",
+            "points": "10 points each"
           },
           {
-            "description": "Füge bis zu drei Chaos Siege Rhinos",
-            "points": "15 Punkte jeweils"
+            "description": "Add up to three Chaos Siege Rhinos",
+            "points": "15 points each"
           },
           {
-            "description": "Füge bis zu drei Chaos Land Raiders",
-            "points": "50 Punkte jeweils"
+            "description": "Add up to three Chaos Land Raiders",
+            "points": "50 points each"
         },
         {
-          "description": "Füge bis zu zwei Chaos Spartan Assault Panzers",
-          "points": "75 Punkte jeweils"
+          "description": "Add up to two Chaos Spartan Assault Tanks",
+          "points": "75 points each"
         }
         ]
       },
       {
-        "name": "Kyborgs",
-        "description": "Füge bis zu zwei Kyborgs",
-        "points": "75 Punkte jeweils"
+        "name": "Obliterators",
+        "description": "Add up to two Obliterators",
+        "points": "75 points each"
       },
       {
-        "name": "Cybots",
-        "description": "Füge bis zu zwei Chaos Cybots oder bis zu zwei Siege Cybots",
-        "points": "50 Punkte jeweils"
+        "name": "Dreadnoughts",
+        "description": "Add up to two Chaos Dreadnoughts, or up to two Siege Dreadnoughts",
+        "points": "50 points each"
       },
       {
         "name": "Dreadclaws",
-        "description": "Transport a formation containing only Infanterie Einheiten und Cybots in Dreadclaws (formation must be deployed on a spacecraft)",
-        "points": "5 Punkte pro unit"
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a spacecraft)",
+        "points": "5 points per unit"
       },
       {
         "name": "Vindicators",
-        "description": "Füge bis zu zwei Chaos Vindicators",
-        "points": "35 Punkte jeweils"
+        "description": "Add up to two Chaos Vindicators",
+        "points": "35 points each"
       }
     ]
   }

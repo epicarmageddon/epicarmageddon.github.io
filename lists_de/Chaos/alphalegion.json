@@ -31,7 +31,7 @@
         "Alpha-Legion-Rhino",
         "Alpha-Legion-Vindicator",
         "Alpha-Legion-Predator",
-        "Alpha-Legion-Land-Schattenbarke",
+        "Alpha-Legion-Land Raider",
         "Alpha-Legion-Sicarian-Kampfpanzer"
       ],
       "unitRules": [
@@ -103,7 +103,7 @@
           "units": "Ein Alpha-Legion-Lord oder Alpha-Legion-Hexer, vier Alpha-Legion-Marines plus Transporter",
           "extraUnits": [
             "Ersetze 4 Alpha-Legion-Marines durch 4 Alpha-Legion-Havocs: 50 Punkte",
-            "Füge bis zu 2 Alpha-Legion-Land-Schattenbarken hinzu: 50 Punkte pro Stück",
+            "Füge bis zu 2 Alpha-Legion-Land Raidern hinzu: 50 Punkte pro Stück",
             "Oberbefehlshaber",
             "Cybots",
             "Vindicators",

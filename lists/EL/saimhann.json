@@ -1,20 +1,21 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Saim-Hann",
-  "version": "Alpha 0.8.4",
-  "release": "2022-04-01",
-  "strategy": "Craftworld Saim-Hann Armeen haben einen Strategiewert von 4.",
-  "Initiative": "Shining Spears, Aspect Warriors, Crimson Hunters, Titans und the Avatar Verbände haben eine Initiativewert von 1+. Alle anderen Verbände haben eine Initiativewert von 2+.",
+  "version": "Beta 0.1.1",
+  "release": "2023-03-29",
+  "armyforge": "EAR_Eldar_SaimHann",
+  "strategy": "Craftworld Eldar armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warriors, Titans, and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Avatar (Saim-Hann)",
-    "Dürfen nicht als Garnison aufstellen (Saim-Hann)",
+    "May not Garrison (Saim-Hann)",
     "Farsight",
-    "Hit und Run",
-    "Tor zum Netz der tausend Tore",
-    "Unabhängige Zwilllinge"
+    "Hit and Run",
+    "Webway Portal",
+    "Independent Twins"
   ],
   "usage": [
-    "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Eldar Craftworld Saim-Hann."
+    "The following army list allows you to field an army based on the Eldar Craftworld Saim-Hann."
   ],
   "units": [
     {
@@ -23,11 +24,14 @@
         "Wild Rider Chieftain",
         "Avatar",
         "Eldar Exarch",
-        "Beritten Farseer",
         "Eldar Guardians",
+        "Eldar Farseer",
+        "Saim-Hann Mounted Farseer",
         "Heavy Weapon Platform",
+        "Wraithguards",
         "War Walker",
         "Saim-Hann Wild Riders",
+        "Saim-Hann Shroud Runners",
         "Dire Avengers",
         "Fire Dragons",
         "Dark Reapers",
@@ -45,19 +49,20 @@
         "Scorpion",
         "Cobra",
         "Storm Serpent",
-        "Void Spinner",
         "Revenant Titan"
       ],
-      "unitRules": [
-          "Holofields (x)",
-          "Lanze",
-          "Schildbohrer"
-      ]
+        "unitRules": [
+            "Holofields (x)",
+            "Lance",
+            "Shield Piercer",
+            "Shield Disruptor",
+            "Wind-Swift"
+        ]
     },
     {
       "from": "eldarNavy.json",
       "units": [
-        "Nightshade Interceptor",
+        "Nightwing Interceptor",
         "Phoenix Bomber",
         "Vampire Hunter",
         "Wraithship",
@@ -73,167 +78,162 @@
       "formations": [
         {
           "name": "1 Avatar",
-          "units": "Ein Avatar",
+          "units": "One Avatar",
           "points": 0
         },
         {
           "name": "0-1 Wraithgate",
-          "units": "Ersetze eine objective marker in the Eldar Spieler's half of the table mit einemWraithgate, this counts as an objective marker und a Tor zum Netz der tausend Tore which may not be attacked oder damaged in any way. ",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
           "points": 50
         }
       ]
     },
     {
       "name": "Saim-Hann Warhosts",
-      "description": "Bis zu eine Aspect Warrior Host pro Wild Rider Warhost",
-      "formations": [
-        {
-          "name": "Wild Rider Warhost",
-          "units": "Nine Saim-Hann Wild Riders",
-          "extraUnits": [
-            "Ersetze any number of Wild Riders mit Saim-Hann Vypers: Kostenlos",
-            "Ersetze eine Einheit Wild Riders mit einemBeritten Farseer: 25 Punkte",
-            "(0-1 pro army) Ersetze eine Einheit Wild Riders mit einemWild Rider Chieftain: 50 Punkte"
-          ],
-          "points": 300
-        },
-        {
-          "name": "Aspect Warrior Host",
-          "units": "Acht Shining Spears und/oder Swooping Hawks",
-          "extraUnits": [
-            "Füge bis zu zwei Exarchs: 25 Punkte jeweils"
-          ],
-          "points": 300
-        }
-      ]
+      "description": "Up to one Aspect Warrior Warhost and one Mounted Guardian Warhost for each Wild Rider Warhost",
+        "formations": [
+            {
+                "name": "Wild Rider Warhost",
+                "units": "Eight Saim-Hann Wild Riders, Saim-Hann Mounted Farseer",
+                "extraUnits": [
+                    "Replace up to three Wild Riders with Saim-Hann Vypers and/or Shroud Runners: Free",
+                    "(0-1 per army) Replace one unit of Wild Riders with a Wild Rider Chieftain: 50 points",
+                    "Add up to two Saim-Hann Hornets: 50 points each"
+                ],
+                "points": 275
+            },
+            {
+                "name": "Mounted Guardian Warhost",
+                "units": "Three Wave Serpents, Farseer, five Guardians",
+                "extraUnits": [
+                    "Replace two Eldar Guardians with two Eldar Heavy Weapon Platforms (Free) or one Wraithguards (25 points)",
+                    "Add one Firestorm: 50 points"
+                ],
+                "points": 250
+            },
+            {
+                "name": "Aspect Warrior Warhost",
+                "units": "Eight Shining Spears and/or Swooping Hawks",
+                "extraUnits": [
+                    "Add up to two Exarchs: 25 points each"
+                ],
+                "points": 300
+            }
+        ]
     },
     {
       "name": "Saim-Hann Troupes",
-      "description": "Bis zu drei pro Saim-Hann Warhost taken",
+      "description": "Up to three for each Saim-Hann Warhost taken",
+        "formations": [
+
+            {
+                "name": "Wild Rider Troupe",
+                "units": "Six Saim-Hann Wild Riders",
+                "extraUnits": [
+                    "Replace up to three Wild Riders with Saim-Hann Vypers and/or Shroud Runners: Free",
+                    "Add up to two Saim-Hann Hornets: 50 points each"
+                ],
+                "points": 200
+            },
+            {
+                "name": "Mounted Aspect Warrior Troupe",
+                "units": "Three Wave Serpents and six Aspect Warriors chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
+                "extraUnits": [
+                    "Add one Exarch: 25 points"
+                ],
+                "points": 325
+            },
+            {
+                "name": "Engines of Vaul",
+                "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+                "extraUnits": [
+                    "Add up to two Cobra, Scorpion, and/or Storm Serpent: 200 points each"
+                ],
+                "points": 250
+            },
+            {
+                "name": "Swords of Vaul",
+                "units": "Three Falcons, three Eldar Guardians",
+                "extraUnits": [
+                    "Replace one Falcon with a Firestorm: Free",
+                    "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms: Free"
+                ],
+                "points": 200
+            },
+            {
+                "name": "Fire Prism Troupe",
+                "units": "Three Fire Prisms",
+                "extraUnits": [
+                ],
+                "points": 250
+            },
+            {
+                "name": "Night Spinner Troupe",
+                "units": "Three Night Spinners",
+                "extraUnits": [
+                    "Add one Night Spinner: 75 points"
+                ],
+                "points": 175
+            },
+            {
+                "name": "Hornet Troupe",
+                "units": "Three Saim-Hann Hornets",
+                "extraUnits": [
+                ],
+                "points": 175
+            },
+            {
+                "name": "War Walker Troupe",
+                "units": "Four War Walkers",
+                "extraUnits": [
+                    "Add up to two War Walkers: 25 points each"
+                ],
+                "points": 150
+            }
+        ]
+    },
+    {
+      "name": "Saim-Hann Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Beritten Aspect Warrior Troupe",
-          "units": "Drei Wave Serpents und sechs Aspect Warriors ausgewählt aus the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
-          "extraUnits": [
-            "Exarch"
-          ],
-          "points": 325
-        },
-        {
-          "name": "Beritten Guardian Troupe",
-          "units": "Drei Wave Serpents, sechs Guardians",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
-          "name": "Engines of Vaul",
-          "units": "Ein Engine of Vaul ausgewählt aus the following: Cobra, Scorpion, Storm Serpent",
-          "extraUnits": [
-            "Füge bis zu zwei Cobra, Scorpion und/oder Storm Serpent: 200 Punkte jeweils"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Swords of Vaul",
-          "units": "Fünf Falcons",
-          "extraUnits": [
-            "Ersetze bis zu zwei Falcons mit Firestorms: Kostenlos",
-            "Füge fünf Guardians to the formation: 75 Punkte"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Fire Prism Troupe",
-          "units": "Drei Fire Prisms",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
-          "name": "Fire Spinner Troupe",
-          "units": "Drei Night Spinners, eine Firestorm",
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors",
           "extraUnits": [
           ],
           "points": 225
         },
         {
-          "name": "Void Spinner",
-          "units": "Ein Void Spinner",
-          "extraUnits": [
-          ],
-          "points": 275
-        },
-        {
-          "name": "Hornet Troupe",
-          "units": "Vier Saim-Hann Hornets",
-          "extraUnits": [
-            "Füge bis zu zwei Saim-Hann Hornets: 50 Punkte jeweils"
-          ],
-          "points": 200
-        },
-        {
-          "name": "War Walker Troupe",
-          "units": "Sechs War Walkers",
-          "extraUnits": [
-          ],
-          "points": 200
-        }
-      ]
-    },
-    {
-      "name": "Saim-Hann Aircraft, Spacecraft und Titans",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände",
-      "formations": [
-        {
-          "name": "Crimson Hunters",
-          "units": "Zwei Nightshade Interceptors",
-          "extraUnits": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Phoenix Aerie",
-          "units": "Drei Phoenix Bombers",
+          "units": "Three Phoenix Bombers",
           "extraUnits": [
           ],
           "points": 325
         },
         {
           "name": "Vampire Hunter",
-          "units": "Ein Vampire Hunter",
+          "units": "One Vampire Hunter",
           "extraUnits": [
           ],
           "points": 225
         },
         {
           "name": "Revenants",
-          "units": "Zwei Revenant Titans",
+          "units": "Two Revenant Titans",
           "extraUnits": [
-            "Unabhängige Zwilllinge"
+            "Give the formation the 'Independent Twins' special rule: 50 points"
           ],
           "points": 650
         },
         {
           "name": "0-1 Spacecraft",
-          "units": "Ein Wraithship",
+          "units": "One Wraithship",
           "extraUnits": [
-            "Ersetze mit einemDragonship: 125 Points"
+            "Replace with a Dragonship: 125 Points"
           ],
           "points": 175
         }
       ]
     }
-  ],
-  "upgrades": {
-    "title": "Saim-Hann Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro formation",
-    "items": [
-      {
-        "name": "Exarch",
-        "description": "Füge eine Eldar Exarch to a Einheit Aspect Warriors",
-        "points": "25 Punkte"
-      }
-    ]
-  }
+  ]
 }

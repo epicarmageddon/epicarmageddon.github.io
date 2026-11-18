@@ -1,6 +1,6 @@
 [
   {
-    "name": "Dark Mechanicus Streitmächte",
+    "name": "Dark Mechanicus Forces",
     "specialRules": [
 
     ],
@@ -12,8 +12,8 @@
           "Arcane Technology"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Furchtlos"
+          "Supreme Commander",
+          "Fearless"
         ]
       },
       {
@@ -23,8 +23,8 @@
           "n/a"
         ],
         "specialRules": [
-          "Anführer",
-          "Dämonischer Fokus"
+          "Leader",
+          "Daemonic Focus"
         ]
       },
       {
@@ -34,9 +34,9 @@
           "n/a"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Verbesserte Beschwörung (+1)",
-          "Anführer"
+          "Daemonic Focus",
+          "Augment Summoning (+1)",
+          "Leader"
         ]
       },
       {
@@ -50,7 +50,7 @@
           "Forbidden Technology"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
@@ -63,9 +63,9 @@
           "Mitralocks"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
@@ -76,11 +76,11 @@
         "armour": 5,
         "cc": 5,
         "weapons": [
-          "Power Klauen"
+          "Power Claws"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Furchtlos"
+          "Infiltrators",
+          "Fearless"
         ]
       },
       {
@@ -115,29 +115,29 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Synchronisierter Reaper Maschinenkanone",
-          "Energiefaust"
+          "Twin Reaper Autocannon",
+          "Power Fist"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
       {
         "name": "Chaos Tarantula",
         "type": "LV",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 5,
         "ff": 4,
         "weapons": [
-          "Reaper Maschinenkanone"
+          "Reaper Autocannon"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich"
+          "Machine Spirit",
+          "Fearless",
+          "Expendable"
         ]
       },
       {
@@ -148,12 +148,12 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Kombi-Bolter"
+          "Combi-Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Hell-Rhino",
@@ -168,7 +168,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf eine Infanterie Einheit ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport one infantry unit without Jump Packs or Mounted."
       },
       {
         "name": "Macrocarid Exploitator",
@@ -181,12 +181,12 @@
           "Phospex Blaster|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
           "Transport"
         ],
-        "notes": "Darf drei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport three infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Triaros Armoured Despoiler",
@@ -199,10 +199,10 @@
           "Phospex Blaster|3|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May transport sechs Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport six infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Krios Lightning",
@@ -212,10 +212,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Lightning Geschütz"
+          "Lightning Cannon"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -229,7 +229,7 @@
           "Pulsar-Fusil"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -240,26 +240,26 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter|2|",
+          "Heavy Bolter|2|",
           ">Battle Weapons<",
           "Turbo Blaster|0-1|FxF",
           "Doom Burner|0-1|FxF",
           "Plasma Cremator|0-1|FxF",
-          "Synchronisierter Hades Maschinenkanone|0-1|",
+          "Twin Hades Autocannon|0-1|",
           ">Support Weapons<",
           "Plasma Incinerator|0-1|FxF",
-          "Geschütz of Chaos|0-1|FxF",
-          "Cyclone Geschütz|0-1|FxF",
-          "4x Havoc Sperrfeuerrakete|0-1|FwA"
+          "Cannon of Chaos|0-1|FxF",
+          "Cyclone Cannon|0-1|FxF",
+          "4x Havoc Barrage Missile|0-1|FwA"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 2",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "notes": "Armed mit einemsingle Battle Weapon. May be upgraded to a Support Weapon.",
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 5+."
+        "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+."
       },
       {
         "name": "Ordinatus Hereticus ",
@@ -269,20 +269,20 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter|2|",
+          "Heavy Bolter|2|",
           "Turbo Blaster|0-1|FxF",
           "Doom Burner|0-1|FxF",
           "Plasma Cremator|0-1|FxF",
-          "Synchronisierter Hades Maschinenkanone|0-1|"
+          "Twin Hades Autocannon|0-1|"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 2",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "notes": "Entweder mit Turbo Blaster, Doom Burner, Plasma Cremator oder Synchronisierter Hades Maschinenkanone.",
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 5+."
+        "notes": "Armed with either a Turbo Blaster, Doom Burner, Plasma Cremator or Twin Hades Autocannon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+."
       },
       {
         "name": "Ordinatus Hereticus Majoris",
@@ -292,22 +292,22 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter|2|",
-          "Laserkanone|2|",
+          "Heavy Bolter|2|",
+          "Lascannon|2|",
           ">Ordinatus Cyclothrathe<",
-          "Terrebrax Phospex Batterie||FxF",
+          "Terrebrax Phospex Battery||FxF",
           ">Ordinatus Retlaxi<",
           "Graviton Singularity Beamer||FxF",
           ">Ordinatus Temporia<",
-          "Gyrator Barrage Geschütz||FxF"
+          "Gyrator Barrage Cannon||FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Deflektorschilde 4",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 4",
+          "Void Shields 4",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 4+"
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
         "name": "Ordinatus Cyclothrathe",
@@ -317,17 +317,17 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-            "Schwerer Bolter|2|",
-            "Laserkanone|2|",
-          "Terrebrax Phospex Batterie||FxF"
+            "Heavy Bolter|2|",
+            "Lascannon|2|",
+          "Terrebrax Phospex Battery||FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Deflektorschilde 4",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 4",
+          "Void Shields 4",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 4+"
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
         "name": "The Kaban Machine",
@@ -342,13 +342,13 @@
           "Kaban Guntails"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Deflektorschilde 2",
-          "Anführer",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 2",
+          "Void Shields 2",
+          "Leader",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "crit": "The Kaban Machine wird zerstört. All Einheiten innerhalb von 5cm takes a hit."
+        "crit": "The Kaban Machine is destroyed. All units within 5cm takes a hit."
       },
       {
         "name": "Defiler",
@@ -358,32 +358,32 @@
         "cc": 4,
         "ff": 3,
         "weapons": [
-          "Kampfgeschütz",
-          "Reaper Maschinenkanone",
-          "Schwerer Flammenwerfer",
-          "Battle Klauen"
+          "Battle Cannon",
+          "Reaper Autocannon",
+          "Heavy Flamer",
+          "Battle Claws"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig",
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Walker",
+          "Infiltrators",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
       {
-        "name": "Hellfire Geschütz",
+        "name": "Hellfire Cannon",
         "type": "AV",
         "speed": 15,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Hellfire Geschütz"
+          "Hellfire Cannon"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
@@ -395,12 +395,12 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Synchronisierter Hades Maschinenkanone"
+          "Twin Hades Autocannon"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
-          "Geländegängig",
+          "Fearless",
+          "Invulnerable Save",
+          "Walker",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
@@ -412,12 +412,12 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Ectoplasma Geschütz|3|"
+          "Ectoplasma Cannon|3|"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
-          "Geländegängig",
+          "Fearless",
+          "Invulnerable Save",
+          "Walker",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
@@ -430,137 +430,135 @@
         "ff": 5,
         "weapons": [
           "Lasher Tendrils",
-          "Melter Cutter"
+          "Melta Cutter"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
-          "Infiltratoren",
-          "Geländegängig",
+          "Fearless",
+          "Invulnerable Save",
+          "Infiltrators",
+          "Walker",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
       {
-        "name": "Word Bearers Cerberus Heavy Panzer Destroyer",
+        "name": "Word Bearers Cerberus Heavy Tank",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Heavy Neutron Laser Array",
-          "Laserkanone|2|"
+          "Heavy Ectoplasma Array",
+          "Ectoplasma Cannon|2|"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
       {
-        "name": "Ritter-Doomglaive",
+        "name": "Knight-Doomglaive",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr",
-          "Multimelter",
+          "Heavy Stubber",
+          "Multi-Melta",
           "Reaper Chain-Cleaver"
         ],
         "specialRules": [
-          "Geländegängig",
-          "Aufklärer",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Walker",
+          "Scout",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
       {
-        "name": "Ritter-Perfidor",
+        "name": "Knight-Perfidor",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Synchronisierter Reaper Maschinenkanone",
-          "Schweres Maschinengewehr"
+          "Twin Reaper Autocannon",
+          "Heavy Stubber"
         ],
         "specialRules": [
-          "Geländegängig",
-          "Aufklärer",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Walker",
+          "Scout",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
       {
-        "name": "Ritter-Renegade",
-        "type": "WE",
-        "speed": 25,
-        "armour": 5,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Rapid Fire Kampfgeschütz||FwA",
-          "Synchronisierter Reaper Maschinenkanone||FwA",
-          "Renegade Kettenschwert"
-        ],
-        "specialRules": [
-          "Schadenskapazität 2",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
-          "Daemon Engine (Chaos Undivided)"
-        ],
-        "crit": "The Ritter-Renegade wird zerstört."
-      },
-      {
-        "name": "Ritter-Tyrant",
-        "type": "WE",
-        "speed": 20,
-        "armour": 4,
-        "cc": 4,
-        "ff": 3,
-        "weapons": [
-          "Lightning Geschütz",
-          "Pulsar-Fusil",
-          "Synchronisierter Siegebreaker Geschütz|2|FwA",
-          "Hyperwave Clarion"
-        ],
-        "specialRules": [
-          "Schadenskapazität 2",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
-          "Daemon Engine (Chaos Undivided)"
-        ],
-        "crit": "The Ritter-Tyrant wird zerstört."
-      },
-      {
-        "name": "Ritter-Dreadblade",
+        "name": "Knight-Renegade",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Synchronisierter Reaper Maschinenkanone",
-          "Renegade Kettenschwert",
+          "Rapid Fire Battle Cannon",
+          "Reaper Autocannon",
+          "Renegade Chainsword"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Invulnerable Save",
+          "Daemon Engine (Chaos Undivided)"
+        ]
+      },
+      {
+        "name": "Knight-Tyrant",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Lightning Cannon",
+          "Pulsar-Fusil",
+          "Twin Siegebreaker Cannon|2|FwA",
+          "Hyperwave Clarion"
+        ],
+        "specialRules": [
+          "Damage Capacity: 2",
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Invulnerable Save",
+          "Daemon Engine (Chaos Undivided)"
+        ],
+        "crit": "The Knight-Tyrant is destroyed."
+      },
+      {
+        "name": "Knight-Dreadblade",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Twin Reaper Autocannon",
+          "Renegade Chainsword",
           ">Incarnate Slaughter<",
           "Hyperwave Clarion",
           "Thunderstrike Gauntlet",
           ">Gilded King<",
-          "Rapid Fire Kampfgeschütz",
-          "Ironstorm Rakete Pod",
+          "Rapid Fire Battle Cannon",
+          "Ironstorm Missile Pod",
           ">Hatred of Krastellan<",
           "Heavy Neutron Laser",
           ">Litany of Destruction<",
@@ -568,35 +566,35 @@
           "Stormspear Rocket Pod"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
-          "Dämonischer Fokus",
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Invulnerable Save",
+          "Daemonic Focus",
           "Daemon Engine (Chaos Undivided)"
         ]
       },
 
       {
-        "name": "Vernichter",
+        "name": "Decimator",
         "type": "WE",
         "speed": 15,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Vernichtergeschütz||FxF",
-          "Synchronisierter Reaper Maschinenkanone|4|FxF"
+          "Decimator Cannon||FxF",
+          "Twin Reaper Autocannon|4|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ],
-        "crit": "The Vernichter wird zerstört. All Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The Decimator is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Death Wheel",
@@ -606,18 +604,18 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Kampfgeschütz|2|FxF",
-          "Reaper Maschinenkanone|4|FxF"
+          "Battle Cannon|2|FxF",
+          "Reaper Autocannon|4|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 4",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)"
         ],
-        "crit": "The Death Wheel wird zerstört."
+        "crit": "The Death Wheel is destroyed."
       },
       {
         "name": "Shrine of Chaos",
@@ -627,19 +625,19 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Heavy Geschütz|2|FxF",
+          "Heavy Cannon|2|FxF",
           "Arcane Technology||"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 4",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Invulnerable Save",
           "Daemon Engine (Chaos Undivided)",
           "Transport"
         ],
-        "notes": "May transport fourteen Infanterie Einheiten without Beritten oder Jet Packs. Chaos Spawn, Terminatoren und Cybots zählen als zwei Einheiten.",
-        "crit": "The Shrine of Chaos takes eine additional damage. D3 transported units takes a hit."
+        "notes": "May transport fourteen infantry units without Mounted or Jet Packs. Chaos Spawn, Terminators and Dreadnoughts count as two units each.",
+        "crit": "The Shrine of Chaos takes one additional damage. D3 transported units takes a hit."
       },
       {
         "name": "Debaser",
@@ -651,14 +649,14 @@
         "weapons": [
           "Blastmaster|2|",
           "Death Wailer",
-          "Battle Klauen",
+          "Battle Claws",
           "Warp Amplifier"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig",
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Walker",
+          "Infiltrators",
+          "Invulnerable Save",
           "Daemon Engine (Slaanesh)"
         ]
       },
@@ -670,32 +668,32 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Laserkanone",
-          "Multimelter"
+          "Lascannon",
+          "Multi-Melta"
         ],
         "specialRules": [
-          "Geländegängig",
-          "Aufklärer",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Walker",
+          "Scout",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Slaanesh)"
         ]
       },
       {
-        "name": "Höllenritter",
+        "name": "Hell-Knight",
         "type": "H-AV",
         "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Thermal Lanze"
+          "Thermal Lance"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
+          "Reinforced Armour",
+          "Fearless",
+          "Walker",
+          "Invulnerable Save",
           "Daemon Engine (Slaanesh)"
         ]
       },
@@ -707,13 +705,13 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Castigator Geschütz"
+          "Castigator Cannon"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
+          "Reinforced Armour",
+          "Fearless",
+          "Walker",
+          "Invulnerable Save",
           "Daemon Engine (Slaanesh)"
         ]
       },
@@ -725,18 +723,18 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Castigator Geschütz|2|",
-          "Laserkanone|2|"
+          "Castigator Cannon|2|",
+          "Lascannon|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 3",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Slaanesh)"
         ],
-        "notes": "May step over units und pieces of terrain that that are lower than the unit’s knees und less than 2cm wide.",
+        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide.",
         "crit": "The Questor takes a point of damage."
       },
       {
@@ -752,14 +750,14 @@
           "Hellslicer Battle Claw|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 3",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Slaanesh)"
         ],
-        "notes": "May step over units und pieces of terrain that that are lower than the unit’s knees und less than 2cm wide.",
+        "notes": "May step over units and pieces of terrain that that are lower than the unit’s knees and less than 2cm wide.",
         "crit": "The Subjugator takes a point of damage."
       },
       {
@@ -770,14 +768,14 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Synchronisierter Reaper Maschinenkanone",
-          "Plague Geschütz",
-          "Battle Klauen"
+          "Twin Reaper Autocannon",
+          "Plague Cannon",
+          "Battle Claws"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig",
-          "Infiltratoren",
+          "Fearless",
+          "Walker",
+          "Infiltrators",
           "Regeneration",
           "Daemon Engine (Nurgle)"
         ]
@@ -790,12 +788,12 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Reaper Maschinenkanone",
-          "Maw Geschütz"
+          "Reaper Autocannon",
+          "Maw Cannon"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Sprungmodule",
+          "Fearless",
+          "Jump Packs",
           "Regeneration",
           "Daemon Engine (Nurgle)"
         ]
@@ -809,10 +807,10 @@
         "ff": 5,
         "weapons": [
           "Plague Catapult",
-          "Vomit Geschütz"
+          "Vomit Cannon"
         ],
         "specialRules": [
-          "Furchtlos",
+          "Fearless",
           "Regeneration",
           "Daemon Engine (Nurgle)"
         ]
@@ -825,23 +823,23 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Pus Geschütz||",
-          "Laserkanone|2|FxF",
-          "Synchronisierter schwerer Bolter|3|FxF",
-          "Bile Geschütz",
+          "Pus Cannon||",
+          "Lascannon|2|FxF",
+          "Twin Heavy Bolter|3|FxF",
+          "Bile Cannon",
           "Nurglings"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Furchtlos",
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Fearless",
           "Regeneration",
           "Daemon Engine (Nurgle)"
         ],
-        "crit": "The Plague Reaper wird zerstört. All Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The Plague Reaper is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
-        "name": "Ritter-Desecrator",
+        "name": "Knight-Desecrator",
         "type": "WE",
         "speed": 20,
         "armour": 4,
@@ -850,18 +848,18 @@
         "weapons": [
           "Laser Destructor||FwA",
           "Pus Launcher Pod||FwA",
-          "Renegade Kettenschwert"
+          "Renegade Chainsword"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Furchtlos",
-          "Geländegängig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Damage Capacity: 2",
+          "Fearless",
+          "Walker",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Regeneration",
           "Daemon Engine (Nurgle)"
         ],
-        "crit": "The Ritter-Desecrator wird zerstört."
+        "crit": "The Knight-Desecrator is destroyed."
       },
       {
         "name": "Plague Tower",
@@ -871,20 +869,20 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Plague Mörser||FxF",
+          "Plague Mortar||FxF",
           "Demolisher|2|FxF",
-          "Bile Geschütz",
+          "Bile Cannon",
           "Nurglings"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Furchtlos",
+          "Damage Capacity 4",
+          "Fearless",
           "Regeneration",
           "Daemon Engine (Nurgle)",
           "Transport"
         ],
-        "notes": "May transport fourteen Infanterie Einheiten. Big Mutants, Chaos Spawns, Terminatoren, Dämonenprinzs, Blight Drones und Chaos Cybots zählen als zwei Einheiten.",
-        "crit": "The Plague Tower takes einen zusätzlichen point of damage. 1D3 random units carried inside takes a hit."
+        "notes": "May transport fourteen infantry units. Big Mutants, Chaos Spawns, Terminators, Daemon Princes, Blight Drones and Chaos Dreadnoughts count as two units each.",
+        "crit": "The Plague Tower takes an additional point of damage. 1D3 random units carried inside takes a hit."
       },
       {
         "name": "Slaughterfiend",
@@ -894,31 +892,31 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Heavy Geschütz",
-          "Reaper Maschinenkanone",
-          "Battle Klauen"
+          "Heavy Cannon",
+          "Reaper Autocannon",
+          "Battle Claws"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig",
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Walker",
+          "Infiltrators",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ]
       },
       {
-        "name": "Geschütz des Khorne",
+        "name": "Cannon of Khorne",
         "type": "AV",
         "speed": 15,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Hellfire Geschütz"
+          "Hellfire Cannon"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ]
       },
@@ -933,9 +931,9 @@
           "Doomblaster"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Infiltrators",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ]
       },
@@ -948,16 +946,16 @@
         "ff": 5,
         "weapons": [
           "Blood Cannons",
-          "Dämonische Klingen"
+          "Daemonic Blades"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ]
       },
       {
-        "name": "Ritter-Rampager",
+        "name": "Knight-Rampager",
         "type": "WE",
         "speed": 25,
         "armour": 5,
@@ -966,18 +964,18 @@
         "weapons": [
           "Stormspear Rocket Pod",
           "Doomgauntlet",
-          "Renegade Kettenschwert"
+          "Renegade Chainsword"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity: 2",
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ],
-        "crit": "The Ritter-Rampager wird zerstört."
+        "crit": "The Knight-Rampager is destroyed."
       },
       {
         "name": "Greater Brass Scorpion",
@@ -987,20 +985,20 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Scorpion Geschütz||FwA",
+          "Scorpion Cannon||FwA",
           "Demolisher||FxF",
-          "Synchronisierter Hellmaw||FxF",
-          "Scorpion Klauen"
+          "Twin Hellmaw||FxF",
+          "Scorpion Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Furchtlos",
-          "Infiltratoren",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 3",
+          "Fearless",
+          "Infiltrators",
+          "Walker",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ],
-        "crit": "The Greater Brass Scorpion wird zerstört."
+        "crit": "The Greater Brass Scorpion is destroyed."
       },
       {
         "name": "Lord of Battles",
@@ -1010,18 +1008,18 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz|2|FxF",
+          "Battle Cannon|2|FxF",
           "Death Storm||FwA",
           "Chainfist"
         ],
         "specialRules": [
-          "Schadenskapazität 6",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 6",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
           "Daemon Engine (Khorne)"
         ],
-        "crit": "The Lord of Battles takes eine additional damage."
+        "crit": "The Lord of Battles takes one additional damage."
       },
       {
         "name": "Tower of Skulls",
@@ -1031,18 +1029,18 @@
         "cc": 4,
         "ff": 3,
         "weapons": [
-          "Hellstrike Geschütz||FxF",
-          "Hellfire Geschütz|2|FxF",
-          "Synchronisierter Reaper Maschinenkanone Turm|2|"
+          "Hellstrike Cannon||FxF",
+          "Hellfire Cannon|2|FxF",
+          "Twin Reaper Autocannon Turret|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 6",
-          "Verstärkte Panzerung",
-          "Furchtlos",
+          "Damage Capacity 6",
+          "Reinforced Armour",
+          "Fearless",
           "Regeneration",
           "Daemon Engine (Khorne)"
         ],
-        "crit": "The Tower of Skulls takes einen zusätzlichen damage."
+        "crit": "The Tower of Skulls takes an additional damage."
       },
       {
         "name": "Deciever",
@@ -1052,16 +1050,16 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Kampfgeschütz",
-          "Synchronisierter Heavy Warpflamer",
-          "Auge des Magnus",
-          "Battle Klauen"
+          "Battle Cannon",
+          "Twin Heavy Warpflamer",
+          "Eye of Magnus",
+          "Battle Claws"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig",
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Walker",
+          "Infiltrators",
+          "Invulnerable Save",
           "Daemon Engine (Tzeentch)"
         ]
       },
@@ -1077,34 +1075,34 @@
           "Beam of Power"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Antigrav",
-          "Unmodifizierter Rettungswurf",
+          "Fearless",
+          "Skimmer",
+          "Invulnerable Save",
           "Daemon Engine (Tzeentch)"
         ]
       },
       {
-        "name": "Ritter-Despoiler",
+        "name": "Knight-Despoiler",
         "type": "WE",
         "speed": 20,
         "armour": 5,
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Rapid Fire Kampfgeschütz||FwA",
-          "Corruptor Gatling Geschütz||FwA",
+          "Rapid Fire Battle Cannon||FwA",
+          "Corruptor Gatling Cannon||FwA",
           "Hyperwave Clarion"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity: 2",
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Invulnerable Save",
           "Daemon Engine (Tzeentch)"
         ],
-        "crit": "The Ritter-Despoiler wird zerstört."
+        "crit": "The Knight-Despoiler is destroyed."
       },
       {
         "name": "Mirrorfiend",
@@ -1115,16 +1113,16 @@
         "ff": 3,
         "weapons": [
           "Pandæmonium",
-          "Battle Klauen"
+          "Battle Claws"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Furchtlos",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf",
+          "Damage Capacity 2",
+          "Fearless",
+          "Jump Pack",
+          "Invulnerable Save",
           "Daemon Engine (Tzeentch)"
         ],
-        "crit": "The runes that bind the imprisoned daemon are broken und the Mirrorfiend wird zerstört. All models within 5cm take a hit on 4+."
+        "crit": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit on 4+."
       },
       {
         "name": "Warp Palace",
@@ -1132,21 +1130,21 @@
         "speed": 20,
         "armour": 5,
         "cc": 6,
-        "ff": 3,
+        "ff": 4,
         "weapons": [
-          "Warpfire des Tzeentch",
+          "Warpfire of Tzeentch",
           "Arcane Cannons|3|",
           "Beam of Power|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 6",
-          "Verstärkte Panzerung",
-          "Furchtlos",
-          "Antigrav",
+          "Damage Capacity 6",
+          "Reinforced Armour",
+          "Fearless",
+          "Support Craft",
           "Daemon Engine (Tzeentch)",
           "Regeneration"
         ],
-        "crit": "The Warp Palace takes eine additional damage. Any Einheiten innerhalb von 5cm takes einen zusätzlichen hit mit MW on 6+."
+        "crit": "The Warp Palace takes one additional damage. Any units within 5cm takes an additional hit with MW on 6+."
       }
     ]
   }

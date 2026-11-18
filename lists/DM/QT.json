@@ -3,16 +3,16 @@
   "army": "Questor Traitoris",
   "version": "0.6.0",
   "release": "2022-04-01",
-  "strategy": "Dark Mechanicus Armeen haben einen Strategiewert von 3.",
-  "Initiative": "The Chaos Warbringer formation has an Initiative Rating of 1+. Alle anderen Verbände haben eine Initiativewert von 2+.",
+  "strategy": "Dark Mechanicus armies have a Strategy Rating of 3.",
+  "Initiative": "The Chaos Warbringer formation has an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
-    "Beschwörung",
-    "QT Beschwörungs Regeln",
+    "Summoning",
+    "QT Summoning Rules",
     "Fickle Masters",
-    "QT Eternal Animösität"
+    "QT Eternal Animosity"
   ],
   "usage": [
-    "The following army list allows you to field an army from the Traitor Titan Legions mit Dark Mechanicus support."
+    "The following army list allows you to field an army from the Traitor Titan Legions with Dark Mechanicus support."
   ],
   "units": [
     {
@@ -20,15 +20,15 @@
       "units": [
         "Chaos Icon",
         "Hell-Strider",
-        "Höllenritter",
+        "Hell-Knight",
         "Hell-Scourge",
-        "Ritter-Desecrator",
-        "Ritter-Rampager",
-        "Ritter-Despoiler",
-        "Ritter-Renegade",
-        "Ritter-Tyrant",
-        "Ritter-Doomglaive",
-        "Ritter-Perfidor",
+        "Knight-Desecrator",
+        "Knight-Rampager",
+        "Knight-Despoiler",
+        "Knight-Renegade",
+        "Knight-Tyrant",
+        "Knight-Doomglaive",
+        "Knight-Perfidor",
         "Arch-Heretek",
         "Hellwright",
         "Chaos Squats",
@@ -43,23 +43,23 @@
         "The Kaban Machine"
       ],
       "unitRules": [
-         "Dämonischer Fokus",
+         "Daemonic Focus",
         "Daemon Engine (x)",
-        "Schwergepanzertes Fahrzeug (H-AV)",
-        "Deflektorschilde",
-        "Schildbohrer",
-        "Schildstörer",
-        "Lanze"
+        "Heavy Armoured Vehicle (H-AV)",
+        "Void Shields",
+        "Shield Piercer",
+        "Shield Disruptor",
+        "Lance"
       ]
     },
     {
       "from": "daemons.json",
       "units": [
-        "Dämonetten des Slaanesh",
-        "Plaguebearers des Nurgle",
-        "Bloodletters des Khorne",
-        "Horrors des Tzeentch",
-        "Dämonenbestien des ungeteilten Chaos"
+        "Daemonettes of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Bloodletters of Khorne",
+        "Horrors of Tzeentch",
+        "Daemonic Beasts of Chaos Undivided"
       ],
       "unitRules": [
       ]
@@ -70,7 +70,7 @@
         "Chaos Warbringer"
       ],
       "unitRules": [
-        "Deflektorschilde"
+        "Void Shields"
       ]
     },
     {
@@ -86,14 +86,14 @@
   ],
   "sections": [
     {
-      "name": "Hell-Forge Kern Verbände",
+      "name": "Hell-Forge Core formations",
       "formations": [
         {
-          "name": "Hell-Forge Manipel",
-          "units": "Ein Hellwright, eleven Chaos Squats",
+          "name": "Hell-Forge Maniple",
+          "units": "One Hellwright, eleven Chaos Squats",
           "extraUnits": [
-            "Ersetze vier Chaos Squats mit vier Phospexors: 25 Punkte",
-            "Füge zwei Krios Lightning, zwei Krios Venators oder eine Ordinatus Hereticus: 125 Punkte",
+            "Replace four Chaos Squats with four Phospexors: 25 points",
+            "Add two Krios Lightning, two Krios Venators, or one Ordinatus Hereticus: 125 points",
             "Arch-Heretek",
             "The Kaban Machine",
             "Hell-Forge Transport"
@@ -103,68 +103,68 @@
       ]
     },
     {
-      "name": "Daemonic Banner Verbände",
-      "description": "Bis zu drei pro Hell-Forge Kern formation. Army may not mix Nurgle/Tzeentch oder Slaanesh/Khorne Verbände.",
+      "name": "Daemonic Banner Formations",
+      "description": "Up to three for each Hell-Forge Core formation. Army may not mix Nurgle/Tzeentch or Slaanesh/Khorne formations.",
       "formations": [
         {
-          "name": "Höllenritter of Slaanesh",
-          "units": "Dämonischer Pakt, zwei Höllenritter",
+          "name": "Hell-Knights of Slaanesh",
+          "units": "Daemonic Pact, two Hell-Knights",
           "extraUnits": [
-            "Füge einen zusätzlichen Höllenritter: 100 Punkte"
+            "Add an additional Hell-Knight: 100 points"
           ],
           "points": 300
         },
         {
           "name": "Hell-Scourges of Slaanesh",
-          "units": "Dämonischer Pakt, zwei Hell-Scourges",
+          "units": "Daemonic Pact, two Hell-Scourges",
           "extraUnits": [
-            "Füge einen zusätzlichen Höllenritter: 100 Punkte"
+            "Add an additional Hell-Knight: 100 points"
           ],
           "points": 300
         },
         {
           "name": "Hell-Striders of Slaanesh",
-          "units": "Dämonischer Pakt, vier Hell-Striders",
+          "units": "Daemonic Pact, four Hell-Striders",
           "extraUnits": [
-            "Füge einen zusätzlichen Hell-Strider: 50 Punkte"
+            "Add an additional Hell-Strider: 50 points"
           ],
           "points": 250
         },
         {
-          "name": "Ritter-Despoilers des Tzeentch",
-          "units": "Dämonischer Pakt, zwei Ritter-Despoilers",
+          "name": "Knight-Despoilers of Tzeentch",
+          "units": "Daemonic Pact, two Knight-Despoilers",
           "extraUnits": [
             "Chaos Icon"
           ],
           "points": 350
         },
         {
-          "name": "Ritter-Desecrators des Nurgle",
-          "units": "Dämonischer Pakt, zwei Ritter-Desecrators",
+          "name": "Knight-Desecrators of Nurgle",
+          "units": "Daemonic Pact, two Knight-Desecrators",
           "extraUnits": [
             "Chaos Icon"
           ],
           "points": 350
         },
         {
-          "name": "Ritter-Rampagers des Khorne",
-          "units": "Dämonischer Pakt, zwei Ritter-Rampagers",
+          "name": "Knight-Rampagers of Khorne",
+          "units": "Daemonic Pact, two Knight-Rampagers",
           "extraUnits": [
             "Chaos Icon"
           ],
           "points": 350
         },
         {
-          "name": "Ritter-Renegades of Chaos Undivided",
-          "units": "Dämonischer Pakt, zwei Ritter-Renegades",
+          "name": "Knight-Renegades of Chaos Undivided",
+          "units": "Daemonic Pact, two Knight-Renegades",
           "extraUnits": [
             "Chaos Icon"
           ],
           "points": 350
         },
         {
-          "name": "Ritter-Tyrant of Chaos Undivided",
-          "units": "Dämonischer Pakt, eine Ritter-Tyrant",
+          "name": "Knight-Tyrant of Chaos Undivided",
+          "units": "Daemonic Pact, one Knight-Tyrant",
           "extraUnits": [
             "Chaos Icon"
           ],
@@ -172,61 +172,61 @@
         },
         {
           "name": "Armigers of Chaos Undivided",
-          "units": "Dämonischer Pakt, vier Ritter-Doomglaives oder vier Ritter-Perfidors",
+          "units": "Daemonic Pact, four Knight-Doomglaives or four Knight-Perfidors",
           "extraUnits": [
-            "Füge einen zusätzlichen Ritter-Doomglaive oder Ritter-Perfidor (formation may not mix configurations): 50 Punkte"
+            "Add an additional Knight-Doomglaive or Knight-Perfidor (formation may not mix configurations): 50 points"
           ],
           "points": 250
         }
       ]
     },
     {
-      "name": "Hell-Forge Support, Traitor Titan und Chaos Navy Allies",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände.",
+      "name": "Hell-Forge Support, Traitor Titan and Chaos Navy Allies",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
           "name": "Chrono-Gladiators",
-          "units": "Sechs Chrono-Gladiators",
+          "units": "Six Chrono-Gladiators",
           "extraUnits": [
           ],
           "points": 200
         },
         {
           "name": "Ordinatus Hereticus",
-          "units": "Zwei Ordinatus Hereticus",
+          "units": "Two Ordinatus Hereticus",
           "extraUnits": [
-            "Upgrade eine Battle Weapon in the formation to a Support Weapon: 25 Punkte",
+            "Upgrade one Battle Weapon in the formation to a Support Weapon: 25 points",
             "The Kaban Machine"
           ],
           "points": 325
         },
         {
           "name": "0-1 Ordinatus Hereticus Majoris",
-          "units": "Ein Ordinatus Retlaxi",
+          "units": "One Ordinatus Retlaxi",
           "extraUnits": [
-            "Upgrade the Ordinatus Retlaxi to an Ordinatus Temporia (25 Punkte) oder Ordinatus Cyclothrathe (50 Punkte)",
-            "Oberbefehlshaber"
+            "Upgrade the Ordinatus Retlaxi to an Ordinatus Temporia (25 points) or Ordinatus Cyclothrathe (50 points)",
+            "Supreme Commander"
           ],
           "points": 425
         },
         {
           "name": "Chaos Warbringer",
-          "units": "Ein Chaos Warbringer",
+          "units": "One Chaos Warbringer",
           "points": 650
         },
         {
           "name": "Heldrakes",
-          "units": "Zwei Heldrakes",
+          "units": "Two Heldrakes",
           "points": 225
         },
         {
           "name": "Harbringer",
-          "units": "Ein Harbringer Bomber",
+          "units": "One Harbringer Bomber",
           "points": 300
         },
         {
           "name": "0-1 Chaos Battleship",
-          "units": "Ein Despoiler Class Battleship",
+          "units": "One Despoiler Class Battleship",
           "extraUnits": [
           ],
           "points": 200
@@ -235,41 +235,41 @@
     },
     {
       "name": "Daemon Pool",
-      "description": "Any amount may be spent on Daemon Pool Punkte",
+      "description": "Any amount may be spent on Daemon Pool points",
       "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool Punkte. Füge eine Lesser Daemon pool point pro Dämonischer Pakt.",
+          "units": "Any amount of Lesser Daemon Pool points. Add one Lesser Daemon pool point for each Daemonic Pact.",
           "points": 15
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Questor Traitoris Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro formation",
+    "title": "Questor Traitoris Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "(0-1 pro army) Oberbefehlshaber",
-        "description": "Füge an Arch-Heretek to a Hellwright unit oder an Ordinatus Hereticus Majoris",
-        "points": "100 Punkte"
+        "name": "(0-1 per army) Supreme Commander",
+        "description": "Add an Arch-Heretek to a Hellwright unit or an Ordinatus Hereticus Majoris",
+        "points": "100 points"
       },
       {
-        "name": "(0-1 pro army) The Kaban Machine",
-        "description": "Füge the Kaban Machine to the formation",
-        "points": "200 Punkte"
+        "name": "(0-1 per army) The Kaban Machine",
+        "description": "Add the Kaban Machine to the formation",
+        "points": "200 points"
       },
       {
         "name": "Chaos Icon",
-        "description": "Füge a Chaos Icon to the formation",
-        "points": "50 Punkte"
+        "description": "Add a Chaos Icon to the formation",
+        "points": "50 points"
       },
       {
         "name": "Hell-Forge Transport",
-        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle is completely empty und no unit lacks transport.",
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle is completely empty, and no unit lacks transport.",
         "points": [
-          "Chaos Rhino: 10 Punkte",
-          "Triaros Armoured Despoiler: 75 Punkte"
+          "Chaos Rhino: 10 points",
+          "Triaros Armoured Despoiler: 75 points"
         ]
       }
     ]

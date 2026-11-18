@@ -1,11 +1,11 @@
 [
   {
-    "name": "Daemon Legion Streitmächte",
+    "name": "Daemon Legion Forces",
     "specialRules": [
     ],
     "unit": [
       {
-        "name": "Exalted Hüter der Geheimnisse",
+        "name": "Exalted Keeper of Secrets",
         "type": "WE",
         "speed": 20,
         "armour": 4,
@@ -16,21 +16,21 @@
           "Lash of Torment"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Anführer",
-          "Befehlshaber",
-          "Inspirierend",
-          "Dämonischer Fokus",
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
           "Warp Rift",
-          "Geländegängig",
-          "Verbesserte Beschwörung (+W3)"
+          "Walker",
+          "Augment Summoning (+D3)"
         ],
-        "crit": "The Exalted Greater Daemon wird zerstört. All summoned daemons within 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
       {
-        "name": "Hüter der Geheimnisse",
+        "name": "Keeper of Secrets",
         "type": "WE",
         "speed": 20,
         "armour": 4,
@@ -41,15 +41,15 @@
           "Lash of Torment"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Inspirierend",
-          "Dämonischer Fokus",
-          "Geländegängig",
-          "Verbesserte Beschwörung (+1)"
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Augment Summoning (+1)"
         ],
-        "crit": "The Greater Daemon wird zerstört. Any summoned Daemon Einheiten innerhalb von 5cm are destroyed on 5+"
+        "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
       {
         "name": "Herald of Slaanesh",
@@ -59,13 +59,13 @@
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Stachel-Klauen",
+          "Barbed Claws",
           "Cacophonic Blast"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
@@ -76,61 +76,61 @@
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Stachel-Klauen",
+          "Barbed Claws",
           "Cacophonic Blast"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Dämonetten des Slaanesh",
+        "name": "Daemonettes of Slaanesh",
         "type": "INF",
         "speed": 20,
         "armour": 4,
         "cc": 3,
         "weapons": [
-          "Piercing Klauen"
+          "Piercing Claws"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Slaaneshbestien",
+        "name": "Fiends of Slaanesh",
         "type": "INF",
         "speed": 35,
         "armour": 5,
         "cc": 3,
         "weapons": [
-          "Klauen"
+          "Claws"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Jägerinnen des Slaanesh",
+        "name": "Seekers of Slaanesh",
         "type": "INF",
         "speed": 35,
         "armour": 5,
         "cc": 2,
         "weapons": [
-          "Stachel-Klauen"
+          "Barbed Claws"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf",
-          "Beritten",
-          "Geländegängig"
+          "Expendable",
+          "Invulnerable Save",
+          "Mounted",
+          "Walker"
         ]
       },
       {
-        "name": "Exalted Großer Verpester",
+        "name": "Exalted Great Unclean One",
         "type": "WE",
         "speed": 15,
         "armour": 4,
@@ -141,21 +141,21 @@
           "Filth Mace"
         ],
         "specialRules": [
-          "Schadenskapazität 5",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Anführer",
-          "Befehlshaber",
-          "Inspirierend",
-          "Dämonischer Fokus",
+          "Damage Capacity 5",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
           "Warp Rift",
-          "Geländegängig",
-          "Verbesserte Beschwörung (+W3)"
+          "Walker",
+          "Augment Summoning (+D3)"
         ],
-        "crit": "The Exalted Greater Daemon wird zerstört. All summoned daemons within 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
       {
-        "name": "Großer Verpester",
+        "name": "Great Unclean One",
         "type": "WE",
         "speed": 15,
         "armour": 4,
@@ -166,18 +166,18 @@
           "Filth Mace"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Inspirierend",
-          "Dämonischer Fokus",
-          "Geländegängig",
-          "Verbesserte Beschwörung (+1)"
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Augment Summoning (+1)"
         ],
-        "crit": "The Greater Daemon wird zerstört. Any summoned Daemon Einheiten innerhalb von 5cm are destroyed on 5+"
+        "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
       {
-        "name": "Herald des Nurgle on Palanquin",
+        "name": "Herald of Nurgle on Palanquin",
         "type": "INF",
         "speed": 15,
         "armour": 3,
@@ -188,13 +188,13 @@
           "Nurglings"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Herald des Nurgle on Blight Fly",
+        "name": "Herald of Nurgle on Blight Fly",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -205,30 +205,29 @@
           "Blight Fly"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Beritten",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Daemonic Focus",
+          "Mounted",
+          "Jump Packs",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Plaguebearers des Nurgle",
+        "name": "Plaguebearers of Nurgle",
         "type": "INF",
         "speed": 15,
         "armour": 3,
         "cc": 3,
         "weapons": [
-          "Plagueswords",
-          "Fliegenwolke"
+          "Plagueswords"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Beasts des Nurgle",
+        "name": "Beasts of Nurgle",
         "type": "INF",
         "speed": 25,
         "armour": 4,
@@ -237,12 +236,12 @@
           "Slobbering Affection"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Plague Drones des Nurgle",
+        "name": "Plague Drones of Nurgle",
         "type": "INF",
         "speed": 25,
         "armour": 4,
@@ -253,80 +252,80 @@
           "Blight Fly"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Beritten",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Mounted",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Exalted Blutdämon",
+        "name": "Exalted Bloodthirster",
         "type": "WE",
         "speed": 30,
         "armour": 4,
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Axe des Khorne",
-          "Lash des Khorne"
+          "Axe of Khorne",
+          "Lash of Khorne"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Anführer",
-          "Befehlshaber",
-          "Inspirierend",
-          "Dämonischer Fokus",
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
           "Warp Rift",
-          "Geländegängig",
-          "Sprungmodule",
-          "Verbesserte Beschwörung (+W3)"
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+D3)"
         ],
-        "crit": "The Exalted Greater Daemon wird zerstört. All summoned daemons within 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All summoned daemons within 5cm are destroyed."
       },
       {
-        "name": "Blutdämon",
+        "name": "Bloodthirster",
         "type": "WE",
         "speed": 30,
         "armour": 4,
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Axe des Khorne",
-          "Lash des Khorne"
+          "Axe of Khorne",
+          "Lash of Khorne"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Inspirierend",
-          "Dämonischer Fokus",
-          "Geländegängig",
-          "Sprungmodule",
-          "Verbesserte Beschwörung (+1)"
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+1)"
         ],
-        "crit": "The Greater Daemon wird zerstört. Any summoned Daemon Einheiten innerhalb von 5cm are destroyed on 5+"
+        "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+"
       },
       {
-        "name": "Herald des Khorne on Skull Geschütz",
+        "name": "Herald of Khorne on Skull Cannon",
         "type": "LV",
         "speed": 20,
         "armour": 4,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Skull Geschütz"
+          "Skull Cannon"
         ],
         "specialRules": [
-            "Dämonischer Fokus",
-            "Infiltratoren",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+            "Daemonic Focus",
+            "Infiltrators",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Herald des Khorne on Juggernaut",
+        "name": "Herald of Khorne on Juggernaut",
         "type": "INF",
         "speed": 25,
         "armour": 4,
@@ -336,15 +335,15 @@
           "Juggernaut"
         ],
         "specialRules": [
-          "Beritten",
-          "Geländegängig",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Mounted",
+          "Walker",
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Bloodletters des Khorne",
+        "name": "Bloodletters of Khorne",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -353,26 +352,26 @@
           "Hellblades"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Fleshhounds des Khorne",
+        "name": "Fleshhounds of Khorne",
         "type": "INF",
         "speed": 35,
         "armour": 5,
         "cc": 2,
         "weapons": [
-          "Klauen und Zähne"
+          "Claws and Fangs"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Bloodcrushers des Khorne",
+        "name": "Bloodcrushers of Khorne",
         "type": "INF",
         "speed": 25,
         "armour": 4,
@@ -381,14 +380,14 @@
           "Juggernaut"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf",
-          "Beritten",
-          "Geländegängig"
+          "Expendable",
+          "Invulnerable Save",
+          "Mounted",
+          "Walker"
         ]
       },
       {
-        "name": "Exalted Herrscher des Wandels",
+        "name": "Exalted Lord of Change",
         "type": "WE",
         "speed": 30,
         "armour": 4,
@@ -399,22 +398,22 @@
           "Bedlam Staff"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Anführer",
-          "Befehlshaber",
-          "Inspirierend",
-          "Dämonischer Fokus",
+          "Damage Capacity 4",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Leader",
+          "Commander",
+          "Inspiring",
+          "Daemonic Focus",
           "Warp Rift",
-          "Geländegängig",
-          "Sprungmodule",
-          "Verbesserte Beschwörung (+W3)"
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+D3)"
         ],
-        "crit": "The Exalted Greater Daemon wird zerstört. All Daemon Einheiten innerhalb von 5cm are destroyed."
+        "crit": "The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
       },
       {
-        "name": "Herrscher des Wandels",
+        "name": "Lord of Change",
         "type": "WE",
         "speed": 30,
         "armour": 4,
@@ -425,52 +424,52 @@
           "Bedlam Staff"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Unmodifizierter Rettungswurf",
-          "Inspirierend",
-          "Dämonischer Fokus",
-          "Geländegängig",
-          "Sprungmodule",
-          "Verbesserte Beschwörung (+1)"
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Inspiring",
+          "Daemonic Focus",
+          "Walker",
+          "Jump Pack",
+          "Augment Summoning (+1)"
         ],
-        "crit": "The Greater Daemon wird zerstört. Any summoned Daemon Einheiten innerhalb von 5cm are destroyed on 5+."
+        "crit": "The Greater Daemon is destroyed. Any summoned Daemon units within 5cm are destroyed on 5+."
       },
       {
-        "name": "Herald des Tzeentch",
+        "name": "Herald of Tzeentch",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Violet Fire des Tzeentch"
+          "Violet Fire of Tzeentch"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Herald des Tzeentch on Burning Chariot",
+        "name": "Herald of Tzeentch on Burning Chariot",
         "type": "LV",
         "speed": 30,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Violet Fire des Tzeentch"
+          "Violet Fire of Tzeentch"
         ],
         "specialRules": [
-          "Sprungmodule",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Verbesserte Beschwörung (+1)"
+          "Jump Packs",
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Augment Summoning (+1)"
         ]
       },
       {
-        "name": "Horrors des Tzeentch",
+        "name": "Horrors of Tzeentch",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -480,52 +479,52 @@
           "Sorcerous Bolts"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Flammenwerfer des Tzeentch",
+        "name": "Flamers of Tzeentch",
         "type": "INF",
         "speed": 20,
         "armour": 5,
         "cc": 5,
         "ff": 2,
         "weapons": [
-          "Flames des Tzeentch"
+          "Flames of Tzeentch"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Screamers des Tzeentch",
+        "name": "Screamers of Tzeentch",
         "type": "INF",
         "speed": 30,
         "armour": 5,
         "cc": 4,
         "weapons": [
-          "Klauen und Zähne"
+          "Claws and Fangs"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenbestien des ungeteilten Chaos",
+        "name": "Daemonic Beasts of Chaos Undivided",
         "type": "INF",
         "speed": 30,
         "armour": 5,
         "cc": 3,
         "weapons": [
-          "Klauen"
+          "Claws"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Unmodifizierter Rettungswurf"
+          "Expendable",
+          "Invulnerable Save"
         ]
       },
       {
@@ -535,13 +534,13 @@
         "armour": 5,
         "cc": 4,
         "weapons": [
-          "Klauen"
+          "Claws"
         ],
         "specialRules": [
-          "In Mitternacht gehüllt",
-          "Entbehrlich",
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf"
+          "In Midnight Clad",
+          "Expendable",
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
@@ -552,14 +551,14 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Ernter Geschütz",
+          "Harvester Cannon",
           "Warpsword"
         ],
         "specialRules": [
-          "Dämonischer Fokus",
-          "Infiltratoren",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf"
+          "Daemonic Focus",
+          "Infiltrators",
+          "Walker",
+          "Invulnerable Save"
         ]
       }
     ]

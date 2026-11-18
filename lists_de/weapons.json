@@ -1007,7 +1007,7 @@
             ]
         },
         {
-            "name": "AC Piston-Driven Klauen",
+            "name": "AC Kolbengetriebene  Klauen",
             "modes": [
                 {
                     "firepower": "AA6+",
@@ -1772,7 +1772,7 @@
             ]
         },
         {
-            "name": "Berserker Kampf-Car",
+            "name": "Berserker Kampf-Wagen",
             "modes": [
                 {
                     "firepower": "2x AP5+/AT6+",
@@ -1784,7 +1784,7 @@
             ]
         },
         {
-            "name": "Dragon Kampf-Car",
+            "name": "Drachen Kampf-Wagen",
             "modes": [
                 {
                     "firepower": "3x AP4+",
@@ -1803,7 +1803,7 @@
             ]
         },
         {
-            "name": "Belagerungsmörser Kampf-Car",
+            "name": "Belagerungsmörser Kampf-Wagen",
             "modes": [
                 {
                     "firepower": "2BP",
@@ -1817,7 +1817,7 @@
             ]
         },
         {
-            "name": "0–1 Bombe Kampf-Car",
+            "name": "0–1 Bomben Kampf-Wagen",
             "modes": [
                 {
                     "firepower": "3BP",

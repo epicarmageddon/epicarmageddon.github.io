@@ -1,68 +1,68 @@
 [
   {
-    "name": "Symbionten Streitmächte",
+    "name": "Genestealer Forces",
     "specialRules": [
     ],
     "unit": [
       {
-        "name": "Symbionten Patriarch",
+        "name": "Genestealer Patriarch",
         "type": "CH",
         "weapons": [
-          "Large Zangenkrallen||EA(+1)"
+          "Large Rending Claws||EA(+1)"
         ],
         "specialRules": [
-          "Erweiterter Befehlsradius",
-          "Inspirierend",
-          "Unmodifizierter Rettungswurf",
-          "Verstärkte Panzerung",
-          "Oberbefehlshaber"
+          "Extended Command",
+          "Inspiring",
+          "Invulnerable Save",
+          "Reinforced Armour",
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Symbionten Magus",
+        "name": "Genestealer Magus",
         "type": "CH",
         "weapons": [
           "Mental Onslaught"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Erweiterter Befehlsradius",
-          "Unmodifizierter Rettungswurf",
-          "Anführer"
+          "Commander",
+          "Extended Command",
+          "Invulnerable Save",
+          "Leader"
         ]
       },
       {
-        "name": "Symbionten Primus",
+        "name": "Genestealer Primus",
         "type": "CH",
         "weapons": [
-          "Large Zangenkrallen||EA(+1)"
+          "Large Rending Claws||EA(+1)"
         ],
         "specialRules": [
-          "Inspirierend",
-          "Unmodifizierter Rettungswurf"
+          "Inspiring",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Hybrid Ikonenwächter",
-        "type": "CH",
-        "weapons": [
-          "n/a"
-        ],
-        "specialRules": [
-          "Unmodifizierter Rettungswurf",
-          "Anführer"
-        ]
-      },
-      {
-        "name": "Symbiarch",
+        "name": "Hybrid Iconward",
         "type": "CH",
         "weapons": [
           "n/a"
         ],
         "specialRules": [
-          "Inspirierend",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Brood Lord",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -72,27 +72,27 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Schweres Maschinengewehr",
-          "Automatikpistolen",
-          "Zangenkrallen"
+          "Heavy Stubber",
+          "Autopistols",
+          "Rending Claws"
         ],
         "specialRules": [
-          "Entbehrlich"
+          "Expendable"
         ],
-        "notes": "Eine von zwei Einheiten (aufgerundet) hat eine Schweres Maschinengewehr"
+        "notes": "One in every two units (rounding up) has a Heavy Stubber"
       },
       {
-        "name": "Symbionten",
+        "name": "Genestealers",
         "type": "INF",
         "speed": 20,
         "armour": 6,
         "cc": 2,
         "weapons": [
-          "Zangenkrallen"
+          "Rending Claws"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Infiltratoren"
+          "Scout",
+          "Infiltrators"
         ]
       },
       {
@@ -106,7 +106,7 @@
         ],
         "specialRules": [
         ],
-        "notes": "Zählt als zwei Einheiten für die Transport Regel."
+        "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
         "name": "Metamorph Hybrids",
@@ -117,12 +117,12 @@
         "ff": 5,
         "weapons": [
           "Blasting Charges",
-          "Flammenpistole",
-          "Zangenkrallen"
+          "Hand Flamers",
+          "Rending Claws"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Ehrengarde"
+          "Infiltrators",
+          "Honour Guard"
         ]
       },
       {
@@ -132,29 +132,29 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone",
-          "Automatikgewehr"
+          "Autocannon",
+          "Autoguns"
         ],
-        "notes": "Eine von zwei Einheiten (aufgerundet) hat eine Maschinenkanone."
+        "notes": "One in every two units (rounding up) has an Autocannon"
       },
       {
-        "name": "Neophyte Unterstützungstrupps",
+        "name": "Neophyte Fire Support",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone|2"
+          "Autocannon|2"
         ]
       },
       {
-        "name": "Cult Gefechtsmörser",
+        "name": "Cult Heavy Mortar",
         "type": "INF",
         "speed": 10,
         "cc": 5,
         "ff": 6,
         "weapons": [
-          "Gefechtsmörser"
+          "Heavy Mortar"
         ]
       },
       {
@@ -165,11 +165,11 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Automatikpistolen",
-          "Kettenschwerter"
+          "Autopistols",
+          "Chainswords"
         ],
         "specialRules": [
-          "Beritten"
+          "Mounted"
         ]
       },
       {
@@ -192,9 +192,9 @@
         "ff": 6,
         "weapons": [
           "Heavy Mining Laser|0-1",
-          "Seismic Heavy Geschütz|0-1"
+          "Seismic Heavy Cannon|0-1"
         ],
-        "notes": "Entweder mit Heavy Mining Laser oder a Seismic Heavy Geschütz."
+        "notes": "Armed with either a Heavy Mining Laser or a Seismic Heavy Cannon."
       },
       {
         "name": "Technical",
@@ -204,7 +204,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr (Turm)"
+          "Twin Heavy Stubber Turret"
         ]
       },
       {
@@ -215,9 +215,9 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schweres Maschinengewehr"
+          "Heavy Stubber"
         ],
-        "notes": "May transport zwei Infanterie Einheiten without Beritten oder Sprungmodule. Aberrants takes zwei spaces jeweils."
+        "notes": "May transport two infantry units without Mounted or Jump Packs. Aberrants takes two spaces each."
       },
       {
         "name": "Coven Limousine",
@@ -227,12 +227,12 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Granatwerfers"
+          "Grenade Launchers"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Goliath Truck",
@@ -242,9 +242,9 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Seismic Heavy Geschütz"
+          "Seismic Heavy Cannon"
         ],
-        "notes": "May transport zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren. Aberrants takes zwei spaces jeweils."
+        "notes": "May transport two infantry units without Jump Packs or Mounted. Aberrants takes two spaces each."
       },
       {
         "name": "Goliath Rockgrinder",
@@ -257,26 +257,26 @@
           "Drilldozer Blade"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ],
-        "notes": "May transport zwei Infanterie unit ohne Sprungmodule oder Beritten Eigenschaft transportieren. Aberrants takes zwei spaces jeweils."
+        "notes": "May transport two infantry unit without Jump Packs or Mounted. Aberrants takes two spaces each."
       },
       {
-        "name": "Haul Truck Geschütz",
+        "name": "Haul Truck Cannon",
         "type": "WE",
         "speed": 15,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Retrofitted Verteidigungslaser||FxF",
-          "Synchronisiertes schweres Maschinengewehr|2|FxF"
+          "Retrofitted Defense Laser||FxF",
+          "Twin Heavy Stubber|2|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Furchtlos"
+          "Damage Capacity 4",
+          "Fearless"
         ],
-        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All Einheiten innerhalb von 5cm of the model suffer a hit on a roll of 4+."
+        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 5cm of the model suffer a hit on a roll of 4+."
       },
       {
         "name": "Assault Excavator",
@@ -287,13 +287,13 @@
         "ff": 6,
         "weapons": [
           "Excavator Power Arms",
-          "Synchronisiertes schweres Maschinengewehr|2|FxF"
+          "Twin Heavy Stubber|2|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Damage Capacity 4",
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
         ],
         "crit": "The unit takes an extra point of damage."
       }

@@ -1,34 +1,37 @@
 {
   "fraction": "Astra Militarum",
-  "army": "Stoßtruppen von Cadia",
+  "army": "Cadian Shock Troops",
   "version": "0.6.2",
   "release": "2022-04-01",
-  "strategy": "Stoßtruppen von Cadia Armeen haben einen Strategiewert von 2.",
-  "Initiative": "Collegia Titanica Verbände haben eine Initiativewert von 1+. Alle anderen Verbände haben eine Initiativewert von 2+.",
+  "strategy": "Cadian Shock Troops armies have a Strategy Rating of 2.",
+  "Initiative": "Collegia Titanica formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
-    "Mut, Disziplin und Loyalität"
+    "Courage, Discipline and Loyalty"
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on a Cadian Shock Troops Regiment"
   ],
   "units": [
     {
       "from": "IG.json",
       "units": [
-        "Cadianischer Oberbefehlshaber",
-        "Cadianischer Befehlshaber",
-        "Kommissar",
-        "Weißbleche",
-        "Infanterie",
+        "Cadian Supreme Commander",
+        "Cadian Commander",
+        "Commissar",
+        "Whiteshields",
+        "Infantry",
         "Kasrkin",
-        "Gepanzerter Sentinel",
+        "Armoured Sentinel",
         "Basilisk",
         "Medusa",
-        "Todesstoss-Raketensystem",
-        "Chimäre",
-        "Höllenhund",
+        "Deathstrike",
+        "Chimera",
+        "Hellhound",
         "Leman Russ",
-        "Leman Russ Belagerer",
-        "Leman Russ Vollstrecker",
-        "Crassus Sturmtransporter",
-        "Praetor Angriffswerfer",
+        "Leman Russ Demolisher",
+        "Leman Russ Punisher",
+        "Crassus Assault Transport",
+        "Praetor Assault Launcher",
         "Stormlord",
         "Shadowsword",
         "Baneblade",
@@ -36,7 +39,7 @@
         "Stormblade"
       ],
       "unitRules": [
-        "Schwergepanzertes Fahrzeug (H-AV)"
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -53,17 +56,17 @@
         "Reaver Titan"
       ],
       "unitRules": [
-        "Deflektorschilde",
-        "Unabhängig"
+        "Void Shields",
+        "Independent"
       ]
     },
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Thunderbolt",
+        "Thunderbolt Fighter",
         "Marauder Bomber",
-        "Lunar-Klasse Kreuzer",
-        "Imperator-Klasse Schlachtschiff"
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
       ],
       "unitRules": [
       ]
@@ -71,30 +74,30 @@
   ],
   "sections": [
     {
-      "name": "Cadian Kern Kompanieverbände",
+      "name": "Cadian Core Company Formations",
       "formations": [
         {
-          "name": "0–1 Regiments Hauptquartier",
-          "units": "Ein Cadianischer Oberbefehlshaber mit einem Kommissar, acht Kasrkin, ein Stormlord.",
+          "name": "0–1 Regimental HQ",
+          "units": "One Cadian Supreme Commander with a Commissar, eight Kasrkin, one Stormlord.",
           "extraUnits": [
-            "Werte den Stormlord zu einem Leviathan auf: 125 Punkte",
+            "Upgrade the Stormlord to an Leviathan: 125 points",
             "Leman Russ",
-            "Superschwere Panzer"
+            "Super-Heavy Tank"
           ],
           "points": 400
         },
         {
-          "name": "Weißblech Kompanie",
-          "units": "Ein Cadianischer Befehlshaber mit einem Kommissar, fünfzehn Weißbleche, zwei Stormlords.",
+          "name": "Whiteshield Company",
+          "units": "One Cadian Commander with a Commissar, fifteen Whiteshields, two Stormlords.",
           "extraUnits": [
-            "Leman Russ Schwadron",
-            "Superschwere Panzer"
+            "Leman Russ Squadron",
+            "Super-Heavy Tank"
           ],
           "points": 400
         },
         {
-          "name": "Stoßtruppen Kompanie",
-          "units": "Ein Cadianischer Befehlshaber mit einem Kommissar, elf Infanterie Einheiten, zwei Crassus Sturmtransporter",
+          "name": "Shock Trooper Company",
+          "units": "One Cadian Commander with a Commissar, eleven Infantry units, two Crassus Assault Transports",
           "upgrades": [
           ],
           "points": 400
@@ -102,134 +105,134 @@
       ]
     },
     {
-      "name": "Cadianische Unterstützungsverbände",
-      "description": "Bis zu drei Cadianische Unterstützungsverbände pro Cadianische Kern Kompanieverband.",
+      "name": "Cadian Support Formations",
+      "description": "Up to three Cadian Support Formations for each Cadian Core Company Formation.",
       "formations": [
         {
-          "name": "Kasrkin Zug",
-          "units": "Sechs Kasrkin, ein Crassus Sturmtransporter",
+          "name": "Kasrkin Platoon",
+          "units": "Six Kasrkin, one Crassus Assault Transport",
           "points": 275,
           "upgrades": [
           ]
         },
         {
-          "name": "Weißblech Zug",
-          "units": "Acht Weißbleche, ein Stormlord",
+          "name": "Whiteshield Platoon",
+          "units": "Eight Whiteshields, one Stormlord",
           "upgrades": [
           ],
           "points": 275
         },
         {
-          "name": "Praetor Batterie",
-          "units": "Ein Praetor Angriffswerfer",
+          "name": "Praetor Battery",
+          "units": "One Praetor Assault Launcher",
           "points": 275,
           "upgrades": [
           ]
         },
         {
-          "name": "Artillerie Batterie",
-          "units": "Drei Basilisken, drei Bombard oder vier Medusa",
+          "name": "Artillery Battery",
+          "units": "Three Basilisks, three Bombards or four Medusa",
           "extraUnits": [
-            "Füge ein Todesstoss-Raketensystem hinzu: 75 Punkte"
+            "Add one Deathstrike: 75 points"
           ],
           "points": 225
         },
         {
-          "name": "Flak Batterie",
-          "units": "Drei Hydra",
+          "name": "Flak Battery",
+          "units": "Three Hydras",
           "upgrades": [
           ],
           "points": 150
         },
         {
-          "name": "Höllenhund Zug",
-          "units": "Sechs Höllenhunde",
+          "name": "Hellhound Platoon",
+          "units": "Six Hellhounds",
           "points": 250,
           "upgrades": [
-            "Füge eine Hydra hinzu: 50 Punkte"
+            "Add one Hydra: 50 points"
           ]
         },
         {
-          "name": "Leman Russ Zug",
-          "units": "Sechs Leman Russ, Leman Russ Belagerer oder Leman Russ Punishers",
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ, Leman Russ Demolishers or Leman Russ Punishers",
           "points": 375,
           "upgrades": [
-            "Füge eine Hydra hinzu: 50 Punkte"
+            "Add one Hydra: 50 points"
           ]
         },
         {
-          "name": "Gepanzerter Sentinel Schwadron",
-          "units": "Vier Gepanzerte Sentinels",
+          "name": "Armoured Sentinel Squadron",
+          "units": "Four Armoured Sentinels",
           "upgrades": [
           ],
           "points": 125
         },
         {
-          "name": "Superschwerer Zug",
-          "units": "Ein Baneblade, Stormblade oder Stormsword",
+          "name": "Super-Heavy Platoon",
+          "units": "One Baneblade, Stormblade or Stormsword",
           "upgrades": [
-            "Werte einen Baneblade, Stormblade oder Stormsword zu einem Shadowsword auf: 25 Punkte"
+            "Upgrade one Baneblade, Stormblade or Stormsword to a Shadowsword: 25 points"
           ],
           "points": 175
         }
       ]
     },
     {
-      "name": "Collegia Titanica und Verbände der Imperialen Luftstreitkräfte",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für Collegia Titanica und Verbände der Imperialen Luftstreitkräfte ausgegeben werden",
+      "name": "Collegia Titanica and Imperial Navy Formations",
+      "description": "Up to a third of the points available may be spent on Collegia Titanica and Imperial Navy formations",
       "formations": [
         {
-          "name": "Warhound Rudel",
-          "units": "Zwei Warhounds",
+          "name": "Warhound Pack",
+          "units": "Two Warhounds",
           "upgrades": [
           ],
           "points": 475
         },
         {
           "name": "Reaver Titan",
-          "units": "Ein Reaver Titan",
+          "units": "One Reaver Titan",
           "points": 600
         },
         {
-          "name": "Thunderbolt Schwadron",
-          "units": "Zwei Thunderbolts",
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
           "points": 175
         },
         {
-          "name": "Marauder Schwadron",
-          "units": "Zwei Marauder Bomber",
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
           "points": 250
         },
         {
-          "name": "0–1 Orbitalunterstüzung",
-          "units": "Ein Lunar-Klasse Kreuzer",
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
           "points": 150,
           "upgrades": [
-            "Ersetze den Kreuzer mit einem Imperator-Klasse Schlachtschiff: 50 Punkte"
+            "Replace with an Emperor Class Battleship: 50 points"
           ]
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Cadian Erweiterungen",
-    "description": "Jede Erweiterung kann pro Verband einmal ausgewählt werden.",
+    "title": "Cadian Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
         "name": "Leman Russ",
         "options": [
           {
-            "description": "Drei Leman Russ, drei Leman Russ Belagerer oder drei Leman Russ Punishers",
-            "points": "125 Punkte"
+            "description": "Three Leman Russ, three Leman Russ Demolishers, or three Leman Russ Punishers",
+            "points": "125 points"
           }
         ]
       },
       {
-        "name": "Superschwere Panzer",
+        "name": "Super-Heavy Tank",
         "options": [
           {
-            "description": "Ein Baneblade, Stormblade, Stormsword oder Shadowsword",
-            "points": "125 Punkte"
+            "description": "One Baneblade, Stormblade, Stormsword or Shadowsword",
+            "points": "125 points"
           }
         ]
       }

@@ -11,11 +11,11 @@
         "speed": "Fighter",
         "armour": 5,
         "weapons": [
-          "AC Synchronisierter Shuriken Geschütz",
-          "AC Bright Lanze|2"
+          "AC Twin Shuriken Cannon",
+          "AC Bright Lance|2"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -24,7 +24,7 @@
         "speed": "Fighter",
         "armour": 4,
         "weapons": [
-          "AC Bright Lanze|2|"
+          "AC Bright Lance|2|"
         ],
         "specialRules": [
         ]
@@ -32,15 +32,15 @@
       {
         "name": "Phoenix Bomber",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 5,
         "weapons": [
-          "AC Synchronisierter Shuriken Geschütz",
+          "AC Twin Shuriken Cannon",
           "AC Pulse Laser",
           "AC Spinner Array"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -67,13 +67,13 @@
           "AC Scatter Laser"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
+          "Damage Capacity: 2",
           "Planetfall",
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May carry bis zu acht of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders, Swooping Hawks. Wraithguards und Wraithblades take zwei spaces jeweils.",
-        "crit": "The Vampire Raider und all units on board are destroyed."
+        "notes": "May carry up to eight of the following: Farseer, Guardians, Eldar Rangers, Heavy Weapon Platform, Support Weapon Platform, Howling Banshees, Striking Scorpions, Fire Dragons, Dire Avengers, Dark Reapers, Warp Spiders, Swooping Hawks. Wraithguards and Wraithblades take two spaces each.",
+        "crit": "The Vampire Raider and all units on board are destroyed."
       },
       {
         "name": "Vampire Hunter",
@@ -81,15 +81,15 @@
         "speed": "Bomber",
         "armour": 5,
         "weapons": [
-          "AC Vampire Hunter Synchronisierter Pulsar",
-          "AC Synchronisierter Eldar Raketenwerfer",
+          "AC Vampire Hunter Twin Pulsar",
+          "AC Twin Eldar Missile Launcher",
           "AC Scatter Laser"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Verstärkte Panzerung"
+          "Damage Capacity: 2",
+          "Reinforced Armour"
         ],
-        "crit": "The Vampire Hunter wird zerstört."
+        "crit": "The Vampire Hunter is destroyed."
       },
       {
         "name": "Corsair Vampire Hunter",
@@ -97,18 +97,18 @@
         "speed": "Bomber",
         "armour": 5,
         "weapons": [
-          "AC Vampire Hunter Synchronisierter Pulsar",
-          "AC Synchronisierter Phoenix Raketenwerfer",
+          "AC Vampire Hunter Twin Pulsar",
+          "AC Twin Phoenix Missile Launcher",
           "AC Scatter Laser"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Verstärkte Panzerung",
+          "Damage Capacity: 2",
+          "Reinforced Armour",
           "Holofield (5+)",
           "Transport"
         ],
-        "notes": "May carry vier Ghost Walkers, Wasp Walkers.",
-        "crit": "The Corsair Vampire Hunter und all units on board are destroyed."
+        "notes": "May carry four Ghost Walkers, Wasp Walkers.",
+        "crit": "The Corsair Vampire Hunter and all units on board are destroyed."
       },
       {
         "name": "Wraithship",
@@ -118,14 +118,14 @@
             "name": "0-1x Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "4BP, MW"
+                "firepower": "4BP, MW"
               }
             ]
           },
           "Pin Point|0-1|"
         ],
         "specialRules": [
-          "Is equipped mit either Orbital Bombardment oder eine Pin Point attack (may be chosen at the start of battle)"
+          "Is equipped with either Orbital Bombardment or one Pin Point attack (may be chosen at the start of battle)"
         ]
       },
       {
@@ -136,17 +136,17 @@
             "name": "0-1x Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "8BP, MW"
+                "firepower": "8BP, MW"
               }
             ]
           },
           "Pin Point|0-1 2|"
         ],
         "specialRules": [
-          "Is equipped mit either Orbital Bombardment oder zwei Pin Point attacks (may be chosen at the start of battle)",
+          "Is equipped with either Orbital Bombardment or two Pin Point attacks (may be chosen at the start of battle)",
           "Transport"
         ],
-        "notes": "May carry bis zu zwölf Vampires und any units transported within them"
+        "notes": "May carry up to twelve Vampires and any units transported within them"
       }
     ]
   }

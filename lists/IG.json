@@ -1,257 +1,257 @@
 [
   {
-    "name": "Astra Militarum",
+    "name": "Astra Militarum Forces",
     "specialRules": [
     ],
     "unit": [
       {
-        "name": "Catachanischer Oberbefehlshaber",
+        "name": "Catachan Supreme Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer",
-          "Energiewaffe"
+          "Heavy Flamer",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Furchtlos"
+          "Supreme Commander",
+          "Inspiring",
+          "Fearless"
         ]
       },
       {
-        "name": "Stahlegion Oberbefehlshaber",
+        "name": "Steel Legion Supreme Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Energiewaffe",
-          "Maschinenkanone"
+          "Power Weapon",
+          "Autocannon"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Baranischer Belagerungsmeister",
+        "name": "Baran Siegemaster",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr|2|",
-          "Energiewaffe"
+          "Heavy Stubber|2|",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Todeskorps von Krieg Oberbefehlshaber",
+        "name": "DKoK Supreme Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr|2|",
-          "Energiewaffe"
+          "Heavy Stubber|2|",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Cadianischer Oberbefehlshaber",
+        "name": "Cadian Supreme Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Energiewaffe",
-          "Plasmawerfer|2|"
+          "Power Weapon",
+          "Plasma Gun|2|"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Elysianischer Oberbefehlshaber",
+        "name": "Elysian Supreme Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Lasergewehre",
-          "Energiewaffe"
+          "Heavy Bolter",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Gravschirme",
-          "Oberbefehlshaber"
+          "Grav-Chutes",
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Lord Kommissar",
+        "name": "Lord Commissar",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Furchtlos"
+          "Supreme Commander",
+          "Inspiring",
+          "Fearless"
         ]
       },
       {
-        "name": "Valhallanischer Oberbefehlshaber",
+        "name": "Valhallan Supreme Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter",
-          "Flammenwerfer",
-          "Energiewaffe"
+          "Heavy Bolter",
+          "Flamer",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber"
+          "Supreme Commander"
         ]
       },
       {
-        "name": "Elysianischer Befehlshaber",
+        "name": "Elysian Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Lasergewehre"
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Gravschirme",
-          "Befehlshaber"
+          "Grav-Chutes",
+          "Commander"
         ]
       },
       {
-        "name": "Catachanischer Befehlshaber",
+        "name": "Catachan Commander",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer"
+          "Heavy Flamer"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Inspirierend",
-          "Furchtlos"
+          "Commander",
+          "Leader",
+          "Inspiring",
+          "Fearless"
         ]
       },
       {
-        "name": "Stahlegion Befehlshaber",
+        "name": "Steel Legion Commander",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone"
+          "Autocannon"
         ],
         "specialRules": [
-          "Befehlshaber"
+          "Commander"
         ]
       },
       {
-        "name": "Baranischer Befehlshaber",
+        "name": "Baran Commander",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr|2|"
+          "Heavy Stubber|2|"
         ],
         "specialRules": [
-          "Befehlshaber"
+          "Commander"
         ]
       },
       {
-        "name": "Vallhallanischer Befehlshaber",
+        "name": "Valhallan Commander",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter",
-          "Flammenwerfer"
+          "Heavy Bolter",
+          "Flamer"
         ],
         "specialRules": [
-          "Befehlshaber"
+          "Commander"
         ]
       },
       {
-        "name": "Todeskorps von Krieg Befehlshaber",
+        "name": "DKoK Commander",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr|2|"
+          "Heavy Stubber|2|"
         ],
         "specialRules": [
-          "Befehlshaber"
+          "Commander"
         ]
       },
       {
-        "name": "Kommissar Hauptmann",
+        "name": "Commissar-Captain",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Inspirierend",
-          "Furchtlos"
+          "Commander",
+          "Leader",
+          "Inspiring",
+          "Fearless"
         ]
       },
       {
-        "name": "PDS Befehlshaber",
+        "name": "PDF Commander",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Befehlshaber"
+          "Commander"
         ]
       },
       {
-        "name": "Cadianischer Befehlshaber",
+        "name": "Cadian Commander",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Plasmawerfer|2|"
+          "Plasma Gun|2|"
         ],
         "specialRules": [
-          "Befehlshaber"
+          "Commander"
         ]
       },
       {
@@ -262,166 +262,166 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Plasmawerfer|2|"
+          "Plasma Gun|2|"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Befehlshaber"
+          "Scout",
+          "Commander"
         ]
       },
       {
-        "name": "Kommissar",
+        "name": "Commissar",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Anführer",
-          "Inspirierend",
-          "Furchtlos"
+          "Leader",
+          "Inspiring",
+          "Fearless"
         ]
       },
       {
-        "name": "Infanterie",
+        "name": "Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone",
-          "Lasergewehre"
+          "Autocannon",
+          "Lasguns"
         ],
         "specialRules": [
         ],
-        "notes": "Eine von zwei Einheiten (aufgerundet) hat eine Maschinenkanone."
+        "notes": "One in every two units (rounding up) has an Autocannon"
       },
       {
-        "name": "Panzer Infanterie",
+        "name": "Tank Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Lasergewehre"
+          "Lasguns"
         ],
         "specialRules": [
-          "Entbehrlich",
-          "Panzergeleit"
+          "Expendable",
+          "Tank Riders"
         ]
       },
       {
-        "name": "Valhallanische Infanterie",
+        "name": "Valhallan Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter",
-          "Flammenwerfer"
+          "Heavy Bolter",
+          "Flamer"
         ],
         "specialRules": [
         ],
-        "notes": "Eine von zwei Einheiten (aufgerundet) hat einen Schweren Bolter"
+        "notes": "One in every two units (rounding up) has a Heavy Bolter"
       },
       {
-        "name": "PDS Infanterie",
+        "name": "PDF Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr",
-          "Automatikgewehr"
+          "Heavy Stubber",
+          "Autoguns"
         ],
         "specialRules": [
         ],
-        "notes": "Eine von zwei Einheiten (aufgerundet) hat eine Schweres Maschinengewehr"
+        "notes": "One in every two units (rounding up) has a Heavy Stubber"
       },
       {
-        "name": "Belagerungsinfanterie",
+        "name": "Siege Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schweres Maschinengewehr",
-          "Lasergewehre"
+          "Heavy Stubber",
+          "Lasguns"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Angriffsinfanterie",
+        "name": "Assault Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Lasergewehre",
-          "Bayonette"
+          "Lasguns",
+          "Bayonets"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Elysianische Sturmtruppen",
+        "name": "Elysian Drop Troops",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Lasergewehre"
+          "Lasguns"
         ],
         "specialRules": [
-          "Gravschirme"
+          "Grav-Chutes"
         ]
       },
       {
-        "name": "Weißbleche",
+        "name": "Whiteshields",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Lasergewehre"
+          "Lasguns"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Catachanische Infanterie",
+        "name": "Catachan Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Laserpistolen",
-          "Dschungelmesser"
+          "Laspistols",
+          "Jungle Knives"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Mörser Team",
+        "name": "Mortar Team",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Mörser"
+          "Mortar"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Flak Team",
+        "name": "Flakk Team",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Flak Raketenwerfer|2|"
+          "Flakk Missile Launcher|2|"
         ],
         "specialRules": [
         ]
@@ -434,90 +434,90 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Ogrynknarre",
-          "Ogrynwaffen"
+          "Ripper Guns",
+          "Ogryn Weapons"
         ],
         "specialRules": [
         ],
-        "notes": "Zählt als zwei Einheiten für die Transport Regel."
+        "notes": "Counts as two units of INF for the purpose of being transported."
       },
       {
-        "name": "Todesreiter",
+        "name": "Death Riders",
         "type": "INF",
         "speed": 20,
         "armour": 5,
         "cc": 3,
         "ff": 6,
         "weapons": [
-          "Laserpistolen",
-          "Sprenglanzen"
+          "Laspistols",
+          "Hunting Lances"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Beritten",
-          "Geländegängig"
+          "Infiltrators",
+          "Mounted",
+          "Walker"
         ]
       },
       {
-        "name": "Kavallerie",
+        "name": "Rough Riders",
         "type": "INF",
         "speed": 20,
         "armour": 6,
         "cc": 3,
         "ff": 6,
         "weapons": [
-          "Laserpistolen",
-          "Sprenglanzen"
+          "Laspistols",
+          "Hunting Lances"
         ],
         "specialRules": [
-          "Infiltratoren",
-          "Beritten",
-          "Geländegängig",
-          "Aufklärer"
+          "Infiltrators",
+          "Mounted",
+          "Walker",
+          "Scout"
         ]
       },
       {
-        "name": "Scharfschützen",
+        "name": "Snipers",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Scharfschützengewehre"
+          "Sniper Rifles"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Todeswelt Veteranen",
+        "name": "Death World Veterans",
         "type": "INF",
         "speed": 15,
         "armour": 6,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer",
-          "Dschungelmesser"
+          "Heavy Flamer",
+          "Jungle Knives"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Catachanische Teufel",
+        "name": "Catachan Devils",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Multimelter",
-          "Dschungelmesser"
+          "Multi-Melta",
+          "Jungle Knives"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Teleportieren"
+          "Scout",
+          "Teleport"
         ]
       },
       {
@@ -528,117 +528,117 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Melter"
+          "Meltaguns"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Grenadiere",
+        "name": "Grenadiers",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer"
+          "Heavy Flamer"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Pioniere",
+        "name": "Sappers",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer",
-          "Melterbomben"
+          "Heavy Flamer",
+          "Melta Bombs"
         ],
         "specialRules": [
-          "Geländegängig (gilt auch für gegnerische Befestigungen)"
+          "Walker (also works against enemy fortifications)"
         ]
       },
       {
-        "name": "Gardisten",
+        "name": "Storm Troopers",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Plasmawerfer "
+          "Plasma Guns"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Elysianische Gardisten",
+        "name": "Elysian Storm Troopers",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Plasmawerfer "
+          "Plasma Guns"
         ],
         "specialRules": [
-          "Gravschirme",
-          "Aufklärer"
+          "Grav-Chutes",
+          "Scout"
         ]
       },
       {
-        "name": "Unterstützungstrupp",
+        "name": "Fire Support Squad",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone|2|"
+          "Autocannon|2|"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Baranischer Unterstützungstrupp",
+        "name": "Baran Fire Support Squad",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Schweres Maschinengewehr|2|",
-          "Schwerer Flammenwerfer"
+          "Heavy Stubber|2|",
+          "Heavy Flamer"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Elysianischer Unterstützungstrupp",
+        "name": "Elysian Fire Support Squad",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Raketenwerfer"
+          "Missile Launcher|2"
         ],
         "specialRules": [
-          "Gravschirme"
+          "Grav-Chutes"
         ]
       },
       {
-        "name": "Salvengeschütz",
+        "name": "Thudd Gun",
         "type": "INF",
         "speed": 10,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Salvengeschütz"
+          "Thudd Gun"
         ],
         "specialRules": [
         ]
@@ -650,63 +650,63 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Rapier-Lasergeschütz"
+          "Rapier Laser Destroyer"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Tunnelmörser Trupp",
+        "name": "Mole Launcher Squad",
         "type": "INF",
         "speed": 10,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Tunnelmörser"
+          "Mole Launchers"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Tunnelmörser",
+        "name": "Mole Mortar",
         "type": "INF",
         "speed": 10,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Tunnelmörser"
+          "Mole Mortar"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Catachanischer Sentinel",
+        "name": "Catachan Sentinel",
         "type": "LV",
         "speed": 20,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer"
+          "Heavy Flamer"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Geländegängig"
+          "Scout",
+          "Walker"
         ]
       },
       {
-        "name": "Gepanzerter Sentinel",
+        "name": "Armoured Sentinel",
         "type": "LV",
         "speed": 15,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone"
+          "Autocannon"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Geländegängig"
+          "Scout",
+          "Walker"
         ]
       },
       {
@@ -720,27 +720,27 @@
           "Multilaser"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Geländegängig"
+          "Scout",
+          "Walker"
         ]
       },
       {
-        "name": "Luftlandungs-Sentinel",
+        "name": "Drop Sentinel",
         "type": "LV",
         "speed": 20,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Multimelter"
+          "Multi-Melta"
         ],
         "specialRules": [
-          "Gravschirme",
-          "Geländegängig"
+          "Grav-Chutes",
+          "Walker"
         ]
       },
       {
-        "name": "Unterstützungs-Sentinel",
+        "name": "Support Sentinel",
         "type": "LV",
         "speed": 15,
         "armour": 6,
@@ -750,7 +750,7 @@
           "Multi-Rocket Pod"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
@@ -761,10 +761,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Tauros Granatwerfer"
+          "Tauros Grenade Launcher"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
@@ -775,7 +775,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Maschinenkanone"
+          "Twin Autocannon"
         ]
       },
       {
@@ -786,13 +786,13 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr (Turm)"
+          "Twin Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Leichter Siegfried Panzer",
+        "name": "Siegfried Light Tank",
         "type": "AV",
         "speed": 25,
         "armour": 5,
@@ -802,43 +802,43 @@
           "Multilaser"
         ],
         "specialRules": [
-          "Geländegängig",
-          "Aufklärer"
+          "Walker",
+          "Scout"
         ]
       },
       {
-        "name": "Salamander Aufklärer Panzer",
+        "name": "Salamander Scout Tank",
         "type": "LV",
         "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone",
-          "Schwerer Bolter"
+          "Autocannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Sturmchimäre",
+        "name": "Storm Chimera",
         "type": "AV",
         "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone",
-          "Schwerer Bolter"
+          "Autocannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
-        "name": "Chimäre",
+        "name": "Chimera",
         "type": "AV",
         "speed": 30,
         "armour": 5,
@@ -846,72 +846,72 @@
         "ff": 5,
         "weapons": [
           "Multilaser",
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
-        "name": "Todeswelt Chimäre",
+        "name": "Death World Chimera",
         "type": "AV",
         "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Flammenwerfer",
-          "Schwerer Bolter"
+          "Heavy Flamer",
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Geländegängig",
+          "Walker",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
-        "name": "Höllenhund",
+        "name": "Hellhound",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Inferno Geschütz",
-          "Schwerer Bolter"
+          "Inferno Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Todeswolf",
+        "name": "Bane Wolf",
         "type": "AV",
         "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Chemokanone",
-          "Schwerer Bolter"
+          "Chem Gun",
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
-        "name": "Teufelshund",
+        "name": "Devil Dog",
         "type": "AV",
         "speed": 25,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Melterkanone",
-          "Schwerer Bolter"
+          "Melta Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
@@ -922,12 +922,12 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schweres Maschinengewehr"
+          "Heavy Stubber"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Taurox",
@@ -937,13 +937,13 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Sturmkanone"
+          "Twin Assault Cannon"
         ],
         "specialRules": [
-          "Geländegängig",
+          "Walker",
           "Transport"
         ],
-        "notes": "May carry zwei Infanterie Einheiten ohne Sprungmodule oder Beritten"
+        "notes": "May carry two infantry units without Jump Packs or Mounted"
       },
       {
         "name": "Centaur",
@@ -953,10 +953,10 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schweres Maschinengewehr"
+          "Heavy Stubber"
         ],
         "specialRules": [
-          "Transport: Ein Infanterie Einheit und ein Rapier oder Salvengeschütz"
+          "Transport: One Infantry unit, and one Rapier or Thudd Gun"
         ]
       },
       {
@@ -967,67 +967,67 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Transport: Eine Tremorkanonenlafette oder ein schweres Flugabwehrgeschütz"
+          "Transport: One Earthshaker Gun or Heavy AA Gun"
         ]
       },
       {
-        "name": "Todesstoss-Raketensystem",
+        "name": "Deathstrike",
         "type": "AV",
         "speed": 20,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Todesstoss Rakete",
-          "Schwerer Bolter"
+          "Deathstrike Missile",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Todesstoss-Raketensilo",
+        "name": "Deathstrike Silo",
         "type": "WE",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 5,
         "weapons": [
-          "Todesstoss Rakete|2"
+          "Deathstrike Missile|2"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Verstärkte Panzerung"
+          "Damage Capacity 2",
+          "Reinforced Armour"
         ],
-        "crit": "Das Todesstoss-Raketensilo wird zerstört. Alle Einheiten innerhalb von 10cm erleiden einen Treffer."
+        "crit": "The Deathstrike Silo is destroyed. All units within 10cm takes a hit."
       },
       {
-        "name": "Greif",
+        "name": "Griffon",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Gefechtsmörser",
-          "Schwerer Bolter"
+          "Heavy Mortar",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Vallhalanischer Greif",
+        "name": "Valhallan Griffon",
         "type": "AV",
         "speed": 15,
         "armour": 5,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Gefechtsmörser",
-          "Schwerer Flammenwerfer"
+          "Heavy Mortar",
+          "Heavy Flamer"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
@@ -1038,8 +1038,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Tremorkanone",
-          "Schwerer Bolter"
+          "Earthshaker Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
@@ -1052,8 +1052,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Belagerungsmörser",
-          "Schwerer Bolter"
+          "Siege Mortar",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
@@ -1066,85 +1066,85 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Medusa Belagerungsgeschütz",
-          "Schwerer Bolter"
+          "Medusa Siege Gun",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Tremorkanonenlafette",
+        "name": "Earthshaker Gun",
         "type": "LV",
         "speed": 5,
         "armour": 6,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Tremorkanone"
+          "Earthshaker Cannon"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Medusa Kanonenlafette",
+        "name": "Medusa Gun",
         "type": "LV",
         "speed": 5,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Medusa Belagerungsgeschütz"
+          "Medusa Siege Gun"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Elysianischer Mörser Trupp",
+        "name": "Elysian Mortar Squad",
         "type": "INF",
         "speed": 15,
         "armour": 5,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Mörser (Accatran Schema)"
+          "Accatran Mortar"
         ]
       },
       {
-        "name": "Schweres Flugabwehrgeschütz",
+        "name": "Heavy AA Gun",
         "type": "LV",
         "speed": 5,
         "armour": 6,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schweres Flugabwehrgeschütz"
+          "Heavy AA Gun"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Haubitzen",
+        "name": "Howitzer",
         "type": "LV",
         "speed": 5,
         "armour": 6,
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Haubitzen"
+          "Howitzer"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Mantikor",
+        "name": "Manticore",
         "type": "AV",
         "speed": 20,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Mantikor Raketenwerfer",
-          "Schwerer Bolter"
+          "Rocket Launcher",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
@@ -1157,36 +1157,36 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Hydra Maschinenkanone|2",
-          "Schwerer Bolter"
+          "Twin Hydra Autocannon|2",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Hades Durchbruchsbohrfahrzeug",
+        "name": "Hades Breaching Drill",
         "type": "Spec",
         "weapons": [
           "n/a"
         ],
         "specialRules": [
         ],
-        "notes": "Der Verband muss das Spiel in Reserve beginnen und darf nur über Tunnelgräber das Spielfeld betreten. Wenn der Verband das Spiel via Tunnelgräber betritt, platziere als erstes das Hades Durchbruchsbohrfahrzeug an den designierten Koordinaten. Platziere anschließend den Rest des Verbands innerhalb von 5cm oder innerhalb von 5cm einer anderen bereits platzierten Einheit des Verbands und innerhalb von 15cm vom Hades Durchbruchsbohrfahrzeug. Entferne im Anschluss das Hades Durchbruchsbohrfahrzeug vom Spieltisch."
+        "notes": "Formation must start the game in the reserves, and may only enter the board by Tunneling. When resolving tunnelers, first place the Hades Breaching Drill at the designated co-ordinates. Then place the remainder of the formation within 5cm of it, or within 5cm of another unit from the same formation that has already been placed, so long as all units are placed within 15cm of the Hades Breaching Drill. Finally, remove the Hades Breaching Drill from the board."
       },
       {
-        "name": "Schwerer Ragnarok Panzer",
+        "name": "Ragnarok Heavy Tank",
         "type": "AV",
         "speed": 15,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Ragnarok Kampfgeschütz",
-          "Schweres Maschinengewehr|2|"
+          "Ragnarok Battle Cannon",
+          "Heavy Stubber|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Walker"
         ]
       },
       {
@@ -1197,12 +1197,12 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz",
-          "Laserkanone",
-          "Schwerer Bolter|2|"
+          "Battle Cannon",
+          "Lascannon",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -1213,12 +1213,12 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Laserkanone",
-          "Laserkanone",
-          "Multimelter|2|"
+          "Twin Lascannon",
+          "Lascannon",
+          "Multi-Melta|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -1229,28 +1229,28 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Maschinenkanone",
-          "Schwerer Flammenwerfer",
-          "Schwerer Bolter|2|"
+          "Twin Autocannon",
+          "Heavy Flamer",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Leman Russ Exekutor",
+        "name": "Leman Russ Executioner",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Plasmazerstörer",
-          "Laserkanone",
-          "Plasmakanone|2|"
+          "Plasma Destroyer",
+          "Lascannon",
+          "Plasma Cannon|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -1261,11 +1261,11 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Demolisher Geschütz"
+          "Demolisher"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Walker"
         ]
       },
       {
@@ -1276,27 +1276,27 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Conquerorgeschütz",
-          "Schwerer Bolter|3|"
+          "Conqueror Cannon",
+          "Heavy Bolter|3|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Leman Russ Belagerer",
+        "name": "Leman Russ Demolisher",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Demolisher Geschütz",
-          "Laserkanone",
-          "Plasmakanone|2|"
+          "Demolisher",
+          "Lascannon",
+          "Plasma Cannon|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -1310,40 +1310,40 @@
           "Laser Destroyer"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Walker"
         ]
       },
       {
-        "name": "Leman Russ Vernichter",
+        "name": "Leman Russ Vanquisher",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Vernichter-Panzerabwehrkanone",
-          "Laserkanone",
-          "Schwerer Bolter|2|"
+          "Vanquisher Cannon",
+          "Lascannon",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Leman Russ Vollstrecker",
+        "name": "Leman Russ Punisher",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Vollstrecker-Sturmkanone",
-          "Laserkanone",
-          "Schwerer Bolter|2|"
+          "Punisher Gatling Cannon",
+          "Lascannon",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -1354,15 +1354,15 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Salvenraketenwerfer",
+          "Rocket Pods",
           "Multilaser",
-          "Schwerer Bolter|2|"
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Antigrav",
+          "Skimmer",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterieeinheiten oder einen Luftlandungs-Sentinel transportieren. Darf keine Ogryns transportieren."
+        "notes": "May transport two infantry units or one Drop Sentinel. May not transport Ogryns."
       },
       {
         "name": "Sky Talon",
@@ -1372,13 +1372,13 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Antigrav",
+          "Skimmer",
           "Transport"
         ],
-        "notes": "Darf ein  leichtes Fahrzeug (LV) oder zwei Luftlandungs-Sentinels transportieren."
+        "notes": "May transport one Light Vehicle (LV) or two Drop Sentinels."
       },
       {
         "name": "Vulture",
@@ -1388,13 +1388,13 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Höllenfeuerraketen|2|",
-          "Synchronisierte Maschinenkanone",
-          "Schwerer Bolter"
+          "Hellstrike Missiles|2|",
+          "Twin Autocannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
-          "Antigrav",
-          "Aufklärer"
+          "Skimmer",
+          "Scout"
         ]
       },
       {
@@ -1405,14 +1405,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Laserkanone|3|",
-          "Schwerer Bolter|2|"
+          "Lascannon Array",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Antigrav",
+          "Skimmer",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterieeinheiten oder einen Luftlandungs-Sentinel transportieren. Darf keine Ogryns transportieren."
+        "notes": "May transport two infantry units or one Drop Sentinel. May not transport Ogryns."
       },
       {
         "name": "Malcador",
@@ -1422,12 +1422,12 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz",
-          "Schwerer Bolter|3|"
+          "Battle Cannon",
+          "Heavy Bolter|3|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Walker"
         ]
       },
       {
@@ -1438,13 +1438,13 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone",
-          "Demolisher Geschütz",
-          "Schweres Maschinengewehr|2|"
+          "Twin Lascannon",
+          "Demolisher",
+          "Heavy Stubber|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Walker"
         ]
       },
       {
@@ -1455,42 +1455,42 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Demolisher Geschütz",
-          "Schwerer Bolterverbund"
+          "Demolisher",
+          "Heavy Bolter Array"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Walker"
         ]
       },
       {
-        "name": "Praetor Angriffswerfer",
+        "name": "Praetor Assault Launcher",
         "type": "H-AV",
         "speed": 25,
         "armour": 3,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter|2",
-          "Praetor schwerer Angriffswerfer"
+          "Heavy Bolter|2",
+          "Praetor Heavy Assault Launcher"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Crassus Sturmtransporter",
+        "name": "Crassus Assault Transport",
         "type": "H-AV",
         "speed": 25,
         "armour": 3,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Schwerer Bolter|4"
+          "Heavy Bolter|4"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf sechs Infanterie Einheiten ohne Sprungmodule oder Beritten transportieren."
+        "notes": "May carry six infantry units without Jump Packs or Mounted"
       },
       {
         "name": "Minotaur",
@@ -1500,11 +1500,11 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Synchronisierte Tremorkanone"
+          "Twin Earthshaker Cannon"
         ],
         "specialRules": [
         ],
-        "crit": "Der Minotaur wird zerstört. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The Minotaur is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Macharius",
@@ -1514,46 +1514,50 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisiertes Kampfgeschütz",
-          "Synchronisiertes schweres Maschinengewehr",
-          "Schwerer Bolter|2|"
+          "Twin Battle Cannon",
+          "Twin Heavy Stubber",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Macharius Kommandopanzer",
+        "name": "Macharius Command",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Vernichter-Panzerabwehrkanone|0-1|",
+          "Twin Vanquisher Cannon|0-1|",
           "Vulcan Mega-Bolter|0-1|",
-          "Synchronisiertes schweres Maschinengewehr||",
-          "Schwerer Bolter|2|"
+          "Twin Heavy Stubber||",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Damage Capacity 2",
+          "Reinforced Armour"
         ],
-        "notes": "Ist entweder mit einer Synchronisierten Vernichter-Panzerabwehrkanone oder einem Vulcan Mega-Bolter bewaffnet."
+        "notes": "Must be equipped with either Twin Vanquisher Cannon or a Vulcan Mega-Bolter.",
+        "crit": "The Macharius is destroyed."
       },
       {
-        "name": "Baranischer Macharius",
+        "name": "Baran Macharius",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierter Ragnarok Kampfgeschütz",
-          "Synchronisiertes schweres Maschinengewehr|3|FxF"
+          "Twin Ragnarok Battle Cannon",
+          "Twin Heavy Stubber|3|FxF"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
-        ]
+          "Damage Capacity 2",
+          "Reinforced Armour"
+        ],
+        "crit": "The Macharius is destroyed."
       },
       {
         "name": "Macharius Medusa",
@@ -1563,29 +1567,31 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Medusa Belagerungsgeschütz||FxF",
-          "Synchronisiertes schweres Maschinengewehr|3|"
+          "Medusa Siege Gun||FxF",
+          "Twin Heavy Stubber|3|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
-        ]
+          "Damage Capacity 2",
+          "Reinforced Armour"
+        ],
+        "crit": "The Macharius is destroyed."
       },
       {
-        "name": "Verteidigungslaser",
+        "name": "Defense Laser",
         "type": "WE",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Planetarer Verteidigungslaser",
-          "Synchronisiertes schweres Maschinengewehr|3|"
+          "Planetary Defense Laser",
+          "Twin Heavy Stubber|3|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Das Plasmareservoir des Verteidigungslasers explodiert.Die Einheit ist zersört und alle Einheiten innerhalb von 5cm erleiden bei 4+ einen Treffer."
+        "crit": "The Defence Laser plasma reservoirs explodes, destroying the unit. All units within 5cm of the model suffer a hit on a roll of 4+."
       },
       {
         "name": "Gorgon",
@@ -1595,16 +1601,16 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr|4|"
+          "Twin Heavy Stubber|4|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Geländegängig",
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Walker",
           "Transport"
         ],
-        "notes": "Darf zehn Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren.",
-        "crit": "Der Gorgon wird lahmgelegt und darf sich für den Rest des Spiels nicht mehr bewegen. 1W3 zufällig bestimmte, transportierte Einheiten erleiden einen Treffer. Weitere kritische Treffer vernichten den Gorgon."
+        "notes": "May carry 10 infantry units without Jump Pack or Mounted.",
+        "crit": "The Gorgon is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon."
       },
       {
         "name": "Baneblade",
@@ -1614,17 +1620,17 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Banebladegeschütz",
-          "Maschinenkanone",
-          "Demolisher Geschütz||FxF",
-          "Laserkanone|2|FxF",
-          "Synchronisierter schwerer Bolter|3|FxF"
+          "Baneblade Cannon",
+          "Autocannon",
+          "Demolisher||FxF",
+          "Lascannon|2|FxF",
+          "Twin Heavy Bolter|3|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Hellhammer",
@@ -1634,17 +1640,17 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Hellhammer Geschütz",
-          "Maschinenkanone",
+          "Hellhammer Cannon",
+          "Autocannon",
           "Demolisher||FxF",
-          "Synchronisierter schwerer Bolter|3|FxF",
-          "Schwerer Flammenwerfer|2|"
+          "Twin Heavy Bolter|3|FxF",
+          "Heavy Flamer|2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Stormlord",
@@ -1655,16 +1661,16 @@
         "ff": 4,
         "weapons": [
           "Vulcan Mega-Bolter||FxF",
-          "Synchronisierter schwerer Bolter||FxF",
-          "Synchronisierter Schwerer Flammenwerfer  |2|"
+          "Twin Heavy Bolter||FxF",
+          "Twin Heavy Flamer  |2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
+          "Damage Capacity 3",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "Darf zwölf Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren, zwei Eiheiten dürfen vom Schussdeck feuern und zusätzlich mit ihrem FF Wert an Angriffen teilnehmen.",
-        "crit": "Der Stormlord wird lahmgelegt und darf sich für den Rest des Spiels nicht mehr bewegen. 1W3 zufällig bestimmte, transportierte Einheiten erleiden einen Treffer. Weitere kritische Treffer vernichten den Stormlord."
+        "notes": "May transport twelve infantry units without Jump Pack or Mounted, two may fire from the firing deck and participate with FF during assaults.",
+        "crit": "The Stormlord is immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Subsequent hits destroys the unit."
       },
       {
         "name": "Banehammer",
@@ -1674,15 +1680,15 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Tremor Geschütz||FxF",
-          "Synchronisierter schwerer Bolter|2|FxF"
+          "Tremor Cannon||FxF",
+          "Twin Heavy Bolter|2|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
+          "Damage Capacity 3",
+          "Reinforced Armour",
           "Transport"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Shadowsword",
@@ -1692,14 +1698,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Vulkangeschütz||FxF",
-          "Synchronisierter schwerer Bolter|2|FxF"
+          "Volcano Cannon||FxF",
+          "Twin Heavy Bolter|2|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Stormblade",
@@ -1710,14 +1716,14 @@
         "ff": 4,
         "weapons": [
           "Stormblade Blastgun||FxF",
-          "Laserkanone|2|FxF",
-          "Synchronisierter schwerer Bolter|3|FxF"
+          "Lascannon|2|FxF",
+          "Twin Heavy Bolter|3|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Stormsword",
@@ -1727,15 +1733,15 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Siege Geschütz||FxF",
-          "Synchronisierter schwerer Bolter|3|FxF",
-          "Schwerer Flammenwerfer |2|"
+          "Siege Cannon||FxF",
+          "Twin Heavy Bolter|3|FxF",
+          "Heavy Flamer |2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Stormhammer",
@@ -1745,16 +1751,16 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Synchronisierter Ragnarok Kampfgeschütz||",
-          "Synchronisierter Ragnarok Kampfgeschütz||FxF",
-          "Doppeltsynchronisierte Laserkanone||FxF",
-          "Doppeltsynchronisierter schwerer Bolter|2|FwA"
+          "Twin Ragnarok Battle Cannon||",
+          "Twin Ragnarok Battle Cannon||FxF",
+          "Quad Lascannon||FxF",
+          "Quad Heavy Bolter|2|FwA"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       }
     ]
   }

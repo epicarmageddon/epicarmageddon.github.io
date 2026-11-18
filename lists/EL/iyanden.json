@@ -5,14 +5,14 @@
   "release": "2022-04-01",
   "armyforge": "EAR_Eldar_Iyanden",
   "intro": "The following army list allows you to field an Eldar army form the Iyanden Craftworld.",
-  "strategy": "Craftworld Iyanden Armeen haben einen Strategiewert von 4.",
-  "Initiative": "Aspect Warrior Verbände, Titans, WraithRitters und the Avatar have an Initiative Rating of 1+. Alle anderen Verbände haben eine Initiativewert von 2+.",
+  "strategy": "Craftworld Iyanden armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warrior formations, Titans, Wraithknights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Avatar (Iyanden)",
-    "Dürfen nicht als Garnison aufstellen (Iyanden)",
+    "May not Garrison (Iyanden)",
     "Farsight",
-    "Hit und Run",
-    "Tor zum Netz der tausend Tore"
+    "Hit and Run",
+    "Webway Portal"
   ],
   "units": [
     {
@@ -47,16 +47,16 @@
         "Scorpion",
         "Cobra",
         "Storm Serpent",
-        "WraithRitter",
+        "Wraithknight",
         "Revenant Titan",
         "Phantom Titan"
       ],
       "unitRules": [
           "Holofields (x)",
-          "Lanze",
-          "Schildbohrer",
-          "Schildstörer",
-          "Schwergepanzertes Fahrzeug (H-AV)"
+          "Lance",
+          "Shield Piercer",
+          "Shield Disruptor",
+          "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -78,12 +78,12 @@
       "formations": [
         {
           "name": " 1 Avatar",
-          "units": "Ein Avatar",
+          "units": "One Avatar",
           "points": 0
         },
         {
           "name": "0-1 Wraithgate",
-          "units": "Ersetze eine objective marker in the Eldar Spieler's half of the table mit einemWraithgate, this counts as an objective marker und a Tor zum Netz der tausend Tore which may not be attacked oder damaged in any way. ",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
           "points": 50
         }
       ]
@@ -93,22 +93,22 @@
       "formations": [
         {
           "name": "Spirit Guard Wraithhost",
-          "units": "Ein Wraithguards mit einemSpiritseer character, drei Wraithguards",
+          "units": "One Wraithguards with a Spiritseer character, three Wraithguards",
           "extraUnits": [
             "Wraithguards",
             "Wraithlords",
-            "Füge vier Wave Serpents: 150 Punkte (may only be taken if the entire formation can fit inside)",
+            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)",
             "Wraithseer"
           ],
           "points": 250
         },
         {
           "name": "Spirit Blade Wraithhost",
-          "units": "Ein Wraithblades mit einemSpiritseer character, drei Wraithblades",
+          "units": "One Wraithblades with a Spiritseer character, three Wraithblades",
           "extraUnits": [
             "Wraithguards",
             "Wraithlords",
-            "Füge vier Wave Serpents: 150 Punkte (may only be taken if the entire formation can fit inside)",
+            "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)",
             "Wraithseer"
           ],
           "points": 200
@@ -117,20 +117,20 @@
     },
     {
       "name": "Iyanden Troupes",
-      "description": "Bis zu zwei pro Iyanden Wraithhost taken",
+      "description": "Up to two for each Iyanden Wraithhost taken",
       "formations": [
           {
             "name": "Guardians",
-            "units": "Ein Farseer unit und sieben Guardians",
+            "units": "One Farseer unit and seven Guardians",
             "extraUnits": [
               "Heavy Weapons, Support Weapons, Wraithguards, Wraithblades, Wraithlords.",
-              "Füge vier Wave Serpents: 150 Punkte (may only be taken if the entire formation can fit inside)"
+              "Add four Wave Serpents: 150 points (may only be taken if the entire formation can fit inside)"
             ],
             "points": 150
         },
         {
           "name": "Aspect Warrior Troupe",
-          "units": "Sechs Aspect Warriors ausgewählt aus the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
+          "units": "Six Aspect Warriors chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
           "extraUnits": [
             "Exarch"
           ],
@@ -138,52 +138,52 @@
         },
         {
           "name": "Engines of Vaul Troupe",
-          "units": "Ein Engine of Vaul ausgewählt aus the following: Cobra, Scorpion, Storm Serpent",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "extraUnits": [
-            "Füge bis zu zwei additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 Punkte jeweils"
+            "Add up to two additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 points each"
           ],
           "points": 250
         },
         {
           "name": "Swords of Vaul",
-          "units": "Fünf Falcons",
+          "units": "Five Falcons",
           "extraUnits": [
-            "Ersetze bis zu zwei Falcons mit Firestorms: Kostenlos"
+            "Replace up to two Falcons with Firestorms: Free"
           ],
           "points": 250
         },
         {
           "name": "Fire Prism Troupe",
-          "units": "Drei Fire Prisms",
+          "units": "Three Fire Prisms",
           "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Night Spinner Troupe",
-          "units": "Drei Night Spinners",
+          "units": "Three Night Spinners",
           "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "Rangers",
-          "units": "Vier Eldar Rangers",
+          "units": "Four Eldar Rangers",
           "extraUnits": [
           ],
           "points": 100
         },
         {
           "name": "War Walker Troupe",
-          "units": "Vier War Walkers",
+          "units": "Four War Walkers",
           "extraUnits": [
-              "Füge bis zu zwei War Walkers: 25 Punkte jeweils"
+              "Add up to two War Walkers: 25 points each"
           ],
           "points": 150
         },
       {
         "name": "Spirit Walker Troupe",
-        "units": "Vier Wraithlords",
+        "units": "Four Wraithlords",
         "extraUnits": [
         ],
         "points": 250
@@ -191,20 +191,20 @@
       ]
     },
     {
-      "name": "Iyanden Aircraft, Spacecraft und Titans",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände",
+      "name": "Iyanden Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Zwei Nightwing Interceptors",
+          "units": "Two Nightwing Interceptors",
           "extraUnits": [
-            "Füge eine Nightwing Interceptor: 75 Points"
+            "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
         {
           "name": "Hemlock Aerie",
-          "units": "Zwei Hemlock Wraithfighters",
+          "units": "Two Hemlock Wraithfighters",
           "extraUnits": [
           ],
           "points": 250
@@ -212,37 +212,37 @@
 
         {
           "name": "Vampire",
-          "units": "Ein Vampire Raider",
+          "units": "One Vampire Raider",
           "extraUnits": [
           ],
           "points": 200
         },
         {
-          "name": "WraithRitters",
-          "units": "Zwei WraithRitters (may not mix configurations)",
+          "name": "Wraithknights",
+          "units": "Two Wraithknights (may not mix configurations)",
           "extraUnits": [
           ],
           "points": 325
         },
         {
           "name": "Revenants",
-          "units": "Zwei Revenant Titans",
+          "units": "Two Revenant Titans",
           "extraUnits": [
           ],
           "points": 650
         },
         {
           "name": "Phantom",
-          "units": "Ein Phantom Titan",
+          "units": "One Phantom Titan",
           "extraUnits": [
           ],
           "points": 700
         },
         {
           "name": "0-1 Spacecraft",
-          "units": "Ein Wraithship",
+          "units": "One Wraithship",
           "extraUnits": [
-            "Ersetze mit einemDragonship: 150 Points"
+            "Replace with a Dragonship: 150 Points"
           ],
           "points": 150
         }
@@ -250,53 +250,53 @@
     }
   ],
   "upgrades": {
-    "title": "Iyanden Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro formation",
+    "title": "Iyanden Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
         "name": "0-1 Wraithseer",
-        "description": "Ersetze eine Spiritseer character und its unit mit einemWraithseer",
-        "points": "100 Punkte"
+        "description": "Replace one Spiritseer character and its unit with a Wraithseer",
+        "points": "100 points"
       },
       {
         "name": "Exarch",
-        "description": "Füge eine Eldar Exarch Charaktermodell einemn Eldar Aspect Warrior unit",
-        "points": "25 Punkte"
+        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "points": "25 points"
       },
       {
         "name": "Vypers",
-        "description": "Ersetze any number of Eldar Jetbikes mit Eldar Vypers",
-        "points": "Kostenlos"
+        "description": "Replace any number of Eldar Jetbikes with Eldar Vypers",
+        "points": "Free"
       },
       {
         "name": "Heavy Weapons",
-        "description": "Ersetze bis zu drei Eldar Guardians mit Eldar Heavy Weapon Platforms",
-        "points": "Kostenlos"
+        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platforms",
+        "points": "Free"
       },
       {
         "name": "Support Weapons",
-        "description": "Ersetze bis zu drei Eldar Guardians mit with Eldar Support Weapon Platforms (all armed mit the same weapon).",
-        "points": "25 Punkte jeweils"
+        "description": "Replace up to three Eldar Guardians with with Eldar Support Weapon Platforms (all armed with the same weapon).",
+        "points": "25 points each"
       },
       {
         "name": "Wraithguard",
-        "description": "Füge zwei Eldar Wraithguards",
-        "points": "75 Punkte"
+        "description": "Add two Eldar Wraithguards",
+        "points": "75 points"
       },
       {
         "name": "Wraithblades",
-        "description": "Füge zwei Eldar Wraithblades",
-        "points": "50 Punkte"
+        "description": "Add two Eldar Wraithblades",
+        "points": "50 points"
       },
       {
         "name": "Wraithlords",
-        "description": "Füge bis zu drei Eldar Wraithlords",
-        "points": "50 Punkte jeweils"
+        "description": "Add up to three Eldar Wraithlords",
+        "points": "50 points each"
       }
     ]
   },
   "about": [
-    "v1.0.Beta: The EA-R Iyanden Craftworld list owes its basic structure to the NetEA version on the list, mit einemnumber important changes und additions, most of which have been inherited from the process of making the 'main' EA-R Craftworld Eldar list: Biel-Tan. mit the Wraithguard being reduced to 3+ save, Wraithblades got the same save. These units no longer being 4++ und Furchtlos allowed für making their Verbände somewhat cheaper.",
-    "The Spirit Walker Wraithhost has been made a bit more similar to the other Wraithhosts und the list has also gained access to a WraithRitter formation, using the 'Ritter' H-AV unit type."
+    "v1.0.Beta: The EA-R Iyanden Craftworld list owes its basic structure to the NetEA version on the list, with a number important changes and additions, most of which have been inherited from the process of making the 'main' EA-R Craftworld Eldar list: Biel-Tan. With the Wraithguard being reduced to 3+ save, Wraithblades got the same save. These units no longer being 4++ and Fearless allowed for making their formations somewhat cheaper.",
+    "The Spirit Walker Wraithhost has been made a bit more similar to the other Wraithhosts, and the list has also gained access to a Wraithknight formation, using the 'Knight' H-AV unit type."
   ]
 }

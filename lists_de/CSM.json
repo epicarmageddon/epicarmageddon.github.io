@@ -1158,7 +1158,7 @@
         "notes": "Kann 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren. Chaos Terminatoren und Kyborgs zählen jeweils als 2 Einheiten."
       },
       {
-        "name": "Alpha-Legion-Land-Schattenbarke",
+        "name": "Alpha-Legion-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,
@@ -1177,7 +1177,7 @@
         "notes": "Kann 1 Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
       },
       {
-        "name": "Emperor's-Children-Land-Schattenbarke",
+        "name": "Emperor's-Children-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,
@@ -1195,7 +1195,7 @@
         "notes": "Kann 1 Sirenshriek-Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
       },
       {
-        "name": "Death-Guard-Land-Schattenbarke",
+        "name": "Death-Guard-Land Raider",
         "type": "AV",
         "speed": 20,
         "armour": 4,
@@ -1214,7 +1214,7 @@
         "notes": "Kann 1 Blightlord-Terminator-Einheit oder 2 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
       },
       {
-        "name": "World-Eaters-Land-Schattenbarke",
+        "name": "World-Eaters-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,
@@ -1232,7 +1232,7 @@
         "notes": "Kann 2 Terminatoren, Mutilators oder 3 Infanterieeinheiten ohne Sprungmodule oder Beritten transportieren."
       },
       {
-        "name": "Thousand-Sons-Land-Schattenbarke",
+        "name": "Thousand-Sons-Land Raider",
         "type": "AV",
         "speed": 25,
         "armour": 4,

@@ -1,35 +1,35 @@
 [
   {
-    "name": "Symbionten Streitmächte",
+    "name": "Genestealer Forces",
     "specialRules": [
     ],
     "unit": [
       {
-        "name": "Symbionten Patriarch",
+        "name": "Genestealer Patriarch",
         "type": "INF",
         "speed": 15,
         "armour": 3,
         "cc": 4,
         "weapons": [
-          "Large Zangenkrallen"
+          "Large Rending Claws"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Aufklärer",
-          "Infiltratoren",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Inspiring",
+          "Scout",
+          "Infiltrators",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Symbionten Magus",
+        "name": "Genestealer Magus",
         "type": "CH",
         "weapons": [
           "Psyker powers"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf",
-          "Anführer"
+          "Invulnerable Save",
+          "Leader"
         ]
       },
       {
@@ -39,29 +39,29 @@
           "n/a"
         ],
         "specialRules": [
-          "Inspirierend"
+          "Inspiring"
         ]
       },
       {
-        "name": "Symbiarch",
+        "name": "Broodlord",
         "type": "CH",
         "weapons": [
           "n/a"
         ],
         "specialRules": [
-          "Anführer",
-          "Inspirierend",
-          "Unmodifizierter Rettungswurf"
+          "Leader",
+          "Inspiring",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Jackal Alphus",
         "type": "CH",
         "weapons": [
-          "Scharfschützengewehr"
+          "Sniper Rifle"
         ],
         "specialRules": [
-          "Anführer"
+          "Leader"
         ]
       },
       {
@@ -72,13 +72,13 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Seismic Geschütz",
-          "Energiewaffe"
+          "Seismic Cannon",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Inspirierend",
-          "Befehlshaber",
-          "Infiltratoren"
+          "Inspiring",
+          "Commander",
+          "Infiltrators"
         ]
       },
       {
@@ -89,11 +89,11 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Seismic Geschütz",
-          "Klauen"
+          "Seismic Cannon",
+          "Claws"
         ],
         "specialRules": [
-          "Infiltratoren"
+          "Infiltrators"
         ]
       },
       {
@@ -106,7 +106,7 @@
           "Giant Mauls"
         ],
         "specialRules": [
-          "Infiltratoren"
+          "Infiltrators"
         ]
       },
       {
@@ -117,11 +117,11 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Laserpistolen",
-          "Klauen"
+          "Laspistols",
+          "Claws"
         ],
         "specialRules": [
-          "Beritten"
+          "Mounted"
         ]
       },
       {
@@ -138,17 +138,17 @@
         ]
       },
       {
-        "name": "Symbionten",
+        "name": "Genestealers",
         "type": "INF",
         "speed": 20,
         "armour": 6,
         "cc": 2,
         "weapons": [
-          "Zangenkrallen"
+          "Rending Claws"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Infiltratoren"
+          "Scout",
+          "Infiltrators"
         ]
       },
       {
@@ -162,27 +162,27 @@
           "Metamorph Biomorphs"
         ],
         "specialRules": [
-          "Teleportieren",
-          "Infiltratoren"
+          "Teleport",
+          "Infiltrators"
         ]
       },
       {
-        "name": "Liktor",
+        "name": "Lictor",
         "type": "LV",
         "speed": 15,
         "armour": 5,
         "cc": 3,
         "ff": 6,
         "weapons": [
-          "Fanghaken",
-          "Geschlitzte Klauen"
+          "Flesh Hooks",
+          "Scythed Claws"
         ],
         "specialRules": [
-          "Erstschlag",
-          "Infiltratoren",
-          "Aufklärer",
-          "Unmodifizierter Rettungswurf",
-          "Teleportieren"
+          "First Strike",
+          "Infiltrators",
+          "Scout",
+          "Invulnerable Save",
+          "Teleport"
         ]
       },
       {
@@ -193,12 +193,12 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr"
+          "Twin Heavy Stubber"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren. Hybrid Aberrants und Symbionten Patriarch counts as zwei units."
+        "notes": "May carry two infantry units without Jump Packs or Mounted. Hybrid Aberrants and Genestealer Patriarch counts as two units."
       },
       {
         "name": "Coven Technical",
@@ -208,7 +208,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr (Turm)"
+          "Twin Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
@@ -221,10 +221,10 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Seismic Geschütz"
+          "Seismic Cannon"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
@@ -238,47 +238,47 @@
           "Heavy Mining Laser"
         ],
         "specialRules": [
-          "Geländegängig",
+          "Walker",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren. Hybrid Aberrants und Symbionten Patriarch counts as zwei units."
+        "notes": "May carry two infantry units without Jump Packs or Mounted. Hybrid Aberrants and Genestealer Patriarch counts as two units."
       },
       {
-        "name": "Coven Thunderbolt",
+        "name": "Coven Thunderbolt Fighter",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 6,
         "weapons": [
           "AC Multilaser||FxF",
           "AC Underwing Rockets||FxF",
-          "AC Sturmbolter||FxF"
+          "AC Storm Bolters||FxF"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Cult Infanterie",
+        "name": "Cult Infantry",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Maschinenkanone",
-          "Lasergewehre"
+          "Autocannon",
+          "Lasguns"
         ],
         "specialRules": [
           "Brood Brothers"
         ],
-        "notes": "Ein in every zwei Cult Infanterie Einheiten has an Maschinenkanone"
+        "notes": "One in every two Cult Infantry units has an Autocannon"
       },
       {
-        "name": "Cult Unterstützungstrupps",
+        "name": "Cult Fire Support",
         "type": "INF",
         "speed": 15,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone|2|"
+          "Autocannon|2|"
         ],
         "specialRules": [
           "Brood Brothers"
@@ -292,23 +292,23 @@
         "cc": 4,
         "ff": 6,
         "weapons": [
-          "Automatikpistolen",
-          "Kettenschwerter"
+          "Autopistols",
+          "Chainswords"
         ],
         "specialRules": [
           "Brood Brothers"
         ]
       },
       {
-        "name": "Cult Höllenhund",
+        "name": "Cult Hellhound",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Inferno Geschütz",
-          "Schwerer Bolter"
+          "Inferno Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Brood Brothers"
@@ -322,30 +322,30 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz",
-          "Laserkanone",
-          "Schwerer Bolter|2|"
+          "Battle Cannon",
+          "Lascannon",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
           "Brood Brothers",
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Cult Leman Russ Belagerer",
+        "name": "Cult Leman Russ Demolisher",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Demolisher Geschütz",
-          "Laserkanone",
-          "Plasmakanone|2|"
+          "Demolisher",
+          "Lascannon",
+          "Plasma Cannon|2|"
         ],
         "specialRules": [
           "Brood Brothers",
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -356,23 +356,23 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Hydra Maschinenkanone|2",
-          "Schwerer Bolter"
+          "Twin Hydra Autocannon|2",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Brood Brothers"
         ]
       },
       {
-        "name": "Cult Greif",
+        "name": "Cult Griffon",
         "type": "AV",
         "speed": 30,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Gefechtsmörser",
-          "Schwerer Bolter"
+          "Heavy Mortar",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Brood Brothers"
@@ -386,15 +386,15 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Tremorkanone",
-          "Schwerer Bolter"
+          "Earthshaker Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Brood Brothers"
         ]
       },
       {
-        "name": "Cult Chimäre",
+        "name": "Cult Chimera",
         "type": "AV",
         "speed": 30,
         "armour": 5,
@@ -402,13 +402,13 @@
         "ff": 5,
         "weapons": [
           "Multilaser",
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Brood Brothers",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Cult Land Transporter",
@@ -418,13 +418,13 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Schweres Maschinengewehr"
+          "Heavy Stubber"
         ],
         "specialRules": [
           "Brood Brothers",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Cult Baneblade",
@@ -434,17 +434,17 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Banebladegeschütz",
-          "Maschinenkanone",
+          "Baneblade Cannon",
+          "Autocannon",
           "Demolisher||FxF",
-          "Laserkanone|2|FxF",
-          "Synchronisierter schwerer Bolter|3|FxF"
+          "Lascannon|2|FxF",
+          "Twin Heavy Bolter|3|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Cult Stormblade",
@@ -455,14 +455,14 @@
         "ff": 4,
         "weapons": [
           "Stormblade Blastgun||FxF",
-          "Laserkanone|2|FxF",
-          "Synchronisierter schwerer Bolter|2|FxF"
+          "Lascannon|2|FxF",
+          "Twin Heavy Bolter|2|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       },
       {
         "name": "Cult Shadowsword",
@@ -472,14 +472,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Vulkangeschütz||FxF",
-          "Synchronisierter schwerer Bolter|2|FxF"
+          "Volcano Cannon||FxF",
+          "Twin Heavy Bolter|2|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       }
     ]
   }

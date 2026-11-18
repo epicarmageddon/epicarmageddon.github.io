@@ -1,19 +1,19 @@
 {
   "fraction": "Eldar",
   "army": "Craftworld Ulthwé",
-  "version": "1.0.Beta",
-  "release": "2022-04-01",
+  "version": "1.0.Beta-2",
+  "release": "2023-07-20",
   "armyforge": "EAR_Eldar_Ulthwe",
   "intro": "The following army list allows you to field an Eldar army from the Ulthwé Craftworld.",
-  "strategy": "Craftworld Eldar Armeen haben einen Strategiewert von 4. Craftworld Ulthwé are also subject to the 'Seers of Ulthwé' Sonderregel.",
-  "Initiative": "Ulthwé Warhosts, Aspect Warriors, Wraith Ritters, Titans und the Avatar Verbände haben eine Initiativewert von 1+. Alle anderen Verbände haben eine Initiativewert von 2+.",
+  "strategy": "Craftworld Eldar armies have a Strategy Rating of 4. Craftworld Ulthwé are also subject to the 'Seers of Ulthwé' special rule.",
+  "Initiative": "Ulthwé Warhosts, Aspect Warriors, Wraith Knights, Titans and the Avatar formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules": [
     "Seers of Ulthwé",
     "Avatar (Ulthwé)",
-    "Dürfen nicht als Garnison aufstellen (Ulthwé)",
+    "May not Garrison (Ulthwé)",
     "Farsight",
-    "Hit und Run",
-    "Tor zum Netz der tausend Tore"
+    "Hit and Run",
+    "Webway Portal"
   ],
   "units": [
     {
@@ -45,7 +45,7 @@
         "Fire Prism",
         "Night Spinner",
         "Firestorm",
-        "WraithRitter",
+        "Wraithknight",
         "Scorpion",
         "Cobra",
         "Storm Serpent",
@@ -54,9 +54,9 @@
       ],
       "unitRules": [
         "Holofields (x)",
-        "Lanze",
-        "Schildbohrer",
-        "Schildstörer"
+        "Lance",
+        "Shield Piercer",
+        "Shield Disruptor"
       ]
     },
     {
@@ -78,15 +78,15 @@
       "formations": [
         {
           "name": "0-1 Avatar",
-          "units": "Ein Avatar",
+          "units": "One Avatar",
           "points": 50
         },
         {
           "name": "1 Wraithgate",
-          "units": "Ersetze eine objective marker in the Eldar Spieler's half of the table mit einemWraithgate, this counts as an objective marker und a Tor zum Netz der tausend Tore which may not be attacked oder damaged in any way.",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
           "extraUnits": [
           ],
-          "points": "Kostenlos"
+          "points": "Free"
         }
       ]
     },
@@ -95,24 +95,23 @@
       "formations": [
         {
           "name": "Black Guardian Warhost",
-          "units": "Zwei Farseers, sechs Eldar Guardians",
+          "units": "Two Farseers, six Eldar Guardians",
           "extraUnits": [
             "Seer Council",
-            "Ersetze bis zu drei Eldar Guardians mit einem equal number of Eldar Heavy Weapon Platform units: Kostenlos",
-            "Ersetze bis zu drei Eldar Guardians mit Support Weapons Platforms (all armed mit the same weapon): 25 Punkte jeweils",
-            "Füge zwei Eldar Wraithguards: 75 Punkte",
-            "Füge bis zu drei Eldar Wraithlords: 50 Punkte jeweils"
+            "Replace up to three Eldar Guardians with an equal number of Eldar Heavy Weapon Platform units: Free",
+            "Replace up to three Eldar Guardians with Support Weapons Platforms (all armed with the same weapon): 25 points each",
+            "Add two Eldar Wraithguards: 75 points",
+            "Add up to three Eldar Wraithlords: 50 points each"
           ],
           "points": 175
         },
         {
-          "name": "Beritten Black Guardian Warhost",
-          "units": "Zwei Farseers, sechs Eldar Guardians und vier Wave Serpents",
+          "name": "Mounted Black Guardian Warhost",
+          "units": "Two Farseers, six Eldar Guardians and four Wave Serpents",
           "extraUnits": [
             "Seer Council",
-            "Ersetze bis zu drei Eldar Guardians mit einem equal number of Eldar Heavy Weapon Platform units: Kostenlos",
-            "Ersetze any number of Wave Serpents mit zwei Falcons jeweils: 50 Punkte jeweils",
-            "Ersetze eine Wave Serpent mit zwei Firestorms: 75 Punkte"
+            "Replace up to three Eldar Guardians with an equal number of Eldar Heavy Weapon Platform units: Free",
+            "Replace any number of Wave Serpents with two Falcons each: 50 points each"
           ],
           "points": 325
         }
@@ -120,57 +119,57 @@
     },
     {
       "name": "Ulthwé Line Troupes",
-      "description": "Bis zu zwei Ulthwé Line Troupes pro Ulthwé Warhost",
+      "description": "Up to two Ulthwé Line Troupes for each Ulthwé Warhost",
       "formations": [
           {
             "name": "War Walkers",
-            "units": "Vier War Walkers",
+            "units": "Four War Walkers",
             "extraUnits": [
-                "Füge bis zu zwei War Walkers: 25 Punkte jeweils"
+                "Add up to two War Walkers: 25 points each"
             ],
             "points": 150
           },
           {
             "name": "Windriders",
-            "units": "Sechs Eldar Jetbikes",
+            "units": "Six Eldar Jetbikes",
             "extraUnits": [
-              "Ersetze bis zu sechs Eldar Jetbikes mit Vypers: Kostenlos"
+              "Replace up to six Eldar Jetbikes with Vypers: Free"
             ],
             "points": 200
         },
         {
           "name": "Aspect Warrior Troupe",
-          "units": "Sechs Aspect Warrior units ausgewählt aus the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders. The formation may not mix aspects.",
+          "units": "Six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders. The formation may not mix aspects.",
           "extraUnits": [
-            "Füge eine Exarch: 25 Punkte"
+            "Add one Exarch: 25 points"
           ],
           "points": 250
         },
         {
           "name": "Engines of Vaul",
-          "units": "Ein Engine of Vaul ausgewählt aus the following: Cobra, Scorpion, Storm Serpent",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
           "extraUnits": [
-            "Füge bis zu zwei additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 Punkte jeweils"
+            "Add up to two additional Engines of Vaul (Cobra, Scorpion, Storm Serpent): 200 points each"
           ],
           "points": 250
         },
         {
           "name": "Fire Prism Troupe",
-          "units": "Drei Fire Prisms",
+          "units": "Three Fire Prisms",
           "extraUnits": [
           ],
           "points": 250
         },
         {
           "name": "Night Spinner Troupe",
-          "units": "Drei Night Spinners",
+          "units": "Three Night Spinners",
           "extraUnits": [
           ],
           "points": 175
         },
         {
           "name": "Rangers",
-          "units": "Vier Eldar Rangers",
+          "units": "Four Eldar Rangers",
           "extraUnits": [
           ],
           "points": 100
@@ -178,66 +177,66 @@
 
         {
           "name": "Swords of Vaul",
-          "units": "Fünf Falcons",
+          "units": "Five Falcons",
           "extraUnits": [
-            "Ersetze bis zu zwei Falcons mit Firestorms: Kostenlos"
+            "Replace up to two Falcons with Firestorms: Free"
           ],
           "points": 250
         }
       ]
     },
     {
-      "name": "Ulthwé Aircraft, Spacecraft und Titans",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände",
+      "name": "Ulthwé Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Nightwing Aerie",
-          "units": "Zwei Nightwing Interceptors",
+          "units": "Two Nightwing Interceptors",
           "extraUnits": [
-            "Füge eine Nightwing Interceptor: 75 Points"
+            "Add one Nightwing Interceptor: 75 Points"
           ],
           "points": 225
         },
         {
           "name": "Phoenix Aerie",
-          "units": "Drei Phoenix Bombers",
+          "units": "Three Phoenix Bombers",
           "extraUnits": [
           ],
           "points": 325
         },
         {
           "name": "Vampire",
-          "units": "Ein Vampire Raider",
+          "units": "One Vampire Raider",
           "extraUnits": [
           ],
           "points": 200
         },
         {
-          "name": "WraithRitters",
-          "units": "Zwei WraithRitters (may not mix configurations)",
+          "name": "Wraithknights",
+          "units": "Two Wraithknights (may not mix configurations)",
           "extraUnits": [
           ],
           "points": 325
         },
         {
           "name": "Revenant Titans",
-          "units": "Zwei Revenant Titans",
+          "units": "Two Revenant Titans",
           "extraUnits": [
           ],
           "points": 650
         },
         {
           "name": "0-1 Warlock Titan",
-          "units": "Ein Warlock Titan",
+          "units": "One Warlock Titan",
           "extraUnits": [
           ],
           "points": 850
         },
         {
           "name": "0-1 Spacecraft",
-          "units": "Ein Wraithship",
+          "units": "One Wraithship",
           "extraUnits": [
-            "Ersetze mit einemDragonship: 150 Points"
+            "Replace with a Dragonship: 150 Points"
           ],
           "points": 150
         }
@@ -245,13 +244,13 @@
     }
   ],
   "upgrades": {
-    "title": "Ulthwé Erweiterungen",
-    "description": "Jede Erweiterung kann nur einmalig ausgewählt werden.",
+    "title": "Ulthwé Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
         "name": "0-1 Seer Council",
-        "description": "Ersetze eine Farseer mit einemSeer Council.",
-        "points": "50 Punkte"
+        "description": "Replace one Farseer with a Seer Council.",
+        "points": "50 points"
       }
     ]
   }

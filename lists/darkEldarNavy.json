@@ -10,9 +10,9 @@
         "speed": "Fighter",
         "armour": 4,
         "weapons": [
-          "AC Dark Lanze|2|",
-          "AC Monoscythe Raketen",
-          "AC Splinter Geschütz"
+          "AC Dark Lance|2|",
+          "AC Monoscythe Missiles",
+          "AC Splinter Cannon"
         ],
         "specialRules": [
         ]
@@ -20,11 +20,11 @@
       {
         "name": "Voidraven Interdictor",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 4,
         "weapons": [
-          "AC Synchronisierter Void Lanze",
-          "AC Synchronisierter Splinter Geschütz",
+          "AC Twin Void Lance",
+          "AC Twin Splinter Cannon",
           "AC Void Mines"
         ],
         "specialRules": [
@@ -38,17 +38,17 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "AC Synchronisierter Dark Lanze|2|",
-          "AC Turreted Splinter Geschütz"
+          "AC Twin Dark Lance|2|",
+          "AC Turreted Splinter Cannon"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Schattenfelder 1",
+          "Damage Capacity 2",
+          "Shadowfields 1",
           "Planetfall",
           "Transport"
         ],
-        "notes": "May carry bis zu acht Infanterie Einheiten without Beritten. Grotesques counts as zwei Einheiten.",
-        "crit": "The Slavebringer und all units on board are destroyed."
+        "notes": "May carry up to eight infantry units without Mounted. Grotesques counts as two units each.",
+        "crit": "The Slavebringer and all units on board are destroyed."
       },
       {
         "name": "Torture Class Cruiser",
@@ -58,7 +58,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "6BP, MW"
+                "firepower": "6BP, MW"
               }
             ]
           },
@@ -67,7 +67,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May carry bis zu zwei Executioner Landing Modules und zwei Slavebringer Assault Boats oder bis zu sechs Slavebringer Assault Boats, plus the troops carried in them."
+        "notes": "May carry up to two Executioner Landing Modules and two Slavebringer Assault Boats, or up to six Slavebringer Assault Boats, plus the troops carried in them."
       }
     ]
   }

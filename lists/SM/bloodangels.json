@@ -4,39 +4,39 @@
   "version": "1.0.Beta",
   "release": "2022-04-01",
   "armyforge": "EAR_AdeptusAstartes_BloodAngels",
-  "intro": "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Blood Angels Space Marine Orden oder einen der Nachfolgeorden aufstellen. The Blood Angels are well-known across the galaxy für their bloodthirsty nature in battle und feared für the curse of the flawed gene-seed they carry.",
-  "strategy": "Space Marine Armeen haben einen Strategiewert von 5.",
-  "Initiative": "All Verbände haben eine Initiativewert von 1+.",
-  "armyRules": "The <i>Sie kennen keine Furcht</i> Sonderregel applies to all Blood Angels detachments und Aircraft Verbände.",
+  "intro": "The following army list allows you to field an army based on the Blood Angels Space Marine chapter or any of its successor chapters. The Blood Angels are well-known across the galaxy for their bloodthirsty nature in battle, and feared for the curse of the flawed gene-seed they carry.",
+  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
+  "armyRules": "The <i>They Shall Know No Fear</i> special rule applies to all Blood Angels detachments and Aircraft formations.",
   "specialRules": [
     "Space Marine Transports",
     "Blood Angels Rhinos",
-    "Sie kennen keine Furcht"
+    "They Shall Know No Fear"
   ],
   "units": [
     {
       "from": "SM.json",
       "units": [
         "Captain",
-        "Ordenspriester",
-        "Scriptor",
-        "Oberbefehlshaber",
-        "Sturmtrupp",
-        "Death Kompanie Marines",
-        "Devastoren",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assaults",
+        "Death Company Marines",
+        "Devastators",
         "Sanguinary Guards",
-        "Aufklärers",
-        "Taktischer Trupp",
-        "Death Kompanie Cybot",
-        "Assault Terminatoren",
+        "Scouts",
+        "Tacticals",
+        "Death Company Dreadnought",
+        "Assault Terminators",
         "Assault Bikes",
         "Land Speeder",
         "Land Speeder Tornado",
         "Land Speeder Typhoon",
-        "Melter Bike",
-        "Trike",
-        "Cybot, Furioso",
-        "Cybot",
+        "Melta Bike",
+        "Attack Bike",
+        "Dreadnought, Furioso",
+        "Dreadnought",
         "Blood Angels Hunter",
         "Blood Angels Razorback",
         "Blood Angels Rhino",
@@ -54,7 +54,7 @@
         "Drop Pod"
       ],
       "unitRules": [
-        "Ehrengarde",
+        "Honour Guard",
         "Descent of Angels",
         "Lucifer Pattern Engine"
       ]
@@ -65,31 +65,31 @@
         "Warhound"
       ],
       "unitRules": [
-        "Deflektorschilde"
+        "Void Shields"
       ]
     }
   ],
   "sections": [
     {
-      "name": "Blood Angels Kern Detachments",
-      "description": "Ein Death Kompanie formation must be taken.",
+      "name": "Blood Angels Core Detachments",
+      "description": "One Death Company formation must be taken.",
       "formations": [
         {
-          "name": "1 Death Kompanie",
-          "units": "Ein Ordenspriester, vier Death Kompanie Marines plus transport (Drop Pods oder on foot only)",
+          "name": "1 Death Company",
+          "units": "One Chaplain, four Death Company Marines plus transport (Drop Pods or on foot only)",
           "extraUnits": [
-            "Füge zwei Death Kompanie Marines: 75 Punkte",
-            "Füge bis zu zwei Death Kompanie Cybots: 75 Punkte jeweils"
+            "Add two Death Company Marines: 75 points",
+            "Add up to two Death Company Dreadnoughts: 75 points each"
           ],
           "points": 250
         },
         {
-          "name": "Sturmtrupp",
-          "units": "Vier Sturmtrupp",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
-            "Sturmtrupp",
-            "Befehlshaber",
-            "Cybots",
+            "Assaults",
+            "Commander",
+            "Dreadnoughts",
             "Honor Guards",
             "Predators",
             "Stormraven Transports"
@@ -97,12 +97,12 @@
           "points": 175
         },
         {
-          "name": "Taktischer Trupp",
-          "units": "Sechs Taktischer Trupp plus transport",
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
           "extraUnits": [
             "Anti-Air",
-            "Befehlshaber",
-            "Cybots",
+            "Commander",
+            "Dreadnoughts",
             "Honor Guards",
             "Land Raider Transport",
             "Predators",
@@ -112,12 +112,12 @@
           "points": 275
         },
         {
-          "name": "Assault Terminatoren",
-          "units": "Vier Assault Terminatoren",
+          "name": "Assault Terminators",
+          "units": "Four Assault Terminators",
           "extraUnits": [
-            "Befehlshaber",
-            "Cybots",
-            "Ersetze eine Assault Terminator mit drei Stormravens oder drei Land Raiders: 100 Punkte oder add zwei Land Raider Redeemers: 100 Punkte"
+            "Commander",
+            "Dreadnoughts",
+            "Replace one Assault Terminator with three Stormravens or three Land Raiders: 100 points, or add two Land Raider Redeemers: 100 points"
           ],
           "points": 325
         }
@@ -125,11 +125,11 @@
     },
     {
       "name": "Blood Angels Support Detachments",
-      "description": "Bis zu zwei Support Detachments may be taken pro Kern Detachment.",
+      "description": "Up to two Support Detachments may be taken per Core Detachment.",
       "formations": [
         {
           "name": "Baal Predators",
-          "units": "Vier Einheiten, in beliebiger Kombination: Baal Predator Hades, Baal Predator Infernus",
+          "units": "Any four of the following units: Baal Predator Hades, Baal Predator Infernus",
           "extraUnits": [
             "Anti-Air"
           ],
@@ -137,20 +137,20 @@
         },
         {
           "name": "Bikes",
-          "units": "Fünf Assault Bikes",
+          "units": "Five Assault Bikes",
           "extraUnits": [
-            "Trikes",
-            "Befehlshaber"
+            "Attack Bikes",
+            "Commander"
           ],
           "points": 200
         },
         {
-          "name": "Devastoren",
-          "units": "Vier Devastoren plus transport",
+          "name": "Devastators",
+          "units": "Four Devastators plus transport",
           "extraUnits": [
             "Anti-Air",
-            "Befehlshaber",
-            "Cybots",
+            "Commander",
+            "Dreadnoughts",
             "Land Raider Transport",
             "Predators",
             "Razorbacks",
@@ -160,18 +160,18 @@
         },
         {
           "name": "Land Speeder",
-          "units": "Fünf Einheiten, in beliebiger Kombination: Land Speeder, Land Speeder Tornado",
+          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "extraUnits": [
             "Typhoons"
           ],
           "points": 200
         },
         {
-          "name": "Aufklärers",
-          "units": "Vier Aufklärers plus transport",
+          "name": "Scouts",
+          "units": "Four Scouts plus transport",
           "extraUnits": [
             "Razorbacks",
-            "Scharfschützen"
+            "Snipers"
           ],
           "points": 150
         }
@@ -179,31 +179,31 @@
     },
     {
       "name": "Blood Angels Navy & Titan Legion Allies",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände.",
+      "description": "Up to a third of the points available may be spent on these formations.",
       "formations": [
         {
           "name": "Storm Talons",
-          "units": "Zwei Storm Talons",
+          "units": "Two Storm Talons",
           "points": 200
         },
         {
           "name": "Landing Craft",
-          "units": "Ein Landing Craft",
+          "units": "One Landing Craft",
           "points": 325
         },
         {
-          "name": "0-1 Orbitalunterstüzung",
-          "units": "Ein Vanguard Class Light Cruiser",
+          "name": "0-1 Orbital Support",
+          "units": "One Vanguard Class Light Cruiser",
           "extraUnits": [
-            "Ersetze the Vanguard Class Light Cruiser mit einemStrike Cruiser: 50 Punkte oder a Battle Barge: 125 Punkte"
+            "Replace the Vanguard Class Light Cruiser with a Strike Cruiser: 50 points, or a Battle Barge: 125 points"
           ],
           "points": 150
         },
         {
           "name": "Warhounds",
-          "units": "Ein Warhound Titan",
+          "units": "One Warhound Titan",
           "extraUnits": [
-            "Füge einen zusätzlichen Warhound Titan: 200 Punkte"
+            "Add an additional Warhound Titan: 200 points"
           ],
           "points": 275
         }
@@ -211,90 +211,90 @@
     }
   ],
   "upgrades": {
-    "title": "Blood Angels Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro detachment.",
+    "title": "Blood Angels Upgrades",
+    "description": "Each upgrade may be taken once per detachment.",
     "items": [
       {
         "name": "Anti-Air",
-        "description": "Füge any eine Einheiten, in beliebiger Kombination to the formation",
+        "description": "Add any one of the following units to the formation",
         "options": [
           {
-            "description": "Füge eine Hunter",
-            "points": "75 Punkte"
+            "description": "Add one Hunter",
+            "points": "75 points"
           },
           {
-            "description": "Füge eine Stalker",
-            "points": "50 Punkte"
+            "description": "Add one Stalker",
+            "points": "50 points"
           }
         ]
       },
       {
-        "name": "Sturmtrupp",
-        "description": "Füge zwei Sturmtrupp to the formation",
-        "points": "75 Punkte"
+        "name": "Assaults",
+        "description": "Add two Assaults to the formation",
+        "points": "75 points"
       },
       {
-        "name": "Trikes",
-        "description": "Ersetze any number of Assault Bikes mit einem equal number of Trikes oder Melter Bikes",
-        "points": "Kostenlos"
+        "name": "Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes or Melta Bikes",
+        "points": "Free"
       },
       {
-        "name": "Befehlshaber",
-        "description": "Füge any eine of the following characters to any unit in the formation",
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation",
         "options": [
           {
-            "description": "Captain, Scriptor",
-            "points": "25 Punkte"
+            "description": "Captain, Librarian",
+            "points": "25 points"
           },
           {
-            "description": "Ordenspriester",
-            "points": "50 Punkte"
+            "description": "Chaplain",
+            "points": "50 points"
           },
           {
-            "description": "0–1 Oberbefehlshaber",
-            "points": "75 Punkte"
+            "description": "0–1 Supreme Commander",
+            "points": "75 points"
           }
         ]
       },
       {
-        "name": "Cybots",
-        "description": "Füge bis zu zwei Cybots oder Furioso Cybots to the formation",
-        "points": "50 Punkte jeweils"
+        "name": "Dreadnoughts",
+        "description": "Add up to two Dreadnoughts or Furioso Dreadnoughts to the formation",
+        "points": "50 points each"
       },
       {
         "name": "Honor Guards",
-        "description": "In a formation containing a Oberbefehlshaber character: replace bis zu zwei Sturmtrupp oder Taktischer Trupp mit Sanguinary Guards",
-        "points": "25 Punkte jeweils"
+        "description": "In a formation containing a Supreme Commander character: replace up to two Assaults or Tacticals with Sanguinary Guards",
+        "points": "25 points each"
       },
       {
         "name": "Land Raider Transport",
-        "description": "Füge eine beliebige Anzahl Land Raiders und/oder Land Raider Redeemers, bis zu the number required to transport the formation",
-        "points": "50 Punkte jeweils"
+        "description": "Add any number of Land Raiders and/or Land Raider Redeemers, up to the number required to transport the formation",
+        "points": "50 points each"
       },
       {
         "name": "Predators",
-        "description": "Füge zwei Baal Predator Hades oder zwei Baal Predator Infernus",
-        "points": "75 Punkte"
+        "description": "Add two Baal Predator Hades or two Baal Predator Infernus",
+        "points": "75 points"
       },
       {
         "name": "Razorbacks",
-        "description": "Füge eine beliebige Anzahl Blood Angels Razorbacks, bis zu the number required to transport the formation",
-        "points": "25 Punkte jeweils"
+        "description": "Add any number of Blood Angels Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
       },
       {
-        "name": "Scharfschützen",
-        "description": "Give all Aufklärers in the formation 'Scharfschütze' on their Schwerer Bolter",
-        "points": "25 Punkte"
+        "name": "Snipers",
+        "description": "Give all Scouts in the formation 'Sniper' on their Heavy Bolters",
+        "points": "25 points"
       },
       {
         "name": "Stormraven Transports",
-        "description": "Füge eine beliebige Anzahl Stormravens, bis zu the number required to transport the formation",
-        "points": "50 Punkte jeweils"
+        "description": "Add any number of Stormravens, up to the number required to transport the formation",
+        "points": "50 points each"
       },
       {
         "name": "Typhoons",
-        "description": "Ersetze bis zu fünf Land Speeders mit einem equal number of Land Speeder Typhoons",
-        "points": "10 Punkte jeweils"
+        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+        "points": "10 points each"
       }
     ]
   }

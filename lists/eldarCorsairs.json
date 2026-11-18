@@ -1,6 +1,6 @@
 [
   {
-    "name": "Eldar Corsairs Streitmächte",
+    "name": "Eldar Corsairs Forces",
     "specialRules": [
     ],
     "unit": [
@@ -8,11 +8,12 @@
         "name": "Corsair Felarch",
         "type": "CH",
         "weapons": [
-          "Eldar Energiewaffe"
+          "Eldar Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer"
+          "Commander",
+          "Inspiring",
+          "Leader"
         ]
       },
       {
@@ -25,7 +26,7 @@
         "weapons": [
           "Shuriken Catapults"
         ],
-        "specialRules": ["Sprungmodule"]
+        "specialRules": ["Jump packs"]
       },
       {
         "name": "Corsair Veteran",
@@ -36,9 +37,9 @@
         "ff": 5,
         "weapons": [
           "Shuriken Pistols",
-          "Eldar Energiewaffe"
+          "Eldar Power Weapon"
         ],
-        "specialRules": ["Sprungmodule"]
+        "specialRules": ["Jump packs"]
       },
       {
         "name": "Ghostwalker",
@@ -50,7 +51,7 @@
         "weapons": [
           "Ghostwalker Long Rifles"
         ],
-        "specialRules": ["Sprungmodule", "Aufklärer"]
+        "specialRules": ["Jump packs", "Scout"]
       },
       {
         "name": "Corsair Wasp Walker",
@@ -63,8 +64,8 @@
           "Starcannon|2"
         ],
         "specialRules": [
-          "Geländegängig",
-          "Sprungmodule"
+          "Walker",
+          "Jump Packs"
         ]
       },
       {
@@ -75,14 +76,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Splinter Geschütz",
-          "Synchronisierter Splinter Rifle"
+          "Splinter Cannon",
+          "Twin Splinter Rifle"
         ],
         "specialRules": [
-          "Antigrav",
+          "Skimmer",
           "Transport"
         ],
-        "notes": "May carry eine Einheit Corsair Warriors, Corsair Veterans oder Ghostwalkers"
+        "notes": "May carry one unit of Corsair Warriors, Corsair Veterans or Ghostwalkers"
       },
       {
         "name": "Corsair Nightwing Interceptor",
@@ -90,11 +91,11 @@
         "speed": "Fighter",
         "armour": 5,
         "weapons": [
-          "AC Synchronisierter Shuriken Geschütz",
-          "AC Bright Lanze|2"
+          "AC Twin Shuriken Cannon",
+          "AC Bright Lance|2"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -109,13 +110,13 @@
           "AC Scatter Laser"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
+          "Damage Capacity: 2",
           "Planetfall",
-          "Verstärkte Panzerung",
+          "Reinforced Armour",
           "Transport"
         ],
-        "notes": "May carry bis zu acht of the following: Corsair Warriors, Corsair Veterans, Ghostwalker, Corsair Wasp Walker. Corsair Wasp Walkers take zwei spaces jeweils.",
-        "crit": "The Vampire Raider und all units on board are destroyed."
+        "notes": "May carry up to eight of the following: Corsair Warriors, Corsair Veterans, Ghostwalker, Corsair Wasp Walker. Corsair Wasp Walkers take two spaces each.",
+        "crit": "The Vampire Raider and all units on board are destroyed."
       }
     ]
   }

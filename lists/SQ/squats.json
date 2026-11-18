@@ -4,11 +4,11 @@
   "version": "1.0.Beta",
   "release": "2022-04-01",
   "armyforge": "EAR_Squats_WodanazStronghold",
-  "strategy": "Squat Armeen haben einen Strategiewert von 2.",
-  "Initiative": "All Verbände haben eine Initiativewert von 2+.",
+  "strategy": "Squat armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
   "specialRules": [
-    "Tunnelgräber",
-    "Tunnelgräbertransporter"
+    "Tunnelers",
+    "Tunneling Transports"
   ],
   "units": [
     {
@@ -23,16 +23,16 @@
         "Squat Bikers",
         "Squat Hearthguards",
         "Squat Thunderers",
-        "Tunnelmörser",
+        "Mole Mortars",
         "Rapier",
-        "Salvengeschütz",
+        "Thudd Gun",
         "Guildmaster Trike",
         "Squat Trike",
         "Squat Rhino",
         "Land Raider",
         "Squat Thunderfire",
         "Iron Eagle Gyrokopter",
-        "Goliath Mega Geschütz",
+        "Goliath Mega Cannon",
         "Overlord Dirigible",
         "Termite",
         "Hellbore",
@@ -42,8 +42,8 @@
         "Squat Land Train"
       ],
       "unitRules": [
-        "Geisterherr",
-        "Hilfstransportschiff"
+        "Spirit Lords",
+        "Support Craft"
       ]
     },
     {
@@ -53,22 +53,22 @@
         "Tarantula"
       ],
       "unitRules": [
-        "Maschinengeist",
+        "Machine Spirit",
         "Ponderous"
       ]
     }
   ],
   "sections": [
     {
-      "name": "Wodanaz Stronghold Brotherhood Verbände",
+      "name": "Wodanaz Stronghold Brotherhood Formations",
       "formations": [
         {
           "name": "Warrior Brotherhood",
-          "units": "Squat Hearthguards, neun Squat Warriors",
+          "units": "Squat Hearthguards, nine Squat Warriors",
           "extraUnits": [
-            "Ersetze zwei Squat Warriors mit zwei Rapier Geschütze oder zwei Thunderers: 25 Punkte",
-            "Füge vier Squat Warriors: 75 Punkte",
-            "Kriegsherr",
+            "Replace two Squat Warriors with two Rapiers, or two Thunderers: 25 points",
+            "Add four Squat Warriors: 75 points",
+            "Warlord",
             "Warrior Transport",
             "Living Ancestor (Leviathan only)"
           ],
@@ -76,81 +76,81 @@
         },
         {
           "name": "Berserker Brotherhood",
-          "units": "Squat Hearthguards, sieben Squat Berserkers, vier Squat Rhinos",
+          "units": "Squat Hearthguards, seven Squat Berserkers, four Squat Rhinos",
           "extraUnits": [
-            "Ersetze vier Squat Rhinos mit vier Termites: 25 Punkte"
+            "Replace four Squat Rhinos with four Termites: 25 points"
           ],
           "points": 200
         }
       ]
     },
     {
-      "name": "Wodanaz Stronghold Unterstützungsverbände",
-      "description": "Bis zu zwei Stronghold Unterstützungsverbände pro Stronghold Brotherhood Formation.",
+      "name": "Wodanaz Stronghold Support Formations",
+      "description": "Up to two Stronghold Support Formations for each Stronghold Brotherhood Formation.",
       "formations": [
         {
           "name": "Bikers",
-          "units": "Sechs Squat Bikers",
+          "units": "Six Squat Bikers",
           "extraUnits": [
-            "Füge eine Guildmaster Trike: 25 Punkte",
-            "Ersetze bis zu drei Squat Bikers mit Squat Trikes: Kostenlos"
+            "Add one Guildmaster Trike: 25 points",
+            "Replace up to three Squat Bikers with Squat Trikes: Free"
           ],
           "points": 175
         },
         {
           "name": "Thunderers",
-          "units": "Vier Squat Thunderers, zwei Squat Rhinos",
+          "units": "Four Squat Thunderers, two Squat Rhinos",
           "extraUnits": [
             "Thunderer Transport"
           ],
           "points": 175
         },
         {
-          "name": "Sentry Batterie",
-          "units": "Sechs Rapier Geschütze und/oder Tarantulas",
+          "name": "Sentry Battery",
+          "units": "Six Rapiers and/or Tarantulas",
           "extraUnits": [
           ],
           "points": 175
         },
         {
-          "name": "Light Artillerie Batterie",
-          "units": "Sechs Thudd Guns und/oder Tunnelmörser",
+          "name": "Light Artillery Battery",
+          "units": "Six Thudd Guns and/or Mole Mortars",
           "extraUnits": [
           ],
           "points": 200
         },
         {
-          "name": "Thunderfire Batterie",
-          "units": "Drei Squat Thunderfires",
+          "name": "Thunderfire Battery",
+          "units": "Three Squat Thunderfires",
           "extraUnits": [
-            "Füge drei Squat Rhinos: 25 Punkte"
+            "Add three Squat Rhinos: 25 points"
           ],
           "points": 150
         },
         {
-          "name": "Gyrokopter Schwadron",
-          "units": "Vier Iron Eagle Gyrokopters",
+          "name": "Gyrokopter Squadron",
+          "units": "Four Iron Eagle Gyrokopters",
           "extraUnits": [
           ],
           "points": 250
         },
         {
-          "name": "Kastelan Manipel",
-          "units": "Ein Squat Tech-Priest, fünf Kastelan Robots",
+          "name": "Kastelan Maniple",
+          "units": "One Squat Tech-Priest, five Kastelan Robots",
           "extraUnits": [
-            "Füge bis zu zwei Kastelan Robots: 25 Punkte jeweils"
+            "Add up to two Kastelan Robots: 25 points each"
           ],
           "points": 175
         }
       ]
     },
     {
-      "name": "Wodanaz Stronghold Kriegsmaschinen",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für Wodanaz Stronghold Kriegsmaschinen. Max eine Hellbore pro Warrior Brotherhood formation mit the 'Hellbore Transport' upgrade.",
+      "name": "Wodanaz Stronghold War Engines",
+      "description": "Up to a third of the points available may be spent on Wodanaz Stronghold War Engines. Max one Hellbore for each Warrior Brotherhood formation with the 'Hellbore Transport' upgrade.",
       "formations": [
         {
           "name": "Hellbore",
-          "units": "Ein Hellbore",
+          "units": "One Hellbore",
           "extraUnits": [
             "Living Ancestor"
           ],
@@ -158,22 +158,22 @@
         },
         {
           "name": "Overlord",
-          "units": "Ein Overlord Dirigible",
+          "units": "One Overlord Dirigible",
           "extraUnits": [
             "Living Ancestor"
           ],
           "points": 250
         },
         {
-          "name": "Goliath Batterie",
-          "units": "Zwei Goliath Mega Cannons",
+          "name": "Goliath Battery",
+          "units": "Two Goliath Mega Cannons",
           "extraUnits": [
           ],
           "points": 350
         },
         {
           "name": "Cyclops",
-          "units": "Ein Cyclops",
+          "units": "One Cyclops",
           "extraUnits": [
             "Living Ancestor"
           ],
@@ -181,7 +181,7 @@
         },
         {
           "name": "Colossus",
-          "units": "Ein Colossus",
+          "units": "One Colossus",
           "extraUnits": [
             "Living Ancestor"
           ],
@@ -189,13 +189,13 @@
         },
         {
           "name": "Land Train",
-          "units": "Ein Squat Land Train und between zwei und vier Battle Cars",
+          "units": "One Squat Land Train and between two and four Battle Cars",
           "extraUnits": [
             "Living Ancestor",
-            "Dragon Battle Car: 75 Punkte jeweils",
-            "Belagerungsmörser Battle Car: 75 Punkte jeweils",
-            "Berserker Battle Car und eine Einheit Squat Berserkers: 75 Punkte jeweils",
-            "0-1 Bomb Battle Car: 125 Punkte"
+            "Dragon Battle Car: 75 points each",
+            "Siege Mortar Battle Car: 75 points each",
+            "Berserker Battle Car and one unit of Squat Berserkers: 75 points each",
+            "0-1 Bomb Battle Car: 125 points"
           ],
           "points": 200
         }
@@ -203,65 +203,65 @@
     }
   ],
   "upgrades": {
-    "title": "Wodanaz Stronghold Erweiterungen",
-    "description": "Jede Erweiterung kann nur einmalig ausgewählt werden.",
+    "title": "Wodanaz Stronghold Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
-        "name": "Kriegsherr",
-        "description": "Füge eine Einheiten, in beliebiger Kombination to the formation",
+        "name": "Warlord",
+        "description": "Add one of the following units to the formation",
         "options": [
           {
             "description": "Squat Warlord",
-            "points": "50 Punkte"
+            "points": "50 points"
           },
           {
             "description": "(0-1 in the army) Squat Grand Warlord",
-            "points": "100 Punkte"
+            "points": "100 points"
           }
         ]
       },
       {
         "name": "Living Ancestor",
-        "description": "Füge a Living Ancestor to an Overlord Dirigible, Leviathan, Cyclops, Colossus oder Land Train.",
-        "points": "25 Punkte"
+        "description": "Add a Living Ancestor to an Overlord Dirigible, Leviathan, Cyclops, Colossus or Land Train.",
+        "points": "25 points"
       },
       {
         "name": "Thunderer Transport",
-        "description": "Ersetze zwei Squat Rhinos mit zwei Termites oder zwei Land Raiders.",
+        "description": "Replace two Squat Rhinos with two Termites or two Land Raiders.",
         "options": [
           {
             "description": "Termites",
-            "points": "Kostenlos"
+            "points": "Free"
           },
           {
             "description": "Land Raiders",
-            "points": "75 Punkte"
+            "points": "75 points"
           }
         ]
       },
       {
         "name": "Warrior Transport",
-        "description": "Füge transports to the formation, bis zu the number required to transport all Infanterie Einheiten in the formation. Termites, Hellbore und Leviathan transports can not be combined mit other transport options. Transports can only be taken if the entire formation can be transported.",
+        "description": "Add transports to the formation, up to the number required to transport all infantry units in the formation. Termites, Hellbore and Leviathan transports can not be combined with other transport options. Transports can only be taken if the entire formation can be transported.",
         "options": [
           {
             "description": "Squat Rhinos",
-            "points": "10 Punkte jeweils"
+            "points": "10 points each"
           },
           {
             "description": "Land Raiders",
-            "points": "50 Punkte jeweils"
+            "points": "50 points each"
           },
           {
             "description": "Termites",
-            "points": "15 Punkte jeweils"
+            "points": "15 points each"
           },
           {
             "description": "Hellbore Transport (bought separately)",
-            "points": "Kostenlos"
+            "points": "Free"
           },
           {
             "description": "Leviathan",
-            "points": "275 Punkte"
+            "points": "275 points"
           }
         ]
       }

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Questoris Ritter",
+    "name": "Questoris Knights",
     "specialRules": [
     ],
     "unit": [
@@ -11,9 +11,9 @@
           "n/a"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Furchtlos"
+          "Supreme Commander",
+          "Inspiring",
+          "Fearless"
         ]
       },
       {
@@ -23,30 +23,30 @@
           "n/a"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer"
+          "Commander",
+          "Leader"
         ]
       },
       {
-        "name": "Synchronisierte Icarus Maschinenkanone",
+        "name": "Twin Icarus Autocannon",
         "type": "CH",
         "weapons": [
-          "Synchronisierte Icarus Maschinenkanone"
+          "Twin Icarus Autocannon"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Ironstorm Rakete Pod",
+        "name": "Ironstorm Missile Pod",
         "type": "CH",
         "weapons": [
-          "Ironstorm Rakete Pod||FwA"
+          "Ironstorm Missile Pod||FwA"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Armiger Schwertknappe",
+        "name": "Armiger Knight-Warglaive",
         "type": "AV",
         "speed": 30,
         "armour": 5,
@@ -57,31 +57,31 @@
           "Reaper Chain-Cleaver"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (4+)"
+          "Stubborn",
+          "Walker",
+          "Scout",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Armiger Speerknappen",
+        "name": "Armiger Knight-Helverin",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Maschinenkanone"
+          "Twin Autocannon"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (4+)"
+          "Stubborn",
+          "Walker",
+          "Scout",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Armiger Schwertknappe Relikt-Ritter Moirax",
+        "name": "Armiger Relic Knight-Moirax",
         "type": "AV",
         "speed": 30,
         "armour": 5,
@@ -93,113 +93,113 @@
           "Gyges Siege Claw|0-1|"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (4+)",
-          "Ionisiertes Blitzfeld"
+          "Stubborn",
+          "Walker",
+          "Scout",
+          "Ion Shield (4+)",
+          "Ionic Flare Shield"
         ],
-        "notes": "Must be armed mit either Lightning Locks oder Volkite Veuglaire und Gyges Siege Claw"
+        "notes": "Must be armed with either Lightning Locks, or Volkite Veuglaire and Gyges Siege Claw"
       },
       {
-        "name": "Questoris Paladinritter",
+        "name": "Questoris Knight-Paladin",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Rapid Fire Kampfgeschütz",
-          "Reaper Kettenschwert"
+          "Rapid Fire Battle Cannon",
+          "Reaper Chainsword"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Fahrender Ritter",
+        "name": "Questoris Knight-Errant",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Thermal Geschütz",
-          "Reaper Kettenschwert"
+          "Thermal Cannon",
+          "Reaper Chainsword"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Kreuzritter",
+        "name": "Questoris Knight-Crusader",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Rapid Fire Kampfgeschütz",
-          "Avenger Gatling Geschütz"
+          "Rapid Fire Battle Cannon",
+          "Avenger Gatling Cannon"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Duellritter",
+        "name": "Questoris Knight-Gallant",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Icarus Maschinenkanone",
+          "Twin Icarus Autocannon",
           "Thunderstrike Gauntlet",
-          "Reaper Kettenschwert"
+          "Reaper Chainsword"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Wächterritter",
+        "name": "Questoris Knight-Warden",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Avenger Gatling Geschütz",
-          "Ironstorm Rakete Pod",
-          "Reaper Kettenschwert"
+          "Avenger Gatling Cannon",
+          "Ironstorm Missile Pod",
+          "Reaper Chainsword"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Ritter-Preceptor",
+        "name": "Questoris Knight-Preceptor",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
@@ -210,15 +210,15 @@
           "Thunderstrike Gauntlet"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Ritter-Freeblade",
+        "name": "Questoris Knight-Freeblade",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
@@ -227,25 +227,25 @@
         "weapons": [
           "Thunderstrike Gauntlet",
           ">Chrimson Glaive<",
-          "Conflagration Geschütz",
+          "Conflagration Cannon",
           ">Iron Wolf<",
           "Helfrost Destructor",
           ">Justice<",
-          "Castigator Geschütz",
+          "Castigator Cannon",
           ">Canis Rex<",
           "Las Impulsor"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Questoris Relikt-Ritter Styrix",
+        "name": "Questoris Relic Knight-Styrix",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
@@ -253,345 +253,345 @@
         "ff": 4,
         "weapons": [
           "Volkite Chierovile",
-          "Synchronisierter Rad Cleanser",
+          "Twin Rad Cleanser",
           "Graviton Crusher",
           "Hekaton Siege Claw"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)",
-          "Ionisiertes Blitzfeld"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)",
+          "Ionic Flare Shield"
         ]
       },
       {
-        "name": "Questoris Relikt-Ritter Magaera",
+        "name": "Questoris Relic Knight-Magaera",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Lightning Geschütz",
-          "Synchronisierter Phased Plasma Fusil",
-          "Reaper Kettenschwert"
+          "Lightning Cannon",
+          "Twin Phased Plasma Fusil",
+          "Reaper Chainsword"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)",
-          "Ionisiertes Blitzfeld"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Ion Shield (3+)",
+          "Ionic Flare Shield"
         ]
       },
       {
-        "name": "Kastellanritter",
+        "name": "Dominus Knight-Castellan",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
-          "Schildbrecher Raketen|4|",
-          "Volcano Lanze||FwA",
-          "Synchronisierter Siegebreaker Geschütz||",
-          "Plasma Vernichter||FwA"
+          "Shieldbreaker Missiles|4|",
+          "Volcano Lance||FwA",
+          "Twin Siegebreaker Cannon||",
+          "Plasma Decimator||FwA"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Breschenritter",
+        "name": "Dominus Knight-Valiant",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
-          "Schildbrecher Raketen|2|",
-          "Synchronisierter Siegebreaker Geschütz|2|",
-          "Conflagration Geschütz",
+          "Shieldbreaker Missiles|2|",
+          "Twin Siegebreaker Cannon|2|",
+          "Conflagration Cannon",
           "Thundercoil Harpoon"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Cerastus Ritter-Acheron",
+        "name": "Cerastus Knight-Acheron",
         "type": "H-AV",
         "speed": 30,
         "armour": 5,
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Cerastus Flammengeschütz",
+          "Cerastus Flame Cannon",
           "Reaper Chainfist"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Scout",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Cerastus Ritter-Castigator",
+        "name": "Cerastus Knight-Castigator",
         "type": "H-AV",
         "speed": 30,
         "armour": 5,
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Castigator Geschütz",
+          "Castigator Cannon",
           "Tempest Warblade"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (3+)"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Scout",
+          "Ion Shield (3+)"
         ]
       },
       {
-        "name": "Cerastus Ritter-Lancer",
+        "name": "Cerastus Knight-Lancer",
         "type": "H-AV",
         "speed": 30,
         "armour": 5,
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Cerastus Shock Lanze"
+          "Cerastus Shock Lance"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (3+)",
-          "Ionisiertes Blitzfeld"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Scout",
+          "Ion Shield (3+)",
+          "Ionic Flare Shield"
         ]
       },
       {
-        "name": "Cerastus Relikt-Ritter Atrapos",
+        "name": "Cerastus Relic Knight-Atrapos",
         "type": "H-AV",
         "speed": 30,
         "armour": 5,
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Graviton Singularity Geschütz",
+          "Graviton Singularity Cannon",
           "Atrapos Lascutter"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (3+)",
-          "Ionisiertes Blitzfeld"
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker",
+          "Scout",
+          "Ion Shield (3+)",
+          "Ionic Flare Shield"
         ]
       },
       {
-        "name": "Acastus Relikt-Ritter Porphyrion",
+        "name": "Acastus Relic Knight-Porphyrion",
         "type": "WE",
         "speed": 20,
         "armour": 4,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Quad Magna Laserkanone||FxF",
-          "Maschinenkanone|2|FxF",
-          "Helios Defense Raketen"
+          "Quad Magna Lascannon||FxF",
+          "Autocannon|2|FxF",
+          "Helios Defense Missiles"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Damage Capacity: 3",
+          "Stubborn",
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ],
-        "crit": "The Acastus Ritter takes 1 additional damage."
+        "crit": "The Acastus Knight takes 1 additional damage."
       },
       {
-        "name": "Acastus Relikt-Ritter Asterius",
+        "name": "Acastus Relic Knight-Asterius",
         "type": "WE",
         "speed": 20,
         "armour": 4,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Conversion Beam Geschütz|2|FxF",
+          "Conversion Beam Cannon|2|FxF",
           "Volkite Culvertin|2|FxF",
-          "Karacnos Mörser Batterie||FxF"
+          "Karacnos Mortar Battery||FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (3+)"
+          "Damage Capacity: 3",
+          "Stubborn",
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (3+)"
         ],
-        "crit": "The Acastus Ritter takes 1 additional damage."
+        "crit": "The Acastus Knight takes 1 additional damage."
       },
       {
-        "name": "Ritter-Baron",
+        "name": "Knight-Baron",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Rapid Fire Kampfgeschütz",
-          "Shock Lanze",
-          "Ritter Power Gauntlet"
+          "Rapid Fire Battle Cannon",
+          "Shock Lance",
+          "Knight Power Gauntlet"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Furchtlos",
-          "Geländegängig",
-          "Inspirierend",
-          "Ionenfeld (4+)"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Fearless",
+          "Walker",
+          "Inspiring",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Paladinritter",
+        "name": "Knight-Paladin",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Kampfgeschütz",
-          "Shock Lanze",
-          "Ritter Kettenschwert"
+          "Battle Cannon",
+          "Shock Lance",
+          "Knight Chainsword"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Ritter-Castellan",
+        "name": "Knight-Castellan",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Long Geschütz",
-          "Multi-Barreled Maschinenkanone|0-1|",
-          "Synchronisierte Laserkanone|0-1|"
+          "Long Cannon",
+          "Multi-Barreled Autocannon|0-1|",
+          "Twin Lascannon|0-1|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Ritter-Lancer",
+        "name": "Knight-Lancer",
         "type": "H-AV",
         "speed": 30,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Kampfgeschütz",
-          "Ritter Power Lanze"
+          "Battle Cannon",
+          "Knight Power Lance"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Aufklärer",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Scout",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Fahrender Ritter",
+        "name": "Knight-Errant",
         "type": "H-AV",
         "speed": 25,
         "armour": 5,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Thermal Geschütz",
-          "Shock Lanze",
-          "Ritter Power Gauntlet"
+          "Thermal Cannon",
+          "Shock Lance",
+          "Knight Power Gauntlet"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Wächterritter Demolisher",
+        "name": "Knight-Warden Demolisher",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Demolisher Geschütz",
-          "Schwerer Bolter|2|"
+          "Demolisher",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Wächterritter Vanquisher",
+        "name": "Knight-Warden Vanquisher",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Vernichter-Panzerabwehrkanone"
+          "Vanquisher Cannon"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (4+)"
         ]
       },
       {
-        "name": "Wächterritter Skysweeper",
+        "name": "Knight-Warden Skysweeper",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Skysweeper Raketenwerfer",
+          "Skysweeper Missile Launcher",
           "Multilaser|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Ionenfeld (4+)"
+          "Reinforced Armour",
+          "Walker",
+          "Ion Shield (4+)"
         ]
       }
     ]

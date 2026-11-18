@@ -1,117 +1,118 @@
 [
   {
-    "name": "Chaos Space Marine Streitmächte",
+    "name": "Chaos Space Marine Forces",
     "specialRules": [
     ],
     "unit": [
       {
-        "name": "Kriegsherr",
+        "name": "Warlord",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Noise Marine Kriegsherr",
+        "name": "Noise Warlord",
         "type": "CH",
         "weapons": [
             "Doom Siren"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Iron Warriors Kriegsschmied",
+        "name": "Iron Warriors Warsmith",
         "type": "CH",
         "weapons": [
           "Servo Arm"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Notreparaturen",
+          "Supreme Commander",
+          "Battlefield Repairs",
           "Bionics",
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Night Lords Erster Captain",
+        "name": "Night Lords First Captain",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Dämonischer Pakt",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Daemonic Pact",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Herrscher des Blutes",
+        "name": "Blood Lord",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Inspiring",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Großer Apostel",
+        "name": "Grand Apostle",
         "type": "CH",
         "weapons": [
           "Daemonic Bolt"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Verbesserte Beschwörung (+2W3)",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Inspiring",
+          "Augment Summoning (+2D3)",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Exalted Hexer",
+        "name": "Exalted Sorcerer",
         "type": "CH",
         "weapons": [
           "Blue Fire of Metamorphosis",
-          "Dämonenwaffen"
+          "Daemon Weapon"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dunkler Apostel",
+        "name": "Dark Apostle",
         "type": "CH",
         "weapons": [
           "Daemonic Bolt"
         ],
         "specialRules": [
-          "Inspirierend",
-          "Anführer",
-          "Verbesserte Beschwörung (+2W3)",
-          "Unmodifizierter Rettungswurf"
+          "Inspiring",
+          "Supreme Commander",
+          "Heralds of Truth",
+          "Augment Summoning (+D3)",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Chaos Lord",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -121,10 +122,10 @@
           "Doom Siren"
         ],
         "specialRules": [
-            "Dämonischer Fokus",
-            "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+            "Daemonic Focus",
+            "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -134,107 +135,108 @@
           "Servo Arm"
         ],
         "specialRules": [
-          "Anführer",
-          "Notreparaturen",
+          "Leader",
+          "Battlefield Repairs",
           "Bionics",
-          "Unmodifizierter Rettungswurf"
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Alpha Legion Lord",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Night Lords Captain",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Dämonischer Pakt",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Daemonic Pact",
+          "Invulnerable Save"
         ]
       },
       {
         "name": "Skull Lord",
         "type": "CH",
         "weapons": [
-          "Energiewaffe"
+          "Power Weapon"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Inspirierend",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Inspiring",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Aufstrebender Hexer",
+        "name": "Aspiring Sorcerer",
         "type": "CH",
         "weapons": [
           "Red Fire of Alteration",
-          "Dämonenwaffen"
+          "Daemon Weapon"
         ],
         "specialRules": [
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Hexer Lord",
+        "name": "Sorcerer Lord",
         "type": "CH",
         "weapons": [
           "Warp Bolt"
         ],
         "specialRules": [
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Leader",
+          "Invulnerable Save"
         ]
       },
-      {
-        "name": "Diabolist",
+            {
+        "name": "Word Bearers Coryphaus",
         "type": "CH",
         "weapons": [
-          "Daemonic Bolt"
+            "n/a"
         ],
         "specialRules": [
-          "Verbesserte Beschwörung (+W3)",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Heralds of Truth",
+          "Augment Summoning (+D3)",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Alpha Legion Hexer",
+        "name": "Alpha Legion Sorcerer",
         "type": "CH",
         "weapons": [
           "Warp Bolt"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Champion des Chaos",
+        "name": "Champion of Chaos",
         "type": "CH",
         "weapons": [
-          "Dämonische Besessenheit"
+          "Daemonic Possession"
         ],
         "specialRules": [
-          "Verbesserte Beschwörung (+2W3)",
-          "Unmodifizierter Rettungswurf"
+          "Augment Summoning (+2D3)",
+          "Invulnerable Save"
         ],
-        "notes": "May be sacrificed. Before rolling its Verbände Beschwörung Punkte this unit’s Verbesserte Beschwörung (+2W3) ability is changed to Verbesserte Beschwörung (+6). After this roll the unit mit the Champion is destroyed mit no saves allowed. A unit sacrificed in this way does not cause a Beschussmarke."
+        "notes": "May be sacrificed. Before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker."
       },
       {
         "name": "Night Lords Sergeant",
@@ -243,25 +245,37 @@
           "n/a"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer"
+          "Commander",
+          "Leader"
         ]
       },
       {
-        "name": "Ikonenträger",
+        "name": "Icon Bearer",
         "type": "CH",
         "weapons": [
           "n/a"
         ],
         "specialRules": [
-          "Verbesserte Beschwörung (+1)",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf",
-          "Anführer"
+          "Augment Summoning (+1)",
+          "Daemonic Focus",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+            {
+        "name": "Word Bearers Acolyte",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+          "Augment Summoning (+D3)",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenprinz",
+        "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -272,17 +286,17 @@
           "Æther Blade"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
-          "Teleportieren",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Night Lords Dämonenprinz",
+        "name": "Night Lords Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -293,18 +307,40 @@
           "Warp Talons"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
-          "Teleportieren",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Dämonischer Pakt",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus",
+          "Daemonic Pact",
+          "Invulnerable Save"
+        ]
+      },
+            {
+        "name": "Word Bearers Daemon Prince",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Warp Bolt",
+          "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Heralds of Truth",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Fearless",
+          "Daemonic Focus",
+          "Augment Summoning (+D3)",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenprinz of Slaanesh",
+        "name": "Daemon Prince of Slaanesh",
         "type": "INF",
         "speed": 35,
         "armour": 4,
@@ -315,17 +351,17 @@
           "Rapturous Blade"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
-          "Teleportieren",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenprinz des Nurgle",
+        "name": "Daemon Prince of Nurgle",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -336,38 +372,38 @@
           "Blade of Rot"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
-          "Teleportieren",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenprinz des Khorne",
+        "name": "Daemon Prince of Khorne",
         "type": "INF",
         "speed": 30,
         "armour": 4,
         "cc": 2,
         "ff": 5,
         "weapons": [
-          "Lash des Khorne",
+          "Lash of Khorne",
           "Æther Blade"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
-          "Teleportieren",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Dämonenprinz des Tzeentch",
+        "name": "Daemon Prince of Tzeentch",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -379,13 +415,13 @@
           "Bedlam Staff"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Verstärkte Panzerung",
-          "Sprungmodule",
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
           "Warp Rift",
-          "Furchtlos",
-          "Dämonischer Fokus",
-          "Unmodifizierter Rettungswurf"
+          "Fearless",
+          "Daemonic Focus",
+          "Invulnerable Save"
         ]
       },
       {
@@ -396,10 +432,10 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone"
+          "Autocannon"
         ],
         "specialRules": [
-          "Hartnäckig"
+          "Stubborn"
         ]
       },
       {
@@ -410,7 +446,7 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone"
+          "Autocannon"
         ]
       },
       {
@@ -421,41 +457,41 @@
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Soulreaper Geschütz"
+          "Soulreaper Cannon"
         ]
       },
       {
-        "name": "Chaos Sturmtrupps",
+        "name": "Chaos Assault Marines",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Plasmawerfer ",
+          "Plasma Guns",
           "Chain Glaives"
         ]
       },
       {
-        "name": "Iron Warriors Sturmtrupps",
+        "name": "Iron Warriors Assault Marines",
         "type": "INF",
         "speed": 15,
         "armour": 3,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Bolter und Boarding Shields"
+          "Bolters and Boarding Shields"
         ]
       },
       {
-        "name": "World Eaters Sturmtrupps",
+        "name": "World Eaters Assault Marines",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Plasmawerfer ",
+          "Plasma Guns",
           "Chain Glaives"
         ]
       },
@@ -467,7 +503,7 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Maschinenkanone|2|"
+          "Autocannon|2|"
         ]
       },
       {
@@ -478,7 +514,7 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Plasmakanone|2|"
+          "Plasma Cannon|2|"
         ]
       },
       {
@@ -489,7 +525,7 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Soulreaper Geschütz|2|"
+          "Soulreaper Cannon|2|"
         ]
       },
       {
@@ -500,38 +536,38 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Maschinenkanone|2|"
+          "Autocannon|2|"
         ],
         "specialRules": [
-          "Hartnäckig"
+          "Stubborn"
         ]
       },
       {
-        "name": "Auserwählte",
+        "name": "Chosen",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone"
+          "Autocannon"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
-        "name": "Night Lords Auserwählte",
+        "name": "Night Lords Chosen",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Scharfschützengewehre"
+          "Sniper Rifles"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
@@ -542,18 +578,18 @@
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Schwerer Bolter",
-          "Banestrike Kombi-Bolter"
+          "Heavy Bolter",
+          "Banestrike Combi-Bolters"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Infiltratoren",
-          "Aufklärer",
+          "Stubborn",
+          "Infiltrators",
+          "Scout",
           "Sabotage"
         ]
       },
       {
-        "name": "Raptoren",
+        "name": "Raptors",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -561,25 +597,25 @@
         "ff": 4,
         "weapons": [
           "Plasma Pistols",
-          "Kettenschwerter"
+          "Chainswords"
         ],
         "specialRules": [
-          "Sprungmodule"
+          "Jump Packs"
         ]
       },
       {
-        "name": "Night Raptoren",
+        "name": "Night Raptors",
         "type": "INF",
         "speed": 30,
         "armour": 4,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Plasmawerfer ",
-          "Kettenschwerter"
+          "Plasma Guns",
+          "Chainswords"
         ],
         "specialRules": [
-          "Sprungmodule"
+          "Jump Packs"
         ]
       },
       {
@@ -590,11 +626,11 @@
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Boltpistolen",
+          "Bolt Pistols",
           "Iconoclast Axes"
         ],
         "specialRules": [
-          "Sprungmodule"
+          "Jump Packs"
         ]
       },
       {
@@ -605,10 +641,10 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Rad Rakete Launchers"
+          "Rad Missile Launchers"
         ],
         "specialRules": [
-          "Sprungmodule"
+          "Jump Packs"
         ]
       },
       {
@@ -619,10 +655,10 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Rad Rakete Launchers"
+          "Rad Missile Launchers"
         ],
         "specialRules": [
-          "Sprungmodule"
+          "Jump Packs"
         ]
       },
       {
@@ -633,11 +669,11 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Rad Rakete Launchers"
+          "Rad Missile Launchers"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Sprungmodule"
+          "Stubborn",
+          "Jump Packs"
         ]
       },
       {
@@ -651,7 +687,7 @@
           "Blastmaster"
         ],
         "specialRules": [
-          "Furchtlos"
+          "Fearless"
         ]
       },
       {
@@ -665,37 +701,37 @@
           "Blastmaster|3|"
         ],
         "specialRules": [
-          "Furchtlos"
+          "Fearless"
         ]
       },
       {
-        "name": "Seuchenmarines",
+        "name": "Plague Marines",
         "type": "INF",
         "speed": 15,
         "armour": 3,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Bolter",
+          "Bolters",
           "Plague Knives"
         ],
         "specialRules": [
-          "Furchtlos"
+          "Fearless"
         ]
       },
       {
-        "name": "Khorne Berserker",
+        "name": "Khorne Berzerkers",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 2,
         "ff": 5,
         "weapons": [
-          "Boltpistolen",
+          "Bolt Pistols",
           "Chain Axes"
         ],
         "specialRules": [
-          "Furchtlos"
+          "Fearless"
         ]
       },
       {
@@ -706,10 +742,10 @@
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Inferno Bolter"
+          "Inferno Bolters"
         ],
         "specialRules": [
-          "Furchtlos"
+          "Fearless"
         ]
       },
       {
@@ -724,79 +760,81 @@
           "Warp Talons"
         ],
         "specialRules": [
-          "Teleportieren",
-          "Sprungmodule",
-          "Furchtlos"
+          "Teleport",
+          "Jump Packs",
+          "Fearless"
         ],
-        "notes": "Must start the game in the Reserven und may only enter the battlefield by Teleportation. May not be transported."
+        "notes": "Must start the game in the reserves, and may only enter the battlefield by Teleportation. May not be transported."
       },
       {
-        "name": "Word Bearers Possessed",
+        "name": "Daemonkin",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
+        "armour": 3,
+        "cc": 2,
+        "ff": 5,
         "weapons": [
-          "Dämonische Besessenheit"
+          "Daemonic Claws"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf"
+          "Fearless",
+          "Infiltrators",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Chaos Terminatoren",
+        "name": "Chaos Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
-          "Reaper Maschinenkanone|2|",
-          "Energiewaffen"
+          "Reaper Autocannon|2|",
+          "Power Weapons"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Atramentar Terminatoren",
+        "name": "Atramentar Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 2,
         "ff": 4,
         "weapons": [
-          "Kombi-Bolter",
-          "Lightning Klauen"
+          "Combi-Bolters",
+          "Lightning Claws"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Tyrant Siege Terminatoren",
+        "name": "Tyrant Siege Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Cyclone Raketenwerfer",
-          "Energiewaffen"
+          "Cyclone Missile Launchers",
+          "Power Weapons"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Lernaean Terminatoren",
+        "name": "Lernaean Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -804,17 +842,17 @@
         "ff": 2,
         "weapons": [
           "Volkite Chargers",
-          "Energiewaffen"
+          "Power Weapons"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Stubborn",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Sirenshriek Terminatoren",
+        "name": "Sirenshriek Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -822,71 +860,71 @@
         "ff": 3,
         "weapons": [
           "Doom Siren|2|",
-          "Energiewaffen"
+          "Power Weapons"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Fearless",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Blightlord Terminatoren",
+        "name": "Blightlord Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 3,
         "weapons": [
-          "Reaper Maschinenkanone|2|",
-          "Energiewaffen"
+          "Reaper Autocannon|2|",
+          "Power Weapons"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Fearless",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Skullseeker Terminatoren",
+        "name": "Skullseeker Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 2,
         "ff": 3,
         "weapons": [
-          "Kombi-Melter",
-          "Lightning Klauen"
+          "Combi-Meltas",
+          "Lightning Claws"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Teleportieren",
-          "Verstärkte Heckpanzerung"
+          "Fearless",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Scarab Occult Terminatoren",
+        "name": "Scarab Occult Terminators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
         "cc": 3,
         "ff": 2,
         "weapons": [
-          "Inferno Kombi-Bolter",
-          "Energiewaffen"
+          "Inferno Combi-Bolters",
+          "Power Weapons"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
+          "Fearless",
+          "Reinforced Armour",
           "Warp Rift",
-          "Verstärkte Heckpanzerung"
+          "Thick Rear Armour"
         ]
       },
       {
-        "name": "Kyborgs",
+        "name": "Obliterators",
         "type": "INF",
         "speed": 15,
         "armour": 4,
@@ -896,10 +934,10 @@
           "Manifested Body Weapons"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Teleportieren"
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Teleport"
         ]
       },
       {
@@ -912,14 +950,14 @@
           "Manifested Melee Weapons"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Teleportieren"
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Teleport"
         ]
       },
       {
-        "name": "Hexer Disc Riders",
+        "name": "Sorcerer Disc Riders",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -929,34 +967,34 @@
           "Sorcerous Bolts"
         ],
         "specialRules": [
-          "Sprungmodule",
-          "Unmodifizierter Rettungswurf"
+          "Jump Packs",
+          "Invulnerable Save"
         ]
       },
       {
-        "name": "Chaos Space Marine Bikes",
+        "name": "Chaos Assault Bikes",
         "type": "INF",
         "speed": 35,
         "armour": 4,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Kombi-Bolter",
-          "Kettenschwerter"
+          "Combi-Bolters",
+          "Chainswords"
         ],
         "specialRules": [
-          "Beritten"
+          "Mounted"
         ]
       },
       {
-        "name": "Chaos Trike",
+        "name": "Chaos Attack Bike",
         "type": "LV",
         "speed": 35,
         "armour": 4,
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Reaper Maschinenkanone"
+          "Reaper Autocannon"
         ]
       },
       {
@@ -967,12 +1005,12 @@
         "cc": 2,
         "ff": 5,
         "weapons": [
-          "Boltpistolen",
+          "Bolt Pistols",
           "Chain Axes"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Beritten"
+          "Fearless",
+          "Mounted"
         ]
       },
       {
@@ -983,14 +1021,14 @@
         "cc": 2,
         "ff": 5,
         "weapons": [
-          "Boltpistolen",
+          "Bolt Pistols",
           "Juggernaut"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Beritten",
-          "Geländegängig",
-          "Unmodifizierter Rettungswurf"
+          "Fearless",
+          "Mounted",
+          "Walker",
+          "Invulnerable Save"
         ]
       },
       {
@@ -1001,12 +1039,12 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Kombi-Bolter"
+          "Combi-Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten (except Terminatoren und Kyborgs) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators and Obliterators) without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Siege Rhino",
@@ -1016,13 +1054,13 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Kombi-Bolter"
+          "Combi-Bolter"
         ],
         "specialRules": [
-          "Geländegängig",
+          "Walker",
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten (except Terminatoren und Kyborgs) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators and Obliterators) without Jump Packs or Mounted."
       },
       {
         "name": "Alpha Legion Rhino",
@@ -1032,13 +1070,13 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Kombi-Bolter"
+          "Combi-Bolter"
         ],
         "specialRules": [
-          "Hartnäckig",
+          "Stubborn",
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten (außer Terminatoren) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Rhino",
@@ -1048,12 +1086,12 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Kombi-Bolter"
+          "Combi-Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten (außer Terminatoren) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Emperor's Children Rhino",
@@ -1068,7 +1106,7 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten (außer Terminatoren) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "World Eaters Rhino",
@@ -1078,12 +1116,12 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Kombi-Melter"
+          "Combi-Melta"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten (außer Terminatoren) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Thousand Sons Rhino",
@@ -1093,13 +1131,13 @@
         "cc": 5,
         "ff": 6,
         "weapons": [
-          "Kombi-Bolter",
+          "Combi-Bolter",
           "Coruscating Flames"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten (außer Terminatoren) ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Land Raider",
@@ -1109,15 +1147,15 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone|2|",
-          "Synchronisierter schwerer Bolter"
+          "Twin Lascannon|2|",
+          "Twin Heavy Bolter"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren. Chaos Terminatoren, Kyborgs counts as zwei Einheiten."
+        "notes": "May transport two infantry units without Jump Packs or Mounted. Chaos Terminators, Obliterators counts as two units each."
       },
       {
         "name": "Alpha Legion Land Raider",
@@ -1127,16 +1165,16 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone|2|",
-          "Synchronisierter schwerer Bolter"
+          "Twin Lascannon|2|",
+          "Twin Heavy Bolter"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Stubborn",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "Darf eine Einheit Terminatoren oder zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Emperor's Children Land Raider",
@@ -1146,15 +1184,15 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone|2|",
+          "Twin Lascannon|2|",
           "Blastmaster"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport eine Sirenshriek Terminator unit oder zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Death Guard Land Raider",
@@ -1164,16 +1202,16 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone|2|",
-          "Synchronisierter schwerer Bolter"
+          "Twin Lascannon|2|",
+          "Twin Heavy Bolter"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Geländegängig",
-          "Verstärkte Heckpanzerung",
+          "Reinforced Armour",
+          "Walker",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport eine Blightlord Terminator unit oder zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "World Eaters Land Raider",
@@ -1183,15 +1221,15 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Reaper Maschinenkanone|2|"
+          "Reaper Autocannon|2|"
         ],
         "specialRules": [
-          "Geländegängig",
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Walker",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport zwei Terminatoren, Mutilators oder drei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport two Terminators, Mutilators, or three infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Thousand Sons Land Raider",
@@ -1201,15 +1239,15 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone|2|",
+          "Twin Lascannon|2|",
           "Heavy Warpflamer"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport eine Terminator oder zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport one Terminator or two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Chaos Predator",
@@ -1219,8 +1257,8 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone",
-          "Schwerer Bolter|2|"
+          "Twin Lascannon",
+          "Heavy Bolter|2|"
         ]
       },
       {
@@ -1231,11 +1269,11 @@
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Predator Geschütz",
-          "Schwerer Bolter|2|"
+          "Predator Cannon",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Hartnäckig"
+          "Stubborn"
         ]
       },
       {
@@ -1246,7 +1284,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone",
+          "Twin Lascannon",
           "Blastmaster|2|"
         ]
       },
@@ -1258,24 +1296,24 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierte Laserkanone",
-          "Synchronisierter Warpflamer"
+          "Twin Lascannon",
+          "Twin Warpflamer"
         ]
       },
       {
-        "name": "Alpha Legion Sicarian Battle Panzer",
+        "name": "Alpha Legion Sicarian Battle Tank",
         "type": "AV",
         "speed": 30,
         "armour": 5,
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Synchronisierter Accelerator Maschinenkanone",
-          "Schwerer Bolter|3|"
+          "Twin Accelerator Autocannon",
+          "Heavy Bolter|3|"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Verstärkte Panzerung"
+          "Stubborn",
+          "Reinforced Armour"
         ]
       },
       {
@@ -1286,22 +1324,22 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Tremorkanone",
-          "Schwerer Bolter"
+          "Earthshaker Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Iron Warriors Greif",
+        "name": "Iron Warriors Griffon",
         "type": "AV",
         "speed": 30,
         "armour": 6,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Gefechtsmörser",
-          "Schwerer Bolter"
+          "Heavy Mortar",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
@@ -1315,7 +1353,7 @@
         "ff": 5,
         "weapons": [
           "Medusa Phospex Gun",
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
@@ -1328,10 +1366,10 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Demolisher Geschütz"
+          "Demolisher"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
@@ -1342,7 +1380,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Demolisher Geschütz"
+          "Demolisher"
         ],
         "specialRules": [
         ]
@@ -1355,11 +1393,11 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Demolisher Geschütz"
+          "Demolisher"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Geländegängig"
+          "Stubborn",
+          "Walker"
         ]
       },
       {
@@ -1370,10 +1408,10 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Demolisher Geschütz"
+          "Demolisher"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
@@ -1384,7 +1422,7 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Hades Maschinenkanone"
+          "Hades Autocannon"
         ]
       },
       {
@@ -1395,108 +1433,108 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Hades Maschinenkanone"
+          "Hades Autocannon"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Chaos Cybot",
+        "name": "Chaos Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Reaper Maschinenkanone",
-          "Energiefaust"
+          "Reaper Autocannon",
+          "Power Fist"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig"
+          "Fearless",
+          "Walker"
         ]
       },
       {
-        "name": "Night Lords Cybot",
+        "name": "Night Lords Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Reaper Maschinenkanone",
-          "Energiefaust"
+          "Reaper Autocannon",
+          "Power Fist"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
-        "name": "Thousand Sons Cybot",
+        "name": "Thousand Sons Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 5,
         "ff": 3,
         "weapons": [
-          "Raketenwerfer",
-          "Synchronisierte Laserkanone"
+          "Missile Launcher",
+          "Twin Lascannon"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig"
+          "Fearless",
+          "Walker"
         ]
       },
       {
-        "name": "Berzerker Cybot",
+        "name": "Berzerker Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 4,
         "ff": 5,
         "weapons": [
-          "Cybot Chainfist|2|"
+          "Dreadnought Chainfist|2|"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig"
+          "Fearless",
+          "Walker"
         ]
       },
       {
-        "name": "Chaos Siege Cybot",
+        "name": "Chaos Siege Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Synchronisierter schwerer Bolter",
-          "Schwerer Flammenwerfer",
+          "Twin Heavy Bolter",
+          "Heavy Flamer",
           "Siege Drill"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig"
+          "Fearless",
+          "Walker"
         ]
       },
       {
-        "name": "Alpha Legion Cybot",
+        "name": "Alpha Legion Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Plasmakanone",
-          "Energiefaust"
+          "Plasma Cannon",
+          "Power Fist"
         ],
         "specialRules": [
-          "Hartnäckig",
-          "Geländegängig"
+          "Stubborn",
+          "Walker"
         ]
       },
       {
-        "name": "Emperor's Children Cybot",
+        "name": "Emperor's Children Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
@@ -1504,62 +1542,62 @@
         "ff": 4,
         "weapons": [
           "Doom Siren",
-          "Energiefaust"
+          "Power Fist"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig"
+          "Fearless",
+          "Walker"
         ]
       },
       {
-        "name": "Death Guard Cybot",
+        "name": "Death Guard Dreadnought",
         "type": "AV",
         "speed": 15,
         "armour": 3,
         "cc": 4,
         "ff": 4,
         "weapons": [
-          "Synchronisierter Blight Launcher",
-          "Energiefaust"
+          "Twin Blight Launcher",
+          "Power Fist"
         ],
         "specialRules": [
-          "Furchtlos",
-          "Geländegängig"
+          "Fearless",
+          "Walker"
         ]
       },
       {
-        "name": "Chaos Spartan Assault Panzer",
+        "name": "Chaos Spartan Assault Tank",
         "type": "H-AV",
         "speed": 25,
         "armour": 4,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Synchronisierter Reaper Maschinenkanone|2|",
-          "Synchronisierter Schwerer Flammenwerfer"
+          "Twin Reaper Autocannon|2|",
+          "Twin Heavy Flamer"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
+          "Reinforced Armour",
+          "Thick Rear Armour",
           "Transport"
         ],
-        "notes": "May transport vier Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren. Terminatoren zählen als zwei Einheiten."
+        "notes": "May transport four infantry units without Jump Packs or Mounted. Terminators count as two units each."
       },
       {
-        "name": "Chaos Typhon Heavy Siege Panzer",
+        "name": "Chaos Typhon Heavy Siege Tank",
         "type": "H-AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Dreadhammer Siege Geschütz",
-          "Laserkanone|2|"
+          "Dreadhammer Siege Cannon",
+          "Lascannon|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung",
-          "Verstärkte Heckpanzerung",
-          "Geländegängig"
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Walker"
         ]
       },
       {
@@ -1570,15 +1608,15 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Siege Geschütz||FxF",
-          "Synchronisierter schwerer Bolter|3|FxF",
-          "Schwerer Flammenwerfer |2|"
+          "Siege Cannon||FxF",
+          "Twin Heavy Bolter|3|FxF",
+          "Heavy Flamer |2|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung"
+          "Damage Capacity 3",
+          "Reinforced Armour"
         ],
-        "crit": "Die Einheit wird vernichtet. Alle Einheiten innerhalb von 5cm erleiden einen Treffer auf 6+."
+        "crit": "The unit is destroyed. All units within 5cm suffers a hit on 6+."
       }
     ]
   }

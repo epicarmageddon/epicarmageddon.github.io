@@ -165,8 +165,8 @@
       "description": "Pro Kernverband dürfen zwei Unterstützungsverbände aufgestellt werden.",
       "formations": [
         {
-          "name": "Doomblasters",
-          "units": "Drei Doomblasters",
+          "name": "Verdammnisblaster",
+          "units": "Drei Verdammnisblaster",
           "extraUnits": [
           ],
           "points": 200
@@ -200,10 +200,10 @@
       "description": "Bis zu ein Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden.",
       "formations": [
         {
-          "name": "Greater Brass Scorpions",
+          "name": "Großer Messing Skorpion",
           "units": "Ein Greater Brass Scorpion",
           "extraUnits": [
-            "Füge bis zu 2 Greater Brass Scorpions hinzu: 175 Punkte pro Stück"
+            "Füge bis zu 2 Großer Messing Skorpion hinzu: 175 Punkte pro Stück"
           ],
           "points": 225
         },
@@ -272,7 +272,7 @@
         "description": "Wähle eine der folgenden Optionen:",
         "options": [
           {
-            "description": "Ersetze den Chaos-Lord durch einen Klanlord",
+            "description": "Ersetze den Chaos-Lord durch einen Kriegsherr",
             "points": "50 Punkte"
           },
           {

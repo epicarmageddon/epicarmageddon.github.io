@@ -1,29 +1,32 @@
 {
   "fraction": "Astra Militarum",
-  "army": "Elysianische Sturmtruppen",
-  "version": "0.9.0",
-  "release": "2022-08-03",
-  "strategy": "Elysianische Sturmtruppen Armeen haben einen Strategiewert von 3.",
-  "Initiative": "Alle Verbände haben einen Initiativewert von 2+.",
+  "army": "Elysian Drop Troops",
+  "version": "1.0.Beta",
+  "release": "2023-07-02",
+  "armyforge": "EAR_ImperialGuard_Elysian",
+  "strategy": "Elysian Drop Troops armies have a Strategy Rating of 3.",
+  "Initiative": "All formations have a Initiative of 2+.",
   "specialRules": [
-    "Mut, Disziplin und Loyalität",
-    "Luftüberlegenheit",
-    "Hinterlandeinsatz"
+    "Courage, Discipline and Loyalty",
+    "Air Superiority",
+    "Deep Strike",
+    "Elysian Transports"
   ],
   "units": [
     {
       "from": "IG.json",
       "units": [
-        "Elysianischer Oberbefehlshaber",
-        "Elysianischer Befehlshaber",
-        "Kommissar",
-        "Elysianische Sturmtruppen",
-        "Elysianischer Unterstützungstrupp",
-        "Elysianischer Mörser Trupp",
-        "Elysianische Gardisten",
-        "Gepanzerter Sentinel",
-        "Luftlandungs-Sentinel",
-        "Unterstützungs-Sentinel",
+        "Elysian Supreme Commander",
+        "Elysian Commander",
+        "Commissar",
+        "Elysian Drop Troops",
+        "Elysian Fire Support Squad",
+        "Elysian Mortar Squad",
+        "Rapier",
+        "Elysian Storm Troopers",
+        "Armoured Sentinel",
+        "Drop Sentinel",
+        "Support Sentinel",
         "Sentinel",
         "Tauros",
         "Tauros Venator",
@@ -33,7 +36,7 @@
         "Vulture"
       ],
       "unitRules": [
-        "Gravschirme"
+        "Grav-Chutes"
       ]
     },
     {
@@ -42,18 +45,18 @@
         "Tarantula"
       ],
       "unitRules": [
-        "Maschinengeist"
+        "Machine Spirit"
       ]
     },
     {
       "from": "ImperialNavy.json",
       "units": [
-        "Thunderbolt",
-        "Lightning Abfangjäger",
+        "Thunderbolt Fighter",
+        "Lightning Interceptor",
         "Marauder Bomber",
         "Marauder Destroyer",
-        "Lunar-Klasse Kreuzer",
-        "Imperator-Klasse Schlachtschiff"
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
       ],
       "unitRules": [
       ]
@@ -61,145 +64,139 @@
   ],
   "sections": [
     {
-      "name": "Elysianische Kern Verbände",
+      "name": "Elysian Core Formations",
       "formations": [
         {
-          "name": "0-1 Regiments Hauptquartier",
-          "units": "Ein Elysianischer Oberbefehlshaber mit einem Kommissar, sieben elysianische Sturmtruppen, vier Valkyries.",
+          "name": "0-1 Regimental HQ",
+          "units": "One Elysian Supreme Commander with a Commissar and seven Elysian Drop Troops plus transport.",
           "extraUnits": [
-            "Luftlandungs-Sentinels",
-            "Unterstützungstrupps",
-            "Infanterie Zug"
+            "Drop Sentinels",
+            "Fire Support",
+            "Infantry Platoon"
           ],
           "points": 375
         },
         {
-          "name": "Drop Troop Kompanie",
-          "units": "Ein Elysianischer Befehlshaber mit einem Kommissar, sieben elysianische Sturmtruppen, vier Valkyries.",
+          "name": "Drop Troop Company",
+          "units": "One Elysian Commander with a Commissar and seven Elysian Drop Troops plus transport.",
           "extraUnits": [
-            "Luftlandungs-Sentinels",
-            "Unterstützungstrupps",
-            "Infanterie Zug"
+            "Drop Sentinels",
+            "Fire Support",
+            "Infantry Platoon"
           ],
           "points": 325
         }
       ]
     },
     {
-      "name": "Elysian Unterstützungsverbände",
-      "description": "Bis zu zwei Unterstützungsverbände pro Kern Kompanie.",
+      "name": "Elysian Support Formations",
+      "description": "Up to two Support Formations for each Core Company.",
       "formations": [
         {
-          "name": "Luftlandungs-Sentinel Schwadron",
-          "units": "Sechs Luftlandungs-Sentinels",
+          "name": "Drop Sentinel Squadron",
+          "units": "Six Drop Sentinels",
           "extraUnits": [
-            "Füge drei Sky Talons hinzu: 75 Punkte"
+            "Add three Sky Talons: 75 points"
           ],
           "points": 175
         },
         {
-          "name": "Sentinel Schwadron",
-          "units": "Vier Sentinels",
+          "name": "Sentinel Squadron",
+          "units": "Four Sentinels",
           "extraUnits": [
-            "Ersetze alle Sentinels mit gepanzerten Sentinels: 25 Punkte",
-            "Ersetze alle Sentinels mit Unterstützungs-Sentinels: 50 Punkte"
+            "Replace all Sentinels with Armoured Sentinels: 25 points",
+            "Replace all Sentinels with Support Sentinels: 50 points"
           ],
           "points": 100
         },
         {
-          "name": "Sturmtruppen Kompanie",
-          "units": "Acht elysianische Sturmtruppen, eine Einheit mit Kommissar und vier Valkyries.",
-          "extraUnits": [
-            "Ersetze alle Valkyries durch Vendettas: 75 Punkte"
-          ],
+          "name": "Storm Trooper Company",
+          "units": "Eight Elysian Storm Troopers, one with a Commissar, plus transport.",
           "points": 350
         },
         {
-          "name": "Support Zug",
-          "units": "Vier elysianische Unterstüzungs Trupps oder vier elysianische Mörsertrupps und zwei Valkyries",
-          "extraUnits": [
-            "Ersetze alle Valkyries durch Vendettas: 25 Punkte"
-          ],
-          "points": 200
+          "name": "Support Platoon",
+          "units": "Four Rapiers or four Elysian Mortar Squads plus transport",
+          "points": 225
         },
         {
-          "name": "Tauros Venator Schwadron",
-          "units": "Vier Tauros Venator",
+          "name": "Tauros Venator Squadron",
+          "units": "Four Tauros Venators",
           "extraUnits": [
-            "Füge bis zu zwei Tauros Venator hinzu: 25 Punkte jeweils"
+            "Add up to two Tauros Venators: 25 points each"
           ],
           "points": 150
         },
         {
-          "name": "Tauros Aufklärungsschwadron",
-          "units": "Fünf Tauros",
+          "name": "Tauros Recon Squadron",
+          "units": "Four Tauros",
           "points": 150
         },
         {
-          "name": "Vulture Schwadron",
-          "units": "Vier Vultures",
+          "name": "Vulture Squadron",
+          "units": "Four Vultures",
           "points": 300
         }
       ]
     },
     {
-      "name": "Stationäre Verteidigungsanlagen und Imperiale Luftstreitkräfte",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte darf für diese Verbände ausgegeben werden. Bis zu ein Tarantula Verband pro Tauros Aufklärungsschwadron.",
+      "name": "Static Defenses & Imperial Navy Allies",
+      "description": "Up to a third of the points available may be spent on these formations. Up to one Tarantula formation for each Tauros Recon or Venator Squadron",
       "formations": [
         {
           "name": "Tarantula",
-          "units": "Vier Tarantulas",
+          "units": "Four Tarantulas",
           "points": 125
         },
         {
-          "name": "Lightning Schwadron",
-          "units": "Zwei Lightning Abfangjäger",
+          "name": "Lightning Squadron",
+          "units": "Two Lightning Interceptors",
           "points": 150
         },
         {
           "name": "Marauder Destroyer",
-          "units": "Ein Marauder Destroyer",
+          "units": "One Marauder Destroyer",
           "points": 175
         },
         {
-          "name": "Marauder Schwadron",
-          "units": "Zwei Marauder Bomber",
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
           "points": 250
         },
         {
-          "name": "Thunderbolt Schwadron",
-          "units": "Zwei Thunderbolts",
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
           "points": 175
         },
         {
-          "name": "0–1 Orbitalunterstüzung",
-          "units": "Ein Lunar-Klasse Kreuzer",
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
           "points": 150,
           "extraUnits": [
-            "Ersetze den Lunar-Klasse Kreuzer mit einem Imperator-Klasse Schlachtschiff: 25 Punkte"
+            "Replace the Lunar Class Cruiser with an Emperor Class Battleship: 25 points"
           ]
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Elysianische Erweiterungen",
-    "description": "Jede Erweiterung kann nur einmalig ausgewählt werden.",
+    "title": "Elysian Upgrades",
+    "description": "Each upgrade may be taken once per formation.",
     "items": [
       {
-        "name": "Luftlandungs-Sentinels",
-        "description": "Ersetze zwei elysianische Sturmtruppen und eine Valkyrie mit zwei Luftlandungs-Sentinels und einem Sky Talon.",
-        "points": "Kostenlos"
+        "name": "Drop Sentinels",
+        "description": "Replace two Elysian Drop Troops with two Drop Sentinels and one Sky Talon",
+        "points": "Free"
       },
       {
-        "name": "Unterstützungstrupps",
-        "description": "Ersetze zwei elysianische Sturmtruppen und eine Valkyrie mit zwei elysianischen Unterstützungstrupps und einer Vendetta.",
-        "points": "25 Punkte"
+        "name": "Fire Support",
+        "description": "Replace two Elysian Drop Troops with two Elysian Fire Support Squads",
+        "points": "25 points"
       },
       {
-        "name": "Infanterie Zug",
-        "description": "Füge zwei elysianische Sturmtruppen und eine Valkyrie hinzu.",
-        "points": "75 Punkte"
+        "name": "Infantry Platoon",
+        "description": "Add two Elysian Drop Troops",
+        "points": "75 points"
       }
     ]
   }

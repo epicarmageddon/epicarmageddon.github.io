@@ -1,6 +1,6 @@
 [
   {
-    "name": "Adeptus Mechanicus Streitmächte",
+    "name": "Adeptus Mechanicus Forces",
     "specialRules": [
 
     ],
@@ -17,10 +17,10 @@
           "Omnissian Axe"
         ],
         "specialRules": [
-          "Oberbefehlshaber",
-          "Inspirierend",
-          "Furchtlos",
-          "Unmodifizierter Rettungswurf"
+          "Supreme Commander",
+          "Inspiring",
+          "Fearless",
+          "Invulnerable Save"
         ]
       },
       {
@@ -35,9 +35,9 @@
           "Omnissian Axe"
         ],
         "specialRules": [
-          "Befehlshaber",
-          "Anführer",
-          "Unmodifizierter Rettungswurf"
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
         ]
       },
       {
@@ -75,7 +75,7 @@
           "Galvanic Rifles"
         ],
         "specialRules": [
-          "Aufklärer"
+          "Scout"
         ]
       },
       {
@@ -86,7 +86,7 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Sturmkanone|2|"
+          "Assault Cannon|2|"
         ],
         "specialRules": []
       },
@@ -97,9 +97,9 @@
             "n/a"
         ],
         "specialRules": [
-          "Anführer",
-          "Befehlshaber",
-          "Unmodifizierter Rettungswurf"
+          "Leader",
+          "Commander",
+          "Invulnerable Save"
         ]
       },
       {
@@ -137,11 +137,11 @@
           "Voltagheist Field"
         ],
         "specialRules": [
-          "Entbehrlich"
+          "Expendable"
         ]
       },
       {
-        "name": "Sicarian Infiltratoren",
+        "name": "Sicarian Infiltrators",
         "type": "INF",
         "speed": 20,
         "armour": 5,
@@ -152,8 +152,8 @@
           "Taser Goad"
         ],
         "specialRules": [
-          "Erstschlag",
-          "Infiltratoren"
+          "First Strike",
+          "Infiltrators"
         ]
       },
       {
@@ -166,7 +166,7 @@
           "Transonic Blades"
         ],
         "specialRules": [
-          "Infiltratoren"
+          "Infiltrators"
         ]
       },
       {
@@ -177,13 +177,13 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Sturmkanone",
-          "Energiewaffe"
+          "Assault Cannon",
+          "Power Weapon"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
@@ -197,9 +197,9 @@
           "Mitralocks"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
@@ -224,12 +224,12 @@
         "ff": 5,
         "weapons": [
           "Phosphor Blaster",
-          "Energiefaust"
+          "Power Fist"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
@@ -241,14 +241,14 @@
         "cc": 5,
         "ff": 4,
         "weapons": [
-          "Maschinenkanone",
-          "Schwerer Bolter",
-          "Energiefaust"
+          "Autocannon",
+          "Heavy Bolter",
+          "Power Fist"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
@@ -260,18 +260,18 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Raketenwerfer"
+          "Missile Launcher"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
-          "Antigrav",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
+          "Skimmer",
           "Ponderous"
         ]
       },
       {
-        "name": "Kataphron Brecher Battle Servitors",
+        "name": "Kataphron Breacher Battle Servitors",
         "type": "LV",
         "speed": 10,
         "armour": 3,
@@ -279,14 +279,14 @@
         "ff": 4,
         "weapons": [
           "Heavy Arc Rifles",
-          "Arc Klauen"
+          "Arc Claws"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous",
-          "Verstärkte Heckpanzerung"
+          "Thick Rear Armour"
         ]
       },
       {
@@ -300,58 +300,58 @@
           "Plasma Culverins"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich",
+          "Machine Spirit",
+          "Fearless",
+          "Expendable",
           "Ponderous"
         ]
       },
       {
         "name": "Tarantula",
         "type": "LV",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 5,
         "ff": "5+/4",
         "weapons": [
           {
-            "name": "0-1x Synchronisierte Laserkanone",
+            "name": "0-1x Twin Lascannon",
             "modes": [
               {
-                "Feuerkraft": "AT4+",
+                "firepower": "AT4+",
                 "range": 45
               }
             ]
           },
           {
-            "name": "0-1x Synchronisierter schwerer Bolter",
+            "name": "0-1x Twin Heavy Bolter",
             "modes": [
               {
-                "Feuerkraft": "AP4+",
+                "firepower": "AP4+",
                 "range": 30
               }
             ]
           }
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich"
+          "Machine Spirit",
+          "Fearless",
+          "Expendable"
         ],
-        "notes": "Armed mit either Synchronisierte Laserkanone oder Synchronisierter schwerer Bolter. Tarantulas armed mit Synchronisierter schwerer Bolter have their firefight value increased to 4+."
+        "notes": "Armed with either Twin Lascannon or Twin Heavy Bolter. Tarantulas armed with Twin Heavy Bolter have their firefight value increased to 4+."
       },
       {
         "name": "Hyperios Sentry",
         "type": "LV",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 6,
         "ff": 6,
         "weapons": [
           "Hyperios Launcher"
         ],
         "specialRules": [
-          "Maschinengeist",
-          "Furchtlos",
-          "Entbehrlich"
+          "Machine Spirit",
+          "Fearless",
+          "Expendable"
         ]
       },
       {
@@ -361,18 +361,18 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Rapier-Lasergeschütz"
+          "Rapier Laser Destroyer"
         ],
         "specialRules": []
       },
       {
-        "name": "Tunnelmörser",
+        "name": "Mole Mortar",
         "type": "INF",
         "speed": 10,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Tunnelmörser"
+          "Mole Mortar"
         ],
         "specialRules": [
         ]
@@ -385,10 +385,10 @@
         "cc": 5,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Maschinenkanone"
+          "Twin Autocannon"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ]
       },
       {
@@ -399,11 +399,11 @@
         "cc": 3,
         "ff": 6,
         "weapons": [
-          "Taser Lanze"
+          "Taser Lance"
         ],
         "specialRules": [
-          "Aufklärer",
-          "Geländegängig"
+          "Scout",
+          "Walker"
         ]
       },
       {
@@ -415,17 +415,17 @@
         "ff": "5+/4",
         "weapons": [
           "Eradication Beamer|0-1|",
-          "Synchronisierter Heavy Phosphor Blaster|0-1|",
+          "Twin Heavy Phosphor Blaster|0-1|",
           "Neutron Laser|0-1|",
           "Icarus Array|0-1|"
         ],
         "specialRules": [
-          "Geländegängig"
+          "Walker"
         ],
-        "notes": "Must choose either an Eradication Beamer, Synchronisierter Heavy Phosphor Blaster, Icarus Array oder Neutron Laser. Onager Dunecrawlers armed mit Eradication Beamer have their firefight value increased to 4+."
+        "notes": "Must choose either an Eradication Beamer, Twin Heavy Phosphor Blaster, Icarus Array or Neutron Laser. Onager Dunecrawlers armed with Eradication Beamer have their firefight value increased to 4+."
       },
       {
-        "name": "Chimäre",
+        "name": "Chimera",
         "type": "AV",
         "speed": 30,
         "armour": 5,
@@ -433,12 +433,12 @@
         "ff": 5,
         "weapons": [
           "Multilaser",
-          "Schwerer Bolter"
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Skorpius Dunerider",
@@ -448,12 +448,12 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr|2|"
+          "Twin Heavy Stubber|2|"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Skorpius Disintegrator",
@@ -463,9 +463,9 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Ferrumite Geschütz",
-          "Raketenwerfer",
-          "Synchronisiertes schweres Maschinengewehr"
+          "Ferrumite Cannon",
+          "Missile Launcher",
+          "Twin Heavy Stubber"
         ],
         "specialRules": [
         ]
@@ -478,8 +478,8 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisierte Hydra Maschinenkanone|2",
-          "Schwerer Bolter"
+          "Twin Hydra Autocannon|2",
+          "Heavy Bolter"
         ],
         "specialRules": [
         ]
@@ -492,13 +492,13 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Conquerorgeschütz",
-          "Schwerer Bolter"
+          "Conqueror Cannon",
+          "Heavy Bolter"
         ],
         "specialRules": [
           "Transport"
         ],
-        "notes": "Darf zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May carry two infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Termite",
@@ -508,14 +508,14 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Bolter"
+          "Bolters"
         ],
         "specialRules": [
-          "Verstärkte Heckpanzerung",
-          "Tunnelgräber",
+          "Thick Rear Armour",
+          "Tunneler",
           "Transport"
         ],
-        "notes": "May transport zwei Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren. Must start the game in the Reserven und may only enter the battlefield through Tunneling."
+        "notes": "May transport two infantry units without Jump Packs or Mounted. Must start the game in the reserves, and may only enter the battlefield through Tunneling."
       },
       {
         "name": "Leman Russ",
@@ -525,44 +525,44 @@
         "cc": 6,
         "ff": 4,
         "weapons": [
-          "Kampfgeschütz",
-          "Laserkanone",
-          "Schwerer Bolter|2|"
+          "Battle Cannon",
+          "Lascannon",
+          "Heavy Bolter|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Leman Russ Belagerer",
+        "name": "Leman Russ Demolisher",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 3,
         "weapons": [
-          "Demolisher Geschütz",
-          "Laserkanone",
-          "Plasmakanone|2|"
+          "Demolisher",
+          "Lascannon",
+          "Plasma Cannon|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
-        "name": "Leman Russ Exekutor",
+        "name": "Leman Russ Executioner",
         "type": "AV",
         "speed": 20,
         "armour": 4,
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Plasmazerstörer",
-          "Laserkanone",
-          "Plasmakanone|2|"
+          "Plasma Destroyer",
+          "Lascannon",
+          "Plasma Cannon|2|"
         ],
         "specialRules": [
-          "Verstärkte Panzerung"
+          "Reinforced Armour"
         ]
       },
       {
@@ -573,27 +573,27 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr|2|",
+          "Twin Heavy Stubber|2|",
           ">Battle Weapons<",
           "Turbo-Laser Destructor|0-1|FxF",
-          "Apocalypse Raketenwerfer|0-1|FxF",
+          "Apocalypse Missile Launcher|0-1|FxF",
           "Heavy Icarus Array|0-1|",
-          "Titan Plasmakanone|0-1|FxF",
-          "Titan Melterkanone |0-1|",
+          "Titan Plasma Cannon|0-1|FxF",
+          "Titan Melta Cannon |0-1|",
           "Gatling Blaster|0-1|FxF",
           ">Support Weapons<",
           "Plasma Destructor|0-1|FxF",
-          "Quake Geschütz|0-1|FxF",
-          "Vulkangeschütz|0-1|FxF"
+          "Quake Cannon|0-1|FxF",
+          "Volcano Cannon|0-1|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 2",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "notes": "Armed mit einemsingle Battle Weapon. May be upgraded to a Support Weapon.",
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 5+"
+        "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+"
       },
       {
         "name": "Ordinatus Minoris ",
@@ -603,23 +603,23 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr|2|",
+          "Twin Heavy Stubber|2|",
           ">Battle Weapons<",
           "Turbo-Laser Destructor|0-1|FxF",
-          "Apocalypse Raketenwerfer|0-1|FxF",
+          "Apocalypse Missile Launcher|0-1|FxF",
           "Heavy Icarus Array|0-1|",
-          "Titan Plasmakanone|0-1|FxF",
-          "Titan Melterkanone |0-1|",
+          "Titan Plasma Cannon|0-1|FxF",
+          "Titan Melta Cannon |0-1|",
           "Gatling Blaster|0-1|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 2",
-          "Deflektorschilde 2",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 2",
+          "Void Shields 2",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "notes": "Armed mit einemsingle Battle Weapon.",
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 5+"
+        "notes": "Armed with a single Battle Weapon.",
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 5+"
       },
       {
         "name": "Ordinatus Majoris",
@@ -629,22 +629,22 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr|2|",
-          "Laserkanone|2|",
+          "Twin Heavy Stubber|2|",
+          "Lascannon|2|",
           ">Ordinatus Armageddon<",
-          "Nova Geschütz||FxF",
+          "Nova Cannon||FxF",
           ">Ordinatus Mars<",
           "Sonic Disruptor||FxF",
           ">Ordinatus Golgotha<",
-          "Hellfire Rakete|6|FxF"
+          "Hellfire Missile|6|FxF"
         ],
         "specialRules": [
-          "Schadenskapazität 4",
-          "Deflektorschilde 4",
-          "Verstärkte Panzerung",
-          "Furchtlos"
+          "Damage Capacity 4",
+          "Void Shields 4",
+          "Reinforced Armour",
+          "Fearless"
         ],
-        "crit": "The Ordinatus is destroyed und any Einheiten innerhalb von 5cm erleiden einen Treffer auf 4+"
+        "crit": "The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
         "name": "Gorgon",
@@ -654,33 +654,33 @@
         "cc": 6,
         "ff": 6,
         "weapons": [
-          "Synchronisiertes schweres Maschinengewehr|4|"
+          "Twin Heavy Stubber|4|"
         ],
         "specialRules": [
-          "Schadenskapazität 3",
-          "Verstärkte Panzerung",
-          "Geländegängig",
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Walker",
           "Transport"
         ],
-        "notes": "May carry 10 Infanterie Einheiten without Sprungmodule oder Beritten Eigenschaft transportieren Praetorian Combat Servitor counts as zwei Einheiten.",
-        "crit": "The Gorgon is Immobilized und may not move für the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon."
+        "notes": "May carry 10 infantry units without Jump Pack or Mounted. Praetorian Combat Servitor counts as two units each.",
+        "crit": "The Gorgon is Immobilized, and may not move for the rest of the game. 1D3 random units inside takes a hit. Any subsequent criticals destroys the Gorgon."
       },
       {
         "name": "Mole",
         "type": "WE",
-        "speed": "Immobil",
+        "speed": "Immobile",
         "armour": 5,
         "ff": 5,
         "weapons": [
-          "Sturmbolter Array"
+          "Storm Bolter Array"
         ],
         "specialRules": [
           "Damage capacity: 2",
-          "Verstärkte Panzerung",
-          "Tunnelgräber",
+          "Reinforced Armour",
+          "Tunneler",
           "Transport"
         ],
-        "notes": "May transport sechs Infanterie Einheiten ohne Sprungmodule oder Beritten Eigenschaft transportieren."
+        "notes": "May transport six infantry units without Jump Packs or Mounted."
       },
       {
         "name": "Lysander Fighter",
@@ -689,7 +689,7 @@
         "armour": 6,
         "weapons": [
           "AC Multilaser||FxF",
-          "AC Sturmbolter||FxF"
+          "AC Storm Bolters||FxF"
         ],
         "specialRules": [
         ]
@@ -697,12 +697,12 @@
       {
         "name": "Avenger Strike Fighter",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 5,
         "weapons": [
-          "AC Avenger Bolt Geschütz||FxF",
-          "AC Synchronisierte Maschinenkanone||FxF",
-          "AC Schweres Maschinengewehr Turm"
+          "AC Avenger Bolt Cannon||FxF",
+          "AC Twin Autocannon||FxF",
+          "AC Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
@@ -713,21 +713,21 @@
         "armour": 5,
         "weapons": [
           "AC Phosphor Blaster|FxF",
-          "AC Synchronisierte Laserkanone|FxF",
-          "AC Synchronisiertes schweres Maschinengewehr (Turm)"
+          "AC Twin Lascannon|FxF",
+          "AC Twin Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Lunar-Klasse Kreuzer",
+        "name": "Lunar Class Cruiser",
         "type": "SC",
         "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "3BP, MW"
+                "firepower": "3BP, MW"
               }
             ]
           },
@@ -742,7 +742,7 @@
             "name": "0-1x Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "6BP, MW"
+                "firepower": "6BP, MW"
               }
             ]
           },
@@ -751,7 +751,7 @@
         "specialRules": [
           "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
         ],
-        "notes": "Is equipped mit either Orbital Bombardment oder zwei Pin Point attacks (may be chosen at the start of battle)"
+        "notes": "Is equipped with either Orbital Bombardment or two Pin Point attacks (may be chosen at the start of battle)"
       }
     ]
   }

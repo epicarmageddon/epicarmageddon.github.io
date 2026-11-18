@@ -1,42 +1,42 @@
 [
   {
-    "name": "Verbände der Imperialen Luftstreitkräfte",
+    "name": "Imperial Navy",
     "specialRules": [
     ],
     "unit": [
       {
         "name": "Lightning Strike Fighter",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 6,
         "weapons": [
-          "AC Synchronisierte Laserkanone||FxF",
+          "AC Twin Lascannon||FxF",
           "AC Underwing Rockets||FxF"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Lightning Abfangjäger",
+        "name": "Lightning Interceptor",
         "type": "AC",
         "speed": "Fighter",
         "armour": 6,
         "weapons": [
-          "AC Synchronisierte Laserkanone||FxF",
-          "AC Maschinenkanone"
+          "AC Twin Lascannon||FxF",
+          "AC Autocannon"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Thunderbolt",
+        "name": "Thunderbolt Fighter",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 6,
         "weapons": [
           "AC Multilaser||FxF",
           "AC Underwing Rockets||FxF",
-          "AC Sturmbolter||FxF"
+          "AC Storm Bolters||FxF"
         ],
         "specialRules": [
         ]
@@ -44,12 +44,12 @@
       {
         "name": "Avenger Strike Fighter",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 5,
         "weapons": [
-          "AC Avenger Bolt Geschütz||FxF",
-          "AC Synchronisierte Laserkanone||FxF",
-          "AC Schweres Maschinengewehr Turm"
+          "AC Avenger Bolt Cannon||FxF",
+          "AC Twin Lascannon||FxF",
+          "AC Heavy Stubber Turret"
         ],
         "specialRules": [
         ]
@@ -60,9 +60,9 @@
         "speed": "Bomber",
         "armour": 4,
         "weapons": [
-          "AC Synchronisierte Laserkanone||FxF",
+          "AC Twin Lascannon||FxF",
           "AC Bomb Racks||FxF",
-          "AC Synchronisierter schwerer Bolter Turm|2|"
+          "AC Twin Heavy Bolter Turret|2|"
         ],
         "specialRules": [
         ]
@@ -73,10 +73,10 @@
         "speed": "Bomber",
         "armour": 4,
         "weapons": [
-          "AC Synchronisierte Maschinenkanone|3|FxF",
-          "AC Rakete Array||FxF",
-          "AC Synchronisierte Sturmkanone Turm||",
-          "AC Synchronisierter schwerer Bolter Turm||"
+          "AC Twin Autocannon|3|FxF",
+          "AC Missile Array||FxF",
+          "AC Twin Assault Cannon Turret||",
+          "AC Twin Heavy Bolter Turret||"
         ],
         "specialRules": [
         ]
@@ -87,22 +87,22 @@
         "speed": "Bomber",
         "armour": 4,
         "weapons": [
-          "AC Synchronisierte Laserkanone||FxF",
+          "AC Twin Lascannon||FxF",
           "AC Colossus Bomb||FxF",
-          "AC Synchronisierter schwerer Bolter Turm|2|"
+          "AC Twin Heavy Bolter Turret|2|"
         ],
         "specialRules": [
         ]
       },
       {
-        "name": "Lunar-Klasse Kreuzer",
+        "name": "Lunar Class Cruiser",
         "type": "SC",
         "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "3BP, MW"
+                "firepower": "3BP, MW"
               }
             ]
           },
@@ -110,14 +110,14 @@
         ]
       },
       {
-        "name": "Imperator-Klasse Schlachtschiff",
+        "name": "Emperor Class Battleship",
         "type": "SC",
         "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "8BP, MW"
+                "firepower": "8BP, MW"
               }
             ]
           }

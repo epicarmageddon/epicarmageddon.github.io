@@ -4,12 +4,12 @@
   "version": "1.0.Beta",
   "release": "2022-04-01",
   "armyforge": "EAR_Ork_BadMoonsGargants",
-  "intro": "Unlike the very rigid Verbände used by the Imperium, Ork Verbände vary widely in both size und composition. The rules für creating Ork Verbände reflect this. The most common type of Ork formation is the warband. Other more specialised Verbände do exist, such as Kults of Speed und Blitz Brigades. The different types of Ork Verbände you may choose are shown on the army list that follows.</p><p>Some Ork Verbände come in different sizes: Normal, Big & 'Uge. A Big formation is double in size und a 'Uge formation is triple. If there is a limitation to formation Erweiterungen, then the limit is doubled für a big formation und tripled für a ’uge formation. Für example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2 und a 'Uge Kult of Speed can include 0–3.",
-  "strategy": "Ork Armeen haben einen Strategiewert von 3.",
-  "Initiative": "All Verbände haben eine Initiativewert von 3+.",
+  "intro": "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows.</p><p>Some Ork formations come in different sizes: Normal, Big & 'Uge. A Big formation is double in size and a 'Uge formation is triple. If there is a limitation to formation upgrades, then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2, and a 'Uge Kult of Speed can include 0–3.",
+  "strategy": "Ork armies have a Strategy Rating of 3.",
+  "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
-    "Köppe zählen",
-    "Macht des Waagh",
+    "Mob Rule",
+    "Power of the Waaagh!",
     "Big Mek",
     "Push 'Em Harder Ladz"
   ],
@@ -19,69 +19,69 @@
       "units": [
         "Big Mek",
         "Oddboy",
-        "Boys",
+        "Boyz",
         "Grotz",
-        "Kanonänbatterie",
+        "Big Gunz",
         "Kommandos",
         "Flash Gitz",
         "Pulsa Rokkitz",
-        "Killakopta",
-        "Kampfpanza",
+        "Deffkopta",
+        "Gunwagon",
         "Battlewagon",
         "Flakwagon",
-        "Killa Bot",
+        "Killa Kan",
         "Deff Dread",
         "Meka Dread",
         "Stompa",
-        "Mega Transportpanza",
-        "Mega Wummenpanza",
+        "Battlefortress",
+        "Gunfortress",
         "Supa-Stompa ",
         "Gargant ",
         "Great Gargant ",
         "Mega Gargant",
-        "Jagdbomma",
+        "Fighta-Bommer",
         "Bommer",
         "Kill Kroozer",
         "Battlekroozer"
       ],
       "unitRules": [
-          "Jetz' geht's los",
-      "Schwergepanzertes Fahrzeug (H-AV)",
-        "Schpezialkraftfelder",
-        "Mega Transportpanzas und Mega Wummenpanzas",
-        "Jetz' geht's los",
-        "Vollkommen Entbehrlich",
-        "Gottgleiche Maschine",
-        "Feuer aufteilen"
+          "‘Ere we Go",
+      "Heavy Armoured Vehicle (H-AV)",
+        "Power Fields",
+        "Battlefortresses and Gunfortresses",
+        "‘Ere we Go",
+        "Super-Expendable",
+        "God Machine",
+        "Split Fire"
       ]
     }
   ],
   "sections": [
     {
       "name": "Bad Moons Big Mob Gargants",
-      "description": "Army must contain at least eine Mega Gargant oder Great Gargant. The Big Mek will join a Mega Gargant if available, otherwise a Great Gargant",
+      "description": "Army must contain at least one Mega Gargant or Great Gargant. The Big Mek will join a Mega Gargant if available, otherwise a Great Gargant",
       "formations": [
         {
           "name": "0-1 Mega Gargant",
-          "units": "Ein Mega Gargant",
+          "units": "One Mega Gargant",
           "upgrades": [
-            "Füge a 'Uge Banner of Gork (Inspirierend): 50 Punkte"
+            "Add a 'Uge Banner of Gork (Inspiring): 50 points"
           ],
           "points": 950
         },
         {
           "name": "Great Gargant",
-          "units": "Ein Great Gargant",
+          "units": "One Great Gargant",
           "upgrades": [
-            "Füge a 'Uge Banner of Gork (Inspirierend, 50 Punkte) oder a Big Banner of Mork (Anführer, 25 Punkte. May not be combined mit Big Mek)"
+            "Add a 'Uge Banner of Gork (Inspiring, 50 points) or a Big Banner of Mork (Leader, 25 points. May not be combined with Big Mek)"
           ],
           "points": 750
         },
         {
           "name": "Gargant",
-          "units": "Ein Gargant",
+          "units": "One Gargant",
           "upgrades": [
-            "Füge a Big Banner of Mork (Anführer): 25 Punkte"
+            "Add a Big Banner of Mork (Leader): 25 points"
           ],
           "points": 550
         }
@@ -89,77 +89,77 @@
     },
     {
       "name": "Bad Moons Big Mob Mobs",
-      "description": "Bis zu drei pro Bad Moons Gargants formation",
+      "description": "Up to three for each Bad Moons Gargants formation",
       "formations": [
         {
           "name": "Bad Moons Warband",
-          "units": "Zwei Flash Gitz, sechs Ork Boys, zwei Grotz",
+          "units": "Two Flash Gitz, six Ork Boyz, two Grotz",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Ork Boys hinzu:15 Punkte jeweils",
-            "Füge eine beliebige Anzahl Transportpanza: 20 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killa Bots, Kanonänbatterie, Kommandos: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza, Kampfpanza hinzu: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killakoptas, Deff Dreads: 35 Punkte jeweils",
-            "Füge eine beliebige Anzahl Boys + Grotz hinzu: 35 Punkte jeweils",
-            "0-3 Stompas: 60 Punkte jeweils",
-            "0-1 Mega Transportpanza: 100 Punkte",
-            "0-1 Füge ein Oddboy Charaktermodell einem Mega Transportpanza, Kanonänbatterie oder Kampfpanza unit: 50 Punkte",
-            "0-2 Flash Gitz: 35 Punkte jeweils"
+            "Add any number of Ork Boyz: 15 points each",
+            "Add any number of Battlewagons: 20 points each",
+            "Add any number of Killa Kans, Big Gunz, Kommandos: 25 points each",
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deffkoptas, Deff Dreads: 35 points each",
+            "Add any number of Boyz + Grotz: 35 points each",
+            "0-3 Stompas: 60 points each",
+            "0-1 Battlefortress: 100 points",
+            "0-1 Add one Oddboy character to a Battlefortress, Big Gunz or Gunwagon unit: 50 points",
+            "0-2 Flash Gitz: 35 points each"
           ],
           "points": 200
         },
         {
           "name": "Bad Moons Blitz Brigade",
-          "units": "Vier Einheiten, in beliebiger Kombination: Killakopta, Flakwagon, Kampfpanza",
+          "units": "Any four of the following units: Deffkopta, Flakwagon, Gunwagon",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Killakoptas, Flakpanza, Kampfpanza hinzu: 30 Punkte jeweils",
-            "0-1 Flash Gitz: 35 Punkte",
-            "0-1 Mega Wummenpanza: 100 Punkte",
-            "0-1 Füge ein Oddboy Charaktermodell einem Mega Wummenpanza oder Kampfpanza hinzu:50 Punkte"
+            "Add any number of Deffkoptas, Flakwagons, Gunwagons: 30 points each",
+            "0-1 Flash Gitz: 35 points",
+            "0-1 Gunfortress: 100 points",
+            "0-1 Add one Oddboy character to a Gunfortress or Gunwagon: 50 points"
           ],
           "points": 150
         },
         {
           "name": "Bad Moons Fortressmob",
-          "units": "Ein Flash Gitz, drei Boys, eine Grotz, eine Mega Wummenpanza",
+          "units": "One Flash Gitz, three Boyz, one Grotz, one Gunfortress",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Flakpanza, Kampfpanza hinzu: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Killakoptas hinzu: 35 Punkte jeweils",
-            "0-1 Füge ein Oddboy Charaktermodell einem Mega Wummenpanza oder Kampfpanza unit: 50 Punkte"
+            "Add any number of Flakwagons, Gunwagons: 30 points each",
+            "Add any number of Deffkoptas: 35 points each",
+            "0-1 Add one Oddboy character to a Gunfortress or Gunwagons unit: 50 points"
           ],
           "points": 225
         },
         {
           "name": "Bad Moons Rokkitzmob",
-          "units": "Sechs Pulsa Rokkitz",
+          "units": "Six Pulsa Rokkitz",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Kanonänbatterie hinzu: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Pulsa Rokkitz, Flakpanza: 30 Punkte jeweils",
-            "0-1 Füge ein Oddboy Charaktermodell einem Kanonänbatterie unit: 50 Punkte",
-            "0-1 Flash Gitz: 35 Punkte"
+            "Add any number of Big Gunz: 25 points each",
+            "Add any number of Pulsa Rokkitz, Flakwagons: 30 points each",
+            "0-1 Add one Oddboy character to a Big Gunz unit: 50 points",
+            "0-1 Flash Gitz: 35 points"
           ],
           "points": 150
         },
         {
           "name": "Mekboy Gunzmob",
-          "units": "Fünf Kanonänbatterie",
+          "units": "Five Big Gunz",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Kanonänbatterie hinzu: 20 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Stompas: 60 Punkte jeweils",
-            "0-1 Flash Gitz: 35 Punkte",
-            "0-1 Füge ein Oddboy Charaktermodell einem Einheit Kanonänbatterie hinzu: 50 Punkte"
+            "Add any number of Big Gunz: 20 points each",
+            "Add any number of Flakwagons: 30 points each",
+            "Add any number of Stompas: 60 points each",
+            "0-1 Flash Gitz: 35 points",
+            "0-1 Add one Oddboy character to a unit of Big Gunz: 50 points"
           ],
           "points": 125
         },
         {
           "name": "Big Mek Dreadmob",
-          "units": "Ein Deff Dread, vier Killa Bots",
+          "units": "One Deff Dread, four Killa Kans",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Killa Bots: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Deff Dreads: 35 Punkte jeweils",
-            "0-1 Meka Dread: 60 Punkte"
+            "Add any number of Killa Kans: 25 points each",
+            "Add any number of Flakwagons: 30 points each",
+            "Add any number of Deff Dreads: 35 points each",
+            "0-1 Meka Dread: 60 points"
           ],
           "pointsOptions": [
             {
@@ -178,14 +178,14 @@
         },
         {
           "name": "Big Mek Stompamob",
-          "units": "Zwei Stompas",
+          "units": "Two Stompas",
           "extraUnits": [
-            "Füge eine beliebige Anzahl Killa Bots: 25 Punkte jeweils",
-            "Füge eine beliebige Anzahl Flakpanza: 30 Punkte jeweils",
-            "Füge eine beliebige Anzahl Deff Dreads: 35 Punkte jeweils",
-            "0-3 Stompas: 60 Punkte jeweils",
-            "0-1 Meka Dread: 60 Punkte",
-            "0-1 Supa-Stompa: 225 Punkte"
+            "Add any number of Killa Kans: 25 points each",
+            "Add any number of Flakwagons: 30 points each",
+            "Add any number of Deff Dreads: 35 points each",
+            "0-3 Stompas: 60 points each",
+            "0-1 Meka Dread: 60 points",
+            "0-1 Supa-Stompa: 225 points"
           ],
           "points": 175
         }
@@ -193,28 +193,28 @@
     },
     {
       "name": "Bad Moons 'Craft",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Jagdbomma Skwadron",
-          "units": "Drei Jagdbommas",
+          "name": "Fighta-Bommer Skwadron",
+          "units": "Three Fighta-Bommers",
           "upgrades": [
-            "Füge bis zu sechs Jagdbommas: 50 Punkte jeweils"
+            "Add up to six Fighta-Bommers: 50 points each"
           ],
           "points": 175
         },
         {
           "name": "Bommer",
-          "units": "Ein Bommer",
+          "units": "One Bommer",
           "upgrades": [
           ],
           "points": 175
         },
         {
           "name": "0–1 Kill Kroozer",
-          "units": "Ein Kill Kroozer",
+          "units": "One Kill Kroozer",
           "extraUnits": [
-            "Ersetze the Kill Kroozer mit einemBattlekroozer: 50 Punkte"
+            "Replace the Kill Kroozer with a Battlekroozer: 50 points"
           ],
           "points": 100
         }

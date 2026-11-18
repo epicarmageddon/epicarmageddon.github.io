@@ -1,253 +1,227 @@
 {
-  "fraction": "Tyraniden",
-  "army": "Schwarmflotte Hydra",
-  "version": "Alpha 0.7.0",
-  "release": "2022-04-01",
-  "strategy": "Tyraniden Armeen haben einen Strategiewert von 1.",
-  "Initiative": "The Nexus Spawn Swarm has an Initiative Rating of 1+. All other Tyranid Verbände haben eine Initiativewert von 2+. In addition, all Verbände are subject to the 'Brutbewusstsein' Sonderregel.",
+  "fraction": "Tyranid",
+  "army": "Hive Fleet Hydra",
+  "version": "1.0.Beta-2",
+  "release": "2024-05-21",
+  "armyforge": "EAR_Tyranid_HiveFleetHydra",
+  "strategy": "Tyranid armies have a Strategy Rating of 1.",
+  "Initiative": "The Nexus Spawn Swarm has an Initiative Rating of 1+. All other Tyranid formations have an Initiative Rating of 2+. In addition, all formations are subject to the Hive Mind special rule.",
   "specialRules": [
+    "Extreme Mobility",
+    "Hive Mind",
+    "Hive Mind Locus",
+    "Shoot the Big Ones!",
     "Synapse",
-    "Schwarmbewusstseinszentrum",
-    "Brutbewusstsein",
-    "Knallt die Großen ab!",
-    "Extreme Mobilität",
-    "Schwärmen (x)",
-    "Tunnelgräber",
-    "Vorhutkreaturen (Hydra)"
+    "Swarming"
   ],
   "usage": [
-    "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Tyranid Schwarmflotte Hydra."
+    "The following army list allows you to field an army based on the Tyranid Hive Fleet Hydra."
   ],
   "units": [
     {
       "from": "NIDS.json",
       "units": [
-        "Symbiarch",
-        "Termaganten",
-        "Hormaganten",
+        "Brood Lord",
+        "Barbgaunts",
+        "Termagants",
+        "Hormagaunts",
         "Gargoyles",
-        "Symbionten",
+        "Genestealers",
         "Biovore",
-        "Tyranidenkrieger",
-        "Flügelkrieger",
+        "Pyrovore",
+        "Tyranid Warriors",
+        "Tyranid Warrior Shrikes",
         "Zoanthrope",
-        "Liktor",
+        "Lictor",
         "Dimachaeron",
-        "Schwarmherrscher",
-        "Geflügelter Schwarmherrscher",
-        "Schwarmtyrant",
-        "Geflügelter Schwarmtyrant",
+        "Swarmlord",
+        "Swarmlord Shrike",
+        "Hive Tyrant",
+        "Hive Tyrant Shrike",
         "Dactylis",
-        "Stachel-Carnifex",
-        "Kreischer-Killer Carnifex",
-        "Harpie",
-        "Schwarmdrude",
-        "Viragon",
-        "Trygon Primus",
-        "Trygon",
-        "Tervigon Primus",
+        "Exocrine",
+        "Malefactor",
+        "Barbed Carnifex",
+        "Screamer-Killer Carnifex",
+        "Harpy",
+        "Hive Crone",
+        "Hive Guard",
+        "Tervigon Prime",
         "Tervigon",
-        "Schwarmharridan",
-        "Stachel-Hierodule Primus",
-        "Stachel-Hierodule",
-        "Geschlitzter Hierodule Primus",
-        "Geschlitzter Hierodule",
+        "Tyrannofex",
+        "Hive Harridan",
+        "Spawn Nest",
         "Hierophant",
-        "Dominatrix (Hydra)",
+        "Hydra Dominatrix",
         "Hydraphant"
       ],
       "unitRules": [
-          "Regeneration",
-          "Ganten",
-        "Schwergepanzertes Fahrzeug (H-AV)"
-      ]
-    },
-    {
-      "from": "nidsNavy.json",
-      "units": [
-        "Tyrannocyte",
-        "Klingenbestien Biokreuzer ",
-        "Schwarmschiff"
-      ],
-      "unitRules": [
+        "Assisted Swarming",
+        "Augmented Swarming(+x)",
+        "Gaunts",
+        "Heavy Armoured Vehicle (H-AV)",
+        "Regeneration"
       ]
     }
   ],
   "sections": [
     {
-      "name": "Primäre Synapsenschwärme",
+      "name": "Primary Synapse Swarms",
       "formations": [
         {
           "name": "0-1 Nexus Spawn Swarm",
-          "units": "Ein Dominatrix (Hydra)",
+          "units": "One Hydra Dominatrix",
           "extraUnits": [
-            "Ein to vier instinktive Schwärme (außer Tyrannocyten)",
-            "1+ Ganten oder Gargoyles müssen ausgewählt werden"
+            "One to four Instinctive Swarms"
           ],
-          "points": 450
+          "points": 400
         },
         {
-          "name": "Tyrantenschwarm",
-          "units": "Ein Schwarmtyrant",
+          "name": "Tyrant Swarm",
+          "units": "One Hive Tyrant",
           "extraUnits": [
-            "Zwei bis vier instinktive Schwärme (except Spawner)",
-            "Ersetze a Schwarmtyrant mit einemSchwarmtyrant Shrike: Kostenlos",
-            "0-1 Schwarmtyrant in the army may be replaced mit einemSwarmlord: 75 Punkte",
-            "Ersetze a Schwarmherrscher mit einemSwarm Lord Shrike: Kostenlos"
+            "Two to four Instinctive Swarms",
+            "Replace a Hive Tyrant with a Hive Tyrant Shrike: Free",
+            "0-1 Hive Tyrant in the army may be replaced with a Swarmlord or a Swarmlord Shrike: 75 points"
           ],
-          "points": 150
+          "points": 125
         },
         {
-          "name": "Sturmschwarm",
-          "units": "Zwei Tyranidenkrieger und/oder Zoantrophen",
+          "name": "Assault Swarm",
+          "units": "Two Tyranid Warriors",
           "extraUnits": [
-            "Zwei bis vier instinktive Schwärme (except Spawner)",
-            "1+ Ganten, Gargoyles oder Biovoren müssen ausgewählt werden",
-            "Any Tyranidenkrieger may be upgraded to Flügelkrieger: Kostenlos"
+            "One to two Instinctive Swarms",
+            "1+ Gaunts, Gargoyles or Bio-Support must be chosen",
+            "Replace two Tyranid Warriors with Tyranid Warrior Shrikes: Free",
+            "Replace two Tyranid Warriors with Zoanthropes: 25pts"
           ],
           "points": 100
         }
       ]
     },
     {
-      "name": "Sekundäre Synapse Swarms",
-      "description": "Bis zu eine Sekundäre Synapse Swarm pro Primäre Synapse Swarm.",
+      "name": "Secondary Synapse Swarms",
+      "description": "Up to one Secondary Synapse Swarm for each Primary Synapse Swarm.",
       "formations": [
-        {
+         {
           "name": "Tervigon Spawn Swarm",
-          "units": "Ein Tervigon Primus",
+          "units": "One Tervigon and two Barbgaunts, two Hormagaunts, or two Termagants",
           "extraUnits": [
-            "Ein bis zwei instinktive Schwärme, ausgewählt aus Ganten, Carnifex, Biounterstützung oder Spawner",
-            "1+ Ganten müssen ausgewählt werden"
+            "Add one Tervigon and two Barbgaunts, two Hormagaunts, or two Termagants: 100 points",
+            "One to two Instinctive Swarms"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Harridan Swarm",
+          "units": "One Hive Harridan",
+          "extraUnits": [
+            "Add one Hive Harridan: 100 points",
+            "Zero to two Instinctive Swarms chosen from Gargoyles or Bio-Flyers"
           ],
           "points": 175
         },
         {
-          "name": "Brecherschwarm",
-          "units": "Ein Hierodule Primus (Stachel-oder Scythed)",
+          "name": "Spawn Nest",
+          "units": "One Spawn Nest",
           "extraUnits": [
-            "Ein bis zwei instinktive Schwärme, ausgewählt aus Ganten, Wühler, Carnifex oder Brecher"
+            "One to two Instinctive Swarms chosen from Gaunts, Bio-Artillery, Bio-Support or Nest-Guard"
           ],
           "points": 150
-        },
-        {
-          "name": "Befallsschwarm",
-          "units": "Ein Trygon Primus",
-          "extraUnits": [
-            "Ersetze the Trygon Primus mit einemViragon: 75 Punkte",
-            "Ein bis zwei Wühler Instinktive Schwärme."
-          ],
-          "points": 150
-        },
-        {
-          "name": "Harridan Spawn Swarm",
-          "units": "Ein Schwarmharridan, vier Gargoyles",
-          "extraUnits": [
-            "Füge eine Schwarmharridan, vier Gargoyles: 175 Punkte",
-            "Bis zu zwei Bioflieger Instinktive Schwärme."
-          ],
-          "points": 200
         }
       ]
     },
     {
-      "name": "Common Unabhängig Swarms",
-      "description": "Bis zu eine Common Unabhängig Swarm pro Primäre Synapse Swarm. Nicht mehr als a third of the army.",
+      "name": "Common Independent Swarms",
+      "description": "Up to one Common Independent Swarm for each Primary Synapse Swarm. No more than a third of the army.",
       "formations": [
         {
-          "name": "Symbionten Schwarm",
-          "units": "Ein Symbiarch, sechs Symbionten",
+          "name": "Genestealer Swarm",
+          "units": "One Brood Lord, six Genestealers",
           "extraUnits": [
-            "Füge bis zu drei Symbionten: 25 Punkte jeweils"
+            "Add up to three Genestealers: 25 points each"
           ],
-          "points": 200
+          "points": 175
         },
         {
           "name": "Infiltrator Swarm",
-          "units": "Vier Liktoren",
+          "units": "Four Lictors",
           "extraUnits": [
-            "Ersetze vier Liktoren mit vier Dimachaerons: Kostenlos"
+            "Replace four Lictors with four Dimachaerons: Free"
           ],
           "points": 225
         }
       ]
     },
     {
-      "name": "Rare Unabhängig Swarms",
-      "description": "Bis zu eine Rare Unabhängig Swarm pro Primäre Synapse Swarm. Nicht mehr als a third of the army.",
+      "name": "Rare Independent Swarms",
+      "description": "Up to one Rare Independent Swarm for each Primary Synapse Swarm. No more than a third of the army.",
       "formations": [
         {
           "name": "Bio-Titan",
-          "units": "Ein Hierophant Bio-Titan",
+          "units": "One Hierophant Bio-Titan",
           "extraUnits": [
-            "Ersetze the Hierophant mit einemHydraphant Bio-Titan: 100 Punkte"
+            "Replace the Hierophant with a Hydraphant Bio-Titan: 100 points"
           ],
-          "points": 375
-        },
+          "points": 325
+        }
+      ]
+    },
+    {
+      "name": "Swarm Pool",
+      "description": "Add any number of units that start the game in the swarm pool",
+      "formations": [
         {
-          "name": "Bio-Vessel",
-          "units": "Ein Klingenbestien Biokreuzer ",
-          "extraUnits": [
-            "Ersetze the Klingenbestien Biokreuzer  mit einemHive Ship: Kostenlos"
-          ],
-          "points": 150
+          "name": "Gaunt",
+          "units": "Add two point to the swarm pool",
+          "points": 15
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Instinktive Schwärme.",
-    "description": "It is compulsory to buy the minimum amount of Instinktive Schwärme.",
+    "title": "Instinctive Swarms",
+    "description": "It is compulsory to buy the minimum amount of Instinctive Swarms.",
     "items": [
       {
-        "name": "Ganten",
-        "description": "Fünf Termaganten und/oder Hormaganten",
-        "points": "75 Punkte"
+        "name": "Gaunts",
+        "description": "Five Termagants, Hormagaunts and/or Barbgaunts",
+        "points": "75 points"
       },
       {
-        "name": "Biovoren",
-        "description": "Vier Biovoren",
-        "points": "75 Punkte"
+        "name": "Bio-Support",
+        "description": "Four Biovores and/or Pyrovores",
+        "points": "75 points"
       },
       {
         "name": "Gargoyles",
-        "description": "Vier Gargoyles",
-        "points": "75 Punkte"
+        "description": "Four Gargoyles",
+        "points": "75 points"
       },
       {
         "name": "Bio-Flyers",
-        "description": "Drei Harpies oder drei Schwarmdrudes",
-        "points": "100 Punkte"
+        "description": "Three Harpies or three Hive Crones",
+        "points": "100 points"
       },
       {
         "name": "Carnifex",
-        "description": "Drei Stachel-Carnifex oder drei Kreischer-Killer Carnifex",
-        "points": "125 Punkte"
+        "description": "Two Barbed Carnifex or two Screamer-Killer Carnifex",
+        "points": "75 points"
       },
       {
-        "name": "Spawner",
-        "description": "Ein Tervigon, zwei Termaganten oder zwei Hormaganten",
-        "points": "100 Punkte"
+        "name": "Bio-Attack",
+        "description": "Two Exocrines or two Malefactors",
+        "points": "75 points"
       },
       {
-        "name": "Biounterstützung",
-        "description": "Drei Dactylis",
-        "points": "150 Punkte"
+        "name": "Bio-Artillery",
+        "description": "Three Dactylis, or two Tyrannofexes",
+        "points": "125 points"
       },
       {
-        "name": "Brecher",
-        "description": "Ein Stachel-Hierodule oder eine Geschlitzter Hierodule",
-        "points": "125 Punkte"
-      },
-      {
-        "name": "Wühler",
-        "description": "Zwei Trygons",
-        "points": "100 Punkte"
-      },
-      {
-        "name": "Tyrannocyte (0-1 pro Schwarm)",
-        "description": "Muss über die planetare Landung Regel von einem Klingenbestien Biokreuzer  oder Schwarmschiff abgesetzt werden.",
-        "points": "50 Punkte"
+        "name": "Nest-Guard (only Swarm Nest formations)",
+        "description": "Two Hive Guard",
+        "points": "50 points"
       }
     ]
   }

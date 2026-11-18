@@ -1,13 +1,13 @@
 [
   {
-    "name": "Tyranid Schwarmflotte",
+    "name": "Tyranid Hive Fleet",
     "specialRules": [
       {
       }
     ],
     "unit": [
       {
-        "name": "Tyrannocyte",
+        "name": "Mycetic Spore",
         "type": "Special",
         "speed": "n/a",
         "weapons": [
@@ -17,17 +17,17 @@
           "Planetfall",
           "Transport"
         ],
-        "notes": "May transport a formation that consist exclusively of the following types of units: Termaganten, Hormaganten, Venatoren, Biovoren, any type of Carnifex, Schwarmtyrant, Schwarmherrscher, Schwarmoberhaupt (Dagon), Tyranidenkrieger, Zoanthrope. No Shrikes of any type may be taken. After the Tyrannocyte lands, it attacks all enemy Einheiten innerhalb von 15cm. Jeweils enemy formation attacked receives a BM für coming under fire und an extra BM pro casualty. Then transported Verbände set up within 5cm of the point the Tyrannocyte landed oder within 5cm of another already disembarqued unit from the same formation (but a maximum of 15cm from the point where the Tyrannocyte landed)."
+        "notes": "May transport a formation that consist exclusively of the following types of units: Barbgaunts, Termagants, Hormagaunts, Raveners, Biovores, Pyrovores, any type of Carnifex, Hive Tyrant, Swarmlord, Dagon Overlord, Tyranid Warriors or Zoanthrope. No Shrikes of any type may be taken. After the Mycetic Spore lands, it attacks all enemy units within 15cm. Each enemy formation attacked receives a BM for coming under fire, and an extra BM for each casualty. Then transported formations set up within 5cm of the point the Mycetic Spore landed, or within 5cm of another already disembarqued unit from the same formation (but a maximum of 15cm from the point where the Mycetic Spore landed)."
       },
       {
-        "name": "Klingenbestien Biokreuzer ",
+        "name": "Razorfiend",
         "type": "SC",
         "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "3BP, MW"
+                "firepower": "3BP, MW"
               }
             ]
           }
@@ -35,17 +35,17 @@
         "specialRules": [
           "Transport"
         ],
-        "notes": "May transport zwei Mycetic Spores including cargo."
+        "notes": "May transport two Mycetic Spores including cargo."
       },
       {
-        "name": "Schwarmschiff",
+        "name": "Hive Ship",
         "type": "SC",
         "weapons": [
           {
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "6BP, MW"
+                "firepower": "6BP, MW"
               }
             ]
           }
@@ -53,7 +53,7 @@
         "specialRules": [
           "Slow to Arrive (May only arrive from turn 2 onwards), Transport"
         ],
-        "notes": "Darf drei Mycetic Spores including cargo."
+        "notes": "May transport three Mycetic Spores including cargo."
       }
     ]
   }

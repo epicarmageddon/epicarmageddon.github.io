@@ -10,28 +10,28 @@
         "speed": "Bomber",
         "armour": 5,
         "weapons": [
-          "AC Synchronisierter Tesla Destructor",
+          "AC Twin Tesla Destructor",
           "AC Wormhole Portal"
         ],
         "specialRules": [
-          "Schadenskapazität 1",
-          "Furchtlos",
+          "Damage Capacity: 1",
+          "Fearless",
           "Regeneration",
           "Enduring",
-          "[*]Portal. May only be used to enter the battlefield, not to move into the Reserven. May only be used while landed."
+          "[*]Portal. May only be used to enter the battlefield, not to move into the reserves. May only be used while landed."
         ]
       },
       {
         "name": "Doom Scythe Fighter",
         "type": "AC",
-        "speed": "Jagdbomber",
+        "speed": "Fighter-Bomber",
         "armour": 5,
         "weapons": [
-          "AC Synchronisierter Tesla Destructor",
+          "AC Twin Tesla Destructor",
           "AC Death Ray"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf",
+          "Invulnerable Save",
           "Enduring"
         ]
       },
@@ -41,11 +41,11 @@
         "speed": "Bomber",
         "armour": 4,
         "weapons": [
-          "AC Synchronisierter Tesla Destructor",
+          "AC Twin Tesla Destructor",
           "AC Death Spheres||FxF"
         ],
         "specialRules": [
-          "Unmodifizierter Rettungswurf",
+          "Invulnerable Save",
           "Enduring"
         ]
       },
@@ -57,7 +57,7 @@
             "name": "Orbital Bombardment",
             "modes": [
               {
-                "Feuerkraft": "4BP, MW"
+                "firepower": "4BP, MW"
               }
             ]
           },

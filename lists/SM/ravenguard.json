@@ -4,32 +4,32 @@
   "version": "1.0.beta",
   "release": "2022-04-01",
   "armyforge": "EAR_AdeptusAstartes_Ravenguard",
-  "intro": "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Raven Guard Space Marine Orden oder einen der Nachfolgeorden aufstellen. The Raven Guard specialise in guerrilla warfare, moving behind enemy lines mit unrivalled stealth und striking mit precise application of force.",
-  "strategy": "Space Marine Armeen haben einen Strategiewert von 5.",
-  "Initiative": "All Verbände haben eine Initiativewert von 1+.",
+  "intro": "The following army list allows you to field an army based on the Raven Guard Space Marine chapter or any of its successor chapters. The Raven Guard specialise in guerrilla warfare, moving behind enemy lines with unrivalled stealth, and striking with precise application of force.",
+  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
     "Land Speeder Escort",
     "Space Marine Transports",
-    "Sie kennen keine Furcht"
+    "They Shall Know No Fear"
   ],
   "units": [
     {
       "from": "SM.json",
       "units": [
         "Captain",
-        "Ordenspriester",
-        "Scriptor",
-        "Oberbefehlshaber",
-        "Sturmtrupp",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assaults",
         "Assault Bikes",
-        "Raven Guard Aufklärers",
+        "Raven Guard Scouts",
         "Sternguard Veterans",
-        "Taktischer Trupp",
-        "Devastoren",
-        "Cyclone Terminatoren",
-        "Terminatoren",
+        "Tacticals",
+        "Devastators",
+        "Cyclone Terminators",
+        "Terminators",
         "Vanguard Veterans",
-        "Trike",
+        "Attack Bike",
         "Land Speeder",
         "Land Speeder Storm",
         "Land Speeder Tempest",
@@ -46,8 +46,8 @@
         "Drop Pod"
       ],
       "unitRules": [
-          "Aufklärungsspezialisten",
-          "Blitzangriff"
+          "Expert Reconnaissance",
+          "Lightning Charge"
       ]
     },
     {
@@ -56,28 +56,28 @@
         "Warhound"
       ],
       "unitRules": [
-        "Deflektorschilde"
+        "Void Shields"
       ]
     }
   ],
   "sections": [
     {
-      "name": "Ravenguard Kern Detachments",
+      "name": "Ravenguard Core Detachments",
       "formations": [
         {
-          "name": "Storm Aufklärers",
-          "units": "Drei Raven Guard Aufklärers, drei Land Speeder Storms",
+          "name": "Storm Scouts",
+          "units": "Three Raven Guard Scouts, three Land Speeder Storms",
           "extraUnits": [
-            "Befehlshaber",
+            "Commander",
             "Land Speeders"
           ],
           "points": 175
         },
         {
-          "name": "Taktischer Trupp",
-          "units": "Vier Taktischer Trupp plus transport",
+          "name": "Tacticals",
+          "units": "Four Tacticals plus transport",
           "extraUnits": [
-            "Befehlshaber",
+            "Commander",
             "Anti-Air",
             "Land Speeders",
             "Razorbacks"
@@ -88,13 +88,13 @@
     },
     {
       "name": "Ravenguard Elite Detachments",
-      "description": "Ein Elite Detachment may be taken pro Kern Detachment",
+      "description": "One Elite Detachment may be taken per Core Detachment",
       "formations": [
         {
           "name": "Sternguard Veteran",
-          "units": "Vier Sternguard Veterans plus transport",
+          "units": "Four Sternguard Veterans plus transport",
           "extraUnits": [
-            "Befehlshaber",
+            "Commander",
             "Anti-Air",
             "Land Speeders",
             "Razorbacks"
@@ -103,18 +103,18 @@
         },
         {
           "name": "Vanguard Veteran",
-          "units": "Vier Vanguard Veterans",
+          "units": "Four Vanguard Veterans",
           "extraUnits": [
-            "Befehlshaber",
+            "Commander",
             "Land Speeders"
           ],
           "points": 250
         },
         {
-          "name": "Terminatoren",
-          "units": "Vier Einheiten, in beliebiger Kombination: Terminatoren, Cyclone Terminatoren",
+          "name": "Terminators",
+          "units": "Any four of the following units: Terminators, Cyclone Terminators",
           "extraUnits": [
-            "Befehlshaber"
+            "Commander"
           ],
           "points": 350
         }
@@ -122,32 +122,32 @@
     },
     {
       "name": "Ravenguard Support Detachments",
-      "description": "Zwei Support Detachment may be taken pro Kern Detachment",
+      "description": "Two Support Detachment may be taken per Core Detachment",
       "formations": [
         {
-          "name": "Sturmtrupp",
-          "units": "Vier Sturmtrupp",
+          "name": "Assaults",
+          "units": "Four Assaults",
           "extraUnits": [
-            "Befehlshaber",
+            "Commander",
             "Land Speeders"
           ],
           "points": 175
         },
         {
           "name": "Bikes",
-          "units": "Fünf Einheiten, in beliebiger Kombination: Trike, Assault Bikes",
+          "units": "Any five of the following units: Attack Bike, Assault Bikes",
           "extraUnits": [
-            "Befehlshaber",
+            "Commander",
             "Land Speeders"
           ],
           "points": 200
         },
         {
-          "name": "Devastoren",
-          "units": "Vier Devastoren plus transport",
+          "name": "Devastators",
+          "units": "Four Devastators plus transport",
           "extraUnits": [
             "Anti-Air",
-            "Befehlshaber",
+            "Commander",
             "Land Speeders",
             "Razorbacks"
           ],
@@ -155,18 +155,18 @@
         },
         {
           "name": "Land Speeders",
-          "units": "Fünf Einheiten, in beliebiger Kombination: Land Speeder, Land Speeder Tornado",
+          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
           "extraUnits": [
             "Land Speeder Variants"
           ],
           "points": 200
         },
         {
-          "name": "Aufklärer",
-          "units": "Vier Raven Guard Aufklärers plus transport",
+          "name": "Scout",
+          "units": "Four Raven Guard Scouts plus transport",
           "extraUnits": [
             "Land Speeders",
-            "Scharfschützen",
+            "Snipers",
             "Razorbacks"
           ],
           "points": 150
@@ -175,21 +175,21 @@
     },
     {
       "name": "Ravenguard Navy & Collegia Titanica Allies",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände",
+      "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
           "name": "Storm Talons",
-          "units": "Zwei Storm Talons",
+          "units": "Two Storm Talons",
           "points": 200
         },
         {
           "name": "Storm Eagle",
-          "units": "Ein Storm Eagle",
+          "units": "One Storm Eagle",
           "points": 175
         },
         {
-          "name": "0-1 Orbitalunterstüzung",
-          "units": "Ein Vanguard Class Light Cruiser",
+          "name": "0-1 Orbital Support",
+          "units": "One Vanguard Class Light Cruiser",
           "extraUnits": [
             "Strike Cruiser"
           ],
@@ -197,9 +197,9 @@
         },
         {
           "name": "Warhounds",
-          "units": "Ein Warhound Titan",
+          "units": "One Warhound Titan",
           "extraUnits": [
-            "Füge eine additional Warhound Titan: 200 Punkte"
+            "Add one additional Warhound Titan: 200 points"
           ],
           "points": 275
         }
@@ -207,78 +207,78 @@
     }
   ],
   "upgrades": {
-    "title": "Ravenguard Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro detachment",
+    "title": "Ravenguard Upgrades",
+    "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
         "name": "Anti-Air",
-        "description": "Füge any eine Einheiten, in beliebiger Kombination to the formation",
+        "description": "Add any one of the following units to the formation",
         "options": [
           {
-            "description": "Füge eine Hunter",
-            "points": "75 Punkte"
+            "description": "Add one Hunter",
+            "points": "75 points"
           },
           {
-            "description": "Füge eine Stalker",
-            "points": "50 Punkte"
+            "description": "Add one Stalker",
+            "points": "50 points"
           }
         ]
       },
       {
-        "name": "Befehlshaber",
-        "description": "Füge any eine of the following characters to any unit in the formation",
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation",
         "options": [
           {
-            "description": "Captain, Scriptor",
-            "points": "25 Punkte"
+            "description": "Captain, Librarian",
+            "points": "25 points"
           },
           {
-            "description": "Ordenspriester",
-            "points": "50 Punkte"
+            "description": "Chaplain",
+            "points": "50 points"
           },
           {
-            "description": "0–1 Oberbefehlshaber",
-            "points": "75 Punkte"
+            "description": "0–1 Supreme Commander",
+            "points": "75 points"
           }
         ]
       },
       {
         "name": "Land Speeder Variants",
-        "description": "Ersetze any number of Land Speeders mit einem equal number of Land Speeder Typhoons oder Land Speeder Tempests",
-        "points": "10 Punkte jeweils"
+        "description": "Replace any number of Land Speeders with an equal number of Land Speeder Typhoons or Land Speeder Tempests",
+        "points": "10 points each"
       },
       {
         "name": "Raven Guard Land Speeders",
-        "description": "Füge any zwei of the following. All Land Speeders bought as part of this upgrade are subject to the 'Land Speeder Escort' Sonderregel.",
+        "description": "Add any two of the following. All Land Speeders bought as part of this upgrade are subject to the 'Land Speeder Escort' special rule.",
         "options": [
           {
             "description": "Land Speeder, Land Speeder Tornado",
-            "points": "30 Punkte jeweils"
+            "points": "30 points each"
           },
           {
             "description": "Land Speeder Typhoon",
-            "points": "40 Punkte jeweils"
+            "points": "40 points each"
           },
           {
             "description": "Land Speeder Tempest",
-            "points": "40 Punkte jeweils"
+            "points": "40 points each"
           }
         ]
       },
       {
         "name": "Razorbacks",
-        "description": "Füge eine beliebige Anzahl Razorbacks, bis zu the number required to transport the formation",
-        "points": "25 Punkte jeweils"
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
       },
       {
-        "name": "Scharfschützen",
-        "description": "All Aufklärers in the formation gain the 'Scharfschütze' Sonderregel on their Schwerer Bolter",
-        "points": "25 Punkte"
+        "name": "Snipers",
+        "description": "All Scouts in the formation gain the 'Sniper' special rule on their Heavy Bolters",
+        "points": "25 points"
       },
       {
         "name": "Strike Cruiser",
-        "description": "Ersetze the Vanguard Class Light Cruiser mit einemStrike Cruiser",
-        "points": "50 Punkte"
+        "description": "Replace the Vanguard Class Light Cruiser with a Strike Cruiser",
+        "points": "50 points"
       }
     ]
   }

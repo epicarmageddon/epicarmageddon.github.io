@@ -3,44 +3,44 @@
   "army": "Night Lords",
   "version": "Alpha 0.6.0",
   "release": "2022-04-01",
-  "strategy": "Chaos Space Marine Armeen haben einen Strategiewert von 4.",
-  "Initiative": "All Verbände haben eine Initiativewert von 1+.",
+  "strategy": "Chaos Space Marine armies have a Strategy Rating of 4.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": [
-    "In Mitternacht gehüllt",
-    "Beschwörung",
-    "Night Lords Beschwörungs Regeln",
+    "In Midnight Clad",
+    "Summoning",
+    "Night Lords Summoning Rules",
     "Fickle Masters",
     "Night Lords Dreadclaws",
     "Night Lords Characters"
   ],
   "usage": [
-    "Der folgende Armeeorganisationsplan ermöglicht es eine Armee Night Lords, using their preferred operational methods."
+    "The following army list allows you to field an army based on the Night Lords, using their preferred operational methods."
   ],
   "units": [
     {
       "from": "CSM.json",
       "units": [
-        "Night LordsErster Captain",
+        "Night Lords First Captain",
         "Night Lords Captain",
-        "Ikonenträger",
-        "Chaos Sturmtrupps",
+        "Icon Bearer",
+        "Chaos Assault Marines",
         "Chaos Space Marines",
-        "Raptoren",
+        "Raptors",
         "Warp Talons",
-        "Night Lords Auserwählte",
+        "Night Lords Chosen",
         "Chaos Destroyers",
-        "Atramentar Terminatoren",
+        "Atramentar Terminators",
         "Chaos Rhino",
         "Chaos Land Raider",
-        "Chaos Spartan Assault Panzer",
+        "Chaos Spartan Assault Tank",
         "Chaos Stalker",
-        "Chaos Trike",
-        "Night Lords Cybot"
+        "Chaos Attack Bike",
+        "Night Lords Dreadnought"
       ],
       "unitRules": [
-        "Verbesserte Beschwörung (+X)",
-        "Dämonischer Fokus",
-        "Schwergepanzertes Fahrzeug (H-AV)"
+        "Augment Summoning (+x)",
+        "Daemonic Focus",
+        "Heavy Armoured Vehicle (H-AV)"
       ]
     },
     {
@@ -49,7 +49,7 @@
         "Chaos Tarantula"
       ],
       "unitRules": [
-        "Maschinengeist"
+        "Machine Spirit"
       ]
     },
     {
@@ -75,47 +75,47 @@
   ],
   "sections": [
     {
-      "name": "Night Lords Kern Verbände",
+      "name": "Night Lords Core Formations",
       "formations": [
         {
-          "name": "Night Raptor Kompanie",
-          "units": "Ein Night Lords Captain, sechs Raptoren",
+          "name": "Night Raptor Company",
+          "units": "One Night Lords Captain, six Raptors",
           "extraUnits": [
-            "Füge bis zu zwei Raptoren: 30 Punkte jeweils",
-            "Oberbefehlshaber",
-            "Ikonenträger"
+            "Add up to two Raptors: 30 points each",
+            "Supreme Commander",
+            "Icon Bearer"
           ],
           "points": 275
         }
       ]
     },
     {
-      "name": "Night Lords Elite Verbände",
-      "description": "Bis zu eine Elite formation may be taken pro Night Lords Kern Formation",
+      "name": "Night Lords Elite Formations",
+      "description": "Up to one Elite formation may be taken per Night Lords Core Formation",
       "formations": [
         {
-          "name": "Auserwählte",
-          "units": "Vier Night Lords Auserwählte, zwei Chaos Rhinos",
+          "name": "Chosen",
+          "units": "Four Night Lords Chosen, two Chaos Rhinos",
           "extraUnits": [
-            "Ersetze zwei Chaos Rhinos mit vier Chaos Tarantulas: 25 Punkte"
+            "Replace two Chaos Rhinos with four Chaos Tarantulas: 25 points"
           ],
           "points": 175
         },
         {
           "name": "Warp Talon Cult",
-          "units": "Drei Warp Talons, Dämonischer Pakt",
+          "units": "Three Warp Talons, Daemonic Pact",
           "extraUnits": [
           ],
           "points": 225
         },
         {
-          "name": "Terminator Kompanie",
-          "units": "Ein Night Lords Captain, vier Atramentar Terminatoren",
+          "name": "Terminator Company",
+          "units": "One Night Lords Captain, four Atramentar Terminators",
           "extraUnits": [
-            "Füge zwei Chaos Spartan Assault Panzers: 150 Punkte",
-            "Oberbefehlshaber",
-            "Ikonenträger",
-            "Cybots",
+            "Add two Chaos Spartan Assault Tanks: 150 points",
+            "Supreme Commander",
+            "Icon Bearer",
+            "Dreadnoughts",
             "Dreadclaws"
           ],
           "points": 325
@@ -123,44 +123,44 @@
       ]
     },
     {
-      "name": "Night Lords Unterstützungsverbände",
-      "description": "Bis zu zwei Unterstützungsverbände may be taken pro Night Lords Kern Formation.",
+      "name": "Night Lords Support Formations",
+      "description": "Up to two Support formations may be taken per Night Lords Core Formation.",
       "formations": [
         {
           "name": "Destroyers",
-          "units": "Vier Chaos Destroyers",
+          "units": "Four Chaos Destroyers",
           "extraUnits": [
           ],
           "points": 175
         },
         {
-          "name": "Terror Kompanie",
-          "units": "Ein Night Lords Captain, vier Night Lords Sturmtrupps, zwei Night Lords Cybots",
+          "name": "Terror Company",
+          "units": "One Night Lords Captain, four Night Lords Assault Marines, two Night Lords Dreadnoughts",
           "extraUnits": [
-            "Oberbefehlshaber",
-            "Ikonenträger",
-            "Cybots",
+            "Supreme Commander",
+            "Icon Bearer",
+            "Dreadnoughts",
             "Dreadclaws"
           ],
           "points": 275
         },
         {
-          "name": "Support Kompanie",
-          "units": "Ein Night Lords Captain, sechs Chaos Space Marines, drei Chaos Rhinos",
+          "name": "Support Company",
+          "units": "One Night Lords Captain, six Chaos Space Marines, three Chaos Rhinos",
           "extraUnits": [
-            "Ersetze drei Chaos Rhinos mit drei Chaos Land Raiders: 125 Punkte",
-            "Oberbefehlshaber",
-            "Ikonenträger",
+            "Replace three Chaos Rhinos with three Chaos Land Raiders: 125 points",
+            "Supreme Commander",
+            "Icon Bearer",
             "Stalker"
           ],
           "points": 300
         },
         {
-          "name": "Attack Kompanie",
-          "units": "Ein Night Lords Captain, sechs Chaos Trikes",
+          "name": "Attack Company",
+          "units": "One Night Lords Captain, six Chaos Attack Bikes",
           "extraUnits": [
-            "Oberbefehlshaber",
-            "Ikonenträger",
+            "Supreme Commander",
+            "Icon Bearer",
             "Stalker"
           ],
           "points": 300
@@ -168,27 +168,27 @@
       ]
     },
     {
-      "name": "Night Lords Static Defenses und Navy",
-      "description": "Bis zu einem Drittel der verfügbaren Punkte dürfen für these Verbände. Nicht mehr als eine Tarantula formation pro Auserwählte formation.",
+      "name": "Night Lords Static Defenses and Navy",
+      "description": "Up to a third of the points available may be spent on these formations. No more than one Tarantula formation for each Chosen formation.",
       "formations": [
         {
           "name": "Tarantula",
-          "units": "Vier Chaos Tarantulas",
+          "units": "Four Chaos Tarantulas",
           "points": 125
         },
         {
           "name": "Fire Raptor",
-          "units": "Ein Chaos Fire Raptor",
+          "units": "One Chaos Fire Raptor",
           "points": 175
         },
         {
-          "name": "Xiphon Schwadron",
-          "units": "Zwei Chaos Xiphon Interceptors",
+          "name": "Xiphon Squadron",
+          "units": "Two Chaos Xiphon Interceptors",
           "points": 225
         },
         {
           "name": "Thunderhawk",
-          "units": "Ein Chaos Thunderhawk",
+          "units": "One Chaos Thunderhawk",
           "points": 225
         },
         {
@@ -202,55 +202,55 @@
     },
     {
       "name": "Daemon Pool",
-      "description": "Any amount may be spent on Daemon Pool Punkte",
+      "description": "Any amount may be spent on Daemon Pool points",
       "formations": [
         {
           "name": "Lesser Daemon Pool",
-          "units": "Any amount of Lesser Daemon Pool Punkte. Füge eine pro Dämonischer Pakt in the army.",
+          "units": "Any amount of Lesser Daemon Pool points. Add one for each Daemonic Pact in the army.",
           "points": 20
         }
       ]
     }
   ],
   "upgrades": {
-    "title": "Night Lords Erweiterungen",
-    "description": "Jeweils upgrade may be taken once pro formation",
+    "title": "Night Lords Upgrades",
+    "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "(0-1 pro army) Oberbefehlshaber",
+        "name": "(0-1 per army) Supreme Commander",
         "options": [
           {
-            "description": "Choose eine of the following:"
+            "description": "Choose one of the following:"
           },
           {
-            "description": "Ersetze the Night Lords Captain mit einemNight LordsErster Captain",
-            "points": "50 Punkte"
+            "description": "Replace the Night Lords Captain with a Night Lords First Captain",
+            "points": "50 points"
           },
           {
-            "description": "Ersetze the Night Lords Captain und its unit mit einemNight Lords Dämonenprinz",
-            "points": "100 Punkte"
+            "description": "Replace the Night Lords Captain and its unit with a Night Lords Daemon Prince",
+            "points": "100 points"
           }
         ]
       },
       {
-        "name": "Ikonenträger",
-        "description": "Füge an Ikonenträger to the formation",
-        "points": "25 Punkte"
+        "name": "Icon Bearer",
+        "description": "Add an Icon Bearer to the formation",
+        "points": "25 points"
       },
       {
         "name": "Dreadclaws",
-        "description": "Transport a formation containing only Infanterie Einheiten und Cybots in Drop Pods (formation must be deployed on a spacecraft)",
-        "points": "10 Punkte pro unit"
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Drop Pods (formation must be deployed on a spacecraft)",
+        "points": "10 points per unit"
       },
       {
-        "name": "Cybots",
-        "description": "Füge bis zu zwei Night Lords Cybots",
-        "points": "50 Punkte jeweils"
+        "name": "Dreadnoughts",
+        "description": "Add up to two Night Lords Dreadnoughts",
+        "points": "50 points each"
       },
       {
         "name": "Stalker",
-        "description": "Füge eine Chaos Stalker",
-        "points": "50 Punkte"
+        "description": "Add one Chaos Stalker",
+        "points": "50 points"
       }
     ]
   }

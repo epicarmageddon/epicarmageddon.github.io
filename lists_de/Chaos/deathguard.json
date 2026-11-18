@@ -30,7 +30,7 @@
         "Seuchenfürsten-Terminatoren",
         "Seuchenmarines",
         "Death-Guard-Rhino",
-        "Death-Guard-Land-Schattenbarke",
+        "Death-Guard-Land Raider",
         "Death-Guard-Vindicator",
         "Chaos-Cybot",
         "Death-Guard-Jäger"
@@ -258,7 +258,7 @@
         "description": "Wähle eine der folgenden Optionen:",
         "options": [
           {
-            "description": "Ersetze den Chaos-Lord durch einen Klanlord",
+            "description": "Ersetze den Chaos-Lord durch einen Kriegsherr",
             "points": "50 Punkte"
           },
           {

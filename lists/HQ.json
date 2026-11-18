@@ -1,6 +1,6 @@
 [
   {
-    "name": "Harlequin Streitmächte",
+    "name": "Harlequin Forces",
     "specialRules": [
     ],
     "unit": [
@@ -11,10 +11,10 @@
           "Harlequin Kiss"
         ],
         "specialRules": [
-          "Anführer",
-          "Befehlshaber"
+          "Leader",
+          "Commander"
         ],
-        "notes": "May only join Harlequin Troupes oder Skyweaver Jetbikes."
+        "notes": "May only join Harlequin Troupes or Skyweaver Jetbikes."
       },
       {
         "name": "Master Mime",
@@ -23,7 +23,7 @@
           "Monomolecular Blade"
         ],
         "specialRules": [
-          "Anführer"
+          "Leader"
         ]
       },
       {
@@ -33,7 +33,7 @@
           "Harlequin Kiss"
         ],
         "specialRules": [
-          "Inspirierend"
+          "Inspiring"
         ]
       },
       {
@@ -43,8 +43,8 @@
           "Shards of Light"
         ],
         "specialRules": [
-            "Anführer",
-            "Inspirierend"
+            "Leader",
+            "Inspiring"
         ]
       },
       {
@@ -57,9 +57,9 @@
         ],
         "specialRules": [
           "Holofield (5+)",
-          "Aufklärer",
-          "Infiltratoren",
-        "Teleportieren"
+          "Scout",
+          "Infiltrators",
+        "Teleport"
         ]
       },
       {
@@ -73,9 +73,9 @@
         ],
         "specialRules": [
           "Holofield (5+)",
-          "Infiltratoren",
-          "Teleportieren",
-          "Schnell wie der Wind"
+          "Infiltrators",
+          "Teleport",
+          "Wind-Swift"
         ]
       },
       {
@@ -89,8 +89,8 @@
         ],
         "specialRules": [
           "Holofield (5+)",
-          "Infiltratoren",
-          "Teleportieren"
+          "Infiltrators",
+          "Teleport"
         ]
       },
       {
@@ -101,15 +101,15 @@
         "cc": 3,
         "ff": 5,
         "weapons": [
-          "Shuriken Geschütz",
+          "Shuriken Cannon",
           "Zepyrglaive"
         ],
         "specialRules": [
           "Holofield (5+)",
-          "Beritten",
-          "Antigrav",
-          "Teleportieren",
-          "Schnell wie der Wind"
+          "Mounted",
+          "Skimmer",
+          "Teleport",
+          "Wind-Swift"
         ]
       },
       {
@@ -120,14 +120,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Prismatic Geschütz",
-          "Shuriken Geschütz"
+          "Prismatic Cannon",
+          "Shuriken Cannon"
         ],
         "specialRules": [
             "Holofield (5+)",
-            "Antigrav",
-            "Teleportieren",
-            "Schnell wie der Wind"
+            "Skimmer",
+            "Teleport",
+            "Wind-Swift"
         ]
       },
       {
@@ -138,14 +138,14 @@
         "cc": 6,
         "ff": 5,
         "weapons": [
-          "Shuriken Geschütz"
+          "Shuriken Cannon"
         ],
         "specialRules": [
         "Holofield (5+)",
-            "Antigrav",
-            "Teleportieren",
-            "Schnell wie der Wind",
-          "Transport 1 (May carry eine Harlequins Troupe oder Death Jesters)"
+            "Skimmer",
+            "Teleport",
+            "Wind-Swift",
+          "Transport 1 (May carry one Harlequins Troupe or Death Jesters)"
         ]
       }
     ]

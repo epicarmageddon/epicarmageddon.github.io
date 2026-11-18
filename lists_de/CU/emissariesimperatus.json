@@ -31,7 +31,7 @@
         "Antigravschweber Pallas",
         "Caladius-Antigravpanzer",
         "Coronus",
-        "Custodes-Land-Schattenbarke",
+        "Custodes-Land Raider",
         "Rhino der Schwestern der Stille",
         "Jäger der Schwestern der Stille",
         "Orion-Angriffsschiff"
@@ -54,7 +54,7 @@
       "formations": [
         {
           "name": "Custodes-Gardistentrupp",
-          "units": "Zwei Sagittarum sowie entweder zwei Custodesgardisten oder zwei Sentinel-Wächter und zwei ehrwürdige Custodes-Land-Schattenbarke oder zwei Coronus",
+          "units": "Zwei Sagittarum sowie entweder zwei Custodesgardisten oder zwei Sentinel-Wächter und zwei ehrwürdige Custodes-Land Raider oder zwei Coronus",
           "upgrades": [
             "Befehlshaber"
           ],
@@ -199,7 +199,7 @@
         "description": "Füge genügend der folgenden Optionen hinzu, um den gesamten Verband zu transportieren.",
         "options": [
           {
-            "description": "Ehrwürdige Custodes-Land-Schattenbarken",
+            "description": "Ehrwürdige Custodes-Land Raidern",
             "points": "50 Punkte pro Stück"
           },
           {
