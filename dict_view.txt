@@ -1,0 +1,440 @@
+﻿Tyranid Hive Fleet => Tyraniden-Schwarmflotte
+Traitor Titan Legion => Verräter-Titanenlegion
+Outnumber => Überzahl
+Pin-Point Attack => Punktziel-Angriff
+Imperial Inquisition => Imperiale Inquisition
+Knight World => Ritterwelt
+Baran Siegemasters => Belagerungsmeister von Baran
+Cadian Shock Troops => Cadianische Stoßtruppen
+Catachan Jungle Fighters => Catachanische Dschungelkämpfer
+Elysian Drop Troops => Elysianische Luftlandetruppen
+Minervan Tank Legion => Minervanische Panzerlegion
+Steel Legion => Stahllegion
+Valhallan Ice Warriors => Valhallanische Eis-Krieger
+Dark Mechanicus => Dunkler Mechanicus
+Daemonic Incursion => Dämonischer Einfall
+Lost and the Damned => Die Verlorenen und Verdammten
+Slaves to Darkness => Sklaven der Dunkelheit
+Exodites => Exoditen
+Lugganath/Harlequins => Lugganath/Harlekine
+Kabal of the Wraithkind / Harlequins => Kabal der Wraithkind/Harlekine
+Kabal of the Black Heart => Kabal des Schwarzen Herzens
+Wodanaz Stronghold => Wodanaz-Feste
+Bad Moons Big Mob => Große Rotte der Bad Moons
+Evil Sunz Speed Freeks => Speedfreaks der Evil Sunz
+Clan Goffs Warhorde => Kriegsrotte des Goffs-Klans
+Snakebite Clan Feral Orks => Wildorks des Snakebite-Klans
+Maynarkh Dynasty => Maynarkh-Dynastie
+Sautekh Dynasty => Sautekh-Dynastie
+Cult of the Rusted Claw => Kult der Rostklaue
+Hive Fleet Dagon => Schwarmflotte Dagon
+Hive Fleet Hydra => Schwarmflotte Hydra
+Tyranids => Tyraniden
+Ruins => Ruinengelände
+  ],
+  "Profil": [
+Type => Typ
+Infantry => Infanterie (INF)
+Armoured Vehicle => Gepanzertes Fahrzeug (AV)
+Speed => Geschwindigkeit (Geschw)
+Armour => Rüstungswert (ARM)
+Firefight => Feuergefecht (FF)
+Close Combat => Nahkampf (CC)
+Weapons => Waffen
+Range => Reichweite (Reichw)
+Firepower => Feuerkraft
+Notes => Anmerkungen (Anm)
+Small Arms => Handfeuerwaffen
+Close Combat Weapons => Nahkampfwaffen
+Datasheet => Datenblatt
+Armeeliste => Armeeorganisationsplan
+  ],
+  "Aktionen": [
+Advance => Vorrücken
+Engage => Offensive
+Double => Eilschritt
+March => Marsch
+Marshall => Ordnen
+Overwatch => Feuerbereitschaft
+Sustained Fire => Dauerfeuer
+Hold => Halten
+Intercept => Abfangen
+  ],
+  "Angriff": [
+Countercharge => Gegenangriff
+Fire Support => Feuerunterstützung
+Withdraws => Rückzug
+Consolidate => Konsolidierung
+Intermingled => Vermischt
+  ],
+  "Spezialeinheiten": [
+Befehlshaber => Befehlshaber
+Furchtlos => Furchtlos
+Infiltratoren => Infiltratorenen
+Inspire => Inspirierend
+Invulnerable => Unmodifizierter Rettungswurf
+Sprungmodule => Sprungmodule
+Leader => Anführer
+Light Vehicle => Leichte Fahrzeuge
+Mounted => Beritten
+Reinforced Armour => Verstärkte Panzerung
+Aufklärer => Aufklärer
+Skimmer => Antigrav
+Scharfschütze => Scharfschütze
+Oberbefehlshaber => Oberbefehlshaber
+Thick Rear Armour => Verstärkte Heckpanzerung
+Teleport => Teleportieren
+Walker => Geländegängig
+Slow and Steady => Langsam und Stetig
+Support Craft => Hilfstransportschiff
+Self-Planetfall => Planetare Selbstlandung
+Expendable => Entbehrlich
+Tunneler => Tunnelgräber
+  ],
+  "Spezialwaffen": [
+Anti-Aircraft => Flugabwehrwaffen (AA)
+Disrupt => Versprengen (D)
+Extra Attacks => Zusätzliche Angriffe (EA)
+First Strike => Erstschlag (FS)
+Ignore Cover => Deckung ignorieren (IC)
+Macro-Weapon => Makrowaffen (MW)
+Single-Shot => Einzelschuss (SS)
+Slow Firing => Langsames Feuern (Slw)
+Titan Killer => Titanen-Killer (TK)
+Indirect Fire => Indirektes Feuer (Indirekt)
+  ],
+  "Kriegsmaschinen (WE)": [
+Schadenskapazität=> Schadenskapazität (DC)
+Critical Hit => Kritischer Treffer
+  ],
+  "Luft_und_Raumfahrt": [
+Aircraft => Flugzeug
+Spaceship => Raumschiff
+Fighter-Bomber => Jagdbomber (FB)
+Bomber => Bomber (B)
+Fighters => Abfangjäger (F)
+  ],
+  "Turnierspiel": [
+Goals => Siegbedingungen
+Objective Markers => Zielmarker
+Count-As => Zählt-als
+  ],
+  "Imperiale_Armee": [
+Imperial Befehlshaber => Imperialer Kommandant
+Commissar => Kommissar
+Storm Troopers => Stoßtruppen
+Ratlings => Halblinge
+Ogryns => Ogryns
+Rough Riders => Kavallerie
+Sentinel => Sentinel
+Chimera => Chimäre
+Basilisk => Basilisk
+Griffon => Greif
+Hydra => Hydra
+Manticore => Mantikor
+Hellhound => Höllenhund
+Deathstrike Missile Launcher => Todesstoß Raketenlafette
+Leman Russ Tank => Leman Russ Kampfpanzer
+Leman Russ Demolisher => Leman Russ Demolisher
+Leman Russ Vanquisher => Leman Russ Vanquisher
+Leman Russ Exterminator => Leman Russ Exterminator
+Macharius => Macharius
+Gorgon => Gorgon
+Baneblade => Baneblade
+Shadowsword => Shadowsword
+Valkyrie => Valkyrie
+Vulture => Vulture
+Marauder Bomber => Marauder-Bomber
+Thunderbolt => Thunderbolt
+  ],
+  "Space_Marines": [
+Chaptermaster => Ordensmeister
+Chaplain => Ordenspriester
+Librarian => Scriptor
+Apothecary => Apothecarius
+Techmarine => Techmarine
+Tactical Squad / Stand => Taktischer Trupp
+Devastator Squad / Stand => Devastor-Trupp
+Assault Squad / Stand => Sturmtrupp
+Terminators => Terminatoren
+Scouts => Scouts
+Space Marine Bikes => Space Marine Bikes
+Attack Bike => Trike
+Rhino => Rhino
+Razorback => Razorback
+Drop Pod => Landungskapsel
+Predator => Predator
+Whirlwind => Whirlwind
+Vindicator => Vindicator
+Hunter => Hunter
+Land Raider => Land Raider
+Land Speeder => Land Speeder
+Dreadnought => Cybot
+Thunderhawk Gunship => Thunderhawk-Landungsschiff
+Thunderhawk Transporter => Thunderhawk-Transporter
+Landing Craft => Landungsschiff
+Strike Cruiser => Angriffskreuzer
+Battle Barge => Schlachtbarke
+  ],
+  "Orks": [
+Warboss => Waaghboss
+Weirdboy => Wyrdboy
+Mekboy => Mek
+Nobz => Bosse
+Boyz => Boys
+Kommandos => Kommandos
+Stormboyz => Stormboys
+Grotz => Grots
+Runtherd => Treiba
+Lootas => Plündera
+Flash Gitz => Posas
+Cult of Speed => Heizakult
+Warbike => Waaghbike
+Trukk => Pikk-Up
+Warbuggy => Buggy
+Deth Kopta => Killa Kopta
+Scorcha => Brennabuggy
+Battlefortress => Mega Transportpanza
+Gunfortress => Mega Wummenpanza
+Battlewaggon => Transportpanza
+Gunwaggon => Kampfpanza
+Mekboy Gunzmob => Mekwummen Mob
+Rokkits => Raketenz
+Big Gunz => Kanonänbatterie
+Big Gun => Fette Wumme
+Killa Kan => Killa Bot
+Lifta-Droppa => Smäsha-Kanone
+Soopagun => Mega Kanonä
+Squiggoth => Squiggofant
+Stompa => Stampfa
+Gargant => Gargant
+Great Gargant => Großer Gargant
+Fighta-Bomma => Jagdbomma
+Dakkajet => Dakkajet
+Burna-Bommer => Brenna-Bomma
+Blitza-Bommer => Blitza-Bomma
+Warband => Mob
+Mob Rule => Köppe zählen
+Power of the Waagh => Macht des Waagh
+Power Field => Schpezialkraftfeld
+  ],
+  "Chaos": [
+Chaos Space Marines => Chaos Space Marines
+Havocs => Havocs
+Obliterators => Kyborgs
+Raptors => Raptoren
+Khorne Berzerkers => Khorne Berserker
+Plague Marines => Seuchenmarines
+Noise Marines => Noise Marines
+Thousand Sons => Thousand Sons
+Possessed => Besessene
+Cultists => Kultisten
+Beastmen => Tiermenschen
+Bloodthirster => Blutdämon
+Großer Verpester => Großer Verpester
+Lord of Change => Herrscher des Wandels
+Hüter der Geheimnisse => Hüter der Geheimnisse
+Daemon Prince => Dämonenprinz
+Greater Daemon => Großer Dämon
+Lesser Daemon => Niederer Dämon
+Chaos Rhino => Chaos Rhino
+Chaos Predator => Chaos Predator
+Chaos Land Raider => Chaos Land Raider
+Defiler => Geißel
+Death Wheel => Todesrad
+Lord of Battles => Herr der Schlachten
+Heldrake => Höllendrache
+Hell Blade => Höllenklinge
+Hell Talon => Höllenklaue
+Chaos Titan => Chaos Titan
+  ],
+  "Eldar": [
+Autarch => Autarch
+Farseer => Runenprophet
+Warlock => Runenleser
+Avatar of Khaine => Avatar des Khaine
+Guardians => Gardisten
+Rangers => Ranger
+Aspect Warriors => Aspektkrieger
+Dire Avengers => Asuryans Jäger
+Howling Banshees => Banshees
+Striking Scorpions => Skorpionkrieger
+Swooping Hawks => Kriegsfalken
+Warp Spiders => Warpspinnen
+Dark Reapers => Schwarze Khaindar
+Jetbikes => Jetbikes
+Viper => Viper
+Wraithguard => Phantomdroiden
+Wraithlord => Phantomlord
+Falcon => Falcon
+Wave Serpent => Serpent
+Fire Prism => Illum Zar
+Night Spinner => Nachtspinne
+Phantom Titan => Phantomtitan
+Revenant Titan => Revenant Titan
+Nightwing => Nachtschwinge
+Phoenix Bomber => Phönix-Bomber
+Vampire Hunter => Vampire Hunter
+Vampire Raider => Vampire Raider
+  ],
+  "Tau": [
+Ethereal => Himmlischer
+Fire Warriors => Feuerkrieger
+Pathfinders => Späher
+XV15 Stealth Battlesuit => XV15 Geist-Kampfanzug
+XV25 Stealth Battlesuit => XV25 Geist-Kampfanzug
+XV8 Crisis Battlesuit => XV8 Krisis-Kampfanzug
+XV88 Broadside Battlesuit => XV88 Koloss-Kampfanzug
+XV9 Hazard Battlesuit => XV9 Hazard-Kampfanzug
+XV95 Ghostkeel Battlesuit => XV95 Schattengeist-Kampfanzug
+XV104 Riptide Battlesuit => XV104 Sturmflut-Kampfanzug
+XV107 R'varna Battlesuit => XV107 R'varna-Kampfanzug
+XV109 Y'vahra Battlesuit => XV109 Y'vahra-Kampfanzug
+KV128 Stormsurge => KV128 Sturmwoge-Ballistikanzug
+Kroot => Kroot-Söldner
+Krootox => Krootox
+Kroot Hounds => Kroot-Hunde
+Vespid Stingwings => Vespid-Stachelflügel
+Gun Drones => Angriffsdrohnen
+Shield Drones => Schilddrohnen
+Marker Drones => Markiererdrohnen
+Piranha => Piranha
+Devilfish => Teufelsrochen
+Hammerhead => Hammerhai
+Sky Ray => Dornenhai
+Barracuda => Barracuda
+Tiger Shark => Tigerhai
+Manta => Manta
+Orca => Orca
+  ],
+  "Necrons": [
+Necron Lord => Necronlord
+Necron Warriors => Necronkrieger
+Immortals => Extinktoren
+Flayed Ones => Alpträume
+Wraiths => Phantome
+Destroyers => Destruktoren
+Heavy Destroyers => Schwere Destruktoren
+Triarch Praetorians => Triarchat-Prätorianer
+Scarabs => Skarabäen
+Tomb Spider => Gruftspinne
+Ghost Ark => Geisterbarke
+Doomsday Ark => Dominator-Barke
+Night Scythe => Nachtsichel
+Doom Scythe => Todessichel
+Monolith => Monolith
+Obelisk => Obelisk
+Tesseract Vault => Tesserakt-Verlies
+Pylon => Pylon
+C'tan Shard / C'tan => C'tan-Fragment
+  ],
+  "Knights": [
+Baron => Baron
+Knight Paladin => Ritter Paladin
+Knight Errant => Ritter Errant
+Knight Lancer => Ritter Lancer
+Knight Castellan => Ritter Castellan
+Knight Warden => Ritter Warden
+Knight Crusader => Ritter Crusader
+Knight Gallant => Ritter Gallant
+Cerastus Knight => Cerastus Ritter
+Acastus Knight Porphyrion => Acastus Ritter Porphyrion
+Armiger => Armiger
+  ],
+  "Tyraniden": [
+Hive Tyrant => Schwarmtyrant
+Tyranid Warriors => Tyranidenkrieger
+Termagants => Termaganten
+Hormagaunts => Hormaganten
+Genestealers => Symbionten
+Raveners => Venatoren
+Lictor => Liktor
+Hive Guard => Schwarmwachen
+Tyrant Guard => Tyrantenwachen
+Gargoyles => Gargoyles
+Ripper Swarm => Absorberschwarm
+Biovore => Biovore
+Zoanthrope => Zoantroph
+Carnifex => Carnifex
+Exocrine => Exocrine
+Dactylis => Dactylis
+Malefactor => Malefaktor
+Haruspex => Haruspex
+Toxicrene => Toxokrene
+Trygon => Trygon
+Hierodule => Hierodule
+Harpy => Harpyie
+Hive Crone => Schwarmdrude
+Harridan => Harridan
+Dominatrix => Dominatrix
+Mycetic Spore => Landungsspore
+Spore Mine => Sporenmine
+Capillary Tower => Kapillarturm
+  ],
+  "Dark_Eldar": [
+Archon => Archon
+Haemonculus => Haemonculus
+Sybarite => Sybarith
+Kabalite Warriors => Kabalenkrieger
+Wyches => Hagashîn
+Wracks => Folterer
+Grotesques => Grotesquen
+Warp Beasts => Warpbestien
+Mandrakes => Mandraks
+Beastmaster => Bestienmeister
+Incubi => Inkubi
+Hellions => Hellion
+Scourges => Harpyien
+Venom => Schattenviper
+Raider => Schattenbarke
+Ravager => Schattenjäger
+Reaver Jetbike => Reaver-Jetbike
+Razorwing Flock => Sichelflügel-Schwarm
+Razorwing Jetfighter => Sichelflügel-Jäger
+Voidraven Bomber => Nachtraben-Bomber
+Talos Pain Engine => Talos
+  ],
+  "Adeptus_Mechanicus_und_Titanen": [
+Tech-Priest => Tech-Priester
+Skitarii Infantry => Skitarii-Infanterie
+Skitarii Praetorians => Skitarii-Prätorianer
+Secutarii => Secutarii
+Castellax Battle Automata => Castellax-Klasse Kampfautomaten
+Vorax Battle Automata => Vorax-Klasse Kampfautomaten
+Thanatar Siege Automata => Thanatar-Klasse Belagerungsautomaten
+Macrocarid Explorator => Macrocarid Explorator
+Ordinatus Engine => Ordinatus
+Warhound Titan => Warhound-Titan
+Reaver Titan => Reaver-Titan
+Warlord Titan => Warlord-Titan
+Imperator Titan => Imperator-Titan
+  ],
+  "Adeptus_Sororitas": [
+Canoness => Prinzipalin
+Battle Sister Squad => Sororitas-Trupp
+Celestian Squad => Celestia-Trupp
+Sisters Repentia => Repentia-Trupp
+Seraphim Squad => Seraphim-Trupp
+Retributors => Retributoren
+Dominions => Dominatoren
+Sororitas Rhino => Sororitas-Rhino
+Immolator => Immolator
+Exorcist => Exorzist
+Castigator => Castigator
+Penitent Engine => Läuterer
+  ],
+  "Squats": [
+Warlord => Klanlord
+Hearthguard => Hearthguard
+Guild Bikers => Gilden-Biker
+Termites => Termiten
+Mole Mortar => Maulwurf-Mörser
+Thunderfire Cannon => Salvenkanone
+Overlord Airship => Overlord-Luftschiff
+Land Train => Landzug
+Cyclops => Zyklop
+Leviathan => Leviathan
+Colossus => Koloss
+Goliath Mega-Cannon => Goliath
+  ]
+}

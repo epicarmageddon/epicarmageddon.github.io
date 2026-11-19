@@ -19,7 +19,7 @@
       "from": "CSM.json",
       "units": [
         "Kriegsherr",
-        "Chaosfürst",
+        "Chaos Lord",
         "Hexerfürst",
         "Chaoschampion",
         "Ikonenträger",
@@ -105,7 +105,7 @@
       "formations": [
         {
           "name": "Gefolge der Black Legion",
-          "units": "Ein Chaos-Lord oder Sorcerer Lord, acht Chaos Space Marines",
+          "units": "Ein Chaos Lord oder Sorcerer Lord, acht Chaos Space Marines",
           "extraUnits": [
             "Oberbefehlshaber",
             "Transport",
@@ -138,7 +138,7 @@
         },
         {
           "name": "Chaos-Terminatoren",
-          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Chaos Terminatoren",
+          "units": "Ein Chaos Lord oder Sorcerer Lord, vier Chaos Terminatoren",
           "extraUnits": [
             "Oberbefehlshaber",
             "Champion",
@@ -159,7 +159,7 @@
       "formations": [
         {
           "name": "Raptorenkult",
-          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Raptoren",
+          "units": "Ein Chaos Lord oder Sorcerer Lord, vier Raptoren",
           "extraUnits": [
             "Füge bis zu 4 Raptoren hinzu: 30 Punkte pro Stück",
             "Dämonenpakt"
@@ -178,7 +178,7 @@
         },
         {
           "name": "Havocs",
-          "units": "Ein Chaos-Lord oder Hexer-Lord, vier Havocs und zwei Chaos-Rhinos",
+          "units": "Ein Chaos Lord oder Hexer-Lord, vier Havocs und zwei Chaos-Rhinos",
           "extraUnits": [
             "Ersetze 2 Chaos Rhinos durch Chaos Land Raiders: 75 Punkte",
             "Dämonenpakt",
@@ -189,7 +189,7 @@
         },
         {
           "name": "Bike-Kompanie",
-          "units": "Ein Chaos-Lord oder Hexer-Lord und acht Chaos-Angriffsbikes",
+          "units": "Ein Chaos Lord oder Hexer-Lord und acht Chaos-Angriffsbikes",
           "extraUnits": [
             "Dämonenpakt",
             "Ikonenträger"
@@ -291,11 +291,11 @@
         "description": "Wähle eine der folgenden Optionen:",
         "options": [
           {
-            "description": "Ersetze den Chaos-Lord durch einen Kriegsherr",
+            "description": "Ersetze den Chaos Lord durch einen Kriegsherr",
             "points": "50 Punkte"
           },
           {
-            "description": "Ersetze den Chaos-Lord & Einheit durch einen Dämonenprinz",
+            "description": "Ersetze den Chaos Lord & Einheit durch einen Dämonenprinz",
             "points": "100 Punkte"
           }
         ]

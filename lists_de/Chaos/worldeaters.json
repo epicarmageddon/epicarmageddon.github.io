@@ -21,7 +21,7 @@
       "from": "CSM.json",
       "units": [
         "Kriegsherr",
-        "Chaosfürst",
+        "Chaos Lord",
         "Chaoschampion",
         "Ikonenträger",
         "Dämonenprinz des Khorne",
@@ -91,7 +91,7 @@
       "formations": [
         {
           "name": "Gefolge der World Eaters",
-          "units": "Ein Chaos-Lord, vier Khorne-Berserker, vier World-Eaters-Sturmtrupps, vier Rhinos der World Eaters und ein Dämonenpakt",
+          "units": "Ein Chaos Lord, vier Khorne-Berserker, vier World-Eaters-Sturmtrupps, vier Rhinos der World Eaters und ein Dämonenpakt",
           "extraUnits": [
             "Füge 2 Berzerker Cybots hinzu: 75 Punkte",
             "Oberbefehlshaber",
@@ -105,7 +105,7 @@
         },
         {
           "name": "Skullseeker Terminatoren",
-          "units": "Ein Chaos-Lord, vier Skullseeker Terminatoren, Dämonenpakt",
+          "units": "Ein Chaos Lord, vier Skullseeker Terminatoren, Dämonenpakt",
           "extraUnits": [
             "Füge bis zu 2 Mutilators hinzu: 50 Punkte pro Stück",
             "Oberbefehlshaber",
@@ -140,7 +140,7 @@
         },
         {
           "name": "Berzerker-Sturmbikes",
-          "units": "Ein Chaos-Lord, sechs Khorne-Berserker-Angriffsbikes und ein Dämonenpakt",
+          "units": "Ein Chaos Lord, sechs Khorne-Berserker-Angriffsbikes und ein Dämonenpakt",
           "extraUnits": [
             "Oberbefehlshaber",
             "Champion",
@@ -150,7 +150,7 @@
         },
         {
           "name": "Juggernaut-Reiter",
-          "units": "Ein Chaos-Lord, sechs Juggernaut-Reiter und ein Dämonenpakt",
+          "units": "Ein Chaos Lord, sechs Juggernaut-Reiter und ein Dämonenpakt",
           "extraUnits": [
             "Oberbefehlshaber",
             "Champion",
@@ -173,9 +173,9 @@
         },
         {
           "name": "Khorne-Geißel-Meute",
-          "units": "Vier Slaughterfiends",
+          "units": "Vier Schlachtbestien",
           "extraUnits": [
-              "Füge bis zu 3 Slaughterfiends hinzu: 50 Punkte pro Stück"
+              "Füge bis zu 3 Schlachtbestien hinzu: 50 Punkte pro Stück"
           ],
           "points": 250
         },
@@ -272,11 +272,11 @@
         "description": "Wähle eine der folgenden Optionen:",
         "options": [
           {
-            "description": "Ersetze den Chaos-Lord durch einen Kriegsherr",
+            "description": "Ersetze den Chaos Lord durch einen Kriegsherr",
             "points": "50 Punkte"
           },
           {
-            "description": "Ersetze den Chaos-Lord und seine Einheit durch einen Dämonenprinz des Khorne.",
+            "description": "Ersetze den Chaos Lord und seine Einheit durch einen Dämonenprinz des Khorne.",
             "points": "100 Punkte"
           }
         ]

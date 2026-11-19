@@ -20,7 +20,7 @@
       "from": "CSM.json",
       "units": [
         "Kriegsherr",
-        "Chaosfürst",
+        "Chaos Lord",
         "Hexerfürst",
         "Chaoschampion",
         "Ikonenträger",
@@ -102,7 +102,7 @@
       "formations": [
         {
           "name": "Gefolge der Death Guard",
-          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Seuchenmarines, drei Chaos Space Marines, Dämonenpakt",
+          "units": "Ein Chaos Lord oder Sorcerer Lord, vier Seuchenmarines, drei Chaos Space Marines, Dämonenpakt",
           "extraUnits": [
             "Oberbefehlshaber",
             "Gefolge Transport",
@@ -117,7 +117,7 @@
         },
         {
           "name": "Terminatoren der Death Guard",
-          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Blightlord Terminatoren, Dämonenpakt",
+          "units": "Ein Chaos Lord oder Sorcerer Lord, vier Blightlord Terminatoren, Dämonenpakt",
           "extraUnits": [
             "Oberbefehlshaber",
             "Terminator Transport",
@@ -136,7 +136,7 @@
       "formations": [
         {
           "name": "Havocs",
-          "units": "Ein Chaos-Lord oder Sorcerer Lord, vier Havocs, Dämonenpakt",
+          "units": "Ein Chaos Lord oder Sorcerer Lord, vier Havocs, Dämonenpakt",
           "extraUnits": [
             "Havoc Transport",
             "Cybots",
@@ -258,11 +258,11 @@
         "description": "Wähle eine der folgenden Optionen:",
         "options": [
           {
-            "description": "Ersetze den Chaos-Lord durch einen Kriegsherr",
+            "description": "Ersetze den Chaos Lord durch einen Kriegsherr",
             "points": "50 Punkte"
           },
           {
-            "description": "Ersetze den Chaos-Lord und seine Einheit durch einen Dämonenprinz des Nurgle.",
+            "description": "Ersetze den Chaos Lord und seine Einheit durch einen Dämonenprinz des Nurgle.",
             "points": "100 Punkte"
           }
         ]
